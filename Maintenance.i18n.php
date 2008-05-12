@@ -70,7 +70,7 @@ Each line should specify target page and destination page separated by a pipe",
 	'maintenance-movefail'              => "Error encountered while moving: $1.
 Aborting move",
 	'maintenance-error'                 => "Error: $1",
-	'maintenance-memc-fake'             => "You are running FakeMemCachedClient, I can not provide any statistics",
+	'maintenance-memc-fake'             => "You are running FakeMemCachedClient. No statistics can be provided",
 	'maintenance-memc-requests'         => "Requests",
 	'maintenance-memc-withsession'      => "with session:",
 	'maintenance-memc-withoutsession'   => "without session:",
