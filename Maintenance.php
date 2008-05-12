@@ -7,11 +7,12 @@ if(!defined('MEDIAWIKI')) {
 }
 
 $wgExtensionCredits['specialpage'][] = array(
-'name' => 'Maintenance',
-'description' => 'Web interface for various maintenance scripts',
-'url' => 'http://www.mediawiki.org/wiki/Extension:Maintenance',
-'author' => 'Ryan Schmidt',
-'version' => '1.0',
+	'name'           => 'Maintenance',
+	'description'    => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
+	'descriptionmsg' => 'maintenance-desc',
+	'url'            => 'http://www.mediawiki.org/wiki/Extension:Maintenance',
+	'author'         => 'Ryan Schmidt',
+	'version'        => '1.0',
 );
 
 $dir = dirname(__FILE__) . '/';

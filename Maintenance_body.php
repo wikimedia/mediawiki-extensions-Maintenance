@@ -6,7 +6,7 @@ class Maintenance extends SpecialPage {
 	function __construct() {
 		SpecialPage::SpecialPage( 'Maintenance', 'maintenance' );
 	}
-	
+
 	function execute($par) {
 		global $wgRequest, $wgOut, $wgUser;
 		if( !$wgUser->isAllowed( 'maintenance' ) ) {
@@ -22,12 +22,12 @@ class Maintenance extends SpecialPage {
 			$this->executeScript( $this->type );
 		}
 	}
-	
+
 	function makeInitialForm() {
 		//scripts that we allow to run via this interface. keep them to the same name as the xxx.php in the /maintenance dir
 		//(minus the .php part... duh)
 		$scripts = array(
-			'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',	
+			'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
 			'initEditCount',	'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats'
 		);
 		global $wgOut;
@@ -42,7 +42,7 @@ class Maintenance extends SpecialPage {
 		}
 		$wgOut->addHTML( '</ul>' );
 	}
-	
+
 	function makeForm( $type ) {
 		global $wgOut;
 		wfLoadExtensionMessages('Maintenance');
@@ -95,7 +95,7 @@ class Maintenance extends SpecialPage {
 		$wgOut->addHTML('<input type="submit" name="wpConfirm" value="'.wfMsg('maintenance-confirm').'" /></form>');
 		return;
 	}
-	
+
 	function executeScript( $type ) {
 		global $wgOut, $wgRequest, $wgDbPrefix;
 		wfLoadExtensionMessages('Maintenance');
@@ -277,7 +277,7 @@ class Maintenance extends SpecialPage {
 								'ss_images' => $image );
 				$conds = array( 'ss_row_id' => 1 );
 				$views = array( 'ss_total_views' => isset( $views ) ? $views : 0 );
-							
+
 				if( $wgRequest->getCheck('wpUpdate') ) {
 					$dbw->update( $wgDbPrefix.'site_stats', $values, $conds, __METHOD__ );
 				} else {
