@@ -15,7 +15,8 @@ $messages["en"] = array(
 	'maintenance'                       => "Run maintenance scripts",
 	'maintenance-desc'                  => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
 	'maintenance-backlink'              => "Back to script selection",
-	'maintenance-header'                => "Please select a script below to execute. Descriptions are next to each script",
+	'maintenance-header'                => "Please select a script below to execute.
+Descriptions are next to each script",
 	'maintenance-changePassword-desc'   => "Change a user's password",
 	'maintenance-createAndPromote-desc' => "Create a user and promote to sysop status",
 	'maintenance-deleteBatch-desc'      => "Mass-delete pages",
@@ -27,12 +28,16 @@ $messages["en"] = array(
 	'maintenance-showJobs-desc'         => "Show a list of jobs pending in the job queue",
 	'maintenance-stats-desc'            => "Show Memcached statistics",
 	'maintenance-changePassword'        => "Use this form to change a user's password",
-	'maintenance-createAndPromote'      => "Use this form to create a new user and promote it to sysop. Check the bureaucrat box if you wish to promote to Bureaucrat as well",
-	'maintenance-deleteBatch'           => "Use this form to mass-delete pages. Put only one page per line",
-	'maintenance-deleteRevision'        => "Use this form to mass-delete revisions. Put only one revision number per line",
+	'maintenance-createAndPromote'      => "Use this form to create a new user and promote it to sysop.
+Check the bureaucrat box if you wish to promote to Bureaucrat as well",
+	'maintenance-deleteBatch'           => "Use this form to mass-delete pages.
+Put only one page per line",
+	'maintenance-deleteRevision'        => "Use this form to mass-delete revisions.
+Put only one revision number per line",
 	'maintenance-initEditCount'         => "",
 	'maintenance-initStats'             => "Use this form to recalculate site statistics, specifiying if you want to recalculate page views as well",
-	'maintenance-moveBatch'             => "Use this form to mass-move pages. Each line should specify target page and destination page separated by a pipe",
+	'maintenance-moveBatch'             => "Use this form to mass-move pages.
+Each line should specify target page and destination page separated by a pipe",
 	'maintenance-runJobs'               => "",
 	'maintenance-showJobs'              => "",
 	'maintenance-stats'                 => "",
@@ -41,7 +46,7 @@ $messages["en"] = array(
 	'maintenance-password'              => "Password",
 	'maintenance-bureaucrat'            => "Promote user to bureaucrat status",
 	'maintenance-reason'                => "Reason",
-	'maintenance-update'                => "Use UPDATE when updating table? (unchecked uses DELETE/INSERT instead)",
+	'maintenance-update'                => "Use UPDATE when updating a table? Unchecked uses DELETE/INSERT instead.",
 	'maintenance-noviews'               => "Check this to prevent updating the number of pageviews",
 	'maintenance-confirm'               => "Confirm",
 	'maintenance-invalidname'           => "Invalid username!",
@@ -62,7 +67,8 @@ $messages["en"] = array(
 	'maintenance-stats-views'           => "Number of pageviews: $1",
 	'maintenance-stats-update'          => "Updating database...",
 	'maintenance-move'                  => "Moving $1 to $2...",
-	'maintenance-movefail'              => "Error encountered while moving: $1. Aborting move",
+	'maintenance-movefail'              => "Error encountered while moving: $1.
+Aborting move",
 	'maintenance-error'                 => "Error: $1",
 	'maintenance-memc-fake'             => "You are running FakeMemCachedClient, I can not provide any statistics",
 	'maintenance-memc-requests'         => "Requests",
