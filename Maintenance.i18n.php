@@ -10,7 +10,7 @@ $messages = array();
 /** English
  *@author Ryan Schmidt
  */
-$messages["en"] = array(
+$messages['en'] = array(
 	'maintenance'                       => "Run maintenance scripts",
 	'maintenance-desc'                  => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
 	'maintenance-backlink'              => "Back to script selection",
