@@ -8,7 +8,7 @@
 $messages = array();
 
 /** English
- *@author Ryan Schmidt
+ * @author Ryan Schmidt
  */
 $messages['en'] = array(
 	'maintenance'                       => "Run maintenance scripts",
