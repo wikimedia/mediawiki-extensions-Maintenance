@@ -1,10 +1,9 @@
 <?php
-//whee, i18n >_>
-
-if(!defined("MEDIAWIKI")) {
-	echo("This file is an extension to the MediaWiki software and is not a valid access point");
-	die(1);
-}
+/**
+ * Internationalisation file for extension Maintenance.
+ *
+ * @addtogroup Extensions
+ */
 
 $messages = array();
 
