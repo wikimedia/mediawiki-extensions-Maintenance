@@ -91,27 +91,39 @@ Aborting move",
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'maintenance-name'           => 'Потребителско име',
-	'maintenance-password'       => 'Парола',
-	'maintenance-bureaucrat'     => 'Предоставяне на права на бюрократ',
-	'maintenance-reason'         => 'Причина',
-	'maintenance-invalidname'    => 'Невалидно потребителско име!',
-	'maintenance-userexists'     => 'Този потребител вече съществува!',
-	'maintenance-invalidtitle'   => 'Невалидно заглавие „$1“!',
-	'maintenance-titlenoexist'   => 'Посоченото заглавие („$1“) не съществува!',
-	'maintenance-stats-edits'    => 'Брой редакции: $1',
-	'maintenance-stats-articles' => 'Брой страници в основното именно пространство: $1',
-	'maintenance-stats-pages'    => 'Брой страници: $1',
-	'maintenance-stats-users'    => 'Брой потребители: $1',
-	'maintenance-stats-admins'   => 'Брой администратори: $1',
-	'maintenance-stats-images'   => 'Брой файлове: $1',
-	'maintenance-stats-views'    => 'Брой прегледи на страниците: $1',
-	'maintenance-stats-update'   => 'Обновяване на базата от данни...',
-	'maintenance-error'          => 'Грешка: $1',
+	'maintenance-desc'                  => '[[Special:Maintenance|Уеб интерфейс]] за различни скриптове за поддръжка',
+	'maintenance-changePassword-desc'   => 'Променяне на потребителска парола',
+	'maintenance-createAndPromote-desc' => 'Създаване на потребител и даване на администраторски права',
+	'maintenance-deleteBatch-desc'      => 'Масово изтриване на страници',
+	'maintenance-deleteRevision-desc'   => 'Премахване на версии от базата от данни',
+	'maintenance-initStats-desc'        => 'Опресняване на статистиките на сайта',
+	'maintenance-moveBatch-desc'        => 'Масово преместване на страници',
+	'maintenance-changePassword'        => 'Формулярът по-долу се използва за промяна на паролата на потребител',
+	'maintenance-name'                  => 'Потребителско име',
+	'maintenance-password'              => 'Парола',
+	'maintenance-bureaucrat'            => 'Предоставяне на права на бюрократ',
+	'maintenance-reason'                => 'Причина',
+	'maintenance-confirm'               => 'Потвърждаване',
+	'maintenance-invalidname'           => 'Невалидно потребителско име!',
+	'maintenance-userexists'            => 'Този потребител вече съществува!',
+	'maintenance-invalidtitle'          => 'Невалидно заглавие „$1“!',
+	'maintenance-titlenoexist'          => 'Посоченото заглавие („$1“) не съществува!',
+	'maintenance-stats-edits'           => 'Брой редакции: $1',
+	'maintenance-stats-articles'        => 'Брой страници в основното именно пространство: $1',
+	'maintenance-stats-pages'           => 'Брой страници: $1',
+	'maintenance-stats-users'           => 'Брой потребители: $1',
+	'maintenance-stats-admins'          => 'Брой администратори: $1',
+	'maintenance-stats-images'          => 'Брой файлове: $1',
+	'maintenance-stats-views'           => 'Брой прегледи на страниците: $1',
+	'maintenance-stats-update'          => 'Обновяване на базата от данни...',
+	'maintenance-error'                 => 'Грешка: $1',
+	'maintenance-memc-requests'         => 'Заявки',
+	'maintenance-memc-total'            => 'общо:',
 );
 
 /** Finnish (Suomi)
  * @author Crt
+ * @author Nike
  */
 $messages['fi'] = array(
 	'maintenance-changePassword-desc'   => 'Muuta käyttäjän salasana',
@@ -121,21 +133,24 @@ $messages['fi'] = array(
 	'maintenance-initEditCount-desc'    => 'Laske uudelleen käyttäjien muokkausmäärät',
 	'maintenance-initStats-desc'        => 'Laske sivuston tilastot uudelleen',
 	'maintenance-moveBatch-desc'        => 'Massasiirrä sivuja',
-	'maintenance-runJobs-desc'          => 'Aja työt ohjelmallisesta työjonosta',
-	'maintenance-changePassword'        => 'Käytä tätä lomaketta vaihtaaksesi käyttäjän salasanan',
-	'maintenance-name'                  => 'Käyttäjänimi',
+	'maintenance-runJobs-desc'          => 'Aja työt ohjelmiston ylläpitotyöjonosta',
+	'maintenance-changePassword'        => 'Vaihda käyttäjän salasana tällä lomakkeella',
+	'maintenance-name'                  => 'Käyttäjätunnus',
 	'maintenance-password'              => 'Salasana',
 	'maintenance-reason'                => 'Syy',
 	'maintenance-confirm'               => 'Vahvista',
-	'maintenance-invalidname'           => 'Virheellinen käyttäjänimi.',
+	'maintenance-invalidname'           => 'Virheellinen käyttäjätunnus.',
 	'maintenance-success'               => '$1 ajettiin onnistuneesti.',
 	'maintenance-userexists'            => 'Käyttäjä on jo olemassa.',
+	'maintenance-failed'                => 'EPÄONNISTUI',
+	'maintenance-deleted'               => 'POISTETTU',
 	'maintenance-revnotfound'           => 'Versiota $1 ei löydy.',
 	'maintenance-stats-edits'           => 'Muokkauksia yhteensä: $1',
 	'maintenance-stats-pages'           => 'Sivuja yhteensä: $1',
 	'maintenance-stats-users'           => 'Käyttäjiä yhteensä: $1',
 	'maintenance-stats-admins'          => 'Ylläpitäjiä yhteensä: $1',
 	'maintenance-stats-images'          => 'Tiedostoja yhteensä: $1',
+	'maintenance-stats-views'           => 'Sivuja näytetty yhteensä: $1',
 	'maintenance-stats-update'          => 'Päivitetään tietokantaa...',
 	'maintenance-move'                  => 'Siirretään $1 nimelle $2...',
 	'maintenance-error'                 => 'Virhe: $1',
@@ -217,6 +232,13 @@ Arrêt du déplacement.',
 	'maintenance-memc-diffcache'        => 'Cache des diff',
 );
 
+/** Korean (한국어)
+ * @author Ficell
+ */
+$messages['ko'] = array(
+	'maintenance-password' => '비밀번호',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -250,6 +272,14 @@ $messages['lb'] = array(
 	'maintenance-memc-requests'       => 'Ufroen',
 	'maintenance-memc-total'          => 'Total:',
 	'maintenance-memc-absent'         => 'net do:',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'maintenance-confirm'    => 'സ്ഥിരീകരിക്കുക',
+	'maintenance-memc-total' => 'മൊത്തം:',
 );
 
 /** Marathi (मराठी)
