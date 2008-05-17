@@ -232,6 +232,13 @@ Arrêt du déplacement.',
 	'maintenance-memc-diffcache'        => 'Cache des diff',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
+ */
+$messages['km'] = array(
+	'maintenance-reason' => 'មូលហេតុ',
+);
+
 /** Korean (한국어)
  * @author Ficell
  */
@@ -278,8 +285,39 @@ $messages['lb'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'maintenance-confirm'    => 'സ്ഥിരീകരിക്കുക',
-	'maintenance-memc-total' => 'മൊത്തം:',
+	'maintenance-name'                => 'ഉപയോക്തൃനാമം',
+	'maintenance-password'            => 'രഹസ്യവാക്ക്',
+	'maintenance-bureaucrat'          => 'ഉപയോക്താവിനെ ബ്യൂറോക്രാറ്റ് പദവിയിലേക്കുയര്‍ത്തുക',
+	'maintenance-reason'              => 'കാരണം',
+	'maintenance-confirm'             => 'സ്ഥിരീകരിക്കുക',
+	'maintenance-invalidname'         => 'അസാധുവായ ഉപയോക്തൃനാമം!',
+	'maintenance-success'             => '$1 വിജയകരമായി ഓടിച്ചിരിക്കുന്നു!',
+	'maintenance-userexists'          => 'ഉപയോക്തനാമം നിലവിലുണ്ട്',
+	'maintenance-invalidtitle'        => 'അസാധുവായ തലക്കെട്ട് "$1"!',
+	'maintenance-titlenoexist'        => '("$1") എന്ന ശീര്‍ഷകത്തിലുള്ള ലേഖനം നിലവിലില്ല',
+	'maintenance-failed'              => 'പരാജയപ്പെട്ടു',
+	'maintenance-deleted'             => 'മായ്ച്ചു',
+	'maintenance-revdelete'           => '$2 വിക്കിയില്‍ നിന്ന് $1 പതിപ്പുകള്‍ ഒഴിവാക്കുന്നു',
+	'maintenance-revnotfound'         => '$1 എന്ന പതിപ്പ് കണ്ടില്ല!',
+	'maintenance-stats-edits'         => 'തിരുത്തലുകളുടെ എണ്ണം: $1',
+	'maintenance-stats-articles'      => 'മുഖ്യ നെയിംസ്പേസിലുള്ള താളുകളുടെ എണ്ണം: $1',
+	'maintenance-stats-pages'         => 'താളുകളുടെ എണ്ണം: $1',
+	'maintenance-stats-users'         => 'ഉപയോക്താക്കളുടെ എണ്ണം: $1',
+	'maintenance-stats-admins'        => 'കാര്യനിര്‍‌വാഹകരുടെ എണ്ണം: $1',
+	'maintenance-stats-images'        => 'പ്രമാണങ്ങളുടെ എണ്ണം: $1',
+	'maintenance-stats-views'         => 'പേജ് വ്യൂവിന്റെ എണ്ണം: $1',
+	'maintenance-stats-update'        => 'ഡാറ്റാബേസ് പുതുക്കുന്നു...',
+	'maintenance-move'                => '$1 നെ $2 ലേക്ക് മാറ്റുന്നു',
+	'maintenance-movefail'            => 'താള്‍ മാറ്റുമ്പോള്‍ പിഴവ് സം‌ഭവിച്ചു: $1
+മാറ്റം നിര്‍ത്തിവയ്ക്കുന്നു',
+	'maintenance-error'               => 'പിഴവ്: $1',
+	'maintenance-memc-requests'       => 'അഭ്യര്‍ത്ഥനകള്‍',
+	'maintenance-memc-withsession'    => 'സെഷനോടെ:',
+	'maintenance-memc-withoutsession' => 'സെഷനില്ലാതെ:',
+	'maintenance-memc-total'          => 'മൊത്തം:',
+	'maintenance-memc-invalid'        => 'അസാധു:',
+	'maintenance-memc-expired'        => 'കാലാവധി:',
+	'maintenance-memc-absent'         => 'അഭാവം:',
 );
 
 /** Marathi (मराठी)
@@ -477,6 +515,92 @@ Avbryter flytting',
 	'maintenance-memc-diffcache'        => 'Forskjellsmellomlager',
 );
 
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'maintenance'                       => 'Aviar los escripts de mantenença',
+	'maintenance-desc'                  => '[[Special:Maintenance|Interfàcia Web]] pels diferents escripts de mantenença',
+	'maintenance-backlink'              => "Retorn vèrs la seleccion de l'escript",
+	'maintenance-header'                => "Seleccionatz, çaijós, un escript d'executar.
+Las descripcions son a la seguida de cadun d'aquestes.",
+	'maintenance-changePassword-desc'   => 'Cambiar lo senhal d’un utilizaire',
+	'maintenance-createAndPromote-desc' => "Crear un utilizaire e promòure a l'estatut d’administrator",
+	'maintenance-deleteBatch-desc'      => 'Supression en massa de las paginas',
+	'maintenance-deleteRevision-desc'   => 'Levar las versions de la banca de donadas',
+	'maintenance-initEditCount-desc'    => 'Tornar calcular los comptadors d’edicions dels utilizaires',
+	'maintenance-initStats-desc'        => 'Tornar calcular las estatisticas del sit',
+	'maintenance-moveBatch-desc'        => 'Renomenatge en massa de las paginas',
+	'maintenance-runJobs-desc'          => "Aviar los prètzfaches dins la lista de los d'acomplir",
+	'maintenance-showJobs-desc'         => "Afichar una lista dels prètzfaches en cors dins la lista de los d'acomplir",
+	'maintenance-stats-desc'            => 'Afichar las estatisticas de la memòria-amagatal',
+	'maintenance-changePassword'        => 'Utilizar aqueste formulari per cambiar lo senhal d’un utilizaire',
+	'maintenance-createAndPromote'      => 'Utilizar aqueste formulari per crear un utilizaire novèl e per lo promòure administrator.
+Marcar la casa burocrata se li desiratz conferir tanben aqueste estatut.',
+	'maintenance-deleteBatch'           => 'Utilizatz aqueste formulari per suprimir en massa de paginas/
+Indicar una sola pagina per linha',
+	'maintenance-deleteRevision'        => 'Utilizatz aqueste formulari per suprimir en massa las versions.
+Indicatz una sola version per linha',
+	'maintenance-initStats'             => 'Utilizatz aqueste formulari per tornar calcular las estatisticas del sit, en indicant, se fa mestièr, se desiratz lo recalcul del nombre de visitas per pagina.',
+	'maintenance-moveBatch'             => 'Utilizatz aqueste formulari per desplaçar en massa las paginas.
+Cada linha deurà indicar la pagina d’origina e la de destinacion ; lasqualas deuràn èsser separadas per un « <nowiki>|</nowiki> »',
+	'maintenance-invalidtype'           => 'Tipe incorrècte !',
+	'maintenance-name'                  => "Nom d'utilizaire",
+	'maintenance-password'              => 'Senhal',
+	'maintenance-bureaucrat'            => "Promòure l’utilizaire a l'estatut de burocrata",
+	'maintenance-reason'                => 'Motiu',
+	'maintenance-update'                => "Utilizar UPDATE al moment de la mesa a jorn d'una taula ? Desmarcatz l'usatge DELETE/INSERT al luòc d'aquò.",
+	'maintenance-noviews'               => 'Marcar aquò per evitar la mesa a jorn del nombre de visitas de las paginas.',
+	'maintenance-confirm'               => 'Confirmar',
+	'maintenance-invalidname'           => 'Nom d’utilizaire incorrècte !',
+	'maintenance-success'               => '$1 a marchat amb succès !',
+	'maintenance-userexists'            => 'L’utilizaire existís ja !',
+	'maintenance-invalidtitle'          => 'Títol incorrècte « $1 » !',
+	'maintenance-titlenoexist'          => 'Lo títol indicat (« $1 ») existís pas !',
+	'maintenance-failed'                => 'FRACÀS',
+	'maintenance-deleted'               => 'SUPRIMIT',
+	'maintenance-revdelete'             => 'Supression de las versions $1 dempuèi lo wiki $2',
+	'maintenance-revnotfound'           => 'Version $1 introbabla !',
+	'maintenance-stats-edits'           => 'Nombre d’edicions : $1',
+	'maintenance-stats-articles'        => 'Nombre de paginas dins lo meteis espaci : $1',
+	'maintenance-stats-pages'           => 'Nombre de paginas : $1',
+	'maintenance-stats-users'           => "Nombre d'utilizaires : $1",
+	'maintenance-stats-admins'          => "Nombre d'administrators : $1",
+	'maintenance-stats-images'          => 'Nombre de fichièrs : $1',
+	'maintenance-stats-views'           => 'Nombre de paginas visitadas : $1',
+	'maintenance-stats-update'          => 'Mesa a jorn de la banca de donadas…',
+	'maintenance-move'                  => 'Desplaçament de $1 vèrs $2…',
+	'maintenance-movefail'              => 'Error constatada al moment del renomenatge : $1.
+Arrèst del desplaçament.',
+	'maintenance-error'                 => 'Error : $1',
+	'maintenance-memc-fake'             => "Sètz a aviar FakeMemCachedClient. Cap d'estatistica serà pas provesida.",
+	'maintenance-memc-requests'         => 'Requèstas',
+	'maintenance-memc-withsession'      => 'amb la sesilha :',
+	'maintenance-memc-withoutsession'   => 'sens la sesilha :',
+	'maintenance-memc-total'            => 'soma :',
+	'maintenance-memc-parsercache'      => 'Amagatal parsor',
+	'maintenance-memc-hits'             => 'clics :',
+	'maintenance-memc-invalid'          => 'invalid :',
+	'maintenance-memc-expired'          => 'expirats :',
+	'maintenance-memc-absent'           => 'absent :',
+	'maintenance-memc-stub'             => 'sulhèt de despart :',
+	'maintenance-memc-imagecache'       => 'Amagatal imatge',
+	'maintenance-memc-misses'           => 'perduts :',
+	'maintenance-memc-updates'          => 'meses a jorn :',
+	'maintenance-memc-uncacheable'      => "fòra de l'amagatal :",
+	'maintenance-memc-diffcache'        => 'Amagatal dels dif',
+);
+
+/** Polish (Polski)
+ * @author McMonster
+ */
+$messages['pl'] = array(
+	'maintenance-name'     => 'Nazwa użytkownika',
+	'maintenance-password' => 'Hasło',
+	'maintenance-reason'   => 'Powód',
+	'maintenance-confirm'  => 'Potwierdź',
+);
+
 /** Swedish (Svenska)
  * @author M.M.S.
  */
@@ -535,6 +659,29 @@ Varje rad specifierar den nuvarande sidan och destinationssidan separerade med e
 	'maintenance-movefail'              => 'Ett fel uppstod medan flyttningen: $1.
 Avbryt flyttning',
 	'maintenance-error'                 => 'Fel: $1',
+	'maintenance-memc-fake'             => 'Du kör en FakeMemCachedClient. Ingen statistik kan uppges',
+	'maintenance-memc-requests'         => 'Efterfrågningar',
+	'maintenance-memc-withsession'      => 'med session:',
+	'maintenance-memc-withoutsession'   => 'utan session:',
+	'maintenance-memc-total'            => 'totalt:',
+	'maintenance-memc-parsercache'      => 'Parsercache',
+	'maintenance-memc-hits'             => 'träffar:',
+	'maintenance-memc-invalid'          => 'ogiltig:',
+	'maintenance-memc-expired'          => 'utgick:',
+	'maintenance-memc-absent'           => 'frånvarande:',
+	'maintenance-memc-stub'             => 'stubbgräns:',
+	'maintenance-memc-imagecache'       => 'Bildcache',
+	'maintenance-memc-misses'           => 'missar:',
+	'maintenance-memc-updates'          => 'uppdateringar:',
+	'maintenance-memc-uncacheable'      => 'ej mellanlagringsbara:',
+	'maintenance-memc-diffcache'        => 'Skillnadscache',
+);
+
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'maintenance-reason' => 'Neden',
 );
 
 /** Vietnamese (Tiếng Việt)
