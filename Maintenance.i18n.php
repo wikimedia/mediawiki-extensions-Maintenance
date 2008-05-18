@@ -232,6 +232,14 @@ Arrêt du déplacement.',
 	'maintenance-memc-diffcache'        => 'Cache des diff',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'maintenance-name'     => 'Nome de usuario',
+	'maintenance-password' => 'Contrasinal',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -285,39 +293,43 @@ $messages['lb'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'maintenance-name'                => 'ഉപയോക്തൃനാമം',
-	'maintenance-password'            => 'രഹസ്യവാക്ക്',
-	'maintenance-bureaucrat'          => 'ഉപയോക്താവിനെ ബ്യൂറോക്രാറ്റ് പദവിയിലേക്കുയര്‍ത്തുക',
-	'maintenance-reason'              => 'കാരണം',
-	'maintenance-confirm'             => 'സ്ഥിരീകരിക്കുക',
-	'maintenance-invalidname'         => 'അസാധുവായ ഉപയോക്തൃനാമം!',
-	'maintenance-success'             => '$1 വിജയകരമായി ഓടിച്ചിരിക്കുന്നു!',
-	'maintenance-userexists'          => 'ഉപയോക്തനാമം നിലവിലുണ്ട്',
-	'maintenance-invalidtitle'        => 'അസാധുവായ തലക്കെട്ട് "$1"!',
-	'maintenance-titlenoexist'        => '("$1") എന്ന ശീര്‍ഷകത്തിലുള്ള ലേഖനം നിലവിലില്ല',
-	'maintenance-failed'              => 'പരാജയപ്പെട്ടു',
-	'maintenance-deleted'             => 'മായ്ച്ചു',
-	'maintenance-revdelete'           => '$2 വിക്കിയില്‍ നിന്ന് $1 പതിപ്പുകള്‍ ഒഴിവാക്കുന്നു',
-	'maintenance-revnotfound'         => '$1 എന്ന പതിപ്പ് കണ്ടില്ല!',
-	'maintenance-stats-edits'         => 'തിരുത്തലുകളുടെ എണ്ണം: $1',
-	'maintenance-stats-articles'      => 'മുഖ്യ നെയിംസ്പേസിലുള്ള താളുകളുടെ എണ്ണം: $1',
-	'maintenance-stats-pages'         => 'താളുകളുടെ എണ്ണം: $1',
-	'maintenance-stats-users'         => 'ഉപയോക്താക്കളുടെ എണ്ണം: $1',
-	'maintenance-stats-admins'        => 'കാര്യനിര്‍‌വാഹകരുടെ എണ്ണം: $1',
-	'maintenance-stats-images'        => 'പ്രമാണങ്ങളുടെ എണ്ണം: $1',
-	'maintenance-stats-views'         => 'പേജ് വ്യൂവിന്റെ എണ്ണം: $1',
-	'maintenance-stats-update'        => 'ഡാറ്റാബേസ് പുതുക്കുന്നു...',
-	'maintenance-move'                => '$1 നെ $2 ലേക്ക് മാറ്റുന്നു',
-	'maintenance-movefail'            => 'താള്‍ മാറ്റുമ്പോള്‍ പിഴവ് സം‌ഭവിച്ചു: $1
+	'maintenance-changePassword-desc'   => 'ഒരു ഉപയോക്താവിന്റെ രഹസ്യവാക്ക് മാറ്റുക',
+	'maintenance-createAndPromote-desc' => 'ഒരു ഉഒഅയോക്താവിനെ സൃഷ്ടിച്ച് സിസോപ്പായി സ്ഥാനക്കയറ്റം നല്‍കുക',
+	'maintenance-deleteBatch-desc'      => 'താലുകള്‍ കൂട്ടമായി ഒഴിവാക്കുക',
+	'maintenance-moveBatch-desc'        => 'താളുകള്‍ കൂട്ടമായി മാറ്റുക',
+	'maintenance-name'                  => 'ഉപയോക്തൃനാമം',
+	'maintenance-password'              => 'രഹസ്യവാക്ക്',
+	'maintenance-bureaucrat'            => 'ഉപയോക്താവിനെ ബ്യൂറോക്രാറ്റ് പദവിയിലേക്കുയര്‍ത്തുക',
+	'maintenance-reason'                => 'കാരണം',
+	'maintenance-confirm'               => 'സ്ഥിരീകരിക്കുക',
+	'maintenance-invalidname'           => 'അസാധുവായ ഉപയോക്തൃനാമം!',
+	'maintenance-success'               => '$1 വിജയകരമായി ഓടിച്ചിരിക്കുന്നു!',
+	'maintenance-userexists'            => 'ഉപയോക്തനാമം നിലവിലുണ്ട്',
+	'maintenance-invalidtitle'          => 'അസാധുവായ തലക്കെട്ട് "$1"!',
+	'maintenance-titlenoexist'          => '("$1") എന്ന ശീര്‍ഷകത്തിലുള്ള ലേഖനം നിലവിലില്ല',
+	'maintenance-failed'                => 'പരാജയപ്പെട്ടു',
+	'maintenance-deleted'               => 'മായ്ച്ചു',
+	'maintenance-revdelete'             => '$2 വിക്കിയില്‍ നിന്ന് $1 പതിപ്പുകള്‍ ഒഴിവാക്കുന്നു',
+	'maintenance-revnotfound'           => '$1 എന്ന പതിപ്പ് കണ്ടില്ല!',
+	'maintenance-stats-edits'           => 'തിരുത്തലുകളുടെ എണ്ണം: $1',
+	'maintenance-stats-articles'        => 'മുഖ്യ നെയിംസ്പേസിലുള്ള താളുകളുടെ എണ്ണം: $1',
+	'maintenance-stats-pages'           => 'താളുകളുടെ എണ്ണം: $1',
+	'maintenance-stats-users'           => 'ഉപയോക്താക്കളുടെ എണ്ണം: $1',
+	'maintenance-stats-admins'          => 'കാര്യനിര്‍‌വാഹകരുടെ എണ്ണം: $1',
+	'maintenance-stats-images'          => 'പ്രമാണങ്ങളുടെ എണ്ണം: $1',
+	'maintenance-stats-views'           => 'പേജ് വ്യൂവിന്റെ എണ്ണം: $1',
+	'maintenance-stats-update'          => 'ഡാറ്റാബേസ് പുതുക്കുന്നു...',
+	'maintenance-move'                  => '$1 നെ $2 ലേക്ക് മാറ്റുന്നു',
+	'maintenance-movefail'              => 'താള്‍ മാറ്റുമ്പോള്‍ പിഴവ് സം‌ഭവിച്ചു: $1
 മാറ്റം നിര്‍ത്തിവയ്ക്കുന്നു',
-	'maintenance-error'               => 'പിഴവ്: $1',
-	'maintenance-memc-requests'       => 'അഭ്യര്‍ത്ഥനകള്‍',
-	'maintenance-memc-withsession'    => 'സെഷനോടെ:',
-	'maintenance-memc-withoutsession' => 'സെഷനില്ലാതെ:',
-	'maintenance-memc-total'          => 'മൊത്തം:',
-	'maintenance-memc-invalid'        => 'അസാധു:',
-	'maintenance-memc-expired'        => 'കാലാവധി:',
-	'maintenance-memc-absent'         => 'അഭാവം:',
+	'maintenance-error'                 => 'പിഴവ്: $1',
+	'maintenance-memc-requests'         => 'അഭ്യര്‍ത്ഥനകള്‍',
+	'maintenance-memc-withsession'      => 'സെഷനോടെ:',
+	'maintenance-memc-withoutsession'   => 'സെഷനില്ലാതെ:',
+	'maintenance-memc-total'            => 'മൊത്തം:',
+	'maintenance-memc-invalid'          => 'അസാധു:',
+	'maintenance-memc-expired'          => 'കാലാവധി:',
+	'maintenance-memc-absent'           => 'അഭാവം:',
 );
 
 /** Marathi (मराठी)
