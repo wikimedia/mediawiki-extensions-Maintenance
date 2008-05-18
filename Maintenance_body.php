@@ -180,7 +180,7 @@ class Maintenance extends SpecialPage {
 						$return .= '... ' . wfMsg('maintenance-failed');
 					}
 					$wgOut->addWikiText($return);
-					wfWaitForSlaves( 5 );
+					waitForSlaves( 5 );
 				}
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
 				break;
@@ -247,7 +247,7 @@ class Maintenance extends SpecialPage {
 						++$migrated;
 					}
 					$dbr->freeResult( $result );
-					wfWaitForSlaves( 10 );
+					waitForSlaves( 10 );
 				}
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
 				break;
@@ -313,7 +313,7 @@ class Maintenance extends SpecialPage {
 						$wgOut->addWikiText('** '.wfMsg('maintenance-movefail', array( $err ) ) );
 					}
 					$dbw->immediateCommit();
-					wfWaitForSlaves( 5 );
+					waitForSlaves( 5 );
 				}
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
 				break;
@@ -329,7 +329,7 @@ class Maintenance extends SpecialPage {
 						$job = 	Job::pop($offset);
 						if ($job == false)
 							break;
-						wfWaitForSlaves( 5 );
+						waitForSlaves( 5 );
 						$wgOut->addWikiText("* ".$job->id . "  " . $job->toString() );
 						$offset=$job->id;
 						if ( !$job->run() ) {
@@ -399,6 +399,21 @@ class Maintenance extends SpecialPage {
 			default:
 				$wgOut->addHTML('<p>'.wfMsg('maintenance-invalidtype').'</p></form>');
 				return;
+		}
+	}
+}
+
+function waitForSlaves($maxLag) {
+	if( $maxLag ) {
+		$lb = wfGetLB();
+		list( $host, $lag ) = $lb->getMaxLag();
+		while( $lag > $maxLag ) {
+			$name = @gethostbyaddr( $host );
+			if( $name !== false ) {
+				$host = $name;
+			}
+			sleep($maxLag);
+			list( $host, $lag ) = $lb->getMaxLag();
 		}
 	}
 }
