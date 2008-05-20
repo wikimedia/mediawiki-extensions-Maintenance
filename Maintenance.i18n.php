@@ -87,6 +87,17 @@ Aborting move",
 	'maintenance-memc-diffcache'        => "Diff Cache",
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Arnobarnard
+ */
+$messages['af'] = array(
+	'maintenance-name'       => 'Gebruikersnaam',
+	'maintenance-password'   => 'Wagwoord',
+	'maintenance-reason'     => 'Rede',
+	'maintenance-confirm'    => 'Bevestig',
+	'maintenance-memc-total' => 'totaal:',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -611,6 +622,81 @@ $messages['pl'] = array(
 	'maintenance-password' => 'Hasło',
 	'maintenance-reason'   => 'Powód',
 	'maintenance-confirm'  => 'Potwierdź',
+);
+
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'maintenance'                       => 'Spustiť údržbové skripty',
+	'maintenance-desc'                  => '[[Special:Maintenance|Webové rozhranie]] pre rozličné údržbové skripty',
+	'maintenance-backlink'              => 'Späť na výber skriptu',
+	'maintenance-header'                => 'Prosím, vyberte dolu skript, ktorý sa má spustiť.',
+	'maintenance-changePassword-desc'   => 'Zmeniť heslo používateľa',
+	'maintenance-createAndPromote-desc' => 'Vytvoriť používateľa a povyšiť ho na správcu',
+	'maintenance-deleteBatch-desc'      => 'Hromadné mazanie stránok',
+	'maintenance-deleteRevision-desc'   => 'Odstránenie revízií z databázy',
+	'maintenance-initEditCount-desc'    => 'Znovu spočítať počty úprav používateľov',
+	'maintenance-initStats-desc'        => 'Znovu spočítať štatistiky wiki',
+	'maintenance-moveBatch-desc'        => 'Hromadný presun stránok',
+	'maintenance-runJobs-desc'          => 'Spustiť úlohy vo fronte úloh',
+	'maintenance-showJobs-desc'         => 'Zobraziť zoznam čakajúcich úloh vo fronte úloh',
+	'maintenance-stats-desc'            => 'Zobraziť štatistiky Memcached',
+	'maintenance-changePassword'        => 'Tento formulár slúži na zmenu hesla používateľa',
+	'maintenance-createAndPromote'      => 'Tento formulár slúži na vytvorenie nového používateľa a jeho povýšenie na správcu.
+Označte pole „byrokrat” ak ho chcete povýšiť aj na byrokrata.',
+	'maintenance-deleteBatch'           => 'Tento formulár slúži na hromadné mazanie stránok.
+Píšte iba jednu stránku na riadok',
+	'maintenance-deleteRevision'        => 'Tento formulár slúži na hromadné mazanie revízií.
+Píšte iba jednu revíziu na riadok',
+	'maintenance-initStats'             => 'Tento formulár slúži na prepočítanie štatistík tejto wiki. Môžete určiť, či chcete prepočítať aj zobrazenia stránok.',
+	'maintenance-moveBatch'             => 'Tento formulár slúži na hromadné presúvanie stránok.
+Na každom riadku by ste mali určiť zdrojovú a cieľovú stránku oddelenú znakom rúry („|”).',
+	'maintenance-invalidtype'           => 'Neplatný typ!',
+	'maintenance-name'                  => 'Používateľské meno',
+	'maintenance-password'              => 'Heslo',
+	'maintenance-bureaucrat'            => 'Povýšiť používateľa na stav byrokrat',
+	'maintenance-reason'                => 'Dôvod',
+	'maintenance-update'                => 'Použiť na aktualizáciu tabuľky UPDATE? Ak nie, použije sa DELETE/INSERT.',
+	'maintenance-noviews'               => 'Ak je toto pole označené, nebude sa aktualizovať počet zobrazení stránky',
+	'maintenance-confirm'               => 'Potvrdiť',
+	'maintenance-invalidname'           => 'Neplatné používateľské meno!',
+	'maintenance-success'               => '$1 prebehol úspešne!',
+	'maintenance-userexists'            => 'Používateľ už existuje!',
+	'maintenance-invalidtitle'          => 'Neplatný názov „$1”!',
+	'maintenance-titlenoexist'          => 'Uvedený názov („$1”) neexistuje!',
+	'maintenance-failed'                => 'ZLYHALO',
+	'maintenance-deleted'               => 'ZMAZANÉ',
+	'maintenance-revdelete'             => 'Mažú sa revízie $1 z wiki $2',
+	'maintenance-revnotfound'           => 'Revízia $1 nenájdená!',
+	'maintenance-stats-edits'           => 'Počet úprav: $1',
+	'maintenance-stats-articles'        => 'Počet stránok v hlavnom mennom priestore: $1',
+	'maintenance-stats-pages'           => 'Počet stránok: $1',
+	'maintenance-stats-users'           => 'Počet používateľov: $1',
+	'maintenance-stats-admins'          => 'Počet správcov: $1',
+	'maintenance-stats-images'          => 'Počet súborov: $1',
+	'maintenance-stats-views'           => 'Počet zobrazení stránky: $1',
+	'maintenance-stats-update'          => 'Aktualizuje sa databáza...',
+	'maintenance-move'                  => 'Presúva sa $1 na $2...',
+	'maintenance-movefail'              => 'Počas presúvania sa vyskytla chyba: $1.
+Presúvanie sa ruší',
+	'maintenance-error'                 => 'Chyba: $1',
+	'maintenance-memc-fake'             => 'Používate FakeMemCachedClient. Štatistiky nie sú dostupné',
+	'maintenance-memc-requests'         => 'Požiadavky',
+	'maintenance-memc-withsession'      => 's reláciou:',
+	'maintenance-memc-withoutsession'   => 'bez relácie:',
+	'maintenance-memc-total'            => 'celkom:',
+	'maintenance-memc-parsercache'      => 'Vyrovnávacia pamäť syntaktického analyzátora',
+	'maintenance-memc-hits'             => 'zásahov:',
+	'maintenance-memc-invalid'          => 'neplatných:',
+	'maintenance-memc-expired'          => 'vypršaných:',
+	'maintenance-memc-absent'           => 'chýbajúcich:',
+	'maintenance-memc-stub'             => 'prah výhonku:',
+	'maintenance-memc-imagecache'       => 'Vyrovnávacia pamäť obrázkov',
+	'maintenance-memc-misses'           => 'minutí:',
+	'maintenance-memc-updates'          => 'aktualizácií:',
+	'maintenance-memc-uncacheable'      => 'nebolo možné použiť vyrovnávaciu pamäť:',
+	'maintenance-memc-diffcache'        => 'Rozdiel vo vyrovnávacej pamäti',
 );
 
 /** Swedish (Svenska)
