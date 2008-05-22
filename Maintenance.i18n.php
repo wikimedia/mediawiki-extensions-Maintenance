@@ -400,22 +400,56 @@ $messages['mr'] = array(
 	'maintenance-password'              => 'परवलीचा शब्द',
 	'maintenance-bureaucrat'            => 'सदस्याला अधिकारीपद द्या',
 	'maintenance-reason'                => 'कारण',
+	'maintenance-update'                => 'सारणी बदलताना UPDATE चा वापर करायचा का? जर निवडले नाही तर DELETE/INSERT चा वापर होईल.',
+	'maintenance-noviews'               => 'पान पहाण्याची सांख्यिकी न बदलण्यासाठी हे निवडा',
+	'maintenance-confirm'               => 'निश्चित करा',
+	'maintenance-invalidname'           => 'चुकीचे सदस्यनाव!',
+	'maintenance-success'               => '$1 यशस्वीरित्या पूर्ण झाले!',
 	'maintenance-userexists'            => 'सदस्य अगोदरच अस्तित्वात आहे!',
 	'maintenance-invalidtitle'          => 'चुकीचे शीर्षक "$1"!',
 	'maintenance-titlenoexist'          => 'दिलेले शीर्षक ("$1") अस्तित्वात नाही!',
+	'maintenance-failed'                => 'रद्द झाले',
 	'maintenance-deleted'               => 'वगळले',
+	'maintenance-revdelete'             => '$2 या विकिवरील $1 आवृत्त्या वगळत आहे',
+	'maintenance-revnotfound'           => '$1 आवृत्ती सापडली नाही!',
 	'maintenance-stats-edits'           => 'संपादनांची संख्या: $1',
+	'maintenance-stats-articles'        => 'मुख्य नामविश्वातील पानांची संख्या: $1',
 	'maintenance-stats-pages'           => 'पृष्ठ संख्या: $1',
 	'maintenance-stats-users'           => 'सदस्य संख्या: $1',
+	'maintenance-stats-admins'          => 'प्रबंधकांची संख्या: $1',
+	'maintenance-stats-images'          => 'संचिकांची संख्या: $1',
+	'maintenance-stats-views'           => 'पाने पहाण्याची संख्या: $1',
+	'maintenance-stats-update'          => 'डाटाबेस बदलत आहे...',
+	'maintenance-move'                  => ' $1 चे $2 ला स्थानांतरण करीत आहे...',
+	'maintenance-movefail'              => 'स्थानांतरण करण्यात त्रुटी: $1.
+स्थानांतरण रद्द करत आहे',
+	'maintenance-error'                 => 'त्रुटी: $1',
+	'maintenance-memc-fake'             => 'तुम्ही FakeMemCachedClient चालवित आहात. सांख्यिकी देता येणार नाही',
+	'maintenance-memc-requests'         => 'मागण्या',
+	'maintenance-memc-withsession'      => 'सेशन सहित:',
+	'maintenance-memc-withoutsession'   => 'सेशन रहित:',
+	'maintenance-memc-total'            => 'एकूण:',
+	'maintenance-memc-parsercache'      => 'पार्सर सय',
+	'maintenance-memc-hits'             => 'हिट्स:',
+	'maintenance-memc-invalid'          => 'अवैध:',
+	'maintenance-memc-expired'          => 'रद्द झालेले:',
+	'maintenance-memc-absent'           => 'गैरहजर:',
+	'maintenance-memc-stub'             => 'स्टब थ्रेशहोल्ड:',
+	'maintenance-memc-imagecache'       => 'चित्र सय',
+	'maintenance-memc-misses'           => 'मिसेस:',
+	'maintenance-memc-updates'          => 'अपडेट्स:',
+	'maintenance-memc-uncacheable'      => 'सयीत ठेवता येत नाही:',
+	'maintenance-memc-diffcache'        => 'फरक सय',
 );
 
 /** Dutch (Nederlands)
  * @author Siebrand
+ * @author SPQRobin
  */
 $messages['nl'] = array(
 	'maintenance'                       => 'Beheerscripts uitvoeren',
 	'maintenance-desc'                  => '[[Special:Maintenance|Webinterface]] voor een aantal beheerscripts',
-	'maintenance-backlink'              => 'Naar scripselectie terugkeren',
+	'maintenance-backlink'              => 'Naar scriptselectie terugkeren',
 	'maintenance-header'                => 'Selecteer hieronder een uit te voeren script.
 Beschrijvingen staan naast de scripts',
 	'maintenance-changePassword-desc'   => 'Wachtwoord van een gebruiker wijzigen',
@@ -804,6 +838,20 @@ Avbryt flyttning',
 	'maintenance-memc-updates'          => 'uppdateringar:',
 	'maintenance-memc-uncacheable'      => 'ej mellanlagringsbara:',
 	'maintenance-memc-diffcache'        => 'Skillnadscache',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'maintenance-password'      => 'సంకేతపదం',
+	'maintenance-reason'        => 'కారణం',
+	'maintenance-stats-pages'   => 'పేజీల సంఖ్య: $1',
+	'maintenance-stats-users'   => 'వాడుకర్ల సంఖ్య: $1',
+	'maintenance-stats-admins'  => 'నిర్వాహకుల సంఖ్య: $1',
+	'maintenance-stats-images'  => 'ఫైళ్ళ సంఖ్య: $1',
+	'maintenance-error'         => 'పొరపాటు: $1',
+	'maintenance-memc-requests' => 'అభ్యర్థనలు',
 );
 
 /** Turkish (Türkçe)
