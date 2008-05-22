@@ -251,6 +251,13 @@ $messages['gl'] = array(
 	'maintenance-password' => 'Contrasinal',
 );
 
+/** Icelandic (Íslenska)
+ * @author S.Örvarr.S
+ */
+$messages['is'] = array(
+	'maintenance-password' => 'Lykilorð',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -638,6 +645,14 @@ $messages['pl'] = array(
 	'maintenance-password' => 'Hasło',
 	'maintenance-reason'   => 'Powód',
 	'maintenance-confirm'  => 'Potwierdź',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'maintenance-memc-total'   => 'ټولټال:',
+	'maintenance-memc-invalid' => 'ناسم:',
 );
 
 /** Slovak (Slovenčina)
