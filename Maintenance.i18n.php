@@ -98,6 +98,32 @@ $messages['af'] = array(
 	'maintenance-memc-total' => 'totaal:',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'maintenance-invalidtype'         => 'نوع غير صحيح!',
+	'maintenance-name'                => 'اسم مستخدم',
+	'maintenance-password'            => 'كلمة السر',
+	'maintenance-reason'              => 'سبب',
+	'maintenance-invalidname'         => 'اسم مستخدم غير صحيح!',
+	'maintenance-userexists'          => 'المستخدم موجود حاليا!',
+	'maintenance-invalidtitle'        => 'عنوان غير صحيح "$1"!',
+	'maintenance-failed'              => 'فشل',
+	'maintenance-deleted'             => 'حُذف',
+	'maintenance-stats-pages'         => 'عدد الصفحات: $1',
+	'maintenance-stats-users'         => 'عدد المستخدمين: $1',
+	'maintenance-stats-admins'        => 'عدد الإداريين: $1',
+	'maintenance-stats-images'        => 'عدد الملفات: $1',
+	'maintenance-stats-views'         => 'عدد مرات عرض الصفحة: $1',
+	'maintenance-move'                => 'نقل $1 إلى $2...',
+	'maintenance-error'               => 'خطأ: $1',
+	'maintenance-memc-withsession'    => 'مع جلسة:',
+	'maintenance-memc-withoutsession' => 'بدون جلسة:',
+	'maintenance-memc-total'          => 'مجموع:',
+	'maintenance-memc-updates'        => 'تحديثات:',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -130,6 +156,35 @@ $messages['bg'] = array(
 	'maintenance-error'                 => 'Грешка: $1',
 	'maintenance-memc-requests'         => 'Заявки',
 	'maintenance-memc-total'            => 'общо:',
+);
+
+/** German (Deutsch)
+ * @author DaSch
+ */
+$messages['de'] = array(
+	'maintenance'                     => 'Wartungs-Skript starten',
+	'maintenance-desc'                => '[[Spezial:Maintenance|Web-Interface]] für verschiedene Wartungs-Skripts',
+	'maintenance-backlink'            => 'Zurück zur Skript-Auswahl',
+	'maintenance-deleteRevision-desc' => 'Revisionen aus der Datenbank entfernen',
+	'maintenance-name'                => 'Benutzername',
+	'maintenance-password'            => 'Passwort',
+	'maintenance-reason'              => 'Grund',
+	'maintenance-confirm'             => 'Bestätigen',
+	'maintenance-failed'              => 'Fehlgeschlagen',
+	'maintenance-deleted'             => 'GELÖSCHT',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'maintenance-deleteBatch-desc' => 'Amasforigi paĝojn',
+	'maintenance-invalidtype'      => 'Nevalida speco!',
+	'maintenance-name'             => 'Salutnomo',
+	'maintenance-password'         => 'Pasvorto',
+	'maintenance-reason'           => 'Kialo',
+	'maintenance-confirm'          => 'Konfirmi',
+	'maintenance-error'            => 'Eraro: $1',
 );
 
 /** Finnish (Suomi)
@@ -272,13 +327,61 @@ $messages['ko'] = array(
 	'maintenance-password' => '비밀번호',
 );
 
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'maintenance'                       => 'Waadongsprojramme loufe lohße',
+	'maintenance-desc'                  => '[[Special:Maintenance|Web Engerfäjß]] för divärse Waadongsprojramme',
+	'maintenance-backlink'              => 'Zoröck zom Projramm-Wähle',
+	'maintenance-header'                => 'Donn hee e Projramm ußsööke wat De loufe lohße wells.
+Näve dä Projramme es koot jesaat, wat se donn.',
+	'maintenance-changePassword-desc'   => 'Ennem Metmaacher sing Paßwoot ändere',
+	'maintenance-createAndPromote-desc' => 'Don ene Metmaacher aanlääje un zom Wiki-Köbes maache',
+	'maintenance-deleteBatch-desc'      => 'Massehaff Sigge fottschmiiße',
+	'maintenance-deleteRevision-desc'   => 'Sigge-Versione uß de Datebank schmiiße',
+	'maintenance-initEditCount-desc'    => 'Ennem Metmaacher sing Aanzahl Sigge-Änderonge neu ußzälle',
+	'maintenance-initStats-desc'        => 'De Sigge ier Statistike neu ußzälle',
+	'maintenance-moveBatch-desc'        => 'Messehaff Sigge ömnänne',
+	'maintenance-runJobs-desc'          => 'Opjaave uß de Leß aanshtüße, dat jetz jedonn wääde',
+	'maintenance-showJobs-desc'         => 'De Leß met de Opjave aanzeije',
+	'maintenance-stats-desc'            => 'Zeich de Statistike vom <tt>Memcached</tt>',
+	'maintenance-changePassword'        => 'Ennem Medmaacher sing Passwoot övver e Formular änndere',
+	'maintenance-name'                  => 'Metmaacher Name',
+	'maintenance-password'              => 'Passwood',
+	'maintenance-bureaucrat'            => 'Mach enne Bürrokrad uß ennem Metmaacher',
+	'maintenance-reason'                => 'Jrond oddo Aanlaß',
+	'maintenance-update'                => 'Met Höksche: bruch <span style="text-transform:uppercase">update</span> wann de Tabäll jänndert wede soll. Ohne Höksche: nemm <span style="text-transform:uppercase">delete</span> odder <span style="text-transform:uppercase">insert</span> doför.',
+	'maintenance-invalidname'           => 'Der Metmaacher kenne mer nit!',
+	'maintenance-success'               => '„$1“ es met Erfolch jeloufe!',
+	'maintenance-userexists'            => 'Dä Metmaacher jidd_et ald!',
+	'maintenance-failed'                => '<span style="text-transform:uppercase">donevve jejange</span>',
+	'maintenance-deleted'               => '<span style="text-transform:uppercase">fottjeschmesse</span>',
+	'maintenance-revnotfound'           => 'En Version $1 hammer nit jefonge!',
+	'maintenance-stats-edits'           => 'Aanzahl Sigge-Änderonge: $1',
+	'maintenance-stats-articles'        => 'Aanzahl Sigge em Appachtemang met de Atikele: $1',
+	'maintenance-stats-pages'           => 'Aanzahl Sigge: $1',
+	'maintenance-stats-users'           => 'Aanzahl Metmaacher: $1',
+	'maintenance-stats-admins'          => 'Aanzahl Wiki-Köbesse: $1',
+	'maintenance-stats-images'          => 'Aanzahl Dateie: $1',
+	'maintenance-stats-views'           => 'Aanzahl Sigge-Afroofe: $1',
+	'maintenance-move'                  => 'Ben „$1“ op „$2“ aam Ömenne&nbsp;…',
+	'maintenance-error'                 => 'Fähler: $1',
+	'maintenance-memc-fake'             => 'Ühr hat der <code>FakeMemCachedClient</code> am Loufe. Do jidd_et kein Statistike för.',
+	'maintenance-memc-hits'             => 'Treffer:',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
 	'maintenance'                     => 'Maintenance-Skripten ausféieren',
+	'maintenance-backlink'            => "Zréck op d'Auswiel vum Script",
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
+	'maintenance-deleteBatch-desc'    => 'Vill Säite matenee läschen',
+	'maintenance-deleteRevision-desc' => 'Versiounen aus der Datebank eraushuelen',
 	'maintenance-initStats-desc'      => "D'Statistike vum Site neiberechnen",
+	'maintenance-moveBatch-desc'      => 'Vill Säite matenee réckelen',
 	'maintenance-showJobs-desc'       => "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
 	'maintenance-changePassword'      => "Dëse Formulaire benotze fir engem Benotzer säi Passwuert z'änneren",
 	'maintenance-name'                => 'Benotzernumm',
@@ -287,6 +390,7 @@ $messages['lb'] = array(
 	'maintenance-reason'              => 'Grond',
 	'maintenance-confirm'             => 'Confirméieren',
 	'maintenance-invalidname'         => 'Ongëltege Benotzernumm!',
+	'maintenance-success'             => '$1 ass gemaach ginn!',
 	'maintenance-userexists'          => 'De Benotzer gëtt et schonn!',
 	'maintenance-invalidtitle'        => 'Ongëltegen Titel "$1"!',
 	'maintenance-deleted'             => 'GELÄSCHT',
@@ -305,6 +409,7 @@ $messages['lb'] = array(
 	'maintenance-memc-requests'       => 'Ufroen',
 	'maintenance-memc-total'          => 'Total:',
 	'maintenance-memc-absent'         => 'net do:',
+	'maintenance-memc-updates'        => 'Aktualiséierungen:',
 );
 
 /** Malayalam (മലയാളം)
@@ -610,7 +715,7 @@ Las descripcions son a la seguida de cadun d'aquestes.",
 	'maintenance-deleteRevision-desc'   => 'Levar las versions de la banca de donadas',
 	'maintenance-initEditCount-desc'    => 'Tornar calcular los comptadors d’edicions dels utilizaires',
 	'maintenance-initStats-desc'        => 'Tornar calcular las estatisticas del sit',
-	'maintenance-moveBatch-desc'        => 'Renomenatge en massa de las paginas',
+	'maintenance-moveBatch-desc'        => 'Cambiament de nom en massa de las paginas',
 	'maintenance-runJobs-desc'          => "Aviar los prètzfaches dins la lista de los d'acomplir",
 	'maintenance-showJobs-desc'         => "Afichar una lista dels prètzfaches en cors dins la lista de los d'acomplir",
 	'maintenance-stats-desc'            => 'Afichar las estatisticas de la memòria-amagatal',
@@ -650,7 +755,7 @@ Cada linha deurà indicar la pagina d’origina e la de destinacion ; lasqualas 
 	'maintenance-stats-views'           => 'Nombre de paginas visitadas : $1',
 	'maintenance-stats-update'          => 'Mesa a jorn de la banca de donadas…',
 	'maintenance-move'                  => 'Desplaçament de $1 vèrs $2…',
-	'maintenance-movefail'              => 'Error constatada al moment del renomenatge : $1.
+	'maintenance-movefail'              => 'Error constatada al moment del cambiament de nom : $1.
 Arrèst del desplaçament.',
 	'maintenance-error'                 => 'Error : $1',
 	'maintenance-memc-fake'             => "Sètz a aviar FakeMemCachedClient. Cap d'estatistica serà pas provesida.",
@@ -658,7 +763,7 @@ Arrèst del desplaçament.',
 	'maintenance-memc-withsession'      => 'amb la sesilha :',
 	'maintenance-memc-withoutsession'   => 'sens la sesilha :',
 	'maintenance-memc-total'            => 'soma :',
-	'maintenance-memc-parsercache'      => 'Amagatal parsor',
+	'maintenance-memc-parsercache'      => 'Amagatal del parser',
 	'maintenance-memc-hits'             => 'clics :',
 	'maintenance-memc-invalid'          => 'invalid :',
 	'maintenance-memc-expired'          => 'expirats :',
