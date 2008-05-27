@@ -184,6 +184,7 @@ $messages['eo'] = array(
 	'maintenance-password'         => 'Pasvorto',
 	'maintenance-reason'           => 'Kialo',
 	'maintenance-confirm'          => 'Konfirmi',
+	'maintenance-invalidname'      => 'Nevalida salutnomo!',
 	'maintenance-error'            => 'Eraro: $1',
 );
 
@@ -369,6 +370,7 @@ Näve dä Projramme es koot jesaat, wat se donn.',
 	'maintenance-move'                  => 'Ben „$1“ op „$2“ aam Ömenne&nbsp;…',
 	'maintenance-error'                 => 'Fähler: $1',
 	'maintenance-memc-fake'             => 'Ühr hat der <code>FakeMemCachedClient</code> am Loufe. Do jidd_et kein Statistike för.',
+	'maintenance-memc-total'            => 'Zosamme:',
 	'maintenance-memc-hits'             => 'Treffer:',
 );
 
