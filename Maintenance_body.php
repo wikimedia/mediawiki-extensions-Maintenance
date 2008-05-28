@@ -101,7 +101,7 @@ class Maintenance extends SpecialPage {
 	}
 
 	function executeScript( $type ) {
-		global $wgOut, $wgRequest, $wgDBprefix;
+		global $wgOut, $wgRequest;
 		wfLoadExtensionMessages('Maintenance');
 		$this->setHeaders();
 		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
@@ -117,7 +117,7 @@ class Maintenance extends SpecialPage {
 				}
 				$dbw = wfGetDB( DB_MASTER );
 				$fname = 'ChangePassword::main';
-				$dbw->update( $wgDBprefix.'user', array( 'user_password' => wfEncryptPassword( $user->getID(), $password ) ), array( 'user_id' => $user->getID() ), $fname );
+				$dbw->update( 'user', array( 'user_password' => wfEncryptPassword( $user->getID(), $password ) ), array( 'user_id' => $user->getID() ), $fname );
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
 				break;
 			case 'createAndPromote':
@@ -192,7 +192,7 @@ class Maintenance extends SpecialPage {
 				$fname = 'deleteRevision';
 				$dbw = wfGetDB( DB_MASTER );
 				foreach ( $revisions as $revID ) {
-					$dbw->insertSelect( $wgDBprefix.'archive', array( $wgDBprefix.'page', $wgDBprefix.'revision' ),
+					$dbw->insertSelect( 'archive', array( 'page', 'revision' ),
 						array(
 							'ar_namespace'  => 'page_namespace',
 							'ar_title'      => 'page_title',
@@ -212,7 +212,7 @@ class Maintenance extends SpecialPage {
 						$wgOut->addWikiText( wfMsg('maintenance-revnotfound', array( $revID ) ) );
 					} else {
 						$affected += $dbw->affectedRows();
-						$dbw->delete( $wgDBprefix.'revision', array( 'rev_id' => $revID ) );
+						$dbw->delete( 'revision', array( 'rev_id' => $revID ) );
 					}
 				}
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
@@ -220,12 +220,12 @@ class Maintenance extends SpecialPage {
 			case 'initEditCount':
 				global $wgDBservers;
 				$dbw = wfGetDB( DB_MASTER );
-				$user = $dbw->tableName( $wgDBprefix.'user' );
-				$revision = $dbw->tableName( $wgDBprefix.'revision' );
+				$user = $dbw->tableName( 'user' );
+				$revision = $dbw->tableName( 'revision' );
 				$dbver = $dbw->getServerVersion();
 				$dbr = wfGetDB( DB_SLAVE );
 				$chunkSize = 100;
-				$lastUser = $dbr->selectField( $wgDBprefix.'user', 'MAX(user_id)', '', __FUNCTION__ );
+				$lastUser = $dbr->selectField( 'user', 'MAX(user_id)', '', __FUNCTION__ );
 				$start = microtime( true );
 				$migrated = 0;
 				for( $min = 0; $min <= $lastUser; $min += $chunkSize ) {
@@ -268,7 +268,7 @@ class Maintenance extends SpecialPage {
 				$image = $dbr->selectField( 'image', 'COUNT(*)', '', __METHOD__ );
 				$wgOut->addWikiText(wfMsg('maintenance-stats-images', array( $image ) ) );
 				if( !$wgRequest->getCheck('wpNoview') ) {
-					$views = $dbr->selectField( $wgDBprefix.'page', 'SUM(page_counter)', '', __METHOD__ );
+					$views = $dbr->selectField( 'page', 'SUM(page_counter)', '', __METHOD__ );
 					$wgOut->addWikiText(wfMsg('maintenance-stats-views', array( $views ) ) );
 				}
 				$wgOut->addWikiText(wfMsg('maintenance-stats-update') );
@@ -283,10 +283,10 @@ class Maintenance extends SpecialPage {
 				$views = array( 'ss_total_views' => isset( $views ) ? $views : 0 );
 
 				if( $wgRequest->getCheck('wpUpdate') ) {
-					$dbw->update( $wgDBprefix.'site_stats', $values, $conds, __METHOD__ );
+					$dbw->update( 'site_stats', $values, $conds, __METHOD__ );
 				} else {
-					$dbw->delete( $wgDBprefix.'site_stats', $conds, __METHOD__ );
-					$dbw->insert( $wgDBprefix.'site_stats', array_merge( $values, $conds, $views ), __METHOD__ );
+					$dbw->delete( 'site_stats', $conds, __METHOD__ );
+					$dbw->insert( 'site_stats', array_merge( $values, $conds, $views ), __METHOD__ );
 				}
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
 				break;
@@ -323,7 +323,7 @@ class Maintenance extends SpecialPage {
 				$dbw = wfGetDB( DB_MASTER );
 				$n = 0;
 				$conds = '';
-				while ( $dbw->selectField( $wgDBprefix.'job', 'count(*)', $conds, 'runJobs.php' ) ) {
+				while ( $dbw->selectField( 'job', 'count(*)', $conds, 'runJobs.php' ) ) {
 					$offset=0;
 					for (;;) {
 						$job = 	Job::pop($offset);
