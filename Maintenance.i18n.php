@@ -307,6 +307,14 @@ $messages['gl'] = array(
 	'maintenance-password' => 'Contrasinal',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Rex
+ */
+$messages['id'] = array(
+	'maintenance-name'   => 'Nama pengguna',
+	'maintenance-reason' => 'Alasan',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  */
