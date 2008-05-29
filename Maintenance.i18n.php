@@ -166,12 +166,20 @@ $messages['de'] = array(
 	'maintenance-desc'                => '[[Spezial:Maintenance|Web-Interface]] für verschiedene Wartungs-Skripts',
 	'maintenance-backlink'            => 'Zurück zur Skript-Auswahl',
 	'maintenance-deleteRevision-desc' => 'Revisionen aus der Datenbank entfernen',
+	'maintenance-runJobs-desc'        => 'Aufträge in Warteschlange ausführen',
 	'maintenance-name'                => 'Benutzername',
 	'maintenance-password'            => 'Passwort',
 	'maintenance-reason'              => 'Grund',
 	'maintenance-confirm'             => 'Bestätigen',
+	'maintenance-userexists'          => 'Benutzer existiert bereits!',
 	'maintenance-failed'              => 'Fehlgeschlagen',
 	'maintenance-deleted'             => 'GELÖSCHT',
+	'maintenance-stats-edits'         => 'Anzahl an Bearbeitungen: $1',
+	'maintenance-stats-pages'         => 'Anzahl an Seiten: $1',
+	'maintenance-stats-users'         => 'Anzahl an Benutzern: $1',
+	'maintenance-stats-admins'        => 'Anzahl an Administratoren: $1',
+	'maintenance-stats-images'        => 'Anzahl an Dateien: $1',
+	'maintenance-stats-views'         => 'Anzahl an Seitenaufrufen: $1',
 );
 
 /** Esperanto (Esperanto)
@@ -311,8 +319,9 @@ $messages['gl'] = array(
  * @author Rex
  */
 $messages['id'] = array(
-	'maintenance-name'   => 'Nama pengguna',
-	'maintenance-reason' => 'Alasan',
+	'maintenance-name'       => 'Nama pengguna',
+	'maintenance-reason'     => 'Alasan',
+	'maintenance-memc-total' => 'total:',
 );
 
 /** Icelandic (Íslenska)
