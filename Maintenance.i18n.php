@@ -836,12 +836,40 @@ Arrèst del desplaçament.',
 
 /** Polish (Polski)
  * @author McMonster
+ * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'maintenance-name'     => 'Nazwa użytkownika',
-	'maintenance-password' => 'Hasło',
-	'maintenance-reason'   => 'Powód',
-	'maintenance-confirm'  => 'Potwierdź',
+	'maintenance'                       => 'Uruchom skrypty konserwacyjne',
+	'maintenance-desc'                  => '[[Special:Maintenance|Interfejs]] dla różnych skryptów konserwacyjnych',
+	'maintenance-backlink'              => 'Wróć do wyboru skryptu',
+	'maintenance-header'                => 'Wybierz skrypt, który chcesz uruchomić.
+Przy nazwach skryptów znajdują się ich opisy.',
+	'maintenance-changePassword-desc'   => 'Zmień hasło użytkownika',
+	'maintenance-createAndPromote-desc' => 'Utwórz użytkownika i nadaj mu uprawnienia administratora',
+	'maintenance-deleteBatch-desc'      => 'Usuń masowo strony',
+	'maintenance-initEditCount-desc'    => 'Przelicz ponownie liczniki edycji użytkowników',
+	'maintenance-initStats-desc'        => 'Przelicz ponownie statystyki strony',
+	'maintenance-moveBatch-desc'        => 'Przenieś masowo strony',
+	'maintenance-runJobs-desc'          => 'Uruchom zadania z kolejki',
+	'maintenance-showJobs-desc'         => 'Pokaż kolejkę zadań oczekujących na wykonanie',
+	'maintenance-changePassword'        => 'Użyj tego formularza, by zmienić hasło użytkownika',
+	'maintenance-createAndPromote'      => 'Użyj tego formularza, by utworzyć nowe konto użytkownika i nadać mu uprawnienia administratora.
+Zaznacz pole wyboru poniżej, aby przyznać mu również uprawnienia biurokraty.',
+	'maintenance-name'                  => 'Nazwa użytkownika',
+	'maintenance-password'              => 'Hasło',
+	'maintenance-bureaucrat'            => 'Przyznaj użytkownikowi uprawnienia biurokraty',
+	'maintenance-reason'                => 'Powód',
+	'maintenance-confirm'               => 'Potwierdź',
+	'maintenance-userexists'            => 'Użytkownik już istnieje!',
+	'maintenance-stats-pages'           => 'Liczba stron: $1',
+	'maintenance-stats-users'           => 'Liczba użytkowników: $1',
+	'maintenance-stats-admins'          => 'Liczba administratorów: $1',
+	'maintenance-stats-images'          => 'Liczba plików: $1',
+	'maintenance-stats-views'           => 'Liczba odwiedzin strony: $1',
+	'maintenance-stats-update'          => 'Aktualizowanie bazy...',
+	'maintenance-movefail'              => 'Wystąpił błąd przy przenoszeniu $1.
+Przenoszenie przerwane.',
+	'maintenance-error'                 => 'Błąd: $1',
 );
 
 /** Pashto (پښتو)
