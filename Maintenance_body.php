@@ -117,7 +117,9 @@ class Maintenance extends SpecialPage {
 				}
 				$dbw = wfGetDB( DB_MASTER );
 				$fname = 'ChangePassword::main';
-				$dbw->update( 'user', array( 'user_password' => wfEncryptPassword( $user->getID(), $password ) ), array( 'user_id' => $user->getID() ), $fname );
+
+				$user->setPassword( $password );
+				$user->saveSettings();
 				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
 				break;
 			case 'createAndPromote':
