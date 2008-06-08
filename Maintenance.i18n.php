@@ -158,6 +158,11 @@ $messages['bg'] = array(
 	'maintenance-memc-total'            => 'общо:',
 );
 
+/** Church Slavic (Словѣньскъ) */
+$messages['cu'] = array(
+	'maintenance-name' => 'по́льꙃєватєлꙗ и́мѧ',
+);
+
 /** German (Deutsch)
  * @author DaSch
  */
@@ -866,7 +871,7 @@ Zaznacz pole wyboru poniżej, aby przyznać mu również uprawnienia biurokraty.
 	'maintenance-stats-admins'          => 'Liczba administratorów: $1',
 	'maintenance-stats-images'          => 'Liczba plików: $1',
 	'maintenance-stats-views'           => 'Liczba odwiedzin strony: $1',
-	'maintenance-stats-update'          => 'Aktualizowanie bazy...',
+	'maintenance-stats-update'          => 'Aktualizacja bazy danych...',
 	'maintenance-movefail'              => 'Wystąpił błąd przy przenoszeniu $1.
 Przenoszenie przerwane.',
 	'maintenance-error'                 => 'Błąd: $1',
@@ -878,6 +883,14 @@ Przenoszenie przerwane.',
 $messages['ps'] = array(
 	'maintenance-memc-total'   => 'ټولټال:',
 	'maintenance-memc-invalid' => 'ناسم:',
+);
+
+/** Russian (Русский) */
+$messages['ru'] = array(
+	'maintenance-name'        => 'Имя участника',
+	'maintenance-password'    => 'Пароль',
+	'maintenance-reason'      => 'Причина',
+	'maintenance-stats-edits' => 'Число правок: $1',
 );
 
 /** Slovak (Slovenčina)
