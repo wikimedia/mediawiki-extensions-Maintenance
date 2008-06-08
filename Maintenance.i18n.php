@@ -158,7 +158,9 @@ $messages['bg'] = array(
 	'maintenance-memc-total'            => 'общо:',
 );
 
-/** Church Slavic (Словѣньскъ) */
+/** Church Slavic (Словѣньскъ)
+ * @author ОйЛ
+ */
 $messages['cu'] = array(
 	'maintenance-name' => 'по́льꙃєватєлꙗ и́мѧ',
 );
@@ -885,7 +887,10 @@ $messages['ps'] = array(
 	'maintenance-memc-invalid' => 'ناسم:',
 );
 
-/** Russian (Русский) */
+/** Russian (Русский)
+ * @author Innv
+ * @author Александр Сигачёв
+ */
 $messages['ru'] = array(
 	'maintenance-name'        => 'Имя участника',
 	'maintenance-password'    => 'Пароль',
