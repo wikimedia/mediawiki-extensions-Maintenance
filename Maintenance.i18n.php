@@ -128,23 +128,36 @@ $messages['ar'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'maintenance'                       => 'Пускане на скриптове за поддръжка',
 	'maintenance-desc'                  => '[[Special:Maintenance|Уеб интерфейс]] за различни скриптове за поддръжка',
+	'maintenance-backlink'              => 'Връщане към избора на скрипт',
 	'maintenance-changePassword-desc'   => 'Променяне на потребителска парола',
 	'maintenance-createAndPromote-desc' => 'Създаване на потребител и даване на администраторски права',
 	'maintenance-deleteBatch-desc'      => 'Масово изтриване на страници',
 	'maintenance-deleteRevision-desc'   => 'Премахване на версии от базата от данни',
+	'maintenance-initEditCount-desc'    => 'Преизчисляване на броя редакции, направени от потребителите',
 	'maintenance-initStats-desc'        => 'Опресняване на статистиките на сайта',
 	'maintenance-moveBatch-desc'        => 'Масово преместване на страници',
 	'maintenance-changePassword'        => 'Формулярът по-долу се използва за промяна на паролата на потребител',
+	'maintenance-deleteBatch'           => 'Този формуляр служи за масово изтриване на страници.
+Всеки ред трябва да съдържа по една страница',
+	'maintenance-deleteRevision'        => 'Този формуляр служи за масово изтриване на версии.
+Всеки ред трябва да съдържа по един номер на версия',
+	'maintenance-moveBatch'             => 'Този формуляр служи за масово преместване на страници.
+Всеки ред трябва да съдържа основна страница и целева страница, разделени с отвесна черта',
+	'maintenance-invalidtype'           => 'Невалиден тип!',
 	'maintenance-name'                  => 'Потребителско име',
 	'maintenance-password'              => 'Парола',
 	'maintenance-bureaucrat'            => 'Предоставяне на права на бюрократ',
 	'maintenance-reason'                => 'Причина',
+	'maintenance-update'                => 'Използване на UPDATE при обновяване на таблиците? Без отметка се използва DELETE/INSERT.',
+	'maintenance-noviews'               => 'Поставянето на отметка ще спре обновяването на броя прегледи на страниците',
 	'maintenance-confirm'               => 'Потвърждаване',
 	'maintenance-invalidname'           => 'Невалидно потребителско име!',
 	'maintenance-userexists'            => 'Този потребител вече съществува!',
 	'maintenance-invalidtitle'          => 'Невалидно заглавие „$1“!',
 	'maintenance-titlenoexist'          => 'Посоченото заглавие („$1“) не съществува!',
+	'maintenance-revnotfound'           => 'Версия $1 не беше намерена!',
 	'maintenance-stats-edits'           => 'Брой редакции: $1',
 	'maintenance-stats-articles'        => 'Брой страници в основното именно пространство: $1',
 	'maintenance-stats-pages'           => 'Брой страници: $1',
@@ -153,6 +166,9 @@ $messages['bg'] = array(
 	'maintenance-stats-images'          => 'Брой файлове: $1',
 	'maintenance-stats-views'           => 'Брой прегледи на страниците: $1',
 	'maintenance-stats-update'          => 'Обновяване на базата от данни...',
+	'maintenance-move'                  => 'Преместване на $1 като $2...',
+	'maintenance-movefail'              => 'Възникна грешка при преместване: $1.
+Прекратяване на преместването.',
 	'maintenance-error'                 => 'Грешка: $1',
 	'maintenance-memc-requests'         => 'Заявки',
 	'maintenance-memc-total'            => 'общо:',
@@ -247,7 +263,7 @@ $messages['fr'] = array(
 	'maintenance-backlink'              => 'Retour vers la sélection du script',
 	'maintenance-header'                => 'Veuillez sélectionnez, ci-dessous, un script à exécuter.
 Les descriptions sont à la suite de chacun de ceux-ci.',
-	'maintenance-changePassword-desc'   => 'Cchanger le mot de passe d’un utilisateur',
+	'maintenance-changePassword-desc'   => 'Changer le mot de passe d’un utilisateur',
 	'maintenance-createAndPromote-desc' => 'Créer un utilisateur et promouvoir au statut d’administrateur',
 	'maintenance-deleteBatch-desc'      => 'Suppression en masse des pages',
 	'maintenance-deleteRevision-desc'   => 'Enlever les versions de la base de donnée',
@@ -255,7 +271,7 @@ Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-initStats-desc'        => 'Recalculer les statistiques du site',
 	'maintenance-moveBatch-desc'        => 'Renommage en masse des pages',
 	'maintenance-runJobs-desc'          => 'Lancer les tâches dans la liste de celles à accomplir',
-	'maintenance-showJobs-desc'         => 'Affichier une liste des tâches en cours dans la liste de celles à accomplir',
+	'maintenance-showJobs-desc'         => 'Afficher une liste des tâches en cours dans la liste de celles à accomplir',
 	'maintenance-stats-desc'            => 'Afficher les statistiques de la mémoire-cache',
 	'maintenance-changePassword'        => 'Utiliser ce formulaire pour changer le mot de passe d’un utilisateur',
 	'maintenance-createAndPromote'      => 'Utiliser ce formulaire pour créer un nouvel utilisateur et pour le promouvoir administrateur.
@@ -276,7 +292,7 @@ Chaque ligne devra indiquer la page d’origine et celle de destination lesquell
 	'maintenance-noviews'               => 'Cocher ceci pour éviter la mise à jour du nombre de visites des pages.',
 	'maintenance-confirm'               => 'Confirmer',
 	'maintenance-invalidname'           => 'Nom d’utilisateur incorrect !',
-	'maintenance-success'               => '$1 a tourné avec succès !',
+	'maintenance-success'               => '$1 s’est déroulé avec succès !',
 	'maintenance-userexists'            => 'L’utilisateur existe déjà !',
 	'maintenance-invalidtitle'          => 'Titre incorrect « $1 » !',
 	'maintenance-titlenoexist'          => 'Le titre indiqué (« $1 ») n’existe pas !',
@@ -445,6 +461,7 @@ $messages['lb'] = array(
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
 	'maintenance-deleteBatch-desc'    => 'Vill Säite matenee läschen',
 	'maintenance-deleteRevision-desc' => 'Versiounen aus der Datebank eraushuelen',
+	'maintenance-initEditCount-desc'  => "D'Compteuren vun den Ännerunge vun de Benotzer nei berechnen",
 	'maintenance-initStats-desc'      => "D'Statistike vum Site neiberechnen",
 	'maintenance-moveBatch-desc'      => 'Vill Säite matenee réckelen',
 	'maintenance-showJobs-desc'       => "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
@@ -1053,6 +1070,7 @@ Avbryt flyttning',
  * @author Veeven
  */
 $messages['te'] = array(
+	'maintenance-name'          => 'వాడుకరిపేరు',
 	'maintenance-password'      => 'సంకేతపదం',
 	'maintenance-reason'        => 'కారణం',
 	'maintenance-stats-pages'   => 'పేజీల సంఖ్య: $1',
@@ -1061,6 +1079,7 @@ $messages['te'] = array(
 	'maintenance-stats-images'  => 'ఫైళ్ళ సంఖ్య: $1',
 	'maintenance-error'         => 'పొరపాటు: $1',
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
+	'maintenance-memc-total'    => 'మొత్తం:',
 );
 
 /** Turkish (Türkçe)
