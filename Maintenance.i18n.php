@@ -100,17 +100,31 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author OsamaK
+ * @author Meno25
  */
 $messages['ar'] = array(
+	'maintenance'                     => 'تشغيل سكريبتات الصيانة',
+	'maintenance-desc'                => '[[Special:Maintenance|واجهة ويب]] لسكريبتات صيانة مختلفة',
+	'maintenance-backlink'            => 'الرجوع إلى اختيار السكريبت',
+	'maintenance-deleteBatch-desc'    => 'حذف كمي للصفحات',
+	'maintenance-deleteRevision-desc' => 'إزالة المراجعات من قاعدة البيانات',
+	'maintenance-initEditCount-desc'  => 'إعادة حساب عدد التعديلات للمستخدمين',
+	'maintenance-initStats-desc'      => 'إعادة حساب إحصاءات الموقع',
+	'maintenance-moveBatch-desc'      => 'نقل كمي للصفحات',
+	'maintenance-runJobs-desc'        => 'تنفيذ الأشغال في طابور الشغل',
+	'maintenance-changePassword'      => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
 	'maintenance-invalidtype'         => 'نوع غير صحيح!',
 	'maintenance-name'                => 'اسم مستخدم',
 	'maintenance-password'            => 'كلمة السر',
+	'maintenance-bureaucrat'          => 'ترقية مستخدم إلى حالة بيروقراط',
 	'maintenance-reason'              => 'سبب',
+	'maintenance-confirm'             => 'تأكيد',
 	'maintenance-invalidname'         => 'اسم مستخدم غير صحيح!',
 	'maintenance-userexists'          => 'المستخدم موجود حاليا!',
 	'maintenance-invalidtitle'        => 'عنوان غير صحيح "$1"!',
 	'maintenance-failed'              => 'فشل',
 	'maintenance-deleted'             => 'حُذف',
+	'maintenance-stats-edits'         => 'عدد التعديلات: $1',
 	'maintenance-stats-pages'         => 'عدد الصفحات: $1',
 	'maintenance-stats-users'         => 'عدد المستخدمين: $1',
 	'maintenance-stats-admins'        => 'عدد الإداريين: $1',
@@ -256,40 +270,41 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Grondin
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'maintenance'                       => 'Lancer les scripts de maintenance',
-	'maintenance-desc'                  => '[[Special:Maintenance|Interface Web]] pour les différents scripts de maintenance',
-	'maintenance-backlink'              => 'Retour vers la sélection du script',
+	'maintenance-desc'                  => '[[Special:Maintenance|Interface Web]] pour divers scripts de maintenance',
+	'maintenance-backlink'              => 'Retour à la sélection du script',
 	'maintenance-header'                => 'Veuillez sélectionnez, ci-dessous, un script à exécuter.
 Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-changePassword-desc'   => 'Changer le mot de passe d’un utilisateur',
 	'maintenance-createAndPromote-desc' => 'Créer un utilisateur et promouvoir au statut d’administrateur',
-	'maintenance-deleteBatch-desc'      => 'Suppression en masse des pages',
-	'maintenance-deleteRevision-desc'   => 'Enlever les versions de la base de donnée',
-	'maintenance-initEditCount-desc'    => 'Recalculer les compteurs d’éditions des utilisateurs',
+	'maintenance-deleteBatch-desc'      => 'Suppression de pages en masse',
+	'maintenance-deleteRevision-desc'   => 'Enlever des versions de la base de données',
+	'maintenance-initEditCount-desc'    => 'Recalculer les compteurs de modifications des utilisateurs',
 	'maintenance-initStats-desc'        => 'Recalculer les statistiques du site',
-	'maintenance-moveBatch-desc'        => 'Renommage en masse des pages',
+	'maintenance-moveBatch-desc'        => 'Renommage de pages en masse',
 	'maintenance-runJobs-desc'          => 'Lancer les tâches dans la liste de celles à accomplir',
 	'maintenance-showJobs-desc'         => 'Afficher une liste des tâches en cours dans la liste de celles à accomplir',
-	'maintenance-stats-desc'            => 'Afficher les statistiques de la mémoire-cache',
+	'maintenance-stats-desc'            => 'Afficher les statistiques de la mémoire cache',
 	'maintenance-changePassword'        => 'Utiliser ce formulaire pour changer le mot de passe d’un utilisateur',
-	'maintenance-createAndPromote'      => 'Utiliser ce formulaire pour créer un nouvel utilisateur et pour le promouvoir administrateur.
+	'maintenance-createAndPromote'      => 'Utiliser ce formulaire pour créer un nouvel utilisateur et le promouvoir administrateur.
 Cocher la case bureaucrate si vous désirez lui conférer aussi ce statut.',
-	'maintenance-deleteBatch'           => 'Utilisez ce formulaire pour supprimer en masse des pages/
-Indiquer une seule page par ligne',
-	'maintenance-deleteRevision'        => 'Utilisez ce formulaire pour supprimer en masse les versions.
-Indiquez une seule version par ligne',
+	'maintenance-deleteBatch'           => 'Utilisez ce formulaire pour supprimer en masse des pages.
+Indiquer une seule page par ligne.',
+	'maintenance-deleteRevision'        => 'Utilisez ce formulaire pour supprimer en masse des versions.
+Indiquez une seule version par ligne.',
 	'maintenance-initStats'             => 'Utilisez ce formulaire pour recalculer les statistiques du site, en indiquant, le cas échéant, si vous désirez le recalcul du nombre de visites par page.',
-	'maintenance-moveBatch'             => 'Utilisez ce formulaire pour déplacer en masse les pages.
-Chaque ligne devra indiquer la page d’origine et celle de destination lesquelles devront être séparées par un « <nowiki>|</nowiki> »',
+	'maintenance-moveBatch'             => 'Utilisez ce formulaire pour déplacer en masse des pages.
+Chaque ligne devra indiquer la page d’origine et celle de destination, lesquelles devront être séparées par un « <nowiki>|</nowiki> »',
 	'maintenance-invalidtype'           => 'Type incorrect !',
 	'maintenance-name'                  => 'Nom d’utilisateur',
 	'maintenance-password'              => 'Mot de passe',
 	'maintenance-bureaucrat'            => 'Promouvoir l’utilisateur au statut de bureaucrate',
 	'maintenance-reason'                => 'Motif',
-	'maintenance-update'                => "Utiliser UPDATE lors de la mise à jour d'une table ? Décochez l'usage DELETE/INSERT au lieu de cela.",
-	'maintenance-noviews'               => 'Cocher ceci pour éviter la mise à jour du nombre de visites des pages.',
+	'maintenance-update'                => "Voulez-vous utiliser la méthode ''UPDATE'' pour la mise à jour directe d’une table ? Décochez l’option pour utiliser plutôt ''DELETE/INSERT'' (suppression puis réinsertion).",
+	'maintenance-noviews'               => 'Cocher ceci pour empêcher la mise à jour du nombre de visites des pages.',
 	'maintenance-confirm'               => 'Confirmer',
 	'maintenance-invalidname'           => 'Nom d’utilisateur incorrect !',
 	'maintenance-success'               => '$1 s’est déroulé avec succès !',
@@ -298,21 +313,21 @@ Chaque ligne devra indiquer la page d’origine et celle de destination lesquell
 	'maintenance-titlenoexist'          => 'Le titre indiqué (« $1 ») n’existe pas !',
 	'maintenance-failed'                => 'ÉCHEC',
 	'maintenance-deleted'               => 'SUPPRIMÉ',
-	'maintenance-revdelete'             => 'Suppression des versions $1 depuis le wiki $2',
+	'maintenance-revdelete'             => 'Suppression des versions $1 du wiki $2',
 	'maintenance-revnotfound'           => 'Version $1 introuvable !',
-	'maintenance-stats-edits'           => 'Nombre d’éditions : $1',
-	'maintenance-stats-articles'        => 'Nombre de pages dans le même espace : $1',
+	'maintenance-stats-edits'           => 'Nombre de modifications : $1',
+	'maintenance-stats-articles'        => 'Nombre de pages dans l’espace principal : $1',
 	'maintenance-stats-pages'           => 'Nombre de pages : $1',
 	'maintenance-stats-users'           => 'Nombre d’utilisateurs : $1',
 	'maintenance-stats-admins'          => 'Nombre d’administrateurs : $1',
 	'maintenance-stats-images'          => 'Nombre de fichiers : $1',
 	'maintenance-stats-views'           => 'Nombre de pages visitées : $1',
-	'maintenance-stats-update'          => 'Mise à jour de la base de donnée…',
-	'maintenance-move'                  => 'Déplacement de $1 vers $2…',
-	'maintenance-movefail'              => 'Erreur a été relevée lors du renommage : $1.
-Arrêt du déplacement.',
+	'maintenance-stats-update'          => 'Mise à jour de la base de données...',
+	'maintenance-move'                  => 'Déplacement de $1 vers $2...',
+	'maintenance-movefail'              => 'Erreur survenue lors du renommage : $1.
+Déplacement interrompu.',
 	'maintenance-error'                 => 'Erreur : $1',
-	'maintenance-memc-fake'             => 'Vous être en train de lancer FakeMemCachedClient. Aucune statistique ne sera fournie.',
+	'maintenance-memc-fake'             => "Vous utilisez ''FakeMemCachedClient''. Aucune statistique ne sera fournie.",
 	'maintenance-memc-requests'         => 'Requêtes',
 	'maintenance-memc-withsession'      => 'avec la session :',
 	'maintenance-memc-withoutsession'   => 'sans la session :',
@@ -336,12 +351,18 @@ Arrêt du déplacement.',
 $messages['gl'] = array(
 	'maintenance-changePassword-desc'   => 'Cambiar o contrasinal dun usuario',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo ao status de administrador',
+	'maintenance-deleteBatch-desc'      => 'Borrar páxinas masivamente',
 	'maintenance-deleteRevision-desc'   => 'Borrar revisións da base de datos',
+	'maintenance-initEditCount-desc'    => 'Volver calcular o contador de edicións dos usuarios',
 	'maintenance-initStats-desc'        => 'Volver calcular as estatísticas do sitio',
+	'maintenance-moveBatch-desc'        => 'Mover páxinas masivamente',
+	'maintenance-runJobs-desc'          => 'Executar os traballos na cola de traballo',
+	'maintenance-showJobs-desc'         => 'Amosar a listaxe dos traballos pendentes na cola de traballo',
 	'maintenance-changePassword'        => 'Use este formulario para cambiar o contrasinal dun usuario',
 	'maintenance-invalidtype'           => 'Tipo inválido!',
 	'maintenance-name'                  => 'Nome de usuario',
 	'maintenance-password'              => 'Contrasinal',
+	'maintenance-bureaucrat'            => 'Promover este usuario ao status de burócrata',
 	'maintenance-reason'                => 'Razón',
 	'maintenance-confirm'               => 'Confirmar',
 	'maintenance-invalidname'           => 'Nome de usuario inválido!',
@@ -988,6 +1009,16 @@ Presúvanie sa ruší',
 	'maintenance-memc-updates'          => 'aktualizácií:',
 	'maintenance-memc-uncacheable'      => 'nebolo možné použiť vyrovnávaciu pamäť:',
 	'maintenance-memc-diffcache'        => 'Rozdiel vo vyrovnávacej pamäti',
+);
+
+/** Sundanese (Basa Sunda)
+ * @author Irwangatot
+ */
+$messages['su'] = array(
+	'maintenance-name'     => 'Landihan',
+	'maintenance-password' => 'Sandi',
+	'maintenance-reason'   => 'Alesan',
+	'maintenance-deleted'  => 'DIHAPUS',
 );
 
 /** Swedish (Svenska)
