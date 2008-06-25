@@ -87,6 +87,13 @@ Aborting move",
 	'maintenance-memc-diffcache'        => "Diff Cache",
 );
 
+/** Eastern Mari (Олык Марий йылме)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'maintenance-password' => 'Шолыпмут',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  */
@@ -159,6 +166,8 @@ $messages['bg'] = array(
 	'maintenance-initStats-desc'        => 'Опресняване на статистиките на сайта',
 	'maintenance-moveBatch-desc'        => 'Масово преместване на страници',
 	'maintenance-changePassword'        => 'Формулярът по-долу се използва за промяна на паролата на потребител',
+	'maintenance-createAndPromote'      => 'Следният формуляр служи за създаване на нов потребител и предоставянето му на администраторски права.
+Поставянето на отметка ще добави и права на бюрократ.',
 	'maintenance-deleteBatch'           => 'Този формуляр служи за масово изтриване на страници.
 Всеки ред трябва да съдържа по една страница',
 	'maintenance-deleteRevision'        => 'Този формуляр служи за масово изтриване на версии.
@@ -174,9 +183,11 @@ $messages['bg'] = array(
 	'maintenance-noviews'               => 'Поставянето на отметка ще спре обновяването на броя прегледи на страниците',
 	'maintenance-confirm'               => 'Потвърждаване',
 	'maintenance-invalidname'           => 'Невалидно потребителско име!',
+	'maintenance-success'               => '$1 беше изпълнен успешно!',
 	'maintenance-userexists'            => 'Този потребител вече съществува!',
 	'maintenance-invalidtitle'          => 'Невалидно заглавие „$1“!',
 	'maintenance-titlenoexist'          => 'Посоченото заглавие („$1“) не съществува!',
+	'maintenance-revdelete'             => 'Изтриване на версии $1 от уики $2',
 	'maintenance-revnotfound'           => 'Версия $1 не беше намерена!',
 	'maintenance-stats-edits'           => 'Брой редакции: $1',
 	'maintenance-stats-articles'        => 'Брой страници в основното именно пространство: $1',
@@ -355,6 +366,11 @@ Déplacement interrompu.',
  * @author Toliño
  */
 $messages['gl'] = array(
+	'maintenance'                       => 'Executar as escrituras de mantemento',
+	'maintenance-desc'                  => '[[Special:Maintenance|Interface da web]] para diversas escrituras de mantemento',
+	'maintenance-backlink'              => 'Voltar á selección de escrituras',
+	'maintenance-header'                => 'Por favor, seleccione a escritura de embaixo que queira executar.
+As descricións están ao lado de cada escritura',
 	'maintenance-changePassword-desc'   => 'Cambiar o contrasinal dun usuario',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo ao status de administrador',
 	'maintenance-deleteBatch-desc'      => 'Borrar páxinas masivamente',
@@ -364,12 +380,23 @@ $messages['gl'] = array(
 	'maintenance-moveBatch-desc'        => 'Mover páxinas masivamente',
 	'maintenance-runJobs-desc'          => 'Executar os traballos na cola de traballo',
 	'maintenance-showJobs-desc'         => 'Amosar a listaxe dos traballos pendentes na cola de traballo',
+	'maintenance-stats-desc'            => 'Amosar as estatísticas da memoria caché',
 	'maintenance-changePassword'        => 'Use este formulario para cambiar o contrasinal dun usuario',
+	'maintenance-createAndPromote'      => 'Use este formulario para crear un novo usuario e promovelo ao status de administrador.
+Comprobe a caixa de burócrata se quere tamén promovelo ao status de burócrata',
+	'maintenance-deleteBatch'           => 'Use este formulario para borrar revisións en masa.
+Poña só unha páxina por liña',
+	'maintenance-deleteRevision'        => 'Use este formulario para borrar revisións en masa.
+Poña só un número de revisión por liña',
+	'maintenance-initStats'             => 'Use este formulario para volver calcular as estatíticas do sitio, especificando se tamén quere calcular de novo os visionados por páxina',
+	'maintenance-moveBatch'             => 'Use este formulario para mover páxinas en masa.
+Cada liña debería especificar unha fonte e destino da páxina separados por unha barra (“|”)',
 	'maintenance-invalidtype'           => 'Tipo inválido!',
 	'maintenance-name'                  => 'Nome de usuario',
 	'maintenance-password'              => 'Contrasinal',
 	'maintenance-bureaucrat'            => 'Promover este usuario ao status de burócrata',
 	'maintenance-reason'                => 'Razón',
+	'maintenance-noviews'               => 'Comprove isto para previr a actualización do número de visionados por páxina',
 	'maintenance-confirm'               => 'Confirmar',
 	'maintenance-invalidname'           => 'Nome de usuario inválido!',
 	'maintenance-success'               => '$1 executouse con éxito!',
@@ -398,9 +425,21 @@ Cancelando a operación',
 	'maintenance-memc-withoutsession'   => 'sen sesión:',
 	'maintenance-memc-total'            => 'total:',
 	'maintenance-memc-parsercache'      => 'Analizador da memoria caché',
+	'maintenance-memc-hits'             => 'éxitos:',
 	'maintenance-memc-invalid'          => 'inválido:',
+	'maintenance-memc-expired'          => 'remata:',
+	'maintenance-memc-absent'           => 'falta:',
 	'maintenance-memc-imagecache'       => 'Imaxe da memoria caché',
+	'maintenance-memc-misses'           => 'perdas:',
+	'maintenance-memc-updates'          => 'actualizacións:',
 	'maintenance-memc-diffcache'        => 'Diferenza na memoria caché',
+);
+
+/** Hawaiian (Hawai`i)
+ * @author Singularity
+ */
+$messages['haw'] = array(
+	'maintenance-reason' => 'Kumu',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -940,6 +979,7 @@ $messages['ru'] = array(
 	'maintenance-password'    => 'Пароль',
 	'maintenance-reason'      => 'Причина',
 	'maintenance-stats-edits' => 'Число правок: $1',
+	'maintenance-error'       => 'Ошибка: $1',
 );
 
 /** Slovak (Slovenčina)
