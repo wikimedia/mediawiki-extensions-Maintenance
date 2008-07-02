@@ -94,6 +94,14 @@ $messages['mhr'] = array(
 	'maintenance-password' => 'Шолыпмут',
 );
 
+/** Niuean (native name missing)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'maintenance-name'     => 'Matahigoa he tagata',
+	'maintenance-password' => 'Kupu fufu',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  */
@@ -429,9 +437,11 @@ Cancelando a operación',
 	'maintenance-memc-invalid'          => 'inválido:',
 	'maintenance-memc-expired'          => 'remata:',
 	'maintenance-memc-absent'           => 'falta:',
+	'maintenance-memc-stub'             => 'bosquexo:',
 	'maintenance-memc-imagecache'       => 'Imaxe da memoria caché',
 	'maintenance-memc-misses'           => 'perdas:',
 	'maintenance-memc-updates'          => 'actualizacións:',
+	'maintenance-memc-uncacheable'      => 'non se pode comprobar a caché:',
 	'maintenance-memc-diffcache'        => 'Diferenza na memoria caché',
 );
 
@@ -440,6 +450,15 @@ Cancelando a operación',
  */
 $messages['haw'] = array(
 	'maintenance-reason' => 'Kumu',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'maintenance-name'     => 'Nomine de usator',
+	'maintenance-password' => 'Contrasigno',
+	'maintenance-reason'   => 'Motivo',
 );
 
 /** Indonesian (Bahasa Indonesia)
