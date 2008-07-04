@@ -87,6 +87,14 @@ Aborting move",
 	'maintenance-memc-diffcache'        => "Diff Cache",
 );
 
+/** Faeag Rotuma (Faeag Rotuma)
+ * @author Jose77
+ */
+$messages['rtm'] = array(
+	'maintenance-name'     => 'Asa',
+	'maintenance-password' => 'Ou password',
+);
+
 /** Eastern Mari (Олык Марий йылме)
  * @author Сай
  */
@@ -111,6 +119,13 @@ $messages['af'] = array(
 	'maintenance-reason'     => 'Rede',
 	'maintenance-confirm'    => 'Bevestig',
 	'maintenance-memc-total' => 'totaal:',
+);
+
+/** Aragonese (Aragonés)
+ * @author Juanpabl
+ */
+$messages['an'] = array(
+	'maintenance-confirm' => 'Confirmar',
 );
 
 /** Arabic (العربية)
@@ -404,6 +419,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-password'              => 'Contrasinal',
 	'maintenance-bureaucrat'            => 'Promover este usuario ao status de burócrata',
 	'maintenance-reason'                => 'Razón',
+	'maintenance-update'                => 'Desexa usar ACTUALIZAR ao actualizar unha táboa? Se non marca a opción, usarase, no canto diso, BORRAR/INSERTAR.',
 	'maintenance-noviews'               => 'Comprove isto para previr a actualización do número de visionados por páxina',
 	'maintenance-confirm'               => 'Confirmar',
 	'maintenance-invalidname'           => 'Nome de usuario inválido!',
@@ -1169,6 +1185,10 @@ $messages['te'] = array(
 	'maintenance-name'          => 'వాడుకరిపేరు',
 	'maintenance-password'      => 'సంకేతపదం',
 	'maintenance-reason'        => 'కారణం',
+	'maintenance-invalidname'   => 'తప్పుడు వాడుకరిపేరు!',
+	'maintenance-success'       => '$1 విజయవంతంగా నడిచింది!',
+	'maintenance-userexists'    => 'వాడుకరి ఇప్పటికే ఉన్నారు!',
+	'maintenance-stats-edits'   => 'మార్పుల సంఖ్య: $1',
 	'maintenance-stats-pages'   => 'పేజీల సంఖ్య: $1',
 	'maintenance-stats-users'   => 'వాడుకర్ల సంఖ్య: $1',
 	'maintenance-stats-admins'  => 'నిర్వాహకుల సంఖ్య: $1',
