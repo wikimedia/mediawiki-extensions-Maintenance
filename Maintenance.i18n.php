@@ -95,14 +95,15 @@ $messages['rtm'] = array(
 	'maintenance-password' => 'Ou password',
 );
 
-/** Eastern Mari (Олык Марий йылме)
+/** Eastern Mari (Олык Марий)
  * @author Сай
  */
 $messages['mhr'] = array(
+	'maintenance-name'     => 'Пайдаланышын лӱмжӧ',
 	'maintenance-password' => 'Шолыпмут',
 );
 
-/** Niuean (native name missing)
+/** Niuean (ko e vagahau Niuē)
  * @author Jose77
  */
 $messages['niu'] = array(
@@ -228,7 +229,7 @@ $messages['bg'] = array(
 	'maintenance-memc-total'            => 'общо:',
 );
 
-/** Church Slavic (Словѣньскъ)
+/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
