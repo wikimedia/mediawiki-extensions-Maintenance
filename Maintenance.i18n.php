@@ -175,6 +175,13 @@ $messages['ar'] = array(
 	'maintenance-memc-updates'          => 'تحديثات:',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'maintenance-reason' => 'Прычына',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
