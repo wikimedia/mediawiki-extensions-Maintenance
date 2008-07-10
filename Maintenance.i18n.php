@@ -264,14 +264,23 @@ $messages['de'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'maintenance-deleteBatch-desc' => 'Amasforigi paĝojn',
-	'maintenance-invalidtype'      => 'Nevalida speco!',
-	'maintenance-name'             => 'Salutnomo',
-	'maintenance-password'         => 'Pasvorto',
-	'maintenance-reason'           => 'Kialo',
-	'maintenance-confirm'          => 'Konfirmi',
-	'maintenance-invalidname'      => 'Nevalida salutnomo!',
-	'maintenance-error'            => 'Eraro: $1',
+	'maintenance-changePassword-desc' => 'Ŝangi pasvorton de uzanto',
+	'maintenance-deleteBatch-desc'    => 'Amasforigi paĝojn',
+	'maintenance-invalidtype'         => 'Nevalida speco!',
+	'maintenance-name'                => 'Salutnomo',
+	'maintenance-password'            => 'Pasvorto',
+	'maintenance-reason'              => 'Kialo',
+	'maintenance-confirm'             => 'Konfirmi',
+	'maintenance-invalidname'         => 'Nevalida salutnomo!',
+	'maintenance-invalidtitle'        => 'Nevalida titolo "$1"!',
+	'maintenance-stats-edits'         => 'Nombro de redaktoj: $1',
+	'maintenance-stats-users'         => 'Nombro de uzantoj: $1',
+	'maintenance-stats-admins'        => 'Nombro de administrantoj: $1',
+	'maintenance-stats-images'        => 'Nombro de dosieroj: $1',
+	'maintenance-stats-views'         => 'Nombro de paĝvidoj: $1',
+	'maintenance-stats-update'        => 'Ĝisdatigante datumbazon...',
+	'maintenance-error'               => 'Eraro: $1',
+	'maintenance-memc-requests'       => 'Petoj',
 );
 
 /** Finnish (Suomi)
@@ -496,9 +505,18 @@ $messages['is'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
+ * @author Lovekhmer
  */
 $messages['km'] = array(
-	'maintenance-reason' => 'មូលហេតុ',
+	'maintenance-name'         => 'អ្នកប្រើប្រាស់',
+	'maintenance-password'     => 'ពាក្យសំងាត់',
+	'maintenance-reason'       => 'មូលហេតុ',
+	'maintenance-stats-pages'  => 'ចំនួនទំព័រ: $1',
+	'maintenance-stats-users'  => 'ចំនួនអ្នកប្រើប្រាស់: $1',
+	'maintenance-stats-admins' => 'ចំនួនអ្នកថែទាំប្រព័ន្ធ: $1',
+	'maintenance-stats-images' => 'ចំនួនឯកសារ: $1',
+	'maintenance-error'        => 'កំហុស: $1',
+	'maintenance-memc-total'   => 'សរុប:',
 );
 
 /** Korean (한국어)
