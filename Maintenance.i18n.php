@@ -171,8 +171,11 @@ $messages['ar'] = array(
 	'maintenance-memc-withoutsession'   => 'بدون جلسة:',
 	'maintenance-memc-total'            => 'مجموع:',
 	'maintenance-memc-parsercache'      => 'كاش المحلل',
+	'maintenance-memc-invalid'          => 'غير صحيح:',
+	'maintenance-memc-absent'           => 'غائب:',
 	'maintenance-memc-imagecache'       => 'كاش الصورة',
 	'maintenance-memc-updates'          => 'تحديثات:',
+	'maintenance-memc-diffcache'        => 'كاش الفرق',
 );
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
