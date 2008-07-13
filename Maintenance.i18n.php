@@ -171,6 +171,7 @@ $messages['ar'] = array(
 	'maintenance-memc-withoutsession'   => 'بدون جلسة:',
 	'maintenance-memc-total'            => 'مجموع:',
 	'maintenance-memc-parsercache'      => 'كاش المحلل',
+	'maintenance-memc-hits'             => 'ضربات:',
 	'maintenance-memc-invalid'          => 'غير صحيح:',
 	'maintenance-memc-absent'           => 'غائب:',
 	'maintenance-memc-imagecache'       => 'كاش الصورة',
@@ -595,7 +596,10 @@ $messages['lb'] = array(
 	'maintenance-initStats-desc'      => "D'Statistike vum Site neiberechnen",
 	'maintenance-moveBatch-desc'      => 'Vill Säite matenee réckelen',
 	'maintenance-showJobs-desc'       => "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
+	'maintenance-stats-desc'          => 'Statistiken vun der Cache Memoire weisen',
 	'maintenance-changePassword'      => "Dëse Formulaire benotze fir engem Benotzer säi Passwuert z'änneren",
+	'maintenance-deleteBatch'         => 'Dëse Formulaire benotzen fir eng Rei vu Säiten ze läschen.
+Nëmmen eng Säit pro Linn aginn.',
 	'maintenance-name'                => 'Benotzernumm',
 	'maintenance-password'            => 'Passwuert',
 	'maintenance-bureaucrat'          => 'Engem Benotzer de Bürokrate-Status ginn',
@@ -605,6 +609,8 @@ $messages['lb'] = array(
 	'maintenance-success'             => '$1 ass gemaach ginn!',
 	'maintenance-userexists'          => 'De Benotzer gëtt et schonn!',
 	'maintenance-invalidtitle'        => 'Ongëltegen Titel "$1"!',
+	'maintenance-titlenoexist'        => 'Den Titel den dir uginn hutt ("$1") gëtt et net!',
+	'maintenance-failed'              => 'Huet net fonctionnéiert',
 	'maintenance-deleted'             => 'GELÄSCHT',
 	'maintenance-revdelete'           => 'Làsche vun de Versioune(n) $1 vun der Wiki $2',
 	'maintenance-revnotfound'         => "D'Versioun $1 gouf net fonnt!",
@@ -991,6 +997,7 @@ Arrèst del desplaçament.',
 /** Polish (Polski)
  * @author McMonster
  * @author Sp5uhe
+ * @author Maikking
  */
 $messages['pl'] = array(
 	'maintenance'                       => 'Uruchom skrypty konserwacyjne',
@@ -1009,18 +1016,31 @@ Przy nazwach skryptów znajdują się ich opisy.',
 	'maintenance-changePassword'        => 'Użyj tego formularza, by zmienić hasło użytkownika',
 	'maintenance-createAndPromote'      => 'Użyj tego formularza, by utworzyć nowe konto użytkownika i nadać mu uprawnienia administratora.
 Zaznacz pole wyboru poniżej, aby przyznać mu również uprawnienia biurokraty.',
+	'maintenance-deleteBatch'           => 'Używaj tego formularza do masowego usuwania stron.
+W każdej linijce podaj tylko jedną nazwę strony.',
+	'maintenance-deleteRevision'        => 'Używaj tego formularza do masowego usuwania wersji artykułów.
+W każdej linijce podaj tylko jeden numer wersji artykułu.',
 	'maintenance-name'                  => 'Nazwa użytkownika',
 	'maintenance-password'              => 'Hasło',
 	'maintenance-bureaucrat'            => 'Przyznaj użytkownikowi uprawnienia biurokraty',
 	'maintenance-reason'                => 'Powód',
 	'maintenance-confirm'               => 'Potwierdź',
 	'maintenance-userexists'            => 'Użytkownik już istnieje!',
+	'maintenance-invalidtitle'          => 'Niepoprawny tytuł "$1"!',
+	'maintenance-titlenoexist'          => 'Wybrana nazwa ("$1") nie istnieje!',
+	'maintenance-failed'                => 'NIEPOWODZENIE',
+	'maintenance-deleted'               => 'USUNIĘTO',
+	'maintenance-revdelete'             => 'Usuwanie wersji $1 z wiki $2',
+	'maintenance-revnotfound'           => 'Wersja $1 nie została odnaleziona!',
+	'maintenance-stats-edits'           => 'Liczba edycji: $1',
+	'maintenance-stats-articles'        => 'Liczba stron w głównej przestrzeni nazw: $1',
 	'maintenance-stats-pages'           => 'Liczba stron: $1',
 	'maintenance-stats-users'           => 'Liczba użytkowników: $1',
 	'maintenance-stats-admins'          => 'Liczba administratorów: $1',
 	'maintenance-stats-images'          => 'Liczba plików: $1',
 	'maintenance-stats-views'           => 'Liczba odwiedzin strony: $1',
 	'maintenance-stats-update'          => 'Aktualizacja bazy danych...',
+	'maintenance-move'                  => 'Przenoszenie $1 do $2...',
 	'maintenance-movefail'              => 'Wystąpił błąd przy przenoszeniu $1.
 Przenoszenie przerwane.',
 	'maintenance-error'                 => 'Błąd: $1',
