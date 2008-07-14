@@ -514,20 +514,32 @@ $messages['is'] = array(
 	'maintenance-password' => 'Lykilorð',
 );
 
+/** Italian (Italiano)
+ * @author Pietrodn
+ */
+$messages['it'] = array(
+	'maintenance-name' => 'Nome utente',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author Lovekhmer
  */
 $messages['km'] = array(
-	'maintenance-name'         => 'អ្នកប្រើប្រាស់',
-	'maintenance-password'     => 'ពាក្យសំងាត់',
-	'maintenance-reason'       => 'មូលហេតុ',
-	'maintenance-stats-pages'  => 'ចំនួនទំព័រ: $1',
-	'maintenance-stats-users'  => 'ចំនួនអ្នកប្រើប្រាស់: $1',
-	'maintenance-stats-admins' => 'ចំនួនអ្នកថែទាំប្រព័ន្ធ: $1',
-	'maintenance-stats-images' => 'ចំនួនឯកសារ: $1',
-	'maintenance-error'        => 'កំហុស: $1',
-	'maintenance-memc-total'   => 'សរុប:',
+	'maintenance-changePassword-desc' => 'ប្តូរពាក្យសំងាត់របស់អ្នកប្រើប្រាស់',
+	'maintenance-name'                => 'អ្នកប្រើប្រាស់',
+	'maintenance-password'            => 'ពាក្យសំងាត់',
+	'maintenance-reason'              => 'មូលហេតុ',
+	'maintenance-confirm'             => 'អះអាង',
+	'maintenance-invalidname'         => 'អ្នកប្រើប្រាស់មិនត្រឹមត្រូវ!',
+	'maintenance-stats-edits'         => 'ចំនួនកំនែប្រែ៖ $1',
+	'maintenance-stats-pages'         => 'ចំនួនទំព័រ: $1',
+	'maintenance-stats-users'         => 'ចំនួនអ្នកប្រើប្រាស់: $1',
+	'maintenance-stats-admins'        => 'ចំនួនអ្នកថែទាំប្រព័ន្ធ: $1',
+	'maintenance-stats-images'        => 'ចំនួនឯកសារ: $1',
+	'maintenance-move'                => 'កំពុងប្តូរទីតាំង$1ទៅ$2...',
+	'maintenance-error'               => 'កំហុស: $1',
+	'maintenance-memc-total'          => 'សរុប:',
 );
 
 /** Korean (한국어)
