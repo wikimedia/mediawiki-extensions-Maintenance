@@ -532,6 +532,7 @@ $messages['km'] = array(
 	'maintenance-reason'              => 'មូលហេតុ',
 	'maintenance-confirm'             => 'អះអាង',
 	'maintenance-invalidname'         => 'អ្នកប្រើប្រាស់មិនត្រឹមត្រូវ!',
+	'maintenance-userexists'          => 'អ្នកប្រើប្រាស់មានរួចជាស្រេចហើយ!',
 	'maintenance-stats-edits'         => 'ចំនួនកំនែប្រែ៖ $1',
 	'maintenance-stats-pages'         => 'ចំនួនទំព័រ: $1',
 	'maintenance-stats-users'         => 'ចំនួនអ្នកប្រើប្រាស់: $1',
