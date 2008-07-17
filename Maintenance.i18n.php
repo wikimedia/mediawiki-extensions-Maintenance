@@ -271,6 +271,13 @@ $messages['de'] = array(
 	'maintenance-stats-views'         => 'Anzahl an Seitenaufrufen: $1',
 );
 
+/** Greek (Ελληνικά)
+ * @author Consta
+ */
+$messages['el'] = array(
+	'maintenance-password' => 'Κωδικός',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
@@ -601,6 +608,7 @@ Näve dä Projramme es koot jesaat, wat se donn.',
  */
 $messages['lb'] = array(
 	'maintenance'                     => 'Maintenance-Skripten ausféieren',
+	'maintenance-desc'                => '[[Special:Maintenance|Web interface]] fir verschidde Maintenance-Skripten',
 	'maintenance-backlink'            => "Zréck op d'Auswiel vum Script",
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
 	'maintenance-deleteBatch-desc'    => 'Vill Säite matenee läschen',
@@ -613,6 +621,8 @@ $messages['lb'] = array(
 	'maintenance-changePassword'      => "Dëse Formulaire benotze fir engem Benotzer säi Passwuert z'änneren",
 	'maintenance-deleteBatch'         => 'Dëse Formulaire benotzen fir eng Rei vu Säiten ze läschen.
 Nëmmen eng Säit pro Linn aginn.',
+	'maintenance-deleteRevision'      => 'Benotzt dëse Formulaire fir vill Versioune mateneen ze läschen.
+Schreiwt an all Linn just eng Versioun.',
 	'maintenance-name'                => 'Benotzernumm',
 	'maintenance-password'            => 'Passwuert',
 	'maintenance-bureaucrat'          => 'Engem Benotzer de Bürokrate-Status ginn',
@@ -1039,14 +1049,14 @@ W każdej linijce podaj tylko jeden numer wersji artykułu.',
 	'maintenance-reason'                => 'Powód',
 	'maintenance-confirm'               => 'Potwierdź',
 	'maintenance-userexists'            => 'Użytkownik już istnieje!',
-	'maintenance-invalidtitle'          => 'Niepoprawny tytuł "$1"!',
-	'maintenance-titlenoexist'          => 'Wybrana nazwa ("$1") nie istnieje!',
+	'maintenance-invalidtitle'          => 'Niepoprawny tytuł „$1”!',
+	'maintenance-titlenoexist'          => 'Wybrana nazwa „$1” nie istnieje!',
 	'maintenance-failed'                => 'NIEPOWODZENIE',
 	'maintenance-deleted'               => 'USUNIĘTO',
 	'maintenance-revdelete'             => 'Usuwanie wersji $1 z wiki $2',
 	'maintenance-revnotfound'           => 'Wersja $1 nie została odnaleziona!',
-	'maintenance-stats-edits'           => 'Liczba edycji: $1',
-	'maintenance-stats-articles'        => 'Liczba stron w głównej przestrzeni nazw: $1',
+	'maintenance-stats-edits'           => 'Liczba edycji $1',
+	'maintenance-stats-articles'        => 'Liczba stron w głównej przestrzeni nazw $1',
 	'maintenance-stats-pages'           => 'Liczba stron: $1',
 	'maintenance-stats-users'           => 'Liczba użytkowników: $1',
 	'maintenance-stats-admins'          => 'Liczba administratorów: $1',
