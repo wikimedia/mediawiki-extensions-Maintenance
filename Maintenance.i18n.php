@@ -252,7 +252,7 @@ $messages['cu'] = array(
  */
 $messages['de'] = array(
 	'maintenance'                     => 'Wartungs-Skript starten',
-	'maintenance-desc'                => '[[Spezial:Maintenance|Web-Interface]] für verschiedene Wartungs-Skripts',
+	'maintenance-desc'                => '[[Special:Maintenance|Web-Interface]] für verschiedene Wartungs-Skripts',
 	'maintenance-backlink'            => 'Zurück zur Skript-Auswahl',
 	'maintenance-deleteRevision-desc' => 'Revisionen aus der Datenbank entfernen',
 	'maintenance-runJobs-desc'        => 'Aufträge in Warteschlange ausführen',
