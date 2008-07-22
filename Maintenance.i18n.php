@@ -145,19 +145,29 @@ $messages['ar'] = array(
 	'maintenance-initStats-desc'        => 'إعادة حساب إحصاءات الموقع',
 	'maintenance-moveBatch-desc'        => 'نقل كمي للصفحات',
 	'maintenance-runJobs-desc'          => 'تنفيذ الأشغال في طابور الشغل',
+	'maintenance-stats-desc'            => 'عرض إحصاءات ميم كاشد',
 	'maintenance-changePassword'        => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
+	'maintenance-deleteBatch'           => 'استخدم هذه الإستمارة لحذف الصفحات بشكل كمي.
+ضع فقط صفحة واحدة في كل سطر',
+	'maintenance-deleteRevision'        => 'استخدم هذه الإستمارة لحذف المراجعات بشكل كمي.
+ضع فقط رقم مراجعة واحد في كل سطر',
 	'maintenance-invalidtype'           => 'نوع غير صحيح!',
 	'maintenance-name'                  => 'اسم مستخدم',
 	'maintenance-password'              => 'كلمة السر',
 	'maintenance-bureaucrat'            => 'ترقية مستخدم إلى حالة بيروقراط',
 	'maintenance-reason'                => 'سبب',
+	'maintenance-noviews'               => 'علم على هذا لمنع تحديث عدد عرض الصفحات',
 	'maintenance-confirm'               => 'تأكيد',
 	'maintenance-invalidname'           => 'اسم مستخدم غير صحيح!',
+	'maintenance-success'               => '$1 عمل بنجاح!',
 	'maintenance-userexists'            => 'المستخدم موجود حاليا!',
 	'maintenance-invalidtitle'          => 'عنوان غير صحيح "$1"!',
 	'maintenance-failed'                => 'فشل',
 	'maintenance-deleted'               => 'حُذف',
+	'maintenance-revdelete'             => 'حذف المراجعات $1 من الويكي $2',
+	'maintenance-revnotfound'           => 'المراجعة $1 لم يتم العثور عليها!',
 	'maintenance-stats-edits'           => 'عدد التعديلات: $1',
+	'maintenance-stats-articles'        => 'عدد الصفحات في النطاق الرئيسي: $1',
 	'maintenance-stats-pages'           => 'عدد الصفحات: $1',
 	'maintenance-stats-users'           => 'عدد المستخدمين: $1',
 	'maintenance-stats-admins'          => 'عدد الإداريين: $1',
@@ -173,9 +183,13 @@ $messages['ar'] = array(
 	'maintenance-memc-parsercache'      => 'كاش المحلل',
 	'maintenance-memc-hits'             => 'ضربات:',
 	'maintenance-memc-invalid'          => 'غير صحيح:',
+	'maintenance-memc-expired'          => 'انتهى:',
 	'maintenance-memc-absent'           => 'غائب:',
+	'maintenance-memc-stub'             => 'الحد للبذرة:',
 	'maintenance-memc-imagecache'       => 'كاش الصورة',
+	'maintenance-memc-misses'           => 'مفقودات:',
 	'maintenance-memc-updates'          => 'تحديثات:',
+	'maintenance-memc-uncacheable'      => 'لا يمكن تخزينه:',
 	'maintenance-memc-diffcache'        => 'كاش الفرق',
 );
 
@@ -788,6 +802,13 @@ $messages['mr'] = array(
 	'maintenance-memc-diffcache'        => 'फरक सय',
 );
 
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'maintenance-name' => 'Tlatēquitiltilīltōcāitl',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  * @author SPQRobin
@@ -1075,6 +1096,16 @@ Przenoszenie przerwane.',
 $messages['ps'] = array(
 	'maintenance-memc-total'   => 'ټولټال:',
 	'maintenance-memc-invalid' => 'ناسم:',
+);
+
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'maintenance-name'       => 'Nume de utilizator',
+	'maintenance-reason'     => 'Motiv',
+	'maintenance-confirm'    => 'Confirmă',
+	'maintenance-memc-total' => 'total:',
 );
 
 /** Russian (Русский)
