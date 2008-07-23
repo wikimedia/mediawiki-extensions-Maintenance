@@ -806,7 +806,8 @@ $messages['mr'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
-	'maintenance-name' => 'Tlatēquitiltilīltōcāitl',
+	'maintenance-name'       => 'Tlatēquitiltilīltōcāitl',
+	'maintenance-memc-total' => 'mochīntīn:',
 );
 
 /** Dutch (Nederlands)
