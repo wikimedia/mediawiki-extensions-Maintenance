@@ -137,6 +137,8 @@ $messages['ar'] = array(
 	'maintenance'                       => 'تشغيل سكريبتات الصيانة',
 	'maintenance-desc'                  => '[[Special:Maintenance|واجهة ويب]] لسكريبتات صيانة مختلفة',
 	'maintenance-backlink'              => 'الرجوع إلى اختيار السكريبت',
+	'maintenance-header'                => 'من فضلك اختر سكريبت بالأسفل للتنفيذ.
+الوصوفات بجانب كل سكريبت',
 	'maintenance-changePassword-desc'   => 'غير كلمة السر لمستخدم',
 	'maintenance-createAndPromote-desc' => 'إنشاء مستخدم وترقية إلى حالة إداري',
 	'maintenance-deleteBatch-desc'      => 'حذف كمي للصفحات',
@@ -145,23 +147,31 @@ $messages['ar'] = array(
 	'maintenance-initStats-desc'        => 'إعادة حساب إحصاءات الموقع',
 	'maintenance-moveBatch-desc'        => 'نقل كمي للصفحات',
 	'maintenance-runJobs-desc'          => 'تنفيذ الأشغال في طابور الشغل',
+	'maintenance-showJobs-desc'         => 'يعرض قائمة بالأشغال قيد الانتظار في طابور الشغل',
 	'maintenance-stats-desc'            => 'عرض إحصاءات ميم كاشد',
 	'maintenance-changePassword'        => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
+	'maintenance-createAndPromote'      => 'استخدم هذه الإستمارة لإنشاء مستخدم جديد وترقيته إلى مدير نظام.
+علم على صندوق البيروقراط لو كنت ترغب في ترقيته إلى بيروقراط أيضا',
 	'maintenance-deleteBatch'           => 'استخدم هذه الإستمارة لحذف الصفحات بشكل كمي.
 ضع فقط صفحة واحدة في كل سطر',
 	'maintenance-deleteRevision'        => 'استخدم هذه الإستمارة لحذف المراجعات بشكل كمي.
 ضع فقط رقم مراجعة واحد في كل سطر',
+	'maintenance-initStats'             => 'استخدم هذه الإستمارة لإعادة حساب إحصاءات الموقع، محددا ما إذا كنت ترغب في إعادة حساب مشاهدات الصفحات أيضا',
+	'maintenance-moveBatch'             => 'استخدم هذه الإستمارة لنقل الصفحات بشكل كمي.
+كل سطر ينبغي أن يحدد صفحة مصدر وصفحة هدف مفصولين ببايب',
 	'maintenance-invalidtype'           => 'نوع غير صحيح!',
 	'maintenance-name'                  => 'اسم مستخدم',
 	'maintenance-password'              => 'كلمة السر',
 	'maintenance-bureaucrat'            => 'ترقية مستخدم إلى حالة بيروقراط',
 	'maintenance-reason'                => 'سبب',
+	'maintenance-update'                => 'استخدم UPDATE عند تحديث جدول غير المعلم يستخدم DELETE/INSERT بدلا من ذلك.',
 	'maintenance-noviews'               => 'علم على هذا لمنع تحديث عدد عرض الصفحات',
 	'maintenance-confirm'               => 'تأكيد',
 	'maintenance-invalidname'           => 'اسم مستخدم غير صحيح!',
 	'maintenance-success'               => '$1 عمل بنجاح!',
 	'maintenance-userexists'            => 'المستخدم موجود حاليا!',
 	'maintenance-invalidtitle'          => 'عنوان غير صحيح "$1"!',
+	'maintenance-titlenoexist'          => 'العنوان المحدد ("$1") غير موجود!',
 	'maintenance-failed'                => 'فشل',
 	'maintenance-deleted'               => 'حُذف',
 	'maintenance-revdelete'             => 'حذف المراجعات $1 من الويكي $2',
@@ -175,7 +185,10 @@ $messages['ar'] = array(
 	'maintenance-stats-views'           => 'عدد مرات عرض الصفحة: $1',
 	'maintenance-stats-update'          => 'جاري تحديث قاعدة البيانات...',
 	'maintenance-move'                  => 'نقل $1 إلى $2...',
+	'maintenance-movefail'              => 'تمت مصادفة خطأ أثناء النقل: $1.
+ترك النقل',
 	'maintenance-error'                 => 'خطأ: $1',
+	'maintenance-memc-fake'             => 'أنت تشغل FakeMemCachedClient. لا إحصاءات يمكن توفيرها',
 	'maintenance-memc-requests'         => 'طلبات',
 	'maintenance-memc-withsession'      => 'مع جلسة:',
 	'maintenance-memc-withoutsession'   => 'بدون جلسة:',
@@ -806,7 +819,7 @@ $messages['mr'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
-	'maintenance-name'       => 'Tlatēquitiltilīltōcāitl',
+	'maintenance-name'       => 'Tlatequitiltilīltōcāitl',
 	'maintenance-memc-total' => 'mochīntīn:',
 );
 
