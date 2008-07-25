@@ -326,6 +326,9 @@ $messages['eo'] = array(
 	'maintenance-stats-update'        => 'Ĝisdatigante datumbazon...',
 	'maintenance-error'               => 'Eraro: $1',
 	'maintenance-memc-requests'       => 'Petoj',
+	'maintenance-memc-withsession'    => 'kun seanco:',
+	'maintenance-memc-withoutsession' => 'sen seanco:',
+	'maintenance-memc-diffcache'      => 'Diferenca Kaŝmemoro',
 );
 
 /** Finnish (Suomi)
