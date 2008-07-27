@@ -823,6 +823,7 @@ $messages['mr'] = array(
  */
 $messages['nah'] = array(
 	'maintenance-name'       => 'Tlatequitiltilīltōcāitl',
+	'maintenance-reason'     => 'Īxtlamatiliztli',
 	'maintenance-memc-total' => 'mochīntīn:',
 );
 
@@ -1111,6 +1112,7 @@ Przenoszenie przerwane.',
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'maintenance-name'         => 'کارن-نوم',
 	'maintenance-memc-total'   => 'ټولټال:',
 	'maintenance-memc-invalid' => 'ناسم:',
 );
