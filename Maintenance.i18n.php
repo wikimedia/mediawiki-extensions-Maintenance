@@ -443,6 +443,13 @@ Déplacement interrompu.',
 	'maintenance-memc-diffcache'        => 'Cache des diff',
 );
 
+/** Western Frisian (Frysk)
+ * @author Snakesteuben
+ */
+$messages['fy'] = array(
+	'maintenance-name' => 'Meidoggernamme',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
