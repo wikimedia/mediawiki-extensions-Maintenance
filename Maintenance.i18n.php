@@ -276,17 +276,22 @@ $messages['cu'] = array(
 
 /** German (Deutsch)
  * @author DaSch
+ * @author Leithian
+ * @author Raymond
+ * @author Siebrand
  */
 $messages['de'] = array(
 	'maintenance'                     => 'Wartungs-Skript starten',
 	'maintenance-desc'                => '[[Special:Maintenance|Web-Interface]] für verschiedene Wartungs-Skripts',
 	'maintenance-backlink'            => 'Zurück zur Skript-Auswahl',
+	'maintenance-changePassword-desc' => 'Passwort eines Benutzers ändern',
 	'maintenance-deleteRevision-desc' => 'Revisionen aus der Datenbank entfernen',
 	'maintenance-runJobs-desc'        => 'Aufträge in Warteschlange ausführen',
 	'maintenance-name'                => 'Benutzername',
 	'maintenance-password'            => 'Passwort',
 	'maintenance-reason'              => 'Grund',
 	'maintenance-confirm'             => 'Bestätigen',
+	'maintenance-invalidname'         => 'Ungültiger Benutzername!',
 	'maintenance-userexists'          => 'Benutzer existiert bereits!',
 	'maintenance-failed'              => 'Fehlgeschlagen',
 	'maintenance-deleted'             => 'GELÖSCHT',
@@ -296,6 +301,8 @@ $messages['de'] = array(
 	'maintenance-stats-admins'        => 'Anzahl an Administratoren: $1',
 	'maintenance-stats-images'        => 'Anzahl an Dateien: $1',
 	'maintenance-stats-views'         => 'Anzahl an Seitenaufrufen: $1',
+	'maintenance-move'                => 'Verschiebe $1 nach $2 …',
+	'maintenance-error'               => 'Fehler: $1',
 );
 
 /** Greek (Ελληνικά)
