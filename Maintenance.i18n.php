@@ -576,9 +576,11 @@ $messages['is'] = array(
 
 /** Italian (Italiano)
  * @author Pietrodn
+ * @author Darth Kule
  */
 $messages['it'] = array(
-	'maintenance-name' => 'Nome utente',
+	'maintenance-name'   => 'Nome utente',
+	'maintenance-reason' => 'Motivo',
 );
 
 /** Khmer (ភាសាខ្មែរ)
