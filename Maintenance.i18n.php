@@ -843,6 +843,13 @@ $messages['mr'] = array(
 	'maintenance-memc-diffcache'        => 'फरक सय',
 );
 
+/** Maltese (Malti)
+ * @author Roderick Mallia
+ */
+$messages['mt'] = array(
+	'maintenance-name' => 'Isem l-utent',
+);
+
 /** Nahuatl (Nahuatl)
  * @author Fluence
  */
