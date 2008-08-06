@@ -579,8 +579,9 @@ $messages['is'] = array(
  * @author Darth Kule
  */
 $messages['it'] = array(
-	'maintenance-name'   => 'Nome utente',
-	'maintenance-reason' => 'Motivo',
+	'maintenance-name'    => 'Nome utente',
+	'maintenance-reason'  => 'Motivo',
+	'maintenance-confirm' => 'Conferma',
 );
 
 /** Khmer (ភាសាខ្មែរ)
