@@ -318,7 +318,10 @@ Beschreibungen stehen neben jedem Skript.',
  * @author Consta
  */
 $messages['el'] = array(
-	'maintenance-password' => 'Κωδικός',
+	'maintenance-name'         => 'Όνομα χρήστη',
+	'maintenance-password'     => 'Κωδικός',
+	'maintenance-reason'       => 'Λόγος',
+	'maintenance-memc-updates' => 'αναβαθμίσεις:',
 );
 
 /** Esperanto (Esperanto)
