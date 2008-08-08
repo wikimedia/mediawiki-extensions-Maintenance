@@ -14,9 +14,18 @@ $aliases['en'] = array(
     'Maintenance'            => array('Maintenance')
 );
 
-/** Norwegian (Norsk (bokmål))
- * @author Jon Harald Søby
- */
-$aliases['no'] = array(
-    'Maintenanca'            => array('Vedlikehold')
+/** Arabic (العربية) */
+$aliases['ar'] = array(
+	'Maintenance' => array( 'صيانة' ),
 );
+
+/** Egyptian Spoken Arabic (مصرى) */
+$aliases['arz'] = array(
+	'Maintenance' => array( 'صيانة' ),
+);
+
+/** Dutch (Nederlands) */
+$aliases['nl'] = array(
+	'Maintenance' => array( 'Onderhoud' ),
+);
+
