@@ -33,3 +33,8 @@ $aliases['nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
+$aliases['no'] = array(
+	'Maintenance' => array( 'Vedlikehold' ),
+);
+
