@@ -87,7 +87,9 @@ Aborting move",
 	'maintenance-memc-diffcache'        => "Diff Cache",
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ * @author Jon Harald Søby
+ */
 $messages['qqq'] = array(
 	'maintenance-name' => '{{Identical|Username}}',
 	'maintenance-password' => '{{Identical|Password}}',
@@ -289,7 +291,7 @@ $messages['cu'] = array(
 /** German (Deutsch)
  * @author DaSch
  * @author Leithian
- * @author Raymond
+ * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'maintenance' => 'Wartungsskript starten',
