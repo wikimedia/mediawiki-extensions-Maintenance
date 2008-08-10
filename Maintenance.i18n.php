@@ -274,6 +274,8 @@ $messages['bg'] = array(
 Прекратяване на преместването.',
 	'maintenance-error' => 'Грешка: $1',
 	'maintenance-memc-requests' => 'Заявки',
+	'maintenance-memc-withsession' => 'със сесия:',
+	'maintenance-memc-withoutsession' => 'без сесия:',
 	'maintenance-memc-total' => 'общо:',
 );
 
