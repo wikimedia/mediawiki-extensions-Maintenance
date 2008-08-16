@@ -566,6 +566,49 @@ $messages['haw'] = array(
 	'maintenance-reason' => 'Kumu',
 );
 
+/** Croatian (Hrvatski)
+ * @author Dalibor Bosits
+ */
+$messages['hr'] = array(
+	'maintenance' => 'Pokreni skripte za održavanje',
+	'maintenance-desc' => '[[Special:Maintenance|Web sučelje]] za različite skripte za održavanje',
+	'maintenance-backlink' => 'Nazad na odabir skripte',
+	'maintenance-header' => 'Odaberite dolje skriptu za pokrenuti.
+Opis stoji pored svake skripte.',
+	'maintenance-changePassword-desc' => 'Promijeni lozinku suradnika',
+	'maintenance-createAndPromote-desc' => 'Stvori suradnički račun i dodijeli sysop pravo',
+	'maintenance-deleteBatch-desc' => 'Masovno brisanje stranica',
+	'maintenance-deleteRevision-desc' => 'Ukloni izmjene iz baze podataka',
+	'maintenance-initEditCount-desc' => 'Ponovno izračunaj broj uređivanja za suradnike',
+	'maintenance-initStats-desc' => 'Ponovno izračunaj statistiku za projekt',
+	'maintenance-moveBatch-desc' => 'Masovno premještanje stranica',
+	'maintenance-changePassword' => 'Koristite ovu stranicu za promjenu suradničke lozinke',
+	'maintenance-createAndPromote' => 'Koristite ovu stranicu za stvaranje novog suradničkog računa i dodjelu sysop prava.
+Označite kućicu bureaucrat ako želite dodijeliti i pravo birokrata.',
+	'maintenance-deleteBatch' => 'Koristite ovu stranicu za masovno brisanje stranica.
+Stavite samu jedno stranicu po retku.',
+	'maintenance-deleteRevision' => 'Koristite ovu stranicu za masovno brisanje izmjena.
+Stavite broj samo jedne izmjene po retku.',
+	'maintenance-initStats' => 'Koristite ovu stranicu za ponovno izračunavanje statistike, odredite ako želite izračunati i broj gledanja stranica također',
+	'maintenance-moveBatch' => 'Koristite ovu stranicu za masovno premještanje stranica.
+Svaki red mora sadržavati polazišnu stranicu i ciljnu stranicu odvojeno kosom crtom |',
+	'maintenance-name' => 'Suradničko ime',
+	'maintenance-password' => 'Lozinka',
+	'maintenance-bureaucrat' => 'Dodjeli suradniku pravo birokrata',
+	'maintenance-reason' => 'Razlog',
+	'maintenance-invalidname' => 'Nevaljano suradničko ime!',
+	'maintenance-userexists' => 'Suradnik već postoji!',
+	'maintenance-invalidtitle' => 'Nevaljan naslov "$1"!',
+	'maintenance-stats-edits' => 'Broj uređivanja: $1',
+	'maintenance-stats-articles' => 'Broj stranica u glavnom imenskom prostoru: $1',
+	'maintenance-stats-pages' => 'Broj stranica: $1',
+	'maintenance-stats-users' => 'Broj suradnika: $1',
+	'maintenance-stats-admins' => 'Broj administratora: $1',
+	'maintenance-stats-images' => 'Broj datoteka: $1',
+	'maintenance-stats-views' => 'Broj gledanja stranica: $1',
+	'maintenance-stats-update' => 'Ažuriranje baze podataka...',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -1104,6 +1147,14 @@ Arrèst del desplaçament.',
 	'maintenance-memc-updates' => 'meses a jorn :',
 	'maintenance-memc-uncacheable' => "fòra de l'amagatal :",
 	'maintenance-memc-diffcache' => 'Amagatal dels dif',
+);
+
+/** Plautdietsch (Plautdietsch)
+ * @author Slomox
+ */
+$messages['pdt'] = array(
+	'maintenance-name' => 'Bruckernome',
+	'maintenance-password' => 'Passwuat',
 );
 
 /** Polish (Polski)
