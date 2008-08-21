@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Maintenance' => array( 'صيانة' ),
 );
 
+/** Nedersaksisch (Nedersaksisch) */
+$aliases['nds-nl'] = array(
+	'Maintenance' => array( 'Onderhoud' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
