@@ -43,3 +43,8 @@ $aliases['no'] = array(
 	'Maintenance' => array( 'Vedlikehold' ),
 );
 
+/** Swedish (Svenska) */
+$aliases['sv'] = array(
+	'Maintenance' => array( 'Underhåll' ),
+);
+

@@ -1250,6 +1250,14 @@ Przenoszenie przerwane.',
  */
 $messages['ps'] = array(
 	'maintenance-name' => 'کارن-نوم',
+	'maintenance-password' => 'پټنوم',
+	'maintenance-reason' => 'سبب',
+	'maintenance-invalidname' => 'ناسم کارن-نوم!',
+	'maintenance-userexists' => 'دا کارونکی د پخوا نه ثبت دی!',
+	'maintenance-stats-pages' => 'د مخونو شمېر: $1',
+	'maintenance-stats-users' => 'د کارونکو شمېر: $1',
+	'maintenance-stats-admins' => 'د پازوالانو شمېر: $1',
+	'maintenance-stats-images' => 'د دوتنو شمېر: $1',
 	'maintenance-memc-total' => 'ټولټال:',
 	'maintenance-memc-invalid' => 'ناسم:',
 );
