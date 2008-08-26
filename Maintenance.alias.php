@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Maintenance' => array( 'صيانة' ),
 );
 
+/** Finnish (Suomi) */
+$aliases['fi'] = array(
+	'Maintenance' => array( 'Ylläpito' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
