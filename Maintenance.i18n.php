@@ -408,12 +408,13 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Grondin
  * @author Verdy p
+ * @author Zetud
  */
 $messages['fr'] = array(
 	'maintenance' => 'Lancer les scripts de maintenance',
 	'maintenance-desc' => '[[Special:Maintenance|Interface Web]] pour divers scripts de maintenance',
 	'maintenance-backlink' => 'Retour à la sélection du script',
-	'maintenance-header' => 'Veuillez sélectionnez, ci-dessous, un script à exécuter.
+	'maintenance-header' => 'Veuillez sélectionner, ci-dessous, un script à exécuter.
 Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-changePassword-desc' => 'Changer le mot de passe d’un utilisateur',
 	'maintenance-createAndPromote-desc' => 'Créer un utilisateur et promouvoir au statut d’administrateur',
