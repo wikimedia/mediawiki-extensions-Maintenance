@@ -351,6 +351,7 @@ $messages['eo'] = array(
 	'maintenance-reason' => 'Kialo',
 	'maintenance-confirm' => 'Konfirmi',
 	'maintenance-invalidname' => 'Nevalida salutnomo!',
+	'maintenance-success' => '$1 sukcesis!',
 	'maintenance-userexists' => 'Uzanto jam ekzistas!',
 	'maintenance-invalidtitle' => 'Nevalida titolo "$1"!',
 	'maintenance-failed' => 'MALSUKCESIS',
@@ -362,11 +363,14 @@ $messages['eo'] = array(
 	'maintenance-stats-images' => 'Nombro de dosieroj: $1',
 	'maintenance-stats-views' => 'Nombro de paĝvidoj: $1',
 	'maintenance-stats-update' => 'Ĝisdatigante datumbazon...',
+	'maintenance-move' => 'Movante $1 al $2...',
 	'maintenance-error' => 'Eraro: $1',
 	'maintenance-memc-requests' => 'Petoj',
 	'maintenance-memc-withsession' => 'kun seanco:',
 	'maintenance-memc-withoutsession' => 'sen seanco:',
 	'maintenance-memc-parsercache' => 'Kaŝmemoro de sintaksa analizilo',
+	'maintenance-memc-invalid' => 'nevalida:',
+	'maintenance-memc-updates' => 'ĝisdatigoj:',
 	'maintenance-memc-diffcache' => 'Diferenca Kaŝmemoro',
 );
 

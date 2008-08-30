@@ -33,6 +33,16 @@ $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$aliases['id'] = array(
+	'Maintenance' => array( 'Pemeliharaan' ),
+);
+
+/** Khmer (ភាសាខ្មែរ) */
+$aliases['km'] = array(
+	'Maintenance' => array( 'តំហែទាំ' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
