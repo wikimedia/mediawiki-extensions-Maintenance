@@ -693,6 +693,7 @@ $messages['it'] = array(
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
+	'maintenance' => 'ដំណើរការស្រ្គីបតំហែទាំ',
 	'maintenance-changePassword-desc' => 'ប្តូរពាក្យសំងាត់របស់អ្នកប្រើប្រាស់',
 	'maintenance-name' => 'អ្នកប្រើប្រាស់',
 	'maintenance-password' => 'ពាក្យសំងាត់',
@@ -953,6 +954,14 @@ $messages['mr'] = array(
  */
 $messages['mt'] = array(
 	'maintenance-name' => 'Isem l-utent',
+);
+
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'maintenance-password' => 'Совамо вал',
+	'maintenance-reason' => 'Тувтал',
 );
 
 /** Nahuatl (Nāhuatl)
