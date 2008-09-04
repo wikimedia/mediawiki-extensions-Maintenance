@@ -688,6 +688,13 @@ $messages['it'] = array(
 	'maintenance-confirm' => 'Conferma',
 );
 
+/** Georgian (ქართული)
+ * @author Malafaya
+ */
+$messages['ka'] = array(
+	'maintenance-reason' => 'მიზეზი',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author គីមស៊្រុន

@@ -33,6 +33,11 @@ $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
 );
 
+/** Croatian (Hrvatski) */
+$aliases['hr'] = array(
+	'Maintenance' => array( 'Održavanje' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'Maintenance' => array( 'Pemeliharaan' ),
