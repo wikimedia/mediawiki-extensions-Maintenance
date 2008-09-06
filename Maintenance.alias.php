@@ -48,6 +48,11 @@ $aliases['km'] = array(
 	'Maintenance' => array( 'តំហែទាំ' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lb'] = array(
+	'Maintenance' => array( 'Ënnerhalt' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),

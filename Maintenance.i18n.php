@@ -88,6 +88,7 @@ Aborting move",
 );
 
 /** Message documentation (Message documentation)
+ * @author Darth Kule
  * @author Jon Harald Søby
  */
 $messages['qqq'] = array(
@@ -95,6 +96,7 @@ $messages['qqq'] = array(
 	'maintenance-password' => '{{Identical|Password}}',
 	'maintenance-reason' => '{{Identical|Reason}}',
 	'maintenance-confirm' => '{{Identical|Confirm}}',
+	'maintenance-deleted' => '{{Identical|Deleted}}',
 	'maintenance-memc-total' => '{{Identical|Total}}',
 	'maintenance-memc-hits' => '{{Identical|Hits}}',
 );
@@ -196,6 +198,82 @@ $messages['ar'] = array(
 	'maintenance-stats-images' => 'عدد الملفات: $1',
 	'maintenance-stats-views' => 'عدد مرات عرض الصفحة: $1',
 	'maintenance-stats-update' => 'جاري تحديث قاعدة البيانات...',
+	'maintenance-move' => 'نقل $1 إلى $2...',
+	'maintenance-movefail' => 'تمت مصادفة خطأ أثناء النقل: $1.
+ترك النقل',
+	'maintenance-error' => 'خطأ: $1',
+	'maintenance-memc-fake' => 'أنت تشغل FakeMemCachedClient. لا إحصاءات يمكن توفيرها',
+	'maintenance-memc-requests' => 'طلبات',
+	'maintenance-memc-withsession' => 'مع جلسة:',
+	'maintenance-memc-withoutsession' => 'بدون جلسة:',
+	'maintenance-memc-total' => 'مجموع:',
+	'maintenance-memc-parsercache' => 'كاش المحلل',
+	'maintenance-memc-hits' => 'ضربات:',
+	'maintenance-memc-invalid' => 'غير صحيح:',
+	'maintenance-memc-expired' => 'انتهى:',
+	'maintenance-memc-absent' => 'غائب:',
+	'maintenance-memc-stub' => 'الحد للبذرة:',
+	'maintenance-memc-imagecache' => 'كاش الصورة',
+	'maintenance-memc-misses' => 'مفقودات:',
+	'maintenance-memc-updates' => 'تحديثات:',
+	'maintenance-memc-uncacheable' => 'لا يمكن تخزينه:',
+	'maintenance-memc-diffcache' => 'كاش الفرق',
+);
+
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'maintenance' => 'تشغيل سكريبتات الصيانة',
+	'maintenance-desc' => '[[Special:Maintenance|واجهة ويب]] لسكريبتات صيانة مختلفة',
+	'maintenance-backlink' => 'الرجوع إلى اختيار السكريبت',
+	'maintenance-header' => 'من فضلك اختر سكريبت بالأسفل للتنفيذ.
+الوصوفات بجانب كل سكريبت',
+	'maintenance-changePassword-desc' => 'غير كلمة السر لمستخدم',
+	'maintenance-createAndPromote-desc' => 'إنشاء مستخدم وترقية إلى حالة إداري',
+	'maintenance-deleteBatch-desc' => 'حذف كمى للصفحات',
+	'maintenance-deleteRevision-desc' => 'إزالة المراجعات من قاعدة البيانات',
+	'maintenance-initEditCount-desc' => 'إعادة حساب عدد التعديلات للمستخدمين',
+	'maintenance-initStats-desc' => 'إعادة حساب إحصاءات الموقع',
+	'maintenance-moveBatch-desc' => 'نقل كمى للصفحات',
+	'maintenance-runJobs-desc' => 'تنفيذ الأشغال فى طابور الشغل',
+	'maintenance-showJobs-desc' => 'يعرض قائمة بالأشغال قيد الانتظار فى طابور الشغل',
+	'maintenance-stats-desc' => 'عرض إحصاءات ميم كاشد',
+	'maintenance-changePassword' => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
+	'maintenance-createAndPromote' => 'استخدم هذه الإستمارة لإنشاء مستخدم جديد وترقيته إلى مدير نظام.
+علم على صندوق البيروقراط لو كنت ترغب فى ترقيته إلى بيروقراط أيضا',
+	'maintenance-deleteBatch' => 'استخدم هذه الإستمارة لحذف الصفحات بشكل كمي.
+ضع فقط صفحة واحدة فى كل سطر',
+	'maintenance-deleteRevision' => 'استخدم هذه الإستمارة لحذف المراجعات بشكل كمي.
+ضع فقط رقم مراجعة واحد فى كل سطر',
+	'maintenance-initStats' => 'استخدم هذه الإستمارة لإعادة حساب إحصاءات الموقع، محددا ما إذا كنت ترغب فى إعادة حساب مشاهدات الصفحات أيضا',
+	'maintenance-moveBatch' => 'استخدم هذه الإستمارة لنقل الصفحات بشكل كمي.
+كل سطر ينبغى أن يحدد صفحة مصدر وصفحة هدف مفصولين ببايب',
+	'maintenance-invalidtype' => 'نوع غير صحيح!',
+	'maintenance-name' => 'اسم مستخدم',
+	'maintenance-password' => 'كلمة السر',
+	'maintenance-bureaucrat' => 'ترقية مستخدم إلى حالة بيروقراط',
+	'maintenance-reason' => 'سبب',
+	'maintenance-update' => 'استخدم UPDATE عند تحديث جدول غير المعلم يستخدم DELETE/INSERT بدلا من ذلك.',
+	'maintenance-noviews' => 'علم على هذا لمنع تحديث عدد عرض الصفحات',
+	'maintenance-confirm' => 'تأكيد',
+	'maintenance-invalidname' => 'اسم مستخدم غير صحيح!',
+	'maintenance-success' => '$1 عمل بنجاح!',
+	'maintenance-userexists' => 'المستخدم موجود حاليا!',
+	'maintenance-invalidtitle' => 'عنوان غير صحيح "$1"!',
+	'maintenance-titlenoexist' => 'العنوان المحدد ("$1") غير موجود!',
+	'maintenance-failed' => 'فشل',
+	'maintenance-deleted' => 'تم حذفه',
+	'maintenance-revdelete' => 'حذف المراجعات $1 من الويكى $2',
+	'maintenance-revnotfound' => 'المراجعة $1 لم يتم العثور عليها!',
+	'maintenance-stats-edits' => 'عدد التعديلات: $1',
+	'maintenance-stats-articles' => 'عدد الصفحات فى النطاق الرئيسي: $1',
+	'maintenance-stats-pages' => 'عدد الصفحات: $1',
+	'maintenance-stats-users' => 'عدد المستخدمين: $1',
+	'maintenance-stats-admins' => 'عدد الإداريين: $1',
+	'maintenance-stats-images' => 'عدد الملفات: $1',
+	'maintenance-stats-views' => 'عدد مرات عرض الصفحة: $1',
+	'maintenance-stats-update' => 'جارى تحديث قاعدة البيانات...',
 	'maintenance-move' => 'نقل $1 إلى $2...',
 	'maintenance-movefail' => 'تمت مصادفة خطأ أثناء النقل: $1.
 ترك النقل',
