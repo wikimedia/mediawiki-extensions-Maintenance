@@ -793,7 +793,9 @@ $messages['km'] = array(
 	'maintenance-stats-images' => 'ចំនួនឯកសារ: $1',
 	'maintenance-move' => 'កំពុងប្តូរទីតាំង$1ទៅ$2...',
 	'maintenance-error' => 'កំហុស: $1',
+	'maintenance-memc-requests' => 'ស្នើសុំ',
 	'maintenance-memc-total' => 'សរុប:',
+	'maintenance-memc-expired' => 'បានផុតកំនត់៖',
 );
 
 /** Korean (한국어)
