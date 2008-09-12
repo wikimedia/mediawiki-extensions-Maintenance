@@ -370,6 +370,7 @@ $messages['cu'] = array(
  * @author DaSch
  * @author Leithian
  * @author Raimond Spekking
+ * @author Revolus
  */
 $messages['de'] = array(
 	'maintenance' => 'Wartungsskript starten',
@@ -402,8 +403,14 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-stats-admins' => 'Anzahl an Administratoren: $1',
 	'maintenance-stats-images' => 'Anzahl an Dateien: $1',
 	'maintenance-stats-views' => 'Anzahl an Seitenaufrufen: $1',
+	'maintenance-stats-update' => 'Aktualisiere Datenbank …',
 	'maintenance-move' => 'Verschiebe $1 nach $2 …',
 	'maintenance-error' => 'Fehler: $1',
+	'maintenance-memc-requests' => 'Anfragen',
+	'maintenance-memc-total' => 'gesamt:',
+	'maintenance-memc-hits' => 'Treffer:',
+	'maintenance-memc-invalid' => 'Ungültig:',
+	'maintenance-memc-expired' => 'abgelaufen:',
 );
 
 /** Greek (Ελληνικά)
