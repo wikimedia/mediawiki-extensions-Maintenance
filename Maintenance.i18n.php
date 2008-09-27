@@ -90,8 +90,10 @@ Aborting move",
 /** Message documentation (Message documentation)
  * @author Darth Kule
  * @author Jon Harald Søby
+ * @author Purodha
  */
 $messages['qqq'] = array(
+	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
 	'maintenance-name' => '{{Identical|Username}}',
 	'maintenance-password' => '{{Identical|Password}}',
 	'maintenance-reason' => '{{Identical|Reason}}',
@@ -742,9 +744,76 @@ Premještanje prekinuto.',
  * @author McDutchie
  */
 $messages['ia'] = array(
+	'maintenance' => 'Executar scripts de mantenentia',
+	'maintenance-desc' => '[[Special:Maintenance|Interfacie web]] pro diverse scripts de mantenentia',
+	'maintenance-backlink' => 'Retornar al selection de script',
+	'maintenance-header' => 'Per favor selige in basso un script pro executar.
+Le descriptones se trova al latere de cata script.',
+	'maintenance-changePassword-desc' => 'Cambiar le contrasigno de un usator',
+	'maintenance-createAndPromote-desc' => 'Crear un usator e promover le al stato de administrator',
+	'maintenance-deleteBatch-desc' => 'Deler paginas in massa',
+	'maintenance-deleteRevision-desc' => 'Remover versiones del base de datos',
+	'maintenance-initEditCount-desc' => 'Recalcular le computos de modificationes de usatores',
+	'maintenance-initStats-desc' => 'Recalcular le statisticas del sito',
+	'maintenance-moveBatch-desc' => 'Renominar paginas in massa',
+	'maintenance-runJobs-desc' => 'Executar cargas listate in le cauda de actiones',
+	'maintenance-showJobs-desc' => 'Monstrar un lista del cargas pendente in le cauda de actiones',
+	'maintenance-stats-desc' => 'Monstrar statisticas Memcached',
+	'maintenance-changePassword' => 'Usa iste formulario pro cambiar le contrasigno de un usator',
+	'maintenance-createAndPromote' => 'Usa iste formulario pro crear un nove usator e promover le a administrator.
+Marca le quadrato de bureaucrate si tu vole promover le etiam a bureaucrate.',
+	'maintenance-deleteBatch' => 'Usa iste formulario pro deler paginas in massa.
+Indica un sol pagina per linea.',
+	'maintenance-deleteRevision' => 'Usa iste forma pro deler versiones in massa.
+Indica un sol numero de revision per linea.',
+	'maintenance-initStats' => 'Usa iste formulario pro recalcular le statisticas del sito. Specifica si tu vole recalcular etiam le visitas de paginas.',
+	'maintenance-moveBatch' => 'Usa iste formulario pro renominar paginas in massa.
+Cata linea debe specificar un pagina de origine e un pagina de destination separate per un tubo ("<nowiki>|</nowiki>").',
+	'maintenance-invalidtype' => 'Typo invalide!',
 	'maintenance-name' => 'Nomine de usator',
 	'maintenance-password' => 'Contrasigno',
+	'maintenance-bureaucrat' => 'Promover le usator al stato de bureaucrate',
 	'maintenance-reason' => 'Motivo',
+	'maintenance-update' => 'Usar UPDATE pro actualisar un tabella? Dismarca pro usar DELETE/INSERT in vice.',
+	'maintenance-noviews' => 'Marca isto pro impedir le actualisation del numero de visitas de paginas.',
+	'maintenance-confirm' => 'Confirmar',
+	'maintenance-invalidname' => 'Nomine de usator invalide!',
+	'maintenance-success' => '$1 se executava con successo!',
+	'maintenance-userexists' => 'Le usator existe ja!',
+	'maintenance-invalidtitle' => 'Titulo invalide "$1"!',
+	'maintenance-titlenoexist' => 'Le titulo specificate ("$1") non existe!',
+	'maintenance-failed' => 'FALTA',
+	'maintenance-deleted' => 'DELITE',
+	'maintenance-revdelete' => 'Deletion del versiones $1 del wiki $2',
+	'maintenance-revnotfound' => 'Version $1 non trovate!',
+	'maintenance-stats-edits' => 'Numero de moficicationes: $1',
+	'maintenance-stats-articles' => 'Numero de paginas in le spatio de nomines principal: $1',
+	'maintenance-stats-pages' => 'Numero de paginas: $1',
+	'maintenance-stats-users' => 'Numero de usatores: $1',
+	'maintenance-stats-admins' => 'Numero de administratores: $1',
+	'maintenance-stats-images' => 'Numero de files: $1',
+	'maintenance-stats-views' => 'Numero de visitas de paginas: $1',
+	'maintenance-stats-update' => 'Actualisation del base de datos in curso…',
+	'maintenance-move' => 'Renomination de $1 a $2 in curso…',
+	'maintenance-movefail' => 'Error incontrate durante le renomination: $1.
+Le renomination es abortate.',
+	'maintenance-error' => 'Error: $1',
+	'maintenance-memc-fake' => 'Tu executa FakeMemCachedClient. Nulle statistica pote esser fornite.',
+	'maintenance-memc-requests' => 'Requestas',
+	'maintenance-memc-withsession' => 'con session:',
+	'maintenance-memc-withoutsession' => 'sin session:',
+	'maintenance-memc-total' => 'total:',
+	'maintenance-memc-parsercache' => 'Cache del analysator syntactic',
+	'maintenance-memc-hits' => 'accessos:',
+	'maintenance-memc-invalid' => 'invalide:',
+	'maintenance-memc-expired' => 'expirate:',
+	'maintenance-memc-absent' => 'absente:',
+	'maintenance-memc-stub' => 'limine de pecietta:',
+	'maintenance-memc-imagecache' => 'Cache de imagines',
+	'maintenance-memc-misses' => 'non in cache:',
+	'maintenance-memc-updates' => 'actualisationes:',
+	'maintenance-memc-uncacheable' => 'non cachabile:',
+	'maintenance-memc-diffcache' => 'Cache de comparationes',
 );
 
 /** Indonesian (Bahasa Indonesia)
