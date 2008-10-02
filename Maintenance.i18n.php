@@ -1295,7 +1295,7 @@ Avbryter flytting',
 $messages['oc'] = array(
 	'maintenance' => 'Aviar los escripts de mantenença',
 	'maintenance-desc' => '[[Special:Maintenance|Interfàcia Web]] pels diferents escripts de mantenença',
-	'maintenance-backlink' => "Retorn vèrs la seleccion de l'escript",
+	'maintenance-backlink' => "Retorn cap a la seleccion de l'escript",
 	'maintenance-header' => "Seleccionatz, çaijós, un escript d'executar.
 Las descripcions son a la seguida de cadun d'aquestes.",
 	'maintenance-changePassword-desc' => 'Cambiar lo senhal d’un utilizaire',
@@ -1343,7 +1343,7 @@ Cada linha deurà indicar la pagina d’origina e la de destinacion ; lasqualas 
 	'maintenance-stats-images' => 'Nombre de fichièrs : $1',
 	'maintenance-stats-views' => 'Nombre de paginas visitadas : $1',
 	'maintenance-stats-update' => 'Mesa a jorn de la banca de donadas…',
-	'maintenance-move' => 'Desplaçament de $1 vèrs $2…',
+	'maintenance-move' => 'Desplaçament de $1 cap a $2…',
 	'maintenance-movefail' => 'Error constatada al moment del cambiament de nom : $1.
 Arrèst del desplaçament.',
 	'maintenance-error' => 'Error : $1',
