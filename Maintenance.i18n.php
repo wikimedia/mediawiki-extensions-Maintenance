@@ -371,6 +371,7 @@ $messages['cu'] = array(
 /** German (Deutsch)
  * @author DaSch
  * @author Leithian
+ * @author MichaelFrey
  * @author Raimond Spekking
  * @author Revolus
  */
@@ -391,12 +392,15 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-showJobs-desc' => 'Liste der auf Abarbeitung wartenden Jobs in der Jobqueue',
 	'maintenance-stats-desc' => 'Zeige Memcached-Statistik',
 	'maintenance-changePassword' => 'Passwort eines Benutzers ändern',
+	'maintenance-invalidtype' => 'Ungültiger Typ!',
 	'maintenance-name' => 'Benutzername',
 	'maintenance-password' => 'Passwort',
+	'maintenance-bureaucrat' => 'Benutzer zum Bürokraten machen',
 	'maintenance-reason' => 'Grund',
 	'maintenance-confirm' => 'Bestätigen',
 	'maintenance-invalidname' => 'Ungültiger Benutzername!',
 	'maintenance-userexists' => 'Benutzer existiert bereits!',
+	'maintenance-invalidtitle' => 'Ungültiger Titel „$1“!',
 	'maintenance-failed' => 'Fehlgeschlagen',
 	'maintenance-deleted' => 'GELÖSCHT',
 	'maintenance-stats-edits' => 'Anzahl an Bearbeitungen: $1',
