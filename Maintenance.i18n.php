@@ -1129,6 +1129,9 @@ $messages['mt'] = array(
 $messages['myv'] = array(
 	'maintenance-password' => 'Совамо вал',
 	'maintenance-reason' => 'Тувтал',
+	'maintenance-confirm' => 'Кемекстамс',
+	'maintenance-stats-edits' => 'Зяроксть витнезь-петнезь: $1',
+	'maintenance-memc-total' => 'весемезэ:',
 );
 
 /** Nahuatl (Nāhuatl)
