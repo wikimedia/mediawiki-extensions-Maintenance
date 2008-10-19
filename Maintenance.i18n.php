@@ -111,14 +111,6 @@ $messages['rtm'] = array(
 	'maintenance-password' => 'Ou password',
 );
 
-/** Eastern Mari (Олык Марий)
- * @author Сай
- */
-$messages['mhr'] = array(
-	'maintenance-name' => 'Пайдаланышын лӱмжӧ',
-	'maintenance-password' => 'Шолыпмут',
-);
-
 /** Niuean (ko e vagahau Niuē)
  * @author Jose77
  */
@@ -447,6 +439,7 @@ $messages['eo'] = array(
 	'maintenance-invalidtitle' => 'Nevalida titolo "$1"!',
 	'maintenance-failed' => 'MALSUKCESIS',
 	'maintenance-deleted' => 'FORIGITA',
+	'maintenance-revnotfound' => 'Revisio $1 ne estas trovita!',
 	'maintenance-stats-edits' => 'Nombro de redaktoj: $1',
 	'maintenance-stats-pages' => 'Nombro de paĝoj: $1',
 	'maintenance-stats-users' => 'Nombro de uzantoj: $1',
@@ -659,6 +652,18 @@ Cancelando a operación',
 	'maintenance-memc-updates' => 'actualizacións:',
 	'maintenance-memc-uncacheable' => 'non se pode comprobar a caché:',
 	'maintenance-memc-diffcache' => 'Diferenza na memoria caché',
+);
+
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Omnipaedista
+ */
+$messages['grc'] = array(
+	'maintenance-name' => 'Ὄνομα χρωμένου',
+	'maintenance-password' => 'Σύνθημα',
+	'maintenance-reason' => 'Αἰτία',
+	'maintenance-failed' => 'ΑΠΕΤΕΥΧΘΗ',
+	'maintenance-deleted' => 'ΔΙΕΓΡΑΦΗ',
+	'maintenance-memc-requests' => 'Αἰτήσεις',
 );
 
 /** Hawaiian (Hawai`i)
@@ -979,6 +984,14 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-memc-total' => 'Total:',
 	'maintenance-memc-absent' => 'net do:',
 	'maintenance-memc-updates' => 'Aktualiséierungen:',
+);
+
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'maintenance-name' => 'Пайдаланышын лӱмжӧ',
+	'maintenance-password' => 'Шолыпмут',
 );
 
 /** Malayalam (മലയാളം)
