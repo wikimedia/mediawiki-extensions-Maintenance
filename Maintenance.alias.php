@@ -43,6 +43,11 @@ $aliases['hr'] = array(
 	'Maintenance' => array( 'Održavanje' ),
 );
 
+/** Upper Sorbian (Hornjoserbsce) */
+$aliases['hsb'] = array(
+	'Maintenance' => array( 'Wothladowanje' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'Maintenance' => array( 'Pemeliharaan' ),
