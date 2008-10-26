@@ -997,6 +997,7 @@ Schreiwt an all Linn just eng Versioun.',
 $messages['mhr'] = array(
 	'maintenance-name' => 'Пайдаланышын лӱмжӧ',
 	'maintenance-password' => 'Шолыпмут',
+	'maintenance-reason' => 'Амал',
 );
 
 /** Malayalam (മലയാളം)
