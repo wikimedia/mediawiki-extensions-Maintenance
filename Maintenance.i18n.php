@@ -1343,7 +1343,7 @@ Indicar una sola pagina per linha',
 Indicatz una sola version per linha',
 	'maintenance-initStats' => 'Utilizatz aqueste formulari per tornar calcular las estatisticas del sit, en indicant, se fa mestièr, se desiratz lo recalcul del nombre de visitas per pagina.',
 	'maintenance-moveBatch' => 'Utilizatz aqueste formulari per desplaçar en massa las paginas.
-Cada linha deurà indicar la pagina d’origina e la de destinacion ; lasqualas deuràn èsser separadas per un « <nowiki>|</nowiki> »',
+Cada linha deurà indicar la pagina d’origina e la de destinacion ; lasquinas deuràn èsser separadas per un « <nowiki>|</nowiki> »',
 	'maintenance-invalidtype' => 'Tipe incorrècte !',
 	'maintenance-name' => "Nom d'utilizaire",
 	'maintenance-password' => 'Senhal',
@@ -1479,15 +1479,47 @@ $messages['ro'] = array(
 );
 
 /** Russian (Русский)
+ * @author Ferrer
  * @author Innv
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
+	'maintenance' => 'Запуск технических скриптов',
+	'maintenance-desc' => '[[Special:Maintenance|Веб-интерфейс]] для управления техническими скриптами',
+	'maintenance-backlink' => 'Вернуться к выбору скрипта',
+	'maintenance-changePassword-desc' => 'Изменить пароль участника',
+	'maintenance-createAndPromote-desc' => 'Создать участника с статусом администратора',
+	'maintenance-deleteBatch-desc' => 'Массовое удаление страниц',
+	'maintenance-deleteRevision-desc' => 'Удаление версий страниц из базы данных',
+	'maintenance-initEditCount-desc' => 'Пересчитать счётчики правок участников',
+	'maintenance-initStats-desc' => 'Пересчитать статистику сайта',
+	'maintenance-moveBatch-desc' => 'Массовое переименование страниц',
+	'maintenance-runJobs-desc' => 'Запустить задания в очереди заданий',
+	'maintenance-showJobs-desc' => 'Показать список заданий в очереди заданий',
+	'maintenance-changePassword' => 'Используйте эту форму, чтобы изменить пароль участника',
+	'maintenance-invalidtype' => 'Ошибочный тип!',
 	'maintenance-name' => 'Имя участника',
 	'maintenance-password' => 'Пароль',
+	'maintenance-bureaucrat' => 'Присвоить участнику статус бюрократа',
 	'maintenance-reason' => 'Причина',
+	'maintenance-confirm' => 'Подтвердить',
+	'maintenance-invalidname' => 'Ошибочное имя участника!',
+	'maintenance-invalidtitle' => 'Ошибочный заголовок "$1"!',
+	'maintenance-revdelete' => 'Удаление версий страницы $1 из вики $2',
+	'maintenance-revnotfound' => 'Версия страницы $1 не найдена!',
 	'maintenance-stats-edits' => 'Число правок: $1',
+	'maintenance-stats-articles' => 'Количество страниц в основном пространстве: $1',
+	'maintenance-stats-pages' => 'Количество страниц: $1',
+	'maintenance-stats-users' => 'Количество участников: $1',
+	'maintenance-stats-admins' => 'Количество администраторов: $1',
+	'maintenance-stats-images' => 'Количество файлов: $1',
+	'maintenance-stats-views' => 'Количество просмотров страниц: $1',
+	'maintenance-stats-update' => 'Обновление базы данных...',
+	'maintenance-move' => 'Переименовать $1 в $2...',
 	'maintenance-error' => 'Ошибка: $1',
+	'maintenance-memc-requests' => 'Запросы',
+	'maintenance-memc-total' => 'всего:',
+	'maintenance-memc-updates' => 'обновлений:',
 );
 
 /** Slovak (Slovenčina)
