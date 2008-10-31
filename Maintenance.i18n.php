@@ -1484,19 +1484,25 @@ $messages['ro'] = array(
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'maintenance' => 'Запуск технических скриптов',
-	'maintenance-desc' => '[[Special:Maintenance|Веб-интерфейс]] для управления техническими скриптами',
+	'maintenance' => 'Запуск скриптов обслуживания',
+	'maintenance-desc' => '[[Special:Maintenance|Веб-интерфейс]] для различных скриптов обслуживания',
 	'maintenance-backlink' => 'Вернуться к выбору скрипта',
 	'maintenance-changePassword-desc' => 'Изменить пароль участника',
-	'maintenance-createAndPromote-desc' => 'Создать участника с статусом администратора',
+	'maintenance-createAndPromote-desc' => 'Создать участника со статусом администратора',
 	'maintenance-deleteBatch-desc' => 'Массовое удаление страниц',
 	'maintenance-deleteRevision-desc' => 'Удаление версий страниц из базы данных',
-	'maintenance-initEditCount-desc' => 'Пересчитать счётчики правок участников',
+	'maintenance-initEditCount-desc' => 'Пересчитать число правок участников',
 	'maintenance-initStats-desc' => 'Пересчитать статистику сайта',
 	'maintenance-moveBatch-desc' => 'Массовое переименование страниц',
 	'maintenance-runJobs-desc' => 'Запустить задания в очереди заданий',
-	'maintenance-showJobs-desc' => 'Показать список заданий в очереди заданий',
+	'maintenance-showJobs-desc' => 'Показать список заданий из очереди заданий',
 	'maintenance-changePassword' => 'Используйте эту форму, чтобы изменить пароль участника',
+	'maintenance-createAndPromote' => 'Используйте эту форму для создания нового участника с правами администратора.
+Обратите внимание на форму бюрократа, если вы хотите сделать его бюрократом',
+	'maintenance-deleteBatch' => 'Используйте эту форму для массового удаления страниц.
+На одной строке должна находиться только одна страница.',
+	'maintenance-deleteRevision' => 'Используйте эту форму для массового удаления версий страниц.
+На одной строке должен быть только один номер версии страницы',
 	'maintenance-invalidtype' => 'Ошибочный тип!',
 	'maintenance-name' => 'Имя участника',
 	'maintenance-password' => 'Пароль',
@@ -1504,7 +1510,10 @@ $messages['ru'] = array(
 	'maintenance-reason' => 'Причина',
 	'maintenance-confirm' => 'Подтвердить',
 	'maintenance-invalidname' => 'Ошибочное имя участника!',
-	'maintenance-invalidtitle' => 'Ошибочный заголовок "$1"!',
+	'maintenance-userexists' => 'Участник уже существует!',
+	'maintenance-invalidtitle' => 'Ошибочный заголовок «$1»!',
+	'maintenance-titlenoexist' => 'Указанный заголовок («$1») не существует!',
+	'maintenance-deleted' => 'УДАЛЕНО',
 	'maintenance-revdelete' => 'Удаление версий страницы $1 из вики $2',
 	'maintenance-revnotfound' => 'Версия страницы $1 не найдена!',
 	'maintenance-stats-edits' => 'Число правок: $1',
@@ -1515,11 +1524,23 @@ $messages['ru'] = array(
 	'maintenance-stats-images' => 'Количество файлов: $1',
 	'maintenance-stats-views' => 'Количество просмотров страниц: $1',
 	'maintenance-stats-update' => 'Обновление базы данных...',
-	'maintenance-move' => 'Переименовать $1 в $2...',
+	'maintenance-move' => 'Переименование $1 в $2...',
+	'maintenance-movefail' => 'Ошибки, возникшие при переименовании: $1.
+Переименование отменено',
 	'maintenance-error' => 'Ошибка: $1',
 	'maintenance-memc-requests' => 'Запросы',
+	'maintenance-memc-withsession' => 'с сеансом:',
+	'maintenance-memc-withoutsession' => 'без сеанса:',
 	'maintenance-memc-total' => 'всего:',
+	'maintenance-memc-parsercache' => 'Кэш парсера',
+	'maintenance-memc-hits' => 'просмотров:',
+	'maintenance-memc-invalid' => 'ошибочных:',
+	'maintenance-memc-expired' => 'истекших:',
+	'maintenance-memc-absent' => 'отсутствует:',
+	'maintenance-memc-imagecache' => 'Кэш изображений',
 	'maintenance-memc-updates' => 'обновлений:',
+	'maintenance-memc-uncacheable' => 'некэшируемых:',
+	'maintenance-memc-diffcache' => 'Кэш сравнений версий',
 );
 
 /** Slovak (Slovenčina)
