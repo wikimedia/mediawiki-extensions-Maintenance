@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Maintenance' => array( 'صيانة' ),
 );
 
+/** Breton (Brezhoneg) */
+$aliases['br'] = array(
+	'Maintenance' => array( "Trezalc'h" ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
