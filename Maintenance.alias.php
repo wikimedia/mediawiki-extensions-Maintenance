@@ -33,6 +33,11 @@ $aliases['br'] = array(
 	'Maintenance' => array( "Trezalc'h" ),
 );
 
+/** Bosnian (Bosanski) */
+$aliases['bs'] = array(
+	'Maintenance' => array( 'Odrzavanje' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),

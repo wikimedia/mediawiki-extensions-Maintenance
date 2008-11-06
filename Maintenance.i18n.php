@@ -353,6 +353,13 @@ $messages['bg'] = array(
 	'maintenance-memc-total' => 'общо:',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'maintenance-password' => 'Šifra',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
