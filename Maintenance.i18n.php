@@ -678,6 +678,13 @@ $messages['grc'] = array(
 	'maintenance-memc-requests' => 'Αἰτήσεις',
 );
 
+/** Hakka (Hak-kâ-fa)
+ * @author Hakka
+ */
+$messages['hak'] = array(
+	'maintenance-name' => 'Yung-fu-miàng',
+);
+
 /** Hawaiian (Hawai`i)
  * @author Singularity
  */
