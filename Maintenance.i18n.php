@@ -1357,7 +1357,7 @@ Indicar una sola pagina per linha',
 Indicatz una sola version per linha',
 	'maintenance-initStats' => 'Utilizatz aqueste formulari per tornar calcular las estatisticas del sit, en indicant, se fa mestièr, se desiratz lo recalcul del nombre de visitas per pagina.',
 	'maintenance-moveBatch' => 'Utilizatz aqueste formulari per desplaçar en massa las paginas.
-Cada linha deurà indicar la pagina d’origina e la de destinacion ; lasquinas deuràn èsser separadas per un « <nowiki>|</nowiki> »',
+Cada linha deurà indicar la pagina d’origina e la de destinacion ; las qualas deuràn èsser separadas per un « <nowiki>|</nowiki> »',
 	'maintenance-invalidtype' => 'Tipe incorrècte !',
 	'maintenance-name' => "Nom d'utilizaire",
 	'maintenance-password' => 'Senhal',
