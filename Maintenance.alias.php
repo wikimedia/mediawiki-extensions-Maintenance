@@ -38,6 +38,11 @@ $aliases['bs'] = array(
 	'Maintenance' => array( 'Odrzavanje' ),
 );
 
+/** German (Deutsch) */
+$aliases['de'] = array(
+	'Maintenance' => array( 'Wartung' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
