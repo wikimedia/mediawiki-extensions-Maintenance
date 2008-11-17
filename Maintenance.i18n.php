@@ -963,6 +963,7 @@ $messages['lb'] = array(
 	'maintenance-desc' => '[[Special:Maintenance|Web interface]] fir verschidde Maintenance-Skripten',
 	'maintenance-backlink' => "Zréck op d'Auswiel vum Script",
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
+	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an dem de Statut vun engem Administrateur ginn',
 	'maintenance-deleteBatch-desc' => 'Vill Säite matenee läschen',
 	'maintenance-deleteRevision-desc' => 'Versiounen aus der Datebank eraushuelen',
 	'maintenance-initEditCount-desc' => "D'Compteuren vun den Ännerunge vun de Benotzer nei berechnen",
