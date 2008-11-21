@@ -48,6 +48,11 @@ $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
 );
 
+/** Galician (Galego) */
+$aliases['gl'] = array(
+	'Maintenance' => array( 'Mantemento' ),
+);
+
 /** Hebrew (עברית) */
 $aliases['he'] = array(
 	'Maintenance' => array( 'תחזוקה' ),
