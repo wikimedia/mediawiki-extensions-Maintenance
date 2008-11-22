@@ -1406,6 +1406,13 @@ Arrèst del desplaçament.',
 	'maintenance-memc-diffcache' => 'Amagatal dels dif',
 );
 
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'maintenance-reason' => 'Аххос',
+);
+
 /** Plautdietsch (Plautdietsch)
  * @author Slomox
  */
