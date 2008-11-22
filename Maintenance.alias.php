@@ -2,7 +2,8 @@
 /**
  * Aliases for Special:Maintenance
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $aliases = array();
@@ -11,7 +12,7 @@ $aliases = array();
  * @author Jon Harald Søby
  */
 $aliases['en'] = array(
-    'Maintenance'            => array('Maintenance')
+	'Maintenance' => array( 'Maintenance' )
 );
 
 /** Arabic (العربية)
@@ -102,4 +103,3 @@ $aliases['no'] = array(
 $aliases['sv'] = array(
 	'Maintenance' => array( 'Underhåll' ),
 );
-

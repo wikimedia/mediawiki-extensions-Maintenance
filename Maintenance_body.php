@@ -1,5 +1,5 @@
 <?php
-if(!defined('MEDIAWIKI')) {
+if( !defined('MEDIAWIKI') ) {
 	echo("This file is an extension to the MediaWiki software and is not a valid access point");
 	die(1);
 }
@@ -7,16 +7,39 @@ if(!defined('MEDIAWIKI')) {
 class Maintenance extends SpecialPage {
 	var $type = '';
 
-	function __construct() {
-		SpecialPage::SpecialPage( 'Maintenance', 'maintenance' );
+	/**
+	 * Constructor
+	 */
+	public function __construct() {
+		parent::__construct( 'Maintenance'/*class*/, 'maintenance'/*restriction*/ );
 	}
 
-	function execute($par) {
+	/**
+	 * Show the special page
+	 *
+	 * @param $par Mixed: parameter passed to the page or null
+	 */
+	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgUser;
+
+		# If user is blocked, s/he doesn't need to access this page
+		if ( $wgUser->isBlocked() ) {
+			$wgOut->blockedPage();
+			return;
+		}
+
+		# Show a message if the database is in read-only mode
+		if ( wfReadOnly() ) {
+			$wgOut->readOnlyPage();
+			return;
+		}
+
+		# If the user doesn't have the required 'maintenance' permission, display an error
 		if( !$wgUser->isAllowed( 'maintenance' ) ) {
 			$wgOut->permissionRequired( 'maintenance' );
 			return;
 		}
+
 		$this->type = $par ? $par : '';
 		if( $this->type === '') {
 			$this->makeInitialForm();
@@ -32,14 +55,14 @@ class Maintenance extends SpecialPage {
 		//(minus the .php part... duh)
 		$scripts = array(
 			'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
-			'initEditCount',	'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats'
+			'initEditCount', 'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats'
 		);
 		global $wgOut;
 		wfLoadExtensionMessages('Maintenance');
 		$this->setHeaders();
 		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
 		$url = $title->getFullUrl() . '/';
-		$wgOut->addWikiText(wfMsg('maintenance-header'));
+		$wgOut->addWikiMsg('maintenance-header');
 		$wgOut->addHTML( '<ul>' );
 		foreach( $scripts as $type ) {
 			$wgOut->addHTML( '<li><a href="'.$url.$type.'">'.$type.'</a> -- '.wfMsg('maintenance-'.$type.'-desc').'</li>' );
@@ -101,7 +124,7 @@ class Maintenance extends SpecialPage {
 	}
 
 	function executeScript( $type ) {
-		global $wgOut, $wgRequest;
+		global $wgOut, $wgRequest, $wgUser;
 		wfLoadExtensionMessages('Maintenance');
 		$this->setHeaders();
 		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
@@ -112,15 +135,14 @@ class Maintenance extends SpecialPage {
 				$password = $wgRequest->getText('wpPassword');
 				$user = User::newFromName($name);
 				if( !$user->getId() ) {
-					$wgOut->addWikiText( wfMsg('maintenance-invalidname') );
+					$wgOut->addWikiMsg('maintenance-invalidname');
 					return;
 				}
 				$dbw = wfGetDB( DB_MASTER );
-				$fname = 'ChangePassword::main';
 
 				$user->setPassword( $password );
 				$user->saveSettings();
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'createAndPromote':
 				$name = $wgRequest->getText('wpName');
@@ -128,21 +150,21 @@ class Maintenance extends SpecialPage {
 				$bcrat = $wgRequest->getCheck('wpBcrat');
 				$user = User::newFromName($name);
 				if( !is_object($user) ) {
-					$wgOut->addWikiText( wfMsg('maintenance-invalidname') );
+					$wgOut->addWikiMsg('maintenance-invalidname');
 					return;
 				} elseif( 0 != $user->idForName() ) {
-					$wgOut->addWikiText( wfMsg('maintenance-userexists') );
+					$wgOut->addWikiMsg('maintenance-userexists');
 					return;
 				}
 				$user->addToDatabase();
 				$user->setPassword( $password );
 				$user->saveSettings();
 				$user->addGroup('sysop');
-				if($bcrat)
+				if( $bcrat )
 					$user->addGroup('bureaucrat');
 				$ssu = new SiteStatsUpdate( 0, 0, 0, 0, 1 );
 				$ssu->doUpdate();
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'deleteBatch':
 				$reason = $wgRequest->getText('wpReason', '');
@@ -152,18 +174,22 @@ class Maintenance extends SpecialPage {
 				$lines = explode( "\n", $pages );
 				foreach( $lines as &$line ) {
 					$line = trim($line);
-					if($line == '')
+					if( $line == '' )
 						continue;
 					$page = Title::newFromText($line);
 					if( is_null( $page ) ) {
-						$wgOut->addWikiText( wfMsg( 'maintenance-invalidtitle', array( $line ) ) );
+						$wgOut->addWikiMsg( 'maintenance-invalidtitle', $line );
 						continue;
 					}
 					if( !$page->exists() ) {
-						$wgOut->addWikiText( wfMsg( 'maintenance-titlenoexist', array( $line ) ) );
+						$wgOut->addWikiMsg( 'maintenance-titlenoexist', $line );
 						continue;
 					}
 					$return = '* ' . $page->getPrefixedText();
+					// Switch the user here from the current user to Delete page script
+					$OldUser = $wgUser;
+					$wgUser = User::newFromName( 'Delete page script' );
+					// Begin transaction
 					$dbw->begin();
 					if( $page->getNamespace() == NS_IMAGE ) {
 						$art = new ImagePage( $page );
@@ -175,7 +201,10 @@ class Maintenance extends SpecialPage {
 						$art = new Article( $page );
 					}
 					$success = $art->doDeleteArticle( $reason );
-					$dbw->immediateCommit();
+					// Commit changes to the database
+					$dbw->commit();
+					// ...and switch user back to the old user
+					$wgUser = $OldUser;
 					if ( $success ) {
 						$return .= '... ' . wfMsg('maintenance-deleted');
 					} else {
@@ -184,14 +213,16 @@ class Maintenance extends SpecialPage {
 					$wgOut->addWikiText($return);
 					waitForSlaves( 5 );
 				}
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'deleteRevision':
 				$delete = $wgRequest->getText('wpDelete');
 				$revisions = explode( "\n", $delete );
-				$wgOut->addWikiText(wfMsg('maintenance-revdelete', array(implode(', ',$revisions), wfWikiId())));
+				$wgOut->addWikiMsg( 'maintenance-revdelete', implode( ', ', $revisions ), wfWikiID() );
 				$affected = 0;
-				$fname = 'deleteRevision';
+				// Switch the user here from the current user to Delete page script
+				$OldUser = $wgUser;
+				$wgUser = User::newFromName( 'Delete page script' );
 				$dbw = wfGetDB( DB_MASTER );
 				foreach ( $revisions as $revID ) {
 					$dbw->insertSelect( 'archive', array( 'page', 'revision' ),
@@ -208,16 +239,18 @@ class Maintenance extends SpecialPage {
 						), array(
 							'rev_id' => $revID,
 							'page_id = rev_page'
-						), $fname
+						), __METHOD__
 					);
 					if ( !$dbw->affectedRows() ) {
-						$wgOut->addWikiText( wfMsg('maintenance-revnotfound', array( $revID ) ) );
+						$wgOut->addWikiMsg( 'maintenance-revnotfound', array( $revID ) );
 					} else {
 						$affected += $dbw->affectedRows();
 						$dbw->delete( 'revision', array( 'rev_id' => $revID ) );
 					}
 				}
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				// ...and switch user back to the old user
+				$wgUser = $OldUser;
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'initEditCount':
 				global $wgDBservers;
@@ -251,29 +284,29 @@ class Maintenance extends SpecialPage {
 					$dbr->freeResult( $result );
 					waitForSlaves( 10 );
 				}
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'initStats':
 				$dbr = wfGetDB( DB_SLAVE );
 				$edits = $dbr->selectField( 'revision', 'COUNT(*)', '', __METHOD__ );
 				$edits += $dbr->selectField( 'archive', 'COUNT(*)', '', __METHOD__ );
-				$wgOut->addWikiText(wfMsg('maintenance-stats-edits', array( $edits ) ) );
+				$wgOut->addWikiMsg( 'maintenance-stats-edits', $edits );
 				global $wgContentNamespaces;
-				$good  = $dbr->selectField( 'page', 'COUNT(*)', array( 'page_namespace' => $wgContentNamespaces, 'page_is_redirect' => 0, 'page_len > 0' ), __METHOD__ );
-				$wgOut->addWikiText(wfMsg('maintenance-stats-articles', array( $good ) ) );
+				$good = $dbr->selectField( 'page', 'COUNT(*)', array( 'page_namespace' => $wgContentNamespaces, 'page_is_redirect' => 0, 'page_len > 0' ), __METHOD__ );
+				$wgOut->addWikiMsg( 'maintenance-stats-articles', $good );
 				$pages = $dbr->selectField( 'page', 'COUNT(*)', '', __METHOD__ );
-				$wgOut->addWikiText(wfMsg('maintenance-stats-pages', array( $pages ) ) );
+				$wgOut->addWikiMsg( 'maintenance-stats-pages', $pages );
 				$users = $dbr->selectField( 'user', 'COUNT(*)', '', __METHOD__ );
-				$wgOut->addWikiText(wfMsg('maintenance-stats-users', array( $users ) ) );
+				$wgOut->addWikiMsg( 'maintenance-stats-users', $users );
 				$admin = $dbr->selectField( 'user_groups', 'COUNT(*)', array( 'ug_group' => 'sysop' ), __METHOD__ );
-				$wgOut->addWikiText(wfMsg('maintenance-stats-admins', array( $admin ) ) );
+				$wgOut->addWikiMsg( 'maintenance-stats-admins', $admin );
 				$image = $dbr->selectField( 'image', 'COUNT(*)', '', __METHOD__ );
-				$wgOut->addWikiText(wfMsg('maintenance-stats-images', array( $image ) ) );
+				$wgOut->addWikiMsg( 'maintenance-stats-images', $image );
 				if( !$wgRequest->getCheck('wpNoview') ) {
 					$views = $dbr->selectField( 'page', 'SUM(page_counter)', '', __METHOD__ );
-					$wgOut->addWikiText(wfMsg('maintenance-stats-views', array( $views ) ) );
+					$wgOut->addWikiMsg( 'maintenance-stats-views', $views );
 				}
-				$wgOut->addWikiText(wfMsg('maintenance-stats-update') );
+				$wgOut->addWikiMsg('maintenance-stats-update');
 				$dbw = wfGetDB( DB_MASTER );
 				$values = array( 'ss_total_edits' => $edits,
 								'ss_good_articles' => $good,
@@ -290,12 +323,12 @@ class Maintenance extends SpecialPage {
 					$dbw->delete( 'site_stats', $conds, __METHOD__ );
 					$dbw->insert( 'site_stats', array_merge( $values, $conds, $views ), __METHOD__ );
 				}
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'moveBatch':
 				$reason = $wgRequest->getText('wpReason', '');
 				$interval = 0;
-				$pages = $wgRequest->getText('wpDelete');
+				$pages = $wgRequest->getText('wpMove');
 				$dbw = wfGetDB( DB_MASTER );
 				$lines = explode( "\n", $pages );
 				foreach( $lines as $line ) {
@@ -308,16 +341,16 @@ class Maintenance extends SpecialPage {
 					if ( is_null( $source ) || is_null( $dest ) ) {
 						continue;
 					}
-					$wgOut->addWikiText('* '.wfMsg('maintenance-move', array($source->getPrefixedText(), $dest->getPrefixedText())));
+					$wgOut->addWikiText( '* '.wfMsg( 'maintenance-move', array( $source->getPrefixedText(), $dest->getPrefixedText() ) ) );
 					$dbw->begin();
 					$err = $source->moveTo( $dest, false, $reason );
 					if( $err !== true ) {
 						$wgOut->addWikiText('** '.wfMsg('maintenance-movefail', array( $err ) ) );
 					}
-					$dbw->immediateCommit();
+					$dbw->commit();
 					waitForSlaves( 5 );
 				}
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'runJobs':
 				$maxJobs = 10000;
@@ -326,14 +359,14 @@ class Maintenance extends SpecialPage {
 				$n = 0;
 				$conds = '';
 				while ( $dbw->selectField( 'job', 'count(*)', $conds, 'runJobs.php' ) ) {
-					$offset=0;
+					$offset = 0;
 					for (;;) {
 						$job = 	Job::pop($offset);
-						if ($job == false)
+						if ( $job == false )
 							break;
 						waitForSlaves( 5 );
 						$wgOut->addWikiText("* ".$job->id . "  " . $job->toString() );
-						$offset=$job->id;
+						$offset = $job->id;
 						if ( !$job->run() ) {
 							$wgOut->addWikiText("** ".wfMsg('maintenance-error', array( $job->error ) ) );
 						}
@@ -342,34 +375,34 @@ class Maintenance extends SpecialPage {
 						}
 					}
 				}
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'showJobs':
 				$dbw = wfGetDB( DB_MASTER );
 				$count = $dbw->selectField( 'job', 'count(*)', '', 'runJobs.php' );
 				$wgOut->addHTML( $count );
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'stats':
 				global $wgMemc;
 				if( get_class( $wgMemc ) == 'FakeMemCachedClient' ) {
-					$wgOut->addWikiText(wfMsg('maintenance-memc-fake'));
+					$wgOut->addWikiMsg('maintenance-memc-fake');
 					return;
 				}
 				$wgOut->addWikiText('<h2>'.wfMsg('maintenance-memc-requests').'</h2>');
-				$session = intval($wgMemc->get(wfMemcKey('stats','request_with_session')));
-				$noSession = intval($wgMemc->get(wfMemcKey('stats','request_without_session')));
+				$session = intval( $wgMemc->get( wfMemcKey('stats', 'request_with_session') ) );
+				$noSession = intval( $wgMemc->get( wfMemcKey('stats', 'request_without_session') ) );
 				$total = $session + $noSession;
 				$requests = sprintf( wfMsg('maintenance-memc-withsession')."      %-10d %6.2f%%\n", $session, $session/$total*100 ) . '<br />';
 				$requests .= sprintf( wfMsg('maintenance-memc-withoutsession')."   %-10d %6.2f%%\n", $noSession, $noSession/$total*100 ). '<br />';
 				$requests .= sprintf( wfMsg('maintenance-memc-total')."             %-10d %6.2f%%\n", $total, 100 ). '<br />';
 				$wgOut->addWikiText($requests);
 				$wgOut->addWikiText('<h2>'.wfMsg('maintenance-memc-parsercache').'</h2>');
-				$hits = intval($wgMemc->get(wfMemcKey('stats','pcache_hit')));
-				$invalid = intval($wgMemc->get(wfMemcKey('stats','pcache_miss_invalid')));
-				$expired = intval($wgMemc->get(wfMemcKey('stats','pcache_miss_expired')));
-				$absent = intval($wgMemc->get(wfMemcKey('stats','pcache_miss_absent')));
-				$stub = intval($wgMemc->get(wfMemcKey('stats','pcache_miss_stub')));
+				$hits = intval( $wgMemc->get( wfMemcKey('stats', 'pcache_hit') ) );
+				$invalid = intval( $wgMemc->get( wfMemcKey('stats', 'pcache_miss_invalid') ) );
+				$expired = intval( $wgMemc->get( wfMemcKey('stats', 'pcache_miss_expired') ) );
+				$absent = intval( $wgMemc->get( wfMemcKey('stats', 'pcache_miss_absent') ) );
+				$stub = intval( $wgMemc->get( wfMemcKey('stats', 'pcache_miss_stub') ) );
 				$total = $hits + $invalid + $expired + $absent + $stub;
 				$pcache = sprintf( wfMsg('maintenance-memc-hits')."              %-10d %6.2f%%\n", $hits, $hits/$total*100 ). '<br />';
 				$pcache .= sprintf( wfMsg('maintenance-memc-invalid')."           %-10d %6.2f%%\n", $invalid, $invalid/$total*100 ). '<br />';
@@ -378,25 +411,25 @@ class Maintenance extends SpecialPage {
 				$pcache .= sprintf( wfMsg('maintenance-memc-stub')."    %-10d %6.2f%%\n", $stub, $stub/$total*100 ). '<br />';
 				$pcache .= sprintf( wfMsg('maintenance-memc-total')."             %-10d %6.2f%%\n", $total, 100 ). '<br />';
 				$wgOut->addWikiText($pcache);
-				$hits = intval($wgMemc->get(wfMemcKey('stats','image_cache_hit')));
-				$misses = intval($wgMemc->get(wfMemcKey('stats','image_cache_miss')));
-				$updates = intval($wgMemc->get(wfMemcKey('stats','image_cache_update')));
+				$hits = intval( $wgMemc->get( wfMemcKey('stats', 'image_cache_hit') ) );
+				$misses = intval( $wgMemc->get( wfMemcKey('stats', 'image_cache_miss') ) );
+				$updates = intval( $wgMemc->get( wfMemcKey('stats', 'image_cache_update') ) );
 				$total = $hits + $misses;
 				$wgOut->addWikiText('<h2>'.wfMsg('maintenance-memc-imagecache').'</h2>');
 				$icache = sprintf( wfMsg('maintenance-memc-hits')."              %-10d %6.2f%%\n", $hits, $hits/$total*100 ). '<br />';
 				$icache .= sprintf( wfMsg('maintenance-memc-misses')."            %-10d %6.2f%%\n", $misses, $misses/$total*100 ). '<br />';
 				$icache .= sprintf( wfMsg('maintenance-memc-updates')."           %-10d\n", $updates ). '<br />';
 				$wgOut->addWikiText($icache);
-				$hits = intval($wgMemc->get(wfMemcKey('stats','diff_cache_hit')));
-				$misses = intval($wgMemc->get(wfMemcKey('stats','diff_cache_miss')));
-				$uncacheable = intval($wgMemc->get(wfMemcKey('stats','diff_uncacheable')));
+				$hits = intval( $wgMemc->get( wfMemcKey('stats', 'diff_cache_hit') ) );
+				$misses = intval( $wgMemc->get( wfMemcKey('stats', 'diff_cache_miss') ) );
+				$uncacheable = intval( $wgMemc->get( wfMemcKey('stats', 'diff_uncacheable') ) );
 				$total = $hits + $misses + $uncacheable;
 				$wgOut->addWikiText('<h2>'.wfMsg('maintenance-memc-diffcache').'</h2>');
 				$dcache = sprintf( wfMsg('maintenance-memc-hits')."              %-10d %6.2f%%\n", $hits, $hits/$total*100 ). '<br />';
 				$dcache .= sprintf( wfMsg('maintenance-memc-misses')."            %-10d %6.2f%%\n", $misses, $misses/$total*100 ). '<br />';
 				$dcache .= sprintf( wfMsg('maintenance-memc-uncacheable')."       %-10d %6.2f%%\n", $uncacheable, $uncacheable/$total*100 ). '<br />';
 				$wgOut->addWikiText($dcache);
-				$wgOut->addWikiText( wfMsg('maintenance-success', array( $type ) ) );
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			default:
 				$wgOut->addHTML('<p>'.wfMsg('maintenance-invalidtype').'</p></form>');
@@ -405,7 +438,7 @@ class Maintenance extends SpecialPage {
 	}
 }
 
-function waitForSlaves($maxLag) {
+function waitForSlaves( $maxLag ) {
 	if( $maxLag ) {
 		$lb = wfGetLB();
 		list( $host, $lag ) = $lb->getMaxLag();

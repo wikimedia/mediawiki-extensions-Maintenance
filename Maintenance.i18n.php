@@ -1,8 +1,9 @@
 <?php
 /**
- * Internationalisation file for extension Maintenance.
+ * Internationalisation file for Maintenance extension.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $messages = array();
@@ -11,96 +12,80 @@ $messages = array();
  * @author Ryan Schmidt
  */
 $messages['en'] = array(
-	'maintenance'                       => "Run maintenance scripts",
-	'maintenance-desc'                  => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
-	'maintenance-backlink'              => "Back to script selection",
-	'maintenance-header'                => "Please select a script below to execute.
-Descriptions are next to each script",
-	'maintenance-changePassword-desc'   => "Change a user's password",
-	'maintenance-createAndPromote-desc' => "Create a user and promote to sysop status",
-	'maintenance-deleteBatch-desc'      => "Mass-delete pages",
-	'maintenance-deleteRevision-desc'   => "Remove revisions from the database",
-	'maintenance-initEditCount-desc'    => "Recalculate the edit counts of users",
-	'maintenance-initStats-desc'        => "Recalculate site statistics",
-	'maintenance-moveBatch-desc'        => "Mass-move pages",
-	'maintenance-runJobs-desc'          => "Run jobs in the job queue",
-	'maintenance-showJobs-desc'         => "Show a list of jobs pending in the job queue",
-	'maintenance-stats-desc'            => "Show Memcached statistics",
-	'maintenance-changePassword'        => "Use this form to change a user's password",
-	'maintenance-createAndPromote'      => "Use this form to create a new user and promote it to sysop.
-Check the bureaucrat box if you wish to promote to bureaucrat as well",
-	'maintenance-deleteBatch'           => "Use this form to mass-delete pages.
-Put only one page per line",
-	'maintenance-deleteRevision'        => "Use this form to mass-delete revisions.
-Put only one revision number per line",
-	'maintenance-initEditCount'         => "",
-	'maintenance-initStats'             => "Use this form to recalculate site statistics, specifiying if you want to recalculate page views as well",
-	'maintenance-moveBatch'             => "Use this form to mass-move pages.
-Each line should specify a source page and destination page separated by a pipe",
-	'maintenance-runJobs'               => "",
-	'maintenance-showJobs'              => "",
-	'maintenance-stats'                 => "",
-	'maintenance-invalidtype'           => "Invalid type!",
-	'maintenance-name'                  => "Username",
-	'maintenance-password'              => "Password",
-	'maintenance-bureaucrat'            => "Promote user to bureaucrat status",
-	'maintenance-reason'                => "Reason",
-	'maintenance-update'                => "Use UPDATE when updating a table? Unchecked uses DELETE/INSERT instead.",
-	'maintenance-noviews'               => "Check this to prevent updating the number of pageviews",
-	'maintenance-confirm'               => "Confirm",
-	'maintenance-invalidname'           => "Invalid username!",
-	'maintenance-success'               => "$1 ran successfully!",
-	'maintenance-userexists'            => "User already exists!",
-	'maintenance-invalidtitle'          => "Invalid title \"$1\"!",
-	'maintenance-titlenoexist'          => "Title specified (\"$1\") does not exist!",
-	'maintenance-failed'                => "FAILED",
-	'maintenance-deleted'               => "DELETED",
-	'maintenance-revdelete'             => "Deleting revisions $1 from wiki $2",
-	'maintenance-revnotfound'           => "Revision $1 not found!",
-	'maintenance-stats-edits'           => "Number of edits: $1",
-	'maintenance-stats-articles'        => "Number of pages in the main namespace: $1",
-	'maintenance-stats-pages'           => "Number of pages: $1",
-	'maintenance-stats-users'           => "Number of users: $1",
-	'maintenance-stats-admins'          => "Number of admins: $1",
-	'maintenance-stats-images'          => "Number of files: $1",
-	'maintenance-stats-views'           => "Number of pageviews: $1",
-	'maintenance-stats-update'          => "Updating database...",
-	'maintenance-move'                  => "Moving $1 to $2...",
-	'maintenance-movefail'              => "Error encountered while moving: $1.
-Aborting move",
-	'maintenance-error'                 => "Error: $1",
-	'maintenance-memc-fake'             => "You are running FakeMemCachedClient. No statistics can be provided",
-	'maintenance-memc-requests'         => "Requests",
-	'maintenance-memc-withsession'      => "with session:",
-	'maintenance-memc-withoutsession'   => "without session:",
-	'maintenance-memc-total'            => "total:",
-	'maintenance-memc-parsercache'      => "Parser cache",
-	'maintenance-memc-hits'             => "hits:",
-	'maintenance-memc-invalid'          => "invalid:",
-	'maintenance-memc-expired'          => "expired:",
-	'maintenance-memc-absent'           => "absent:",
-	'maintenance-memc-stub'             => "stub threshold:",
-	'maintenance-memc-imagecache'       => "Image cache",
-	'maintenance-memc-misses'           => "misses:",
-	'maintenance-memc-updates'          => "updates:",
-	'maintenance-memc-uncacheable'      => "uncacheable:",
-	'maintenance-memc-diffcache'        => "Diff Cache",
-);
-
-/** Message documentation (Message documentation)
- * @author Darth Kule
- * @author Jon Harald Søby
- * @author Purodha
- */
-$messages['qqq'] = array(
-	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
-	'maintenance-name' => '{{Identical|Username}}',
-	'maintenance-password' => '{{Identical|Password}}',
-	'maintenance-reason' => '{{Identical|Reason}}',
-	'maintenance-confirm' => '{{Identical|Confirm}}',
-	'maintenance-deleted' => '{{Identical|Deleted}}',
-	'maintenance-memc-total' => '{{Identical|Total}}',
-	'maintenance-memc-hits' => '{{Identical|Hits}}',
+	'maintenance' => 'Run maintenance scripts',
+	'maintenance-desc' => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
+	'maintenance-backlink' => 'Back to script selection',
+	'maintenance-header' => 'Please select a script below to execute.
+Descriptions are next to each script',
+	'maintenance-changePassword-desc' => "Change a user's password",
+	'maintenance-createAndPromote-desc' => 'Create a user and promote to sysop status',
+	'maintenance-deleteBatch-desc' => 'Mass-delete pages',
+	'maintenance-deleteRevision-desc' => 'Remove revisions from the database',
+	'maintenance-initEditCount-desc' => 'Recalculate the edit counts of users',
+	'maintenance-initStats-desc' => 'Recalculate site statistics',
+	'maintenance-moveBatch-desc' => 'Mass-move pages',
+	'maintenance-runJobs-desc' => 'Run jobs in the job queue',
+	'maintenance-showJobs-desc' => 'Show a list of jobs pending in the job queue',
+	'maintenance-stats-desc' => 'Show Memcached statistics',
+	'maintenance-changePassword' => "Use this form to change a user's password",
+	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to sysop.
+Check the bureaucrat box if you wish to promote to bureaucrat as well',
+	'maintenance-deleteBatch' => 'Use this form to mass-delete pages.
+Put only one page per line',
+	'maintenance-deleteRevision' => 'Use this form to mass-delete revisions.
+Put only one revision number per line',
+	'maintenance-initEditCount' => '',
+	'maintenance-initStats' => 'Use this form to recalculate site statistics, specifiying if you want to recalculate page views as well',
+	'maintenance-moveBatch' => 'Use this form to mass-move pages.
+Each line should specify a source page and destination page separated by a pipe',
+	'maintenance-runJobs' => '',
+	'maintenance-showJobs' => '',
+	'maintenance-stats' => '',
+	'maintenance-invalidtype' => 'Invalid type!',
+	'maintenance-name' => 'Username',
+	'maintenance-password' => 'Password',
+	'maintenance-bureaucrat' => 'Promote user to bureaucrat status',
+	'maintenance-reason' => 'Reason',
+	'maintenance-update' => 'Use UPDATE when updating a table? Unchecked uses DELETE/INSERT instead.',
+	'maintenance-noviews' => 'Check this to prevent updating the number of pageviews',
+	'maintenance-confirm' => 'Confirm',
+	'maintenance-invalidname' => 'Invalid username!',
+	'maintenance-success' => '$1 ran successfully!',
+	'maintenance-userexists' => 'User already exists!',
+	'maintenance-invalidtitle' => 'Invalid title "$1"!',
+	'maintenance-titlenoexist' => 'Title specified ("$1") does not exist!',
+	'maintenance-failed' => 'FAILED',
+	'maintenance-deleted' => 'DELETED',
+	'maintenance-revdelete' => 'Deleting revisions $1 from wiki $2',
+	'maintenance-revnotfound' => 'Revision $1 not found!',
+	'maintenance-stats-edits' => 'Number of edits: $1',
+	'maintenance-stats-articles' => 'Number of pages in the main namespace: $1',
+	'maintenance-stats-pages' => 'Number of pages: $1',
+	'maintenance-stats-users' => 'Number of users: $1',
+	'maintenance-stats-admins' => 'Number of admins: $1',
+	'maintenance-stats-images' => 'Number of files: $1',
+	'maintenance-stats-views' => 'Number of pageviews: $1',
+	'maintenance-stats-update' => 'Updating database...',
+	'maintenance-move' => 'Moving $1 to $2...',
+	'maintenance-movefail' => 'Error encountered while moving: $1.
+Aborting move',
+	'maintenance-error' => 'Error: $1',
+	'maintenance-memc-fake' => 'You are running FakeMemCachedClient. No statistics can be provided',
+	'maintenance-memc-requests' => 'Requests',
+	'maintenance-memc-withsession' => 'with session:',
+	'maintenance-memc-withoutsession' => 'without session:',
+	'maintenance-memc-total' => 'total:',
+	'maintenance-memc-parsercache' => 'Parser cache',
+	'maintenance-memc-hits' => 'hits:',
+	'maintenance-memc-invalid' => 'invalid:',
+	'maintenance-memc-expired' => 'expired:',
+	'maintenance-memc-absent' => 'absent:',
+	'maintenance-memc-stub' => 'stub threshold:',
+	'maintenance-memc-imagecache' => 'Image cache',
+	'maintenance-memc-misses' => 'misses:',
+	'maintenance-memc-updates' => 'updates:',
+	'maintenance-memc-uncacheable' => 'uncacheable:',
+	'maintenance-memc-diffcache' => 'Diff Cache',
 );
 
 /** Faeag Rotuma (Faeag Rotuma)
@@ -473,8 +458,13 @@ $messages['eo'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Nike
+ * @author Jack Phoenix
  */
 $messages['fi'] = array(
+	'maintenance' => 'Suorita ylläpitoskriptejä',
+	'maintenance-backlink' => 'Takaisin skriptin valintaan',
+	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
+	Skriptien kuvaukset ovat niiden nimien vieressä',
 	'maintenance-changePassword-desc' => 'Muuta käyttäjän salasana',
 	'maintenance-createAndPromote-desc' => 'Luo käyttäjä ja lisää ylläpitäjäksi',
 	'maintenance-deleteBatch-desc' => 'Massapoista sivuja',
@@ -483,18 +473,37 @@ $messages['fi'] = array(
 	'maintenance-initStats-desc' => 'Laske sivuston tilastot uudelleen',
 	'maintenance-moveBatch-desc' => 'Massasiirrä sivuja',
 	'maintenance-runJobs-desc' => 'Aja työt ohjelmiston ylläpitotyöjonosta',
+	'maintenance-showJobs-desc' => 'Näytä lista töistä ylläpitotyöjonossa',
+	'maintenance-stats-desc' => 'Näytä Memcached-tilastot',
 	'maintenance-changePassword' => 'Vaihda käyttäjän salasana tällä lomakkeella',
+	'maintenance-createAndPromote' => 'Käytä tätä lomaketta luodaksesi uuden käyttäjän ja ylentääksesi hänet ylläpitäjäksi.
+Laita myös rasti byrokraatti-laatikkoon jos haluat ylentää käyttäjän byrokraatiksi',
+	'maintenance-deleteBatch' => 'Käytä tätä lomaketta sivujen massapoistamiseen.
+Laita vain yhden sivun nimi riviä kohden',
+	'maintenance-deleteRevision' => 'Käytä tätä lomaketta versioiden massapoistamiseen.
+Laita vain yhden version numero riviä kohden',
+	'maintenance-initStats' => 'Käytä tätä lomaketta sivuston tilastojen uudelleenlaskemiseen, määritellen myös, haluatko uudelleenlaskea sivujen näyttökerrat',
+	'maintenance-moveBatch' => 'Käytä tätä lomaketta sivujen massasiirtoon.
+Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
+	'maintenance-invalidtype' => 'Kelvoton tyyppi!',
 	'maintenance-name' => 'Käyttäjätunnus',
 	'maintenance-password' => 'Salasana',
+	'maintenance-bureaucrat' => 'Ylennä käyttäjä byrokraatiksi',
 	'maintenance-reason' => 'Syy',
+	'maintenance-update' => 'Käytä UPDATE-lausekkeita taulua päivitettäessä? Jos tätä ei ole valittu, DELETE/INSERT-lausekkeita käytetään sen sijaan.',
+	'maintenance-noviews' => 'Valitse tämä estääksesi sivujen näyttökertojen päivittämisen',
 	'maintenance-confirm' => 'Vahvista',
 	'maintenance-invalidname' => 'Virheellinen käyttäjätunnus.',
 	'maintenance-success' => '$1 ajettiin onnistuneesti.',
-	'maintenance-userexists' => 'Käyttäjä on jo olemassa.',
+	'maintenance-userexists' => 'Käyttäjä on jo olemassa!',
+	'maintenance-invalidtitle' => 'Kelvoton otsikko "$1"!',
+	'maintenance-titlenoexist' => 'Määritellyn otsikon ("$1") mukaista artikkelia ei ole olemassa!',
 	'maintenance-failed' => 'EPÄONNISTUI',
 	'maintenance-deleted' => 'POISTETTU',
+	'maintenance-revdelete' => 'Poistataan versiot $1 wikistä $2',
 	'maintenance-revnotfound' => 'Versiota $1 ei löydy.',
 	'maintenance-stats-edits' => 'Muokkauksia yhteensä: $1',
+	'maintenance-stats-articles' => 'Sivujen määrä päänimiavaruudessa: $1',
 	'maintenance-stats-pages' => 'Sivuja yhteensä: $1',
 	'maintenance-stats-users' => 'Käyttäjiä yhteensä: $1',
 	'maintenance-stats-admins' => 'Ylläpitäjiä yhteensä: $1',
@@ -502,7 +511,20 @@ $messages['fi'] = array(
 	'maintenance-stats-views' => 'Sivuja näytetty yhteensä: $1',
 	'maintenance-stats-update' => 'Päivitetään tietokantaa...',
 	'maintenance-move' => 'Siirretään $1 nimelle $2...',
+	'maintenance-movefail' => 'Tapahtui virhe siirrettäessä sivua: $1.
+Keskeytetään siirto',
 	'maintenance-error' => 'Virhe: $1',
+	'maintenance-memc-fake' => 'Käytössä on FakeMemCachedClient. Tilastoja ei voida tarjota',
+	'maintenance-memc-withsession' => 'istunnon kera:',
+	'maintenance-memc-withoutsession' => 'ilman istuntoa:',
+	'maintenance-memc-total' => 'yhteensä:',
+	'maintenance-memc-parsercache' => 'Jäsentimen välimuisti',
+	'maintenance-memc-hits' => 'osumia:',
+	'maintenance-memc-invalid' => 'kelvottomia:',
+	'maintenance-memc-absent' => 'poissa:',
+	'maintenance-memc-imagecache' => 'Kuvien välimuisti',
+	'maintenance-memc-misses' => 'huteja:',
+	'maintenance-memc-updates' => 'päivityksiä:',
 );
 
 /** French (Français)
