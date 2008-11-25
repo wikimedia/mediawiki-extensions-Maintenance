@@ -343,6 +343,7 @@ $messages['bg'] = array(
  */
 $messages['bs'] = array(
 	'maintenance-password' => 'Šifra',
+	'maintenance-reason' => 'Razlog',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -695,6 +696,7 @@ $messages['grc'] = array(
 	'maintenance-name' => 'Ὄνομα χρωμένου',
 	'maintenance-password' => 'Σύνθημα',
 	'maintenance-reason' => 'Αἰτία',
+	'maintenance-confirm' => 'Κυροῦν',
 	'maintenance-failed' => 'ΑΠΕΤΕΥΧΘΗ',
 	'maintenance-deleted' => 'ΔΙΕΓΡΑΦΗ',
 	'maintenance-memc-requests' => 'Αἰτήσεις',
