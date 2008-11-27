@@ -104,3 +104,8 @@ $aliases['sv'] = array(
 	'Maintenance' => array( 'Underhåll' ),
 );
 
+/** Swahili (Kiswahili) */
+$aliases['sw'] = array(
+	'Maintenance' => array( 'Matengenezo' ),
+);
+
