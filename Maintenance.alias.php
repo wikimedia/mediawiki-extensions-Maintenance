@@ -74,6 +74,11 @@ $aliases['id'] = array(
 	'Maintenance' => array( 'Pemeliharaan' ),
 );
 
+/** Japanese (日本語) */
+$aliases['ja'] = array(
+	'Maintenance' => array( 'メンテナンス' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'Maintenance' => array( 'តំហែទាំ' ),
