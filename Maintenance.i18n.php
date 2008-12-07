@@ -895,6 +895,13 @@ $messages['it'] = array(
 	'maintenance-confirm' => 'Conferma',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'maintenance-reason' => '理由',
+);
+
 /** Georgian (ქართული)
  * @author Malafaya
  */
