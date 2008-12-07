@@ -344,6 +344,7 @@ $messages['bg'] = array(
 $messages['bs'] = array(
 	'maintenance-password' => 'Šifra',
 	'maintenance-reason' => 'Razlog',
+	'maintenance-memc-total' => 'ukupno:',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)

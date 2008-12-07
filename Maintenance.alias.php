@@ -81,7 +81,7 @@ $aliases['ja'] = array(
 
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
-	'Maintenance' => array( 'តំហែទាំ' ),
+	'Maintenance' => array( 'ការថែទាំ' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
