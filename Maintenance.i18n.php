@@ -911,6 +911,7 @@ $messages['ka'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
+ * @author Thearith
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
@@ -922,7 +923,7 @@ $messages['km'] = array(
 	'maintenance-confirm' => 'អះអាង',
 	'maintenance-invalidname' => 'អ្នកប្រើប្រាស់មិនត្រឹមត្រូវ!',
 	'maintenance-userexists' => 'អ្នកប្រើប្រាស់មានរួចជាស្រេចហើយ!',
-	'maintenance-stats-edits' => 'ចំនួនកំនែប្រែ៖ $1',
+	'maintenance-stats-edits' => 'ចំនួនកំណែប្រែ៖ $1',
 	'maintenance-stats-pages' => 'ចំនួនទំព័រ: $1',
 	'maintenance-stats-users' => 'ចំនួនអ្នកប្រើប្រាស់: $1',
 	'maintenance-stats-admins' => 'ចំនួនអ្នកថែទាំប្រព័ន្ធ: $1',
@@ -931,7 +932,7 @@ $messages['km'] = array(
 	'maintenance-error' => 'កំហុស: $1',
 	'maintenance-memc-requests' => 'ស្នើសុំ',
 	'maintenance-memc-total' => 'សរុប:',
-	'maintenance-memc-expired' => 'បានផុតកំនត់៖',
+	'maintenance-memc-expired' => 'បានផុតកំណត់៖',
 );
 
 /** Korean (한국어)
