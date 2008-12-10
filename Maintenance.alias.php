@@ -54,6 +54,11 @@ $aliases['gl'] = array(
 	'Maintenance' => array( 'Mantemento' ),
 );
 
+/** Swiss German (Alemannisch) */
+$aliases['gsw'] = array(
+	'Maintenance' => array( 'Wartig' ),
+);
+
 /** Hebrew (עברית) */
 $aliases['he'] = array(
 	'Maintenance' => array( 'תחזוקה' ),
