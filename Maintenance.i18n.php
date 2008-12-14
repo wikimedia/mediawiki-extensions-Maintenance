@@ -691,6 +691,7 @@ Cancelando a operación',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
  * @author Omnipaedista
  */
 $messages['grc'] = array(
@@ -701,6 +702,7 @@ $messages['grc'] = array(
 	'maintenance-failed' => 'ΑΠΕΤΕΥΧΘΗ',
 	'maintenance-deleted' => 'ΔΙΕΓΡΑΦΗ',
 	'maintenance-memc-requests' => 'Αἰτήσεις',
+	'maintenance-memc-total' => 'συνολικόν:',
 );
 
 /** Hakka (Hak-kâ-fa)
