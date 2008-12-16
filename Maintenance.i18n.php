@@ -614,6 +614,23 @@ $messages['fy'] = array(
 	'maintenance-name' => 'Meidoggernamme',
 );
 
+/** Irish (Gaeilge)
+ * @author Alison
+ */
+$messages['ga'] = array(
+	'maintenance-reason' => 'Fáth',
+	'maintenance-invalidname' => 'Ainm úsáideoir neamhbhailí!',
+	'maintenance-invalidtitle' => 'Teideal neamhbhailí "$1"!',
+	'maintenance-deleted' => 'SCRIOSTA',
+	'maintenance-stats-pages' => 'Líon leathanaigh: $1',
+	'maintenance-stats-users' => 'Líon úsáideoirí: $1',
+	'maintenance-stats-admins' => 'Líon riarthóirí: $1',
+	'maintenance-stats-images' => 'Líon comhaid: $1',
+	'maintenance-error' => 'Earráid: $1',
+	'maintenance-memc-requests' => 'Iarratais',
+	'maintenance-memc-total' => 'iomlán:',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
