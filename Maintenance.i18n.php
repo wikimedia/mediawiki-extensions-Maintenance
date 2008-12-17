@@ -730,9 +730,11 @@ $messages['hak'] = array(
 );
 
 /** Hawaiian (Hawai`i)
+ * @author Kalani
  * @author Singularity
  */
 $messages['haw'] = array(
+	'maintenance-password' => 'ʻŌlelo hūnā',
 	'maintenance-reason' => 'Kumu',
 );
 
@@ -941,17 +943,20 @@ $messages['km'] = array(
 	'maintenance-reason' => 'មូលហេតុ',
 	'maintenance-confirm' => 'អះអាង',
 	'maintenance-invalidname' => 'អ្នកប្រើប្រាស់មិនត្រឹមត្រូវ!',
+	'maintenance-success' => '$1 បាន​ដំណើការ​ដោយ​ជោគជ័យ​!',
 	'maintenance-userexists' => 'អ្នកប្រើប្រាស់មានរួចជាស្រេចហើយ!',
 	'maintenance-stats-edits' => 'ចំនួនកំណែប្រែ៖ $1',
 	'maintenance-stats-pages' => 'ចំនួនទំព័រ: $1',
 	'maintenance-stats-users' => 'ចំនួនអ្នកប្រើប្រាស់: $1',
 	'maintenance-stats-admins' => 'ចំនួនអ្នកថែទាំប្រព័ន្ធ: $1',
 	'maintenance-stats-images' => 'ចំនួនឯកសារ: $1',
+	'maintenance-stats-update' => 'ធ្វើឱ្យ​ទិន្នន័យ​ទាន់សម័យ​...',
 	'maintenance-move' => 'កំពុងប្តូរទីតាំង$1ទៅ$2...',
 	'maintenance-error' => 'កំហុស: $1',
 	'maintenance-memc-requests' => 'ស្នើសុំ',
 	'maintenance-memc-total' => 'សរុប:',
 	'maintenance-memc-expired' => 'បានផុតកំណត់៖',
+	'maintenance-memc-updates' => 'បន្ទាន់សម័យ​៖',
 );
 
 /** Korean (한국어)
