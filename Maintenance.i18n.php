@@ -88,6 +88,22 @@ Aborting move',
 	'maintenance-memc-diffcache' => 'Diff Cache',
 );
 
+/** Message documentation (Message documentation)
+ * @author Darth Kule
+ * @author Jon Harald Søby
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
+	'maintenance-name' => '{{Identical|Username}}',
+	'maintenance-password' => '{{Identical|Password}}',
+	'maintenance-reason' => '{{Identical|Reason}}',
+	'maintenance-confirm' => '{{Identical|Confirm}}',
+	'maintenance-deleted' => '{{Identical|Deleted}}',
+	'maintenance-memc-total' => '{{Identical|Total}}',
+	'maintenance-memc-hits' => '{{Identical|Hits}}',
+);
+
 /** Faeag Rotuma (Faeag Rotuma)
  * @author Jose77
  */
@@ -459,8 +475,8 @@ $messages['eo'] = array(
 
 /** Finnish (Suomi)
  * @author Crt
- * @author Nike
  * @author Jack Phoenix
+ * @author Nike
  */
 $messages['fi'] = array(
 	'maintenance' => 'Suorita ylläpitoskriptejä',
@@ -497,7 +513,7 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 	'maintenance-confirm' => 'Vahvista',
 	'maintenance-invalidname' => 'Virheellinen käyttäjätunnus.',
 	'maintenance-success' => '$1 ajettiin onnistuneesti.',
-	'maintenance-userexists' => 'Käyttäjä on jo olemassa!',
+	'maintenance-userexists' => 'Käyttäjä on jo olemassa.',
 	'maintenance-invalidtitle' => 'Kelvoton otsikko "$1"!',
 	'maintenance-titlenoexist' => 'Määritellyn otsikon ("$1") mukaista artikkelia ei ole olemassa!',
 	'maintenance-failed' => 'EPÄONNISTUI',
@@ -1033,6 +1049,7 @@ $messages['lb'] = array(
 Nëmmen eng Säit pro Linn aginn.',
 	'maintenance-deleteRevision' => 'Benotzt dëse Formulaire fir vill Versioune mateneen ze läschen.
 Schreiwt an all Linn just eng Versioun.',
+	'maintenance-initStats' => "Benotzt dëse Formulaire fir d'Statistike vum Site nei ze berechnen, gitt w.e.g. unn ob Dir d'Zuel vun de Säiten-Ufroen och wëllt nei berechent hunn",
 	'maintenance-name' => 'Benotzernumm',
 	'maintenance-password' => 'Passwuert',
 	'maintenance-bureaucrat' => 'Engem Benotzer de Bürokrate-Status ginn',
