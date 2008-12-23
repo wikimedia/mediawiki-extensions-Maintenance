@@ -62,7 +62,7 @@ Each line should specify a source page and destination page separated by a pipe'
 	'maintenance-revnotfound' => 'Revision $1 not found!',
 	'maintenance-sql' => 'Use this form to execute a SQL query on the database.',
 	'maintenance-sql-aff' => 'Affected rows: $1',
-	'maintenance-sql-res' => '$1 rows returned:
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|row|rows}} returned:
 $2',
 	'maintenance-stats-edits' => 'Number of edits: $1',
 	'maintenance-stats-articles' => 'Number of pages in the main namespace: $1',
