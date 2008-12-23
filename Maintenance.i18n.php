@@ -21,11 +21,13 @@ Descriptions are next to each script',
 	'maintenance-createAndPromote-desc' => 'Create a user and promote to sysop status',
 	'maintenance-deleteBatch-desc' => 'Mass-delete pages',
 	'maintenance-deleteRevision-desc' => 'Remove revisions from the database',
+	'maintenance-eval-desc' => 'Evaluate PHP code in the MediaWiki environment',
 	'maintenance-initEditCount-desc' => 'Recalculate the edit counts of users',
 	'maintenance-initStats-desc' => 'Recalculate site statistics',
 	'maintenance-moveBatch-desc' => 'Mass-move pages',
 	'maintenance-runJobs-desc' => 'Run jobs in the job queue',
 	'maintenance-showJobs-desc' => 'Show a list of jobs pending in the job queue',
+	'maintenance-sql-desc' => 'Execute an SQL query',
 	'maintenance-stats-desc' => 'Show Memcached statistics',
 	'maintenance-changePassword' => "Use this form to change a user's password",
 	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to sysop.
@@ -58,6 +60,10 @@ Each line should specify a source page and destination page separated by a pipe'
 	'maintenance-deleted' => 'DELETED',
 	'maintenance-revdelete' => 'Deleting revisions $1 from wiki $2',
 	'maintenance-revnotfound' => 'Revision $1 not found!',
+	'maintenance-sql' => 'Use this form to execute a SQL query on the database.',
+	'maintenance-sql-aff' => 'Affected rows: $1',
+	'maintenance-sql-res' => '$1 rows returned:
+$2',
 	'maintenance-stats-edits' => 'Number of edits: $1',
 	'maintenance-stats-articles' => 'Number of pages in the main namespace: $1',
 	'maintenance-stats-pages' => 'Number of pages: $1',
@@ -86,6 +92,7 @@ Aborting move',
 	'maintenance-memc-updates' => 'updates:',
 	'maintenance-memc-uncacheable' => 'uncacheable:',
 	'maintenance-memc-diffcache' => 'Diff Cache',
+	'maintenance-eval' => 'Use this form to evaluate PHP code in the MediaWiki environment.',
 );
 
 /** Message documentation (Message documentation)

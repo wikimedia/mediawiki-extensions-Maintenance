@@ -55,8 +55,10 @@ class Maintenance extends SpecialPage {
 		//(minus the .php part... duh)
 		$scripts = array(
 			'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
-			'initEditCount', 'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats'
+			'initEditCount', 'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats',
+			'sql', 'eval',
 		);
+		sort($scripts);
 		global $wgOut;
 		wfLoadExtensionMessages('Maintenance');
 		$this->setHeaders();
@@ -95,6 +97,9 @@ class Maintenance extends SpecialPage {
 			case 'deleteRevision':
 				$wgOut->addHTML('<textarea name="wpDelete" rows="25" cols="80"></textarea><br /><br />');
 				break;
+			case 'eval':
+				$wgOut->addHTML('<textarea name="wpCode" rows="25" cols="80"></textarea><br /><br />');
+				break;
 			case 'initEditCount':
 				//just hit the button to start this, no additional settings are needed :)
 				break;
@@ -115,6 +120,9 @@ class Maintenance extends SpecialPage {
 			case 'stats':
 				//just hit the button to start this, no additional settings are needed :)
 				break;
+			case 'sql':
+				$wgOut->addHTML('<textarea name="wpQuery" rows="25" cols="80"></textarea><br /><br />');
+				break;
 			default:
 				$wgOut->addHTML('<p>'.wfMsg('maintenance-invalidtype').'</p></form>');
 				return;
@@ -126,6 +134,7 @@ class Maintenance extends SpecialPage {
 	function executeScript( $type ) {
 		global $wgOut, $wgRequest, $wgUser;
 		wfLoadExtensionMessages('Maintenance');
+		@set_time_limit(0); //if we can, disable the time limit
 		$this->setHeaders();
 		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
 		$wgOut->addHTML('<a href="'.$title->getFullURL().'">'.wfMsg('maintenance-backlink').'</a><br />');
@@ -250,6 +259,24 @@ class Maintenance extends SpecialPage {
 				}
 				// ...and switch user back to the old user
 				$wgUser = $OldUser;
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
+				break;
+			case 'eval':
+				$temp = error_reporting( E_ALL );
+				ob_start();
+				$str = eval( $wgRequest->getText( 'wpCode', 'return;' ) );
+				$ext = ob_get_clean();
+				error_reporting( 0 );
+				if( $ext ) {
+					$wgOut->addHTML( nl2br($ext) . '<hr />' );
+				}
+				if( !$str ) {
+					// do nothing
+				} elseif( is_string( $str ) ) {
+					$wgOut->addHTML( nl2br($str) . '<hr />' );
+				} else {
+					$wgOut->addHTML( nl2br( var_export( $str, true ) ) . '<hr />' );
+				}
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'initEditCount':
@@ -429,6 +456,53 @@ class Maintenance extends SpecialPage {
 				$dcache .= sprintf( wfMsg('maintenance-memc-misses')."            %-10d %6.2f%%\n", $misses, $misses/$total*100 ). '<br />';
 				$dcache .= sprintf( wfMsg('maintenance-memc-uncacheable')."       %-10d %6.2f%%\n", $uncacheable, $uncacheable/$total*100 ). '<br />';
 				$wgOut->addWikiText($dcache);
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
+				break;
+			case 'sql':
+				$db = wfGetDB( DB_MASTER );
+				$q = $wgRequest->getText('wpQuery', '');
+				$db->begin();
+				try {
+					$r = $db->query( $q, 'Maintenance::sql.php' );
+				} catch(DBQueryError $e) {
+					global $wgShowSQLErrors;
+					$temp = $wgShowSQLErrors;
+					$wgShowSQLErrors = true;
+					$wgOut->addWikiText( '<pre style="overflow: auto">' . $e->getText() . '</pre>' );
+					$wgShowSQLErrors = $temp;
+					$r = false;
+				}
+				if($r === true) {
+					$wgOut->addWikiMsg( 'maintenance-sql-aff', $db->affectedRows() );
+				} elseif( $r instanceOf ResultWrapper ) {
+					$res = array();
+					for( $i = 0; $i < $r->numRows(); $i++ ) {
+						$row = $r->fetchRow();
+						$res[] = $row;
+						foreach( $row as $key => $meh ) {
+							$names[] = $key;
+						}
+					}
+					$names = array_unique($names);
+					$rtable = '<table class="wikitable"><tr>';
+					foreach($names as $name) {
+						if( is_numeric($name) ) continue;
+						$rtable .= '<th>' . $name . '</th>';
+					}
+					$rtable .= '</tr>';
+					foreach( $res as $data ) {
+						$rtable .= '<tr>';
+						foreach( $data as $key => $value ) {
+							if( is_numeric($key) ) continue;
+							$rtable .= '<td><nowiki>' . $value . '</nowiki></td>';
+						}
+						$rtable .= '</tr>';
+					}
+					$rtable .= '</table>';
+					$wgOut->addWikiMsg( 'maintenance-sql-res', $r->numRows(), $rtable );
+					$db->freeResult($r);
+				}
+				$db->commit();
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			default:
