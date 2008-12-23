@@ -6,6 +6,11 @@ if( !defined('MEDIAWIKI') ) {
 
 class Maintenance extends SpecialPage {
 	var $type = '';
+	static $scripts = array(
+		'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
+		'initEditCount', 'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats',
+		'sql', 'eval',
+	);
 
 	/**
 	 * Constructor
@@ -51,48 +56,53 @@ class Maintenance extends SpecialPage {
 	}
 
 	function makeInitialForm() {
+		global $wgOut, $wgUser;
+
+		wfLoadExtensionMessages( 'Maintenance' );
+		$this->setHeaders();
+		$wgOut->addWikiMsg( 'maintenance-header' );
+		$sk = $wgUser->getSkin();
+		$wgOut->addHTML( '<ul>' );
+
 		//scripts that we allow to run via this interface. keep them to the same name as the xxx.php in the /maintenance dir
 		//(minus the .php part... duh)
-		$scripts = array(
-			'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
-			'initEditCount', 'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats',
-			'sql', 'eval',
-		);
-		sort($scripts);
-		global $wgOut;
-		wfLoadExtensionMessages('Maintenance');
-		$this->setHeaders();
-		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
-		$url = $title->getFullUrl() . '/';
-		$wgOut->addWikiMsg('maintenance-header');
-		$wgOut->addHTML( '<ul>' );
+		$scripts = self::$scripts;
+		sort( $scripts );
 		foreach( $scripts as $type ) {
-			$wgOut->addHTML( '<li><a href="'.$url.$type.'">'.$type.'</a> -- '.wfMsg('maintenance-'.$type.'-desc').'</li>' );
+			$title = $this->getTitle( $type );
+			$wgOut->addHTML( '<li>'. $sk->makeKnownLinkObj( $title, htmlspecialchars( $type ) ) . ' -- '.
+				wfMsgExt( 'maintenance-'.$type.'-desc', array( 'parseinline' ) ) . '</li>' );
 		}
 		$wgOut->addHTML( '</ul>' );
 	}
 
 	function makeForm( $type ) {
-		global $wgOut;
-		wfLoadExtensionMessages('Maintenance');
+		global $wgOut, $wgUser;
+		wfLoadExtensionMessages( 'Maintenance' );
 		$this->setHeaders();
-		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
-		$wgOut->addHTML('<a href="'.$title->getFullURL().'">'.wfMsg('maintenance-backlink').'</a><br />');
-		$wgOut->addHTML('<form method="post" action="'.$title->getFullURL().'/'.$type.'">');
-		$wgOut->addHTML('<p>'.wfMsg('maintenance-'.$type).'</p><br />');
+		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
+		
+		if( !in_array( $type, self::$scripts ) ) {
+			$wgOut->addWikiMsg( 'maintenance-invalidtype' );
+			return;
+		}
+		
+		$wgOut->addWikiMsg( 'maintenance-' . $type );
+
+		$wgOut->addHTML( Xml::openElement( 'form', array( 'method' => 'post', 'action' => $this->getTitle( $type )->getFullURL() ) ) );
 		switch( $type ) {
 			case 'changePassword':
-				$wgOut->addHTML('<label for="wpName">'.wfMsg('maintenance-name').'</label> <input type="text" name="wpName" /><br /><br />');
-				$wgOut->addHTML('<label for="wpPassword">'.wfMsg('maintenance-password').'</label> <input type="password" name="wpPassword" /><br /><br />');
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-name' ), 'wpName', 'wpName' ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-password' ), 'wpPassword', 'wpPassword', false, false, array( 'type' => 'password' ) ) . '<br /><br />' );
 				break;
 			case 'createAndPromote':
-				$wgOut->addHTML('<label for="wpName">'.wfMsg('maintenance-name').'</label> <input type="text" name="wpName" /><br /><br />');
-				$wgOut->addHTML('<label for="wpPassword">'.wfMsg('maintenance-password').'</label> <input type="password" name="wpPassword" /><br /><br />');
-				$wgOut->addHTML('<input type="checkbox" name="wpBcrat" value="0" /><label for="wpBcrat">'.wfMsg('maintenance-bureaucrat').'</label><br /><br />');
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-name' ), 'wpName', 'wpName' ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-password' ), 'wpPassword', 'wpPassword', false, false, array( 'type' => 'password' ) ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::checkLabel( wfMsg('maintenance-bureaucrat'), 'wpBcrat', 'wpBcrat' ) . '<br /><br />' );
 				break;
 			case 'deleteBatch':
 				$wgOut->addHTML('<textarea name="wpDelete" rows="25" cols="80"></textarea><br /><br />');
-				$wgOut->addHTML('<label for="wpReason">'.wfMsg('maintenance-reason').'</label> <input type="text" name="wpReason" maxlength="200" size="60" /><br /><br />');
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-reason' ), 'wpReason', 'wpReason', '60', false, array( 'maxlength' => 200 ) ) . '<br /><br />' );
 				break;
 			case 'deleteRevision':
 				$wgOut->addHTML('<textarea name="wpDelete" rows="25" cols="80"></textarea><br /><br />');
@@ -104,12 +114,12 @@ class Maintenance extends SpecialPage {
 				//just hit the button to start this, no additional settings are needed :)
 				break;
 			case 'initStats':
-				$wgOut->addHTML('<input type="checkbox" name="wpUpdate" value="0" checked="checked"/><label for="wpUpdate">'.wfMsg('maintenance-update').'</label><br /><br />');
-				$wgOut->addHTML('<input type="checkbox" name="wpNoviews" value="0" /><label for="wpNoviews">'.wfMsg('maintenance-noviews').'</label><br /><br />');
+				$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-update' ), 'wpUpdate', 'wpUpdate', true ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-noviews' ), 'wpNoviews', 'wpNoviews' ) . '<br /><br />' );
 				break;
 			case 'moveBatch':
 				$wgOut->addHTML('<textarea name="wpMove" rows="25" cols="80"></textarea><br /><br />');
-				$wgOut->addHTML('<label for="wpReason">'.wfMsg('maintenance-reason').'</label> <input type="text" name="wpReason" maxlength="200" size="60" /><br /><br />');
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-reason' ), 'wpReason', 'wpReason', '60', false, array( 'maxlength' => 200 ) ) . '<br /><br />' );
 				break;
 			case 'runJobs':
 				//just hit the button to start this, no additional settings are needed :)
@@ -124,10 +134,11 @@ class Maintenance extends SpecialPage {
 				$wgOut->addHTML('<textarea name="wpQuery" rows="25" cols="80"></textarea><br /><br />');
 				break;
 			default:
-				$wgOut->addHTML('<p>'.wfMsg('maintenance-invalidtype').'</p></form>');
+				$wgOut->addHTML( '</form>' );
+				$wgOut->addWikiMsg( 'maintenance-invalidtype' );
 				return;
 		}
-		$wgOut->addHTML('<input type="submit" name="wpConfirm" value="'.wfMsg('maintenance-confirm').'" /></form>');
+		$wgOut->addHTML( Xml::submitButton( wfMsg( 'maintenance-confirm' ), array( 'name' => 'wpConfirm' ) ) . '</form>' );
 		return;
 	}
 
@@ -136,15 +147,14 @@ class Maintenance extends SpecialPage {
 		wfLoadExtensionMessages('Maintenance');
 		@set_time_limit(0); //if we can, disable the time limit
 		$this->setHeaders();
-		$title = Title::makeTitle( NS_SPECIAL, $this->getName() );
-		$wgOut->addHTML('<a href="'.$title->getFullURL().'">'.wfMsg('maintenance-backlink').'</a><br />');
+		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
 		switch( $type ) {
 			case 'changePassword':
-				$name = $wgRequest->getText('wpName');
-				$password = $wgRequest->getText('wpPassword');
-				$user = User::newFromName($name);
-				if( !$user->getId() ) {
-					$wgOut->addWikiMsg('maintenance-invalidname');
+				$name = $wgRequest->getText( 'wpName' );
+				$password = $wgRequest->getText( 'wpPassword' );
+				$user = User::newFromName( $name );
+				if( !is_object( $user ) || !$user->getId() ) {
+					$wgOut->addWikiMsg( 'maintenance-invalidname' );
 					return;
 				}
 				$dbw = wfGetDB( DB_MASTER );
@@ -154,38 +164,38 @@ class Maintenance extends SpecialPage {
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'createAndPromote':
-				$name = $wgRequest->getText('wpName');
-				$password = $wgRequest->getText('wpPassword');
-				$bcrat = $wgRequest->getCheck('wpBcrat');
-				$user = User::newFromName($name);
-				if( !is_object($user) ) {
-					$wgOut->addWikiMsg('maintenance-invalidname');
+				$name = $wgRequest->getText( 'wpName' );
+				$password = $wgRequest->getText( 'wpPassword' );
+				$bcrat = $wgRequest->getCheck( 'wpBcrat' );
+				$user = User::newFromName( $name );
+				if( !is_object( $user ) ) {
+					$wgOut->addWikiMsg( 'maintenance-invalidname' );
 					return;
 				} elseif( 0 != $user->idForName() ) {
-					$wgOut->addWikiMsg('maintenance-userexists');
+					$wgOut->addWikiMsg( 'maintenance-userexists' );
 					return;
 				}
 				$user->addToDatabase();
 				$user->setPassword( $password );
 				$user->saveSettings();
-				$user->addGroup('sysop');
+				$user->addGroup( 'sysop');
 				if( $bcrat )
-					$user->addGroup('bureaucrat');
+					$user->addGroup( 'bureaucrat' );
 				$ssu = new SiteStatsUpdate( 0, 0, 0, 0, 1 );
 				$ssu->doUpdate();
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'deleteBatch':
-				$reason = $wgRequest->getText('wpReason', '');
+				$reason = $wgRequest->getText( 'wpReason', '' );
 				$interval = 0;
-				$pages = $wgRequest->getText('wpDelete');
+				$pages = $wgRequest->getText( 'wpDelete' );
 				$dbw = wfGetDB( DB_MASTER );
 				$lines = explode( "\n", $pages );
 				foreach( $lines as &$line ) {
-					$line = trim($line);
+					$line = trim( $line );
 					if( $line == '' )
 						continue;
-					$page = Title::newFromText($line);
+					$page = Title::newFromText( $line );
 					if( is_null( $page ) ) {
 						$wgOut->addWikiMsg( 'maintenance-invalidtitle', $line );
 						continue;
@@ -215,17 +225,17 @@ class Maintenance extends SpecialPage {
 					// ...and switch user back to the old user
 					$wgUser = $OldUser;
 					if ( $success ) {
-						$return .= '... ' . wfMsg('maintenance-deleted');
+						$return .= '... ' . wfMsg( 'maintenance-deleted' );
 					} else {
-						$return .= '... ' . wfMsg('maintenance-failed');
+						$return .= '... ' . wfMsg( 'maintenance-failed' );
 					}
-					$wgOut->addWikiText($return);
+					$wgOut->addWikiText( $return );
 					waitForSlaves( 5 );
 				}
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'deleteRevision':
-				$delete = $wgRequest->getText('wpDelete');
+				$delete = $wgRequest->getText( 'wpDelete' );
 				$revisions = explode( "\n", $delete );
 				$wgOut->addWikiMsg( 'maintenance-revdelete', implode( ', ', $revisions ), wfWikiID() );
 				$affected = 0;
@@ -381,11 +391,9 @@ class Maintenance extends SpecialPage {
 				break;
 			case 'runJobs':
 				$maxJobs = 10000;
-				$type = false;
 				$dbw = wfGetDB( DB_MASTER );
 				$n = 0;
-				$conds = '';
-				while ( $dbw->selectField( 'job', 'count(*)', $conds, 'runJobs.php' ) ) {
+				while ( $dbw->selectField( 'job', 'count(*)', '', 'runJobs.php' ) ) {
 					$offset = 0;
 					for (;;) {
 						$job = 	Job::pop($offset);
@@ -506,7 +514,7 @@ class Maintenance extends SpecialPage {
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			default:
-				$wgOut->addHTML('<p>'.wfMsg('maintenance-invalidtype').'</p></form>');
+				$wgOut->addWikiMsg( 'maintenance-invalidtype' );
 				return;
 		}
 	}
