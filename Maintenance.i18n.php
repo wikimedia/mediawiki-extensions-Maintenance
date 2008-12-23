@@ -475,6 +475,7 @@ $messages['eo'] = array(
 	'maintenance-memc-parsercache' => 'Kaŝmemoro de sintaksa analizilo',
 	'maintenance-memc-hits' => 'trafoj:',
 	'maintenance-memc-invalid' => 'nevalida:',
+	'maintenance-memc-imagecache' => 'Bilda memorkaŝujo',
 	'maintenance-memc-misses' => 'maltrafoj:',
 	'maintenance-memc-updates' => 'ĝisdatigoj:',
 	'maintenance-memc-diffcache' => 'Diferenca Kaŝmemoro',
@@ -553,7 +554,9 @@ Keskeytetään siirto',
 );
 
 /** French (Français)
+ * @author Crochet.david
  * @author Grondin
+ * @author IAlex
  * @author Verdy p
  * @author Zetud
  */
@@ -567,11 +570,13 @@ Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-createAndPromote-desc' => 'Créer un utilisateur et promouvoir au statut d’administrateur',
 	'maintenance-deleteBatch-desc' => 'Suppression de pages en masse',
 	'maintenance-deleteRevision-desc' => 'Enlever des versions de la base de données',
+	'maintenance-eval-desc' => "Évaluer un code PHP dans l'environnement MediaWiki",
 	'maintenance-initEditCount-desc' => 'Recalculer les compteurs de modifications des utilisateurs',
 	'maintenance-initStats-desc' => 'Recalculer les statistiques du site',
 	'maintenance-moveBatch-desc' => 'Renommage de pages en masse',
 	'maintenance-runJobs-desc' => 'Lancer les tâches dans la liste de celles à accomplir',
 	'maintenance-showJobs-desc' => 'Afficher une liste des tâches en cours dans la liste de celles à accomplir',
+	'maintenance-sql-desc' => 'Exécuter une requête SQL',
 	'maintenance-stats-desc' => 'Afficher les statistiques de la mémoire cache',
 	'maintenance-changePassword' => 'Utiliser ce formulaire pour changer le mot de passe d’un utilisateur',
 	'maintenance-createAndPromote' => 'Utiliser ce formulaire pour créer un nouvel utilisateur et le promouvoir administrateur.
@@ -600,6 +605,10 @@ Chaque ligne devra indiquer la page d’origine et celle de destination, lesquel
 	'maintenance-deleted' => 'SUPPRIMÉ',
 	'maintenance-revdelete' => 'Suppression des versions $1 du wiki $2',
 	'maintenance-revnotfound' => 'Version $1 introuvable !',
+	'maintenance-sql' => 'Utilisez cette forme pour exécuter une requête SQL sur la base de données.',
+	'maintenance-sql-aff' => 'Lignes affectées : $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|ligne renvoyée|lignes renvoyées}} :
+$2',
 	'maintenance-stats-edits' => 'Nombre de modifications : $1',
 	'maintenance-stats-articles' => 'Nombre de pages dans l’espace principal : $1',
 	'maintenance-stats-pages' => 'Nombre de pages : $1',
@@ -628,6 +637,7 @@ Déplacement interrompu.',
 	'maintenance-memc-updates' => 'mis à jour :',
 	'maintenance-memc-uncacheable' => 'hors cache :',
 	'maintenance-memc-diffcache' => 'Cache des diff',
+	'maintenance-eval' => 'Utilisez cette forme pour évaluer le code PHP dans un environnement MediaWiki.',
 );
 
 /** Western Frisian (Frysk)
@@ -667,11 +677,13 @@ As descricións están ao lado de cada escritura',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo ao status de administrador',
 	'maintenance-deleteBatch-desc' => 'Borrar páxinas masivamente',
 	'maintenance-deleteRevision-desc' => 'Borrar revisións da base de datos',
+	'maintenance-eval-desc' => 'Evaluar o código PHP no ambiente MediaWiki',
 	'maintenance-initEditCount-desc' => 'Volver calcular o contador de edicións dos usuarios',
 	'maintenance-initStats-desc' => 'Volver calcular as estatísticas do sitio',
 	'maintenance-moveBatch-desc' => 'Mover páxinas masivamente',
 	'maintenance-runJobs-desc' => 'Executar os traballos na cola de traballo',
 	'maintenance-showJobs-desc' => 'Amosar a listaxe dos traballos pendentes na cola de traballo',
+	'maintenance-sql-desc' => 'Executar unha pesquisa SQL',
 	'maintenance-stats-desc' => 'Amosar as estatísticas da memoria caché',
 	'maintenance-changePassword' => 'Use este formulario para cambiar o contrasinal dun usuario',
 	'maintenance-createAndPromote' => 'Use este formulario para crear un novo usuario e promovelo ao status de administrador.
@@ -700,6 +712,10 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-deleted' => 'BORRADO',
 	'maintenance-revdelete' => 'Eliminando as revisións $1 do wiki $2',
 	'maintenance-revnotfound' => 'A revisión $1 non foi atopada!',
+	'maintenance-sql' => 'Use este formulario para executar unha pesquisa SQL na base de datos.',
+	'maintenance-sql-aff' => 'Ringleiras afectadas: $1',
+	'maintenance-sql-res' => 'Voltaron $1 ringleiras:
+$2',
 	'maintenance-stats-edits' => 'Número de edicións: $1',
 	'maintenance-stats-articles' => 'Número de páxinas no espazo de nomes principal: $1',
 	'maintenance-stats-pages' => 'Número de páxinas: $1',
@@ -728,6 +744,7 @@ Cancelando a operación',
 	'maintenance-memc-updates' => 'actualizacións:',
 	'maintenance-memc-uncacheable' => 'non se pode comprobar a caché:',
 	'maintenance-memc-diffcache' => 'Diferenza na memoria caché',
+	'maintenance-eval' => 'Use este formulario para evaluar o código PHP no ambiente MediaWiki.',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -1272,11 +1289,13 @@ Beschrijvingen staan naast de scripts',
 	'maintenance-createAndPromote-desc' => 'Een nieuwe gebruiker aanmaken en deze beheerder maken',
 	'maintenance-deleteBatch-desc' => "Pagina's en masse verwijderen",
 	'maintenance-deleteRevision-desc' => 'Versies uit de database verwijderen',
+	'maintenance-eval-desc' => 'PHP-code evalueren in de MediaWiki-omgeving',
 	'maintenance-initEditCount-desc' => 'Aantal bewerkingen van gebruikers herberekenen',
 	'maintenance-initStats-desc' => 'Sitestatistieken herberekenen',
 	'maintenance-moveBatch-desc' => "Pagina's en masse hernoemen",
 	'maintenance-runJobs-desc' => 'Taken uit de jobqueue uitvoeren',
 	'maintenance-showJobs-desc' => 'Openstaande taken in de jobqueue bekijken',
+	'maintenance-sql-desc' => 'SQL-query uitvoeren',
 	'maintenance-stats-desc' => 'Memcachedstatistieken bekijken',
 	'maintenance-changePassword' => 'Gebruik dit formulier om het wachtwoord van een gebruiker te wijzigen',
 	'maintenance-createAndPromote' => "Gebruik dit formulier om een gebruiker aan te maken en deze beheerder te maken.
@@ -1305,6 +1324,10 @@ Iedere regel moet een doelpagina en een bestemmingspagina bevatten, gescheiden d
 	'maintenance-deleted' => 'VERWIJDERD',
 	'maintenance-revdelete' => 'Bezig met het verwijderen van versies $1 van wiki $2',
 	'maintenance-revnotfound' => 'Versie $1 niet gevonden!',
+	'maintenance-sql' => 'Gebruik dit formulier om een SQL-query op de database uit te voeren.',
+	'maintenance-sql-aff' => 'Getroffen rijen: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|rij|rijen}} in resultaat:
+$2',
 	'maintenance-stats-edits' => 'Aantal bewerkingen: $1',
 	'maintenance-stats-articles' => "Aantal pagina's in de hoofdnaamruimte: $1",
 	'maintenance-stats-pages' => "Aantal pagina's: $1",
@@ -1333,6 +1356,14 @@ Hernoemen is afgebroken',
 	'maintenance-memc-updates' => 'bijgewerkt:',
 	'maintenance-memc-uncacheable' => 'kan niet gecached worden:',
 	'maintenance-memc-diffcache' => 'Diff cache',
+	'maintenance-eval' => 'Gebruik dit formulier om PHP-code in de MediaWiki-omgeving te evalueren.',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'maintenance' => 'Køyr vedlikehaldsskript',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -1424,11 +1455,13 @@ Las descripcions son a la seguida de cadun d'aquestes.",
 	'maintenance-createAndPromote-desc' => "Crear un utilizaire e promòure a l'estatut d’administrator",
 	'maintenance-deleteBatch-desc' => 'Supression en massa de las paginas',
 	'maintenance-deleteRevision-desc' => 'Levar las versions de la banca de donadas',
+	'maintenance-eval-desc' => "Evaluar un còde PHP dins l'environament MediaWiki",
 	'maintenance-initEditCount-desc' => 'Tornar calcular los comptadors d’edicions dels utilizaires',
 	'maintenance-initStats-desc' => 'Tornar calcular las estatisticas del sit',
 	'maintenance-moveBatch-desc' => 'Cambiament de nom en massa de las paginas',
 	'maintenance-runJobs-desc' => "Aviar los prètzfaches dins la lista de los d'acomplir",
 	'maintenance-showJobs-desc' => "Afichar una lista dels prètzfaches en cors dins la lista de los d'acomplir",
+	'maintenance-sql-desc' => 'Executar una requèsta SQL',
 	'maintenance-stats-desc' => 'Afichar las estatisticas de la memòria-amagatal',
 	'maintenance-changePassword' => 'Utilizar aqueste formulari per cambiar lo senhal d’un utilizaire',
 	'maintenance-createAndPromote' => 'Utilizar aqueste formulari per crear un utilizaire novèl e per lo promòure administrator.
@@ -1457,6 +1490,8 @@ Cada linha deurà indicar la pagina d’origina e la de destinacion ; las qualas
 	'maintenance-deleted' => 'SUPRIMIT',
 	'maintenance-revdelete' => 'Supression de las versions $1 dempuèi lo wiki $2',
 	'maintenance-revnotfound' => 'Version $1 introbabla !',
+	'maintenance-sql' => 'Utilizatz aquesta forma per executar una requèsta SQL sus la banca de donadas.',
+	'maintenance-sql-aff' => 'Linhas afectadas : $1',
 	'maintenance-stats-edits' => 'Nombre d’edicions : $1',
 	'maintenance-stats-articles' => 'Nombre de paginas dins lo meteis espaci : $1',
 	'maintenance-stats-pages' => 'Nombre de paginas : $1',
@@ -1485,6 +1520,7 @@ Arrèst del desplaçament.',
 	'maintenance-memc-updates' => 'meses a jorn :',
 	'maintenance-memc-uncacheable' => "fòra de l'amagatal :",
 	'maintenance-memc-diffcache' => 'Amagatal dels dif',
+	'maintenance-eval' => 'Utilizatz aquesta forma per evaluar lo còde PHP dins un environament MediaWiki.',
 );
 
 /** Ossetic (Иронау)

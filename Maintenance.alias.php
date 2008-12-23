@@ -94,6 +94,11 @@ $aliases['lb'] = array(
 	'Maintenance' => array( 'Ënnerhalt' ),
 );
 
+/** Macedonian (Македонски) */
+$aliases['mk'] = array(
+	'Maintenance' => array( 'Одржување' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
