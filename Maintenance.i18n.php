@@ -593,7 +593,7 @@ Chaque ligne devra indiquer la page d’origine et celle de destination, lesquel
 	'maintenance-password' => 'Mot de passe',
 	'maintenance-bureaucrat' => 'Promouvoir l’utilisateur au statut de bureaucrate',
 	'maintenance-reason' => 'Motif',
-	'maintenance-update' => "Voulez-vous utiliser la méthode ''UPDATE'' pour la mise à jour directe d’une table ? Décochez l’option pour utiliser plutôt ''DELETE/INSERT'' (suppression puis réinsertion).",
+	'maintenance-update' => 'Voulez-vous utiliser la méthode « UPDATE » pour la mise à jour directe d’une table ? Décochez l’option pour utiliser plutôt « DELETE / INSERT » (suppression puis réinsertion).',
 	'maintenance-noviews' => 'Cocher ceci pour empêcher la mise à jour du nombre de visites des pages.',
 	'maintenance-confirm' => 'Confirmer',
 	'maintenance-invalidname' => 'Nom d’utilisateur incorrect !',
@@ -714,7 +714,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-revnotfound' => 'A revisión $1 non foi atopada!',
 	'maintenance-sql' => 'Use este formulario para executar unha pesquisa SQL na base de datos.',
 	'maintenance-sql-aff' => 'Ringleiras afectadas: $1',
-	'maintenance-sql-res' => 'Voltaron $1 ringleiras:
+	'maintenance-sql-res' => '{{PLURAL:$1|Voltou unha ringleira|Voltaron $1 ringleiras}}:
 $2',
 	'maintenance-stats-edits' => 'Número de edicións: $1',
 	'maintenance-stats-articles' => 'Número de páxinas no espazo de nomes principal: $1',
