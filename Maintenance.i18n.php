@@ -1844,6 +1844,7 @@ Avbryt flyttning',
 );
 
 /** Telugu (తెలుగు)
+ * @author C.Chandra Kanth Rao
  * @author Veeven
  */
 $messages['te'] = array(
@@ -1853,11 +1854,14 @@ $messages['te'] = array(
 	'maintenance-invalidname' => 'తప్పుడు వాడుకరిపేరు!',
 	'maintenance-success' => '$1 విజయవంతంగా నడిచింది!',
 	'maintenance-userexists' => 'వాడుకరి ఇప్పటికే ఉన్నారు!',
+	'maintenance-failed' => 'విఫలమైనది',
+	'maintenance-deleted' => 'తొలిగించబడినది',
 	'maintenance-stats-edits' => 'మార్పుల సంఖ్య: $1',
 	'maintenance-stats-pages' => 'పేజీల సంఖ్య: $1',
 	'maintenance-stats-users' => 'వాడుకర్ల సంఖ్య: $1',
 	'maintenance-stats-admins' => 'నిర్వాహకుల సంఖ్య: $1',
 	'maintenance-stats-images' => 'ఫైళ్ళ సంఖ్య: $1',
+	'maintenance-stats-update' => 'డాటాబేస్ తాజాకరింపబడుచున్నది',
 	'maintenance-error' => 'పొరపాటు: $1',
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
 	'maintenance-memc-total' => 'మొత్తం:',
