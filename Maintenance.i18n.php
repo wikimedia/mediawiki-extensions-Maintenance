@@ -960,7 +960,27 @@ $messages['it'] = array(
  * @author Fryed-peach
  */
 $messages['ja'] = array(
+	'maintenance' => 'メンテナンス・スクリプトを実行する',
+	'maintenance-desc' => '様々なメンテナンス・スクリプト用の[[Special:Maintenance|ウェブ・インタフェース]]',
+	'maintenance-backlink' => 'スクリプト選択に戻る',
+	'maintenance-header' => '実行するスクリプトを以下から選んでください。解説は各スクリプトの隣にあります',
+	'maintenance-changePassword-desc' => '利用者のパスワードを変更する',
+	'maintenance-createAndPromote-desc' => '利用者を作成し、管理者にする',
+	'maintenance-deleteBatch-desc' => 'ページの大量削除',
+	'maintenance-deleteRevision-desc' => 'データベースから版を削除',
+	'maintenance-eval-desc' => 'MediaWiki 環境で PHP コードを評価する',
+	'maintenance-initEditCount-desc' => '利用者の編集回数を再計算する',
+	'maintenance-initStats-desc' => 'サイトの統計を再計算する',
+	'maintenance-moveBatch-desc' => 'ページの大量移動',
+	'maintenance-runJobs-desc' => 'ジョブ・キュー中のジョブを実行する',
+	'maintenance-showJobs-desc' => 'ジョブ・キューで保留中のジョブ一覧を表示する',
+	'maintenance-sql-desc' => 'SQLクエリーを実行する',
+	'maintenance-stats-desc' => 'メモリ中にキャッシュされた統計を表示する',
+	'maintenance-changePassword' => 'このフォームを使って利用者のパスワードを変更する',
+	'maintenance-createAndPromote' => 'このフォームを使って利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合はビューロクラット・ボックスをチェックしてください。',
+	'maintenance-deleteBatch' => 'このフォームを使ってページを大量削除してください。1行に1ページのみ書いてください',
 	'maintenance-reason' => '理由',
+	'maintenance-memc-hits' => 'ヒット数:',
 );
 
 /** Georgian (ქართული)
@@ -1851,6 +1871,7 @@ $messages['te'] = array(
 	'maintenance-name' => 'వాడుకరిపేరు',
 	'maintenance-password' => 'సంకేతపదం',
 	'maintenance-reason' => 'కారణం',
+	'maintenance-confirm' => 'నిర్ధారించండి',
 	'maintenance-invalidname' => 'తప్పుడు వాడుకరిపేరు!',
 	'maintenance-success' => '$1 విజయవంతంగా నడిచింది!',
 	'maintenance-userexists' => 'వాడుకరి ఇప్పటికే ఉన్నారు!',
@@ -1861,6 +1882,7 @@ $messages['te'] = array(
 	'maintenance-stats-users' => 'వాడుకర్ల సంఖ్య: $1',
 	'maintenance-stats-admins' => 'నిర్వాహకుల సంఖ్య: $1',
 	'maintenance-stats-images' => 'ఫైళ్ళ సంఖ్య: $1',
+	'maintenance-stats-views' => 'పేజీ వీక్షణల సంఖ్య: $1',
 	'maintenance-stats-update' => 'డాటాబేస్ తాజాకరింపబడుచున్నది',
 	'maintenance-error' => 'పొరపాటు: $1',
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
