@@ -417,7 +417,9 @@ $messages['cu'] = array(
 );
 
 /** German (Deutsch)
+ * @author ChrisiPK
  * @author DaSch
+ * @author Imre
  * @author Leithian
  * @author Melancholie
  * @author MichaelFrey
@@ -434,18 +436,31 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-createAndPromote-desc' => 'Erstellen eines Benutzerkontos und Vergabe des Administrator-Status',
 	'maintenance-deleteBatch-desc' => 'Massenlöschung von Seiten',
 	'maintenance-deleteRevision-desc' => 'Versionen aus der Datenbank entfernen',
+	'maintenance-eval-desc' => 'PHP-Code in der MediaWiki-Umgebung auswerten',
 	'maintenance-initEditCount-desc' => 'Benutzerbeitragszähler eines Benutzers neu berechnen',
 	'maintenance-initStats-desc' => 'Seitenstatistik neu berechnen',
 	'maintenance-moveBatch-desc' => 'Massenverschiebung von Seiten',
 	'maintenance-runJobs-desc' => 'Aufträge in Warteschlange ausführen',
 	'maintenance-showJobs-desc' => 'Liste der auf Abarbeitung wartenden Jobs in der Jobqueue',
+	'maintenance-sql-desc' => 'Eine SQL-Abfrage ausführen',
 	'maintenance-stats-desc' => 'Zeige Memcached-Statistik',
 	'maintenance-changePassword' => 'Passwort eines Benutzers ändern',
+	'maintenance-createAndPromote' => 'Verwende diese Maske, um einen neuen Benutzer zu erstellen und ihn zum Administrator zu ernennen.
+Aktiviere die Bürokrat-Checkbox, wenn du ihn auch zum Bürokraten machen möchtest.',
+	'maintenance-deleteBatch' => 'Verwende diese Maske, um viele Seiten zu löschen.
+Schreibe nur eine Seite pro Zeile',
+	'maintenance-deleteRevision' => 'Verwende diese Maske, um viele Versionen zu löschen.
+Schreibe nur eine Versionsnummer pro Zeile',
+	'maintenance-initStats' => 'Verwende diese Maske, um die Seitenstatistiken neu zu berechnen und gib dabei an, ob du auch die Seitenaufrufe neu berechnen möchtest.',
+	'maintenance-moveBatch' => 'Verwende diese Maske, um viele Seiten zu verschieben.
+Jede Zeile sollte eine Quellseite und eine Zielseite angeben, durch einen Senkrechtstrich getrennt',
 	'maintenance-invalidtype' => 'Ungültiger Typ!',
 	'maintenance-name' => 'Benutzername',
 	'maintenance-password' => 'Passwort',
 	'maintenance-bureaucrat' => 'Benutzer zum Bürokraten machen',
 	'maintenance-reason' => 'Grund',
+	'maintenance-update' => 'UPDATE zum Aktualisieren von Tabellen verwenden? Wenn nicht aktiviert, wird DELETE/INSERT verwendet.',
+	'maintenance-noviews' => 'Aktualisierung des Seitenaufrufszählers deaktivieren',
 	'maintenance-confirm' => 'Bestätigen',
 	'maintenance-invalidname' => 'Ungültiger Benutzername!',
 	'maintenance-success' => '$1 erfolgreich ausgeführt!',
@@ -456,7 +471,12 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-deleted' => 'GELÖSCHT',
 	'maintenance-revdelete' => 'Lösche Versionen $1 von Wiki $2',
 	'maintenance-revnotfound' => 'Version $1 nicht gefunden!',
+	'maintenance-sql' => 'Verwende diese Maske, um eine SQL-Abfrage in der Datenbank auszuführen.',
+	'maintenance-sql-aff' => 'Betroffene Zeilen: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|Zeile|Zeilen}} zurückgegeben:
+$2',
 	'maintenance-stats-edits' => 'Anzahl an Bearbeitungen: $1',
+	'maintenance-stats-articles' => 'Anzahl von Seiten im Hauptnamensraum: $1',
 	'maintenance-stats-pages' => 'Anzahl an Seiten: $1',
 	'maintenance-stats-users' => 'Anzahl an Benutzern: $1',
 	'maintenance-stats-admins' => 'Anzahl an Administratoren: $1',
@@ -464,14 +484,43 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-stats-views' => 'Anzahl an Seitenaufrufen: $1',
 	'maintenance-stats-update' => 'Aktualisiere Datenbank …',
 	'maintenance-move' => 'Verschiebe $1 nach $2 …',
+	'maintenance-movefail' => 'Fehler beim Verschieben: $1
+Verschieben abgebrochen',
 	'maintenance-error' => 'Fehler: $1',
+	'maintenance-memc-fake' => 'Du verwendest FakeMemCachedClient. Es sind keine Statistiken verfügbar',
 	'maintenance-memc-requests' => 'Anfragen',
+	'maintenance-memc-withsession' => 'mit Sitzung:',
+	'maintenance-memc-withoutsession' => 'ohne Sitzung:',
 	'maintenance-memc-total' => 'gesamt:',
 	'maintenance-memc-parsercache' => 'Parser-Zwischenspeicher',
 	'maintenance-memc-hits' => 'Treffer:',
 	'maintenance-memc-invalid' => 'Ungültig:',
 	'maintenance-memc-expired' => 'abgelaufen:',
+	'maintenance-memc-absent' => 'abwesend:',
+	'maintenance-memc-stub' => 'Stubgrenze:',
+	'maintenance-memc-imagecache' => 'Bildercache',
+	'maintenance-memc-misses' => 'Versäumnisse:',
+	'maintenance-memc-updates' => 'Updates:',
+	'maintenance-memc-uncacheable' => 'nicht cachebar:',
 	'maintenance-memc-diffcache' => 'Diff-Zwischenspeicher',
+	'maintenance-eval' => 'Benutze dieses Formular um PHP-Codes in MediaWiki auszuwerten.',
+);
+
+/** German (formal address) (Deutsch (Sie-Form))
+ * @author ChrisiPK
+ */
+$messages['de-formal'] = array(
+	'maintenance-createAndPromote' => 'Verwenden Sie diese Maske, um einen neuen Benutzer zu erstellen und ihn zum Administrator zu ernennen.
+Aktivieren Sie die Bürokrat-Checkbox, wenn Sie ihn auch zum Bürokraten machen möchten.',
+	'maintenance-deleteBatch' => 'Verwenden Sie diese Maske, um viele Seiten zu löschen.
+Schreiben Sie nur eine Seite pro Zeile',
+	'maintenance-deleteRevision' => 'Verwenden Sie diese Maske, um viele Versionen zu löschen.
+Schreiben Sie nur eine Versionsnummer pro Zeile',
+	'maintenance-initStats' => 'Verwenden Sie diese Maske, um die Seitenstatistiken neu zu berechnen und geben Sie dabei an, ob Sie auch die Seitenaufrufe neu berechnen möchten.',
+	'maintenance-moveBatch' => 'Verwenden Sie diese Maske, um viele Seiten zu verschieben.
+Jede Zeile sollte eine Quellseite und eine Zielseite angeben, durch einen Senkrechtstrich getrennt',
+	'maintenance-sql' => 'Verwenden Sie diese Maske, um eine SQL-Abfrage in der Datenbank auszuführen.',
+	'maintenance-memc-fake' => 'Sie verwenden FakeMemCachedClient. Es sind keine Statistiken verfügbar',
 );
 
 /** Greek (Ελληνικά)
@@ -531,6 +580,7 @@ $messages['eo'] = array(
  * @author Crt
  * @author Jack Phoenix
  * @author Nike
+ * @author Str4nd
  */
 $messages['fi'] = array(
 	'maintenance' => 'Suorita ylläpitoskriptejä',
@@ -546,6 +596,7 @@ $messages['fi'] = array(
 	'maintenance-moveBatch-desc' => 'Massasiirrä sivuja',
 	'maintenance-runJobs-desc' => 'Aja työt ohjelmiston ylläpitotyöjonosta',
 	'maintenance-showJobs-desc' => 'Näytä lista töistä ylläpitotyöjonossa',
+	'maintenance-sql-desc' => 'Suorita SQL-kysely',
 	'maintenance-stats-desc' => 'Näytä Memcached-tilastot',
 	'maintenance-changePassword' => 'Vaihda käyttäjän salasana tällä lomakkeella',
 	'maintenance-createAndPromote' => 'Käytä tätä lomaketta luodaksesi uuden käyttäjän ja ylentääksesi hänet ylläpitäjäksi.
@@ -587,6 +638,7 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 Keskeytetään siirto',
 	'maintenance-error' => 'Virhe: $1',
 	'maintenance-memc-fake' => 'Käytössä on FakeMemCachedClient. Tilastoja ei voida tarjota',
+	'maintenance-memc-requests' => 'Pyynnöt',
 	'maintenance-memc-withsession' => 'istunnon kera:',
 	'maintenance-memc-withoutsession' => 'ilman istuntoa:',
 	'maintenance-memc-total' => 'yhteensä:',
@@ -1778,9 +1830,32 @@ $messages['ps'] = array(
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
+	'maintenance-sql-desc' => 'Execută o interogare SQL',
+	'maintenance-invalidtype' => 'Tip incorect!',
 	'maintenance-name' => 'Nume de utilizator',
+	'maintenance-password' => 'Parolă',
 	'maintenance-reason' => 'Motiv',
 	'maintenance-confirm' => 'Confirmă',
+	'maintenance-invalidname' => 'Nume de utilizator incorect!',
+	'maintenance-success' => '$1 a rulat cu succes!',
+	'maintenance-userexists' => 'Utilizatorul există deja!',
+	'maintenance-invalidtitle' => 'Titlu incorect "$1"!',
+	'maintenance-titlenoexist' => 'Titlul specificat ("$1") nu există!',
+	'maintenance-failed' => 'EŞUAT',
+	'maintenance-deleted' => 'ŞTERS',
+	'maintenance-sql-aff' => 'Rânduri afectate: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|rând returnat|rânduri returnate}}:
+$2',
+	'maintenance-stats-edits' => 'Număr de modificări: $1',
+	'maintenance-stats-articles' => 'Număr de pagini în spaţiul de nume principal: $1',
+	'maintenance-stats-pages' => 'Număr de pagini: $1',
+	'maintenance-stats-users' => 'Număr de utilizatori: $1',
+	'maintenance-stats-admins' => 'Număr de administratori: $1',
+	'maintenance-stats-images' => 'Număr de fişiere: $1',
+	'maintenance-error' => 'Eroare: $1',
+	'maintenance-memc-requests' => 'Cereri',
+	'maintenance-memc-withsession' => 'cu sesiune:',
+	'maintenance-memc-withoutsession' => 'fără sesiune:',
 	'maintenance-memc-total' => 'total:',
 );
 
