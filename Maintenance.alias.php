@@ -114,6 +114,11 @@ $aliases['no'] = array(
 	'Maintenance' => array( 'Vedlikehold' ),
 );
 
+/** Brazilian Portuguese (Português do Brasil) */
+$aliases['pt-br'] = array(
+	'Maintenance' => array( 'Manutenção' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Maintenance' => array( 'Underhåll' ),

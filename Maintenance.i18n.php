@@ -368,20 +368,44 @@ $messages['bg'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
+	'maintenance' => 'Pokretanje skripti za održavanje',
+	'maintenance-desc' => '[[Special:Maintenance|Web interfejs]] za razne skripte održavanja',
 	'maintenance-changePassword-desc' => 'Promjena korisničke šifre',
+	'maintenance-deleteBatch-desc' => 'Masovno brisanje stranica',
+	'maintenance-deleteRevision-desc' => 'Ukloni revizije iz baze podataka',
+	'maintenance-initEditCount-desc' => 'Ponovno preračunaj broj izmjena korisnika',
 	'maintenance-initStats-desc' => 'Ponovno izračunavanje statistike sajta',
+	'maintenance-moveBatch-desc' => 'Masovno premještanje stranica',
+	'maintenance-runJobs-desc' => 'Pokreni poslove koji čekaju u redu',
+	'maintenance-sql-desc' => 'Izvrši SQL zahtjev',
+	'maintenance-changePassword' => 'Koristi ovaj obrazac za promjenu šifre korisnika',
 	'maintenance-name' => 'Korisničko ime',
 	'maintenance-password' => 'Šifra',
+	'maintenance-bureaucrat' => 'Unaprijedi korisnika u birokratu',
 	'maintenance-reason' => 'Razlog',
 	'maintenance-update' => 'Koristite UPDATE kada ažurirate tabelu? Umjesto toga ukloni upotrebu DELETE/INSERT.',
 	'maintenance-confirm' => 'Potvrdi',
+	'maintenance-invalidname' => 'Nevaljano korisničko ime!',
+	'maintenance-userexists' => 'Korisnik već postoji!',
+	'maintenance-invalidtitle' => 'Nevaljan naslov "$1"!',
+	'maintenance-revdelete' => 'Brisanje revizija $1 iz wikija $2',
 	'maintenance-revnotfound' => 'Revizija $1 nije pronađena!',
+	'maintenance-stats-edits' => 'Broj uređivanja: $1',
+	'maintenance-stats-pages' => 'Broj stranica: $1',
+	'maintenance-stats-users' => 'Broj korisnika: $1',
+	'maintenance-stats-admins' => 'Broj administratora: $1',
+	'maintenance-stats-images' => 'Broj datoteka: $1',
+	'maintenance-stats-views' => 'Broj pregleda stranica: $1',
+	'maintenance-stats-update' => 'Ažuriranje baze podataka...',
+	'maintenance-move' => 'Premještam $1 na $2...',
 	'maintenance-error' => 'Greška: $1',
 	'maintenance-memc-requests' => 'Zahtjevi',
 	'maintenance-memc-withsession' => 'sa sesijom:',
 	'maintenance-memc-withoutsession' => 'bez sesije:',
 	'maintenance-memc-total' => 'ukupno:',
 	'maintenance-memc-parsercache' => 'keš parsera',
+	'maintenance-memc-hits' => 'pogodaka:',
+	'maintenance-memc-expired' => 'isteklo:',
 	'maintenance-memc-updates' => 'ažuriranja:',
 );
 
@@ -395,6 +419,7 @@ $messages['cu'] = array(
 /** German (Deutsch)
  * @author DaSch
  * @author Leithian
+ * @author Melancholie
  * @author MichaelFrey
  * @author Raimond Spekking
  * @author Revolus
@@ -423,10 +448,14 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-reason' => 'Grund',
 	'maintenance-confirm' => 'Bestätigen',
 	'maintenance-invalidname' => 'Ungültiger Benutzername!',
+	'maintenance-success' => '$1 erfolgreich ausgeführt!',
 	'maintenance-userexists' => 'Benutzer existiert bereits!',
 	'maintenance-invalidtitle' => 'Ungültiger Titel „$1“!',
+	'maintenance-titlenoexist' => 'Der angegebene Titel ("$1") existiert nicht!',
 	'maintenance-failed' => 'Fehlgeschlagen',
 	'maintenance-deleted' => 'GELÖSCHT',
+	'maintenance-revdelete' => 'Lösche Versionen $1 von Wiki $2',
+	'maintenance-revnotfound' => 'Version $1 nicht gefunden!',
 	'maintenance-stats-edits' => 'Anzahl an Bearbeitungen: $1',
 	'maintenance-stats-pages' => 'Anzahl an Seiten: $1',
 	'maintenance-stats-users' => 'Anzahl an Benutzern: $1',
@@ -438,9 +467,11 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-error' => 'Fehler: $1',
 	'maintenance-memc-requests' => 'Anfragen',
 	'maintenance-memc-total' => 'gesamt:',
+	'maintenance-memc-parsercache' => 'Parser-Zwischenspeicher',
 	'maintenance-memc-hits' => 'Treffer:',
 	'maintenance-memc-invalid' => 'Ungültig:',
 	'maintenance-memc-expired' => 'abgelaufen:',
+	'maintenance-memc-diffcache' => 'Diff-Zwischenspeicher',
 );
 
 /** Greek (Ελληνικά)
@@ -794,52 +825,53 @@ $messages['haw'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Rotemliss
  * @author YaronSh
  */
 $messages['he'] = array(
 	'maintenance' => 'הרצת סקריפטים של תחזוקה',
 	'maintenance-desc' => '[[Special:Maintenance|ממשק אינטרנט]] למגוון סקריפטים של תחזוקה',
 	'maintenance-backlink' => 'חזרה לבחירת הסקריפטים',
-	'maintenance-header' => 'אנא בחרו סקריפט להלן להרצה.
+	'maintenance-header' => 'אנא בחרו איזה מהסקריפטים שלהלן להריץ.
 התיאורים מופיעים ליד כל סקריפט',
 	'maintenance-changePassword-desc' => 'שינוי סיסמת משתמש',
-	'maintenance-createAndPromote-desc' => 'יצירת משתמש וקידום למצב מפעיל מערכת',
+	'maintenance-createAndPromote-desc' => 'יצירת משתמש וקידומו למצב מפעיל מערכת',
 	'maintenance-deleteBatch-desc' => 'מחיקה המונית של דפים',
-	'maintenance-deleteRevision-desc' => 'הסרת מהדורות ממסד הנתונים',
-	'maintenance-eval-desc' => 'הערכת קוד PHP בסביבת MediaWiki',
-	'maintenance-initEditCount-desc' => 'חישוב מחדש של מספר העריכות על ידי המשתמשים',
+	'maintenance-deleteRevision-desc' => 'הסרת גרסאות ממסד הנתונים',
+	'maintenance-eval-desc' => 'הרצת קוד PHP בסביבת מדיה־ויקי',
+	'maintenance-initEditCount-desc' => 'חישוב מחדש של מספר העריכות שביצע כל משתמש',
 	'maintenance-initStats-desc' => 'חישוב מחדש של סטטיסטיקות האתר',
 	'maintenance-moveBatch-desc' => 'העברה המונית של דפים',
 	'maintenance-runJobs-desc' => 'הרצת משימות מתור המשימות',
 	'maintenance-showJobs-desc' => 'הצגת רשימת משימות הממתינות בתור המשימות',
-	'maintenance-sql-desc' => 'הפעלת שאילתת SQL',
-	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמאות למשתמשים',
+	'maintenance-sql-desc' => 'הרצת שאילתת SQL',
+	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
 	'maintenance-createAndPromote' => 'השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.
-סמנו את תיבת הבירוקרט אם ברצונכם לקדם אותו לדרגת בירוקרט בנוסף',
+סמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט',
 	'maintenance-deleteBatch' => 'השתמשו בטופס זה למחיקת דפים המונית.
-הזינו שם של דף אחד בכל שורה',
-	'maintenance-deleteRevision' => 'השתמשו בטופס זה למחיקה המונית של מהדורות.
-הזינו מספר מהדורה אחד בכל שורה',
-	'maintenance-initStats' => 'השתמשו בטופס זה כדי לחשב מחדש את סטטיסטיקות האתר, תוך ציון האם ברצונכם לחשב מחדש את הצפיות בדפים בנוסף',
+כתבו שם של דף אחד בכל שורה',
+	'maintenance-deleteRevision' => 'השתמשו בטופס זה למחיקה המונית של גרסאות.
+כתבו מספר גרסה אחד בכל שורה',
+	'maintenance-initStats' => 'השתמשו בטופס זה כדי לחשב מחדש את סטטיסטיקות האתר, וציינו האם ברצונכם לחשב מחדש גם את סטטיסטיקות הצפיות בדפים',
 	'maintenance-moveBatch' => 'השתמשו בטופס זה להעברה המונית של דפים.
 כל שורה אמורה לציין דף מקור ודף יעד המופרדים ב־"|"',
 	'maintenance-invalidtype' => 'הסוג אינו תקין!',
 	'maintenance-name' => 'שם משתמש',
 	'maintenance-password' => 'סיסמה',
-	'maintenance-bureaucrat' => 'קידום משתמש למצב בירוקרט',
+	'maintenance-bureaucrat' => 'קידום משתמש למצב ביורוקרט',
 	'maintenance-reason' => 'סיבה',
-	'maintenance-update' => 'האם להשתמש ב־UPDATE לעדכון הטבלה? ביטול הסימון משתמש ב־DELETE/INSERT במקום.',
-	'maintenance-noviews' => 'סמנו זאת כדי למנוע את עדכון מספר הצפיות בדף',
+	'maintenance-update' => 'האם להשתמש ב־UPDATE לעדכון הטבלה? אם תבטלו את הסימון, ייעשה שימוש ב־DELETE/INSERT במקום זאת.',
+	'maintenance-noviews' => 'סמנו זאת כדי למנוע את עדכון מספרי הצפיות בדפים',
 	'maintenance-confirm' => 'אישור',
-	'maintenance-invalidname' => 'שם המשתמש שגוי!',
+	'maintenance-invalidname' => 'שם משתמש בלתי תקין!',
 	'maintenance-success' => 'הסקריפט $1 רץ בהצלחה!',
 	'maintenance-userexists' => 'המשתמש כבר קיים!',
-	'maintenance-invalidtitle' => 'הכותרת אינה תקינה "$1"!',
-	'maintenance-titlenoexist' => 'הכותרת שצויינה ("$1") אינה קיימת!',
+	'maintenance-invalidtitle' => 'הכותרת "$1" אינה תקינה!',
+	'maintenance-titlenoexist' => 'הכותרת שצוינה ("$1") אינה קיימת!',
 	'maintenance-failed' => 'נכשלה',
 	'maintenance-deleted' => 'נמחק',
-	'maintenance-revdelete' => 'מחיקת מהדורות $1 מהוויקי $2',
-	'maintenance-revnotfound' => 'המהדורה $1 לא נמצאה!',
+	'maintenance-revdelete' => 'מחיקת הגרסאות $1 מאתר הוויקי $2',
+	'maintenance-revnotfound' => 'הגרסה $1 לא נמצאה!',
 );
 
 /** Croatian (Hrvatski)
@@ -1083,8 +1115,18 @@ $2',
 	'maintenance-memc-requests' => '要求',
 	'maintenance-memc-withsession' => 'セッションあり:',
 	'maintenance-memc-withoutsession' => 'セッションなし:',
+	'maintenance-memc-total' => '合計:',
 	'maintenance-memc-parsercache' => 'パーサーキャッシュ',
 	'maintenance-memc-hits' => 'ヒット数:',
+	'maintenance-memc-invalid' => '無効:',
+	'maintenance-memc-expired' => '期限切れ:',
+	'maintenance-memc-absent' => '欠損:',
+	'maintenance-memc-stub' => 'スタブ境界:',
+	'maintenance-memc-imagecache' => '画像キャッシュ',
+	'maintenance-memc-misses' => 'ミス:',
+	'maintenance-memc-updates' => '更新:',
+	'maintenance-memc-uncacheable' => 'キャッシュ不可:',
+	'maintenance-memc-diffcache' => '差分キャッシュ',
 	'maintenance-eval' => 'このフォームを使って MediaWiki 環境で PHPコードを評価する。',
 );
 
