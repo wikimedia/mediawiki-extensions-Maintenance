@@ -576,6 +576,21 @@ $messages['eo'] = array(
 	'maintenance-memc-diffcache' => 'Diferenca Kaŝmemoro',
 );
 
+/** Spanish (Español)
+ * @author Imre
+ */
+$messages['es'] = array(
+	'maintenance-name' => 'Nombre de usuario',
+	'maintenance-password' => 'Contraseña',
+	'maintenance-reason' => 'Motivo',
+	'maintenance-confirm' => 'Confirmar',
+	'maintenance-failed' => 'FALLADO',
+	'maintenance-deleted' => 'BORRADO',
+	'maintenance-error' => 'Error: $1',
+	'maintenance-memc-invalid' => 'inválido:',
+	'maintenance-memc-absent' => 'ausente:',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Jack Phoenix
@@ -1490,8 +1505,18 @@ $messages['myv'] = array(
  */
 $messages['nah'] = array(
 	'maintenance-name' => 'Tlatequitiltilīltōcāitl',
+	'maintenance-password' => 'Tlahtōlichtacāyōtl',
 	'maintenance-reason' => 'Īxtlamatiliztli',
+	'maintenance-invalidtitle' => '¡Ahcualli tōcāitl "$1"!',
+	'maintenance-deleted' => 'TLAPOLOC',
+	'maintenance-stats-edits' => 'Tlapatlaliztli tlapōhualli',
+	'maintenance-stats-articles' => 'Zāzanilli huēyi tōcātzimpan in ītlapōhual: $1',
+	'maintenance-stats-pages' => 'Zāzanilli tlapōhualli: $1',
+	'maintenance-stats-users' => 'Tlatequitiltilīlli tlapōhualli: $1',
+	'maintenance-stats-images' => 'Tlahcuilōlli tlapōhualli: $1',
+	'maintenance-move' => 'Mozacacah $1 īhuīc $2...',
 	'maintenance-memc-total' => 'mochīntīn:',
+	'maintenance-memc-expired' => 'ōmotlami:',
 );
 
 /** Dutch (Nederlands)
