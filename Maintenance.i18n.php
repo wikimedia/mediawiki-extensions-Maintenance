@@ -99,6 +99,7 @@ Aborting move',
  * @author Darth Kule
  * @author IAlex
  * @author Jon Harald Søby
+ * @author Lloffiwr
  * @author Purodha
  */
 $messages['qqq'] = array(
@@ -106,6 +107,7 @@ $messages['qqq'] = array(
 	'maintenance-name' => '{{Identical|Username}}',
 	'maintenance-password' => '{{Identical|Password}}',
 	'maintenance-reason' => '{{Identical|Reason}}',
+	'maintenance-update' => 'This message appears next to a checkbox.',
 	'maintenance-confirm' => '{{Identical|Confirm}}',
 	'maintenance-deleted' => '{{Identical|Deleted}}',
 	'maintenance-revdelete' => '* $1 is a list of revisions numbers
@@ -425,6 +427,7 @@ $messages['cu'] = array(
  * @author MichaelFrey
  * @author Raimond Spekking
  * @author Revolus
+ * @author Umherirrender
  */
 $messages['de'] = array(
 	'maintenance' => 'Wartungsskript starten',
@@ -466,7 +469,7 @@ Jede Zeile sollte eine Quellseite und eine Zielseite angeben, durch einen Senkre
 	'maintenance-success' => '$1 erfolgreich ausgeführt!',
 	'maintenance-userexists' => 'Benutzer existiert bereits!',
 	'maintenance-invalidtitle' => 'Ungültiger Titel „$1“!',
-	'maintenance-titlenoexist' => 'Der angegebene Titel ("$1") existiert nicht!',
+	'maintenance-titlenoexist' => 'Der angegebene Titel („$1“) existiert nicht!',
 	'maintenance-failed' => 'Fehlgeschlagen',
 	'maintenance-deleted' => 'GELÖSCHT',
 	'maintenance-revdelete' => 'Lösche Versionen $1 von Wiki $2',
@@ -596,9 +599,11 @@ $messages['es'] = array(
  * @author Jack Phoenix
  * @author Nike
  * @author Str4nd
+ * @author Vililikku
  */
 $messages['fi'] = array(
 	'maintenance' => 'Suorita ylläpitoskriptejä',
+	'maintenance-desc' => '[[Special:Maintenance|Web-käyttöliittymä]] muutamille ylläpitoskripteille.',
 	'maintenance-backlink' => 'Takaisin skriptin valintaan',
 	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
 	Skriptien kuvaukset ovat niiden nimien vieressä',
@@ -606,6 +611,7 @@ $messages['fi'] = array(
 	'maintenance-createAndPromote-desc' => 'Luo käyttäjä ja lisää ylläpitäjäksi',
 	'maintenance-deleteBatch-desc' => 'Massapoista sivuja',
 	'maintenance-deleteRevision-desc' => 'Poista versioita tietokannasta',
+	'maintenance-eval-desc' => 'Arvioi PHP-koodi MediaWiki-ympäristössä.',
 	'maintenance-initEditCount-desc' => 'Laske uudelleen käyttäjien muokkausmäärät',
 	'maintenance-initStats-desc' => 'Laske sivuston tilastot uudelleen',
 	'maintenance-moveBatch-desc' => 'Massasiirrä sivuja',
@@ -640,6 +646,7 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 	'maintenance-deleted' => 'POISTETTU',
 	'maintenance-revdelete' => 'Poistataan versiot $1 wikistä $2',
 	'maintenance-revnotfound' => 'Versiota $1 ei löydy.',
+	'maintenance-sql' => 'Käytä lomaketta SQL-tiedustelun suorittamiseksi tietokannassa.',
 	'maintenance-stats-edits' => 'Muokkauksia yhteensä: $1',
 	'maintenance-stats-articles' => 'Sivujen määrä päänimiavaruudessa: $1',
 	'maintenance-stats-pages' => 'Sivuja yhteensä: $1',
@@ -664,6 +671,7 @@ Keskeytetään siirto',
 	'maintenance-memc-imagecache' => 'Kuvien välimuisti',
 	'maintenance-memc-misses' => 'huteja:',
 	'maintenance-memc-updates' => 'päivityksiä:',
+	'maintenance-eval' => 'Käytä tätä lomaketta PHP-koodin arvioimiseksi MediaWiki-ympäristössä.',
 );
 
 /** French (Français)
@@ -912,6 +920,7 @@ $messages['he'] = array(
 	'maintenance-runJobs-desc' => 'הרצת משימות מתור המשימות',
 	'maintenance-showJobs-desc' => 'הצגת רשימת משימות הממתינות בתור המשימות',
 	'maintenance-sql-desc' => 'הרצת שאילתת SQL',
+	'maintenance-stats-desc' => 'הצגת סטטיסטיקת Memcached',
 	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
 	'maintenance-createAndPromote' => 'השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.
 סמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט',
@@ -939,6 +948,38 @@ $messages['he'] = array(
 	'maintenance-deleted' => 'נמחק',
 	'maintenance-revdelete' => 'מחיקת הגרסאות $1 מאתר הוויקי $2',
 	'maintenance-revnotfound' => 'הגרסה $1 לא נמצאה!',
+	'maintenance-sql' => 'השתמשו בטופס זה כדי להריץ שאילתת SQL על בסיס הנתונים.',
+	'maintenance-sql-aff' => 'שורות שהושפעו: $1',
+	'maintenance-sql-res' => '{{PLURAL:$1|שורה אחת הוחזרה|$1 שורות הוחזרו}}:
+$2',
+	'maintenance-stats-edits' => 'מספר העריכות: $1',
+	'maintenance-stats-articles' => 'מספר הדפים במרחב השם הראשי: $1',
+	'maintenance-stats-pages' => 'מספר הדפים: $1',
+	'maintenance-stats-users' => 'מספר המשתמשים: $1',
+	'maintenance-stats-admins' => 'מספר מפעילי המערכת: $1',
+	'maintenance-stats-images' => 'מספר הקבצים: $1',
+	'maintenance-stats-views' => 'מספר הצפיות בדפים: $1',
+	'maintenance-stats-update' => 'בסיס הנתונים מתעדכן...',
+	'maintenance-move' => 'העברת $1 אל $2...',
+	'maintenance-movefail' => 'אירעה שגיאה בעת העברת: $1.
+ההעברה נקטעה',
+	'maintenance-error' => 'שגיאה: $1',
+	'maintenance-memc-fake' => 'אתם מריצים את FakeMemCachedClient. לא ניתן לספק סטטיסטיקה.',
+	'maintenance-memc-requests' => 'בקשות',
+	'maintenance-memc-withsession' => 'בהתחברות:',
+	'maintenance-memc-withoutsession' => 'ללא התחברות:',
+	'maintenance-memc-total' => 'סך הכול:',
+	'maintenance-memc-parsercache' => 'מטמון המפענח',
+	'maintenance-memc-invalid' => 'לא תקין:',
+	'maintenance-memc-expired' => 'שתוקפו פג:',
+	'maintenance-memc-absent' => 'נעדר:',
+	'maintenance-memc-stub' => 'סף הקצרמרים:',
+	'maintenance-memc-imagecache' => 'מטמון התמונות',
+	'maintenance-memc-misses' => 'החטאות:',
+	'maintenance-memc-updates' => 'עדכונים:',
+	'maintenance-memc-uncacheable' => 'לא ניתן למטמון:',
+	'maintenance-memc-diffcache' => 'מטמון השינויים',
+	'maintenance-eval' => 'השתמשו בטופס זה כדי להעריך קוד PHP בסביבת מדיה־ויקי.',
 );
 
 /** Croatian (Hrvatski)
@@ -1868,6 +1909,7 @@ $messages['ro'] = array(
 	'maintenance-titlenoexist' => 'Titlul specificat ("$1") nu există!',
 	'maintenance-failed' => 'EŞUAT',
 	'maintenance-deleted' => 'ŞTERS',
+	'maintenance-revnotfound' => 'Revizia $1 negăsită!',
 	'maintenance-sql-aff' => 'Rânduri afectate: $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|rând returnat|rânduri returnate}}:
 $2',
