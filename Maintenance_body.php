@@ -9,7 +9,7 @@ class Maintenance extends SpecialPage {
 	static $scripts = array(
 		'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
 		'initEditCount', 'initStats', 'moveBatch', 'runJobs', 'showJobs', 'stats',
-		'sql', 'eval',
+		'sql', 'eval', 'reassignEdits', 
 	);
 
 	/**
@@ -120,6 +120,13 @@ class Maintenance extends SpecialPage {
 			case 'moveBatch':
 				$wgOut->addHTML('<textarea name="wpMove" rows="25" cols="80"></textarea><br /><br />');
 				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-reason' ), 'wpReason', 'wpReason', '60', false, array( 'maxlength' => 200 ) ) . '<br /><br />' );
+				break;
+			case 'reassignEdits':
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-re-from' ), 'wpFrom', 'wpFrom', '60' ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-re-to' ), 'wpTo', 'wpTo', '60' ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-re-force' ), 'wpForce', 'wpForce' ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-re-rc' ), 'wpRc', 'wpRc' ) . '<br /><br />' );
+				$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-re-report' ), 'wpReport', 'wpReport' ) . '<br /><br />' );
 				break;
 			case 'runJobs':
 				//just hit the button to start this, no additional settings are needed :)
@@ -389,6 +396,68 @@ class Maintenance extends SpecialPage {
 				}
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
+			case 'reassignEdits':
+				$wpFrom = $wgRequest->getVal( 'wpFrom' );
+				$wpTo = $wgRequest->getVal( 'wpTo' );
+				if( User::isIP( $wpFrom ) ) {
+					$from = new User();
+					$from->setId( 0 );
+					$from->setName( $wpFrom );
+				} else {
+					$from = User::newFromName( $wpFrom );
+				}
+				if( User::isIP( $wpTo ) ) {
+					$to = new User();
+					$to->setId( 0 );
+					$to->setName( $wpTo );
+				} else {
+					$to = User::newFromName( $wpTo );
+				}
+				if( $to->getId() || $wgRequest->getCheck( 'wpForce' ) ) {
+					$report = $wgRequest->getCheck( 'wpReport' );
+					$dbw = wfGetDB( DB_MASTER );
+					$dbw->immediateBegin();
+					$rcond = $from->getId() ? array( 'rev_user' => $from->getId() ) : array( 'rev_user_text' => $from->getName() );
+					$res = $dbw->select( 'revision', 'COUNT(*) AS count', $rcond, 'Maintenance::reassignEdits' );
+					$row = $dbw->fetchObject( $res );
+					$cur = $row->count;
+					$wgOut->addWikiMsg( 'maintenance-re-ce', $cur );
+					$acond = $from->getId() ? array( 'ar_user' => $from->getId() ) : array( 'ar_user_text' => $from->getName() );
+					$res = $dbw->select( 'archive', 'COUNT(*) AS count', $acond, 'Maintenance::reassignEdits' );
+					$row = $dbw->fetchObject( $res );
+					$del = $row->count;
+					$wgOut->addWikiMsg( 'maintenance-re-de', $del );
+					if( !$wgRequest->getCheck( 'wpRc' ) ) {
+						$ccond = $from->getId() ? array( 'rc_user' => $from->getId() ) : array( 'rc_user_text' => $from->getName() );
+						$res = $dbw->select( 'recentchanges', 'COUNT(*) AS count', $ccond, 'Maintenance::reassignEdits' );
+						$row = $dbw->fetchObject( $res );
+						$rec = $row->count;
+						$wgOut->addWikiMsg( 'maintenance-re-rce', $rec );
+					} else {
+						$rec = 0;
+					}
+					$total = $cur + $del + $rec;
+					$wgOut->addWikiMsg( 'maintenance-re-total', $total );
+					if( !$report ) {
+						$rspec = array( 'rev_user' => $to->getId(), 'rev_user_text' => $to->getName() );
+						$res = $dbw->update( 'revision', $rspec, $rcond, 'Maintenance::reassignEdits' );
+						$aspec = array( 'ar_user' => $to->getId(), 'ar_user_text' => $to->getName() );
+						$res = $dbw->update( 'archive', $aspec, $acond, 'Maintenance::reassignEdits' );
+						if( !$wgRequest->getCheck( 'wpRc' ) ) {
+							$cspec = array( 'rc_user' => $to->getId(), 'rc_user_text' => $to->getName() );
+							$res = $dbw->update( 'recentchanges', $cspec, $ccond, 'Maintenance::reassignEdits' );
+						}
+					}
+					$dbw->immediateCommit();
+					if( $report ) {
+						$wgOut->addWikiMsg( 'maintenance-re-rr', wfMsg( 'maintenance-re-report' ) );
+					}
+				} else {
+					$ton = $to->getName();
+					$wgOut->addWikiMsg( 'maintenance-re-nf', $ton );
+				}
+				$wgOut->addWikiMsg( 'maintenance-success', $type );
+				break;
 			case 'runJobs':
 				$maxJobs = 10000;
 				$dbw = wfGetDB( DB_MASTER );
@@ -534,3 +603,5 @@ function waitForSlaves( $maxLag ) {
 		}
 	}
 }
+
+// Helper classes

@@ -12,11 +12,15 @@ $messages = array();
  * @author Ryan Schmidt
  */
 $messages['en'] = array(
+	// special page text
 	'maintenance' => 'Run maintenance scripts',
+	// description
 	'maintenance-desc' => '[[Special:Maintenance|Wiki interface]] for various maintenance scripts',
+	// main form
 	'maintenance-backlink' => 'Back to script selection',
 	'maintenance-header' => 'Please select a script below to execute.
 Descriptions are next to each script',
+	// script descriptions
 	'maintenance-changePassword-desc' => "Change a user's password",
 	'maintenance-createAndPromote-desc' => 'Create a user and promote to sysop status',
 	'maintenance-deleteBatch-desc' => 'Mass-delete pages',
@@ -25,45 +29,71 @@ Descriptions are next to each script',
 	'maintenance-initEditCount-desc' => 'Recalculate the edit counts of users',
 	'maintenance-initStats-desc' => 'Recalculate site statistics',
 	'maintenance-moveBatch-desc' => 'Mass-move pages',
+	'maintenance-reassignEdits-desc' => 'Reassign edits from one user to another',
 	'maintenance-runJobs-desc' => 'Run jobs in the job queue',
 	'maintenance-showJobs-desc' => 'Show a list of jobs pending in the job queue',
 	'maintenance-sql-desc' => 'Execute an SQL query',
 	'maintenance-stats-desc' => 'Show Memcached statistics',
+	// changePassword
 	'maintenance-changePassword' => "Use this form to change a user's password",
+	// createAndPromote
 	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to sysop.
 Check the bureaucrat box if you wish to promote to bureaucrat as well',
+	// deleteBatch
 	'maintenance-deleteBatch' => 'Use this form to mass-delete pages.
 Put only one page per line',
+	// deleteRevision
 	'maintenance-deleteRevision' => 'Use this form to mass-delete revisions.
 Put only one revision number per line',
+	// initEditCount
 	'maintenance-initEditCount' => '',
+	// initStats
 	'maintenance-initStats' => 'Use this form to recalculate site statistics, specifiying if you want to recalculate page views as well',
+	// moveBatch
 	'maintenance-moveBatch' => 'Use this form to mass-move pages.
 Each line should specify a source page and destination page separated by a pipe',
+	// runJobs
 	'maintenance-runJobs' => '',
+	// showJobs
 	'maintenance-showJobs' => '',
+	// stats
 	'maintenance-stats' => '',
+	// invalid type
 	'maintenance-invalidtype' => 'Invalid type!',
+	// changePassword + createAndPromote
 	'maintenance-name' => 'Username',
 	'maintenance-password' => 'Password',
+	// createAndPromote
 	'maintenance-bureaucrat' => 'Promote user to bureaucrat status',
+	// deleteBatch, moveBatch, etc.
 	'maintenance-reason' => 'Reason',
+	// initStats
 	'maintenance-update' => 'Use UPDATE when updating a table? Unchecked uses DELETE/INSERT instead.',
 	'maintenance-noviews' => 'Check this to prevent updating the number of pageviews',
+	// all scripts
 	'maintenance-confirm' => 'Confirm',
+	// createAndPromote, perhaps others
 	'maintenance-invalidname' => 'Invalid username!',
+	// all scripts
 	'maintenance-success' => '$1 ran successfully!',
+	// createAndPromote
 	'maintenance-userexists' => 'User already exists!',
+	// deleteBatch, moveBatch, perhaps others
 	'maintenance-invalidtitle' => 'Invalid title "$1"!',
+	// deleteBatch, moveBatch, perhaps others
 	'maintenance-titlenoexist' => 'Title specified ("$1") does not exist!',
+	// unsure
 	'maintenance-failed' => 'FAILED',
 	'maintenance-deleted' => 'DELETED',
+	// deleteRevisions
 	'maintenance-revdelete' => 'Deleting revisions $1 from wiki $2',
 	'maintenance-revnotfound' => 'Revision $1 not found!',
+	// sql
 	'maintenance-sql' => 'Use this form to execute a SQL query on the database.',
 	'maintenance-sql-aff' => 'Affected rows: $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|row|rows}} returned:
 $2',
+	// stats
 	'maintenance-stats-edits' => 'Number of edits: $1',
 	'maintenance-stats-articles' => 'Number of pages in the main namespace: $1',
 	'maintenance-stats-pages' => 'Number of pages: $1',
@@ -72,10 +102,13 @@ $2',
 	'maintenance-stats-images' => 'Number of files: $1',
 	'maintenance-stats-views' => 'Number of pageviews: $1',
 	'maintenance-stats-update' => 'Updating database...',
+	// moveBatch
 	'maintenance-move' => 'Moving $1 to $2...',
 	'maintenance-movefail' => 'Error encountered while moving: $1.
 Aborting move',
+	// unsure
 	'maintenance-error' => 'Error: $1',
+	// stats
 	'maintenance-memc-fake' => 'You are running FakeMemCachedClient. No statistics can be provided',
 	'maintenance-memc-requests' => 'Requests',
 	'maintenance-memc-withsession' => 'with session:',
@@ -92,7 +125,22 @@ Aborting move',
 	'maintenance-memc-updates' => 'updates:',
 	'maintenance-memc-uncacheable' => 'uncacheable:',
 	'maintenance-memc-diffcache' => 'Diff Cache',
+	// eval
 	'maintenance-eval' => 'Use this form to evaluate PHP code in the MediaWiki environment.',
+	// reassignEdits
+	'maintenance-reassignEdits' => 'Use this form to reassign edits from one user to another.',
+	'maintenance-re-from' => 'Name of the user to assign edits from',
+	'maintenance-re-to' => 'Name of the user to assign edits to',
+	'maintenance-re-force' => 'Reassign even if the target user doesn\'t exist',
+	'maintenance-re-rc' => 'Don\'t update the recent changes table',
+	'maintenance-re-report' => 'Print out details of what would be changed, but don\'t update it',
+	'maintenance-re-nf' => 'User $1 not found',
+	'maintenance-re-rr' => 'Run the script again without "$1" to update.',
+	'maintenance-re-ce' => 'Current edits: $1',
+	'maintenance-re-de' => 'Deleted edits: $1',
+	'maintenance-re-rce' => 'RecentChanges entries: $1',
+	'maintenance-re-total' => 'Total entries to change: $1',
+	'maintenance-re-re' => 'Reassigning edits... done',
 );
 
 /** Message documentation (Message documentation)
