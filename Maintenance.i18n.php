@@ -13,7 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'maintenance' => 'Run maintenance scripts',
-	'maintenance-desc' => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
+	'maintenance-desc' => '[[Special:Maintenance|Wiki interface]] for various maintenance scripts',
 	'maintenance-backlink' => 'Back to script selection',
 	'maintenance-header' => 'Please select a script below to execute.
 Descriptions are next to each script',
