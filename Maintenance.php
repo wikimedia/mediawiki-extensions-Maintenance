@@ -19,7 +19,7 @@ if( !defined('MEDIAWIKI') ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Maintenance',
 	'author' => 'Ryan Schmidt',
-	'version' => '1.0.2',
+	'version' => '1.0.3',
 	'description' => '[[Special:Maintenance|Web interface]] for various maintenance scripts',
 	'descriptionmsg' => 'maintenance-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:Maintenance',
