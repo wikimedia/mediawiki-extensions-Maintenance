@@ -191,6 +191,13 @@ $messages['af'] = array(
 	'maintenance-memc-total' => 'totaal:',
 );
 
+/** Amharic (አማርኛ)
+ * @author Codex Sinaiticus
+ */
+$messages['am'] = array(
+	'maintenance-reason' => 'ምክንያት',
+);
+
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
@@ -201,6 +208,7 @@ $messages['an'] = array(
 /** Arabic (العربية)
  * @author Meno25
  * @author OsamaK
+ * @author Ouda
  */
 $messages['ar'] = array(
 	'maintenance' => 'تشغيل سكريبتات الصيانة',
@@ -212,11 +220,13 @@ $messages['ar'] = array(
 	'maintenance-createAndPromote-desc' => 'إنشاء مستخدم وترقية إلى حالة إداري',
 	'maintenance-deleteBatch-desc' => 'حذف كمي للصفحات',
 	'maintenance-deleteRevision-desc' => 'إزالة المراجعات من قاعدة البيانات',
+	'maintenance-eval-desc' => 'في بيئة الميدياويكي PHP قيم كود',
 	'maintenance-initEditCount-desc' => 'إعادة حساب عدد التعديلات للمستخدمين',
 	'maintenance-initStats-desc' => 'إعادة حساب إحصاءات الموقع',
 	'maintenance-moveBatch-desc' => 'نقل كمي للصفحات',
 	'maintenance-runJobs-desc' => 'تنفيذ الأشغال في طابور الشغل',
 	'maintenance-showJobs-desc' => 'يعرض قائمة بالأشغال قيد الانتظار في طابور الشغل',
+	'maintenance-sql-desc' => 'SQL نفذ إستفسار',
 	'maintenance-stats-desc' => 'عرض إحصاءات ميم كاشد',
 	'maintenance-changePassword' => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
 	'maintenance-createAndPromote' => 'استخدم هذه الإستمارة لإنشاء مستخدم جديد وترقيته إلى مدير نظام.
@@ -245,6 +255,8 @@ $messages['ar'] = array(
 	'maintenance-deleted' => 'تم حذفه',
 	'maintenance-revdelete' => 'حذف المراجعات $1 من الويكي $2',
 	'maintenance-revnotfound' => 'المراجعة $1 لم يتم العثور عليها!',
+	'maintenance-sql' => 'على قاعدة البيانات SQL إستعمل هذا النموذج لتنفيذ إستفسار',
+	'maintenance-sql-aff' => 'الصفوف المتأثرة: $1',
 	'maintenance-stats-edits' => 'عدد التعديلات: $1',
 	'maintenance-stats-articles' => 'عدد الصفحات في النطاق الرئيسي: $1',
 	'maintenance-stats-pages' => 'عدد الصفحات: $1',
@@ -651,7 +663,7 @@ $messages['es'] = array(
  */
 $messages['fi'] = array(
 	'maintenance' => 'Suorita ylläpitoskriptejä',
-	'maintenance-desc' => '[[Special:Maintenance|Web-käyttöliittymä]] muutamille ylläpitoskripteille.',
+	'maintenance-desc' => '[[Special:Maintenance|Wikikäyttöliittymä]] muutamille wikin ylläpitoon tarkoitetuille komentosarjoille.',
 	'maintenance-backlink' => 'Takaisin skriptin valintaan',
 	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
 	Skriptien kuvaukset ovat niiden nimien vieressä',
@@ -659,7 +671,7 @@ $messages['fi'] = array(
 	'maintenance-createAndPromote-desc' => 'Luo käyttäjä ja lisää ylläpitäjäksi',
 	'maintenance-deleteBatch-desc' => 'Massapoista sivuja',
 	'maintenance-deleteRevision-desc' => 'Poista versioita tietokannasta',
-	'maintenance-eval-desc' => 'Arvioi PHP-koodi MediaWiki-ympäristössä.',
+	'maintenance-eval-desc' => 'Suorittaa PHP-koodia MediaWiki-ympäristössä.',
 	'maintenance-initEditCount-desc' => 'Laske uudelleen käyttäjien muokkausmäärät',
 	'maintenance-initStats-desc' => 'Laske sivuston tilastot uudelleen',
 	'maintenance-moveBatch-desc' => 'Massasiirrä sivuja',
@@ -694,7 +706,7 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 	'maintenance-deleted' => 'POISTETTU',
 	'maintenance-revdelete' => 'Poistataan versiot $1 wikistä $2',
 	'maintenance-revnotfound' => 'Versiota $1 ei löydy.',
-	'maintenance-sql' => 'Käytä lomaketta SQL-tiedustelun suorittamiseksi tietokannassa.',
+	'maintenance-sql' => 'Tällä lomakkeella voit tehdä SQL-kyselyitä tietokannasta.',
 	'maintenance-stats-edits' => 'Muokkauksia yhteensä: $1',
 	'maintenance-stats-articles' => 'Sivujen määrä päänimiavaruudessa: $1',
 	'maintenance-stats-pages' => 'Sivuja yhteensä: $1',
@@ -719,7 +731,7 @@ Keskeytetään siirto',
 	'maintenance-memc-imagecache' => 'Kuvien välimuisti',
 	'maintenance-memc-misses' => 'huteja:',
 	'maintenance-memc-updates' => 'päivityksiä:',
-	'maintenance-eval' => 'Käytä tätä lomaketta PHP-koodin arvioimiseksi MediaWiki-ympäristössä.',
+	'maintenance-eval' => 'Käytä tätä lomaketta PHP-koodin suorittamiseksi MediaWiki-ympäristössä.',
 );
 
 /** French (Français)
@@ -1119,11 +1131,13 @@ Le descriptones se trova al latere de cata script.',
 	'maintenance-createAndPromote-desc' => 'Crear un usator e promover le al stato de administrator',
 	'maintenance-deleteBatch-desc' => 'Deler paginas in massa',
 	'maintenance-deleteRevision-desc' => 'Remover versiones del base de datos',
+	'maintenance-eval-desc' => 'Evalutar codice PHP in le ambiente MediaWiki',
 	'maintenance-initEditCount-desc' => 'Recalcular le computos de modificationes de usatores',
 	'maintenance-initStats-desc' => 'Recalcular le statisticas del sito',
 	'maintenance-moveBatch-desc' => 'Renominar paginas in massa',
 	'maintenance-runJobs-desc' => 'Executar cargas listate in le cauda de actiones',
 	'maintenance-showJobs-desc' => 'Monstrar un lista del cargas pendente in le cauda de actiones',
+	'maintenance-sql-desc' => 'Executar un consulta SQL',
 	'maintenance-stats-desc' => 'Monstrar statisticas Memcached',
 	'maintenance-changePassword' => 'Usa iste formulario pro cambiar le contrasigno de un usator',
 	'maintenance-createAndPromote' => 'Usa iste formulario pro crear un nove usator e promover le a administrator.
@@ -1152,6 +1166,10 @@ Cata linea debe specificar un pagina de origine e un pagina de destination separ
 	'maintenance-deleted' => 'DELITE',
 	'maintenance-revdelete' => 'Deletion del versiones $1 del wiki $2',
 	'maintenance-revnotfound' => 'Version $1 non trovate!',
+	'maintenance-sql' => 'Usa iste formularo pro executar un consulta SQL del le base de datos.',
+	'maintenance-sql-aff' => 'Lineas afficite: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|linea|lineas}} retornate:
+$2',
 	'maintenance-stats-edits' => 'Numero de moficicationes: $1',
 	'maintenance-stats-articles' => 'Numero de paginas in le spatio de nomines principal: $1',
 	'maintenance-stats-pages' => 'Numero de paginas: $1',
@@ -1180,6 +1198,7 @@ Le renomination es abortate.',
 	'maintenance-memc-updates' => 'actualisationes:',
 	'maintenance-memc-uncacheable' => 'non cachabile:',
 	'maintenance-memc-diffcache' => 'Cache de comparationes',
+	'maintenance-eval' => 'Usa iste formulario pro evalutar codice PHP in le ambiente MediaWiki.',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1213,7 +1232,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'maintenance' => 'メンテナンス・スクリプトを実行する',
-	'maintenance-desc' => '様々なメンテナンス・スクリプト用の[[Special:Maintenance|ウェブ・インタフェース]]',
+	'maintenance-desc' => '様々なメンテナンス・スクリプト用の[[Special:Maintenance|ウィキ・インタフェース]]',
 	'maintenance-backlink' => 'スクリプト選択に戻る',
 	'maintenance-header' => '実行するスクリプトを以下から選んでください。解説は各スクリプトの隣にあります',
 	'maintenance-changePassword-desc' => '利用者のパスワードを変更する',
@@ -1614,7 +1633,7 @@ $messages['nah'] = array(
  */
 $messages['nl'] = array(
 	'maintenance' => 'Beheerscripts uitvoeren',
-	'maintenance-desc' => '[[Special:Maintenance|Webinterface]] voor een aantal beheerscripts',
+	'maintenance-desc' => '[[Special:Maintenance|Wiki-interface]] voor een aantal beheerscripts',
 	'maintenance-backlink' => 'Naar scriptselectie terugkeren',
 	'maintenance-header' => 'Selecteer hieronder een uit te voeren script.
 Beschrijvingen staan naast de scripts',
