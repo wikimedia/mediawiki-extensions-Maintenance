@@ -149,6 +149,7 @@ Aborting move',
  * @author Jon Harald Søby
  * @author Lloffiwr
  * @author Purodha
+ * @author Siebrand
  */
 $messages['qqq'] = array(
 	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
@@ -162,6 +163,8 @@ $messages['qqq'] = array(
 * $2 is the local wiki id (string containing database name and tables prefix, if any)',
 	'maintenance-memc-total' => '{{Identical|Total}}',
 	'maintenance-memc-hits' => '{{Identical|Hits}}',
+	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.',
+	'maintenance-re-rr' => '* $1 is substituted by {{msg-mw|maintenance-re-report}}',
 );
 
 /** Faeag Rotuma (Faeag Rotuma)
@@ -289,6 +292,7 @@ $messages['ar'] = array(
 
 /** Egyptian Spoken Arabic (مصرى)
  * @author Meno25
+ * @author Ouda
  */
 $messages['arz'] = array(
 	'maintenance' => 'تشغيل سكريبتات الصيانة',
@@ -333,6 +337,7 @@ $messages['arz'] = array(
 	'maintenance-deleted' => 'تم حذفه',
 	'maintenance-revdelete' => 'حذف المراجعات $1 من الويكى $2',
 	'maintenance-revnotfound' => 'المراجعة $1 لم يتم العثور عليها!',
+	'maintenance-sql-aff' => 'الصفوف المتأثرة: $1',
 	'maintenance-stats-edits' => 'عدد التعديلات: $1',
 	'maintenance-stats-articles' => 'عدد الصفحات فى النطاق الرئيسي: $1',
 	'maintenance-stats-pages' => 'عدد الصفحات: $1',
@@ -361,6 +366,8 @@ $messages['arz'] = array(
 	'maintenance-memc-updates' => 'تحديثات:',
 	'maintenance-memc-uncacheable' => 'لا يمكن تخزينه:',
 	'maintenance-memc-diffcache' => 'كاش الفرق',
+	'maintenance-re-ce' => '$1 : التعديلات الحالية',
+	'maintenance-re-de' => '$1 : التعديلات المحذوفة',
 );
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
@@ -483,6 +490,7 @@ $messages['cu'] = array(
  * @author DaSch
  * @author Imre
  * @author Leithian
+ * @author MF-Warburg
  * @author Melancholie
  * @author MichaelFrey
  * @author Raimond Spekking
@@ -503,6 +511,7 @@ Beschreibungen stehen neben jedem Skript.',
 	'maintenance-initEditCount-desc' => 'Benutzerbeitragszähler eines Benutzers neu berechnen',
 	'maintenance-initStats-desc' => 'Seitenstatistik neu berechnen',
 	'maintenance-moveBatch-desc' => 'Massenverschiebung von Seiten',
+	'maintenance-reassignEdits-desc' => 'Bearbeitungen eines Benutzers einem anderen zuweisen',
 	'maintenance-runJobs-desc' => 'Aufträge in Warteschlange ausführen',
 	'maintenance-showJobs-desc' => 'Liste der auf Abarbeitung wartenden Jobs in der Jobqueue',
 	'maintenance-sql-desc' => 'Eine SQL-Abfrage ausführen',
@@ -567,6 +576,19 @@ Verschieben abgebrochen',
 	'maintenance-memc-uncacheable' => 'nicht cachebar:',
 	'maintenance-memc-diffcache' => 'Diff-Zwischenspeicher',
 	'maintenance-eval' => 'Benutze dieses Formular um PHP-Codes in MediaWiki auszuwerten.',
+	'maintenance-reassignEdits' => 'Benutze diese Seite um Bearbeitungen eines Benutzers einem anderen zuzuweisen.',
+	'maintenance-re-from' => 'Benutzer, dem die Bearbeitungen weggenommen werden sollen',
+	'maintenance-re-to' => 'Benutzer, dem die Bearbeitungen zugewiesen werden sollen',
+	'maintenance-re-force' => 'Auch neu zuweisen wenn der neue Benutzer nicht existiert',
+	'maintenance-re-rc' => 'Datenbank-Tabelle Letzte Änderungen nicht aktualisieren',
+	'maintenance-re-report' => 'Nichts ändern, nur zeigen, was geändert werden würde',
+	'maintenance-re-nf' => 'Benutzer $1 nicht gefunden',
+	'maintenance-re-rr' => 'Zum Neuzuweisen das Skript noch einmal ohne „$1“ laufen lassen.',
+	'maintenance-re-ce' => 'Aktuelle Bearbeitungen: $1',
+	'maintenance-re-de' => 'Gelöschte Bearbeitungen: $1',
+	'maintenance-re-rce' => 'Einträge in den Letzten Änderungen: $1',
+	'maintenance-re-total' => 'Zu ändernde Einträge: $1',
+	'maintenance-re-re' => 'Neuzuordnung der Edits … erledigt',
 );
 
 /** German (formal address) (Deutsch (Sie-Form))
@@ -755,6 +777,7 @@ Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-initEditCount-desc' => 'Recalculer les compteurs de modifications des utilisateurs',
 	'maintenance-initStats-desc' => 'Recalculer les statistiques du site',
 	'maintenance-moveBatch-desc' => 'Renommage de pages en masse',
+	'maintenance-reassignEdits-desc' => "Réassigner des modifications d'un utilisateur vers un autre",
 	'maintenance-runJobs-desc' => 'Lancer les tâches dans la liste de celles à accomplir',
 	'maintenance-showJobs-desc' => 'Afficher une liste des tâches en cours dans la liste de celles à accomplir',
 	'maintenance-sql-desc' => 'Exécuter une requête SQL',
@@ -819,6 +842,19 @@ Déplacement interrompu.',
 	'maintenance-memc-uncacheable' => 'hors cache :',
 	'maintenance-memc-diffcache' => 'Cache des diff',
 	'maintenance-eval' => 'Utilisez cette forme pour évaluer le code PHP dans un environnement MediaWiki.',
+	'maintenance-reassignEdits' => "Utilisez ce formulaire pour réassigner des modifications d'un utilisateur vers un autre.",
+	'maintenance-re-from' => "Nom de l'utilisateur à qui prendre les modifications",
+	'maintenance-re-to' => "Nom de l'utilisateur à qui assigner les modifications",
+	'maintenance-re-force' => "Réassigner même si l'utilisateur cible n'existe pas",
+	'maintenance-re-rc' => 'Ne pas modifier la table des modifications récentes',
+	'maintenance-re-report' => 'Afficher les détails de ce qui va être modifié, mais sans mettre à jour les données',
+	'maintenance-re-nf' => "L'utilisateur « $1 » n'a pas été trouvé",
+	'maintenance-re-rr' => 'Lancer de nouveau le script sans mettre à jour « $1 ».',
+	'maintenance-re-ce' => 'Modifications actuelles : $1.',
+	'maintenance-re-de' => 'Modifications supprimées : $1',
+	'maintenance-re-rce' => 'Entrées dans la table des modifications récentes : $1',
+	'maintenance-re-total' => 'Nombre total de modifications à modifier : $1',
+	'maintenance-re-re' => 'Réaffectation des modifications... fait',
 );
 
 /** Western Frisian (Frysk)
@@ -862,6 +898,7 @@ As descricións están ao lado de cada escritura',
 	'maintenance-initEditCount-desc' => 'Volver calcular o contador de edicións dos usuarios',
 	'maintenance-initStats-desc' => 'Volver calcular as estatísticas do sitio',
 	'maintenance-moveBatch-desc' => 'Mover páxinas masivamente',
+	'maintenance-reassignEdits-desc' => 'Reasignar as edicións dun usuario a outro',
 	'maintenance-runJobs-desc' => 'Executar os traballos na cola de traballo',
 	'maintenance-showJobs-desc' => 'Amosar a listaxe dos traballos pendentes na cola de traballo',
 	'maintenance-sql-desc' => 'Executar unha pesquisa SQL',
@@ -926,6 +963,19 @@ Cancelando a operación',
 	'maintenance-memc-uncacheable' => 'non se pode comprobar a caché:',
 	'maintenance-memc-diffcache' => 'Diferenza na memoria caché',
 	'maintenance-eval' => 'Use este formulario para evaluar o código PHP no ambiente MediaWiki.',
+	'maintenance-reassignEdits' => 'Use este formulario para reasignar as edicións dun usuario a outro.',
+	'maintenance-re-from' => 'Nome do usuario do que coller as edicións',
+	'maintenance-re-to' => 'Nome do usuario ao que asignar as edicións',
+	'maintenance-re-force' => 'Reasignar incluso se o usuario non existe',
+	'maintenance-re-rc' => 'Non actualizar a táboa de cambios recentes',
+	'maintenance-re-report' => 'Imprimir os detalles do que será cambiado, pero non actualizalo',
+	'maintenance-re-nf' => 'O usuario "$1" non foi atopado',
+	'maintenance-re-rr' => 'Executar de novo a escritura sen "$1" para actualizar.',
+	'maintenance-re-ce' => 'Edicións actuais: $1',
+	'maintenance-re-de' => 'Edicións borradas: $1',
+	'maintenance-re-rce' => 'Entradas nos Cambios recentes: $1',
+	'maintenance-re-total' => 'Entradas totais a cambiar: $1',
+	'maintenance-re-re' => 'Reasignando as edicións... feito',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -1320,25 +1370,44 @@ $messages['ka'] = array(
 $messages['km'] = array(
 	'maintenance' => 'ដំណើរការស្រ្គីបតំហែទាំ',
 	'maintenance-changePassword-desc' => 'ប្តូរពាក្យសំងាត់របស់អ្នកប្រើប្រាស់',
+	'maintenance-createAndPromote-desc' => 'បង្កើត​អ្នកប្រើប្រាស់ និង​ដំឡើង​ទៅជា​អ្នកអភិបាល (sysop status)',
+	'maintenance-invalidtype' => 'គំរូ​មិន​ត្រឹមត្រូវ!',
 	'maintenance-name' => 'អ្នកប្រើប្រាស់',
 	'maintenance-password' => 'ពាក្យសំងាត់',
+	'maintenance-bureaucrat' => 'ដំឡើង​អ្នកប្រើប្រាស់​ទៅជា​អ្នកការិយាល័យ',
 	'maintenance-reason' => 'មូលហេតុ',
 	'maintenance-confirm' => 'អះអាង',
 	'maintenance-invalidname' => 'អ្នកប្រើប្រាស់មិនត្រឹមត្រូវ!',
 	'maintenance-success' => '$1 បាន​ដំណើការ​ដោយ​ជោគជ័យ​!',
 	'maintenance-userexists' => 'អ្នកប្រើប្រាស់មានរួចជាស្រេចហើយ!',
+	'maintenance-invalidtitle' => 'ចំណងជើង​មិនត្រឹមត្រូវ "$1"!',
+	'maintenance-failed' => 'បាន​បរាជ័យ',
+	'maintenance-deleted' => 'បាន​លុប',
+	'maintenance-revdelete' => 'លុប​ការពិនិត្យឡើងវិញ $1 ពី​វិគី $2',
+	'maintenance-revnotfound' => 'រក​មិនឃើញ​ការពិនិត្យឡើងវិញ $1 ទេ​!',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|ជួរ|ជួរ}} បាន​ត្រឡប់:
+$2',
 	'maintenance-stats-edits' => 'ចំនួនកំណែប្រែ៖ $1',
+	'maintenance-stats-articles' => 'ចំនួន​ទំព័រ​នៅក្នុង​លំហឈ្មោះ​ដើម: $1',
 	'maintenance-stats-pages' => 'ចំនួនទំព័រ: $1',
 	'maintenance-stats-users' => 'ចំនួនអ្នកប្រើប្រាស់: $1',
 	'maintenance-stats-admins' => 'ចំនួនអ្នកថែទាំប្រព័ន្ធ: $1',
 	'maintenance-stats-images' => 'ចំនួនឯកសារ: $1',
+	'maintenance-stats-views' => 'ចំនួន​នៃ​ការមើល​ទំព័រ: $1',
 	'maintenance-stats-update' => 'ធ្វើឱ្យ​ទិន្នន័យ​ទាន់សម័យ​...',
 	'maintenance-move' => 'កំពុងប្តូរទីតាំង$1ទៅ$2...',
 	'maintenance-error' => 'កំហុស: $1',
 	'maintenance-memc-requests' => 'ស្នើសុំ',
 	'maintenance-memc-total' => 'សរុប:',
+	'maintenance-memc-invalid' => 'មិន​ត្រឹមត្រូវ:',
 	'maintenance-memc-expired' => 'បានផុតកំណត់៖',
+	'maintenance-memc-absent' => 'អវត្តមាន:',
+	'maintenance-memc-misses' => 'ខ្វះ:',
 	'maintenance-memc-updates' => 'បន្ទាន់សម័យ​៖',
+	'maintenance-re-nf' => 'រក​មិន​ឃើញ​អ្នកប្រើប្រាស់ $1 ទេ',
+	'maintenance-re-rr' => 'ដំណើរការ​ស្គ្រីប​ម្ដងទៀត ដោយ​គ្មាន "$1" ដើម្បី​បន្ទាន់សម័យ​ទេ​។',
+	'maintenance-re-ce' => 'កំណែប្រែ​បច្ចុប្បន្ន: $1',
+	'maintenance-re-de' => 'កំណែប្រែ​ដែល​បាន​លុប: $1',
 );
 
 /** Korean (한국어)
@@ -1645,6 +1714,7 @@ Beschrijvingen staan naast de scripts',
 	'maintenance-initEditCount-desc' => 'Aantal bewerkingen van gebruikers herberekenen',
 	'maintenance-initStats-desc' => 'Sitestatistieken herberekenen',
 	'maintenance-moveBatch-desc' => "Pagina's en masse hernoemen",
+	'maintenance-reassignEdits-desc' => 'Bewerkingen aan een andere gebruiker toewijzen',
 	'maintenance-runJobs-desc' => 'Taken uit de jobqueue uitvoeren',
 	'maintenance-showJobs-desc' => 'Openstaande taken in de jobqueue bekijken',
 	'maintenance-sql-desc' => 'SQL-query uitvoeren',
@@ -1709,6 +1779,19 @@ Hernoemen is afgebroken',
 	'maintenance-memc-uncacheable' => 'kan niet gecached worden:',
 	'maintenance-memc-diffcache' => 'Diff cache',
 	'maintenance-eval' => 'Gebruik dit formulier om PHP-code in de MediaWiki-omgeving te evalueren.',
+	'maintenance-reassignEdits' => 'Gebruik dit formulier om bewerkingen aan een andere gebruiker toe te wijzen.',
+	'maintenance-re-from' => 'Brongebruiker',
+	'maintenance-re-to' => 'Doelgebruiker',
+	'maintenance-re-force' => 'Ook toewijzen als de doelgebruiker niet bestaat',
+	'maintenance-re-rc' => 'Recente wijzigingen niet bijwerken',
+	'maintenance-re-report' => 'Details weergeven van te maken wijzigingen zonder daarwerkelijk bij te werken',
+	'maintenance-re-nf' => 'Gebruiker $1 bestaat niet',
+	'maintenance-re-rr' => 'Voer de handeling opnieuw uit met bijwerken door de optie "$1" uit te schakelen.',
+	'maintenance-re-ce' => 'Huidige bewerkingen: $1',
+	'maintenance-re-de' => 'Verwijderde bewerkingen: $1',
+	'maintenance-re-rce' => 'Regels in recente wijzigingen: $1',
+	'maintenance-re-total' => 'Aantal bij te werken bewerkingen: $1',
+	'maintenance-re-re' => 'Bezig met het toewijzen... Klaar',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -2246,6 +2329,13 @@ $messages['te'] = array(
 	'maintenance-error' => 'పొరపాటు: $1',
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
 	'maintenance-memc-total' => 'మొత్తం:',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'maintenance-reason' => 'Motivu',
 );
 
 /** Turkish (Türkçe)
