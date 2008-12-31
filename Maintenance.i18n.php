@@ -1514,6 +1514,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-deleted' => 'GELÄSCHT',
 	'maintenance-revdelete' => 'Làsche vun de Versioune(n) $1 vun der Wiki $2',
 	'maintenance-revnotfound' => "D'Versioun $1 gouf net fonnt!",
+	'maintenance-sql-aff' => 'Betraffe Reien: $1',
 	'maintenance-stats-edits' => 'Zuel vun den Ännerungen: $1',
 	'maintenance-stats-articles' => 'Zuel vun de Säiten am Haaptnummraum: $1',
 	'maintenance-stats-pages' => 'Zuel vun de Säiten: $1',
@@ -1528,6 +1529,9 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-memc-total' => 'Total:',
 	'maintenance-memc-absent' => 'net do:',
 	'maintenance-memc-updates' => 'Aktualiséierungen:',
+	'maintenance-re-nf' => 'De Benotzer $1 gouf net fonnt',
+	'maintenance-re-ce' => 'Aktuell Ännerungen:',
+	'maintenance-re-de' => 'Geläschten Ännerungen: $1',
 );
 
 /** Eastern Mari (Олык Марий)
