@@ -291,6 +291,7 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Ghaly
  * @author Meno25
  * @author Ouda
  */
@@ -304,7 +305,7 @@ $messages['arz'] = array(
 	'maintenance-createAndPromote-desc' => 'إنشاء مستخدم وترقية إلى حالة إداري',
 	'maintenance-deleteBatch-desc' => 'حذف كمى للصفحات',
 	'maintenance-deleteRevision-desc' => 'إزالة المراجعات من قاعدة البيانات',
-	'maintenance-initEditCount-desc' => 'إعادة حساب عدد التعديلات للمستخدمين',
+	'maintenance-initEditCount-desc' => 'إعادة حساب عدد التعديلات لليوزرز',
 	'maintenance-initStats-desc' => 'إعادة حساب إحصاءات الموقع',
 	'maintenance-moveBatch-desc' => 'نقل كمى للصفحات',
 	'maintenance-runJobs-desc' => 'تنفيذ الأشغال فى طابور الشغل',
@@ -321,16 +322,16 @@ $messages['arz'] = array(
 	'maintenance-moveBatch' => 'استخدم هذه الإستمارة لنقل الصفحات بشكل كمي.
 كل سطر ينبغى أن يحدد صفحة مصدر وصفحة هدف مفصولين ببايب',
 	'maintenance-invalidtype' => 'نوع غير صحيح!',
-	'maintenance-name' => 'اسم مستخدم',
+	'maintenance-name' => 'اسم يوزر',
 	'maintenance-password' => 'كلمة السر',
 	'maintenance-bureaucrat' => 'ترقية مستخدم إلى حالة بيروقراط',
 	'maintenance-reason' => 'سبب',
 	'maintenance-update' => 'استخدم UPDATE عند تحديث جدول غير المعلم يستخدم DELETE/INSERT بدلا من ذلك.',
 	'maintenance-noviews' => 'علم على هذا لمنع تحديث عدد عرض الصفحات',
 	'maintenance-confirm' => 'تأكيد',
-	'maintenance-invalidname' => 'اسم مستخدم غير صحيح!',
+	'maintenance-invalidname' => 'اسم يوزر مش صحيح !',
 	'maintenance-success' => '$1 عمل بنجاح!',
-	'maintenance-userexists' => 'المستخدم موجود حاليا!',
+	'maintenance-userexists' => 'اليوزر موجود  دلوقتى!',
 	'maintenance-invalidtitle' => 'عنوان غير صحيح "$1"!',
 	'maintenance-titlenoexist' => 'العنوان المحدد ("$1") غير موجود!',
 	'maintenance-failed' => 'فشل',
