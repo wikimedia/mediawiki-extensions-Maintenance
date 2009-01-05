@@ -99,6 +99,11 @@ $aliases['mk'] = array(
 	'Maintenance' => array( 'Одржување' ),
 );
 
+/** Maltese (Malti) */
+$aliases['mt'] = array(
+	'Maintenance' => array( 'Manteniment' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
