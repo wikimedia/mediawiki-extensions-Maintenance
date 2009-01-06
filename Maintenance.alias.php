@@ -44,6 +44,11 @@ $aliases['de'] = array(
 	'Maintenance' => array( 'Wartung' ),
 );
 
+/** Basque (Euskara) */
+$aliases['eu'] = array(
+	'Maintenance' => array( 'Mantenimendua' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
