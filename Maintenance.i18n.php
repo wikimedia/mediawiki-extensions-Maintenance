@@ -10,6 +10,7 @@ $messages = array();
 
 /** English
  * @author Ryan Schmidt
+ * @author Purodha
  */
 $messages['en'] = array(
 	// special page text
@@ -86,7 +87,7 @@ Each line should specify a source page and destination page separated by a pipe'
 	'maintenance-failed' => 'FAILED',
 	'maintenance-deleted' => 'DELETED',
 	// deleteRevisions
-	'maintenance-revdelete' => 'Deleting revisions $1 from wiki $2',
+	'maintenance-revdelete' => 'Deleting {{PLURAL:$3|revision|revisions}} $1 from wiki $2',
 	'maintenance-revnotfound' => 'Revision $1 not found!',
 	// sql
 	'maintenance-sql' => 'Use this form to execute a SQL query on the database.',
@@ -160,7 +161,8 @@ $messages['qqq'] = array(
 	'maintenance-confirm' => '{{Identical|Confirm}}',
 	'maintenance-deleted' => '{{Identical|Deleted}}',
 	'maintenance-revdelete' => '* $1 is a list of revisions numbers
-* $2 is the local wiki id (string containing database name and tables prefix, if any)',
+* $2 is the local wiki id (string containing database name and tables prefix, if any)
+* $3 is the number of revision numbers in $1',
 	'maintenance-memc-total' => '{{Identical|Total}}',
 	'maintenance-memc-hits' => '{{Identical|Hits}}',
 	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.',
@@ -495,6 +497,7 @@ $messages['cu'] = array(
  * @author MF-Warburg
  * @author Melancholie
  * @author MichaelFrey
+ * @author Purodha
  * @author Raimond Spekking
  * @author Revolus
  * @author Umherirrender
@@ -543,7 +546,7 @@ Jede Zeile sollte eine Quellseite und eine Zielseite angeben, durch einen Senkre
 	'maintenance-titlenoexist' => 'Der angegebene Titel („$1“) existiert nicht!',
 	'maintenance-failed' => 'Fehlgeschlagen',
 	'maintenance-deleted' => 'GELÖSCHT',
-	'maintenance-revdelete' => 'Lösche Versionen $1 von Wiki $2',
+	'maintenance-revdelete' => 'Lösche {{PLURAL:$3|Version|Versionen}} $1 von Wiki $2',
 	'maintenance-revnotfound' => 'Version $1 nicht gefunden!',
 	'maintenance-sql' => 'Verwende diese Maske, um eine SQL-Abfrage in der Datenbank auszuführen.',
 	'maintenance-sql-aff' => 'Betroffene Zeilen: $1',
@@ -1469,6 +1472,7 @@ Näve dä Projramme es koot jesaat, wat se donn.',
 	'maintenance-userexists' => 'Dä Metmaacher jidd_et ald!',
 	'maintenance-failed' => '<span style="text-transform:uppercase">donevve jejange</span>',
 	'maintenance-deleted' => '<span style="text-transform:uppercase">fottjeschmesse</span>',
+	'maintenance-revdelete' => 'De {{PLURAL:$3|Version|Versione|nix}} $1 vun däm Wiki $2 fottschmiiße',
 	'maintenance-revnotfound' => 'En Version $1 hammer nit jefonge!',
 	'maintenance-stats-edits' => 'Aanzahl Sigge-Änderonge: $1',
 	'maintenance-stats-articles' => 'Aanzahl Sigge em Appachtemang met de Atikele: $1',
@@ -1497,6 +1501,7 @@ Näve dä Projramme es koot jesaat, wat se donn.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Purodha
  * @author Robby
  */
 $messages['lb'] = array(
@@ -1530,7 +1535,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-titlenoexist' => 'Den Titel den dir uginn hutt ("$1") gëtt et net!',
 	'maintenance-failed' => 'Huet net fonctionnéiert',
 	'maintenance-deleted' => 'GELÄSCHT',
-	'maintenance-revdelete' => 'Làsche vun de Versioune(n) $1 vun der Wiki $2',
+	'maintenance-revdelete' => 'Làsche vun de {{PLURAL:$3|Versioun|Versiounen}} $1 vun der Wiki $2',
 	'maintenance-revnotfound' => "D'Versioun $1 gouf net fonnt!",
 	'maintenance-sql-aff' => 'Betraffe Reien: $1',
 	'maintenance-stats-edits' => 'Zuel vun den Ännerungen: $1',
