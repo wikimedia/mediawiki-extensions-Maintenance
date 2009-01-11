@@ -49,7 +49,7 @@ Put only one revision number per line',
 	// initEditCount
 	'maintenance-initEditCount' => '',
 	// initStats
-	'maintenance-initStats' => 'Use this form to recalculate site statistics, specifiying if you want to recalculate page views as well',
+	'maintenance-initStats' => 'Use this form to recalculate site statistics, specifying if you want to recalculate page views as well',
 	// moveBatch
 	'maintenance-moveBatch' => 'Use this form to mass-move pages.
 Each line should specify a source page and destination page separated by a pipe',
