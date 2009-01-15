@@ -17,6 +17,8 @@ $messages['en'] = array(
 	'maintenance' => 'Run maintenance scripts',
 	// description
 	'maintenance-desc' => '[[Special:Maintenance|Wiki interface]] for various maintenance scripts',
+	// for Special:ListGroupRights
+	'right-maintenance' => 'Run maintenance scripts through [[Special:Maintenance]]',
 	// main form
 	'maintenance-backlink' => 'Back to script selection',
 	'maintenance-header' => 'Please select a script below to execute.
