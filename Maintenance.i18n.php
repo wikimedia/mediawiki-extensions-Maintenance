@@ -1673,6 +1673,7 @@ $messages['lb'] = array(
 	'maintenance-initStats-desc' => "D'Statistike vum Site neiberechnen",
 	'maintenance-moveBatch-desc' => 'Vill Säite matenee réckelen',
 	'maintenance-showJobs-desc' => "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
+	'maintenance-sql-desc' => 'Eng SQL-Ufro ausféieren',
 	'maintenance-stats-desc' => 'Statistiken vun der Cache Memoire weisen',
 	'maintenance-changePassword' => "Dëse Formulaire benotze fir engem Benotzer säi Passwuert z'änneren",
 	'maintenance-deleteBatch' => 'Dëse Formulaire benotzen fir eng Rei vu Säiten ze läschen.
