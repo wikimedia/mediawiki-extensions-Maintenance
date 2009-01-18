@@ -1692,7 +1692,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-titlenoexist' => 'Den Titel den dir uginn hutt ("$1") gëtt et net!',
 	'maintenance-failed' => 'Huet net fonctionnéiert',
 	'maintenance-deleted' => 'GELÄSCHT',
-	'maintenance-revdelete' => 'Làsche vun de {{PLURAL:$3|Versioun|Versiounen}} $1 vun der Wiki $2',
+	'maintenance-revdelete' => 'Läsche {{PLURAL:$3|vun der Versioun| vun de Versioune(n)}} $1 vun der Wiki $2',
 	'maintenance-revnotfound' => "D'Versioun $1 gouf net fonnt!",
 	'maintenance-sql-aff' => 'Betraffe Reien: $1',
 	'maintenance-stats-edits' => 'Zuel vun den Ännerungen: $1',
@@ -1710,7 +1710,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-memc-absent' => 'net do:',
 	'maintenance-memc-updates' => 'Aktualiséierungen:',
 	'maintenance-re-nf' => 'De Benotzer $1 gouf net fonnt',
-	'maintenance-re-ce' => 'Aktuell Ännerungen:',
+	'maintenance-re-ce' => 'Aktuell Ännerungen: $1',
 	'maintenance-re-de' => 'Geläschten Ännerungen: $1',
 );
 
@@ -2346,9 +2346,14 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'maintenance' => 'Execute scripts de manutenção',
+	'right-maintenance' => 'Executar scripts de manutenção através de [[Special:Maintenance]]',
+	'maintenance-changePassword-desc' => 'Alterar a palavra-chave de um utilizador',
+	'maintenance-moveBatch-desc' => 'Mover páginas em bloco',
+	'maintenance-name' => 'Nome de utilizador',
 	'maintenance-password' => 'Palavra-chave',
 	'maintenance-reason' => 'Motivo',
 	'maintenance-success' => '$1 executado com sucesso!',
+	'maintenance-userexists' => 'O utilizador já existe!',
 	'maintenance-invalidtitle' => 'Título "$1" inválido!',
 	'maintenance-revdelete' => 'Eliminando {{PLURAL:$3|revisão|revisões}} $1 do wiki $2',
 	'maintenance-stats-edits' => 'Número de edições: $1',
@@ -2357,9 +2362,12 @@ $messages['pt'] = array(
 	'maintenance-memc-withsession' => 'com sessão:',
 	'maintenance-memc-withoutsession' => 'sem sessão:',
 	'maintenance-memc-total' => 'total:',
+	'maintenance-memc-imagecache' => 'Cache de imagens',
 	'maintenance-re-nf' => 'Utilizador $1 não encontrado',
 	'maintenance-re-ce' => 'Edições actuais: $1',
 	'maintenance-re-de' => 'Edições eliminadas: $1',
+	'maintenance-re-rce' => 'Entradas das Mudanças Recentes: $1',
+	'maintenance-re-total' => 'Entradas totais a alterar: $1',
 );
 
 /** Romanian (Română)

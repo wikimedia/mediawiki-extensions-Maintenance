@@ -129,6 +129,11 @@ $aliases['pt-br'] = array(
 	'Maintenance' => array( 'Manutenção' ),
 );
 
+/** Sanskrit (संस्कृत) */
+$aliases['sa'] = array(
+	'Maintenance' => array( 'निर्वहण' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Maintenance' => array( 'Underhåll' ),
