@@ -1030,6 +1030,7 @@ $messages['haw'] = array(
 $messages['he'] = array(
 	'maintenance' => 'הרצת סקריפטים של תחזוקה',
 	'maintenance-desc' => '[[Special:Maintenance|ממשק אינטרנט]] למגוון סקריפטים של תחזוקה',
+	'right-maintenance' => 'הרצת סקריפטים לתחזוקה דרך [[Special:Maintenance]]',
 	'maintenance-backlink' => 'חזרה לבחירת הסקריפטים',
 	'maintenance-header' => 'אנא בחרו איזה מהסקריפטים שלהלן להריץ.
 התיאורים מופיעים ליד כל סקריפט',
@@ -1041,6 +1042,7 @@ $messages['he'] = array(
 	'maintenance-initEditCount-desc' => 'חישוב מחדש של מספר העריכות שביצע כל משתמש',
 	'maintenance-initStats-desc' => 'חישוב מחדש של סטטיסטיקות האתר',
 	'maintenance-moveBatch-desc' => 'העברה המונית של דפים',
+	'maintenance-reassignEdits-desc' => 'הקצאת עריכות מחדש ממשתמש אחד לאחר',
 	'maintenance-runJobs-desc' => 'הרצת משימות מתור המשימות',
 	'maintenance-showJobs-desc' => 'הצגת רשימת משימות הממתינות בתור המשימות',
 	'maintenance-sql-desc' => 'הרצת שאילתת SQL',
