@@ -2169,6 +2169,7 @@ Avbryter flytting',
 $messages['oc'] = array(
 	'maintenance' => 'Aviar los escripts de mantenença',
 	'maintenance-desc' => '[[Special:Maintenance|Interfàcia Web]] pels diferents escripts de mantenença',
+	'right-maintenance' => "Aviar d'escriptes de mantenença dempuèi [[Special:Maintenance]]",
 	'maintenance-backlink' => "Retorn cap a la seleccion de l'escript",
 	'maintenance-header' => "Seleccionatz, çaijós, un escript d'executar.
 Las descripcions son a la seguida de cadun d'aquestes.",
