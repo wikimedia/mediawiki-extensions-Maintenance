@@ -134,6 +134,11 @@ $aliases['sa'] = array(
 	'Maintenance' => array( 'निर्वहण' ),
 );
 
+/** Albanian (Shqip) */
+$aliases['sq'] = array(
+	'Maintenance' => array( 'Mirëmbajtje' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Maintenance' => array( 'Underhåll' ),
