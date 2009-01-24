@@ -25,7 +25,7 @@ $messages['en'] = array(
 Descriptions are next to each script',
 	// script descriptions
 	'maintenance-changePassword-desc' => "Change a user's password",
-	'maintenance-createAndPromote-desc' => 'Create a user and promote to sysop status',
+	'maintenance-createAndPromote-desc' => 'Create a user and promote to administrator status',
 	'maintenance-deleteBatch-desc' => 'Mass-delete pages',
 	'maintenance-deleteRevision-desc' => 'Remove revisions from the database',
 	'maintenance-eval-desc' => 'Evaluate PHP code in the MediaWiki environment',
@@ -40,7 +40,7 @@ Descriptions are next to each script',
 	// changePassword
 	'maintenance-changePassword' => "Use this form to change a user's password",
 	// createAndPromote
-	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to sysop.
+	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to administrator.
 Check the bureaucrat box if you wish to promote to bureaucrat as well',
 	// deleteBatch
 	'maintenance-deleteBatch' => 'Use this form to mass-delete pages.
