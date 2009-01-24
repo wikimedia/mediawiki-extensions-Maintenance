@@ -381,6 +381,7 @@ $messages['arz'] = array(
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
+	'maintenance-name' => 'Імя ўдзельніка',
 	'maintenance-password' => 'Пароль',
 	'maintenance-reason' => 'Прычына',
 );
@@ -2354,8 +2355,11 @@ $messages['pt'] = array(
 	'right-maintenance' => 'Executar scripts de manutenção através de [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Voltar à seleção de scripts',
 	'maintenance-changePassword-desc' => 'Alterar a palavra-chave de um utilizador',
+	'maintenance-initEditCount-desc' => 'Recalcular a contagem de edições de utilizadores',
+	'maintenance-initStats-desc' => 'Recalcular estatísticas do sítio',
 	'maintenance-moveBatch-desc' => 'Mover páginas em bloco',
 	'maintenance-sql-desc' => 'Executar um comando SQL',
+	'maintenance-changePassword' => 'Use este formulário para alterar a palavra-chave de um utilizador',
 	'maintenance-invalidtype' => 'Tipo inválido!',
 	'maintenance-name' => 'Nome de utilizador',
 	'maintenance-password' => 'Palavra-chave',
@@ -2365,8 +2369,18 @@ $messages['pt'] = array(
 	'maintenance-success' => '$1 executado com sucesso!',
 	'maintenance-userexists' => 'O utilizador já existe!',
 	'maintenance-invalidtitle' => 'Título "$1" inválido!',
+	'maintenance-titlenoexist' => 'O título especificado ("$1") não existe!',
 	'maintenance-revdelete' => 'Eliminando {{PLURAL:$3|revisão|revisões}} $1 do wiki $2',
+	'maintenance-revnotfound' => 'Revisão $1 não encontrada!',
+	'maintenance-sql' => 'Use este formulário para executar um comando SQL na base de dados.',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|linha retornada|linhas retornadas}}:
+$2',
 	'maintenance-stats-edits' => 'Número de edições: $1',
+	'maintenance-stats-pages' => 'Número de páginas: $1',
+	'maintenance-stats-users' => 'Número de utilizadores: $1',
+	'maintenance-stats-admins' => 'Número de administradores: $1',
+	'maintenance-stats-images' => 'Número de ficheiros: $1',
+	'maintenance-stats-views' => 'Número de visualizações de página: $1',
 	'maintenance-stats-update' => 'A atualizar base de dados...',
 	'maintenance-error' => 'Erro: $1',
 	'maintenance-memc-requests' => 'Pedidos',
@@ -2374,6 +2388,7 @@ $messages['pt'] = array(
 	'maintenance-memc-withoutsession' => 'sem sessão:',
 	'maintenance-memc-total' => 'total:',
 	'maintenance-memc-imagecache' => 'Cache de imagens',
+	'maintenance-memc-diffcache' => 'Cache de Diferenças',
 	'maintenance-re-nf' => 'Utilizador $1 não encontrado',
 	'maintenance-re-ce' => 'Edições actuais: $1',
 	'maintenance-re-de' => 'Edições eliminadas: $1',
@@ -2705,7 +2720,7 @@ $messages['tet'] = array(
 $messages['tl'] = array(
 	'maintenance' => 'Patakbuhin ang mga panitik na pang-pagpapanatili',
 	'maintenance-desc' => '[[Special:Maintenance|Ugnayang-hangganan ng Wiki]] para sa sari-saring mga panitik na pang-pagpapanatili',
-	'right-maintenance' => 'Patakbuhin ang mga panitik ng pagpapanatili sa pamamagitan ng [[Special:Pagpapanatili]]',
+	'right-maintenance' => 'Patakbuhin ang mga panitik ng pagpapanatili sa pamamagitan ng [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Bumalik sa pilian ng mga panitik',
 	'maintenance-header' => 'Pakipili lamang ng isang panitik sa ibaba na isasakatuparan.
 Katabi ng bawat panitik ang mga paglalarawan',

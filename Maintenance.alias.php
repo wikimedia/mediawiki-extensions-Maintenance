@@ -94,6 +94,11 @@ $aliases['km'] = array(
 	'Maintenance' => array( 'ការថែទាំ' ),
 );
 
+/** Korean (한국어) */
+$aliases['ko'] = array(
+	'Maintenance' => array( '정비' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Maintenance' => array( 'Ënnerhalt' ),
