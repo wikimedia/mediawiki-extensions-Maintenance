@@ -689,6 +689,14 @@ $messages['es'] = array(
 	'maintenance-memc-absent' => 'ausente:',
 );
 
+/** Basque (Euskara)
+ * @author An13sa
+ */
+$messages['eu'] = array(
+	'maintenance-invalidname' => 'Lankide izen okerra!',
+	'maintenance-deleted' => 'EZABATUA',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Jack Phoenix
