@@ -2356,6 +2356,7 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author Malafaya
+ * @author Waldir
  */
 $messages['pt'] = array(
 	'maintenance' => 'Execute scripts de manutenção',
@@ -2363,9 +2364,15 @@ $messages['pt'] = array(
 	'right-maintenance' => 'Executar scripts de manutenção através de [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Voltar à seleção de scripts',
 	'maintenance-changePassword-desc' => 'Alterar a palavra-chave de um utilizador',
+	'maintenance-createAndPromote-desc' => 'Criar um utilizador e promover a administrador',
+	'maintenance-deleteBatch-desc' => 'Eliminar páginas em massa',
+	'maintenance-deleteRevision-desc' => 'Remover revisões da base de dados',
+	'maintenance-eval-desc' => 'Interpretar código PHP no ambiente MediaWiki',
 	'maintenance-initEditCount-desc' => 'Recalcular a contagem de edições de utilizadores',
 	'maintenance-initStats-desc' => 'Recalcular estatísticas do sítio',
 	'maintenance-moveBatch-desc' => 'Mover páginas em bloco',
+	'maintenance-reassignEdits-desc' => 'Reatribuir edições de um utilizador para outro',
+	'maintenance-runJobs-desc' => 'Executar tarefas na fila de tarefas',
 	'maintenance-sql-desc' => 'Executar um comando SQL',
 	'maintenance-changePassword' => 'Use este formulário para alterar a palavra-chave de um utilizador',
 	'maintenance-invalidtype' => 'Tipo inválido!',
