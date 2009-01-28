@@ -384,6 +384,7 @@ $messages['be-tarask'] = array(
 	'maintenance-name' => 'Імя ўдзельніка',
 	'maintenance-password' => 'Пароль',
 	'maintenance-reason' => 'Прычына',
+	'maintenance-confirm' => 'Пацьвердзіць',
 );
 
 /** Bulgarian (Български)
