@@ -1585,9 +1585,11 @@ $2',
 
 /** Korean (한국어)
  * @author Ficell
+ * @author Kwj2772
  */
 $messages['ko'] = array(
 	'maintenance-password' => '비밀번호',
+	'maintenance-confirm' => '확인',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -2419,6 +2421,7 @@ $messages['pt'] = array(
 	'maintenance-invalidtype' => 'Tipo inválido!',
 	'maintenance-name' => 'Nome de utilizador',
 	'maintenance-password' => 'Palavra-chave',
+	'maintenance-bureaucrat' => 'Promover utilizador a estatuto de burocrata',
 	'maintenance-reason' => 'Motivo',
 	'maintenance-confirm' => 'Confirmar',
 	'maintenance-invalidname' => 'Nome de utilizador inválido!',
@@ -2429,6 +2432,7 @@ $messages['pt'] = array(
 	'maintenance-revdelete' => 'Eliminando {{PLURAL:$3|revisão|revisões}} $1 do wiki $2',
 	'maintenance-revnotfound' => 'Revisão $1 não encontrada!',
 	'maintenance-sql' => 'Use este formulário para executar um comando SQL na base de dados.',
+	'maintenance-sql-aff' => 'Linhas afetadas: $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|linha retornada|linhas retornadas}}:
 $2',
 	'maintenance-stats-edits' => 'Número de edições: $1',
@@ -2438,6 +2442,7 @@ $2',
 	'maintenance-stats-images' => 'Número de ficheiros: $1',
 	'maintenance-stats-views' => 'Número de visualizações de página: $1',
 	'maintenance-stats-update' => 'A atualizar base de dados...',
+	'maintenance-move' => 'A mover $1 para $2...',
 	'maintenance-error' => 'Erro: $1',
 	'maintenance-memc-requests' => 'Pedidos',
 	'maintenance-memc-withsession' => 'com sessão:',
@@ -2445,7 +2450,10 @@ $2',
 	'maintenance-memc-total' => 'total:',
 	'maintenance-memc-imagecache' => 'Cache de imagens',
 	'maintenance-memc-diffcache' => 'Cache de Diferenças',
+	'maintenance-re-rc' => 'Não atualizar a tabela de modificações recentes',
+	'maintenance-re-report' => 'Apresentar detalhes do que seria alterado, mas não o atualizar',
 	'maintenance-re-nf' => 'Utilizador $1 não encontrado',
+	'maintenance-re-rr' => 'Executar o script novamente sem "$1" para atualizar.',
 	'maintenance-re-ce' => 'Edições actuais: $1',
 	'maintenance-re-de' => 'Edições eliminadas: $1',
 	'maintenance-re-rce' => 'Entradas das Mudanças Recentes: $1',
