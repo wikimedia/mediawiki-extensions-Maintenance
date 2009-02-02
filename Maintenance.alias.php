@@ -44,6 +44,11 @@ $aliases['de'] = array(
 	'Maintenance' => array( 'Wartung' ),
 );
 
+/** Lower Sorbian (Dolnoserbski) */
+$aliases['dsb'] = array(
+	'Maintenance' => array( 'Wótwardowanje' ),
+);
+
 /** Basque (Euskara) */
 $aliases['eu'] = array(
 	'Maintenance' => array( 'Mantenimendua' ),
