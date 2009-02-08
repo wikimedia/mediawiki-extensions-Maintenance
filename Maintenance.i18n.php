@@ -943,7 +943,7 @@ As descricións están ao lado de cada escritura',
 	'maintenance-reassignEdits-desc' => 'Reasignar as edicións dun usuario a outro',
 	'maintenance-runJobs-desc' => 'Executar os traballos na cola de traballo',
 	'maintenance-showJobs-desc' => 'Amosar a listaxe dos traballos pendentes na cola de traballo',
-	'maintenance-sql-desc' => 'Executar unha pesquisa SQL',
+	'maintenance-sql-desc' => 'Executar unha pescuda SQL',
 	'maintenance-stats-desc' => 'Amosar as estatísticas da memoria caché',
 	'maintenance-changePassword' => 'Use este formulario para cambiar o contrasinal dun usuario',
 	'maintenance-createAndPromote' => 'Use este formulario para crear un novo usuario e promovelo ao status de administrador.
@@ -972,7 +972,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-deleted' => 'BORRADO',
 	'maintenance-revdelete' => 'Eliminando as revisións $1 do wiki $2',
 	'maintenance-revnotfound' => 'A revisión $1 non foi atopada!',
-	'maintenance-sql' => 'Use este formulario para executar unha pesquisa SQL na base de datos.',
+	'maintenance-sql' => 'Use este formulario para executar unha pescuda SQL na base de datos.',
 	'maintenance-sql-aff' => 'Ringleiras afectadas: $1',
 	'maintenance-sql-res' => '{{PLURAL:$1|Voltou unha ringleira|Voltaron $1 ringleiras}}:
 $2',
