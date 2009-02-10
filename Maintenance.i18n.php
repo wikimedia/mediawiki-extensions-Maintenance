@@ -329,7 +329,7 @@ $messages['arz'] = array(
 	'maintenance-createAndPromote-desc' => 'إنشاء يوزر وترقية لإدارى',
 	'maintenance-deleteBatch-desc' => 'حذف كمى للصفحات',
 	'maintenance-deleteRevision-desc' => 'إزالة المراجعات من قاعدة البيانات',
-	'maintenance-eval-desc' => 'في بيئة الميدياويكى PHP قيم كود',
+	'maintenance-eval-desc' => 'فى بيئة الميدياويكى PHP قيم كود',
 	'maintenance-initEditCount-desc' => 'إعادة حساب عدد التعديلات لليوزرز',
 	'maintenance-initStats-desc' => 'إعادة حساب إحصاءات الموقع',
 	'maintenance-moveBatch-desc' => 'نقل كمى للصفحات',
@@ -1900,6 +1900,13 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-re-nf' => 'De Benotzer $1 gouf net fonnt',
 	'maintenance-re-ce' => 'Aktuell Ännerungen: $1',
 	'maintenance-re-de' => 'Geläschten Ännerungen: $1',
+);
+
+/** Lingua Franca Nova (Lingua Franca Nova)
+ * @author Malafaya
+ */
+$messages['lfn'] = array(
+	'maintenance-stats-edits' => 'Numero de cambias: $1',
 );
 
 /** Eastern Mari (Олык Марий)
