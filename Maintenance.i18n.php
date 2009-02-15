@@ -263,7 +263,7 @@ $messages['ar'] = array(
 	'maintenance-titlenoexist' => 'العنوان المحدد ("$1") غير موجود!',
 	'maintenance-failed' => 'فشل',
 	'maintenance-deleted' => 'تم حذفه',
-	'maintenance-revdelete' => 'حذف المراجعات $1 من الويكي $2',
+	'maintenance-revdelete' => 'حذف {{PLURAL:$3|المراجعة|المراجعات}} $1 من الويكي $2',
 	'maintenance-revnotfound' => 'المراجعة $1 لم يتم العثور عليها!',
 	'maintenance-sql' => 'على قاعدة البيانات SQL استعمل هذا النموذج لتنفيذ استعلام',
 	'maintenance-sql-aff' => 'الصفوف المتأثرة: $1',
@@ -363,7 +363,7 @@ $messages['arz'] = array(
 	'maintenance-titlenoexist' => 'العنوان المحدد ("$1") غير موجود!',
 	'maintenance-failed' => 'فشل',
 	'maintenance-deleted' => 'تم حذفه',
-	'maintenance-revdelete' => 'حذف المراجعات $1 من الويكى $2',
+	'maintenance-revdelete' => 'حذف {{PLURAL:$3|المراجعه|المراجعات}} $1 من الويكى $2',
 	'maintenance-revnotfound' => 'المراجعة $1 لم يتم العثور عليها!',
 	'maintenance-sql' => 'على قاعدة البيانات SQL استعمل هذا النموذج لتنفيذ استعلام.',
 	'maintenance-sql-aff' => 'الصفوف المتأثرة: $1',
@@ -2371,6 +2371,13 @@ Avbryter flytting',
 	'maintenance-memc-updates' => 'Oppdateringer:',
 	'maintenance-memc-uncacheable' => 'Kan ikke mellomlagres:',
 	'maintenance-memc-diffcache' => 'Forskjellsmellomlager',
+);
+
+/** Novial (Novial)
+ * @author Malafaya
+ */
+$messages['nov'] = array(
+	'maintenance-reason' => 'Resone',
 );
 
 /** Occitan (Occitan)

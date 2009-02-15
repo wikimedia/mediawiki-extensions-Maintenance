@@ -84,6 +84,11 @@ $aliases['hsb'] = array(
 	'Maintenance' => array( 'Wothladowanje' ),
 );
 
+/** Interlingua (Interlingua) */
+$aliases['ia'] = array(
+	'Maintenance' => array( 'Mantenentia' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'Maintenance' => array( 'Pemeliharaan' ),
@@ -157,5 +162,10 @@ $aliases['sv'] = array(
 /** Swahili (Kiswahili) */
 $aliases['sw'] = array(
 	'Maintenance' => array( 'Matengenezo' ),
+);
+
+/** Tagalog (Tagalog) */
+$aliases['tl'] = array(
+	'Maintenance' => array( 'Pagpapanatili' ),
 );
 
