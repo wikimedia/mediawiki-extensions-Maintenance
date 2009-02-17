@@ -1387,6 +1387,7 @@ Premještanje prekinuto.',
 $messages['ia'] = array(
 	'maintenance' => 'Executar scripts de mantenentia',
 	'maintenance-desc' => '[[Special:Maintenance|Interfacie web]] pro diverse scripts de mantenentia',
+	'right-maintenance' => 'Executar scripts de mantenentia per [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Retornar al selection de script',
 	'maintenance-header' => 'Per favor selige in basso un script pro executar.
 Le descriptones se trova al latere de cata script.',
