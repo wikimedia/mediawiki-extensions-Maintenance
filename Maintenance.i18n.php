@@ -487,24 +487,32 @@ $2',
 $messages['bs'] = array(
 	'maintenance' => 'Pokretanje skripti za održavanje',
 	'maintenance-desc' => '[[Special:Maintenance|Web interfejs]] za razne skripte održavanja',
+	'right-maintenance' => 'Pokretanje skripti održavanja preko [[Special:Maintenance]]',
+	'maintenance-backlink' => 'Nazad na odabir skripte',
 	'maintenance-changePassword-desc' => 'Promjena korisničke šifre',
+	'maintenance-createAndPromote-desc' => 'Napravi korisnika i unaprijedi ga u status administratora',
 	'maintenance-deleteBatch-desc' => 'Masovno brisanje stranica',
 	'maintenance-deleteRevision-desc' => 'Ukloni revizije iz baze podataka',
 	'maintenance-initEditCount-desc' => 'Ponovno preračunaj broj izmjena korisnika',
 	'maintenance-initStats-desc' => 'Ponovno izračunavanje statistike sajta',
 	'maintenance-moveBatch-desc' => 'Masovno premještanje stranica',
 	'maintenance-runJobs-desc' => 'Pokreni poslove koji čekaju u redu',
+	'maintenance-showJobs-desc' => 'Pokaži spisak poslova koji čekaju na izvršenje',
 	'maintenance-sql-desc' => 'Izvrši SQL zahtjev',
 	'maintenance-changePassword' => 'Koristi ovaj obrazac za promjenu šifre korisnika',
+	'maintenance-invalidtype' => 'Nevaljan tip!',
 	'maintenance-name' => 'Korisničko ime',
 	'maintenance-password' => 'Šifra',
 	'maintenance-bureaucrat' => 'Unaprijedi korisnika u birokratu',
 	'maintenance-reason' => 'Razlog',
 	'maintenance-update' => 'Koristite UPDATE kada ažurirate tabelu? Umjesto toga ukloni upotrebu DELETE/INSERT.',
+	'maintenance-noviews' => 'Odaberite ovo za prevenciju ažuriranja broja pogleda na stranicu',
 	'maintenance-confirm' => 'Potvrdi',
 	'maintenance-invalidname' => 'Nevaljano korisničko ime!',
 	'maintenance-userexists' => 'Korisnik već postoji!',
 	'maintenance-invalidtitle' => 'Nevaljan naslov "$1"!',
+	'maintenance-failed' => 'NEUSPJELO',
+	'maintenance-deleted' => 'OBRISANO',
 	'maintenance-revdelete' => 'Brisanje revizija $1 iz wikija $2',
 	'maintenance-revnotfound' => 'Revizija $1 nije pronađena!',
 	'maintenance-stats-edits' => 'Broj uređivanja: $1',
@@ -3083,6 +3091,13 @@ Itinitigil ang paglilipat',
  */
 $messages['tr'] = array(
 	'maintenance-reason' => 'Neden',
+);
+
+/** ئۇيغۇرچە (ئۇيغۇرچە)
+ * @author Alfredie
+ */
+$messages['ug-arab'] = array(
+	'maintenance-name' => 'ئىشلەتكۇچى ئىسمى',
 );
 
 /** Vietnamese (Tiếng Việt)
