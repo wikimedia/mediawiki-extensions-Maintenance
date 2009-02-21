@@ -666,6 +666,86 @@ Jede Zeile sollte eine Quellseite und eine Zielseite angeben, durch einen Senkre
 	'maintenance-memc-fake' => 'Sie verwenden FakeMemCachedClient. Es sind keine Statistiken verfügbar',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'maintenance' => 'Wótwardowańske skripty wuwjasć',
+	'maintenance-desc' => '[[Special:Maintenance|Wikijowy interfejs]] za wšake wótwardowańske skripty',
+	'right-maintenance' => 'Wótwardowańske skripty pśez [[Special:Maintenance]] wuwjasć',
+	'maintenance-backlink' => 'Slědk k wuběrkoju skriptow',
+	'maintenance-header' => 'Pšosym wubjeŕ skript za wuwjaźenje.
+Wopisanja su pódla wótpowědnego skripta.',
+	'maintenance-changePassword-desc' => 'Gronidło wužywarja změniś',
+	'maintenance-createAndPromote-desc' => 'Wužywarske konto napóraś a status administratora daś',
+	'maintenance-deleteBatch-desc' => 'Boki z kopicami wulašowaś',
+	'maintenance-deleteRevision-desc' => 'Wersije z datoweje banki wótpóraś',
+	'maintenance-eval-desc' => 'PHP-kod we wokolinje MediaWiki wugódnośiś',
+	'maintenance-initEditCount-desc' => 'Licenja změnow wužywarjow hyšći raz woblicyś',
+	'maintenance-initStats-desc' => 'Statistika sedłow hyšći raz woblicyś',
+	'maintenance-moveBatch-desc' => 'Boki z kopicami pśesunuś',
+	'maintenance-reassignEdits-desc' => 'Změny jadnego wužywarja k drugemu znowego pśipokazaś',
+	'maintenance-sql-desc' => 'SQL_wótpšašanje wuwjasć',
+	'maintenance-stats-desc' => 'Statistiku Memcached pokazaś',
+	'maintenance-changePassword' => 'Wužyj toś ten formular, aby změnił gronidło wužywarja',
+	'maintenance-invalidtype' => 'Njepłaśiwy typ!',
+	'maintenance-name' => 'Wužywarske mě',
+	'maintenance-password' => 'Gronidło',
+	'maintenance-bureaucrat' => 'Do statusa běrokrata pózwignuś',
+	'maintenance-reason' => 'Pśicyna',
+	'maintenance-confirm' => 'Wobkšuśiś',
+	'maintenance-invalidname' => 'Njepłaśiwe wužywarske mě!',
+	'maintenance-success' => '$1 wuspěšnje wuwjeźony!',
+	'maintenance-userexists' => 'Wužywaŕ južo eksistěrujo!',
+	'maintenance-invalidtitle' => 'Njepłaśiwy titel "$1"!',
+	'maintenance-titlenoexist' => 'Pódany titel ("$1") njeeksistěrujo!',
+	'maintenance-failed' => 'NJERAŹIŁO SE',
+	'maintenance-deleted' => 'WULAŠOWANY',
+	'maintenance-revdelete' => '{{PLURAL:$3|Lašujo se wersija|Lašujotej se wersiji|Lašuju se wersije|Lašuju se wersije}} $1 z wikija $2',
+	'maintenance-revnotfound' => 'Wersija $1 njenamakana!',
+	'maintenance-sql' => 'Wužyj toś ten formular, aby wuwjadł SQL-wótpšašanje w datowej bance.',
+	'maintenance-sql-aff' => 'Pótrjefjone smužki: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|smužka wrośona|smužce wrośenej|smužki wrośone|smužkow wrośone}}:
+$2',
+	'maintenance-stats-edits' => 'Licba změnow: $1',
+	'maintenance-stats-articles' => 'Licba bokow w głownem mjenjowem rumje: $1',
+	'maintenance-stats-pages' => 'Licba bokow: $1',
+	'maintenance-stats-users' => 'Licba wužywarjow: $1',
+	'maintenance-stats-admins' => 'Licba administratorow: $1',
+	'maintenance-stats-images' => 'Licba datajow: $1',
+	'maintenance-stats-views' => 'Licba zwobraznjenjow bokow: $1',
+	'maintenance-stats-update' => 'Datowa banka se aktualizěrujo...',
+	'maintenance-move' => '$1 do $2 se pśesuwa...',
+	'maintenance-movefail' => 'Zmólka pśi pśesuwanju: $1.
+Pśesunjenje pśetergnjone',
+	'maintenance-error' => 'Zmólka: $1',
+	'maintenance-memc-fake' => 'Wuwjedujoš FakeMemCacheClient. Žedna statistika k dispoziciji.',
+	'maintenance-memc-requests' => 'Napšašowanja',
+	'maintenance-memc-withsession' => 'z pósejźenim:',
+	'maintenance-memc-withoutsession' => 'bźez pósejźenja:',
+	'maintenance-memc-total' => 'dogromady:',
+	'maintenance-memc-parsercache' => 'Parserowy cache',
+	'maintenance-memc-hits' => 'trjefarje:',
+	'maintenance-memc-invalid' => 'njepłaśiwy:',
+	'maintenance-memc-expired' => 'pśepadnjony:',
+	'maintenance-memc-absent' => 'njepśibytny:',
+	'maintenance-memc-stub' => 'zarodkowy prog:',
+	'maintenance-memc-imagecache' => 'Cache wobrazow',
+	'maintenance-memc-misses' => 'zmólenja:',
+	'maintenance-memc-updates' => 'aktualizacije:',
+	'maintenance-memc-uncacheable' => 'cache njedajo se wužywaś',
+	'maintenance-memc-diffcache' => 'Cache rozdźělow',
+	'maintenance-eval' => 'Wužyj toś ten formular, aby wugódnośił PHP-kod we wokolinje MediaWiki.',
+	'maintenance-reassignEdits' => 'Wužyj toś ten formular, aby znowego pśipokazał změny wót jadnego wužywarja k drugemu wužywarjeju.',
+	'maintenance-re-rc' => 'Tabelu aktualnych změnow njeaktualizěrowaś',
+	'maintenance-re-nf' => 'Wužywaŕ $1 njenamakany',
+	'maintenance-re-rr' => 'Skript za aktualizaciju znowego bźez "$1" wuwjasć',
+	'maintenance-re-ce' => 'Aktualne změny: $1',
+	'maintenance-re-de' => 'Wulašowane změny: $1',
+	'maintenance-re-rce' => 'Zapiski w aktualnych změnach: $1',
+	'maintenance-re-total' => 'Wšykne zapiski, kótarež maju se změniś: $1',
+);
+
 /** Greek (Ελληνικά)
  * @author Consta
  */
@@ -1003,7 +1083,7 @@ As descricións están ao lado de cada escritura',
 	'maintenance-moveBatch-desc' => 'Mover páxinas masivamente',
 	'maintenance-reassignEdits-desc' => 'Reasignar as edicións dun usuario a outro',
 	'maintenance-runJobs-desc' => 'Executar os traballos na cola de traballo',
-	'maintenance-showJobs-desc' => 'Amosar a listaxe dos traballos pendentes na cola de traballo',
+	'maintenance-showJobs-desc' => 'Amosar a lista dos traballos pendentes na cola de traballo',
 	'maintenance-sql-desc' => 'Executar unha pescuda SQL',
 	'maintenance-stats-desc' => 'Amosar as estatísticas da memoria caché',
 	'maintenance-changePassword' => 'Use este formulario para cambiar o contrasinal dun usuario',
@@ -2510,6 +2590,7 @@ $messages['pdt'] = array(
 $messages['pl'] = array(
 	'maintenance' => 'Uruchom skrypty konserwacyjne',
 	'maintenance-desc' => '[[Special:Maintenance|Interfejs]] dla różnych skryptów konserwacyjnych',
+	'right-maintenance' => 'Uruchamianie skryptów konserwacyjnych z wykorzystaniem [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Wróć do wyboru skryptu',
 	'maintenance-header' => 'Wybierz skrypt, który chcesz uruchomić.
 Przy nazwach skryptów znajdują się ich opisy.',
@@ -3098,6 +3179,13 @@ $messages['tr'] = array(
  */
 $messages['ug-arab'] = array(
 	'maintenance-name' => 'ئىشلەتكۇچى ئىسمى',
+);
+
+/** Uighur (Latin) (Uyghurche‎ / ئۇيغۇرچە (Latin))
+ * @author Jose77
+ */
+$messages['ug-latn'] = array(
+	'maintenance-name' => 'Ishletkuchi ismi',
 );
 
 /** Vietnamese (Tiếng Việt)
