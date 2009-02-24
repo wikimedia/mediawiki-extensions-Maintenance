@@ -3284,10 +3284,14 @@ Itinitigil ang paglilipat',
 );
 
 /** Turkish (Türkçe)
+ * @author Karduelis
  * @author Suelnur
  */
 $messages['tr'] = array(
+	'maintenance-password' => 'Parola',
 	'maintenance-reason' => 'Neden',
+	'maintenance-deleted' => 'Silindi',
+	'maintenance-error' => 'Hata: $1',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
