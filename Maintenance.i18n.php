@@ -1129,7 +1129,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-titlenoexist' => 'O título especificado ("$1") non existe!',
 	'maintenance-failed' => 'FALLIDO',
 	'maintenance-deleted' => 'BORRADO',
-	'maintenance-revdelete' => 'Eliminando as revisións $1 do wiki $2',
+	'maintenance-revdelete' => 'Borrando {{PLURAL:$3|a revisión|as revisións}} $1 de $2',
 	'maintenance-revnotfound' => 'A revisión $1 non foi atopada!',
 	'maintenance-sql' => 'Use este formulario para executar unha pescuda SQL na base de datos.',
 	'maintenance-sql-aff' => 'Ringleiras afectadas: $1',
