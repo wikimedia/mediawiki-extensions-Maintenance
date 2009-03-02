@@ -1633,7 +1633,7 @@ Cata linea debe specificar un pagina de origine e un pagina de destination separ
 	'maintenance-titlenoexist' => 'Le titulo specificate ("$1") non existe!',
 	'maintenance-failed' => 'FALTA',
 	'maintenance-deleted' => 'DELITE',
-	'maintenance-revdelete' => 'Deletion del versiones $1 del wiki $2',
+	'maintenance-revdelete' => 'Deletion del {{PLURAL:$3|version|versiones}} $1 del wiki $2',
 	'maintenance-revnotfound' => 'Version $1 non trovate!',
 	'maintenance-sql' => 'Usa iste formularo pro executar un consulta SQL del le base de datos.',
 	'maintenance-sql-aff' => 'Lineas afficite: $1',
