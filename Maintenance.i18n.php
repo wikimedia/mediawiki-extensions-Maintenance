@@ -421,6 +421,7 @@ $messages['be-tarask'] = array(
 	'maintenance-password' => 'Пароль',
 	'maintenance-reason' => 'Прычына',
 	'maintenance-confirm' => 'Пацьвердзіць',
+	'maintenance-memc-total' => 'усяго:',
 );
 
 /** Bulgarian (Български)
@@ -959,6 +960,7 @@ Keskeytetään siirto',
  * @author Crochet.david
  * @author Grondin
  * @author IAlex
+ * @author PieRRoMaN
  * @author Verdy p
  * @author Zetud
  */
@@ -1007,7 +1009,7 @@ Chaque ligne devra indiquer la page d’origine et celle de destination, lesquel
 	'maintenance-titlenoexist' => 'Le titre indiqué (« $1 ») n’existe pas !',
 	'maintenance-failed' => 'ÉCHEC',
 	'maintenance-deleted' => 'SUPPRIMÉ',
-	'maintenance-revdelete' => 'Suppression des versions $1 du wiki $2',
+	'maintenance-revdelete' => 'Suppression {{PLURAL:$3|de la révision|des révisions}} $1 du wiki $2',
 	'maintenance-revnotfound' => 'Version $1 introuvable !',
 	'maintenance-sql' => 'Utilisez cette forme pour exécuter une requête SQL sur la base de données.',
 	'maintenance-sql-aff' => 'Lignes affectées : $1',
