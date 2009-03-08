@@ -3077,6 +3077,7 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author M.M.S.
+ * @author Sannab
  */
 $messages['sv'] = array(
 	'maintenance' => 'Kör underhållsskripter',
@@ -3119,7 +3120,7 @@ Varje rad specifierar den nuvarande sidan och destinationssidan separerade med e
 	'maintenance-titlenoexist' => 'Titeln som specifierades ("$1") finns inte!',
 	'maintenance-failed' => 'MISSLYCKAD',
 	'maintenance-deleted' => 'RADERAD',
-	'maintenance-revdelete' => 'Raderar versioner $1 från wiki $2',
+	'maintenance-revdelete' => 'Raderar {{PLURAL:$3|versionen|versionerna}} $1 från wiki $2',
 	'maintenance-revnotfound' => 'Versionen $1 hittades inte!',
 	'maintenance-stats-edits' => 'Antal redigeringar: $1',
 	'maintenance-stats-articles' => 'Antal sidor i huvudnamnrymden: $1',
