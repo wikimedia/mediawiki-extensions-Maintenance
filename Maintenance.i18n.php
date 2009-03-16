@@ -2690,6 +2690,7 @@ Arrèst del desplaçament.',
  */
 $messages['os'] = array(
 	'maintenance-reason' => 'Аххос',
+	'maintenance-deleted' => 'АППÆРСТ',
 );
 
 /** Plautdietsch (Plautdietsch)
