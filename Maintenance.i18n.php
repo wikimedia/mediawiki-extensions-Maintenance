@@ -1702,6 +1702,7 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author BrokenArrow
  * @author Darth Kule
  * @author Gianfranco
  * @author Pietrodn
@@ -1709,9 +1710,10 @@ $messages['is'] = array(
 $messages['it'] = array(
 	'maintenance' => 'Esegui script di manutenzione',
 	'maintenance-desc' => '[[Special:Maintenance|Interfaccia Wiki]] per alcuni script di manutenzione',
+	'right-maintenance' => 'Esegui gli script di manutenzione mediante la pagina [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Torna alla selezione degli script',
 	'maintenance-header' => 'Scegli uno script da eseguire.
-Le descrizioni sono a fianco ad ogni script',
+Le descrizioni sono riportate a fianco di ciascuno script',
 	'maintenance-changePassword-desc' => 'Cambia una password utente',
 	'maintenance-createAndPromote-desc' => 'Crea un utente e promuovilo amministratore (sysop)',
 	'maintenance-deleteBatch-desc' => 'Cancella pagine in blocco',
@@ -1737,9 +1739,11 @@ Indica solo un numero di revisione per riga',
 Ogni riga deve indicare una pagina di origine ed una di destinazione, separate da un pipe (|)',
 	'maintenance-invalidtype' => 'Tipo non valido',
 	'maintenance-name' => 'Nome utente',
+	'maintenance-password' => 'Password',
 	'maintenance-bureaucrat' => 'Promuovi utente a burocrate',
 	'maintenance-reason' => 'Motivo',
-	'maintenance-noviews' => "Spunta questo per evitare l'aggiornamento del numero di visualizzazioni pagine",
+	'maintenance-update' => "Usare l'istruzione UPDATE per l'aggiornamento delle tabelle? Se non selezionato, usa DELETE/INSERT.",
+	'maintenance-noviews' => "Spuntare la casella per evitare l'aggiornamento del numero di visualizzazioni pagine",
 	'maintenance-confirm' => 'Conferma',
 	'maintenance-invalidname' => 'Nome utente non valido!',
 	'maintenance-success' => '$1 eseguito con successo!',
@@ -1772,6 +1776,7 @@ Spostamento annullato',
 	'maintenance-memc-withoutsession' => 'senza sessione:',
 	'maintenance-memc-total' => 'totale:',
 	'maintenance-memc-parsercache' => 'Cache del parser',
+	'maintenance-memc-hits' => 'corrispondenze:',
 	'maintenance-memc-invalid' => 'non valido:',
 	'maintenance-memc-expired' => 'terminata:',
 	'maintenance-memc-absent' => 'assente:',
@@ -1779,6 +1784,8 @@ Spostamento annullato',
 	'maintenance-memc-imagecache' => 'Cache immagini',
 	'maintenance-memc-misses' => 'manca:',
 	'maintenance-memc-updates' => 'aggiornamenti:',
+	'maintenance-memc-uncacheable' => 'non inseribili in cache:',
+	'maintenance-memc-diffcache' => 'Cache per le diff',
 	'maintenance-eval' => 'Usa questo modulo per sperimentare codice PHP in ambiente MediaWiki.',
 	'maintenance-reassignEdits' => 'Usa questo modulo per riassegnare edit da un utente ad un altro utente.',
 	'maintenance-re-from' => "Nome dell'utente i cui edit devono essere riassegnati",
@@ -1790,6 +1797,8 @@ Spostamento annullato',
 	'maintenance-re-rr' => 'Esegui di nuovo lo script senza "$1" per aggiornare.',
 	'maintenance-re-ce' => 'Edit attuali: $1',
 	'maintenance-re-de' => 'Edit cancellati: $1',
+	'maintenance-re-rce' => 'Voci in RecentChanges: $1',
+	'maintenance-re-total' => 'Totale voci da modificare: $1',
 	'maintenance-re-re' => 'Riassegnazione edit... eseguita',
 );
 
