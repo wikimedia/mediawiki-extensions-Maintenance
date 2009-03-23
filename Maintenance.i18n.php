@@ -418,23 +418,39 @@ $2',
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'maintenance' => 'Запуск скрыптоў абслугоўваньня',
-	'maintenance-desc' => '[[Special:Maintenance|Вікі інтэрфэйс]] для розных скрыптоў абслугоўваньня',
-	'right-maintenance' => 'Запуск скрыптоў абслугоўваньня праз [[Special:Maintenance]]',
+	'maintenance' => 'Запуск скрыптоў падтрымкі',
+	'maintenance-desc' => '[[Special:Maintenance|Вікі-інтэрфэйс]] для розных скрыптоў падтрымкі',
+	'right-maintenance' => 'запуск скрыптоў падтрымкі праз [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Вярнуцца ў выбар скрыптоў',
-	'maintenance-header' => 'Калі ласка, выбярыце скрыпт для запуску.
+	'maintenance-header' => 'Калі ласка, выберыце скрыпт для запуску.
 Апісаньне знаходзіцца каля кожнага скрыпта',
 	'maintenance-changePassword-desc' => 'Зьмяніць пароль удзельніка',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
 	'maintenance-deleteBatch-desc' => 'Масавае выдаленьне старонак',
 	'maintenance-deleteRevision-desc' => 'Выдаліць вэрсіі старонак з базы зьвестак',
-	'maintenance-eval-desc' => 'Вызначыць РНР код у асяродзьдзі MediaWiki',
-	'maintenance-initEditCount-desc' => 'Пералічыць колькасьць рэдагаваньняў удзельніка',
+	'maintenance-eval-desc' => 'Праверыць РНР код у асяродзьдзі MediaWiki',
+	'maintenance-initEditCount-desc' => 'Пералічыць колькасьць рэдагаваньняў удзельнікаў',
 	'maintenance-initStats-desc' => 'Пералічыць статыстыку сайта',
 	'maintenance-moveBatch-desc' => 'Масавы перанос старонак',
-	'maintenance-reassignEdits-desc' => 'Пераназначыць рэдагаваньні ад аднаго ўдезльніка да іншага',
+	'maintenance-reassignEdits-desc' => 'Пераназначыць рэдагаваньні ад аднаго ўдзельніка да іншага',
+	'maintenance-runJobs-desc' => 'Выканаць заданьні з чаргі заданьняў',
+	'maintenance-showJobs-desc' => 'Паказаць сьпіс заданьняў з чаргі заданьняў',
+	'maintenance-sql-desc' => 'Выканаць SQL-запыт',
+	'maintenance-stats-desc' => 'Паказаць статыстыку Memcached',
+	'maintenance-changePassword' => 'Выкарыстоўвайце гэтую форму для зьмены паролю ўдзельніка',
+	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
+Пазначце поле ніжэй, каб зрабіць яго бюракратам',
+	'maintenance-deleteBatch' => 'Выкарыстоўвайце гэтую форму для масавага выдаленьня старонак.
+Пастаўце толькі адну назву старонкі ў кожны радок',
+	'maintenance-deleteRevision' => 'Выкарыстоўвайце гэтую форму для масавага выдаленьня вэрсіяў старонак.
+Пастаўце толькі адну вэрсію ў кожны радок',
+	'maintenance-initStats' => 'Выкарыстоўвайце гэтую форму для перападліку статыстыкі сайта. Пазначце, калі Вы таксама жадаеце перападлічыць прагляд старонак',
+	'maintenance-moveBatch' => 'Выкарыстоўвайце гэтую форму для масавага пераносу старонак.
+У кожным радку павінна быць крынічная старонка і мэтавая старонка, падзеленыя сымбалем «|»',
+	'maintenance-invalidtype' => 'Няслушны тып!',
 	'maintenance-name' => 'Імя ўдзельніка',
 	'maintenance-password' => 'Пароль',
+	'maintenance-bureaucrat' => 'Надаць удзельніку статус бюракрата',
 	'maintenance-reason' => 'Прычына',
 	'maintenance-confirm' => 'Пацьвердзіць',
 	'maintenance-memc-total' => 'усяго:',
