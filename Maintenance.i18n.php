@@ -452,8 +452,42 @@ $messages['be-tarask'] = array(
 	'maintenance-password' => 'Пароль',
 	'maintenance-bureaucrat' => 'Надаць удзельніку статус бюракрата',
 	'maintenance-reason' => 'Прычына',
+	'maintenance-update' => 'Выкарыстоўвайце UPDATE для абнаўленьня табліцы? Паспрабуйце выкарыстоўваць замест гэтага DELETE/INSERT.',
+	'maintenance-noviews' => 'Пазначце гэта, каб не абнаўляць колькасьць праглядаў старонак',
 	'maintenance-confirm' => 'Пацьвердзіць',
+	'maintenance-invalidname' => 'Няслушнае імя ўдзельніка!',
+	'maintenance-success' => '$1 пасьпяхова запушчаны!',
+	'maintenance-userexists' => 'Удзельнік ужо існуе!',
+	'maintenance-invalidtitle' => 'Няслушная назва «$1»!',
+	'maintenance-titlenoexist' => 'Пазначаная назва («$1») не існуе!',
+	'maintenance-failed' => 'НЕ АТРЫМАЛАСЯ',
+	'maintenance-deleted' => 'ВЫДАЛЕНА',
+	'maintenance-revdelete' => 'Выдаленьне {{PLURAL:$3|вэрсіі|вэрсіяў}} $1 з вікі $2',
+	'maintenance-revnotfound' => 'Вэрсія $1 ня знойдзена!',
+	'maintenance-sql' => 'Выкарыстоўвайце гэтую форму для выкананьня SQL-запыту ў базе зьвестак.',
+	'maintenance-stats-edits' => 'Колькасьць рэдагаваньняў: $1',
+	'maintenance-stats-articles' => 'Колькасьць старонак у асноўнай прасторы назваў: $1',
+	'maintenance-stats-pages' => 'Колькасьць старонак: $1',
+	'maintenance-stats-users' => 'Колькасьць удзельнікаў: $1',
+	'maintenance-stats-admins' => 'Колькасьць адміністратараў: $1',
+	'maintenance-stats-images' => 'Колькасьць файлаў: $1',
+	'maintenance-stats-views' => 'Колькасьць праглядаў старонак: $1',
+	'maintenance-stats-update' => 'Абнаўленьня базы зьвестак...',
+	'maintenance-move' => 'Перанос $1 у $2...',
+	'maintenance-movefail' => 'Узьнікла памылка пад час пераносу: $1.
+Перанос адменены',
+	'maintenance-error' => 'Памылка: $1',
+	'maintenance-memc-fake' => 'Вы запусьцілі FakeMemCachedClient. Немагчыма атрымаць ніякай статыстыкі',
+	'maintenance-memc-requests' => 'Запыты',
+	'maintenance-memc-withsession' => 'з сэансам:',
+	'maintenance-memc-withoutsession' => 'без сэансу:',
 	'maintenance-memc-total' => 'усяго:',
+	'maintenance-memc-parsercache' => 'Кэш парсэра',
+	'maintenance-memc-hits' => 'трапіла:',
+	'maintenance-memc-invalid' => 'няслушных:',
+	'maintenance-memc-expired' => 'састарэўшых:',
+	'maintenance-memc-absent' => 'адсутнічае:',
+	'maintenance-memc-imagecache' => 'Кэш выяваў',
 );
 
 /** Bulgarian (Български)
@@ -553,6 +587,7 @@ Stavite samo jedan broj revizije u jedan red',
 	'maintenance-deleted' => 'OBRISANO',
 	'maintenance-revdelete' => 'Brisanje revizija $1 iz wikija $2',
 	'maintenance-revnotfound' => 'Revizija $1 nije pronađena!',
+	'maintenance-sql' => 'Koristite ovaj obrazac za izvršavanje SQL upita u bazi podataka.',
 	'maintenance-stats-edits' => 'Broj uređivanja: $1',
 	'maintenance-stats-pages' => 'Broj stranica: $1',
 	'maintenance-stats-users' => 'Broj korisnika: $1',
@@ -572,6 +607,7 @@ Stavite samo jedan broj revizije u jedan red',
 	'maintenance-memc-expired' => 'isteklo:',
 	'maintenance-memc-absent' => 'otsutno:',
 	'maintenance-memc-updates' => 'ažuriranja:',
+	'maintenance-re-nf' => '{{GENDER:$1|Korisnik|Korisnica}} $1 nije {{GENDER:$1|pronađen|pronađena}}',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -3590,5 +3626,12 @@ Topätükam pestöpädon.',
 	'maintenance-re-nf' => 'Geban: $1 no petuvon',
 	'maintenance-re-de' => 'Redakams pemoüköl: $1',
 	'maintenance-re-re' => 'Redakams padönugivülons... peledunon.',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'maintenance-confirm' => 'באַשטעטיגן',
 );
 
