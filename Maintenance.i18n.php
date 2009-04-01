@@ -864,11 +864,14 @@ Pśesunjenje pśetergnjone',
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Crazymadlover
  */
 $messages['el'] = array(
 	'maintenance-name' => 'Όνομα χρήστη',
 	'maintenance-password' => 'Κωδικός',
 	'maintenance-reason' => 'Λόγος',
+	'maintenance-confirm' => 'Επιβεβαίωση',
+	'maintenance-deleted' => 'ΔΙΑΓΡΑΜΜΈΝΟΣ',
 	'maintenance-memc-updates' => 'αναβαθμίσεις:',
 );
 
@@ -2020,7 +2023,7 @@ $messages['km'] = array(
 	'maintenance-invalidtitle' => 'ចំណងជើង​មិនត្រឹមត្រូវ "$1"!',
 	'maintenance-failed' => 'បាន​បរាជ័យ',
 	'maintenance-deleted' => 'បាន​លុប',
-	'maintenance-revdelete' => 'លុប​ការពិនិត្យឡើងវិញ $1 ពី​វិគី $2',
+	'maintenance-revdelete' => 'លុប {{PLURAL:$3|ការពិនិត្យឡើងវិញ|ការពិនិត្យឡើងវិញ}} $1 ពី​វិគី $2',
 	'maintenance-revnotfound' => 'រក​មិនឃើញ​ការពិនិត្យឡើងវិញ $1 ទេ​!',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|ជួរ|ជួរ}} បាន​ត្រឡប់:
 $2',
@@ -3514,6 +3517,24 @@ $messages['ug-arab'] = array(
  */
 $messages['ug-latn'] = array(
 	'maintenance-name' => 'Ishletkuchi ismi',
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'maintenance-invalidtype' => 'Vär tip!',
+	'maintenance-name' => 'Kävutajan nimi',
+	'maintenance-password' => 'Peitsana',
+	'maintenance-bureaucrat' => 'Panda kävutai bürokrataks',
+	'maintenance-reason' => 'Sü',
+	'maintenance-deleted' => 'ČUTUD POIŠ',
+	'maintenance-memc-total' => 'kaiked:',
+	'maintenance-memc-parsercache' => 'Parseran keš',
+	'maintenance-memc-hits' => 'kacundoid:',
+	'maintenance-memc-invalid' => 'värid:',
+	'maintenance-memc-expired' => 'männuden lopstrokanke:',
+	'maintenance-memc-absent' => 'ei ole:',
 );
 
 /** Vietnamese (Tiếng Việt)
