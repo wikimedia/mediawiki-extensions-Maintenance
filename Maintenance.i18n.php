@@ -865,13 +865,14 @@ Pśesunjenje pśetergnjone',
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author Omnipaedista
  */
 $messages['el'] = array(
 	'maintenance-name' => 'Όνομα χρήστη',
 	'maintenance-password' => 'Κωδικός',
 	'maintenance-reason' => 'Λόγος',
 	'maintenance-confirm' => 'Επιβεβαίωση',
-	'maintenance-deleted' => 'ΔΙΑΓΡΑΜΜΈΝΟΣ',
+	'maintenance-deleted' => 'ΔΙΑΓΡΑΜΜΕΝΟΣ',
 	'maintenance-memc-updates' => 'αναβαθμίσεις:',
 );
 
@@ -2389,11 +2390,19 @@ $messages['mt'] = array(
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
+	'maintenance-name' => 'Теицянь лем',
 	'maintenance-password' => 'Совамо вал',
 	'maintenance-reason' => 'Тувтал',
 	'maintenance-confirm' => 'Кемекстамс',
+	'maintenance-failed' => 'ЭЗЬ ЛИСЕ',
+	'maintenance-deleted' => 'НАРДАЗЬ',
 	'maintenance-stats-edits' => 'Зяроксть витнезь-петнезь: $1',
+	'maintenance-stats-pages' => 'Зяро лопатнеде: $1',
+	'maintenance-stats-admins' => 'Зяро админтнэде: $1',
+	'maintenance-stats-images' => 'Зяро файлатнеде: $1',
+	'maintenance-memc-requests' => 'Вешемат',
 	'maintenance-memc-total' => 'весемезэ:',
+	'maintenance-memc-absent' => 'арась:',
 );
 
 /** Nahuatl (Nāhuatl)
