@@ -933,6 +933,13 @@ $messages['es'] = array(
 	'maintenance-initStats-desc' => 'Recalcular estadísticas del sitio',
 	'maintenance-moveBatch-desc' => 'Movilización masiva de páginas',
 	'maintenance-reassignEdits-desc' => 'Reasignar ediciones de un usuario a otro',
+	'maintenance-createAndPromote' => 'Usar este formulario para crear un nuevo usuario y promoverlo para administrador.
+Verificar la tabla de burócrata si deseas promoverlo a burócrata también',
+	'maintenance-deleteBatch' => 'Usar este formulario para borrado masivo de páginas.
+Coloque solamente una página por línea',
+	'maintenance-deleteRevision' => 'Usar este formulario para borrado masivo de revisiones.
+Coloque solamente un número de revisión por línea',
+	'maintenance-initStats' => 'Usar este formulario para recalcular estadísticas del sitio, especificando si deseas recalcular vistas de página también',
 	'maintenance-invalidtype' => 'Tipo inválido!',
 	'maintenance-name' => 'Nombre de usuario',
 	'maintenance-password' => 'Contraseña',
@@ -940,6 +947,7 @@ $messages['es'] = array(
 	'maintenance-reason' => 'Motivo',
 	'maintenance-confirm' => 'Confirmar',
 	'maintenance-invalidname' => 'Nombre de usuario inválido!',
+	'maintenance-success' => '$1 se ejecutó con éxito!',
 	'maintenance-userexists' => 'Usuario ya existe!',
 	'maintenance-invalidtitle' => 'Título inválido "$1"!',
 	'maintenance-titlenoexist' => 'Título especificado ("$1") no existe!',
@@ -947,23 +955,31 @@ $messages['es'] = array(
 	'maintenance-deleted' => 'BORRADO',
 	'maintenance-revdelete' => 'Borrando {{PLURAL:$3|revisión|revisiones}} $1 del wiki $2',
 	'maintenance-revnotfound' => 'Revisión $1 no encontrada!',
+	'maintenance-sql-aff' => 'Filas afectadas: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|fila|filas}} retornadas:
+$2',
 	'maintenance-stats-edits' => 'Número de ediciones: $1',
 	'maintenance-stats-pages' => 'Número de páginas: $1',
 	'maintenance-stats-users' => 'Número de usuarios: $1',
 	'maintenance-stats-admins' => 'Número de administradores: $1',
 	'maintenance-stats-images' => 'Número de archivos: $1',
 	'maintenance-stats-views' => 'Número de vistas de página: $1',
-	'maintenance-stats-update' => 'Actualizando base de datos{{int:ellipsis}}',
-	'maintenance-move' => 'Moviendo $1 a $2{{int:ellipsis}}',
+	'maintenance-stats-update' => 'Actualizando base de datos...',
+	'maintenance-move' => 'Moviendo $1 a $2...',
 	'maintenance-error' => 'Error: $1',
+	'maintenance-memc-fake' => 'Estás ejecutando FakeMemCachedClient. Estadísticas no pueden ser proveídas',
 	'maintenance-memc-requests' => 'Solicitudes',
 	'maintenance-memc-withsession' => 'Con sesión:',
 	'maintenance-memc-withoutsession' => 'sin sesión:',
 	'maintenance-memc-total' => 'total:',
+	'maintenance-memc-parsercache' => 'Cache de analizador',
 	'maintenance-memc-invalid' => 'inválido:',
 	'maintenance-memc-expired' => 'expirado:',
 	'maintenance-memc-absent' => 'ausente:',
+	'maintenance-memc-imagecache' => 'Cache de imagen',
 	'maintenance-memc-updates' => 'actualizaciones:',
+	'maintenance-reassignEdits' => 'Usar este formulario para reasignar ediciones de un usuario a otro.',
+	'maintenance-re-rc' => 'No actualizar la tabla de cambios recientes',
 	'maintenance-re-nf' => 'Usuario $1 no encontrado',
 	'maintenance-re-ce' => 'Ediciones actuales: $1',
 	'maintenance-re-de' => 'Ediciones borradas: $1',
@@ -3403,6 +3419,15 @@ $messages['te'] = array(
  */
 $messages['tet'] = array(
 	'maintenance-reason' => 'Motivu',
+);
+
+/** Thai (ไทย)
+ * @author Octahedron80
+ * @author Passawuth
+ */
+$messages['th'] = array(
+	'maintenance-reason' => 'เหตุผล',
+	'maintenance-memc-total' => 'รวม:',
 );
 
 /** Tagalog (Tagalog)
