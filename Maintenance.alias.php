@@ -164,6 +164,11 @@ $aliases['sw'] = array(
 	'Maintenance' => array( 'Matengenezo' ),
 );
 
+/** Thai (ไทย) */
+$aliases['th'] = array(
+	'Maintenance' => array( 'การบำรุงรักษา' ),
+);
+
 /** Tagalog (Tagalog) */
 $aliases['tl'] = array(
 	'Maintenance' => array( 'Pagpapanatili' ),
