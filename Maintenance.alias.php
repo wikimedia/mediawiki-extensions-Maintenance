@@ -94,6 +94,11 @@ $aliases['id'] = array(
 	'Maintenance' => array( 'Pemeliharaan' ),
 );
 
+/** Italian (Italiano) */
+$aliases['it'] = array(
+	'Maintenance' => array( 'Manutenzione' ),
+);
+
 /** Japanese (日本語) */
 $aliases['ja'] = array(
 	'Maintenance' => array( 'メンテナンス' ),
