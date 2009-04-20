@@ -631,10 +631,12 @@ Stavite samo jedan broj revizije u jedan red',
 	'maintenance-memc-expired' => 'isteklo:',
 	'maintenance-memc-absent' => 'otsutno:',
 	'maintenance-memc-imagecache' => 'Keš slike',
+	'maintenance-memc-misses' => 'promašaji:',
 	'maintenance-memc-updates' => 'ažuriranja:',
 	'maintenance-re-rc' => 'Ne ažuriraj tabelu nedavnih izmjena',
 	'maintenance-re-nf' => '{{GENDER:$1|Korisnik|Korisnica}} $1 nije {{GENDER:$1|pronađen|pronađena}}',
 	'maintenance-re-ce' => 'Trenutne izmjene: $1',
+	'maintenance-re-de' => 'Obrisane izmjene: $1',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
