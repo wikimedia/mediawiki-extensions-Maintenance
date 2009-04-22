@@ -3206,6 +3206,8 @@ $messages['ru'] = array(
 	'maintenance-memc-updates' => 'обновлений:',
 	'maintenance-memc-uncacheable' => 'некэшируемых:',
 	'maintenance-memc-diffcache' => 'Кэш сравнений версий',
+	'maintenance-re-ce' => 'Текущие правки: $1',
+	'maintenance-re-de' => 'Удалённые правки: $1',
 );
 
 /** Slovak (Slovenčina)
