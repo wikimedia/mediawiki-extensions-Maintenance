@@ -59,6 +59,11 @@ $aliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
 );
 
+/** Franco-Provençal (Arpetan) */
+$aliases['frp'] = array(
+	'Maintenance' => array( 'Mantegnence' ),
+);
+
 /** Galician (Galego) */
 $aliases['gl'] = array(
 	'Maintenance' => array( 'Mantemento' ),
