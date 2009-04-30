@@ -2233,6 +2233,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-stats-update' => "D'Datebank gëtt aktualiséiert {{int:ellipsis}}",
 	'maintenance-move' => '$1 gëtt op $2 geréckelt {{int:ellipsis}}',
 	'maintenance-error' => 'Feeler: $1',
+	'maintenance-memc-fake' => 'Dir benotzt FakeMemCachedClient. Et si keng Statistiken disponibel',
 	'maintenance-memc-requests' => 'Ufroen',
 	'maintenance-memc-total' => 'Total:',
 	'maintenance-memc-absent' => 'net do:',
@@ -2240,6 +2241,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-re-nf' => 'De Benotzer $1 gouf net fonnt',
 	'maintenance-re-ce' => 'Aktuell Ännerungen: $1',
 	'maintenance-re-de' => 'Geläschten Ännerungen: $1',
+	'maintenance-re-rce' => 'Zuel vun de rezenten Ännerungen: $1',
 );
 
 /** Lingua Franca Nova (Lingua Franca Nova)
