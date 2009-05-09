@@ -626,6 +626,8 @@ $2',
 	'maintenance-stats-views' => 'Broj pregleda stranica: $1',
 	'maintenance-stats-update' => 'Ažuriranje baze podataka...',
 	'maintenance-move' => 'Premještam $1 na $2...',
+	'maintenance-movefail' => 'Greška se desila pri premještanju: $1.
+Odustajem od premještanja',
 	'maintenance-error' => 'Greška: $1',
 	'maintenance-memc-fake' => 'Vi koristite FakeMemCachedClient. Ne može se prikupiti statistika',
 	'maintenance-memc-requests' => 'Zahtjevi',
