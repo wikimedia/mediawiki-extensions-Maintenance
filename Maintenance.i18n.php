@@ -1431,6 +1431,13 @@ Verschieben abbroche',
 	'maintenance-re-re' => 'Nejzueornig vu dr Bearbeitige … gmacht',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Dineshjk
+ */
+$messages['gu'] = array(
+	'maintenance-name' => 'સભ્ય નામ',
+);
+
 /** Hakka (Hak-kâ-fa)
  * @author Hakka
  */
@@ -2221,6 +2228,7 @@ Nëmmen eng Säit pro Linn aginn.',
 	'maintenance-deleteRevision' => 'Benotzt dëse Formulaire fir vill Versioune mateneen ze läschen.
 Schreiwt an all Linn just eng Versioun.',
 	'maintenance-initStats' => "Benotzt dëse Formulaire fir d'Statistike vum Site nei ze berechnen, gitt w.e.g. unn ob Dir d'Zuel vun de Säiten-Ufroen och wëllt nei berechent hunn",
+	'maintenance-invalidtype' => 'Typ net valabel!',
 	'maintenance-name' => 'Benotzernumm',
 	'maintenance-password' => 'Passwuert',
 	'maintenance-bureaucrat' => 'Engem Benotzer de Bürokrate-Status ginn',
@@ -2245,18 +2253,26 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-stats-views' => 'Zuel vun de besichte Säiten: $1',
 	'maintenance-stats-update' => "D'Datebank gëtt aktualiséiert {{int:ellipsis}}",
 	'maintenance-move' => '$1 gëtt op $2 geréckelt {{int:ellipsis}}',
+	'maintenance-movefail' => 'Feeler beim Réckele vu(n): $1.
+Réckelen ofgebrach',
 	'maintenance-error' => 'Feeler: $1',
 	'maintenance-memc-fake' => 'Dir benotzt FakeMemCachedClient. Et si keng Statistiken disponibel',
 	'maintenance-memc-requests' => 'Ufroen',
 	'maintenance-memc-total' => 'Total:',
+	'maintenance-memc-parsercache' => 'Parser-Tëschespäicher',
+	'maintenance-memc-invalid' => 'net valabel:',
 	'maintenance-memc-absent' => 'net do:',
 	'maintenance-memc-imagecache' => 'Bild Tëschespäicher (Cache)',
 	'maintenance-memc-updates' => 'Aktualiséierungen:',
+	'maintenance-memc-uncacheable' => 'kann net tëschegespäichert ginn:',
+	'maintenance-memc-diffcache' => 'Diff-Tëschespäicher',
 	'maintenance-re-rc' => 'Tabell vun de rezenten Ännerungen net aktualiséieren',
 	'maintenance-re-nf' => 'De Benotzer $1 gouf net fonnt',
+	'maintenance-re-rr' => 'De Skript nachemol lafe lossen ouni "$1" z\'aktualiséieren',
 	'maintenance-re-ce' => 'Aktuell Ännerungen: $1',
 	'maintenance-re-de' => 'Geläschten Ännerungen: $1',
 	'maintenance-re-rce' => 'Zuel vun de rezenten Ännerungen: $1',
+	'maintenance-re-total' => "Total vun den Ännerunge déi z'ännere sinn: $1",
 );
 
 /** Lingua Franca Nova (Lingua Franca Nova)
