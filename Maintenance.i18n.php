@@ -2233,6 +2233,7 @@ Schreiwt an all Linn just eng Versioun.',
 	'maintenance-password' => 'Passwuert',
 	'maintenance-bureaucrat' => 'Engem Benotzer de Bürokrate-Status ginn',
 	'maintenance-reason' => 'Grond',
+	'maintenance-noviews' => "Dëst nokucke fir d'Aktualisatioun vun der Zuel vun deVisite vun der Säit ze verhënneren",
 	'maintenance-confirm' => 'Confirméieren',
 	'maintenance-invalidname' => 'Ongëltege Benotzernumm!',
 	'maintenance-success' => '$1 ass gemaach ginn!',
@@ -2260,6 +2261,7 @@ Réckelen ofgebrach',
 	'maintenance-memc-requests' => 'Ufroen',
 	'maintenance-memc-total' => 'Total:',
 	'maintenance-memc-parsercache' => 'Parser-Tëschespäicher',
+	'maintenance-memc-hits' => 'Klicken:',
 	'maintenance-memc-invalid' => 'net valabel:',
 	'maintenance-memc-absent' => 'net do:',
 	'maintenance-memc-imagecache' => 'Bild Tëschespäicher (Cache)',
@@ -3174,6 +3176,14 @@ $2',
 	'maintenance-memc-withsession' => 'cu sesiune:',
 	'maintenance-memc-withoutsession' => 'fără sesiune:',
 	'maintenance-memc-total' => 'total:',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'maintenance-stats-edits' => 'Numere de cangiaminde: $1',
+	'maintenance-error' => 'Errore: $1',
 );
 
 /** Russian (Русский)
