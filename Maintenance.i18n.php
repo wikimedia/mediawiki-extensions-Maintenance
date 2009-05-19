@@ -652,6 +652,13 @@ Odustajem od premještanja',
 	'maintenance-re-total' => 'Ukupno stavki za izmjenu: $1',
 );
 
+/** Catalan (Català)
+ * @author Solde
+ */
+$messages['ca'] = array(
+	'maintenance-reason' => 'Motiu',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
