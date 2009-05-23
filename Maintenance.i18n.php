@@ -1012,6 +1012,20 @@ $2',
 	'maintenance-re-de' => 'Ediciones borradas: $1',
 );
 
+/** Estonian (Eesti)
+ * @author Silvar
+ */
+$messages['et'] = array(
+	'maintenance-changePassword-desc' => 'Muuda kasutajate paroole',
+	'maintenance-invalidtype' => 'Vigane tüüp!',
+	'maintenance-name' => 'Kasutajanimi',
+	'maintenance-password' => 'Parool',
+	'maintenance-bureaucrat' => 'Eduta kasutajat bürokraadi staatusesse',
+	'maintenance-reason' => 'Põhjus',
+	'maintenance-deleted' => 'KUSTUTATUD',
+	'maintenance-re-nf' => 'Kasutajat $1 ei leidnud',
+);
+
 /** Basque (Euskara)
  * @author An13sa
  */
