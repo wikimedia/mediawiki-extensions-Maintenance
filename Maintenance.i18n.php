@@ -2237,6 +2237,7 @@ $messages['lb'] = array(
 	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an dem de Statut vun engem Administrateur ginn',
 	'maintenance-deleteBatch-desc' => 'Vill Säite matenee läschen',
 	'maintenance-deleteRevision-desc' => 'Versiounen aus der Datebank eraushuelen',
+	'maintenance-eval-desc' => 'PHP-Code am MediaWiki-Kontext bewerten',
 	'maintenance-initEditCount-desc' => "D'Compteuren vun den Ännerunge vun de Benotzer nei berechnen",
 	'maintenance-initStats-desc' => "D'Statistike vum Site neiberechnen",
 	'maintenance-moveBatch-desc' => 'Vill Säite matenee réckelen',
