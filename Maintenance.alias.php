@@ -119,6 +119,11 @@ $aliases['ko'] = array(
 	'Maintenance' => array( '정비' ),
 );
 
+/** Ripoarisch (Ripoarisch) */
+$aliases['ksh'] = array(
+	'Maintenance' => array( 'Waadung' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Maintenance' => array( 'Ënnerhalt' ),

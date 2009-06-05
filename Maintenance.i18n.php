@@ -3739,6 +3739,7 @@ $messages['vep'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  */
 $messages['vi'] = array(
@@ -3782,7 +3783,7 @@ Mỗi dòng nên ghi rõ trang nguồn và trang đích, cách nhau bằng dấu
 	'maintenance-titlenoexist' => 'Tựa đề chỉ định (“$1”) không tồn tại!',
 	'maintenance-failed' => 'THẤT BẠI',
 	'maintenance-deleted' => 'ĐÃ XÓA',
-	'maintenance-revdelete' => 'Đang xóa phiên bản $1 từ wiki $2',
+	'maintenance-revdelete' => 'Đang xóa {{PLURAL:$3|phiên bản|các phiên bản}} $1 từ wiki $2',
 	'maintenance-revnotfound' => 'Không tìm thấy phiên bản $1!',
 	'maintenance-stats-edits' => 'Số lần sửa đổi: $1',
 	'maintenance-stats-articles' => 'Số trang trong không gian tên chính: $1',
