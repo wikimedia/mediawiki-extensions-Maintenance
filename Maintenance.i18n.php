@@ -3220,7 +3220,10 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'maintenance' => 'Запуск скриптов обслуживания',
 	'maintenance-desc' => '[[Special:Maintenance|Веб-интерфейс]] для различных скриптов обслуживания',
+	'right-maintenance' => 'запуск скриптов обслуживания с помощью [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Вернуться к выбору скрипта',
+	'maintenance-header' => 'Пожалуйста, выберите скрипт для исполнения. 
+Описание рядом с каждым скриптом',
 	'maintenance-changePassword-desc' => 'Изменить пароль участника',
 	'maintenance-createAndPromote-desc' => 'Создать участника со статусом администратора',
 	'maintenance-deleteBatch-desc' => 'Массовое удаление страниц',
@@ -3230,6 +3233,8 @@ $messages['ru'] = array(
 	'maintenance-moveBatch-desc' => 'Массовое переименование страниц',
 	'maintenance-runJobs-desc' => 'Запустить задания в очереди заданий',
 	'maintenance-showJobs-desc' => 'Показать список заданий из очереди заданий',
+	'maintenance-sql-desc' => 'Выполнить SQL-запрос',
+	'maintenance-stats-desc' => 'Показать статистику Memcached',
 	'maintenance-changePassword' => 'Используйте эту форму, чтобы изменить пароль участника',
 	'maintenance-createAndPromote' => 'Используйте эту форму для создания нового участника с правами администратора.
 Обратите внимание на форму бюрократа, если вы хотите сделать его бюрократом',
@@ -3237,6 +3242,8 @@ $messages['ru'] = array(
 На одной строке должна находиться только одна страница.',
 	'maintenance-deleteRevision' => 'Используйте эту форму для массового удаления версий страниц.
 На одной строке должен быть только один номер версии страницы',
+	'maintenance-moveBatch' => 'Используйте эту форму для массового переименования страниц.
+Каждая строка должна содержать исходную страницу и её новое название, разделённые знаком «|»',
 	'maintenance-invalidtype' => 'Ошибочный тип!',
 	'maintenance-name' => 'Имя участника',
 	'maintenance-password' => 'Пароль',
@@ -3248,8 +3255,9 @@ $messages['ru'] = array(
 	'maintenance-invalidtitle' => 'Ошибочный заголовок «$1»!',
 	'maintenance-titlenoexist' => 'Указанный заголовок («$1») не существует!',
 	'maintenance-deleted' => 'УДАЛЕНО',
-	'maintenance-revdelete' => 'Удаление версий страницы $1 из вики $2',
+	'maintenance-revdelete' => 'Удаление {{PLURAL:$3|версия страницы|версии страницы|версий страниц}} $1 из вики $2',
 	'maintenance-revnotfound' => 'Версия страницы $1 не найдена!',
+	'maintenance-sql' => 'Используйте эту форму для выполнения SQL-запроса в базе данных.',
 	'maintenance-stats-edits' => 'Число правок: $1',
 	'maintenance-stats-articles' => 'Количество страниц в основном пространстве: $1',
 	'maintenance-stats-pages' => 'Количество страниц: $1',
@@ -3275,6 +3283,7 @@ $messages['ru'] = array(
 	'maintenance-memc-updates' => 'обновлений:',
 	'maintenance-memc-uncacheable' => 'некэшируемых:',
 	'maintenance-memc-diffcache' => 'Кэш сравнений версий',
+	'maintenance-re-nf' => 'Участник $1 не найден',
 	'maintenance-re-ce' => 'Текущие правки: $1',
 	'maintenance-re-de' => 'Удалённые правки: $1',
 );
