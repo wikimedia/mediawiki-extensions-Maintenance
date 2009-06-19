@@ -2711,6 +2711,7 @@ Stoggar flytting.',
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'maintenance' => 'Kjør vedlikeholdsskript',
@@ -2727,6 +2728,7 @@ Beskrivelser gis ved siden av hvert skript.',
 	'maintenance-moveBatch-desc' => 'Flytte mange sider',
 	'maintenance-runJobs-desc' => 'Kjøre jobber i jobbkøen',
 	'maintenance-showJobs-desc' => 'Vise en liste over jobber som venter i jobbkøen',
+	'maintenance-sql-desc' => 'Utfør en SQL-spørring',
 	'maintenance-stats-desc' => 'Vis mellomlagret statistikk',
 	'maintenance-changePassword' => 'Bruk dette skjemaet for å endre en brukers passord',
 	'maintenance-createAndPromote' => 'Bruk dette skjemaet for å opprette en ny bruker og gjøre den til administrator.
@@ -2753,8 +2755,12 @@ Hver linje bør oppgi kildeside og målside adskilt med strek (|)',
 	'maintenance-titlenoexist' => 'Den oppgitte tittelen («$1») finnes ikke.',
 	'maintenance-failed' => 'MISLYKTES',
 	'maintenance-deleted' => 'SLETTET',
-	'maintenance-revdelete' => 'Sletter revisjonene $1 fra wikien $2',
+	'maintenance-revdelete' => 'Sletter {{PLURAL:$3|revisjonen|revisjonene}} $1 fra wikien $2',
 	'maintenance-revnotfound' => 'Revisjon $1 ikke funnet.',
+	'maintenance-sql' => 'Bruk dette skjemaet for å utføre en SQL-spørring på databasen.',
+	'maintenance-sql-aff' => 'Berørte rekker: $1',
+	'maintenance-sql-res' => '{{PLURAL:$1|én rad|$1 rader}} returnerte:
+$2',
 	'maintenance-stats-edits' => 'Antal redigeringer: $1',
 	'maintenance-stats-articles' => 'Antall sider i hovednavnerommet: $1',
 	'maintenance-stats-pages' => 'Antall sider: $1',
@@ -2783,6 +2789,11 @@ Avbryter flytting',
 	'maintenance-memc-updates' => 'Oppdateringer:',
 	'maintenance-memc-uncacheable' => 'Kan ikke mellomlagres:',
 	'maintenance-memc-diffcache' => 'Forskjellsmellomlager',
+	'maintenance-re-nf' => 'Fant ikke bruker $1',
+	'maintenance-re-rr' => 'Kjør skriptet igjen uten «$1» for å oppdatere.',
+	'maintenance-re-ce' => 'Nåværende redigeringer: $1',
+	'maintenance-re-de' => 'Slettede redigeringer: $1',
+	'maintenance-re-rce' => 'Bidrag på siste endringer: $1',
 );
 
 /** Novial (Novial)
@@ -2896,6 +2907,14 @@ Arrèst del desplaçament.',
 $messages['os'] = array(
 	'maintenance-reason' => 'Аххос',
 	'maintenance-deleted' => 'АППÆРСТ',
+);
+
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'maintenance-name' => 'Yuuser-Naame',
+	'maintenance-reason' => 'Grund',
 );
 
 /** Plautdietsch (Plautdietsch)
