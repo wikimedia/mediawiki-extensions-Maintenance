@@ -2237,6 +2237,7 @@ Dat Ömnenne weed jeshtopp.',
 $messages['lb'] = array(
 	'maintenance' => 'Maintenance-Skripten ausféieren',
 	'maintenance-desc' => '[[Special:Maintenance|Web interface]] fir verschidde Maintenance-Skripten',
+	'right-maintenance' => 'Ënnerhalts-Skripten op [[Special:Maintenance]] starten',
 	'maintenance-backlink' => "Zréck op d'Auswiel vum Script",
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
 	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an dem de Statut vun engem Administrateur ginn',
