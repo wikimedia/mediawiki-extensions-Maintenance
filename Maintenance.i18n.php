@@ -1855,11 +1855,15 @@ Le renomination es abortate.',
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
  * @author Rex
  */
 $messages['id'] = array(
 	'maintenance-name' => 'Nama pengguna',
+	'maintenance-password' => 'Kata sandi',
 	'maintenance-reason' => 'Alasan',
+	'maintenance-confirm' => 'Konfirmasi',
+	'maintenance-deleted' => 'DIHAPUS',
 	'maintenance-memc-total' => 'total:',
 );
 
