@@ -953,8 +953,11 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Imre
+ * @author Locos epraix
  */
 $messages['es'] = array(
+	'maintenance' => 'Ejecutar scripts de mantenimiento',
+	'right-maintenance' => 'Ejecutar scripts de mantenimiento a través de [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Regresar a selección de escritura',
 	'maintenance-changePassword-desc' => 'Cambiar la contraseña de un usuario',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario y promoverlo al status de administrador',
