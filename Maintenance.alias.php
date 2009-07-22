@@ -164,6 +164,11 @@ $aliases['sa'] = array(
 	'Maintenance' => array( 'निर्वहण' ),
 );
 
+/** Slovak (Slovenčina) */
+$aliases['sk'] = array(
+	'Maintenance' => array( 'Údržba' ),
+);
+
 /** Albanian (Shqip) */
 $aliases['sq'] = array(
 	'Maintenance' => array( 'Mirëmbajtje' ),
