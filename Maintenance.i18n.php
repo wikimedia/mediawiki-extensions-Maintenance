@@ -1127,6 +1127,8 @@ Keskeytetään siirto',
 	'maintenance-memc-misses' => 'huteja:',
 	'maintenance-memc-updates' => 'päivityksiä:',
 	'maintenance-eval' => 'Käytä tätä lomaketta PHP-koodin suorittamiseksi MediaWiki-ympäristössä.',
+	'maintenance-re-ce' => 'Nykyisiä muokkauksia: $1',
+	'maintenance-re-de' => 'Poistettuja muokkauksia: $1',
 );
 
 /** French (Français)
@@ -2254,6 +2256,8 @@ $messages['lb'] = array(
 	'maintenance-desc' => '[[Special:Maintenance|Web interface]] fir verschidde Maintenance-Skripten',
 	'right-maintenance' => 'Ënnerhalts-Skripten op [[Special:Maintenance]] starten',
 	'maintenance-backlink' => "Zréck op d'Auswiel vum Script",
+	'maintenance-header' => "Sicht w.e.g. ënnendrëmmer e Script eraus fir auszeféieren.
+D'Beschreiwunge stinn niewent all Script.",
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
 	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an dem de Statut vun engem Administrateur ginn',
 	'maintenance-deleteBatch-desc' => 'Vill Säite matenee läschen',
@@ -2316,6 +2320,8 @@ Réckelen ofgebrach',
 	'maintenance-memc-updates' => 'Aktualiséierungen:',
 	'maintenance-memc-uncacheable' => 'kann net tëschegespäichert ginn:',
 	'maintenance-memc-diffcache' => 'Diff-Tëschespäicher',
+	'maintenance-eval' => 'Benotzt dëse Formulaire fir PHP-Code am MediaWiki-Kontext ze bewerten',
+	'maintenance-re-to' => 'Numm vum Benotzer deem dës Ännerungen zugewise solle ginn',
 	'maintenance-re-rc' => 'Tabell vun de rezenten Ännerungen net aktualiséieren',
 	'maintenance-re-nf' => 'De Benotzer $1 gouf net fonnt',
 	'maintenance-re-rr' => 'De Skript nachemol lafe lossen ouni "$1" z\'aktualiséieren',
