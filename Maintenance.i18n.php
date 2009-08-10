@@ -1053,12 +1053,14 @@ $messages['eu'] = array(
  * @author Crt
  * @author Jack Phoenix
  * @author Nike
+ * @author Silvonen
  * @author Str4nd
  * @author Vililikku
  */
 $messages['fi'] = array(
 	'maintenance' => 'Suorita ylläpitoskriptejä',
 	'maintenance-desc' => '[[Special:Maintenance|Wikikäyttöliittymä]] muutamille wikin ylläpitoon tarkoitetuille komentosarjoille.',
+	'right-maintenance' => 'Ajaa ylläpitotyökaluita toimintosivun [[Special:Maintenance]] kautta',
 	'maintenance-backlink' => 'Takaisin skriptin valintaan',
 	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
 	Skriptien kuvaukset ovat niiden nimien vieressä',
@@ -1099,7 +1101,7 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 	'maintenance-titlenoexist' => 'Määritellyn otsikon ("$1") mukaista artikkelia ei ole olemassa!',
 	'maintenance-failed' => 'EPÄONNISTUI',
 	'maintenance-deleted' => 'POISTETTU',
-	'maintenance-revdelete' => 'Poistataan versiot $1 wikistä $2',
+	'maintenance-revdelete' => 'Poistetaan {{PLURAL:$3|versio|versiot}} $1 wikistä $2',
 	'maintenance-revnotfound' => 'Versiota $1 ei löydy.',
 	'maintenance-sql' => 'Tällä lomakkeella voit tehdä SQL-kyselyitä tietokannasta.',
 	'maintenance-stats-edits' => 'Muokkauksia yhteensä: $1',
@@ -3550,6 +3552,94 @@ $2',
 	'maintenance-re-ce' => 'Тренутне измене: $1',
 	'maintenance-re-de' => 'Обрисане измене: $1',
 	'maintenance-re-re' => 'Приписивање измена{{int:ellipsis}} готово',
+);
+
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'maintenance' => 'Pokreni skripte za održavanje',
+	'maintenance-desc' => '[[Special:Maintenance|Viki interfejs]] za razne skripte za održavanje',
+	'maintenance-backlink' => 'Povratak na obeležavanje skripti',
+	'maintenance-header' => 'Molimo Vas da ispot označite skriptu koju treba pokrenuti.
+Pored svake skripte se nalazi odgovarajući opis.',
+	'maintenance-changePassword-desc' => 'Promeni lozinku korisnika',
+	'maintenance-createAndPromote-desc' => 'Napravi korisnika i unapredi ga u administratora',
+	'maintenance-deleteBatch-desc' => 'Strane za masovno brisanje',
+	'maintenance-deleteRevision-desc' => 'Obriši revizije iz baze podataka',
+	'maintenance-eval-desc' => 'Razvij PHP kod u MedijaViki okruženju',
+	'maintenance-initEditCount-desc' => 'Osveži korisničke brojače izmena',
+	'maintenance-initStats-desc' => 'Osveži statistike sajta',
+	'maintenance-moveBatch-desc' => 'Strane za masovno premeštanje',
+	'maintenance-reassignEdits-desc' => 'Pripiši izmene jednog korisnika drugom',
+	'maintenance-runJobs-desc' => 'Pokreni poslove iz reda za poslove',
+	'maintenance-showJobs-desc' => 'Pokaži spisak poslova iz reda za poslove',
+	'maintenance-sql-desc' => 'Izvrši SQL zahtev',
+	'maintenance-changePassword' => 'Koristite ovu formu da biste promenili lozinku korisnika',
+	'maintenance-deleteBatch' => 'Koristite ovu formu da biste masovno brisali stranice.
+Upisujte samo jednu stranu po liniji.',
+	'maintenance-deleteRevision' => 'Koristite ovu stranu da biste masovno brisali revizije.
+Upisujte broj samo jedne revizije po liniji.',
+	'maintenance-initStats' => 'Koristite ovu formu da biste osvežili statistike sajta, označivši da li takođe želite da osvežite i preglede stranica.',
+	'maintenance-moveBatch' => 'Koristite ovu formu da biste masovno premeštali stranice.
+U svakoj liniji treba (tim redom) označiti trenutno i ciljano ime stranice, i razdvojiti ih znakom "|"',
+	'maintenance-invalidtype' => 'Nepoznat tip!',
+	'maintenance-name' => 'Korisničko ime',
+	'maintenance-password' => 'Lozinka',
+	'maintenance-bureaucrat' => 'Unapredite korisnika u birokratu',
+	'maintenance-reason' => 'Razlog',
+	'maintenance-noviews' => 'Označite ovo da biste sprežili osvežavanje broja pregleda strana',
+	'maintenance-confirm' => 'Potvrdi',
+	'maintenance-invalidname' => 'Pogrešno korisničko ime!',
+	'maintenance-success' => '$1 se uspešno izvršila!',
+	'maintenance-userexists' => 'Taj korisnik već postoji!',
+	'maintenance-invalidtitle' => 'Neispravan naslov "$1"!',
+	'maintenance-titlenoexist' => 'Navedeni naslov ("$1") ne postoji!',
+	'maintenance-failed' => 'NEUSPELO',
+	'maintenance-deleted' => 'OBRISANO',
+	'maintenance-revdelete' => 'Brisanje {{PLURAL:$3|revizije|revizija}} $1 sa $2-Vikija.',
+	'maintenance-revnotfound' => 'Revizija $1 nije pronađena!',
+	'maintenance-sql' => 'Koristite ovu formu da izvršite SQL zahtev nad bazom podataka.',
+	'maintenance-sql-aff' => 'Afektovani redovi: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|red vraćen|redova vraćeno}}:
+$2',
+	'maintenance-stats-edits' => 'Broj izmena: $1',
+	'maintenance-stats-articles' => 'Broj strana u glavnom imenskom prostoru: $1',
+	'maintenance-stats-pages' => 'Broj strana: $1',
+	'maintenance-stats-users' => 'Broj korisnika: $1',
+	'maintenance-stats-admins' => 'Broj administratora: $1',
+	'maintenance-stats-images' => 'Broj fajlova: $1',
+	'maintenance-stats-views' => 'Broj pregleda strana: $1',
+	'maintenance-stats-update' => 'Osvežavanje baze podataka{{int:ellipsis}}',
+	'maintenance-move' => 'Premeštanje $1 na $2{{int:ellipsis}}',
+	'maintenance-movefail' => 'Greška prilikom premeštanja: $1.
+Opozivanje premeštanja',
+	'maintenance-error' => 'Greška: $1',
+	'maintenance-memc-fake' => 'Vi ste pokrenuli FakeMemCachedClient. Statistike ne mogu biti priložene',
+	'maintenance-memc-requests' => 'Zahtevi',
+	'maintenance-memc-withsession' => 'sa sesijom:',
+	'maintenance-memc-withoutsession' => 'bez sesije:',
+	'maintenance-memc-total' => 'ukupno:',
+	'maintenance-memc-parsercache' => 'Keš parsera',
+	'maintenance-memc-hits' => 'pogodaka:',
+	'maintenance-memc-invalid' => 'neispravno:',
+	'maintenance-memc-expired' => 'isteklo:',
+	'maintenance-memc-absent' => 'odsutno:',
+	'maintenance-memc-stub' => 'prag klice:',
+	'maintenance-memc-imagecache' => 'Keš slika',
+	'maintenance-memc-misses' => 'promašaji',
+	'maintenance-memc-uncacheable' => 'nemoguće keširati:',
+	'maintenance-eval' => 'Koristite ovu formu da razvijete PHP kod u MedijaViki okruženju.',
+	'maintenance-reassignEdits' => 'Koristite ovu formu da pripišete izmene jednog korisnika drugom.',
+	'maintenance-re-from' => 'Korisničko ime čije se izmene pripisuju',
+	'maintenance-re-to' => 'Korisničko ime kojem se izmene pripisuju',
+	'maintenance-re-force' => 'Pripiši čak iako ciljani korisnik ne postoji',
+	'maintenance-re-rc' => 'Ne beleži izmene u skorašnjim izmenama',
+	'maintenance-re-nf' => 'Korisnik $1 nije pronađen',
+	'maintenance-re-rr' => 'Opet pokreni skriptu "$1" zarad osveženja.',
+	'maintenance-re-ce' => 'Trenutne izmene: $1',
+	'maintenance-re-de' => 'Obrisane izmene: $1',
+	'maintenance-re-re' => 'Pripisivanje izmena{{int:ellipsis}} gotovo',
 );
 
 /** Sundanese (Basa Sunda)
