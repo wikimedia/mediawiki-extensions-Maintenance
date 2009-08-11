@@ -1129,6 +1129,7 @@ Keskeytetään siirto',
 	'maintenance-memc-misses' => 'huteja:',
 	'maintenance-memc-updates' => 'päivityksiä:',
 	'maintenance-eval' => 'Käytä tätä lomaketta PHP-koodin suorittamiseksi MediaWiki-ympäristössä.',
+	'maintenance-re-nf' => 'Käyttäjää $1 ei löydy',
 	'maintenance-re-ce' => 'Nykyisiä muokkauksia: $1',
 	'maintenance-re-de' => 'Poistettuja muokkauksia: $1',
 );
@@ -1871,14 +1872,37 @@ Le renomination es abortate.',
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Kandar
  * @author Rex
  */
 $messages['id'] = array(
+	'maintenance' => 'Jalankan skrip pemeliharaan',
+	'maintenance-desc' => '[[Special:Maintenance|Antarmuka Wiki]] untuk beragam skrip pemeliharaan',
+	'right-maintenance' => 'Jalankan skrip pemeliharaan melalui [[Special:Maintenance]]',
+	'maintenance-backlink' => 'Kembali ke pemilihan skrip',
+	'maintenance-changePassword-desc' => 'Rubah sandi pengguna',
+	'maintenance-deleteBatch-desc' => 'Penghapusan halaman secara masal',
+	'maintenance-invalidtype' => 'Tipe tidak benar!',
 	'maintenance-name' => 'Nama pengguna',
 	'maintenance-password' => 'Kata sandi',
+	'maintenance-bureaucrat' => 'Usulkan pengguna untuk mendapatkan status birokrat',
 	'maintenance-reason' => 'Alasan',
 	'maintenance-confirm' => 'Konfirmasi',
+	'maintenance-invalidname' => 'Nama pengguna tidak sah!',
+	'maintenance-success' => '$1 berjalan lancar!',
+	'maintenance-userexists' => 'Pengguna sudah ada!',
+	'maintenance-invalidtitle' => 'Judul "$1" tidak sah!',
+	'maintenance-titlenoexist' => 'Judul yang dimaksud ("$1") tidak ada!',
 	'maintenance-deleted' => 'DIHAPUS',
+	'maintenance-revdelete' => 'Menghapus {{PLURAL:$3|revisi|revisi}} $1 dari wiki $2',
+	'maintenance-revnotfound' => 'Revisi $1 tidak ditemukan!',
+	'maintenance-stats-edits' => 'Jumlah suntingan: $1',
+	'maintenance-stats-articles' => 'Jumlah halaman pada ruang nama utama: $1',
+	'maintenance-stats-pages' => 'Jumlah halaman: $1',
+	'maintenance-stats-users' => 'Jumlah pengguna: $1',
+	'maintenance-stats-admins' => 'Jumlah pengurus: $1',
+	'maintenance-stats-images' => 'Jumlah berkas: $1',
+	'maintenance-error' => 'Kesalahan: $1',
 	'maintenance-memc-total' => 'total:',
 );
 
@@ -3272,6 +3296,7 @@ $messages['roa-tara'] = array(
 /** Russian (Русский)
  * @author Ferrer
  * @author Innv
+ * @author Putnik
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -3342,17 +3367,17 @@ $2',
 	'maintenance-memc-withsession' => 'с сеансом:',
 	'maintenance-memc-withoutsession' => 'без сеанса:',
 	'maintenance-memc-total' => 'всего:',
-	'maintenance-memc-parsercache' => 'Кэш парсера',
+	'maintenance-memc-parsercache' => 'Кеш парсера',
 	'maintenance-memc-hits' => 'просмотров:',
 	'maintenance-memc-invalid' => 'ошибочных:',
 	'maintenance-memc-expired' => 'истекших:',
 	'maintenance-memc-absent' => 'отсутствует:',
 	'maintenance-memc-stub' => 'порог заготовок:',
-	'maintenance-memc-imagecache' => 'Кэш изображений',
+	'maintenance-memc-imagecache' => 'Кеш изображений',
 	'maintenance-memc-misses' => 'ошибок:',
 	'maintenance-memc-updates' => 'обновлений:',
 	'maintenance-memc-uncacheable' => 'некэшируемых:',
-	'maintenance-memc-diffcache' => 'Кэш сравнений версий',
+	'maintenance-memc-diffcache' => 'Кеш сравнений версий',
 	'maintenance-eval' => 'используйте эту форму для проверка кода PHP в окружении MediaWiki.',
 	'maintenance-reassignEdits' => 'Используйте эту форму для переназначения правок от одного участника к другому.',
 	'maintenance-re-from' => 'Имя участника, правки которого переназначаются',
