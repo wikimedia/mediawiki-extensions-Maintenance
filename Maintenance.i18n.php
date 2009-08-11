@@ -1104,6 +1104,8 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 	'maintenance-revdelete' => 'Poistetaan {{PLURAL:$3|versio|versiot}} $1 wikistä $2',
 	'maintenance-revnotfound' => 'Versiota $1 ei löydy.',
 	'maintenance-sql' => 'Tällä lomakkeella voit tehdä SQL-kyselyitä tietokannasta.',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|rivi|riviä}} palasi:
+$2',
 	'maintenance-stats-edits' => 'Muokkauksia yhteensä: $1',
 	'maintenance-stats-articles' => 'Sivujen määrä päänimiavaruudessa: $1',
 	'maintenance-stats-pages' => 'Sivuja yhteensä: $1',
@@ -3255,6 +3257,16 @@ Abortando a movimentação',
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
+	'maintenance' => 'Rulează scripturile de întreţinere',
+	'right-maintenance' => 'Rulează scripturile de întreţinere prin [[Special:Maintenance]]',
+	'maintenance-backlink' => 'Înapoi la selecţia scriptului',
+	'maintenance-changePassword-desc' => 'Schimbă parola unui utilizator',
+	'maintenance-createAndPromote-desc' => 'Creează un utilizator şi promovează-l la statutul de administrator',
+	'maintenance-deleteBatch-desc' => 'Şterge pagini în masă',
+	'maintenance-deleteRevision-desc' => 'Şterge reviziile din baza de date',
+	'maintenance-initEditCount-desc' => 'Recalculează numărul de modificări ale utilizatorilor',
+	'maintenance-initStats-desc' => 'Recalculează statisticile sitului',
+	'maintenance-moveBatch-desc' => 'Mută pagini în masă',
 	'maintenance-sql-desc' => 'Execută o interogare SQL',
 	'maintenance-invalidtype' => 'Tip incorect!',
 	'maintenance-name' => 'Nume de utilizator',
@@ -3283,6 +3295,8 @@ $2',
 	'maintenance-memc-withsession' => 'cu sesiune:',
 	'maintenance-memc-withoutsession' => 'fără sesiune:',
 	'maintenance-memc-total' => 'total:',
+	'maintenance-re-ce' => 'Modificări curente: $1',
+	'maintenance-re-de' => 'Modificări şterse: $1',
 );
 
 /** Tarandíne (Tarandíne)
