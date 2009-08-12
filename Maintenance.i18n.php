@@ -2305,6 +2305,8 @@ Nëmmen eng Säit pro Linn aginn.',
 	'maintenance-deleteRevision' => 'Benotzt dëse Formulaire fir vill Versioune mateneen ze läschen.
 Schreiwt an all Linn just eng Versioun.',
 	'maintenance-initStats' => "Benotzt dëse Formulaire fir d'Statistike vum Site nei ze berechnen, gitt w.e.g. unn ob Dir d'Zuel vun de Säiten-Ufroen och wëllt nei berechent hunn",
+	'maintenance-moveBatch' => "Benotzt dëse Formulaire fir eng Grous Zuel vu Säiten ze réckelen.
+An all Linn soll en Quellsäit an eng Zilsäit, getrennt duerch een ''<nowiki>|</nowiki>'', drastoen.",
 	'maintenance-invalidtype' => 'Typ net valabel!',
 	'maintenance-name' => 'Benotzernumm',
 	'maintenance-password' => 'Passwuert',
