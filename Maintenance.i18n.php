@@ -1239,6 +1239,18 @@ Déplacement interrompu.',
 	'maintenance-re-re' => 'Réaffectation des modifications{{int:ellipsis}} fait',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author Cedric31
+ */
+$messages['frp'] = array(
+	'maintenance-reason' => 'Rêson',
+	'maintenance-confirm' => 'Confirmar',
+	'maintenance-stats-pages' => 'Nombro de pâges : $1',
+	'maintenance-stats-users' => 'Nombro d’utilisators : $1',
+	'maintenance-stats-admins' => 'Nombro d’administrators : $1',
+	'maintenance-stats-images' => 'Nombro de fichiérs : $1',
+);
+
 /** Western Frisian (Frysk)
  * @author Snakesteuben
  */
@@ -4097,5 +4109,23 @@ Topätükam pestöpädon.',
  */
 $messages['yi'] = array(
 	'maintenance-confirm' => 'באַשטעטיגן',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Wrightbus
+ */
+$messages['zh-hans'] = array(
+	'maintenance-password' => '密码',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Wrightbus
+ */
+$messages['zh-hant'] = array(
+	'maintenance-name' => '使用者名稱',
+	'maintenance-password' => '密碼',
+	'maintenance-reason' => '原因',
+	'maintenance-confirm' => '確認',
+	'maintenance-memc-requests' => '請求',
 );
 
