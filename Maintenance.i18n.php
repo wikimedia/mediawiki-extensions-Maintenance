@@ -659,10 +659,19 @@ Odustajem od premještanja',
 );
 
 /** Catalan (Català)
+ * @author Paucabot
  * @author Solde
  */
 $messages['ca'] = array(
+	'maintenance-changePassword-desc' => "Canvia la contrasenya d'un usuari",
+	'maintenance-deleteBatch-desc' => 'Eliminació massiva de pàgines',
 	'maintenance-reason' => 'Motiu',
+	'maintenance-confirm' => 'Confirma',
+	'maintenance-invalidname' => "Nom d'usuari no vàlid!",
+	'maintenance-deleted' => 'ELIMINAT',
+	'maintenance-stats-edits' => "Nombre d'edicions: $1",
+	'maintenance-stats-pages' => 'Nombre de pàgines: $1',
+	'maintenance-stats-users' => "Nombre d'usuaris: $1",
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
