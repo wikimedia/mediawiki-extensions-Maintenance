@@ -190,6 +190,7 @@ $messages['niu'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
+ * @author Naudefj
  */
 $messages['af'] = array(
 	'maintenance-name' => 'Gebruikersnaam',
@@ -197,6 +198,8 @@ $messages['af'] = array(
 	'maintenance-reason' => 'Rede',
 	'maintenance-confirm' => 'Bevestig',
 	'maintenance-memc-total' => 'totaal:',
+	'maintenance-memc-invalid' => 'ongeldig:',
+	'maintenance-memc-absent' => 'afwesig:',
 );
 
 /** Amharic (አማርኛ)
@@ -1059,6 +1062,7 @@ $messages['eu'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Cimon Avaro
  * @author Crt
  * @author Jack Phoenix
  * @author Nike
@@ -1143,6 +1147,7 @@ Keskeytetään siirto',
 	'maintenance-re-nf' => 'Käyttäjää $1 ei löydy',
 	'maintenance-re-ce' => 'Nykyisiä muokkauksia: $1',
 	'maintenance-re-de' => 'Poistettuja muokkauksia: $1',
+	'maintenance-re-total' => 'Kuinka monta muokkauksen tilaa muutetaan: $1',
 );
 
 /** French (Français)
@@ -2795,10 +2800,12 @@ Stoggar flytting.',
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Nghtwlkr
+ * @author Simny
  */
 $messages['no'] = array(
 	'maintenance' => 'Kjør vedlikeholdsskript',
 	'maintenance-desc' => '[[Special:Maintenance|Nettgrensesnitt]] for ulike vedlikeholdsskript',
+	'right-maintenance' => 'Kjør vedlikeholdsskript gjennom [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Tilbake til skriptvalget',
 	'maintenance-header' => 'Velg et skript å utføre nedenfor.
 Beskrivelser gis ved siden av hvert skript.',
@@ -2806,6 +2813,7 @@ Beskrivelser gis ved siden av hvert skript.',
 	'maintenance-createAndPromote-desc' => 'Opprett en bruker og gjør til administrator',
 	'maintenance-deleteBatch-desc' => 'Slett mange sider',
 	'maintenance-deleteRevision-desc' => 'Fjern revisjoner fra databasen',
+	'maintenance-eval-desc' => 'Evaluer PHP-kode i MediaWiki-omgivelsene',
 	'maintenance-initEditCount-desc' => 'Regne om redigeringstelleren for brukere',
 	'maintenance-initStats-desc' => 'Regne om sidestatistikken',
 	'maintenance-moveBatch-desc' => 'Flytte mange sider',
@@ -2872,6 +2880,8 @@ Avbryter flytting',
 	'maintenance-memc-updates' => 'Oppdateringer:',
 	'maintenance-memc-uncacheable' => 'Kan ikke mellomlagres:',
 	'maintenance-memc-diffcache' => 'Forskjellsmellomlager',
+	'maintenance-re-rc' => 'Ikke oppdater tabellen over siste endringer',
+	'maintenance-re-report' => 'Skriv ut detaljer av det som ville ha endret seg, men ikke oppdater det',
 	'maintenance-re-nf' => 'Fant ikke bruker $1',
 	'maintenance-re-rr' => 'Kjør skriptet igjen uten «$1» for å oppdatere.',
 	'maintenance-re-ce' => 'Nåværende redigeringer: $1',
