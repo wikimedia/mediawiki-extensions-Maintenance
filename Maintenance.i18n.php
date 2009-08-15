@@ -911,14 +911,48 @@ Pśesunjenje pśetergnjone',
  * @author Consta
  * @author Crazymadlover
  * @author Omnipaedista
+ * @author ZaDiak
  */
 $messages['el'] = array(
+	'maintenance-invalidtype' => 'Μη έγκυρος τύπος!',
 	'maintenance-name' => 'Όνομα χρήστη',
 	'maintenance-password' => 'Κωδικός',
+	'maintenance-bureaucrat' => 'Προαγωγή χρήστη σε γραφειοκράτη',
 	'maintenance-reason' => 'Λόγος',
 	'maintenance-confirm' => 'Επιβεβαίωση',
+	'maintenance-invalidname' => 'Μη έγκυρο όνομα χρήστη!',
+	'maintenance-success' => 'Το $1 έτρεξε επιτυχώς!',
+	'maintenance-userexists' => 'Ο χρήστης υπάρχει ήδη!',
+	'maintenance-invalidtitle' => 'Μη έγκυρος τίτλος "$1"!',
+	'maintenance-titlenoexist' => 'Ο τίτλος που δόθηκε ("$1") δεν υπάρχει!',
+	'maintenance-failed' => 'ΑΠΕΤΥΧΕ',
 	'maintenance-deleted' => 'ΔΙΑΓΡΑΜΜΕΝΟΣ',
+	'maintenance-revnotfound' => 'Η έκδοση $1 δεν βρέθηκε!',
+	'maintenance-stats-edits' => 'Αριθμός επεξεργασιών: $1',
+	'maintenance-stats-articles' => 'Αριθμός σελίδων στην κύρια περιοχή: $1',
+	'maintenance-stats-pages' => 'Αριθμός σελίδων: $1',
+	'maintenance-stats-users' => 'Αριθμός χρηστών: $1',
+	'maintenance-stats-admins' => 'Αριθμός διαχειριστών: $1',
+	'maintenance-stats-images' => 'Αριθμός αρχείων: $1',
+	'maintenance-stats-views' => 'Αριθμός προβολών σελίδων: $1',
+	'maintenance-stats-update' => 'Ενημέρωση βάσης δεδομένων{{int:ellipsis}}',
+	'maintenance-move' => 'Μετακίνηση $1 σε $2{{int:ellipsis}}',
+	'maintenance-error' => 'Σφάλμα: $1',
+	'maintenance-memc-total' => 'σύνολο:',
+	'maintenance-memc-hits' => 'χτυπήματα:',
+	'maintenance-memc-invalid' => 'μη έγκυρο:',
+	'maintenance-memc-expired' => 'ληγμένο:',
+	'maintenance-memc-absent' => 'απών:',
+	'maintenance-memc-imagecache' => 'Λανθάνουσα μνήμη εικόνας',
+	'maintenance-memc-misses' => 'αστοχίες:',
 	'maintenance-memc-updates' => 'αναβαθμίσεις:',
+	'maintenance-memc-uncacheable' => 'χωρίς λανθάνουσα μνήμη:',
+	'maintenance-re-nf' => 'Ο χρήστης $1 δεν βρέθηκε',
+	'maintenance-re-ce' => 'Τωρινές επεξεργασίες: $1',
+	'maintenance-re-de' => 'Διαγραμμένες επεξεργασίες: $1',
+	'maintenance-re-rce' => 'Καταχωρήσεις ΠροσφάτωνΑλλαγών: $1',
+	'maintenance-re-total' => 'Συνολικές καταχωρήσεις για αλλαγή: $1',
+	'maintenance-re-re' => 'Έγινε επανανάθεση επεξεργασιών{{int:ellipsis}}',
 );
 
 /** Esperanto (Esperanto)
@@ -1147,7 +1181,7 @@ Keskeytetään siirto',
 	'maintenance-re-nf' => 'Käyttäjää $1 ei löydy',
 	'maintenance-re-ce' => 'Nykyisiä muokkauksia: $1',
 	'maintenance-re-de' => 'Poistettuja muokkauksia: $1',
-	'maintenance-re-total' => 'Kuinka monta muokkauksen tilaa muutetaan: $1',
+	'maintenance-re-total' => 'Yhteensä muutoksia: $1',
 );
 
 /** French (Français)
