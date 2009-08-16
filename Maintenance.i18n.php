@@ -2117,7 +2117,7 @@ $messages['ja'] = array(
 	'maintenance-success' => '$1 の実行は成功しました！',
 	'maintenance-userexists' => '利用者が既に存在します！',
 	'maintenance-invalidtitle' => '「$1」は無効なページ名です！',
-	'maintenance-titlenoexist' => '指定した名前 (「$1」) のページは存在しません！',
+	'maintenance-titlenoexist' => '指定した名前 （「$1」） のページは存在しません！',
 	'maintenance-failed' => '失敗',
 	'maintenance-deleted' => '削除',
 	'maintenance-revdelete' => 'ウィキ $2 から{{PLURAL:$3|版}} $1 を削除中',
@@ -3759,12 +3759,14 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Fluff
  * @author M.M.S.
  * @author Sannab
  */
 $messages['sv'] = array(
 	'maintenance' => 'Kör underhållsskripter',
 	'maintenance-desc' => '[[Special:Maintenance|Webbgränssnitt]] för olika underhållsskripter',
+	'right-maintenance' => 'Kör underhållsskript genom [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Tillbaka till skriptvalet',
 	'maintenance-header' => 'Var god ange ett skript nedan till att exekvera.
 Beskrivningar finns brevid varje skript',
@@ -3772,11 +3774,14 @@ Beskrivningar finns brevid varje skript',
 	'maintenance-createAndPromote-desc' => 'Skapa en användare och befodra till administratör',
 	'maintenance-deleteBatch-desc' => 'Mass-radera sidor',
 	'maintenance-deleteRevision-desc' => 'Ta bort versioner från databasen',
+	'maintenance-eval-desc' => 'Evaluera PHP-kod i MediaWiki-miljön',
 	'maintenance-initEditCount-desc' => 'Omräkna redigeringräkningarna för användare',
 	'maintenance-initStats-desc' => 'Omräkna sajtstatistiken',
 	'maintenance-moveBatch-desc' => 'Mass-flytta sidor',
+	'maintenance-reassignEdits-desc' => 'Flytta redigeringar från en användare till en annan',
 	'maintenance-runJobs-desc' => 'Köra jobb i jobbkön',
 	'maintenance-showJobs-desc' => 'Visa en lista över jobb som ligger i jobbkön',
+	'maintenance-sql-desc' => 'Kör SQL-fråga',
 	'maintenance-stats-desc' => 'Visa mellanlagrad statistik',
 	'maintenance-changePassword' => 'Använd detta formulär för att ändra en användares lösenord',
 	'maintenance-createAndPromote' => 'Använd detta formulär för att skapa en ny användare och befodra den till administratör.
@@ -3805,6 +3810,10 @@ Varje rad specifierar den nuvarande sidan och destinationssidan separerade med e
 	'maintenance-deleted' => 'RADERAD',
 	'maintenance-revdelete' => 'Raderar {{PLURAL:$3|versionen|versionerna}} $1 från wiki $2',
 	'maintenance-revnotfound' => 'Versionen $1 hittades inte!',
+	'maintenance-sql' => 'Använd detta formulär för att köra en SQL-fråga mot databasen.',
+	'maintenance-sql-aff' => 'Påverkade rader: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|rad|rader}} returnerades:
+$2',
 	'maintenance-stats-edits' => 'Antal redigeringar: $1',
 	'maintenance-stats-articles' => 'Antal sidor i huvudnamnrymden: $1',
 	'maintenance-stats-pages' => 'Antal sidor: $1',
@@ -3833,6 +3842,20 @@ Avbryt flyttning',
 	'maintenance-memc-updates' => 'uppdateringar:',
 	'maintenance-memc-uncacheable' => 'ej mellanlagringsbara:',
 	'maintenance-memc-diffcache' => 'Skillnadscache',
+	'maintenance-eval' => 'Använd detta formulär för att testa PHP-kod i MediaWiki-miljön.',
+	'maintenance-reassignEdits' => 'Använd detta formulär för att flytta redigeringar från en användare till en annan.',
+	'maintenance-re-from' => 'Namn på användaren som redigeringarna skall flyttas från',
+	'maintenance-re-to' => 'Namn på användaren som redigeringarna skall flyttas till',
+	'maintenance-re-force' => 'Flytta redigeringar även om målanvändaren inte existerar',
+	'maintenance-re-rc' => 'Uppdatera inte tabellen för senaste ändringar',
+	'maintenance-re-report' => 'Skriv ut detaljer om vad som skulle förändras, men genomför inte förändringen',
+	'maintenance-re-nf' => 'Hittade inte användaren "$1"',
+	'maintenance-re-rr' => 'Kör skriptet igen utan "$1" för att uppdatera.',
+	'maintenance-re-ce' => 'Nuvarande redigeringar: $1',
+	'maintenance-re-de' => 'Raderade redigeringar: $1',
+	'maintenance-re-rce' => 'Bidrag på senaste ändringar: $1',
+	'maintenance-re-total' => 'Totalt antal redigeringar att ändra: $1',
+	'maintenance-re-re' => 'Flyttar redigeringar{{int:ellipsis}} klart',
 );
 
 /** Telugu (తెలుగు)
