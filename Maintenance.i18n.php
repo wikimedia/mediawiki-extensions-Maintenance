@@ -977,6 +977,7 @@ $messages['eo'] = array(
 	'maintenance-revdelete' => 'Forigante versiojn $1 el vikio $2',
 	'maintenance-revnotfound' => 'Revisio $1 ne estas trovita!',
 	'maintenance-stats-edits' => 'Nombro de redaktoj: $1',
+	'maintenance-stats-articles' => 'Nombro de paĝoj en la ĉefa nomspaco: $1',
 	'maintenance-stats-pages' => 'Nombro de paĝoj: $1',
 	'maintenance-stats-users' => 'Nombro de uzantoj: $1',
 	'maintenance-stats-admins' => 'Nombro de administrantoj: $1',
@@ -996,6 +997,7 @@ $messages['eo'] = array(
 	'maintenance-memc-misses' => 'maltrafoj:',
 	'maintenance-memc-updates' => 'ĝisdatigoj:',
 	'maintenance-memc-diffcache' => 'Diferenca Kaŝmemoro',
+	'maintenance-re-de' => 'Forigitaj redaktoj: $1',
 );
 
 /** Spanish (Español)
@@ -1072,6 +1074,7 @@ $2',
  */
 $messages['et'] = array(
 	'maintenance-changePassword-desc' => 'Muuda kasutajate paroole',
+	'maintenance-deleteBatch-desc' => 'Lehekülgede lauskustutamine',
 	'maintenance-invalidtype' => 'Vigane tüüp!',
 	'maintenance-name' => 'Kasutajanimi',
 	'maintenance-password' => 'Parool',
@@ -2946,7 +2949,7 @@ Las descripcions son a la seguida de cadun d'aquestes.",
 	'maintenance-deleteRevision-desc' => 'Levar las versions de la banca de donadas',
 	'maintenance-eval-desc' => "Evaluar un còde PHP dins l'environament MediaWiki",
 	'maintenance-initEditCount-desc' => 'Tornar calcular los comptadors d’edicions dels utilizaires',
-	'maintenance-initStats-desc' => 'Tornar calcular las estatisticas del sit',
+	'maintenance-initStats-desc' => 'Tornar calcular las estatisticas del site',
 	'maintenance-moveBatch-desc' => 'Cambiament de nom en massa de las paginas',
 	'maintenance-reassignEdits-desc' => "Tornar assignar de modificacions d'un utilizaire cap a un autre",
 	'maintenance-runJobs-desc' => "Aviar los prètzfaches dins la lista de los d'acomplir",
@@ -2960,7 +2963,7 @@ Marcar la casa burocrata se li desiratz conferir tanben aqueste estatut.',
 Indicar una sola pagina per linha',
 	'maintenance-deleteRevision' => 'Utilizatz aqueste formulari per suprimir en massa las versions.
 Indicatz una sola version per linha',
-	'maintenance-initStats' => 'Utilizatz aqueste formulari per tornar calcular las estatisticas del sit, en indicant, se fa mestièr, se desiratz lo recalcul del nombre de visitas per pagina.',
+	'maintenance-initStats' => 'Utilizatz aqueste formulari per tornar calcular las estatisticas del site, en indicant, se fa mestièr, se desiratz lo recalcul del nombre de visitas per pagina.',
 	'maintenance-moveBatch' => 'Utilizatz aqueste formulari per desplaçar en massa las paginas.
 Cada linha deurà indicar la pagina d’origina e la de destinacion ; las qualas deuràn èsser separadas per un « <nowiki>|</nowiki> »',
 	'maintenance-invalidtype' => 'Tipe incorrècte !',
@@ -3090,7 +3093,7 @@ W każdej linijce podaj tylko jeden numer wersji artykułu.',
 	'maintenance-titlenoexist' => 'Wybrana nazwa „$1” nie istnieje!',
 	'maintenance-failed' => 'NIEPOWODZENIE',
 	'maintenance-deleted' => 'USUNIĘTO',
-	'maintenance-revdelete' => 'Usuwanie wersji $1 z wiki $2',
+	'maintenance-revdelete' => 'Usuwanie {{PLURAL:$3|wersji|wersji:}} $1 z wiki $2',
 	'maintenance-revnotfound' => 'Wersja $1 nie została odnaleziona!',
 	'maintenance-stats-edits' => 'Liczba edycji $1',
 	'maintenance-stats-articles' => 'Liczba stron w głównej przestrzeni nazw $1',
@@ -3370,6 +3373,8 @@ $2',
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'maintenance-name' => 'Nome utende',
+	'maintenance-userexists' => "L'utende già esiste!",
 	'maintenance-stats-edits' => 'Numere de cangiaminde: $1',
 	'maintenance-error' => 'Errore: $1',
 );
