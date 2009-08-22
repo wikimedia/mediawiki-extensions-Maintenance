@@ -197,6 +197,7 @@ $messages['af'] = array(
 	'maintenance-password' => 'Wagwoord',
 	'maintenance-reason' => 'Rede',
 	'maintenance-confirm' => 'Bevestig',
+	'maintenance-deleted' => 'Geskrap',
 	'maintenance-memc-total' => 'totaal:',
 	'maintenance-memc-invalid' => 'ongeldig:',
 	'maintenance-memc-absent' => 'afwesig:',
