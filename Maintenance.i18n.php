@@ -3578,7 +3578,7 @@ Presúvanie sa ruší',
 	'maintenance-re-re' => 'Zmena pôvodcu úprav{{int:ellipsis}} hotovo',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -3666,7 +3666,7 @@ $2',
 	'maintenance-re-re' => 'Приписивање измена{{int:ellipsis}} готово',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  */
 $messages['sr-el'] = array(
