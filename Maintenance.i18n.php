@@ -588,18 +588,25 @@ Opisi su navedeni pored svake skripte',
 	'maintenance-createAndPromote-desc' => 'Napravi korisnika i unaprijedi ga u status administratora',
 	'maintenance-deleteBatch-desc' => 'Masovno brisanje stranica',
 	'maintenance-deleteRevision-desc' => 'Ukloni revizije iz baze podataka',
+	'maintenance-eval-desc' => 'Ocijenjivanje PHP koda u MediaWiki okruženju',
 	'maintenance-initEditCount-desc' => 'Ponovno preračunaj broj izmjena korisnika',
 	'maintenance-initStats-desc' => 'Ponovno izračunavanje statistike sajta',
 	'maintenance-moveBatch-desc' => 'Masovno premještanje stranica',
+	'maintenance-reassignEdits-desc' => 'Prerasporedi izmjene od jednog korisnika drugom',
 	'maintenance-runJobs-desc' => 'Pokreni poslove koji čekaju u redu',
 	'maintenance-showJobs-desc' => 'Pokaži spisak poslova koji čekaju na izvršenje',
 	'maintenance-sql-desc' => 'Izvrši SQL zahtjev',
 	'maintenance-stats-desc' => 'Prikaži Memcached statistike',
 	'maintenance-changePassword' => 'Koristi ovaj obrazac za promjenu šifre korisnika',
+	'maintenance-createAndPromote' => 'Koristite ovaj obrazac za pravljenje novog korisnika i njegovo postavljanje kao administratora.
+Označite kutiju birokrata ako želite da ga unaprijedite i u birokratu',
 	'maintenance-deleteBatch' => 'Koristite ovaj obrazac za masovno brisanje stranica.
 Stavite po jednu stranicu u svaki red',
 	'maintenance-deleteRevision' => 'Koristite ovaj obrazac za masovno brisanje revizija.
 Stavite samo jedan broj revizije u jedan red',
+	'maintenance-initStats' => 'Koristite ovaj obrazac za ponovo računanje statistika sajta, navodeći da li želite i ponovo računanje pregleda stranice',
+	'maintenance-moveBatch' => 'Koristite ovaj obrazac za masovno premještanje stranica.
+Svaka linija treba navesti izvornu stranicu i odredišnu stranicu razdvojene uspravnom linijom',
 	'maintenance-invalidtype' => 'Nevaljan tip!',
 	'maintenance-name' => 'Korisničko ime',
 	'maintenance-password' => 'Šifra',
@@ -647,11 +654,13 @@ Odustajem od premještanja',
 	'maintenance-memc-imagecache' => 'Keš slike',
 	'maintenance-memc-misses' => 'promašaji:',
 	'maintenance-memc-updates' => 'ažuriranja:',
+	'maintenance-memc-uncacheable' => 'ne može se keširati:',
 	'maintenance-memc-diffcache' => 'Diff keš',
 	'maintenance-eval' => 'Koristite ovaj obrazac za ocjenu PHP koda u MediaWiki okruženju.',
 	'maintenance-reassignEdits' => 'Koristite ovaj obrazac za ponovno dodjeljivanje izmjena od jednog korisnika drugom.',
 	'maintenance-re-from' => 'Ime korisnika s kojeg se oduzimaju izmjene',
 	'maintenance-re-to' => 'Ime korisnika kojem se dodjeljuju izmjene',
+	'maintenance-re-force' => 'Ponovo dodijeli čak i ako određeni korisnik ne postoji',
 	'maintenance-re-rc' => 'Ne ažuriraj tabelu nedavnih izmjena',
 	'maintenance-re-report' => 'štampanja detalja o tome šta bi se moglo izmijeniti, ali ih ne ažurira',
 	'maintenance-re-nf' => '{{GENDER:$1|Korisnik|Korisnica}} $1 nije {{GENDER:$1|pronađen|pronađena}}',
@@ -660,6 +669,7 @@ Odustajem od premještanja',
 	'maintenance-re-de' => 'Obrisane izmjene: $1',
 	'maintenance-re-rce' => 'Stavke nedavnih promjena: $1',
 	'maintenance-re-total' => 'Ukupno stavki za izmjenu: $1',
+	'maintenance-re-re' => 'Preraspoređivanje izmjena{{int:ellipsis}} završeno',
 );
 
 /** Catalan (Català)
@@ -2340,6 +2350,7 @@ Dat Ömnenne weed jeshtopp.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Purodha
  * @author Robby
  */
@@ -2351,7 +2362,7 @@ $messages['lb'] = array(
 	'maintenance-header' => "Sicht w.e.g. ënnendrëmmer e Script eraus fir auszeféieren.
 D'Beschreiwunge stinn niewent all Script.",
 	'maintenance-changePassword-desc' => 'Engem Benotzer säi Passwuert änneren',
-	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an dem de Statut vun engem Administrateur ginn',
+	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an deem de Statut vun engem Administrateur ginn',
 	'maintenance-deleteBatch-desc' => 'Vill Säite matenee läschen',
 	'maintenance-deleteRevision-desc' => 'Versiounen aus der Datebank eraushuelen',
 	'maintenance-eval-desc' => 'PHP-Code am MediaWiki-Kontext bewerten',
@@ -2389,6 +2400,8 @@ An all Linn soll en Quellsäit an eng Zilsäit, getrennt duerch een ''<nowiki>|<
 	'maintenance-revnotfound' => "D'Versioun $1 gouf net fonnt!",
 	'maintenance-sql' => 'Dëse Formaulaire benotze fir eng SQL-Ufro an der Datebank ze maachen.',
 	'maintenance-sql-aff' => 'Betraffe Reien: $1',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|Rei|Reien}} zréckgeschéckt:
+$2',
 	'maintenance-stats-edits' => 'Zuel vun den Ännerungen: $1',
 	'maintenance-stats-articles' => 'Zuel vun de Säiten am Haaptnummraum: $1',
 	'maintenance-stats-pages' => 'Zuel vun de Säiten: $1',
@@ -4190,6 +4203,7 @@ Topätükam pestöpädon.',
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'maintenance-reason' => 'אורזאַך',
 	'maintenance-confirm' => 'באַשטעטיגן',
 );
 
