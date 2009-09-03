@@ -925,6 +925,8 @@ Pśesunjenje pśetergnjone',
  * @author ZaDiak
  */
 $messages['el'] = array(
+	'maintenance-changePassword-desc' => 'Αλλαγή κωδικού ενός χρήστη',
+	'maintenance-sql-desc' => 'Εκτέλεση ενός αιτήματος SQL',
 	'maintenance-invalidtype' => 'Μη έγκυρος τύπος!',
 	'maintenance-name' => 'Όνομα χρήστη',
 	'maintenance-password' => 'Κωδικός',
@@ -939,6 +941,8 @@ $messages['el'] = array(
 	'maintenance-failed' => 'ΑΠΕΤΥΧΕ',
 	'maintenance-deleted' => 'ΔΙΑΓΡΑΜΜΕΝΟΣ',
 	'maintenance-revnotfound' => 'Η έκδοση $1 δεν βρέθηκε!',
+	'maintenance-sql-res' => '$1 {{PLURAL:$1|σειρά ήρθε|σειρές ήρθαν}}:
+$2',
 	'maintenance-stats-edits' => 'Αριθμός επεξεργασιών: $1',
 	'maintenance-stats-articles' => 'Αριθμός σελίδων στην κύρια περιοχή: $1',
 	'maintenance-stats-pages' => 'Αριθμός σελίδων: $1',
@@ -949,7 +953,11 @@ $messages['el'] = array(
 	'maintenance-stats-update' => 'Ενημέρωση βάσης δεδομένων{{int:ellipsis}}',
 	'maintenance-move' => 'Μετακίνηση $1 σε $2{{int:ellipsis}}',
 	'maintenance-error' => 'Σφάλμα: $1',
+	'maintenance-memc-requests' => 'Αιτήσεις',
+	'maintenance-memc-withsession' => 'με σύνοδο:',
+	'maintenance-memc-withoutsession' => 'χωρίς σύνοδο:',
 	'maintenance-memc-total' => 'σύνολο:',
+	'maintenance-memc-parsercache' => 'Λανθάνουσα λεξιαναλυτή',
 	'maintenance-memc-hits' => 'χτυπήματα:',
 	'maintenance-memc-invalid' => 'μη έγκυρο:',
 	'maintenance-memc-expired' => 'ληγμένο:',
@@ -958,6 +966,7 @@ $messages['el'] = array(
 	'maintenance-memc-misses' => 'αστοχίες:',
 	'maintenance-memc-updates' => 'αναβαθμίσεις:',
 	'maintenance-memc-uncacheable' => 'χωρίς λανθάνουσα μνήμη:',
+	'maintenance-memc-diffcache' => 'Λανθάνουσα μνήμη διαφορών',
 	'maintenance-re-nf' => 'Ο χρήστης $1 δεν βρέθηκε',
 	'maintenance-re-ce' => 'Τωρινές επεξεργασίες: $1',
 	'maintenance-re-de' => 'Διαγραμμένες επεξεργασίες: $1',
