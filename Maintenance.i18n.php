@@ -2396,6 +2396,7 @@ An all Linn soll en Quellsäit an eng Zilsäit, getrennt duerch een ''<nowiki>|<
 	'maintenance-password' => 'Passwuert',
 	'maintenance-bureaucrat' => 'Engem Benotzer de Bürokrate-Status ginn',
 	'maintenance-reason' => 'Grond',
+	'maintenance-update' => "UPDATE benotze fir eng Tabell z'aktualiséieren? Wann et net ugekräizt ass gëtt DELETE/INSERT dofir benotzt.",
 	'maintenance-noviews' => "Dëst nokucke fir d'Aktualisatioun vun der Zuel vun deVisite vun der Säit ze verhënneren",
 	'maintenance-confirm' => 'Confirméieren',
 	'maintenance-invalidname' => 'Ongëltege Benotzernumm!',
