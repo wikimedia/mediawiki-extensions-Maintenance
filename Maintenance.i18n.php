@@ -944,6 +944,7 @@ $messages['el'] = array(
 	'maintenance-failed' => 'ΑΠΕΤΥΧΕ',
 	'maintenance-deleted' => 'ΔΙΑΓΡΑΜΜΕΝΟΣ',
 	'maintenance-revnotfound' => 'Η έκδοση $1 δεν βρέθηκε!',
+	'maintenance-sql-aff' => 'Σειρές που επηρεάζονται: $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|σειρά ήρθε|σειρές ήρθαν}}:
 $2',
 	'maintenance-stats-edits' => 'Αριθμός επεξεργασιών: $1',
