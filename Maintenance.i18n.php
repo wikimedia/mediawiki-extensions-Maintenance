@@ -1861,6 +1861,21 @@ Přesunjenje přetorhnjene',
 	'maintenance-re-re' => 'Změny se připokazuja{{int:ellipsis}} sčinjeny',
 );
 
+/** Hungarian (Magyar)
+ * @author Glanthor Reviol
+ */
+$messages['hu'] = array(
+	'maintenance' => 'Karbantartó-szkriptek futtatása',
+	'maintenance-backlink' => 'Vissza a szkript-választáshoz',
+	'maintenance-moveBatch-desc' => 'Lapok tömeges átnevezése',
+	'maintenance-sql-desc' => 'SQL-lekérdezés futtatása',
+	'maintenance-invalidtype' => 'Érvénytelen típus!',
+	'maintenance-password' => 'jelszó',
+	'maintenance-stats-pages' => 'Lapok száma: $1',
+	'maintenance-stats-users' => 'Felhasználók száma: $1',
+	'maintenance-stats-admins' => 'Adminisztrátorok száma: $1',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
