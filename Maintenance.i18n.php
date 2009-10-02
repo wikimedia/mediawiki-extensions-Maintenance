@@ -711,7 +711,7 @@ $messages['cu'] = array(
 $messages['de'] = array(
 	'maintenance' => 'Wartungsskript starten',
 	'maintenance-desc' => '[[Special:Maintenance|Webinterface]] für verschiedene Wartungsskripte',
-	'right-maintenance' => 'Starte Wartungsskripte über [[Special:Maintenance]]',
+	'right-maintenance' => 'Wartungsskripte über [[Special:Maintenance]] starten',
 	'maintenance-backlink' => 'Zurück zur Skript-Auswahl',
 	'maintenance-header' => 'Bitte wähle ein Skript zur Ausführung aus.
 Beschreibungen stehen neben jedem Skript.',
