@@ -3962,6 +3962,7 @@ $messages['te'] = array(
 	'maintenance-invalidname' => 'తప్పుడు వాడుకరిపేరు!',
 	'maintenance-success' => '$1 విజయవంతంగా నడిచింది!',
 	'maintenance-userexists' => 'వాడుకరి ఇప్పటికే ఉన్నారు!',
+	'maintenance-invalidtitle' => 'తప్పుడు శీర్షిక "$1"!',
 	'maintenance-failed' => 'విఫలమైనది',
 	'maintenance-deleted' => 'తొలిగించబడినది',
 	'maintenance-stats-edits' => 'మార్పుల సంఖ్య: $1',
