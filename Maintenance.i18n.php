@@ -1903,6 +1903,7 @@ $messages['hu'] = array(
 	'maintenance-memc-imagecache' => 'Kép gyorsítótár',
 	'maintenance-memc-updates' => 'frissítések:',
 	'maintenance-memc-uncacheable' => 'nem gyorsítótárazható:',
+	'maintenance-re-nf' => '$1 felhasználó nem található',
 	'maintenance-re-ce' => 'Aktuális szerkesztések: $1',
 	'maintenance-re-de' => 'Törölt szerkesztések: $1',
 	'maintenance-re-rce' => 'Friss változtatások bejegyzései: $1',
