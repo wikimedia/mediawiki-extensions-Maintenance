@@ -4279,6 +4279,8 @@ Topätükam pestöpädon.',
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'maintenance-name' => 'באַניצער נאָמען',
+	'maintenance-password' => 'פאַסווארט',
 	'maintenance-reason' => 'אורזאַך',
 	'maintenance-confirm' => 'באַשטעטיגן',
 );
