@@ -1866,16 +1866,32 @@ Přesunjenje přetorhnjene',
  */
 $messages['hu'] = array(
 	'maintenance' => 'Karbantartó-szkriptek futtatása',
+	'maintenance-desc' => '[[Special:Maintenance|Wikis felület]] különböző karbantartó parancsfájlokhoz',
 	'right-maintenance' => 'Karbantartó szkriptek futtatása a [[Special:Maintenance]] speciális lap segítségével',
 	'maintenance-backlink' => 'Vissza a szkript-választáshoz',
+	'maintenance-header' => 'Kérlek válaszd ki a futtatni kívánt parancsfájlt alább.
+Minden parancsfájl mellett látható a leírása',
 	'maintenance-changePassword-desc' => 'Felhasználói jelszavak megváltoztatása',
 	'maintenance-createAndPromote-desc' => 'Felhasználó létrehozása és előléptetése adminisztrátorrá',
 	'maintenance-deleteBatch-desc' => 'Lapok tömeges törlése',
+	'maintenance-deleteRevision-desc' => 'Változatok eltávolítása az adatbázisból',
+	'maintenance-eval-desc' => 'PHP kód kiértékelése a MediaWiki környezetben',
 	'maintenance-initEditCount-desc' => 'Felhasználók szerkesztéseinek újraszámolása',
 	'maintenance-initStats-desc' => 'Oldal statisztikáinak újraszámolása',
 	'maintenance-moveBatch-desc' => 'Lapok tömeges átnevezése',
+	'maintenance-reassignEdits-desc' => 'Szerkesztések átkönyvelése egyik felhasználótól egy másikhoz',
+	'maintenance-runJobs-desc' => 'Feladatok futtatása a feladat várakozási sorban',
+	'maintenance-showJobs-desc' => 'Mutasd a feladat várakozási sorban függőben levő feladatok listáját',
 	'maintenance-sql-desc' => 'SQL-lekérdezés futtatása',
 	'maintenance-stats-desc' => 'Memcached statisztika megjelenítése',
+	'maintenance-changePassword' => 'Használd ezt az űrlapot egy felhasználó jelszavának megváltoztatásához',
+	'maintenance-createAndPromote' => 'Használd ezt az űrlapot egy új felhasználó létrehozásához adminisztrátori jogosultsággal.
+Kattintsd be a bürokrata jelölőnégyzetet ha bürokratává is szeretnéd tenni',
+	'maintenance-deleteBatch' => 'Használd ezt az űrlapot lapok tömeges törléséhez.
+Soronként csak egy lapot adj meg',
+	'maintenance-deleteRevision' => 'Használd ezt az űrlapot változatok tömeges törléséhez.
+Soronként csak egy változat-azonosítót adj meg',
+	'maintenance-initStats' => 'Használd ezt az űrlapot az oldal statisztikáinak újraszámolásához, és add meg, hogy a lapmegjelenítéseket is újra szeretnéd-e számoltatni',
 	'maintenance-invalidtype' => 'Érvénytelen típus!',
 	'maintenance-name' => 'Felhasználói név',
 	'maintenance-password' => 'jelszó',
