@@ -1028,6 +1028,7 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Imre
  * @author Locos epraix
+ * @author Translationista
  */
 $messages['es'] = array(
 	'maintenance' => 'Ejecutar scripts de mantenimiento',
@@ -1041,6 +1042,7 @@ $messages['es'] = array(
 	'maintenance-initStats-desc' => 'Recalcular estadísticas del sitio',
 	'maintenance-moveBatch-desc' => 'Movilización masiva de páginas',
 	'maintenance-reassignEdits-desc' => 'Reasignar ediciones de un usuario a otro',
+	'maintenance-showJobs-desc' => 'Mostrar un listado de trabajos pendientes en la cola de trabajo',
 	'maintenance-createAndPromote' => 'Usar este formulario para crear un nuevo usuario y promoverlo para administrador.
 Verificar la tabla de burócrata si deseas promoverlo a burócrata también',
 	'maintenance-deleteBatch' => 'Usar este formulario para borrado masivo de páginas.
