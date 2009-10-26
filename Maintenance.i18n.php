@@ -1042,7 +1042,9 @@ $messages['es'] = array(
 	'maintenance-initStats-desc' => 'Recalcular estadísticas del sitio',
 	'maintenance-moveBatch-desc' => 'Movilización masiva de páginas',
 	'maintenance-reassignEdits-desc' => 'Reasignar ediciones de un usuario a otro',
+	'maintenance-runJobs-desc' => 'Ejecutar los trabajos de la cola de trabajos',
 	'maintenance-showJobs-desc' => 'Mostrar un listado de trabajos pendientes en la cola de trabajo',
+	'maintenance-sql-desc' => 'Ejecutar una consulta SQL',
 	'maintenance-createAndPromote' => 'Usar este formulario para crear un nuevo usuario y promoverlo para administrador.
 Verificar la tabla de burócrata si deseas promoverlo a burócrata también',
 	'maintenance-deleteBatch' => 'Usar este formulario para borrado masivo de páginas.
@@ -1065,6 +1067,7 @@ Coloque solamente un número de revisión por línea',
 	'maintenance-deleted' => 'BORRADO',
 	'maintenance-revdelete' => 'Borrando {{PLURAL:$3|revisión|revisiones}} $1 del wiki $2',
 	'maintenance-revnotfound' => 'Revisión $1 no encontrada!',
+	'maintenance-sql' => 'Utilizar este formulario para ejecutar una consulta SQL en la base de datos.',
 	'maintenance-sql-aff' => 'Filas afectadas: $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|fila|filas}} retornadas:
 $2',
