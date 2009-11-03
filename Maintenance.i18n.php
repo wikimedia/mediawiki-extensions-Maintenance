@@ -574,6 +574,19 @@ $2',
 	'maintenance-memc-total' => 'общо:',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
+	'maintenance-name' => 'Anv implijer',
+	'maintenance-password' => 'Ger-tremen',
+	'maintenance-reason' => 'Abeg',
+	'maintenance-deleted' => 'DILAMET',
+	'maintenance-error' => 'Fazi : $1',
+	'maintenance-re-nf' => "An implijer $1 n'eo ket bet kavet",
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
@@ -1867,6 +1880,7 @@ Přesunjenje přetorhnjene',
 );
 
 /** Hungarian (Magyar)
+ * @author Dani
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -1910,6 +1924,7 @@ Soronként csak egy változat-azonosítót adj meg',
 	'maintenance-failed' => 'Sikertelen',
 	'maintenance-deleted' => 'TÖRÖLVE',
 	'maintenance-revnotfound' => 'A(z) $1 változat nem található!',
+	'maintenance-sql' => 'Ezen űrlap segítségével SQL-lekérdezést futtathatsz az adatbázison.',
 	'maintenance-sql-aff' => 'Érintett sorok: $1',
 	'maintenance-stats-edits' => 'Szerkesztések száma: $1',
 	'maintenance-stats-pages' => 'Lapok száma: $1',
@@ -1917,7 +1932,10 @@ Soronként csak egy változat-azonosítót adj meg',
 	'maintenance-stats-admins' => 'Adminisztrátorok száma: $1',
 	'maintenance-stats-images' => 'Fájlok száma: $1',
 	'maintenance-stats-views' => 'Lapletöltések száma: $1',
+	'maintenance-movefail' => 'Hiba történt az áthelyezés közben: $1.
+Áthelyezés megszakítása',
 	'maintenance-error' => 'Hiba: $1',
+	'maintenance-memc-fake' => 'A FakeMemCachedClientet futtatod. Nem lehet statisztikát készíteni',
 	'maintenance-memc-requests' => 'Kérelmek',
 	'maintenance-memc-total' => 'összesen:',
 	'maintenance-memc-parsercache' => 'Elemző gyorsítótára',
@@ -1928,12 +1946,18 @@ Soronként csak egy változat-azonosítót adj meg',
 	'maintenance-memc-imagecache' => 'Kép gyorsítótár',
 	'maintenance-memc-updates' => 'frissítések:',
 	'maintenance-memc-uncacheable' => 'nem gyorsítótárazható:',
+	'maintenance-eval' => 'Ezen űrlap segítségével PHP-kódot futtathatsz a MediaWiki környezetben.',
+	'maintenance-reassignEdits' => 'Ezen űrlap segítségével szerkesztéseket adhatsz át egyik felhasználótól a másiknak.',
+	'maintenance-re-from' => 'A felhasználó neve, akitől elveszed a szerkesztéseket',
+	'maintenance-re-to' => 'A felhasználó neve, akinek adod a szerkesztéseket',
+	'maintenance-re-force' => 'Akkor is adja át, ha a felhasználó nem létezik',
 	'maintenance-re-rc' => 'Ne frissítsd a friss változtatások táblát',
 	'maintenance-re-nf' => '$1 felhasználó nem található',
 	'maintenance-re-ce' => 'Aktuális szerkesztések: $1',
 	'maintenance-re-de' => 'Törölt szerkesztések: $1',
 	'maintenance-re-rce' => 'Friss változtatások bejegyzései: $1',
 	'maintenance-re-total' => 'Összes megváltoztatandó bejegyzés: $1',
+	'maintenance-re-re' => 'Szerkesztések átadása … megtörtént',
 );
 
 /** Interlingua (Interlingua)
