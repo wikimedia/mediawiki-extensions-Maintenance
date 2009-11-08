@@ -1888,7 +1888,7 @@ $messages['hu'] = array(
 	'maintenance' => 'Karbantartó-szkriptek futtatása',
 	'maintenance-desc' => '[[Special:Maintenance|Wikis felület]] különböző karbantartó parancsfájlokhoz',
 	'right-maintenance' => 'Karbantartó szkriptek futtatása a [[Special:Maintenance]] speciális lap segítségével',
-	'maintenance-backlink' => 'Vissza a szkriptválasztáshoz',
+	'maintenance-backlink' => 'Vissza a parancsfájl-választáshoz',
 	'maintenance-header' => 'Kérlek válaszd ki az alábbiak közül a futtatni kívánt parancsfájlt.
 Minden parancsfájl mellett megtalálható a leírása',
 	'maintenance-changePassword-desc' => 'Felhasználói jelszavak megváltoztatása',
@@ -1942,8 +1942,8 @@ $2',
 	'maintenance-stats-admins' => 'Adminisztrátorok száma: $1',
 	'maintenance-stats-images' => 'Fájlok száma: $1',
 	'maintenance-stats-views' => 'Lapletöltések száma: $1',
-	'maintenance-stats-update' => 'Adatbázis frissítése{{int:ellipsis}}',
-	'maintenance-move' => '$1 átnevezése $2 címre{{int:ellipsis}}',
+	'maintenance-stats-update' => 'Adatbázis frissítése…',
+	'maintenance-move' => '$1 átnevezése $2 címre…',
 	'maintenance-movefail' => 'Hiba történt az áthelyezés közben: $1.
 Áthelyezés megszakítása',
 	'maintenance-error' => 'Hiba: $1',
@@ -1959,7 +1959,7 @@ $2',
 	'maintenance-memc-absent' => 'hiányzik:',
 	'maintenance-memc-stub' => 'csonkok határa:',
 	'maintenance-memc-imagecache' => 'Kép gyorsítótár',
-	'maintenance-memc-misses' => 'tévedések:',
+	'maintenance-memc-misses' => 'találati hibák:',
 	'maintenance-memc-updates' => 'frissítések:',
 	'maintenance-memc-uncacheable' => 'nem gyorsítótárazható:',
 	'maintenance-memc-diffcache' => 'Változatok közötti eltérések gyorsítótára',
@@ -3479,19 +3479,33 @@ Abortando a movimentação',
 
 /** Romanian (Română)
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
 	'maintenance' => 'Rulează scripturile de întreţinere',
+	'maintenance-desc' => '[[Special:Maintenance|Interfaţa wiki]] pentru diferite scripturi de întreţinere',
 	'right-maintenance' => 'Rulează scripturile de întreţinere prin [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Înapoi la selecţia scriptului',
+	'maintenance-header' => 'Vă rugăm să selectaţi de mai jos un script pentru executare.
+Descrierile se află în apropierea fiecărui script',
 	'maintenance-changePassword-desc' => 'Schimbă parola unui utilizator',
 	'maintenance-createAndPromote-desc' => 'Creează un utilizator şi promovează-l la statutul de administrator',
 	'maintenance-deleteBatch-desc' => 'Şterge pagini în masă',
 	'maintenance-deleteRevision-desc' => 'Şterge reviziile din baza de date',
+	'maintenance-eval-desc' => 'Evaluează codul PHP în mediul MediaWiki',
 	'maintenance-initEditCount-desc' => 'Recalculează numărul de modificări ale utilizatorilor',
 	'maintenance-initStats-desc' => 'Recalculează statisticile sitului',
 	'maintenance-moveBatch-desc' => 'Mută pagini în masă',
+	'maintenance-reassignEdits-desc' => 'Redistribuie contribuţiile de la un utilizator la altul',
 	'maintenance-sql-desc' => 'Execută o interogare SQL',
+	'maintenance-stats-desc' => 'Arată statisticile Memcached',
+	'maintenance-changePassword' => 'Utilizaţi acest formular pentru a schimba parola unui utilizator',
+	'maintenance-createAndPromote' => 'Utilizaţi acest formular pentru a crea un nou utilizator şi a-l promova la statutul de administrator.
+Bifaţi şi caseta „birocrat” dacă doriţi să-l promovaţi şi la statutul de birocrat',
+	'maintenance-deleteBatch' => 'Utilizaţi acest formular pentru ştergerea în masă a paginilor.
+Puneţi doar o pagină pe un rând',
+	'maintenance-deleteRevision' => 'Utilizaţi acest formular pentru ştergerea în masă a reviziilor.
+Puneţi doar o revizie pe un rând',
 	'maintenance-invalidtype' => 'Tip incorect!',
 	'maintenance-name' => 'Nume de utilizator',
 	'maintenance-password' => 'Parolă',
