@@ -3346,6 +3346,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
  */
@@ -3394,7 +3395,7 @@ Cada linha deverá especificar uma página fonte e uma página destino, separada
 	'maintenance-titlenoexist' => 'O título especificado ("$1") não existe!',
 	'maintenance-failed' => 'FALHADO',
 	'maintenance-deleted' => 'ELIMINADO',
-	'maintenance-revdelete' => 'Eliminando {{PLURAL:$3|revisão|revisões}} $1 do wiki $2',
+	'maintenance-revdelete' => 'Eliminando {{PLURAL:$3|revisão|revisões}} $1 da wiki $2',
 	'maintenance-revnotfound' => 'Revisão $1 não encontrada!',
 	'maintenance-sql' => 'Use este formulário para executar um comando SQL na base de dados.',
 	'maintenance-sql-aff' => 'Linhas afetadas: $1',
