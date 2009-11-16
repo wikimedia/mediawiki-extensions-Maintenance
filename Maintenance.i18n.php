@@ -572,6 +572,8 @@ $2',
 	'maintenance-memc-withsession' => 'със сесия:',
 	'maintenance-memc-withoutsession' => 'без сесия:',
 	'maintenance-memc-total' => 'общо:',
+	'maintenance-re-ce' => 'Текущи редакции: $1',
+	'maintenance-re-de' => 'Изтрити редакции: $1',
 );
 
 /** Breton (Brezhoneg)
