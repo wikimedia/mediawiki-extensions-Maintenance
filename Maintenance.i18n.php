@@ -581,12 +581,24 @@ $2',
  */
 $messages['br'] = array(
 	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
+	'maintenance-deleteBatch-desc' => "Dilemel pajennoù a-yoc'h",
+	'maintenance-moveBatch-desc' => "Dilec'hiañ pajennoù a-yoc'h",
+	'maintenance-sql-desc' => 'Seveniñ ur reked SQL',
 	'maintenance-name' => 'Anv implijer',
 	'maintenance-password' => 'Ger-tremen',
 	'maintenance-reason' => 'Abeg',
+	'maintenance-confirm' => 'Kadarnaat',
+	'maintenance-userexists' => 'An implijer zo anezhañ dija !',
+	'maintenance-failed' => "C'HWITET",
 	'maintenance-deleted' => 'DILAMET',
+	'maintenance-stats-pages' => 'Niver a bajennoù : $1',
+	'maintenance-stats-users' => 'Niver a implijerien : $1',
+	'maintenance-stats-images' => 'Niver a restroù : $1',
 	'maintenance-error' => 'Fazi : $1',
+	'maintenance-memc-requests' => 'Rekedoù',
+	'maintenance-memc-updates' => 'hizivadennoù :',
 	'maintenance-re-nf' => "An implijer $1 n'eo ket bet kavet",
+	'maintenance-re-de' => 'Aozadennoù dilamet : $1',
 );
 
 /** Bosnian (Bosanski)
