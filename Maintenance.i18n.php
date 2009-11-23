@@ -1423,7 +1423,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-name' => 'Nome de usuario',
 	'maintenance-password' => 'Contrasinal',
 	'maintenance-bureaucrat' => 'Promover este usuario ao status de burócrata',
-	'maintenance-reason' => 'Razón',
+	'maintenance-reason' => 'Motivo',
 	'maintenance-update' => 'Desexa usar ACTUALIZAR ao actualizar unha táboa? Se non marca a opción, usarase, no canto diso, BORRAR/INSERTAR.',
 	'maintenance-noviews' => 'Comprove isto para previr a actualización do número de visionados por páxina',
 	'maintenance-confirm' => 'Confirmar',
