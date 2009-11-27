@@ -3430,7 +3430,7 @@ $2',
 	'maintenance-movefail' => 'Erro encontrado durante a movimentação: $1.
 A abortar a movimentação',
 	'maintenance-error' => 'Erro: $1',
-	'maintenance-memc-fake' => 'Você está a executar o FakeMemCachedClient. Estatísticas não podem ser fornecidas.',
+	'maintenance-memc-fake' => 'Está a executar o FakeMemCachedClient. Não podem ser fornecidas estatísticas.',
 	'maintenance-memc-requests' => 'Pedidos',
 	'maintenance-memc-withsession' => 'com sessão:',
 	'maintenance-memc-withoutsession' => 'sem sessão:',
