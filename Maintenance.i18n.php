@@ -578,6 +578,7 @@ $2',
 
 /** Breton (Brezhoneg)
  * @author Fohanno
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
@@ -591,13 +592,22 @@ $messages['br'] = array(
 	'maintenance-userexists' => 'An implijer zo anezhañ dija !',
 	'maintenance-failed' => "C'HWITET",
 	'maintenance-deleted' => 'DILAMET',
+	'maintenance-stats-edits' => 'Niver a gemmoù : $1',
+	'maintenance-stats-articles' => "Niver a bajennoù el lec'h pennañ : $1",
 	'maintenance-stats-pages' => 'Niver a bajennoù : $1',
 	'maintenance-stats-users' => 'Niver a implijerien : $1',
+	'maintenance-stats-admins' => 'Niver a verourien',
 	'maintenance-stats-images' => 'Niver a restroù : $1',
+	'maintenance-stats-views' => 'Niver a bajennoù gweladennet : $1',
 	'maintenance-error' => 'Fazi : $1',
 	'maintenance-memc-requests' => 'Rekedoù',
+	'maintenance-memc-total' => 'hollad :',
+	'maintenance-memc-expired' => 'aet diwar termen :',
+	'maintenance-memc-absent' => 'ezvezant :',
+	'maintenance-memc-misses' => 'kollet :',
 	'maintenance-memc-updates' => 'hizivadennoù :',
 	'maintenance-re-nf' => "An implijer $1 n'eo ket bet kavet",
+	'maintenance-re-ce' => 'Kemmoù a-vremañ : $1',
 	'maintenance-re-de' => 'Aozadennoù dilamet : $1',
 );
 
