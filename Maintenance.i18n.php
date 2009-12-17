@@ -585,6 +585,7 @@ $messages['br'] = array(
 	'maintenance-deleteBatch-desc' => "Dilemel pajennoù a-yoc'h",
 	'maintenance-moveBatch-desc' => "Dilec'hiañ pajennoù a-yoc'h",
 	'maintenance-sql-desc' => 'Seveniñ ur reked SQL',
+	'maintenance-invalidtype' => 'Seurt direizh !',
 	'maintenance-name' => 'Anv implijer',
 	'maintenance-password' => 'Ger-tremen',
 	'maintenance-reason' => 'Abeg',
@@ -4463,10 +4464,13 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author PhiLiP
  * @author Wrightbus
  */
 $messages['zh-hans'] = array(
 	'maintenance-password' => '密码',
+	'maintenance-reason' => '原因',
+	'maintenance-confirm' => '确认',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
