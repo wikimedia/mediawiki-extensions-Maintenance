@@ -3582,6 +3582,7 @@ Abortando a movimentação',
 );
 
 /** Romanian (Română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
  */
@@ -3637,6 +3638,11 @@ $2',
 	'maintenance-memc-withsession' => 'cu sesiune:',
 	'maintenance-memc-withoutsession' => 'fără sesiune:',
 	'maintenance-memc-total' => 'total:',
+	'maintenance-memc-hits' => 'clickuri:',
+	'maintenance-memc-invalid' => 'incorect:',
+	'maintenance-memc-expired' => 'expirat:',
+	'maintenance-memc-absent' => 'absent:',
+	'maintenance-memc-updates' => 'actualizări:',
 	'maintenance-re-ce' => 'Modificări curente: $1',
 	'maintenance-re-de' => 'Modificări şterse: $1',
 );
@@ -4143,6 +4149,7 @@ $messages['te'] = array(
 	'maintenance-changePassword-desc' => 'వాడుకరి యొక్క సంకేతపదం మార్చండి',
 	'maintenance-initEditCount-desc' => 'వాడుకరులు మార్పుల సంఖ్యను మళ్లీ లెక్కించు',
 	'maintenance-initStats-desc' => 'సైటు గణాంకాలని మళ్ళీ లెక్కించు',
+	'maintenance-invalidtype' => 'చెల్లని రకం!',
 	'maintenance-name' => 'వాడుకరిపేరు',
 	'maintenance-password' => 'సంకేతపదం',
 	'maintenance-reason' => 'కారణం',
@@ -4163,6 +4170,7 @@ $messages['te'] = array(
 	'maintenance-error' => 'పొరపాటు: $1',
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
 	'maintenance-memc-total' => 'మొత్తం:',
+	'maintenance-memc-invalid' => 'చెల్లనివి:',
 );
 
 /** Tetum (Tetun)
@@ -4283,12 +4291,39 @@ Itinitigil ang paglilipat',
 /** Turkish (Türkçe)
  * @author Karduelis
  * @author Suelnur
+ * @author Vito Genovese
  */
 $messages['tr'] = array(
+	'maintenance' => 'Bakım betiklerini çalıştır',
+	'maintenance-desc' => 'Çeşitli bakım betikleri için [[Special:Maintenance|viki arayüzü]]',
+	'maintenance-backlink' => 'Betik seçimine geri dön',
+	'maintenance-header' => 'Lütfen çalıştırmak için aşağıdan bir betik seçin.
+Her betiğin yanında açıklamalarına yer verilmiştir.',
+	'maintenance-changePassword-desc' => 'Bir kullanıcının parolasını değiştir',
+	'maintenance-deleteBatch-desc' => 'Sayfaları toplu sil',
+	'maintenance-initEditCount-desc' => 'Kullanıcıların değişiklik sayılarını tekrar hesapla',
+	'maintenance-initStats-desc' => 'Site istatistiklerini tekrar hesapla',
+	'maintenance-moveBatch-desc' => 'Sayfaları toplu taşı',
+	'maintenance-name' => 'Kullanıcı adı',
 	'maintenance-password' => 'Parola',
 	'maintenance-reason' => 'Neden',
 	'maintenance-deleted' => 'Silindi',
+	'maintenance-stats-edits' => 'Değişiklik sayısı: $1',
+	'maintenance-stats-articles' => 'Ana isim alanındaki sayfaların saysı: $1',
+	'maintenance-stats-pages' => 'Sayfa sayısı: $1',
+	'maintenance-stats-users' => 'Kullanıcı sayısı: $1',
+	'maintenance-stats-admins' => 'Hizmetli sayısı: $1',
+	'maintenance-stats-images' => 'Dosya sayısı: $1',
+	'maintenance-stats-views' => 'Sayfa görüntüleme sayısı: $1',
 	'maintenance-error' => 'Hata: $1',
+	'maintenance-memc-requests' => 'İstekler',
+	'maintenance-memc-withsession' => 'oturumlu:',
+	'maintenance-memc-withoutsession' => 'oturumsuz:',
+	'maintenance-memc-hits' => 'eşleşme:',
+	'maintenance-memc-stub' => 'taslak eşiği:',
+	'maintenance-memc-imagecache' => 'Resim önbelleği',
+	'maintenance-memc-updates' => 'güncellemeler',
+	'maintenance-re-ce' => 'Mevcut değişiklik: $1',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
