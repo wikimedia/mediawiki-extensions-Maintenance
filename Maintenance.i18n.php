@@ -3174,6 +3174,7 @@ Avbryter flytting',
 	'maintenance-memc-updates' => 'Oppdateringer:',
 	'maintenance-memc-uncacheable' => 'Kan ikke mellomlagres:',
 	'maintenance-memc-diffcache' => 'Forskjellsmellomlager',
+	'maintenance-eval' => 'Bruk dette skjemaet for å evaluere PHP-kode i MediaWiki-miljøet.',
 	'maintenance-re-rc' => 'Ikke oppdater tabellen over siste endringer',
 	'maintenance-re-report' => 'Skriv ut detaljer av det som ville ha endret seg, men ikke oppdater det',
 	'maintenance-re-nf' => 'Fant ikke bruker $1',
@@ -4338,6 +4339,13 @@ $messages['ug-arab'] = array(
  */
 $messages['ug-latn'] = array(
 	'maintenance-name' => 'Ishletkuchi ismi',
+);
+
+/** Ukrainian (Українська)
+ * @author Prima klasy4na
+ */
+$messages['uk'] = array(
+	'maintenance-confirm' => 'Підтвердити',
 );
 
 /** Veps (Vepsan kel')
