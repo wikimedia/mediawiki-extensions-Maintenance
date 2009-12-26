@@ -345,12 +345,12 @@ $messages['arz'] = array(
 	'maintenance-changePassword' => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
 	'maintenance-createAndPromote' => 'استخدم هذه الإستمارة لإنشاء مستخدم جديد وترقيته إلى مدير نظام.
 علم على صندوق البيروقراط لو كنت ترغب فى ترقيته إلى بيروقراط أيضا',
-	'maintenance-deleteBatch' => 'استخدم هذه الإستمارة لحذف الصفحات بشكل كمي.
+	'maintenance-deleteBatch' => 'استخدم هذه الإستمارة لحذف الصفحات بشكل كمى.
 ضع فقط صفحة واحدة فى كل سطر',
-	'maintenance-deleteRevision' => 'استخدم هذه الإستمارة لحذف المراجعات بشكل كمي.
+	'maintenance-deleteRevision' => 'استخدم هذه الإستمارة لحذف المراجعات بشكل كمى.
 ضع فقط رقم مراجعة واحد فى كل سطر',
 	'maintenance-initStats' => 'استخدم هذه الإستمارة لإعادة حساب إحصاءات الموقع، محددا ما إذا كنت ترغب فى إعادة حساب مشاهدات الصفحات أيضا',
-	'maintenance-moveBatch' => 'استخدم هذه الإستمارة لنقل الصفحات بشكل كمي.
+	'maintenance-moveBatch' => 'استخدم هذه الإستمارة لنقل الصفحات بشكل كمى.
 كل سطر ينبغى أن يحدد صفحة مصدر وصفحة هدف مفصولين ببايب',
 	'maintenance-invalidtype' => 'نوع غير صحيح!',
 	'maintenance-name' => 'اسم يوزر',
@@ -2473,6 +2473,13 @@ $2',
 	'maintenance-re-de' => 'កំណែប្រែ​ដែល​បាន​លុប: $1',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'maintenance-reason' => 'ಕಾರಣ',
+);
+
 /** Korean (한국어)
  * @author Ficell
  * @author Kwj2772
@@ -4516,13 +4523,16 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Liangent
  * @author PhiLiP
  * @author Wrightbus
  */
 $messages['zh-hans'] = array(
+	'maintenance-name' => '使用者名称',
 	'maintenance-password' => '密码',
 	'maintenance-reason' => '原因',
 	'maintenance-confirm' => '确认',
+	'maintenance-memc-requests' => '请求',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
