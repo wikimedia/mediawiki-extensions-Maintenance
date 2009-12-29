@@ -1137,10 +1137,12 @@ $2',
 	'maintenance-memc-withoutsession' => 'sin sesión:',
 	'maintenance-memc-total' => 'total:',
 	'maintenance-memc-parsercache' => 'Cache de analizador',
+	'maintenance-memc-hits' => 'resultados:',
 	'maintenance-memc-invalid' => 'inválido:',
 	'maintenance-memc-expired' => 'expirado:',
 	'maintenance-memc-absent' => 'ausente:',
 	'maintenance-memc-imagecache' => 'Cache de imagen',
+	'maintenance-memc-misses' => 'fallos:',
 	'maintenance-memc-updates' => 'actualizaciones:',
 	'maintenance-eval' => 'Utiliza este formulario para evaluar código PHP en ambiente MediaWiki.',
 	'maintenance-reassignEdits' => 'Usar este formulario para reasignar ediciones de un usuario a otro.',
@@ -1148,6 +1150,7 @@ $2',
 	'maintenance-re-nf' => 'Usuario $1 no encontrado',
 	'maintenance-re-ce' => 'Ediciones actuales: $1',
 	'maintenance-re-de' => 'Ediciones borradas: $1',
+	'maintenance-re-rce' => 'Entradas de cambios recientes: $1',
 );
 
 /** Estonian (Eesti)
@@ -4286,6 +4289,13 @@ $messages['th'] = array(
 	'maintenance-reason' => 'เหตุผล',
 	'maintenance-confirm' => 'ยืนยัน',
 	'maintenance-memc-total' => 'รวม:',
+);
+
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'maintenance-name' => 'Ulanyjy ady',
 );
 
 /** Tagalog (Tagalog)
