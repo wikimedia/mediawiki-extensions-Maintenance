@@ -1070,6 +1070,7 @@ $messages['eo'] = array(
 	'maintenance-memc-misses' => 'maltrafoj:',
 	'maintenance-memc-updates' => 'ĝisdatigoj:',
 	'maintenance-memc-diffcache' => 'Diferenca Kaŝmemoro',
+	'maintenance-re-ce' => 'Nunaj redaktoj: $1',
 	'maintenance-re-de' => 'Forigitaj redaktoj: $1',
 );
 
@@ -1144,6 +1145,7 @@ $2',
 	'maintenance-memc-imagecache' => 'Cache de imagen',
 	'maintenance-memc-misses' => 'fallos:',
 	'maintenance-memc-updates' => 'actualizaciones:',
+	'maintenance-memc-diffcache' => 'Caché de Dif',
 	'maintenance-eval' => 'Utiliza este formulario para evaluar código PHP en ambiente MediaWiki.',
 	'maintenance-reassignEdits' => 'Usar este formulario para reasignar ediciones de un usuario a otro.',
 	'maintenance-re-rc' => 'No actualizar la tabla de cambios recientes',
