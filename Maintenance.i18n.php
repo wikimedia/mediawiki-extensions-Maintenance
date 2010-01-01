@@ -853,8 +853,11 @@ Verschieben abgebrochen',
 
 /** German (formal address) (Deutsch (Sie-Form))
  * @author ChrisiPK
+ * @author Imre
  */
 $messages['de-formal'] = array(
+	'maintenance-header' => 'Bitte wählen Sie ein Skript zur Ausführung aus.
+Beschreibungen stehen neben jedem Skript.',
 	'maintenance-createAndPromote' => 'Verwenden Sie diese Maske, um einen neuen Benutzer zu erstellen und ihn zum Administrator zu ernennen.
 Aktivieren Sie die Bürokrat-Checkbox, wenn Sie ihn auch zum Bürokraten machen möchten.',
 	'maintenance-deleteBatch' => 'Verwenden Sie diese Maske, um viele Seiten zu löschen.
@@ -1192,6 +1195,7 @@ $messages['eu'] = array(
  * @author Silvonen
  * @author Str4nd
  * @author Vililikku
+ * @author ZeiP
  */
 $messages['fi'] = array(
 	'maintenance' => 'Suorita ylläpitoskriptejä',
@@ -1208,6 +1212,7 @@ $messages['fi'] = array(
 	'maintenance-initEditCount-desc' => 'Laske uudelleen käyttäjien muokkausmäärät',
 	'maintenance-initStats-desc' => 'Laske sivuston tilastot uudelleen',
 	'maintenance-moveBatch-desc' => 'Massasiirrä sivuja',
+	'maintenance-reassignEdits-desc' => 'Määritä muokkauksia käyttäjältä toiselle',
 	'maintenance-runJobs-desc' => 'Aja työt ohjelmiston ylläpitotyöjonosta',
 	'maintenance-showJobs-desc' => 'Näytä lista töistä ylläpitotyöjonossa',
 	'maintenance-sql-desc' => 'Suorita SQL-kysely',
@@ -1240,6 +1245,7 @@ Jokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina',
 	'maintenance-revdelete' => 'Poistetaan {{PLURAL:$3|versio|versiot}} $1 wikistä $2',
 	'maintenance-revnotfound' => 'Versiota $1 ei löydy.',
 	'maintenance-sql' => 'Tällä lomakkeella voit tehdä SQL-kyselyitä tietokannasta.',
+	'maintenance-sql-aff' => 'Muutettuja rivejä: $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|rivi|riviä}} palasi:
 $2',
 	'maintenance-stats-edits' => 'Muokkauksia yhteensä: $1',
@@ -1262,15 +1268,28 @@ Keskeytetään siirto',
 	'maintenance-memc-parsercache' => 'Jäsentimen välimuisti',
 	'maintenance-memc-hits' => 'osumia:',
 	'maintenance-memc-invalid' => 'kelvottomia:',
+	'maintenance-memc-expired' => 'vanhentunut:',
 	'maintenance-memc-absent' => 'poissa:',
+	'maintenance-memc-stub' => 'tyngän raja:',
 	'maintenance-memc-imagecache' => 'Kuvien välimuisti',
 	'maintenance-memc-misses' => 'huteja:',
 	'maintenance-memc-updates' => 'päivityksiä:',
+	'maintenance-memc-uncacheable' => 'ei-välimuistitettava:',
+	'maintenance-memc-diffcache' => 'Erolistausvälimuisti',
 	'maintenance-eval' => 'Käytä tätä lomaketta PHP-koodin suorittamiseksi MediaWiki-ympäristössä.',
+	'maintenance-reassignEdits' => 'Käytä tätä lomaketta määrittääksesi muokkauksen yhdeltä käyttäjältä toiselle.',
+	'maintenance-re-from' => 'Sen käyttäjän nimi, jolta muokkaus otetaan',
+	'maintenance-re-to' => 'Sen käyttäjän nimi, jolle muokkaus annetaan',
+	'maintenance-re-force' => 'Määritä uudelleen, vaikka kohdekäyttäjää ei olisi olemassa',
+	'maintenance-re-rc' => 'Älä päivitä tuoreet muutokset -taulua',
+	'maintenance-re-report' => 'Tulosta tiedot siitä mitä muutettaisiin, mutta älä tee muutoksia',
 	'maintenance-re-nf' => 'Käyttäjää $1 ei löydy',
+	'maintenance-re-rr' => 'Aja komentosarja uudestaan ilman valintaa ”$1” tehdäksesi muutokset.',
 	'maintenance-re-ce' => 'Nykyisiä muokkauksia: $1',
 	'maintenance-re-de' => 'Poistettuja muokkauksia: $1',
+	'maintenance-re-rce' => 'Tuoreiden muutosten tietueet: $1',
 	'maintenance-re-total' => 'Yhteensä muutoksia: $1',
+	'maintenance-re-re' => 'Määritetään uudestaan muokkauksia{{int:ellipsis}} valmis',
 );
 
 /** French (Français)
@@ -4411,13 +4430,23 @@ $messages['tr'] = array(
 Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-changePassword-desc' => 'Bir kullanıcının parolasını değiştir',
 	'maintenance-deleteBatch-desc' => 'Sayfaları toplu sil',
+	'maintenance-deleteRevision-desc' => 'Sürümleri veritabanından kaldır',
 	'maintenance-initEditCount-desc' => 'Kullanıcıların değişiklik sayılarını tekrar hesapla',
 	'maintenance-initStats-desc' => 'Site istatistiklerini tekrar hesapla',
 	'maintenance-moveBatch-desc' => 'Sayfaları toplu taşı',
+	'maintenance-runJobs-desc' => 'İş kuyruğunda işleri yürüt',
+	'maintenance-invalidtype' => 'Geçersiz tür!',
 	'maintenance-name' => 'Kullanıcı adı',
 	'maintenance-password' => 'Parola',
+	'maintenance-bureaucrat' => 'Kullanıcıyı bürokrat statüsüne yükselt',
 	'maintenance-reason' => 'Neden',
+	'maintenance-confirm' => 'Onayla',
+	'maintenance-invalidname' => 'Geçersiz kullanıcı adı!',
+	'maintenance-userexists' => 'Kullanıcı zaten mevcut!',
+	'maintenance-failed' => 'BAŞARISIZ',
 	'maintenance-deleted' => 'Silindi',
+	'maintenance-revnotfound' => '$1 sürümü bulunamadı!',
+	'maintenance-sql-aff' => 'Etkilenen satırlar: $1',
 	'maintenance-stats-edits' => 'Değişiklik sayısı: $1',
 	'maintenance-stats-articles' => 'Ana isim alanındaki sayfaların saysı: $1',
 	'maintenance-stats-pages' => 'Sayfa sayısı: $1',
@@ -4429,11 +4458,18 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-memc-requests' => 'İstekler',
 	'maintenance-memc-withsession' => 'oturumlu:',
 	'maintenance-memc-withoutsession' => 'oturumsuz:',
+	'maintenance-memc-total' => 'toplam:',
+	'maintenance-memc-parsercache' => 'Ayrıştırıcı önbellek',
 	'maintenance-memc-hits' => 'eşleşme:',
 	'maintenance-memc-stub' => 'taslak eşiği:',
 	'maintenance-memc-imagecache' => 'Resim önbelleği',
 	'maintenance-memc-updates' => 'güncellemeler',
+	'maintenance-memc-diffcache' => 'Fark Önbelleği',
+	'maintenance-re-rc' => 'Son değişiklikler tablosunu güncellemeyin',
 	'maintenance-re-ce' => 'Mevcut değişiklik: $1',
+	'maintenance-re-de' => 'Silinen değişiklikler: $1',
+	'maintenance-re-rce' => 'SonDeğişiklikler girdileri: $1',
+	'maintenance-re-total' => 'Değiştirilecek toplam girdi: $1',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
