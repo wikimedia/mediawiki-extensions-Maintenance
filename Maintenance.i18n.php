@@ -3488,6 +3488,18 @@ Przenoszenie przerwane.',
 	'maintenance-error' => 'Błąd: $1',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'maintenance' => 'Fa giré script ëd manutension',
+	'maintenance-desc' => '[[Special:Maintenance|Antërfacia Wiki]] për vàire script ëd manutension',
+	'right-maintenance' => 'Fa giré script ëd manutensin con [[Special:Maintenance]]',
+	'maintenance-backlink' => 'André a la selession ëd jë script',
+	'maintenance-header' => 'Për piasì selession-a në script sota da fé giré.
+Le descrission a don daré a minca script',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
