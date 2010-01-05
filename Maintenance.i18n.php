@@ -1151,6 +1151,8 @@ $2',
 	'maintenance-memc-diffcache' => 'Caché de Dif',
 	'maintenance-eval' => 'Utiliza este formulario para evaluar código PHP en ambiente MediaWiki.',
 	'maintenance-reassignEdits' => 'Usar este formulario para reasignar ediciones de un usuario a otro.',
+	'maintenance-re-from' => 'Nombre del usuario desde el cual se asigna ediciones',
+	'maintenance-re-to' => 'Nombre del usuario a quien se asigna ediciones',
 	'maintenance-re-rc' => 'No actualizar la tabla de cambios recientes',
 	'maintenance-re-nf' => 'Usuario $1 no encontrado',
 	'maintenance-re-ce' => 'Ediciones actuales: $1',
@@ -3489,15 +3491,16 @@ Przenoszenie przerwane.',
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'maintenance' => 'Fa giré script ëd manutension',
 	'maintenance-desc' => '[[Special:Maintenance|Antërfacia Wiki]] për vàire script ëd manutension',
-	'right-maintenance' => 'Fa giré script ëd manutensin con [[Special:Maintenance]]',
-	'maintenance-backlink' => 'André a la selession ëd jë script',
-	'maintenance-header' => 'Për piasì selession-a në script sota da fé giré.
-Le descrission a don daré a minca script',
+	'right-maintenance' => 'Fa giré un senari ëd manutension con [[Special:Maintenance]]',
+	'maintenance-backlink' => 'André a la selession dël senari',
+	'maintenance-header' => "Për piasì ch'a selession-a un senari sì-sota da fé giré.
+Le descrission a son tacà a minca senari",
 );
 
 /** Pashto (پښتو)
