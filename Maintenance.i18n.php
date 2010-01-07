@@ -1099,6 +1099,7 @@ $messages['es'] = array(
 	'maintenance-runJobs-desc' => 'Ejecutar los trabajos de la cola de trabajos',
 	'maintenance-showJobs-desc' => 'Mostrar un listado de trabajos pendientes en la cola de trabajo',
 	'maintenance-sql-desc' => 'Ejecutar una consulta SQL',
+	'maintenance-changePassword' => 'Utiliza este formulario para cambiar la contraseña de un usuario:',
 	'maintenance-createAndPromote' => 'Usar este formulario para crear un nuevo usuario y promoverlo para administrador.
 Verificar la tabla de burócrata si deseas promoverlo a burócrata también',
 	'maintenance-deleteBatch' => 'Usar este formulario para borrado masivo de páginas.
@@ -2859,7 +2860,7 @@ $messages['ml'] = array(
 	'maintenance-confirm' => 'സ്ഥിരീകരിക്കുക',
 	'maintenance-invalidname' => 'അസാധുവായ ഉപയോക്തൃനാമം!',
 	'maintenance-success' => '$1 വിജയകരമായി ഓടിച്ചിരിക്കുന്നു!',
-	'maintenance-userexists' => 'ഉപയോക്തനാമം നിലവിലുണ്ട്',
+	'maintenance-userexists' => 'ഉപയോക്തൃനാമം നിലവിലുണ്ട്',
 	'maintenance-invalidtitle' => 'അസാധുവായ തലക്കെട്ട് "$1"!',
 	'maintenance-titlenoexist' => '("$1") എന്ന ശീര്‍ഷകത്തിലുള്ള ലേഖനം നിലവിലില്ല',
 	'maintenance-failed' => 'പരാജയപ്പെട്ടു',
