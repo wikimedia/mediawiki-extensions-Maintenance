@@ -1466,7 +1466,7 @@ Comprobe a caixa de burócrata se quere tamén promovelo ao status de burócrata
 Poña só unha páxina por liña',
 	'maintenance-deleteRevision' => 'Use este formulario para borrar revisións en masa.
 Poña só un número de revisión por liña',
-	'maintenance-initStats' => 'Use este formulario para volver calcular as estatíticas do sitio, especificando se tamén quere calcular de novo os visionados por páxina',
+	'maintenance-initStats' => 'Use este formulario para volver calcular as estatísticas do sitio, especificando se tamén quere calcular de novo as vistas por páxina',
 	'maintenance-moveBatch' => 'Use este formulario para mover páxinas en masa.
 Cada liña debería especificar unha fonte e destino da páxina separados por unha barra (“|”)',
 	'maintenance-invalidtype' => 'Tipo inválido!',
@@ -1475,7 +1475,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-bureaucrat' => 'Promover este usuario ao status de burócrata',
 	'maintenance-reason' => 'Motivo',
 	'maintenance-update' => 'Desexa usar ACTUALIZAR ao actualizar unha táboa? Se non marca a opción, usarase, no canto diso, BORRAR/INSERTAR.',
-	'maintenance-noviews' => 'Comprove isto para previr a actualización do número de visionados por páxina',
+	'maintenance-noviews' => 'Comprove isto para previr a actualización do número de vistas por páxina',
 	'maintenance-confirm' => 'Confirmar',
 	'maintenance-invalidname' => 'Nome de usuario inválido!',
 	'maintenance-success' => '$1 executouse con éxito!',
@@ -1496,7 +1496,7 @@ $2',
 	'maintenance-stats-users' => 'Número de usuarios: $1',
 	'maintenance-stats-admins' => 'Número de administradores: $1',
 	'maintenance-stats-images' => 'Número de ficheiros: $1',
-	'maintenance-stats-views' => 'Número de visionados por páxina: $1',
+	'maintenance-stats-views' => 'Número de vistas por páxina: $1',
 	'maintenance-stats-update' => 'Actualizando a base de datos{{int:ellipsis}}',
 	'maintenance-move' => 'Movendo "$1" a "$2"{{int:ellipsis}}',
 	'maintenance-movefail' => 'Produciuse un erro durante o movemento: $1.
