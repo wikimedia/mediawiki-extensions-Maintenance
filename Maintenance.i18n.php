@@ -3504,6 +3504,7 @@ $messages['pms'] = array(
 	'maintenance-backlink' => 'André a la selession dël senari',
 	'maintenance-header' => "Për piasì ch'a selession-a un senari sì-sota da fé giré.
 Le descrission a son tacà a minca senari",
+	'maintenance-changePassword-desc' => 'Cangia na ciav utent',
 );
 
 /** Pashto (پښتو)
