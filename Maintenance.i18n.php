@@ -154,6 +154,7 @@ Aborting move',
  * @author Lloffiwr
  * @author Purodha
  * @author Siebrand
+ * @author Translationista
  */
 $messages['qqq'] = array(
 	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
@@ -161,7 +162,9 @@ $messages['qqq'] = array(
 	'maintenance-name' => '{{Identical|Username}}',
 	'maintenance-password' => '{{Identical|Password}}',
 	'maintenance-reason' => '{{Identical|Reason}}',
-	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.",
+	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
+
+Are UPDATE and DELETE/INSERT also translatable?",
 	'maintenance-confirm' => '{{Identical|Confirm}}',
 	'maintenance-deleted' => '{{Identical|Deleted}}',
 	'maintenance-revdelete' => '* $1 is a list of revisions numbers
