@@ -2658,7 +2658,7 @@ D'Beschreiwunge stinn niewent all Script.",
 	'maintenance-changePassword' => "Dëse Formulaire benotze fir engem Benotzer säi Passwuert z'änneren",
 	'maintenance-createAndPromote' => "Dëse Formulaire benotze fir en neie Benotzer unzeleeën a fir him Adminstrateur's-Rechter ze ginn.
 Klickt d'Bürokrate-Këscht u wann Dir wëllt datt en och Bürokrat gi soll.",
-	'maintenance-deleteBatch' => 'Dëse Formulaire benotzen fir eng Rei vu Säiten ze läschen.
+	'maintenance-deleteBatch' => 'Dëse Formulaire benotze fir eng Rei vu Säiten ze läschen.
 Nëmmen eng Säit pro Linn aginn.',
 	'maintenance-deleteRevision' => 'Benotzt dëse Formulaire fir vill Versioune mateneen ze läschen.
 Schreiwt an all Linn just eng Versioun.',
