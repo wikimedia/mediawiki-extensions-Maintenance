@@ -606,6 +606,7 @@ Lakait ur bajenn hepken dre linenn',
 	'maintenance-titlenoexist' => 'N\'eus ket eus an titl bet lakaet ("$1") !',
 	'maintenance-failed' => "C'HWITET",
 	'maintenance-deleted' => 'DILAMET',
+	'maintenance-revdelete' => 'Dilemel an {{PLURAL:$3|adweladenn|adweladennoù}} $1 eus ar wiki $2',
 	'maintenance-revnotfound' => "N'eo ket bet adkavet an adweladenn $1 !",
 	'maintenance-sql' => 'Implijout ar furmskrid-mañ da seveniñ ur reked SQL war an diaz roadennoù.',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|linenn|linenn}} adkaset:
