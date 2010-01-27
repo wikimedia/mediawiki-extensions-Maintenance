@@ -1099,8 +1099,11 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'maintenance' => 'Ejecutar scripts de mantenimiento',
+	'maintenance-desc' => '[[Special:Maintenance|Interfaz wiki]] para variados scripts de mantenimiento',
 	'right-maintenance' => 'Ejecutar scripts de mantenimiento a través de [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Regresar a selección de escritura',
+	'maintenance-header' => 'Por favor, seleccione el script de abajo para ejecutarlo.
+Las descripciones están del lado de cada script',
 	'maintenance-changePassword-desc' => 'Cambiar la contraseña de un usuario',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario y promoverlo al status de administrador',
 	'maintenance-deleteBatch-desc' => 'Borrao masivo de páginas',
@@ -1121,6 +1124,8 @@ Coloque solamente una página por línea',
 	'maintenance-deleteRevision' => 'Usar este formulario para borrado masivo de revisiones.
 Coloque solamente un número de revisión por línea',
 	'maintenance-initStats' => 'Usar este formulario para recalcular estadísticas del sitio, especificando si deseas recalcular vistas de página también',
+	'maintenance-moveBatch' => 'Use este formulario para mover páginas en masa.
+Cada línea debería especificar una página fuente y página destino separadas por una barra (“|”)',
 	'maintenance-invalidtype' => 'Tipo inválido!',
 	'maintenance-name' => 'Nombre de usuario',
 	'maintenance-password' => 'Contraseña',
