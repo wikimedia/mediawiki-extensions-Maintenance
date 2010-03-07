@@ -585,8 +585,10 @@ $2',
  */
 $messages['br'] = array(
 	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
+	'maintenance-createAndPromote-desc' => "Krouiñ un implijer hag uhelaat d'ar statud merour",
 	'maintenance-deleteBatch-desc' => "Dilemel pajennoù a-yoc'h",
 	'maintenance-deleteRevision-desc' => 'Lemel adweladennoù eus an diaz roadennoù',
+	'maintenance-initEditCount-desc' => 'Adjediñ konter kemmoù an implijerien',
 	'maintenance-initStats-desc' => "Adjediñ stadegoù al lec'hienn",
 	'maintenance-moveBatch-desc' => "Dilec'hiañ pajennoù a-yoc'h",
 	'maintenance-sql-desc' => 'Seveniñ ur reked SQL',
@@ -630,10 +632,14 @@ $2',
 	'maintenance-memc-absent' => 'ezvezant :',
 	'maintenance-memc-misses' => 'kollet :',
 	'maintenance-memc-updates' => 'hizivadennoù :',
+	'maintenance-re-from' => "Anv an implijer da biv eo ret kemer ar c'hemmoù",
+	'maintenance-re-to' => "Anv an implijer da biv eo ret deverkañ ar c'hemmoù",
 	'maintenance-re-rc' => "Chom hep hizivaat taolenn ar c'hemmoù nevez",
 	'maintenance-re-nf' => "An implijer $1 n'eo ket bet kavet",
 	'maintenance-re-ce' => 'Kemmoù a-vremañ : $1',
 	'maintenance-re-de' => 'Aozadennoù dilamet : $1',
+	'maintenance-re-rce' => "Monedoù e taolenn ar c'hemmoù ziwezhañ : $1",
+	'maintenance-re-total' => 'Niver hollek a gemmoù da gemmañ : $1',
 );
 
 /** Bosnian (Bosanski)
