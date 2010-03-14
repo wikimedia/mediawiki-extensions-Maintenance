@@ -581,6 +581,7 @@ $2',
 
 /** Breton (Brezhoneg)
  * @author Fohanno
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -614,12 +615,12 @@ Lakait ur bajenn hepken dre linenn',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|linenn|linenn}} adkaset:
 $2',
 	'maintenance-stats-edits' => 'Niver a gemmoù : $1',
-	'maintenance-stats-articles' => "Niver a bajennoù el lec'h pennañ : $1",
+	'maintenance-stats-articles' => 'Niver a bajennoù en esaouenn bennañ : $1',
 	'maintenance-stats-pages' => 'Niver a bajennoù : $1',
 	'maintenance-stats-users' => 'Niver a implijerien : $1',
 	'maintenance-stats-admins' => 'Niver a verourien : $1',
 	'maintenance-stats-images' => 'Niver a restroù : $1',
-	'maintenance-stats-views' => 'Niver a bajennoù gweladennet : $1',
+	'maintenance-stats-views' => 'Niver a bajennoù gwelet : $1',
 	'maintenance-stats-update' => "Oc'h hizivaat an diaz roadennoù{{int:ellipsis}}",
 	'maintenance-move' => "Dilec'hiañ $1 da $2{{int:ellipsis}}",
 	'maintenance-error' => 'Fazi : $1',
@@ -628,15 +629,15 @@ $2',
 	'maintenance-memc-withoutsession' => 'hep ar gont :',
 	'maintenance-memc-total' => 'hollad :',
 	'maintenance-memc-invalid' => 'direizh :',
-	'maintenance-memc-expired' => 'aet diwar termen :',
+	'maintenance-memc-expired' => "aet d'e dermen :",
 	'maintenance-memc-absent' => 'ezvezant :',
-	'maintenance-memc-misses' => 'kollet :',
+	'maintenance-memc-misses' => "c'hwitet :",
 	'maintenance-memc-updates' => 'hizivadennoù :',
 	'maintenance-re-from' => "Anv an implijer da biv eo ret kemer ar c'hemmoù",
 	'maintenance-re-to' => "Anv an implijer da biv eo ret deverkañ ar c'hemmoù",
 	'maintenance-re-rc' => "Chom hep hizivaat taolenn ar c'hemmoù nevez",
 	'maintenance-re-nf' => "An implijer $1 n'eo ket bet kavet",
-	'maintenance-re-ce' => 'Kemmoù a-vremañ : $1',
+	'maintenance-re-ce' => 'Kemmoù evit poent : $1',
 	'maintenance-re-de' => 'Aozadennoù dilamet : $1',
 	'maintenance-re-rce' => "Monedoù e taolenn ar c'hemmoù ziwezhañ : $1",
 	'maintenance-re-total' => 'Niver hollek a gemmoù da gemmañ : $1',
