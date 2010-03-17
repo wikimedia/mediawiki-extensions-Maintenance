@@ -120,7 +120,7 @@ $aliases['ko'] = array(
 	'Maintenance' => array( '정비' ),
 );
 
-/** Ripoarisch (Ripoarisch) */
+/** Colognian (Ripoarisch) */
 $aliases['ksh'] = array(
 	'Maintenance' => array( 'Waadung' ),
 );
