@@ -585,6 +585,8 @@ $2',
  * @author Y-M D
  */
 $messages['br'] = array(
+	'maintenance' => 'Lañsañ ar skriptoù kas en-dro',
+	'maintenance-backlink' => 'Distreiñ da zibab ar skript',
 	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
 	'maintenance-createAndPromote-desc' => "Krouiñ un implijer hag uhelaat d'ar statud merour",
 	'maintenance-deleteBatch-desc' => "Dilemel pajennoù a-yoc'h",
@@ -612,6 +614,7 @@ Lakait ur bajenn hepken dre linenn',
 	'maintenance-revdelete' => 'Dilemel an {{PLURAL:$3|adweladenn|adweladennoù}} $1 eus ar wiki $2',
 	'maintenance-revnotfound' => "N'eo ket bet adkavet an adweladenn $1 !",
 	'maintenance-sql' => 'Implijout ar furmskrid-mañ da seveniñ ur reked SQL war an diaz roadennoù.',
+	'maintenance-sql-aff' => 'Linennoù lakaet : $1',
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|linenn|linenn}} adkaset:
 $2',
 	'maintenance-stats-edits' => 'Niver a gemmoù : $1',
