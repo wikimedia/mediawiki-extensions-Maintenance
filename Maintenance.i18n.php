@@ -2754,6 +2754,7 @@ Réckelen ofgebrach',
 	'maintenance-re-de' => 'Geläschten Ännerungen: $1',
 	'maintenance-re-rce' => 'Zuel vun de rezenten Ännerungen: $1',
 	'maintenance-re-total' => "Total vun den Ännerunge déi z'ännere sinn: $1",
+	'maintenance-re-re' => 'Reassignéiere vun Ännerungen{{int:ellipsis}} ass gemaach',
 );
 
 /** Lingua Franca Nova (Lingua Franca Nova)
