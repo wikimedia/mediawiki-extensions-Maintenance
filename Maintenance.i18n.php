@@ -1111,6 +1111,7 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Imre
  * @author Locos epraix
+ * @author Pertile
  * @author Translationista
  */
 $messages['es'] = array(
@@ -1132,6 +1133,7 @@ Las descripciones están del lado de cada script',
 	'maintenance-runJobs-desc' => 'Ejecutar los trabajos de la cola de trabajos',
 	'maintenance-showJobs-desc' => 'Mostrar un listado de trabajos pendientes en la cola de trabajo',
 	'maintenance-sql-desc' => 'Ejecutar una consulta SQL',
+	'maintenance-stats-desc' => 'Mostrar estadísticas Memcached',
 	'maintenance-changePassword' => 'Utiliza este formulario para cambiar la contraseña de un usuario:',
 	'maintenance-createAndPromote' => 'Usar este formulario para crear un nuevo usuario y promoverlo para administrador.
 Verificar la tabla de burócrata si deseas promoverlo a burócrata también',
@@ -1147,6 +1149,8 @@ Cada línea debería especificar una página fuente y página destino separadas 
 	'maintenance-password' => 'Contraseña',
 	'maintenance-bureaucrat' => 'Promover usuario al status de burócrata',
 	'maintenance-reason' => 'Motivo',
+	'maintenance-update' => '¿Utilizar UPDATE cuando se actualiza una tabla? Si está desmarcado utiliza DELETE/INSERT en lugar de UPDATE.',
+	'maintenance-noviews' => 'Verificar esto para evitar la actualización del número de vistas a la página',
 	'maintenance-confirm' => 'Confirmar',
 	'maintenance-invalidname' => 'Nombre de usuario inválido!',
 	'maintenance-success' => '$1 se ejecutó con éxito!',
@@ -1170,6 +1174,8 @@ $2',
 	'maintenance-stats-views' => 'Número de vistas de página: $1',
 	'maintenance-stats-update' => 'Actualizando base de datos...',
 	'maintenance-move' => 'Moviendo $1 a $2...',
+	'maintenance-movefail' => 'Se ha producido un error mientras se trasladaba: $1.
+Se cancela el traslado.',
 	'maintenance-error' => 'Error: $1',
 	'maintenance-memc-fake' => 'Estás ejecutando FakeMemCachedClient. Estadísticas no pueden ser proveídas',
 	'maintenance-memc-requests' => 'Solicitudes',
@@ -1181,6 +1187,7 @@ $2',
 	'maintenance-memc-invalid' => 'inválido:',
 	'maintenance-memc-expired' => 'expirado:',
 	'maintenance-memc-absent' => 'ausente:',
+	'maintenance-memc-stub' => 'umbral de esbozo:',
 	'maintenance-memc-imagecache' => 'Cache de imagen',
 	'maintenance-memc-misses' => 'fallos:',
 	'maintenance-memc-updates' => 'actualizaciones:',
@@ -1199,6 +1206,7 @@ $2',
 	'maintenance-re-de' => 'Ediciones borradas: $1',
 	'maintenance-re-rce' => 'Entradas de cambios recientes: $1',
 	'maintenance-re-total' => 'Cantidad total de entradas a cambiar: $1',
+	'maintenance-re-re' => 'Reasignando las ediciones {{int:ellipsis}} hecho',
 );
 
 /** Estonian (Eesti)
@@ -3675,7 +3683,7 @@ As descrições estão junto a cada script',
 	'maintenance-deleteRevision-desc' => 'Remover revisões da base de dados',
 	'maintenance-eval-desc' => 'Interpretar código PHP no ambiente MediaWiki',
 	'maintenance-initEditCount-desc' => 'Recalcular a contagem de edições de utilizadores',
-	'maintenance-initStats-desc' => 'Recalcular estatísticas do sítio',
+	'maintenance-initStats-desc' => 'Recalcular estatísticas do site',
 	'maintenance-moveBatch-desc' => 'Mover páginas em bloco',
 	'maintenance-reassignEdits-desc' => 'Reatribuir edições de um utilizador para outro',
 	'maintenance-runJobs-desc' => 'Executar tarefas na fila de tarefas',
@@ -3689,7 +3697,7 @@ Assinale a caixa de burocrata se pretende também promovê-lo a burocrata',
 Coloque apenas uma página por linha',
 	'maintenance-deleteRevision' => 'Utilize este formulário para eliminar revisões em massa.
 Coloque apenas um número de revisão por linha',
-	'maintenance-initStats' => 'Utilize este formulário para recalcular as estatísticas do sítio, especificando se pretende recalcular as visualizações de página também',
+	'maintenance-initStats' => 'Utilize este formulário para recalcular as estatísticas do site, especificando se pretende recalcular as visualizações de página também',
 	'maintenance-moveBatch' => 'Utilize este formulário para mover páginas em massa.
 Cada linha deverá especificar uma página fonte e uma página destino, separadas por uma barra vertical ("pipe")',
 	'maintenance-invalidtype' => 'Tipo inválido!',
