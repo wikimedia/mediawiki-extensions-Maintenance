@@ -3547,6 +3547,8 @@ W każdej linijce podaj tylko jeden numer wersji artykułu.',
 	'maintenance-movefail' => 'Wystąpił błąd przy przenoszeniu $1.
 Przenoszenie przerwane.',
 	'maintenance-error' => 'Błąd: $1',
+	'maintenance-memc-parsercache' => 'Pamięć podręczna parsera',
+	'maintenance-memc-updates' => 'Aktualizacje:',
 );
 
 /** Piedmontese (Piemontèis)
