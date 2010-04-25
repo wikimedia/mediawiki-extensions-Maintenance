@@ -3024,10 +3024,11 @@ $messages['ms'] = array(
 );
 
 /** Maltese (Malti)
+ * @author Chrisportelli
  * @author Roderick Mallia
  */
 $messages['mt'] = array(
-	'maintenance-name' => 'Isem l-utent',
+	'maintenance-name' => 'Isem tal-utent',
 );
 
 /** Erzya (Эрзянь)
@@ -3699,7 +3700,7 @@ Assinale a caixa de burocrata se pretende também promovê-lo a burocrata',
 Coloque apenas uma página por linha',
 	'maintenance-deleteRevision' => 'Utilize este formulário para eliminar revisões em massa.
 Coloque apenas um número de revisão por linha',
-	'maintenance-initStats' => 'Utilize este formulário para recalcular as estatísticas do site, especificando se pretende recalcular as visualizações de página também',
+	'maintenance-initStats' => 'Utilize este formulário para recalcular as estatísticas do site, especificando se pretende recalcular também os visionamentos de páginas',
 	'maintenance-moveBatch' => 'Utilize este formulário para mover páginas em massa.
 Cada linha deverá especificar uma página fonte e uma página destino, separadas por uma barra vertical ("pipe")',
 	'maintenance-invalidtype' => 'Tipo inválido!',
@@ -3707,8 +3708,8 @@ Cada linha deverá especificar uma página fonte e uma página destino, separada
 	'maintenance-password' => 'Palavra-chave',
 	'maintenance-bureaucrat' => 'Promover utilizador a estatuto de burocrata',
 	'maintenance-reason' => 'Motivo',
-	'maintenance-update' => 'Usar UPDATE para atualizar uma tabela? Se desselecionado, usa DELETE/INSERT.',
-	'maintenance-noviews' => 'Assinale aqui para prevenir a atualização do número de visualizações de página',
+	'maintenance-update' => 'Usar UPDATE para actualizar tabelas? Se desmarcado, será usado DELETE/INSERT.',
+	'maintenance-noviews' => 'Marque esta opção para impedir a actualização dos visionamentos de páginas',
 	'maintenance-confirm' => 'Confirmar',
 	'maintenance-invalidname' => 'Nome de utilizador inválido!',
 	'maintenance-success' => '$1 executado com sucesso!',
@@ -3729,8 +3730,8 @@ $2',
 	'maintenance-stats-users' => 'Número de utilizadores: $1',
 	'maintenance-stats-admins' => 'Número de administradores: $1',
 	'maintenance-stats-images' => 'Número de ficheiros: $1',
-	'maintenance-stats-views' => 'Número de visualizações de página: $1',
-	'maintenance-stats-update' => 'A atualizar base de dados{{int:ellipsis}}',
+	'maintenance-stats-views' => 'Número de visionamentos: $1',
+	'maintenance-stats-update' => 'A actualizar a base de dados{{int:ellipsis}}',
 	'maintenance-move' => 'A mover $1 para $2{{int:ellipsis}}',
 	'maintenance-movefail' => 'Erro encontrado durante a movimentação: $1.
 A abortar a movimentação',
@@ -3748,7 +3749,7 @@ A abortar a movimentação',
 	'maintenance-memc-stub' => 'limite de esboço:',
 	'maintenance-memc-imagecache' => 'Cache de imagens',
 	'maintenance-memc-misses' => 'faltas:',
-	'maintenance-memc-updates' => 'atualizações:',
+	'maintenance-memc-updates' => 'actualizações:',
 	'maintenance-memc-uncacheable' => 'não "cacháveis":',
 	'maintenance-memc-diffcache' => 'Cache de Diferenças',
 	'maintenance-eval' => 'Utilize este formulário para executar código PHP no ambiente MediaWiki.',
@@ -3756,10 +3757,10 @@ A abortar a movimentação',
 	'maintenance-re-from' => 'Nome do utilizador a que desatribuir edições',
 	'maintenance-re-to' => 'Nome do utilizador a que atribuir edições',
 	'maintenance-re-force' => 'Re-atribuir mesmo que o utilizador alvo não exista',
-	'maintenance-re-rc' => 'Não atualizar a tabela de modificações recentes',
-	'maintenance-re-report' => 'Apresentar detalhes do que seria alterado, mas não o atualizar',
+	'maintenance-re-rc' => 'Não actualizar a tabela de modificações recentes',
+	'maintenance-re-report' => 'Apresentar detalhes do que seria alterado, mas não alterar',
 	'maintenance-re-nf' => 'Utilizador $1 não encontrado',
-	'maintenance-re-rr' => 'Executar o script novamente sem "$1" para atualizar.',
+	'maintenance-re-rr' => 'Executar o script novamente sem "$1" para actualizar.',
 	'maintenance-re-ce' => 'Edições actuais: $1',
 	'maintenance-re-de' => 'Edições eliminadas: $1',
 	'maintenance-re-rce' => 'Entradas das Mudanças Recentes: $1',
