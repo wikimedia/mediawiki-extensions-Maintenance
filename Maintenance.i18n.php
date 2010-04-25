@@ -2564,7 +2564,7 @@ $messages['ko'] = array(
 	'maintenance-confirm' => '확인',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
