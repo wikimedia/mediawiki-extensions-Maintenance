@@ -2553,6 +2553,7 @@ $2',
  */
 $messages['kn'] = array(
 	'maintenance-reason' => 'ಕಾರಣ',
+	'maintenance-memc-total' => 'ಒಟ್ಟು:',
 );
 
 /** Korean (한국어)
