@@ -1489,7 +1489,7 @@ $messages['gl'] = array(
 	'maintenance' => 'Executar as escrituras de mantemento',
 	'maintenance-desc' => '[[Special:Maintenance|Interface da web]] para diversas escrituras de mantemento',
 	'right-maintenance' => 'Executar escrituras de mantemento mediante [[Special:Maintenance]]',
-	'maintenance-backlink' => 'Voltar á selección de escrituras',
+	'maintenance-backlink' => 'Volver á selección de escrituras',
 	'maintenance-header' => 'Por favor, seleccione a escritura de embaixo que queira executar.
 As descricións están ao lado de cada escritura',
 	'maintenance-changePassword-desc' => 'Cambiar o contrasinal dun usuario',
@@ -1534,7 +1534,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-revnotfound' => 'A revisión $1 non foi atopada!',
 	'maintenance-sql' => 'Use este formulario para executar unha pescuda SQL na base de datos.',
 	'maintenance-sql-aff' => 'Ringleiras afectadas: $1',
-	'maintenance-sql-res' => '{{PLURAL:$1|Voltou unha ringleira|Voltaron $1 ringleiras}}:
+	'maintenance-sql-res' => '{{PLURAL:$1|Voltou unha ringleira|Volveron $1 ringleiras}}:
 $2',
 	'maintenance-stats-edits' => 'Número de edicións: $1',
 	'maintenance-stats-articles' => 'Número de páxinas no espazo de nomes principal: $1',
