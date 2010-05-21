@@ -2291,6 +2291,12 @@ Pemindahan dibatalkan',
 	'maintenance-re-re' => 'Pengalihan suntingan{{int:ellipsis}} berhasil',
 );
 
+/** Igbo (Igbo) */
+$messages['ig'] = array(
+	'maintenance-password' => 'Mkpurụ okwu ejị a gafẹ',
+	'maintenance-reason' => 'Mgbaghaputa:',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  */
