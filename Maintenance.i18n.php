@@ -2558,6 +2558,7 @@ $2',
  * @author Nayvik
  */
 $messages['kn'] = array(
+	'maintenance-password' => 'ಪ್ರವೇಶಪದ',
 	'maintenance-reason' => 'ಕಾರಣ',
 	'maintenance-memc-total' => 'ಒಟ್ಟು:',
 );
