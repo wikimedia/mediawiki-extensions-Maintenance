@@ -58,6 +58,7 @@ class Maintenance extends SpecialPage {
 	function makeInitialForm() {
 		global $wgOut, $wgUser;
 
+		wfLoadExtensionMessages( 'Maintenance' );
 		$this->setHeaders();
 		$wgOut->addWikiMsg( 'maintenance-header' );
 		$sk = $wgUser->getSkin();
@@ -77,6 +78,7 @@ class Maintenance extends SpecialPage {
 
 	function makeForm( $type ) {
 		global $wgOut, $wgUser;
+		wfLoadExtensionMessages( 'Maintenance' );
 		$this->setHeaders();
 		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
 		
@@ -149,6 +151,7 @@ class Maintenance extends SpecialPage {
 
 	function executeScript( $type ) {
 		global $wgOut, $wgRequest, $wgUser;
+		wfLoadExtensionMessages('Maintenance');
 		@set_time_limit(0); //if we can, disable the time limit
 		$this->setHeaders();
 		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
