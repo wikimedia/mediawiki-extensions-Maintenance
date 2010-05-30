@@ -2795,7 +2795,7 @@ $messages['mhr'] = array(
  */
 $messages['mk'] = array(
 	'maintenance' => 'Пушти скрипти за одржување',
-	'maintenance-desc' => '[[Special:Maintenance|Вики-интерфејс]] за разни скрипти за одржување',
+	'maintenance-desc' => '[[Special:Maintenance|Вики-посредник]] за разни скрипти за одржување',
 	'right-maintenance' => 'Пуштање на скрипти за одржување преку [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Назад кон изборот на скрипта',
 	'maintenance-header' => 'Одберете скрипта подолу за извршување.
