@@ -772,6 +772,11 @@ $messages['ca'] = array(
 	'maintenance-stats-users' => "Nombre d'usuaris: $1",
 );
 
+/** Chechen (Нохчийн) */
+$messages['ce'] = array(
+	'maintenance-reason' => 'Бахьан',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
