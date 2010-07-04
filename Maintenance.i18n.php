@@ -4835,6 +4835,11 @@ Topätükam pestöpädon.',
 	'maintenance-re-re' => 'Redakams padönugivülons{{int:ellipsis}} peledunon.',
 );
 
+/** Wu (吴语) */
+$messages['wuu'] = array(
+	'maintenance-reason' => '理由：',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
