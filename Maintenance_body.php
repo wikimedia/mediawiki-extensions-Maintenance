@@ -416,7 +416,7 @@ class Maintenance extends SpecialPage {
 				if( $to->getId() || $wgRequest->getCheck( 'wpForce' ) ) {
 					$report = $wgRequest->getCheck( 'wpReport' );
 					$dbw = wfGetDB( DB_MASTER );
-					$dbw->immediateBegin();
+					$dbw->begin();
 					$rcond = $from->getId() ? array( 'rev_user' => $from->getId() ) : array( 'rev_user_text' => $from->getName() );
 					$res = $dbw->select( 'revision', 'COUNT(*) AS count', $rcond, 'Maintenance::reassignEdits' );
 					$row = $dbw->fetchObject( $res );
@@ -448,7 +448,7 @@ class Maintenance extends SpecialPage {
 							$res = $dbw->update( 'recentchanges', $cspec, $ccond, 'Maintenance::reassignEdits' );
 						}
 					}
-					$dbw->immediateCommit();
+					$dbw->commit();
 					if( $report ) {
 						$wgOut->addWikiMsg( 'maintenance-re-rr', wfMsg( 'maintenance-re-report' ) );
 					}
