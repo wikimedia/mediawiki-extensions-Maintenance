@@ -1221,6 +1221,7 @@ Se cancela el traslado.',
 );
 
 /** Estonian (Eesti)
+ * @author Pikne
  * @author Silvar
  */
 $messages['et'] = array(
@@ -1232,7 +1233,7 @@ $messages['et'] = array(
 	'maintenance-bureaucrat' => 'Eduta kasutajat bürokraadi staatusesse',
 	'maintenance-reason' => 'Põhjus',
 	'maintenance-deleted' => 'KUSTUTATUD',
-	'maintenance-re-nf' => 'Kasutajat $1 ei leidnud',
+	'maintenance-re-nf' => 'Kasutajat $1 ei leidu',
 );
 
 /** Basque (Euskara)
