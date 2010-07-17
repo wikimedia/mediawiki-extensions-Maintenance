@@ -4070,6 +4070,15 @@ $2',
 	'maintenance-re-re' => 'Переназначение правок{{int:ellipsis}} завершено',
 );
 
+/** Rusyn (русиньскый язык)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'maintenance-name' => 'Мено хоснователя',
+	'maintenance-password' => 'Гесло',
+	'maintenance-reason' => 'Причіна',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
