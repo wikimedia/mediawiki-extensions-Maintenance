@@ -233,7 +233,7 @@ $messages['an'] = array(
  */
 $messages['ar'] = array(
 	'maintenance' => 'تشغيل سكريبتات الصيانة',
-	'maintenance-desc' => '[[Special:Maintenance|واجهة ويب]] لسكريبتات صيانة مختلفة',
+	'maintenance-desc' => '[[Special:Maintenance|واجهة وب]] لسكربتات صيانة مختلفة',
 	'right-maintenance' => 'تشغيل سكريبتات الصيانة من خلال [[Special:Maintenance]]',
 	'maintenance-backlink' => 'الرجوع إلى اختيار السكريبت',
 	'maintenance-header' => 'من فضلك اختر سكريبت بالأسفل للتنفيذ.
@@ -2330,9 +2330,11 @@ Pemindahan dibatalkan',
 	'maintenance-re-re' => 'Pengalihan suntingan{{int:ellipsis}} berhasil',
 );
 
-/** Igbo (Igbo) */
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
 $messages['ig'] = array(
-	'maintenance-password' => 'Mkpurụ okwu ejị a gafẹ',
+	'maintenance-password' => 'Okwúngáfè',
 	'maintenance-reason' => 'Mgbaghaputa:',
 );
 
