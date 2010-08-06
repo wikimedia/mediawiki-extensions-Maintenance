@@ -1739,6 +1739,11 @@ $messages['gu'] = array(
 	'maintenance-name' => 'સભ્ય નામ',
 );
 
+/** Hausa (هَوُسَ) */
+$messages['ha'] = array(
+	'maintenance-reason' => 'Dalili',
+);
+
 /** Hakka (Hak-kâ-fa)
  * @author Hakka
  */
