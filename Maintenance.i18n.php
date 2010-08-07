@@ -804,6 +804,12 @@ $messages['ce'] = array(
 	'maintenance-reason' => 'Бахьан',
 );
 
+/** Sorani (کوردی) */
+$messages['ckb'] = array(
+	'maintenance-reason' => 'هۆکار',
+	'maintenance-confirm' => 'پشتدار بکەرەوە',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
