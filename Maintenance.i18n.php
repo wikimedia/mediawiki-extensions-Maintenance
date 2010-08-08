@@ -4730,6 +4730,11 @@ $messages['uk'] = array(
 	'maintenance-confirm' => 'Підтвердити',
 );
 
+/** Urdu (اردو) */
+$messages['ur'] = array(
+	'maintenance-reason' => 'وجہ',
+);
+
 /** Veps (Vepsan kel')
  * @author Игорь Бродский
  */
