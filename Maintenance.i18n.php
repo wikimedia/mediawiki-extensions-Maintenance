@@ -4213,6 +4213,7 @@ Presúvanie sa ruší',
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
+ * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -4262,12 +4263,12 @@ $messages['sr-ec'] = array(
 	'maintenance-sql-res' => '$1 {{PLURAL:$1|ред враћен|редова враћено}}:
 $2',
 	'maintenance-stats-edits' => 'Број измена: $1',
-	'maintenance-stats-articles' => 'Број страна у главном именском простору: $1',
-	'maintenance-stats-pages' => 'Број страна: $1',
+	'maintenance-stats-articles' => 'Број страница у главном именском простору: $1',
+	'maintenance-stats-pages' => 'Број страница: $1',
 	'maintenance-stats-users' => 'Број корисника: $1',
 	'maintenance-stats-admins' => 'Број администратора: $1',
 	'maintenance-stats-images' => 'Број фајлова: $1',
-	'maintenance-stats-views' => 'Број прегледа страна: $1',
+	'maintenance-stats-views' => 'Број прегледа страница: $1',
 	'maintenance-stats-update' => 'Освежавање базе података{{int:ellipsis}}',
 	'maintenance-move' => 'Премештање $1 на $2{{int:ellipsis}}',
 	'maintenance-movefail' => 'Грешка приликом премештања: $1.
