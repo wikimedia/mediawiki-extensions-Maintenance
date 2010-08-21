@@ -154,10 +154,11 @@ Aborting move',
  * @author Lloffiwr
  * @author Purodha
  * @author Siebrand
+ * @author The Evil IP address
  * @author Translationista
  */
 $messages['qqq'] = array(
-	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
+	'maintenance-desc' => '{{desc}}',
 	'right-maintenance' => '{{doc-right}}',
 	'maintenance-name' => '{{Identical|Username}}',
 	'maintenance-password' => '{{Identical|Password}}',
@@ -3456,7 +3457,7 @@ Las descripcions son a la seguida de cadun d'aquestes.",
 	'maintenance-runJobs-desc' => "Aviar los prètzfaches dins la lista de los d'acomplir",
 	'maintenance-showJobs-desc' => "Afichar una lista dels prètzfaches en cors dins la lista de los d'acomplir",
 	'maintenance-sql-desc' => 'Executar una requèsta SQL',
-	'maintenance-stats-desc' => 'Afichar las estatisticas de la memòria-amagatal',
+	'maintenance-stats-desc' => 'Afichar las estatisticas de la memòria-escondedor',
 	'maintenance-changePassword' => 'Utilizar aqueste formulari per cambiar lo senhal d’un utilizaire',
 	'maintenance-createAndPromote' => 'Utilizar aqueste formulari per crear un utilizaire novèl e per lo promòure administrator.
 Marcar la casa burocrata se li desiratz conferir tanben aqueste estatut.',
@@ -3505,17 +3506,17 @@ Arrèst del desplaçament.',
 	'maintenance-memc-withsession' => 'amb la sesilha :',
 	'maintenance-memc-withoutsession' => 'sens la sesilha :',
 	'maintenance-memc-total' => 'soma :',
-	'maintenance-memc-parsercache' => 'Amagatal del parser',
+	'maintenance-memc-parsercache' => 'Escondedor del parser',
 	'maintenance-memc-hits' => 'clics :',
 	'maintenance-memc-invalid' => 'invalid :',
 	'maintenance-memc-expired' => 'expirats :',
 	'maintenance-memc-absent' => 'absent :',
 	'maintenance-memc-stub' => 'sulhèt de despart :',
-	'maintenance-memc-imagecache' => 'Amagatal imatge',
+	'maintenance-memc-imagecache' => 'Escondedor imatge',
 	'maintenance-memc-misses' => 'perduts :',
 	'maintenance-memc-updates' => 'meses a jorn :',
 	'maintenance-memc-uncacheable' => "fòra de l'amagatal :",
-	'maintenance-memc-diffcache' => 'Amagatal dels dif',
+	'maintenance-memc-diffcache' => 'Escondedor dels dif',
 	'maintenance-eval' => 'Utilizatz aquesta forma per avalorar lo còde PHP dins un environament MediaWiki.',
 	'maintenance-reassignEdits' => "Utilizatz aqueste formulari per tornar assignar de modificacions d'un utilizaire cap a un autre.",
 	'maintenance-re-from' => "Nom de l'utilizaire al qual préner las modificacions",
@@ -4210,6 +4211,13 @@ Presúvanie sa ruší',
 	'maintenance-re-rce' => 'Záznamy Posledných úprav: $1',
 	'maintenance-re-total' => 'Zmeniť celkovo záznamov: $1',
 	'maintenance-re-re' => 'Zmena pôvodcu úprav{{int:ellipsis}} hotovo',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'maintenance-reason' => 'Razlog',
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
