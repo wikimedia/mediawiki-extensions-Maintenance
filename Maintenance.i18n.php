@@ -4217,6 +4217,7 @@ Presúvanie sa ruší',
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'maintenance-password' => 'Geslo',
 	'maintenance-reason' => 'Razlog',
 );
 
