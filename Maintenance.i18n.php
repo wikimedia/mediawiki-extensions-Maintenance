@@ -4902,6 +4902,13 @@ Topätükam pestöpädon.',
 	'maintenance-re-re' => 'Redakams padönugivülons{{int:ellipsis}} peledunon.',
 );
 
+/** Walloon (Walon)
+ * @author Lucyin
+ */
+$messages['wa'] = array(
+	'maintenance-deleted' => 'DISFACÉ',
+);
+
 /** Wu (吴语) */
 $messages['wuu'] = array(
 	'maintenance-reason' => '理由：',
