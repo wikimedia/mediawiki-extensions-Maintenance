@@ -811,6 +811,12 @@ $messages['ckb'] = array(
 	'maintenance-confirm' => 'پشتدار بکەرەوە',
 );
 
+/** Czech (Česky) */
+$messages['cs'] = array(
+	'maintenance-password' => 'Heslo',
+	'maintenance-confirm' => 'Potvrdit',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
