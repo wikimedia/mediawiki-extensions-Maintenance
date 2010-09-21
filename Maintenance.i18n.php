@@ -4158,7 +4158,7 @@ $2',
 	'maintenance-re-re' => 'Переназначение правок{{int:ellipsis}} завершено',
 );
 
-/** Rusyn (русиньскый язык)
+/** Rusyn (Русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
