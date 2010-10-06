@@ -4973,6 +4973,7 @@ $messages['yi'] = array(
 	'maintenance-password' => 'פאַסווארט',
 	'maintenance-reason' => 'אורזאַך',
 	'maintenance-confirm' => 'באַשטעטיגן',
+	'maintenance-invalidname' => 'אומגילטיקער באַניצער נאָמען!',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
