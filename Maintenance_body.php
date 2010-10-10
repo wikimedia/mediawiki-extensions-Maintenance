@@ -297,7 +297,6 @@ class Maintenance extends SpecialPage {
 				$wgOut->addWikiMsg( 'maintenance-success', $type );
 				break;
 			case 'initEditCount':
-				global $wgDBservers;
 				$dbw = wfGetDB( DB_MASTER );
 				$user = $dbw->tableName( 'user' );
 				$revision = $dbw->tableName( 'revision' );
