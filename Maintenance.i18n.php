@@ -4559,6 +4559,14 @@ Avbryt flyttning',
 	'maintenance-re-re' => 'Flyttar redigeringar{{int:ellipsis}} klart',
 );
 
+/** Tamil (தமிழ்)
+ * @author TRYPPN
+ */
+$messages['ta'] = array(
+	'maintenance-deleted' => 'நீக்கப்பட்டுவிட்டது',
+	'maintenance-memc-total' => 'மொத்தம்:',
+);
+
 /** Telugu (తెలుగు)
  * @author C.Chandra Kanth Rao
  * @author Veeven
