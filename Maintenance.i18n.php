@@ -3007,6 +3007,13 @@ $messages['ml'] = array(
 	'maintenance-memc-updates' => 'അപ്‌ഡേറ്റ്സ്:',
 );
 
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'maintenance-reason' => 'Шалтгаан',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
