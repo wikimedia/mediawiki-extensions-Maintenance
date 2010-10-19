@@ -4802,8 +4802,22 @@ $messages['ug-latn'] = array(
  * @author Тест
  */
 $messages['uk'] = array(
+	'maintenance-name' => "Ім'я користувача",
+	'maintenance-password' => 'Пароль',
 	'maintenance-reason' => 'Причина',
 	'maintenance-confirm' => 'Підтвердити',
+	'maintenance-userexists' => 'Користувач вже існує!',
+	'maintenance-revnotfound' => 'Версію $1 не знайдено!',
+	'maintenance-stats-edits' => 'Кількість редагувань: $1',
+	'maintenance-stats-articles' => 'Кількість сторінок в основному просторі назв: $1',
+	'maintenance-stats-pages' => 'Кількість сторінок: $1',
+	'maintenance-stats-users' => 'Кількість користувачів: $1',
+	'maintenance-stats-admins' => 'Кількість адміністраторів: $1',
+	'maintenance-stats-images' => 'Кількість файлів: $1',
+	'maintenance-stats-views' => 'Кількість переглядів сторінок: $1',
+	'maintenance-error' => 'Помилка: $1',
+	'maintenance-memc-total' => 'всього:',
+	'maintenance-re-nf' => 'Користувача $1 не знайдено',
 );
 
 /** Urdu (اردو) */
