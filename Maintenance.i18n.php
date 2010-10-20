@@ -4802,11 +4802,14 @@ $messages['ug-latn'] = array(
  * @author Тест
  */
 $messages['uk'] = array(
+	'maintenance-invalidtype' => 'Невірний тип!',
 	'maintenance-name' => "Ім'я користувача",
 	'maintenance-password' => 'Пароль',
 	'maintenance-reason' => 'Причина',
 	'maintenance-confirm' => 'Підтвердити',
+	'maintenance-invalidname' => "Неправильне ім'я користувача!",
 	'maintenance-userexists' => 'Користувач вже існує!',
+	'maintenance-invalidtitle' => 'Неприпустима назва "$1"!',
 	'maintenance-revnotfound' => 'Версію $1 не знайдено!',
 	'maintenance-stats-edits' => 'Кількість редагувань: $1',
 	'maintenance-stats-articles' => 'Кількість сторінок в основному просторі назв: $1',
@@ -4816,6 +4819,7 @@ $messages['uk'] = array(
 	'maintenance-stats-images' => 'Кількість файлів: $1',
 	'maintenance-stats-views' => 'Кількість переглядів сторінок: $1',
 	'maintenance-error' => 'Помилка: $1',
+	'maintenance-memc-requests' => 'Запити',
 	'maintenance-memc-total' => 'всього:',
 	'maintenance-re-nf' => 'Користувача $1 не знайдено',
 );
