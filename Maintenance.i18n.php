@@ -427,6 +427,14 @@ $2',
 	'maintenance-re-re' => 'جارى إعادة إلحاق التعديلات... تم',
 );
 
+/** Belarusian (Беларуская)
+ * @author Тест
+ */
+$messages['be'] = array(
+	'maintenance-reason' => 'Прычына',
+	'maintenance-confirm' => 'Пацвердзіць',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
