@@ -327,6 +327,24 @@ $2',
 	'maintenance-re-re' => 'جاري إعادة إلحاق التعديلات... تم',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'maintenance-name' => 'ܫܡܐ ܕܡܬܚܫܚܢܐ',
+	'maintenance-password' => 'ܡܠܬܐ ܕܥܠܠܐ',
+	'maintenance-reason' => 'ܥܠܬܐ',
+	'maintenance-confirm' => 'ܚܬܬ',
+	'maintenance-deleted' => 'ܫܝܦܬ',
+	'maintenance-stats-pages' => 'ܡܢܝܢܐ ܕܕ̈ܦܐ: $1',
+	'maintenance-stats-users' => 'ܡܢܝܢܐ ܕܡܬܚܫܚܢ̈ܐ: $1',
+	'maintenance-stats-admins' => 'ܡܢܝܢܐ ܕܡܕܒܪ̈ܢܐ: $1',
+	'maintenance-stats-images' => 'ܡܢܝܢܐ ܕܠܦܦ̈ܐ: $1',
+	'maintenance-error' => 'ܦܘܕܐ: $1',
+	'maintenance-memc-invalid' => 'ܠܐ ܬܪܝܨܐ:',
+	'maintenance-memc-updates' => 'ܚܘܕ̈ܬܐ:',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Ghaly
  * @author Meno25
@@ -3019,6 +3037,7 @@ $messages['ml'] = array(
  * @author Chinneeb
  */
 $messages['mn'] = array(
+	'maintenance-name' => 'Хэрэглэгчийн нэр',
 	'maintenance-reason' => 'Шалтгаан',
 );
 
@@ -4612,6 +4631,10 @@ $messages['te'] = array(
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
 	'maintenance-memc-total' => 'మొత్తం:',
 	'maintenance-memc-invalid' => 'చెల్లనివి:',
+	'maintenance-memc-updates' => 'తాజాకరణలు:',
+	'maintenance-re-nf' => 'వాడుకరి $1 కనబడలేదు',
+	'maintenance-re-ce' => 'ప్రస్తుత మార్పుల: $1',
+	'maintenance-re-de' => 'తొలగించిన మార్పులు: $1',
 );
 
 /** Tetum (Tetun)
@@ -4810,6 +4833,12 @@ $messages['ug-latn'] = array(
  * @author Тест
  */
 $messages['uk'] = array(
+	'maintenance' => 'Запуск скриптів обслуговування',
+	'maintenance-desc' => '[[Special:Maintenance|Вікі інтерфейс]] для різноманітних скриптів обслуговування',
+	'right-maintenance' => 'Запуск скриптів обслуговування через [[Special:Maintenance]]',
+	'maintenance-backlink' => 'Повернутися до вибору скрипту',
+	'maintenance-initEditCount-desc' => 'Перерахувати кількість редагувань користувачів',
+	'maintenance-initStats-desc' => 'Перерахувати статистику сайту',
 	'maintenance-invalidtype' => 'Невірний тип!',
 	'maintenance-name' => "Ім'я користувача",
 	'maintenance-password' => 'Пароль',
@@ -4818,6 +4847,8 @@ $messages['uk'] = array(
 	'maintenance-invalidname' => "Неправильне ім'я користувача!",
 	'maintenance-userexists' => 'Користувач вже існує!',
 	'maintenance-invalidtitle' => 'Неприпустима назва "$1"!',
+	'maintenance-titlenoexist' => 'Вказаного заголовку ("$1") не існує!',
+	'maintenance-deleted' => 'ВИЛУЧЕНО',
 	'maintenance-revnotfound' => 'Версію $1 не знайдено!',
 	'maintenance-stats-edits' => 'Кількість редагувань: $1',
 	'maintenance-stats-articles' => 'Кількість сторінок в основному просторі назв: $1',
@@ -4826,9 +4857,12 @@ $messages['uk'] = array(
 	'maintenance-stats-admins' => 'Кількість адміністраторів: $1',
 	'maintenance-stats-images' => 'Кількість файлів: $1',
 	'maintenance-stats-views' => 'Кількість переглядів сторінок: $1',
+	'maintenance-stats-update' => 'Оновлення бази даних{{int:ellipsis}}',
 	'maintenance-error' => 'Помилка: $1',
 	'maintenance-memc-requests' => 'Запити',
 	'maintenance-memc-total' => 'всього:',
+	'maintenance-memc-parsercache' => 'Кеш парсера',
+	'maintenance-memc-imagecache' => 'Кеш зображень',
 	'maintenance-re-nf' => 'Користувача $1 не знайдено',
 );
 
