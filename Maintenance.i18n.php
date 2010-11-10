@@ -3009,7 +3009,7 @@ $messages['ml'] = array(
 	'maintenance-titlenoexist' => '("$1") എന്ന ശീർഷകത്തിലുള്ള ലേഖനം നിലവിലില്ല',
 	'maintenance-failed' => 'പരാജയപ്പെട്ടു',
 	'maintenance-deleted' => 'മായ്ച്ചു',
-	'maintenance-revdelete' => '$2 വിക്കിയിൽ നിന്ന് $1 പതിപ്പുകൾ ഒഴിവാക്കുന്നു',
+	'maintenance-revdelete' => '$2 വിക്കിയിൽ നിന്ന് {{PLURAL:$3|ഒരു പതിപ്പ്|പതിപ്പുകൾ}} $1 ഒഴിവാക്കുന്നു',
 	'maintenance-revnotfound' => '$1 എന്ന പതിപ്പ് കണ്ടില്ല!',
 	'maintenance-stats-edits' => 'തിരുത്തലുകളുടെ എണ്ണം: $1',
 	'maintenance-stats-articles' => 'മുഖ്യ നാമമേഖലയിലുള്ള താളുകളുടെ എണ്ണം: $1',
@@ -3027,10 +3027,14 @@ $messages['ml'] = array(
 	'maintenance-memc-withsession' => 'സെഷനോടെ:',
 	'maintenance-memc-withoutsession' => 'സെഷനില്ലാതെ:',
 	'maintenance-memc-total' => 'മൊത്തം:',
+	'maintenance-memc-hits' => 'എടുത്തുനോക്കലുകൾ:',
 	'maintenance-memc-invalid' => 'അസാധു:',
 	'maintenance-memc-expired' => 'കാലാവധി:',
 	'maintenance-memc-absent' => 'അഭാവം:',
 	'maintenance-memc-updates' => 'അപ്‌ഡേറ്റ്സ്:',
+	'maintenance-re-nf' => '$1 എന്ന ഉപയോക്താവിനെ കണ്ടെത്താനായില്ല',
+	'maintenance-re-ce' => 'ഇപ്പോഴത്തെ തിരുത്തലുകൾ: $1',
+	'maintenance-re-de' => 'മായ്ക്കപ്പെട്ട തിരുത്തലുകൾ: $1',
 );
 
 /** Mongolian (Монгол)
