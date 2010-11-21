@@ -331,13 +331,13 @@ $2',
  * @author Basharh
  */
 $messages['arc'] = array(
-	'maintenance-name' => 'ܫܡܐ ܕܡܬܚܫܚܢܐ',
+	'maintenance-name' => 'ܫܡܐ ܕܡܦܠܚܢܐ',
 	'maintenance-password' => 'ܡܠܬܐ ܕܥܠܠܐ',
 	'maintenance-reason' => 'ܥܠܬܐ',
 	'maintenance-confirm' => 'ܚܬܬ',
 	'maintenance-deleted' => 'ܫܝܦܬ',
 	'maintenance-stats-pages' => 'ܡܢܝܢܐ ܕܕ̈ܦܐ: $1',
-	'maintenance-stats-users' => 'ܡܢܝܢܐ ܕܡܬܚܫܚܢ̈ܐ: $1',
+	'maintenance-stats-users' => 'ܡܢܝܢܐ ܕܡܦܠܚܢ̈ܐ: $1',
 	'maintenance-stats-admins' => 'ܡܢܝܢܐ ܕܡܕܒܪ̈ܢܐ: $1',
 	'maintenance-stats-images' => 'ܡܢܝܢܐ ܕܠܦܦ̈ܐ: $1',
 	'maintenance-error' => 'ܦܘܕܐ: $1',
