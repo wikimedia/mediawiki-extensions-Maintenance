@@ -5069,13 +5069,39 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
+	'maintenance-changePassword-desc' => '變更使用者的密碼',
+	'maintenance-deleteBatch-desc' => '大量刪除頁面',
+	'maintenance-deleteRevision-desc' => '從資料庫中刪除修改',
+	'maintenance-initStats-desc' => '重新計算網站的統計資料',
 	'maintenance-name' => '使用者名稱',
 	'maintenance-password' => '密碼',
 	'maintenance-reason' => '原因',
 	'maintenance-confirm' => '確認',
+	'maintenance-invalidname' => '無效的使用者名稱！',
+	'maintenance-userexists' => '用戶已存在！',
+	'maintenance-invalidtitle' => '無效的標題「$1」！',
+	'maintenance-failed' => '失敗',
+	'maintenance-deleted' => '刪除的',
+	'maintenance-stats-edits' => '編輯數：$1',
+	'maintenance-stats-admins' => '管理員人數：$1',
+	'maintenance-stats-images' => '檔案數量：$1',
+	'maintenance-stats-views' => '瀏覽數量：$1',
+	'maintenance-stats-update' => '更新資料庫 {{int:ellipsis}}',
+	'maintenance-move' => '移動 $1 至 $2{{int:ellipsis}}',
+	'maintenance-error' => '錯誤：$1',
 	'maintenance-memc-requests' => '請求',
+	'maintenance-memc-total' => '總計：',
+	'maintenance-memc-parsercache' => '清除快取',
+	'maintenance-memc-hits' => '點擊數：',
+	'maintenance-memc-invalid' => '無效：',
+	'maintenance-memc-expired' => '到期日：',
+	'maintenance-memc-updates' => '更新：',
+	'maintenance-memc-uncacheable' => '不可快取：',
+	'maintenance-re-ce' => '目前編輯：$1',
+	'maintenance-re-de' => '刪除編輯：$1',
 );
 
