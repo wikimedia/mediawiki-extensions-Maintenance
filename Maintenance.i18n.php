@@ -453,7 +453,7 @@ $messages['be'] = array(
 	'maintenance-confirm' => 'Пацвердзіць',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -958,7 +958,7 @@ Verschieben abgebrochen',
 	'maintenance-re-re' => 'Neuzuordnung der Edits … erledigt',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author ChrisiPK
  * @author Imre
  */
@@ -4310,7 +4310,7 @@ $messages['sl'] = array(
 	'maintenance-reason' => 'Razlog',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -4399,7 +4399,7 @@ $2',
 	'maintenance-re-re' => 'Приписивање измена{{int:ellipsis}} готово',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
