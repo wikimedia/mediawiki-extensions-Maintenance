@@ -2610,6 +2610,7 @@ $messages['km'] = array(
 	'maintenance-success' => '$1 បាន​ដំណើការ​ដោយ​ជោគជ័យ​!',
 	'maintenance-userexists' => 'អ្នកប្រើប្រាស់មានរួចជាស្រេចហើយ!',
 	'maintenance-invalidtitle' => 'ចំណងជើង​មិនត្រឹមត្រូវ "$1"!',
+	'maintenance-titlenoexist' => 'ចំណងជើងដែលបានផ្ដល់អោយ ("$1") មិនមានទេ!',
 	'maintenance-failed' => 'បាន​បរាជ័យ',
 	'maintenance-deleted' => 'បាន​លុប',
 	'maintenance-revdelete' => 'លុប {{PLURAL:$3|ការពិនិត្យឡើងវិញ|ការពិនិត្យឡើងវិញ}} $1 ពី​វិគី $2',
