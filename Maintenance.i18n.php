@@ -4312,6 +4312,7 @@ $messages['sl'] = array(
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -4359,7 +4360,7 @@ $messages['sr-ec'] = array(
 	'maintenance-revnotfound' => 'Ревизија $1 није пронађена!',
 	'maintenance-sql' => 'Користите ову форму да извршите SQL захтев над базом података.',
 	'maintenance-sql-aff' => 'Афектовани редови: $1',
-	'maintenance-sql-res' => '$1 {{PLURAL:$1|ред враћен|редова враћено}}:
+	'maintenance-sql-res' => '{{PLURAL:$1|Враћен је $1 ред|Враћена су $1 реда|Враћено је $1 редова}}:
 $2',
 	'maintenance-stats-edits' => 'Број измена: $1',
 	'maintenance-stats-articles' => 'Број страница у главном именском простору: $1',
