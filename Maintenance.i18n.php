@@ -612,6 +612,13 @@ $2',
 	'maintenance-re-de' => 'Изтрити редакции: $1',
 );
 
+/** Bengali (বাংলা)
+ * @author Ehsanulhb
+ */
+$messages['bn'] = array(
+	'maintenance-confirm' => 'নিশ্চিত করুন',
+);
+
 /** Breton (Brezhoneg)
  * @author Fohanno
  * @author Fulup
