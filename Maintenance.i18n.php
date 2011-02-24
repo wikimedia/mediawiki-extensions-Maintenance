@@ -2893,7 +2893,7 @@ $messages['mk'] = array(
 	'maintenance-backlink' => 'Назад кон изборот на скрипта',
 	'maintenance-header' => 'Одберете скрипта подолу за извршување.
 До секоја скрипта стои нејзин опис',
-	'maintenance-changePassword-desc' => 'Промени лозинка на корисник',
+	'maintenance-changePassword-desc' => 'Измена на лозинка на корисник',
 	'maintenance-createAndPromote-desc' => 'Создај корисник и унапреди го во администратор',
 	'maintenance-deleteBatch-desc' => 'Групно бришење на страници',
 	'maintenance-deleteRevision-desc' => 'Отстрани ревизии од базата на податоци',
