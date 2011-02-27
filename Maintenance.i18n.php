@@ -1313,7 +1313,7 @@ $messages['et'] = array(
  * @author An13sa
  */
 $messages['eu'] = array(
-	'maintenance-name' => 'Lankide izena',
+	'maintenance-name' => 'Erabiltzaile izena',
 	'maintenance-password' => 'Pasahitza',
 	'maintenance-bureaucrat' => 'Lankidea burokrata bihurtu',
 	'maintenance-reason' => 'Arrazoia',
