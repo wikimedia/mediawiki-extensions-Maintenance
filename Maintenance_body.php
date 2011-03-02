@@ -4,7 +4,7 @@ if( !defined('MEDIAWIKI') ) {
 	die(1);
 }
 
-class MaintenanceSpecialPage extends SpecialPage {
+class SpecialMaintenance extends SpecialPage {
 	var $type = '';
 	static $scripts = array(
 		'changePassword', 'createAndPromote', 'deleteBatch', 'deleteRevision',
