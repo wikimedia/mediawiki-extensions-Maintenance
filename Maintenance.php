@@ -29,8 +29,8 @@ $wgExtensionCredits['specialpage'][] = array(
 $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['Maintenance'] = $dir . 'Maintenance.i18n.php';
 $wgExtensionAliasesFiles['Maintenance'] = $dir . 'Maintenance.alias.php';
-$wgAutoloadClasses['Maintenance'] = $dir . 'Maintenance_body.php';
-$wgSpecialPages['Maintenance'] = 'Maintenance';
+$wgAutoloadClasses['SpecialPage'] = $dir . 'Maintenance_body.php';
+$wgSpecialPages['Maintenance'] = 'SpecialPage';
 // Special page group for MW 1.13+
 $wgSpecialPageGroups['Maintenance'] = 'wiki';
 
