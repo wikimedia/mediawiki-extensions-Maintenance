@@ -4,7 +4,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.0.1
+ * @version 2.0.0
  * @author Ryan Schmidt
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @link http://www.mediawiki.org/wiki/Extension:Maintenance Documentation
@@ -20,7 +20,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Maintenance',
 	'author' => 'Ryan Schmidt',
-	'version' => '1.0.3',
+	'version' => '2.0.0',
 	'descriptionmsg' => 'maintenance-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:Maintenance',
 );
