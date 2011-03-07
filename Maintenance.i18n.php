@@ -330,18 +330,16 @@ Aborting move',
  * @author Lloffiwr
  * @author Purodha
  * @author Siebrand
+ * @author The Evil IP address
  * @author Translationista
  */
 $messages['qqq'] = array(
-	'maintenance-desc' => 'Short description of the Maintenance extension, shown in [[Special:Version]]. Do not translate or change links.',
+	'maintenance-desc' => '{{desc}}',
 	'right-maintenance' => '{{doc-right}}',
-	'maintenance-name' => '{{Identical|Username}}',
-	'maintenance-password' => '{{Identical|Password}}',
-	'maintenance-reason' => '{{Identical|Reason}}',
+	'maintenance-option-confirm' => '{{Identical|Confirm}}',
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Are UPDATE and DELETE/INSERT also translatable?",
-	'maintenance-option-confirm' => '{{Identical|Confirm}}',
 	'maintenance-deleted' => '{{Identical|Deleted}}',
 	'maintenance-revdelete' => '* $1 is a list of revisions numbers
 * $2 is the local wiki id (string containing database name and tables prefix, if any)',
@@ -1967,39 +1965,37 @@ $messages['he'] = array(
 	'maintenance-backlink' => 'חזרה לבחירת הסקריפטים',
 	'maintenance-header' => 'אנא בחרו איזה מהסקריפטים שלהלן להריץ.
 התיאורים מופיעים ליד כל סקריפט',
+	'maintenance-error-invalidtype' => 'הסוג אינו תקין!',
+	'maintenance-option-confirm' => 'אישור',
+	'maintenance-output-success' => 'הסקריפט $1 רץ בהצלחה!',
+	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
 	'maintenance-changePassword-desc' => 'שינוי סיסמת משתמש',
+	'maintenance-createAndPromote' => 'השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.
+סמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט',
 	'maintenance-createAndPromote-desc' => 'יצירת משתמש וקידומו למצב מפעיל מערכת',
+	'maintenance-deleteBatch' => 'השתמשו בטופס זה למחיקת דפים המונית.
+כתבו שם של דף אחד בכל שורה',
 	'maintenance-deleteBatch-desc' => 'מחיקה המונית של דפים',
+	'maintenance-deleteRevision' => 'השתמשו בטופס זה למחיקה המונית של גרסאות.
+כתבו מספר גרסה אחד בכל שורה',
 	'maintenance-deleteRevision-desc' => 'הסרת גרסאות ממסד הנתונים',
-	'maintenance-eval-desc' => 'הרצת קוד PHP בסביבת מדיה־ויקי',
 	'maintenance-initEditCount-desc' => 'חישוב מחדש של מספר העריכות שביצע כל משתמש',
+	'maintenance-initStats' => 'השתמשו בטופס זה כדי לחשב מחדש את סטטיסטיקות האתר, וציינו האם ברצונכם לחשב מחדש גם את סטטיסטיקות הצפיות בדפים',
 	'maintenance-initStats-desc' => 'חישוב מחדש של סטטיסטיקות האתר',
+	'maintenance-moveBatch' => 'השתמשו בטופס זה להעברה המונית של דפים.
+כל שורה אמורה לציין דף מקור ודף יעד המופרדים ב־"|"',
 	'maintenance-moveBatch-desc' => 'העברה המונית של דפים',
 	'maintenance-reassignEdits-desc' => 'הקצאת עריכות מחדש ממשתמש אחד לאחר',
 	'maintenance-runJobs-desc' => 'הרצת משימות מתור המשימות',
 	'maintenance-showJobs-desc' => 'הצגת רשימת משימות הממתינות בתור המשימות',
+	'maintenance-sql' => 'השתמשו בטופס זה כדי להריץ שאילתת SQL על בסיס הנתונים.',
 	'maintenance-sql-desc' => 'הרצת שאילתת SQL',
 	'maintenance-stats-desc' => 'הצגת סטטיסטיקת Memcached',
-	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
-	'maintenance-createAndPromote' => 'השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.
-סמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט',
-	'maintenance-deleteBatch' => 'השתמשו בטופס זה למחיקת דפים המונית.
-כתבו שם של דף אחד בכל שורה',
-	'maintenance-deleteRevision' => 'השתמשו בטופס זה למחיקה המונית של גרסאות.
-כתבו מספר גרסה אחד בכל שורה',
-	'maintenance-initStats' => 'השתמשו בטופס זה כדי לחשב מחדש את סטטיסטיקות האתר, וציינו האם ברצונכם לחשב מחדש גם את סטטיסטיקות הצפיות בדפים',
-	'maintenance-moveBatch' => 'השתמשו בטופס זה להעברה המונית של דפים.
-כל שורה אמורה לציין דף מקור ודף יעד המופרדים ב־"|"',
-	'maintenance-error-invalidtype' => 'הסוג אינו תקין!',
-	'maintenance-name' => 'שם משתמש',
-	'maintenance-password' => 'סיסמה',
-	'maintenance-bureaucrat' => 'קידום משתמש למצב ביורוקרט',
-	'maintenance-reason' => 'סיבה',
+	'maintenance-eval' => 'השתמשו בטופס זה כדי להעריך קוד PHP בסביבת מדיה־ויקי.',
+	'maintenance-eval-desc' => 'הרצת קוד PHP בסביבת מדיה־ויקי',
 	'maintenance-update' => 'האם להשתמש ב־UPDATE לעדכון הטבלה? אם תבטלו את הסימון, ייעשה שימוש ב־DELETE/INSERT במקום זאת.',
 	'maintenance-noviews' => 'סמנו זאת כדי למנוע את עדכון מספרי הצפיות בדפים',
-	'maintenance-option-confirm' => 'אישור',
 	'maintenance-invalidname' => 'שם משתמש בלתי תקין!',
-	'maintenance-output-success' => 'הסקריפט $1 רץ בהצלחה!',
 	'maintenance-userexists' => 'המשתמש כבר קיים!',
 	'maintenance-invalidtitle' => 'הכותרת "$1" אינה תקינה!',
 	'maintenance-titlenoexist' => 'הכותרת שצוינה ("$1") אינה קיימת!',
@@ -2007,10 +2003,6 @@ $messages['he'] = array(
 	'maintenance-deleted' => 'נמחק',
 	'maintenance-revdelete' => 'מחיקת {{PLURAL:$3|הגרסה|הגרסאות}} $1 מאתר הוויקי $2',
 	'maintenance-revnotfound' => 'הגרסה $1 לא נמצאה!',
-	'maintenance-sql' => 'השתמשו בטופס זה כדי להריץ שאילתת SQL על בסיס הנתונים.',
-	'maintenance-sql-aff' => 'שורות שהושפעו: $1',
-	'maintenance-sql-res' => '{{PLURAL:$1|שורה אחת הוחזרה|$1 שורות הוחזרו}}:
-$2',
 	'maintenance-stats-edits' => 'מספר העריכות: $1',
 	'maintenance-stats-articles' => 'מספר הדפים במרחב השם הראשי: $1',
 	'maintenance-stats-pages' => 'מספר הדפים: $1',
@@ -2039,7 +2031,6 @@ $2',
 	'maintenance-memc-updates' => 'עדכונים:',
 	'maintenance-memc-uncacheable' => 'לא ניתן למטמון:',
 	'maintenance-memc-diffcache' => 'מטמון השינויים',
-	'maintenance-eval' => 'השתמשו בטופס זה כדי להעריך קוד PHP בסביבת מדיה־ויקי.',
 	'maintenance-reassignEdits' => 'השתמשו בטופס זה כדי להקצות מחדש עריכות ממשתמש אחד לאחר.',
 	'maintenance-re-from' => 'שם המשתמש ממנו יש להקצות את העריכות',
 	'maintenance-re-to' => 'שם המשתמש אליו יוקצו העריכות',
@@ -3041,39 +3032,38 @@ $messages['mk'] = array(
 	'maintenance-backlink' => 'Назад кон изборот на скрипта',
 	'maintenance-header' => 'Одберете скрипта подолу за извршување.
 До секоја скрипта стои нејзин опис',
+	'maintenance-error-invalidtype' => 'Неважечки тип!',
+	'maintenance-option-quiet' => 'Притаи изводи што не се однесуваат на грешки',
+	'maintenance-option-confirm' => 'Потврди',
+	'maintenance-output-success' => '$1 е успешно извршено!',
+	'maintenance-changePassword' => 'Овој образец служи за менување на лозинка на корисник',
 	'maintenance-changePassword-desc' => 'Измена на лозинка на корисник',
+	'maintenance-createAndPromote' => 'Овој образец служи за создавање на нов корисник и негово унапредување во администратор.
+Штиклирајте го кутивчето за „бирократ“ ако сакате корисникот воедно да биде и во бирократ',
 	'maintenance-createAndPromote-desc' => 'Создај корисник и унапреди го во администратор',
+	'maintenance-deleteBatch' => 'Овој образец користи за групно бришење на слики.
+Внесувајте само една страница по ред',
 	'maintenance-deleteBatch-desc' => 'Групно бришење на страници',
+	'maintenance-deleteRevision' => 'Овој образец служи за групно бришење на ревизии.
+Внесувајте само по еден број на ревизија во секој ред',
 	'maintenance-deleteRevision-desc' => 'Отстрани ревизии од базата на податоци',
-	'maintenance-eval-desc' => 'Проверка на PHP-кодот во МедијаВики околина',
 	'maintenance-initEditCount-desc' => 'Одново пресметај го бројот на уредувањата на корисниците',
+	'maintenance-initStats' => 'Овој образец служи за одново пресметување на статистики, назначувајќи дали сакате да одновно да ги пресметате и прегледите на страниците',
 	'maintenance-initStats-desc' => 'Одново пресметај ги статистиките на мрежното место',
+	'maintenance-moveBatch' => 'Овој образец служи за групно преместување на страници.
+ВО секој ред треба да има наведено изворна страница и целна страница, одделени со знакот „|“',
 	'maintenance-moveBatch-desc' => 'Групно преместување на страници',
 	'maintenance-reassignEdits-desc' => 'Презадај уредувања од еден корисник на друг',
 	'maintenance-runJobs-desc' => 'Пушти ги задачите во редицата на задачи',
 	'maintenance-showJobs-desc' => 'Прикажи список на задачи во редот на чекање',
+	'maintenance-sql' => 'Овој образец служи за вршење на SQL-барање од базата на податоци.',
 	'maintenance-sql-desc' => 'Изврши SQL-барање',
 	'maintenance-stats-desc' => 'Прикажи Memcached статистики',
-	'maintenance-changePassword' => 'Овој образец служи за менување на лозинка на корисник',
-	'maintenance-createAndPromote' => 'Овој образец служи за создавање на нов корисник и негово унапредување во администратор.
-Штиклирајте го кутивчето за „бирократ“ ако сакате корисникот воедно да биде и во бирократ',
-	'maintenance-deleteBatch' => 'Овој образец користи за групно бришење на слики.
-Внесувајте само една страница по ред',
-	'maintenance-deleteRevision' => 'Овој образец служи за групно бришење на ревизии.
-Внесувајте само по еден број на ревизија во секој ред',
-	'maintenance-initStats' => 'Овој образец служи за одново пресметување на статистики, назначувајќи дали сакате да одновно да ги пресметате и прегледите на страниците',
-	'maintenance-moveBatch' => 'Овој образец служи за групно преместување на страници.
-ВО секој ред треба да има наведено изворна страница и целна страница, одделени со знакот „|“',
-	'maintenance-error-invalidtype' => 'Неважечки тип!',
-	'maintenance-name' => 'Корисничко име',
-	'maintenance-password' => 'Лозинка',
-	'maintenance-bureaucrat' => 'Промоција на корисник во бирократ',
-	'maintenance-reason' => 'Неважечки тип!',
+	'maintenance-eval' => 'Овој образец служи за проверка на PHP-код во МедијаВики околина.',
+	'maintenance-eval-desc' => 'Проверка на PHP-кодот во МедијаВики околина',
 	'maintenance-update' => 'Да користам UPDATE кога ажурирам табела? Отшриклирајте ако сакате наместо тоа да користам DELETE/INSERT.',
 	'maintenance-noviews' => 'Штиклирајте го ова за да го спречите ажурирањето на бројот на прегледи на страниците',
-	'maintenance-option-confirm' => 'Потврди',
 	'maintenance-invalidname' => 'Неважечко корисничко име!',
-	'maintenance-output-success' => '$1 е успешно извршено!',
 	'maintenance-userexists' => 'Корисникот веќе постои!',
 	'maintenance-invalidtitle' => 'Неважечки наслов „$1“!',
 	'maintenance-titlenoexist' => 'Назначениот наслов („$1“) не постои.',
@@ -3081,10 +3071,6 @@ $messages['mk'] = array(
 	'maintenance-deleted' => 'ИЗБРИШАНО',
 	'maintenance-revdelete' => 'Бришење на {{PLURAL:$3|ревизија|ревизии}} $1 од викито $2',
 	'maintenance-revnotfound' => 'Ревизијата $1 не е пронајдена!',
-	'maintenance-sql' => 'Овој образец служи за вршење на SQL-барање од базата на податоци.',
-	'maintenance-sql-aff' => 'Засегнати редови: $1',
-	'maintenance-sql-res' => '{{PLURAL:$1|Вратен е $1 ред|Вратени се $1 реда}}:
-$2',
 	'maintenance-stats-edits' => 'Број на уредувања: $1',
 	'maintenance-stats-articles' => 'Број на страници во главниот именски простор: $1',
 	'maintenance-stats-pages' => 'Број на страници: $1',
@@ -3113,7 +3099,6 @@ $2',
 	'maintenance-memc-updates' => 'подновувања:',
 	'maintenance-memc-uncacheable' => 'некеширливи:',
 	'maintenance-memc-diffcache' => 'Кеш на разликата',
-	'maintenance-eval' => 'Овој образец служи за проверка на PHP-код во МедијаВики околина.',
 	'maintenance-reassignEdits' => 'Овој образец служи за презадавање на уредувања од еден корисник на друг.',
 	'maintenance-re-from' => 'Име на корисникот чиишто уредувања се презадаваат',
 	'maintenance-re-to' => 'Име на корисникот кому му се презадаваат уредувањата',
@@ -5096,9 +5081,6 @@ $messages['yi'] = array(
  * @author Wrightbus
  */
 $messages['zh-hans'] = array(
-	'maintenance-name' => '使用者名称',
-	'maintenance-password' => '密码',
-	'maintenance-reason' => '原因',
 	'maintenance-option-confirm' => '确认',
 	'maintenance-memc-requests' => '请求',
 );
@@ -5108,14 +5090,11 @@ $messages['zh-hans'] = array(
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
+	'maintenance-option-confirm' => '確認',
 	'maintenance-changePassword-desc' => '變更使用者的密碼',
 	'maintenance-deleteBatch-desc' => '大量刪除頁面',
 	'maintenance-deleteRevision-desc' => '從資料庫中刪除修改',
 	'maintenance-initStats-desc' => '重新計算網站的統計資料',
-	'maintenance-name' => '使用者名稱',
-	'maintenance-password' => '密碼',
-	'maintenance-reason' => '原因',
-	'maintenance-option-confirm' => '確認',
 	'maintenance-invalidname' => '無效的使用者名稱！',
 	'maintenance-userexists' => '用戶已存在！',
 	'maintenance-invalidtitle' => '無效的標題「$1」！',
