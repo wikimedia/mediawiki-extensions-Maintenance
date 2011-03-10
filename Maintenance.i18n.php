@@ -618,11 +618,18 @@ $messages['be-tarask'] = array(
 	'maintenance-backlink' => 'Вярнуцца ў выбар скрыптоў',
 	'maintenance-header' => 'Калі ласка, выберыце скрыпт для запуску.
 Апісаньне знаходзіцца каля кожнага скрыпта',
+	'maintenance-error-badini' => 'Файл metadata.ini пашкоджаны ці адсутнічае. Калі ласка, загрузіце зноў пашырэньне Maintenance',
 	'maintenance-error-invalidtype' => 'Няслушны тып!',
+	'maintenance-error-badargs' => 'Вы не пазначылі ўсе абавязковыя налады',
 	'maintenance-generic-done' => 'зроблена',
 	'maintenance-generic-username' => 'Імя ўдзельніка',
 	'maintenance-generic-password' => 'Пароль',
 	'maintenance-generic-reason' => 'Прычына',
+	'maintenance-cleanupTable-dry-run' => 'Выканаць тэставы запуск',
+	'maintenance-cleanupTable-check' => 'Праверка няслушных назваў…',
+	'maintenance-cleanupTable-checkfix' => 'Праверка і выпраўленьне няслушных назваў…',
+	'maintenance-cleanupTable-missingparam' => '$1: адсутнічае парамэтар $2',
+	'maintenance-cleanupTable-processing' => 'Апрацоўка $1...',
 	'maintenance-option-quiet' => 'Паказваць толькі памылкі',
 	'maintenance-option-confirm' => 'Пацьвердзіць',
 	'maintenance-option-required' => '(абавязкова)',
@@ -630,6 +637,13 @@ $messages['be-tarask'] = array(
 	'maintenance-output-success' => '$1 пасьпяхова запушчаны!',
 	'maintenance-changePassword' => 'Выкарыстоўвайце гэтую форму для зьмены паролю ўдзельніка',
 	'maintenance-changePassword-desc' => 'Зьмяніць пароль удзельніка',
+	'maintenance-checkBadRedirects-output-footer' => '
+зроблена.',
+	'maintenance-checkImages-output-noaccess' => '$1: недаступны лякальна',
+	'maintenance-checkImages-output-missing' => '$1: адсутнічае',
+	'maintenance-checkImages-output-isdir' => '$1: дырэкторыя',
+	'maintenance-checkImages-output-good' => 'Добрыя выявы: $1/$2',
+	'maintenance-checkSyntax-desc' => 'Праверыць сынтак усіх PHP-файлаў MediaWiki',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
@@ -2707,6 +2721,7 @@ Spostamento annullato',
 /** Japanese (日本語)
  * @author Aotake
  * @author Fryed-peach
+ * @author Ohgi
  */
 $messages['ja'] = array(
 	'maintenance' => 'メンテナンス・スクリプトを実行する',
@@ -2714,9 +2729,17 @@ $messages['ja'] = array(
 	'right-maintenance' => '[[Special:Maintenance]] を使ってメンテナンス・スクリプトを実行する',
 	'maintenance-backlink' => 'スクリプト選択に戻る',
 	'maintenance-header' => '実行するスクリプトを以下から選んでください。解説は各スクリプトの隣にあります',
+	'maintenance-error-badini' => 'metadata.iniファイルが壊れているか、欠落しています。メンテナンス拡張機能を再ダウンロードしてください。',
 	'maintenance-error-invalidtype' => '無効なタイプです！',
+	'maintenance-error-badargs' => '必要な設定項目がすべて指定されていません。',
+	'maintenance-generic-done' => '完了',
+	'maintenance-generic-username' => '利用者名',
+	'maintenance-generic-password' => 'パスワード',
+	'maintenance-generic-reason' => '理由',
 	'maintenance-option-confirm' => '確認',
 	'maintenance-output-success' => '$1 の実行は成功しました！',
+	'maintenance-output-failure' => '$1 正常に実行されませんでした。',
+	'maintenance-attachLatest-output-done' => '完了しました。$1件のページが処理されました。',
 	'maintenance-changePassword' => 'このフォームを使って利用者のパスワードを変更する',
 	'maintenance-changePassword-desc' => '利用者のパスワードを変更する',
 	'maintenance-createAndPromote' => 'このフォームを使って利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合はビューロクラット・ボックスをチェックする',
@@ -5276,13 +5299,22 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
  * @author Liangent
  * @author PhiLiP
  * @author Wrightbus
  */
 $messages['zh-hans'] = array(
+	'maintenance-generic-done' => '做好了',
+	'maintenance-generic-username' => '用户名',
+	'maintenance-generic-password' => '密码',
+	'maintenance-generic-reason' => '原因',
 	'maintenance-option-confirm' => '确认',
+	'maintenance-option-required' => '（必须要）',
+	'maintenance-failed' => '失败了',
+	'maintenance-deleted' => '删除了',
 	'maintenance-memc-requests' => '请求',
+	'maintenance-memc-total' => '总数：',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
