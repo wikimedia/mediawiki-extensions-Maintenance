@@ -342,6 +342,7 @@ $messages['qqq'] = array(
 	'maintenance-generic-reason' => '{{Identical|Reason}}',
 	'maintenance-option-confirm' => '{{Identical|Confirm}}',
 	'maintenance-option-required' => '{{Identical|Required}}',
+	'maintenance-checkBadRedirects-output-footer' => '{{Identical|Done}}',
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Are UPDATE and DELETE/INSERT also translatable?",
@@ -628,13 +629,23 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupTable-dry-run' => 'Выканаць тэставы запуск',
 	'maintenance-cleanupTable-check' => 'Праверка няслушных назваў…',
 	'maintenance-cleanupTable-checkfix' => 'Праверка і выпраўленьне няслушных назваў…',
+	'maintenance-cleanupTable-progress' => '$1 $2: $3% зроблена ў $4; ETA $5 [$6/$7] $8/сэк <$9% зьменена>',
 	'maintenance-cleanupTable-missingparam' => '$1: адсутнічае парамэтар $2',
-	'maintenance-cleanupTable-processing' => 'Апрацоўка $1...',
+	'maintenance-cleanupTable-processing' => 'Апрацоўка $1…',
+	'maintenance-cleanupTable-finished' => 'Скончана $1… $2 {{PLURAL:$2|радок з $3 зьменены|радкі з $3 зьмененыя|радкоў з $3 зьмененыя}}',
 	'maintenance-option-quiet' => 'Паказваць толькі памылкі',
+	'maintenance-option-globals' => 'Вывадзіць глябальныя зьменныя у канцы працэсу наладкі',
 	'maintenance-option-confirm' => 'Пацьвердзіць',
+	'maintenance-option-batch-size' => 'Запуск гэтых шматлікіх працэсаў у пакеце, па змоўчваньні: $1',
 	'maintenance-option-required' => '(абавязкова)',
 	'maintenance-option-optional' => '(неабавязкова)',
 	'maintenance-output-success' => '$1 пасьпяхова запушчаны!',
+	'maintenance-output-failure' => 'Не атрымалася запусьціць $1!',
+	'maintenance-attachLatest' => 'Выкарыстоўвайце гэтую форму для выпраўленьня элемэнтаў табліцы старонак, дзе page_latest устаноўленае ў 0',
+	'maintenance-attachLatest-desc' => 'Выправіць элемэнты page_latest у табліцы старонак',
+	'maintenance-attachLatest-option-fix' => 'Сапраўды выпраўляць элемэнты, інакш запусьціць тэставы запуск',
+	'maintenance-attachLatest-output-begin' => 'Пошук старонак з page_latest устаноўленым у 0…',
+	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] ня можа знайсьці час апошняй вэрсіі?!',
 	'maintenance-changePassword' => 'Выкарыстоўвайце гэтую форму для зьмены паролю ўдзельніка',
 	'maintenance-changePassword-desc' => 'Зьмяніць пароль удзельніка',
 	'maintenance-checkBadRedirects-output-footer' => '
@@ -643,7 +654,7 @@ $messages['be-tarask'] = array(
 	'maintenance-checkImages-output-missing' => '$1: адсутнічае',
 	'maintenance-checkImages-output-isdir' => '$1: дырэкторыя',
 	'maintenance-checkImages-output-good' => 'Добрыя выявы: $1/$2',
-	'maintenance-checkSyntax-desc' => 'Праверыць сынтак усіх PHP-файлаў MediaWiki',
+	'maintenance-checkSyntax-desc' => 'Праверыць сынтаксіс усіх PHP-файлаў MediaWiki',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
@@ -1612,6 +1623,7 @@ Keskeytetään siirto',
  * @author Crochet.david
  * @author Grondin
  * @author IAlex
+ * @author Justadust
  * @author Marc-André Beauchamp
  * @author PieRRoMaN
  * @author Verdy p
@@ -1625,14 +1637,22 @@ $messages['fr'] = array(
 	'maintenance-header' => 'Veuillez sélectionner, ci-dessous, un script à exécuter.
 Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-error-invalidtype' => 'Type incorrect !',
+	'maintenance-error-badargs' => "Vous n'avez pas renseigné toutes les options requises",
 	'maintenance-generic-done' => 'fait',
 	'maintenance-generic-username' => 'Nom d’utilisateur',
 	'maintenance-generic-password' => 'Mot de passe',
 	'maintenance-generic-reason' => 'Raison',
+	'maintenance-cleanupTable-check' => 'Vérification des mauvais titres...',
+	'maintenance-cleanupTable-checkfix' => 'Vérification et correction des mauvais titres...',
+	'maintenance-cleanupTable-progress' => '$1 $2: $3% effectué(s) sur $4; ETA $5 [$6/$7] $8/sec <$9% mis à jour>',
+	'maintenance-cleanupTable-missingparam' => '$1: Paramètre manquant $2',
+	'maintenance-cleanupTable-processing' => 'En cours de traitement $1...',
+	'maintenance-cleanupTable-finished' => 'Terminé $1... $2 sur $3 lignes mises à jour',
 	'maintenance-option-confirm' => 'Confirmer',
 	'maintenance-option-required' => '(Requis)',
 	'maintenance-option-optional' => '(facultatif)',
 	'maintenance-output-success' => '$1 s’est déroulé avec succès !',
+	'maintenance-output-failure' => "$1 ne s'est pas exécuté correctement!",
 	'maintenance-changePassword' => 'Utiliser ce formulaire pour changer le mot de passe d’un utilisateur',
 	'maintenance-changePassword-desc' => 'Changer le mot de passe d’un utilisateur',
 	'maintenance-checkBadRedirects-desc' => 'Rechercher des mauvaises redirections',
