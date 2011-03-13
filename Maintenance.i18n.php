@@ -55,8 +55,8 @@ $messages['en'] = array(
 	'maintenance-attachLatest-desc' => 'Fix page_latest entries in the page table',
 	'maintenance-attachLatest-option-fix' => 'Actually fix the entries, will dry run otherwise',
 	'maintenance-attachLatest-output-begin' => 'Looking for pages with page_latest set to 0...', 
-	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] can\'t find the latest rev time?!', #$1=wiki id, $2=page id, $3=page name
-	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] latest time $4, can\'t find revision id', #$1=wiki id, $2=page id, $3=page name, $4=latest time
+	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] cannot find the latest rev time?!', #$1=wiki id, $2=page id, $3=page name
+	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] latest time $4, cannot find revision id', #$1=wiki id, $2=page id, $3=page name, $4=latest time
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] latest time $4, rev id $5', #$1=wiki id, $2=page id, $3=page name, $4=latest time, $5=rev id
 	'maintenance-attachLatest-output-done' => 'Done! Processed $1 pages.', #$1=number of pages with page_latest=0
 	'maintenance-attachLatest-output-dryrun' => 'This was a dry run; rerun with "{{int:maintenance-attachLatest-option-fix}}" to update page_latest.',
@@ -110,8 +110,8 @@ $messages['en'] = array(
 	'maintenance-checkSyntax-output-buildlist' => 'Building file list...',
 	'maintenance-checkSyntax-output-error' => 'Error in $1 line $2: $3', #$1=file, $2=line no, $3=error message
 	'maintenance-checkSyntax-output-warning' => 'Warning in file $1: $2 found', #$1=file, $2=warning message
-	'maintenance-checkSyntax-error-nofile' => 'Error: can\'t find file or directory $1', #$1=file or directory path
-	'maintenance-checkSyntax-error-cantopen' => 'Can\'t open file $1', #$1=filename
+	'maintenance-checkSyntax-error-nofile' => 'Error: cannot find file or directory $1', #$1=file or directory path
+	'maintenance-checkSyntax-error-cantopen' => 'Cannot open file $1', #$1=filename
 	'maintenance-checkSyntax-error-svnerr' => 'Error retrieving list from Subversion!',
 	// checkUsernames
 	'maintenance-checkUsernames' => 'Use this form to show which usernames are invalid due to configuration changes. If nothing is listed after running this script, all usernames are valid',
