@@ -64,8 +64,8 @@ $messages['en'] = array(
 	'maintenance-benchmarkPurge' => 'Use this form to test how long the Squid purge functions take',
 	'maintenance-benchmarkPurge-desc' => 'Benchmark the Squid purge functions',
 	'maintenance-benchmarkPurge-option-count' => 'How many URLs to feed to Squid for purging',
-	'maintenance-benchmarkPurge-error-nosquid' => "Squid purge benchmark doesn't do much without squid support on.",
-	'maintenance-benchmarkPurge-output-numsquids' => 'There are $1 defined squid servers:', #$1=number of squid servers
+	'maintenance-benchmarkPurge-error-nosquid' => "Squid purge benchmark doesn't do much without Squid support on.",
+	'maintenance-benchmarkPurge-output-numsquids' => 'There are $1 defined Squid servers:', #$1=number of squid servers
 	'maintenance-benchmarkPurge-output-trial' => '$1 titles in $2ms ($3ms each)', #$1=number of titles, $2=total time, $3=average time
 	// changePassword
 	'maintenance-changePassword' => "Use this form to change a user's password",
