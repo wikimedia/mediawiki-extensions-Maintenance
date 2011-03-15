@@ -681,6 +681,11 @@ $messages['be-tarask'] = array(
 	'maintenance-checkImages-output-good' => 'Добрыя выявы: $1/$2',
 	'maintenance-checkSyntax' => 'Выкарыстоўвайце гэтую форму для праверкі сынтаксісу ўсіх PHP-файлаў MediaWiki',
 	'maintenance-checkSyntax-desc' => 'Праверыць сынтаксіс усіх PHP-файлаў MediaWiki',
+	'maintenance-checkSyntax-option-with-extensions' => 'Таксама рэкурсыўна дырэкторыю пашырэньняў',
+	'maintenance-checkSyntax-option-path' => 'Асобны шлях (файл ці дырэкторыя) для праверкі з абсалютным ці адносным шляхам да карэннай дырэкторыі гэтай MediaWiki',
+	'maintenance-checkSyntax-option-list-file' => 'Сьпіс файлаў ці дырэкторыяў для праверкі',
+	'maintenance-checkSyntax-option-modified' => 'Правяраць толькі файлы, якія зьмяняліся (патрабуе SVN-кліент каманднага радку)',
+	'maintenance-checkSyntax-option-syntax-only' => 'Правяраць толькі слушнасьць сынтаксісу, прапускаць папярэджаньні стылю коду',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
