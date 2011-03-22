@@ -733,6 +733,8 @@ $messages['be-tarask'] = array(
 	'maintenance-sql' => 'Выкарыстоўвайце гэтую форму для выкананьня SQL-запыту ў базе зьвестак.',
 	'maintenance-sql-desc' => 'Выканаць SQL-запыт',
 	'maintenance-sql-option-file' => 'SQL для выкананьня',
+	'maintenance-sql-output-aff' => 'Запыт пасьпяховы, $1 {{PLURAL:$1|радок пашкоджаны|радкі пашкоджаныя|радкоў пашкоджаныя}}',
+	'maintenance-sql-error-cantopen' => 'Немагчыма адкрыць уваходны файл',
 	'maintenance-stats-desc' => 'Паказаць статыстыку Memcached',
 	'maintenance-eval' => 'Выкарыстоўвайце гэтую форму для тэставаньня PHP-коду ў асяродзьдзі MediaWiki.',
 	'maintenance-eval-desc' => 'Праверыць РНР код у асяродзьдзі MediaWiki',
@@ -4637,6 +4639,7 @@ $messages['roa-tara'] = array(
  * @author Ferrer
  * @author Haffman
  * @author Innv
+ * @author Lockal
  * @author Putnik
  * @author Александр Сигачёв
  */
@@ -4651,14 +4654,18 @@ $messages['ru'] = array(
 	'maintenance-generic-done' => 'выполнено',
 	'maintenance-generic-password' => 'Пароль',
 	'maintenance-generic-reason' => 'Причина',
+	'maintenance-cleanupTable-missingparam' => '$1: Отсутствует параметр $2',
 	'maintenance-cleanupTable-processing' => 'Обработка $1...',
 	'maintenance-option-confirm' => 'Подтвердить',
 	'maintenance-output-success' => '$1 успешно выполнено!',
+	'maintenance-attachLatest-output-done' => 'Сделано! Обработано $1 страниц.',
 	'maintenance-changePassword' => 'Используйте эту форму, чтобы изменить пароль участника',
 	'maintenance-changePassword-desc' => 'Изменить пароль участника',
 	'maintenance-checkImages-output-missing' => '$1: отсутствует',
 	'maintenance-checkImages-output-isdir' => '$1 - каталог',
-	'maintenance-checkSyntax-output-buildlist' => 'Постройка списка файлов...',
+	'maintenance-checkSyntax' => 'Используйте эту форму для проверки синтаксиса всех PHP-файлов в MediaWiki.',
+	'maintenance-checkSyntax-option-list-file' => 'Список файлов или папок для проверки',
+	'maintenance-checkSyntax-output-buildlist' => 'Построение списка файлов…',
 	'maintenance-checkSyntax-output-error' => 'Ошибка в $1 в $2 строке: $3',
 	'maintenance-checkSyntax-error-cantopen' => 'Невозможно открыть файл $1',
 	'maintenance-createAndPromote' => 'Используйте эту форму для создания нового участника с правами администратора.
