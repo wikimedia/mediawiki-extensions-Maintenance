@@ -864,9 +864,18 @@ $messages['br'] = array(
 	'maintenance-backlink' => 'Distreiñ da zibab ar skript',
 	'maintenance-header' => 'Mar plij dibabit ur skript da seveniñ, amañ da-heul.
 An diskrivadurioù a vez goude pep hini anezho.',
+	'maintenance-generic-done' => 'graet',
+	'maintenance-generic-username' => 'Anv implijer',
+	'maintenance-generic-password' => 'Ger-tremen',
+	'maintenance-generic-reason' => 'Abeg',
+	'maintenance-option-confirm' => 'Kadarnaat',
+	'maintenance-option-required' => '(rekis)',
+	'maintenance-option-optional' => '(diret)',
 	'maintenance-output-success' => '$1 zo aet da benn vat !',
 	'maintenance-changePassword' => 'Implijout ar furmskrid-mañ da cheñch ger-tremen un implijer',
 	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
+	'maintenance-checkBadRedirects-output-footer' => '
+Graet.',
 	'maintenance-createAndPromote' => "Implijit ar furmskrid-mañ evit krouiñ un implijer nevez ha lakaat anezhañ da verour.
 Askit al log bureviad ma fell deoc'h reiñ dezhañ ar statud-se ivez.",
 	'maintenance-createAndPromote-desc' => "Krouiñ un implijer hag uhelaat d'ar statud merour",
