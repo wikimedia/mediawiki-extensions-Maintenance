@@ -1887,11 +1887,13 @@ $messages['gl'] = array(
 	'maintenance-backlink' => 'Volver á selección de escrituras',
 	'maintenance-header' => 'Por favor, seleccione a escritura de embaixo que queira executar.
 As descricións están ao lado de cada escritura',
-	'maintenance-error-invalidtype' => 'Tipo inválido!',
+	'maintenance-error-invalidtype' => 'Non se atopou a escritura especificada',
 	'maintenance-generic-done' => 'feito',
 	'maintenance-generic-username' => 'Nome de usuario',
 	'maintenance-generic-password' => 'Contrasinal',
 	'maintenance-generic-reason' => 'Motivo',
+	'maintenance-cleanupTable-missingparam' => '$1: Falta o parámetro $2',
+	'maintenance-cleanupTable-processing' => 'Procesando $1...',
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-option-required' => '(obrigatorio)',
 	'maintenance-option-optional' => '(opcional)',
@@ -1900,7 +1902,7 @@ As descricións están ao lado de cada escritura',
 	'maintenance-changePassword-desc' => 'Cambiar o contrasinal dun usuario',
 	'maintenance-changePassword-error-nouser' => 'Non existe tal usuario: $1',
 	'maintenance-checkBadRedirects-output-footer' => '
-feito.',
+Feito.',
 	'maintenance-createAndPromote' => 'Use este formulario para crear un novo usuario e promovelo ao status de administrador.
 Comprobe a caixa de burócrata se quere tamén promovelo ao status de burócrata',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo ao status de administrador',
