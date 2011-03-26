@@ -1923,6 +1923,7 @@ Cada liña debería especificar unha fonte e destino da páxina separados por un
 	'maintenance-showJobs-desc' => 'Amosar a lista dos traballos pendentes na cola de traballo',
 	'maintenance-sql' => 'Use este formulario para executar unha pescuda SQL na base de datos.',
 	'maintenance-sql-desc' => 'Executar unha pescuda SQL',
+	'maintenance-sql-option-file' => 'SQL a executar',
 	'maintenance-stats-desc' => 'Amosar as estatísticas da memoria caché',
 	'maintenance-eval' => 'Use este formulario para avaliar o código PHP no ambiente MediaWiki.',
 	'maintenance-eval-desc' => 'Avaliar o código PHP no ambiente MediaWiki',
@@ -2106,6 +2107,7 @@ $messages['haw'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Rotemliss
  * @author YaronSh
  */
@@ -2116,11 +2118,17 @@ $messages['he'] = array(
 	'maintenance-backlink' => 'חזרה לבחירת הסקריפטים',
 	'maintenance-header' => 'אנא בחרו איזה מהסקריפטים שלהלן להריץ.
 התיאורים מופיעים ליד כל סקריפט',
-	'maintenance-error-invalidtype' => 'הסוג אינו תקין!',
+	'maintenance-error-invalidtype' => 'הסקריפט שצוין לא נמצא',
+	'maintenance-generic-done' => 'בוצע',
+	'maintenance-generic-username' => 'שם משתמש',
+	'maintenance-generic-password' => 'ססמה',
+	'maintenance-generic-reason' => 'סיבה',
 	'maintenance-option-confirm' => 'אישור',
 	'maintenance-output-success' => 'הסקריפט $1 רץ בהצלחה!',
 	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
 	'maintenance-changePassword-desc' => 'שינוי סיסמת משתמש',
+	'maintenance-checkBadRedirects-output-footer' => '
+בוצע.',
 	'maintenance-createAndPromote' => 'השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.
 סמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט',
 	'maintenance-createAndPromote-desc' => 'יצירת משתמש וקידומו למצב מפעיל מערכת',
