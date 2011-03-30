@@ -667,7 +667,7 @@ $messages['be-tarask'] = array(
 	'maintenance-checkBadRedirects' => 'Выкарыстоўвайце гэтую форму для таго, каб пабачыць ці сапраўды пазначаныя як перанакіравані ўсе перанакіравані',
 	'maintenance-checkBadRedirects-desc' => 'Пошук няслушных перанакіраваньняў',
 	'maintenance-checkBadRedirects-output-header' => 'Выбарка перанакіраваньняў…',
-	'maintenance-checkBadRedirects-output-found' => '{{PLURAL:$1|Знойдзенае $1 перанакіраваньне|Знойдзеныя $1 перанакіраваньні|Знойдзеныя $1 перанакіраваньняў}}.
+	'maintenance-checkBadRedirects-output-found' => 'Перанакіраваньняў знойдзена: $1
 Шукаюцца няслушныя перанакіраваньні…',
 	'maintenance-checkBadRedirects-output-footer' => 'Зроблена.',
 	'maintenance-checkImages' => 'Выкарыстоўвайце гэтую форму для таго, каб убачыць якія выявы на Вашым сэрвэры пашкоджаныя',
