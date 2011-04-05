@@ -2094,6 +2094,13 @@ $messages['gu'] = array(
 	'maintenance-name' => 'સભ્ય નામ',
 );
 
+/** Manx (Gaelg)
+ * @author Shimmin Beg
+ */
+$messages['gv'] = array(
+	'maintenance-generic-reason' => 'Fa:',
+);
+
 /** Hakka (Hak-kâ-fa)
  * @author Hakka
  */
@@ -3184,6 +3191,7 @@ D'Beschreiwunge stinn niewent all Script.",
 	'maintenance-generic-username' => 'Benotzernumm',
 	'maintenance-generic-password' => 'Passwuert',
 	'maintenance-generic-reason' => 'Grond',
+	'maintenance-cleanupTable-dry-run' => 'Een Testlaf maachen',
 	'maintenance-cleanupTable-check' => 'No falschen Titele sichen...',
 	'maintenance-cleanupTable-checkfix' => 'No falschen Titele sichen an se flécken ...',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% fäerdeg den $4; ETA $5 [$6/$7] $8/sec <$9% aktualiséiert>',
