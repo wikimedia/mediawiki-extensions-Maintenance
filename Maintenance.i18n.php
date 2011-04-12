@@ -5509,7 +5509,10 @@ $messages['vi'] = array(
 	'maintenance-backlink' => 'Quay lại lựa chọn mã',
 	'maintenance-header' => 'Xin hãy chọn một đoạn mã ở dưới để thực thi.
 Mô tả nằm ở bên cạnh mỗi đoạn mã',
-	'maintenance-error-invalidtype' => 'Kiểu không hợp lệ!',
+	'maintenance-error-invalidtype' => 'Không tìm thấy script đã định rõ',
+	'maintenance-generic-username' => 'Tên người dùng',
+	'maintenance-generic-password' => 'Mật khẩu',
+	'maintenance-generic-reason' => 'Lý do',
 	'maintenance-option-confirm' => 'Xác nhận',
 	'maintenance-output-success' => '$1 đã chạy thành công!',
 	'maintenance-changePassword' => 'Sử dụng mẫu này để thay đổi mật khẩu của thành viên',
