@@ -1473,7 +1473,7 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'maintenance-error-invalidtype' => 'Nevalida speco!',
+	'maintenance-error-invalidtype' => 'La petita skripto ne estis trovita',
 	'maintenance-option-confirm' => 'Konfirmi',
 	'maintenance-output-success' => '$1 sukcesis!',
 	'maintenance-changePassword-desc' => 'Ŝangi pasvorton de uzanto',
