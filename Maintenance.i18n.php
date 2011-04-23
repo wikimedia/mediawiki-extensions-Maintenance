@@ -417,6 +417,9 @@ $messages['ar'] = array(
 	'maintenance-header' => 'من فضلك اختر سكريبت بالأسفل للتنفيذ.
 الوصوفات بجانب كل سكريبت',
 	'maintenance-error-invalidtype' => 'نوع غير صحيح!',
+	'maintenance-generic-username' => 'اسم المستخدم',
+	'maintenance-generic-password' => 'كلمة السر',
+	'maintenance-generic-reason' => 'السبب',
 	'maintenance-option-confirm' => 'تأكيد',
 	'maintenance-output-success' => '$1 عمل بنجاح!',
 	'maintenance-changePassword' => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
@@ -2738,7 +2741,7 @@ $messages['id'] = array(
 	'maintenance-backlink' => 'Kembali ke pemilihan skrip',
 	'maintenance-header' => 'Silakan pilih sebuah skrip di bawah ini untuk dijalankan.
 Deskripsi tersedia di samping masing-masing skrip',
-	'maintenance-error-invalidtype' => 'Tipe tidak benar!',
+	'maintenance-error-invalidtype' => 'Skrip yang diberikan tidak ditemukan',
 	'maintenance-option-confirm' => 'Konfirmasi',
 	'maintenance-output-success' => '$1 berjalan lancar!',
 	'maintenance-changePassword' => 'Gunakan formulir ini untuk mengubah kata sandi pengguna',
