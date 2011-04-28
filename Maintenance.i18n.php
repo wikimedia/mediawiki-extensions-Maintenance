@@ -611,6 +611,17 @@ $messages['arz'] = array(
 	'maintenance-re-re' => 'جارى إعادة إلحاق التعديلات... تم',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'maintenance-generic-username' => 'İstifadəçi adı',
+	'maintenance-generic-password' => 'Parol',
+	'maintenance-generic-reason' => 'Səbəb',
+	'maintenance-checkBadRedirects-output-footer' => '
+Oldu.',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -4429,7 +4440,7 @@ $messages['pms'] = array(
 	'maintenance-backlink' => 'André a la selession dël senari',
 	'maintenance-header' => "Për piasì ch'a selession-a un senari sì-sota da fé giré.
 Le descrission a son tacà a minca senari",
-	'maintenance-error-invalidtype' => 'Sòrt pa bon-a!',
+	'maintenance-error-invalidtype' => "Lë script specificà a l'é pa stàit trovà",
 	'maintenance-option-confirm' => 'Conferma',
 	'maintenance-output-success' => "$1 a l'ha girà da bin!",
 	'maintenance-changePassword' => "Dovré ës formolari për cangé na ciav ëd n'utent",
