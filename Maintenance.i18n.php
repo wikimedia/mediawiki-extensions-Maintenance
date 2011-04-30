@@ -867,9 +867,45 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Ehsanulhb
+ * @author Wikitanvir
  */
 $messages['bn'] = array(
-	'maintenance-confirm' => 'নিশ্চিত করুন',
+	'maintenance-error-badargs' => 'আপনি সকল বাধ্যতামূলক অপশন উল্লেখ করেননি',
+	'maintenance-generic-done' => 'সম্পন্ন',
+	'maintenance-generic-username' => 'ব্যবহারকারী নাম',
+	'maintenance-generic-password' => 'শব্দচাবি',
+	'maintenance-generic-reason' => 'কারণ',
+	'maintenance-cleanupTable-processing' => '$1 প্রক্রিয়াকরণ করা হচ্ছে...',
+	'maintenance-option-confirm' => 'নিশ্চিত করুন',
+	'maintenance-option-required' => '(বাধ্যতামূলক)',
+	'maintenance-option-optional' => '(ঐচ্ছিক)',
+	'maintenance-output-success' => '$1 সফলভাবে চালু হয়েছিলো!',
+	'maintenance-output-failure' => '$1 সফলভাবে চালু হয়নি!',
+	'maintenance-changePassword-desc' => 'ব্যবহারকারীর শব্দচাবি পরিবর্তন করুন',
+	'maintenance-changePassword-error-nouser' => '"$1" নামে কোন ব্যবহারকারী নেই।',
+	'maintenance-changePassword-output-set' => '$1-এর জন্য শব্দচাবি ঠিক করা হয়েছে',
+	'maintenance-checkBadRedirects-output-header' => 'পুনর্নির্দেশনার আনা হচ্ছে...',
+	'maintenance-checkBadRedirects-output-footer' => 'নিষ্পন্ন হয়েছে।',
+	'maintenance-checkImages-output-noaccess' => '$1:  স্থানীয়ভাবে প্রবেশ করা সম্ভব নয়',
+	'maintenance-checkImages-output-missing' => '$1: হারানো গেছে',
+	'maintenance-checkImages-output-isdir' => '$1: একটি ডিরেক্টরি',
+	'maintenance-checkImages-output-good' => 'ভালো চিত্রসমূহ: $1/$2',
+	'maintenance-failed' => 'ব্যর্থ',
+	'maintenance-deleted' => 'অপসারিত',
+	'maintenance-error' => 'ত্রুটি: $1',
+	'maintenance-memc-requests' => 'অনুরোধ',
+	'maintenance-memc-withsession' => 'সেশনসহ:',
+	'maintenance-memc-withoutsession' => 'সেশন ছাড়া:',
+	'maintenance-memc-total' => 'সর্বমোট:',
+	'maintenance-memc-parsercache' => 'পার্সার ক্যাশে',
+	'maintenance-memc-hits' => 'হিট:',
+	'maintenance-memc-invalid' => 'ত্রুটিপূর্ণ:',
+	'maintenance-memc-expired' => 'মেয়াদোত্তীর্ণ হবে:',
+	'maintenance-memc-absent' => 'অনুপস্থিত',
+	'maintenance-memc-imagecache' => 'চিত্র ক্যাশে',
+	'maintenance-memc-misses' => 'হারানো:',
+	'maintenance-memc-updates' => 'হালনাগাদ:',
+	'maintenance-memc-diffcache' => 'পার্থক্য ক্যাশে',
 );
 
 /** Breton (Brezhoneg)
@@ -919,6 +955,7 @@ Graet.',
 	'maintenance-checkSyntax-desc' => 'Gwiriañ ereadur an holl restroù PHP e MediaWiki',
 	'maintenance-checkSyntax-output-parsekit' => 'O wiriañ an ereadurezh (en ur ober gant parsekit)',
 	'maintenance-checkSyntax-output-footer' => "Echu ! $1 restr gwiriet, $2 c'hwitet ha $3 kemenn diwall kavet",
+	'maintenance-checkSyntax-output-svnlist' => "Oc'h adtapout a roll digant Subversion...",
 	'maintenance-checkSyntax-output-buildlist' => 'O sevel roll ar restroù...',
 	'maintenance-checkSyntax-output-error' => 'Fazi e $1, linenn $2 : $3',
 	'maintenance-checkSyntax-output-warning' => 'Kemenn diwall er restr $1 : $2 kavet',
@@ -1997,8 +2034,18 @@ As descricións están ao lado de cada escritura',
 	'maintenance-changePassword' => 'Use este formulario para cambiar o contrasinal dun usuario',
 	'maintenance-changePassword-desc' => 'Cambiar o contrasinal dun usuario',
 	'maintenance-changePassword-error-nouser' => 'Non existe tal usuario: $1',
+	'maintenance-checkBadRedirects-desc' => 'Comprobar as redireccións erróneas',
+	'maintenance-checkBadRedirects-output-header' => 'Procurando as redireccións...',
+	'maintenance-checkBadRedirects-output-found' => 'Atopáronse $1 redireccións.
+Comprobando as redireccións erróneas...',
 	'maintenance-checkBadRedirects-output-footer' => '
 Feito.',
+	'maintenance-checkImages-output-noaccess' => '$1: non está accesible localmente',
+	'maintenance-checkImages-output-missing' => '$1: ausente',
+	'maintenance-checkImages-output-isdir' => '$1: é un directorio',
+	'maintenance-checkImages-output-truncated' => '$1: truncado, era $2',
+	'maintenance-checkImages-output-mismatch' => '$1: tamaño incompatible; base de datos = $2, real = $3',
+	'maintenance-checkImages-output-good' => 'Boas imaxes: $1/$2',
 	'maintenance-createAndPromote' => 'Use este formulario para crear un novo usuario e promovelo ao status de administrador.
 Comprobe a caixa de burócrata se quere tamén promovelo ao status de burócrata',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo ao status de administrador',
@@ -2526,10 +2573,28 @@ $messages['hu'] = array(
 	'maintenance-header' => 'Kérlek válaszd ki az alábbiak közül a futtatni kívánt parancsfájlt.
 Minden parancsfájl mellett megtalálható a leírása',
 	'maintenance-error-invalidtype' => 'Érvénytelen típus!',
+	'maintenance-generic-done' => 'kész',
+	'maintenance-generic-username' => 'Felhasználónév',
+	'maintenance-generic-password' => 'Jelszó',
+	'maintenance-generic-reason' => 'Ok',
+	'maintenance-cleanupTable-checkfix' => 'Hibás címek ellenőrzése és javítása...',
+	'maintenance-cleanupTable-missingparam' => '$1: hiányzó paraméter: $2',
+	'maintenance-cleanupTable-processing' => '$1 feldolgozása...',
+	'maintenance-cleanupTable-finished' => '$1 befejezve... $2 frissült a(z) $3 sorból',
 	'maintenance-option-confirm' => 'Megerősítés',
+	'maintenance-option-required' => '(kötelező)',
+	'maintenance-option-optional' => '(nem kötelező)',
 	'maintenance-output-success' => '$1 sikeresen lefutott!',
 	'maintenance-changePassword' => 'Ezen űrlap segítségével megváltoztathatod egy felhasználó jelszavát',
 	'maintenance-changePassword-desc' => 'Felhasználói jelszavak megváltoztatása',
+	'maintenance-changePassword-error-nouser' => 'Nincs ilyen felhasználó: $1',
+	'maintenance-changePassword-output-set' => '$1 jelszava beállítva',
+	'maintenance-checkBadRedirects-output-footer' => '
+Kész.',
+	'maintenance-checkUsernames-error-notvalid' => 'Érvénytelen felhasználónév: „$3” (azonosító: $2)',
+	'maintenance-cleanupCaps-output-islower' => '„$1” már kisbetűs.',
+	'maintenance-cleanupCaps-output-clash' => '„$1” kihagyva; „$2” már létezik',
+	'maintenance-cleanupCaps-error-noneed' => 'A $wgCapitalLinks be van kapcsolva – nem szükséges a nagybetűs linkek karbantartása.',
 	'maintenance-createAndPromote' => 'Ezen űrlap segítségével új felhasználót hozhatsz létre adminisztrátori jogosultsággal.
 Kattintsd be a bürokrata jelölőnégyzetet ha bürokratává is szeretnéd tenni',
 	'maintenance-createAndPromote-desc' => 'Felhasználó létrehozása és előléptetése adminisztrátorrá',
@@ -2547,9 +2612,15 @@ Minden sorban egy-egy forráslapnak és céllapnak kell szerepelnie, pipe ( | ) 
 	'maintenance-moveBatch-desc' => 'Lapok tömeges átnevezése',
 	'maintenance-reassignEdits-desc' => 'Szerkesztések átkönyvelése egyik felhasználótól egy másikhoz',
 	'maintenance-runJobs-desc' => 'Feladatok futtatása a feladatok várakozási sorában',
+	'maintenance-runJobs-option-type' => 'Futtatandó feladat típusa',
+	'maintenance-runJobs-option-procs' => 'Használt folyamatok száma',
 	'maintenance-showJobs-desc' => 'Mutasd a feladatok várakozási sorában függőben levő feladatok listáját',
+	'maintenance-showJobs-option-group' => 'Feladatok számának megjelenítése típusonként',
 	'maintenance-sql' => 'Ezen űrlap segítségével SQL-lekérdezést futtathatsz az adatbázison.',
 	'maintenance-sql-desc' => 'SQL-lekérdezés futtatása',
+	'maintenance-sql-option-file' => 'Végrehajtandó SQL-parancs',
+	'maintenance-sql-output-aff' => 'Lekérdezés rendben, $1 sort érintett',
+	'maintenance-sql-error-cantopen' => 'Nem sikerült megnyitni a bemeneti fájlt',
 	'maintenance-stats-desc' => 'Memcached statisztika megjelenítése',
 	'maintenance-eval' => 'Ezen űrlap segítségével PHP-kódot futtathatsz a MediaWiki környezetben.',
 	'maintenance-eval-desc' => 'PHP kód kiértékelése a MediaWiki környezetben',
@@ -5376,7 +5447,7 @@ $messages['te'] = array(
  * @author MF-Warburg
  */
 $messages['tet'] = array(
-	'maintenance-reason' => 'Motivu',
+	'maintenance-generic-username' => "Naran uza-na'in",
 );
 
 /** Thai (ไทย)
