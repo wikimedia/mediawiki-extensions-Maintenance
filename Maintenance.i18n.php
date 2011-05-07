@@ -5078,7 +5078,11 @@ Puneți doar o revizie pe un rând',
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'maintenance-name' => 'Nome utende',
+	'maintenance-generic-done' => 'fatte',
+	'maintenance-generic-username' => 'Nome utende',
+	'maintenance-generic-password' => 'Passuord',
+	'maintenance-generic-reason' => 'Mutive',
+	'maintenance-option-confirm' => 'Conferme',
 	'maintenance-userexists' => "L'utende già esiste!",
 	'maintenance-stats-edits' => 'Numere de cangiaminde: $1',
 	'maintenance-error' => 'Errore: $1',
