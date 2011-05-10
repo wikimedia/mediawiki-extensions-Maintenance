@@ -1699,7 +1699,7 @@ Se cancela el traslado.',
  * @author Silvar
  */
 $messages['et'] = array(
-	'maintenance-error-invalidtype' => 'Vigane tüüp!',
+	'maintenance-error-invalidtype' => 'Määratud skripti ei leidu.',
 	'maintenance-changePassword-desc' => 'Muuda kasutajate paroole',
 	'maintenance-deleteBatch-desc' => 'Lehekülgede lauskustutamine',
 	'maintenance-deleted' => 'KUSTUTATUD',
