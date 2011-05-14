@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jon Harald Søby
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'Maintenance' => array( 'Maintenance' ),
 );
@@ -98,6 +96,11 @@ $specialPageAliases['hr'] = array(
 /** Upper Sorbian (Hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Maintenance' => array( 'Wothladowanje' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'Maintenance' => array( 'TravayPouGadeAnfòm' ),
 );
 
 /** Hungarian (Magyar) */
