@@ -1390,26 +1390,6 @@ Verschieben abgebrochen',
 	'maintenance-re-re' => 'Neuzuordnung der Edits … erledigt',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
- * @author ChrisiPK
- * @author Imre
- */
-$messages['de-formal'] = array(
-	'maintenance-header' => 'Bitte wählen Sie ein Skript zur Ausführung aus.
-Beschreibungen stehen neben jedem Skript.',
-	'maintenance-createAndPromote' => 'Verwenden Sie diese Maske, um einen neuen Benutzer zu erstellen und ihn zum Administrator zu ernennen.
-Aktivieren Sie die Bürokrat-Checkbox, wenn Sie ihn auch zum Bürokraten machen möchten.',
-	'maintenance-deleteBatch' => 'Verwenden Sie diese Maske, um viele Seiten zu löschen.
-Schreiben Sie nur eine Seite pro Zeile',
-	'maintenance-deleteRevision' => 'Verwenden Sie diese Maske, um viele Versionen zu löschen.
-Schreiben Sie nur eine Versionsnummer pro Zeile',
-	'maintenance-initStats' => 'Verwenden Sie diese Maske, um die Seitenstatistiken neu zu berechnen und geben Sie dabei an, ob Sie auch die Seitenaufrufe neu berechnen möchten.',
-	'maintenance-moveBatch' => 'Verwenden Sie diese Maske, um viele Seiten zu verschieben.
-Jede Zeile sollte eine Quellseite und eine Zielseite angeben, durch einen Senkrechtstrich getrennt',
-	'maintenance-sql' => 'Verwenden Sie diese Maske, um eine SQL-Abfrage in der Datenbank auszuführen.',
-	'maintenance-memc-fake' => 'Sie verwenden FakeMemCachedClient. Es sind keine Statistiken verfügbar',
-);
-
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -2079,6 +2059,11 @@ As descricións están ao lado de cada escritura',
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] última data $4, non se pode atopar o identificador da revisión',
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] última data $4, identificador da revisión $5',
 	'maintenance-attachLatest-output-done' => 'Feito! Procesáronse $1 páxinas.',
+	'maintenance-attachLatest-output-dryrun' => 'Isto foi un simulacro; volva executar a escritura con "{{int:maintenance-attachLatest-option-fix}}" para actualizar page_latest.',
+	'maintenance-benchmarkPurge' => 'Empregue este formulario para probar o tempo que tardan as funcións de limpeza de Squid',
+	'maintenance-benchmarkPurge-desc' => 'Medir o tempo das funcións de limpeza de Squid',
+	'maintenance-benchmarkPurge-option-count' => 'O número de enderezos URL que fornecer a Squid para a limpeza',
+	'maintenance-benchmarkPurge-error-nosquid' => 'A medida do tempo de execución non fai gran cousa sen o soporte para Squid activado.',
 	'maintenance-benchmarkPurge-output-numsquids' => 'Hai $1 servidores Squid definidos:',
 	'maintenance-benchmarkPurge-output-trial' => '$1 títulos en $2 ms ($3 ms cada un)',
 	'maintenance-changePassword' => 'Use este formulario para cambiar o contrasinal dun usuario',
@@ -2106,7 +2091,12 @@ Feito.',
 	'maintenance-checkSyntax' => 'Empregue este formulario para comprobar a sintaxe de todos os ficheiros PHP en MediaWiki',
 	'maintenance-checkSyntax-desc' => 'Comprobar a sintaxe de todos os ficheiros PHP en MediaWiki',
 	'maintenance-checkSyntax-option-with-extensions' => 'Tamén recorrer o cartafol das extensións',
+	'maintenance-checkSyntax-option-path' => 'Ruta específica (ficheiro ou directorio) a comprobar, coa ruta de acceso absoluta ou relativa á raíz desta instalación de MediaWiki',
 	'maintenance-checkSyntax-option-list-file' => 'Lista de ficheiros ou directorios a comprobar',
+	'maintenance-checkSyntax-option-modified' => 'Comprobar soamente os ficheiros que sufriron modificacións (necesita o cliente SVN en liña de comandos)',
+	'maintenance-checkSyntax-option-syntax-only' => 'Comprobar soamente a validez da sintaxe; ignorar as advertencias sobre o estilo do código',
+	'maintenance-checkSyntax-output-parsekit' => 'Comprobando a sintaxe (empregando o parsekit)',
+	'maintenance-checkSyntax-output-phpl' => 'Comprobando a sintaxe (empregando php -l; isto pode tarda un bo anaco)',
 	'maintenance-checkSyntax-output-footer' => 'Feito! $1 ficheiros comprobados, $2 fallos e $3 avisos atopados',
 	'maintenance-checkSyntax-output-svnlist' => 'Recuperando a lista desde Subversion...',
 	'maintenance-checkSyntax-output-buildlist' => 'Construíndo a lista de ficheiros...',
