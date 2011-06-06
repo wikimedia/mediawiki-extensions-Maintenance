@@ -1593,7 +1593,7 @@ $messages['es'] = array(
 	'maintenance-backlink' => 'Regresar a selección de escritura',
 	'maintenance-header' => 'Por favor, seleccione el script de abajo para ejecutarlo.
 Las descripciones están del lado de cada script',
-	'maintenance-error-invalidtype' => 'Tipo inválido!',
+	'maintenance-error-invalidtype' => 'El script especificado no fue encontrado',
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-output-success' => '$1 se ejecutó con éxito!',
 	'maintenance-changePassword' => 'Utiliza este formulario para cambiar la contraseña de un usuario:',
