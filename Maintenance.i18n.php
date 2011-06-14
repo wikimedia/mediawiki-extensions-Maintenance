@@ -4099,14 +4099,12 @@ $messages['myv'] = array(
 
 /** Nahuatl (Nāhuatl)
  * @author Fluence
+ * @author Ricardo gs
  */
 $messages['nah'] = array(
-	'maintenance-name' => 'Tlatequitiltilīltōcāitl',
-	'maintenance-password' => 'Tlahtōlichtacāyōtl',
-	'maintenance-reason' => 'Īxtlamatiliztli',
 	'maintenance-invalidtitle' => '¡Ahcualli tōcāitl "$1"!',
 	'maintenance-deleted' => 'TLAPOLOC',
-	'maintenance-stats-edits' => 'Tlapatlaliztli tlapōhualli',
+	'maintenance-stats-edits' => 'Tlapatlaliztli tlapōhualli: $1',
 	'maintenance-stats-articles' => 'Zāzanilli huēyi tōcātzimpan in ītlapōhual: $1',
 	'maintenance-stats-pages' => 'Zāzanilli tlapōhualli: $1',
 	'maintenance-stats-users' => 'Tlatequitiltilīlli tlapōhualli: $1',
