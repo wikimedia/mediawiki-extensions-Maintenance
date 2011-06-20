@@ -1581,6 +1581,7 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author Crazymadlover
+ * @author Dferg
  * @author Imre
  * @author Locos epraix
  * @author Pertile
@@ -1594,10 +1595,20 @@ $messages['es'] = array(
 	'maintenance-header' => 'Por favor, seleccione el script de abajo para ejecutarlo.
 Las descripciones están del lado de cada script',
 	'maintenance-error-invalidtype' => 'El script especificado no fue encontrado',
+	'maintenance-generic-done' => 'hecho',
+	'maintenance-generic-username' => 'Nombre de usuario',
+	'maintenance-generic-password' => 'Contraseña',
+	'maintenance-generic-reason' => 'Motivo',
 	'maintenance-option-confirm' => 'Confirmar',
+	'maintenance-option-required' => '(obligatorio)',
+	'maintenance-option-optional' => '(opcional)',
 	'maintenance-output-success' => '$1 se ejecutó con éxito!',
+	'maintenance-attachLatest-output-done' => '¡Hecho! $1 páginas procesadas.',
 	'maintenance-changePassword' => 'Utiliza este formulario para cambiar la contraseña de un usuario:',
 	'maintenance-changePassword-desc' => 'Cambiar la contraseña de un usuario',
+	'maintenance-changePassword-error-nouser' => 'No existe el usuario: $1',
+	'maintenance-changePassword-output-set' => 'Contraseña establecida para $1',
+	'maintenance-checkBadRedirects-output-footer' => 'Hecho.',
 	'maintenance-createAndPromote' => 'Usar este formulario para crear un nuevo usuario y promoverlo para administrador.
 Verificar la tabla de burócrata si deseas promoverlo a burócrata también',
 	'maintenance-createAndPromote-desc' => 'Crear un usuario y promoverlo al status de administrador',
