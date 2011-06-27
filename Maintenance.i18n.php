@@ -4081,10 +4081,11 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aurora
  */
 $messages['ms'] = array(
-	'maintenance-reason' => 'Sebab',
+	'maintenance-deleted' => 'DIHAPUSKAN',
 );
 
 /** Maltese (Malti)
