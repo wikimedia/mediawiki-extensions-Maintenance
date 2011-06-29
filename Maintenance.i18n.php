@@ -4085,6 +4085,14 @@ $messages['mr'] = array(
  * @author Aurora
  */
 $messages['ms'] = array(
+	'maintenance-generic-done' => 'siap',
+	'maintenance-generic-username' => 'Nama pengguna',
+	'maintenance-generic-password' => 'Kata laluan',
+	'maintenance-generic-reason' => 'Sebab',
+	'maintenance-option-confirm' => 'Sahkan',
+	'maintenance-option-required' => '(wajib)',
+	'maintenance-option-optional' => '(tidak wajib)',
+	'maintenance-failed' => 'GAGAL',
 	'maintenance-deleted' => 'DIHAPUSKAN',
 );
 
