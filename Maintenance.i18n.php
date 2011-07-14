@@ -1584,6 +1584,7 @@ $messages['eo'] = array(
  * @author Dferg
  * @author Imre
  * @author Locos epraix
+ * @author Mor
  * @author Pertile
  * @author Translationista
  */
@@ -1617,7 +1618,7 @@ Coloque solamente una página por línea',
 	'maintenance-deleteBatch-desc' => 'Borrao masivo de páginas',
 	'maintenance-deleteRevision' => 'Usar este formulario para borrado masivo de revisiones.
 Coloque solamente un número de revisión por línea',
-	'maintenance-deleteRevision-desc' => 'Remover revisiones de la base de datos',
+	'maintenance-deleteRevision-desc' => 'Quitar las revisiones de la base de datos',
 	'maintenance-initEditCount-desc' => 'Recalcular los conteos de ediciones de los usuarios',
 	'maintenance-initStats' => 'Usar este formulario para recalcular estadísticas del sitio, especificando si deseas recalcular vistas de página también',
 	'maintenance-initStats-desc' => 'Recalcular estadísticas del sitio',
@@ -3665,6 +3666,7 @@ No Falsche Viruleedunge sichen...',
 	'maintenance-checkImages-output-isdir' => '$1: ass e Repertoire',
 	'maintenance-checkImages-output-good' => 'Gutt Biller: $1/$2',
 	'maintenance-checkSyntax' => "Dëse Formulaire benotze fir d'Syntax vun alle PHP-Fichiere vu MediaWiki nozekucken.",
+	'maintenance-checkSyntax-output-footer' => 'Fäerdeg! $1 Fichieren nogekuckt, $2 Feeler fonnt a(n) $3 Warnunge kritt',
 	'maintenance-checkSyntax-output-buildlist' => "D'Lëscht vun de Fichiere gëtt opgebaut...",
 	'maintenance-checkSyntax-output-error' => 'Feeler am $1, Linn $2:$3',
 	'maintenance-checkSyntax-output-warning' => 'Warnung am Fichier $1: $2 fonnt',
