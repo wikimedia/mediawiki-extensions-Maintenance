@@ -4653,6 +4653,18 @@ Arrèst del desplaçament.',
 	'maintenance-re-re' => 'Reafectacion dels cambiaments{{int:ellipsis}} fach',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'maintenance-generic-done' => 'କରାଯାଇଛି',
+	'maintenance-generic-reason' => 'କାରଣ',
+	'maintenance-option-confirm' => ' ନିଶ୍ଚିତନ',
+	'maintenance-checkBadRedirects-output-footer' => 'କରାଯାଇଛି.',
+	'maintenance-memc-requests' => 'ଅନୁରୋଧ',
+	'maintenance-memc-updates' => 'ଅଦ୍ୟତନ:',
+);
+
 /** Ossetic (Иронау)
  * @author Amikeco
  */
