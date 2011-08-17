@@ -356,22 +356,6 @@ Are UPDATE and DELETE/INSERT also translatable?",
 	'maintenance-re-rr' => '* $1 is substituted by {{msg-mw|maintenance-re-report}}',
 );
 
-/** Faeag Rotuma (Faeag Rotuma)
- * @author Jose77
- */
-$messages['rtm'] = array(
-	'maintenance-name' => 'Asa',
-	'maintenance-password' => 'Ou password',
-);
-
-/** Niuean (ko e vagahau Niuē)
- * @author Jose77
- */
-$messages['niu'] = array(
-	'maintenance-name' => 'Matahigoa he tagata',
-	'maintenance-password' => 'Kupu fufu',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -388,13 +372,6 @@ $messages['af'] = array(
 	'maintenance-memc-total' => 'totaal:',
 	'maintenance-memc-invalid' => 'ongeldig:',
 	'maintenance-memc-absent' => 'afwesig:',
-);
-
-/** Amharic (አማርኛ)
- * @author Codex Sinaiticus
- */
-$messages['am'] = array(
-	'maintenance-reason' => 'ምክንያት',
 );
 
 /** Aragonese (Aragonés)
@@ -504,10 +481,6 @@ $messages['ar'] = array(
  * @author Basharh
  */
 $messages['arc'] = array(
-	'maintenance-name' => 'ܫܡܐ ܕܡܦܠܚܢܐ',
-	'maintenance-password' => 'ܡܠܬܐ ܕܥܠܠܐ',
-	'maintenance-reason' => 'ܥܠܬܐ',
-	'maintenance-confirm' => 'ܚܬܬ',
 	'maintenance-deleted' => 'ܫܝܦܬ',
 	'maintenance-stats-pages' => 'ܡܢܝܢܐ ܕܕ̈ܦܐ: $1',
 	'maintenance-stats-users' => 'ܡܢܝܢܐ ܕܡܦܠܚܢ̈ܐ: $1',
@@ -1185,18 +1158,6 @@ $messages['ca'] = array(
 	'maintenance-stats-users' => "Nombre d'usuaris: $1",
 );
 
-/** Chechen (Нохчийн) */
-$messages['ce'] = array(
-	'maintenance-reason' => 'Бахьан',
-);
-
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
- * @author ОйЛ
- */
-$messages['cu'] = array(
-	'maintenance-name' => 'по́льꙃєватєлꙗ и́мѧ',
-);
-
 /** German (Deutsch)
  * @author ChrisiPK
  * @author DaSch
@@ -1340,7 +1301,7 @@ Je Zeile eine durch einen senkrechten Strich („|“) getrennte Quell- sowie Zi
 	'maintenance-update' => 'UPDATE zum Aktualisieren von Tabellen verwenden? Wenn nicht aktiviert, wird DELETE/INSERT verwendet.',
 	'maintenance-noviews' => 'Aktualisierung des Seitenaufrufszählers deaktivieren',
 	'maintenance-invalidname' => 'Ungültiger Benutzername!',
-	'maintenance-userexists' => 'Benutzer existiert bereits!',
+	'maintenance-userexists' => 'Der Benutzer ist bereits vorhanden.',
 	'maintenance-invalidtitle' => 'Ungültiger Titel „$1“!',
 	'maintenance-titlenoexist' => 'Der angegebene Titel („$1“) existiert nicht!',
 	'maintenance-failed' => 'GESCHEITERT',
@@ -2095,18 +2056,10 @@ Dèplacement arrètâ',
 	'maintenance-re-re' => 'Rèafèctacion des changements{{int:ellipsis}} fêta',
 );
 
-/** Western Frisian (Frysk)
- * @author Snakesteuben
- */
-$messages['fy'] = array(
-	'maintenance-name' => 'Meidoggernamme',
-);
-
 /** Irish (Gaeilge)
  * @author Alison
  */
 $messages['ga'] = array(
-	'maintenance-reason' => 'Fáth',
 	'maintenance-invalidname' => 'Ainm úsáideoir neamhbhailí!',
 	'maintenance-invalidtitle' => 'Teideal neamhbhailí "$1"!',
 	'maintenance-deleted' => 'SCRIOSTA',
@@ -2405,34 +2358,11 @@ Verschieben abbroche',
 	'maintenance-re-re' => 'Nejzueornig vu dr Bearbeitige … gmacht',
 );
 
-/** Gujarati (ગુજરાતી)
- * @author Dineshjk
- */
-$messages['gu'] = array(
-	'maintenance-name' => 'સભ્ય નામ',
-);
-
 /** Manx (Gaelg)
  * @author Shimmin Beg
  */
 $messages['gv'] = array(
 	'maintenance-generic-reason' => 'Fa:',
-);
-
-/** Hakka (Hak-kâ-fa)
- * @author Hakka
- */
-$messages['hak'] = array(
-	'maintenance-name' => 'Yung-fu-miàng',
-);
-
-/** Hawaiian (Hawai`i)
- * @author Kalani
- * @author Singularity
- */
-$messages['haw'] = array(
-	'maintenance-password' => 'ʻŌlelo hūnā',
-	'maintenance-reason' => 'Kumu',
 );
 
 /** Hebrew (עברית)
@@ -3160,19 +3090,6 @@ Pemindahan dibatalkan',
 	'maintenance-re-re' => 'Pengalihan suntingan{{int:ellipsis}} berhasil',
 );
 
-/** Igbo (Igbo) */
-$messages['ig'] = array(
-	'maintenance-password' => 'Mkpurụ okwu ejị a gafẹ',
-	'maintenance-reason' => 'Mgbaghaputa:',
-);
-
-/** Icelandic (Íslenska)
- * @author S.Örvarr.S
- */
-$messages['is'] = array(
-	'maintenance-password' => 'Lykilorð',
-);
-
 /** Italian (Italiano)
  * @author BrokenArrow
  * @author Darth Kule
@@ -3363,13 +3280,6 @@ $messages['ja'] = array(
 	'maintenance-re-re' => '編集の再割り当て… 完了',
 );
 
-/** Georgian (ქართული)
- * @author Malafaya
- */
-$messages['ka'] = array(
-	'maintenance-reason' => 'მიზეზი',
-);
-
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
@@ -3417,8 +3327,6 @@ $messages['km'] = array(
  * @author Nayvik
  */
 $messages['kn'] = array(
-	'maintenance-password' => 'ಪ್ರವೇಶಪದ',
-	'maintenance-reason' => 'ಕಾರಣ',
 	'maintenance-memc-total' => 'ಒಟ್ಟು:',
 );
 
@@ -3759,15 +3667,6 @@ $messages['lfn'] = array(
 	'maintenance-stats-edits' => 'Numero de cambias: $1',
 );
 
-/** Eastern Mari (Олык Марий)
- * @author Сай
- */
-$messages['mhr'] = array(
-	'maintenance-name' => 'Пайдаланышын лӱмжӧ',
-	'maintenance-password' => 'Шолыпмут',
-	'maintenance-reason' => 'Амал',
-);
-
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  * @author Brest
@@ -4096,14 +3995,6 @@ $messages['ms'] = array(
 	'maintenance-option-optional' => '(tidak wajib)',
 	'maintenance-failed' => 'GAGAL',
 	'maintenance-deleted' => 'DIHAPUSKAN',
-);
-
-/** Maltese (Malti)
- * @author Chrisportelli
- * @author Roderick Mallia
- */
-$messages['mt'] = array(
-	'maintenance-name' => 'Isem tal-utent',
 );
 
 /** Erzya (Эрзянь)
@@ -4555,13 +4446,6 @@ Avbryter flytting',
 	'maintenance-re-re' => 'Flytter endringer{{int:ellipsis}} fullført',
 );
 
-/** Novial (Novial)
- * @author Malafaya
- */
-$messages['nov'] = array(
-	'maintenance-reason' => 'Resone',
-);
-
 /** Occitan (Occitan)
  * @author Cedric31
  */
@@ -4665,35 +4549,18 @@ $messages['or'] = array(
 	'maintenance-memc-updates' => 'ଅଦ୍ୟତନ:',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
-	'maintenance-reason' => 'Аххос',
 	'maintenance-deleted' => 'АППÆРСТ',
-);
-
-/** Deitsch (Deitsch)
- * @author Xqt
- */
-$messages['pdc'] = array(
-	'maintenance-name' => 'Yuuser-Naame',
-	'maintenance-password' => 'Paesswatt',
-	'maintenance-reason' => 'Grund',
-);
-
-/** Plautdietsch (Plautdietsch)
- * @author Slomox
- */
-$messages['pdt'] = array(
-	'maintenance-name' => 'Bruckernome',
-	'maintenance-password' => 'Passwuat',
 );
 
 /** Polish (Polski)
  * @author Maikking
  * @author McMonster
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'maintenance' => 'Uruchom skrypty konserwacyjne',
@@ -4702,6 +4569,10 @@ $messages['pl'] = array(
 	'maintenance-backlink' => 'Wróć do wyboru skryptu',
 	'maintenance-header' => 'Wybierz skrypt, który chcesz uruchomić.
 Przy nazwach skryptów znajdują się ich opisy.',
+	'maintenance-generic-done' => 'gotowe',
+	'maintenance-generic-username' => 'Nazwa użytkownika',
+	'maintenance-generic-password' => 'Hasło',
+	'maintenance-generic-reason' => 'Powód',
 	'maintenance-option-confirm' => 'Potwierdź',
 	'maintenance-changePassword' => 'Użyj tego formularza, by zmienić hasło użytkownika',
 	'maintenance-changePassword-desc' => 'Zmień hasło użytkownika',
@@ -5442,15 +5313,6 @@ $messages['ru'] = array(
 	'maintenance-re-re' => 'Переназначение правок{{int:ellipsis}} завершено',
 );
 
-/** Rusyn (русиньскый язык)
- * @author Gazeb
- */
-$messages['rue'] = array(
-	'maintenance-name' => 'Мено хоснователя',
-	'maintenance-password' => 'Гесло',
-	'maintenance-reason' => 'Причіна',
-);
-
 /** Slovak (Slovenčina)
  * @author Helix84
  */
@@ -5709,9 +5571,6 @@ Opozivanje premeštanja',
  * @author Irwangatot
  */
 $messages['su'] = array(
-	'maintenance-name' => 'Landihan',
-	'maintenance-password' => 'Sandi',
-	'maintenance-reason' => 'Alesan',
 	'maintenance-deleted' => 'DIHAPUS',
 );
 
@@ -5808,6 +5667,14 @@ Avbryt flyttning',
 	'maintenance-re-re' => 'Flyttar redigeringar{{int:ellipsis}} klart',
 );
 
+/** Tamil (தமிழ்)
+ * @author TRYPPN
+ */
+$messages['ta'] = array(
+	'maintenance-deleted' => 'நீக்கப்பட்டுவிட்டது',
+	'maintenance-memc-total' => 'மொத்தம்:',
+);
+
 /** Telugu (తెలుగు)
  * @author C.Chandra Kanth Rao
  * @author Veeven
@@ -5860,13 +5727,6 @@ $messages['tet'] = array(
 $messages['th'] = array(
 	'maintenance-option-confirm' => 'ยืนยัน',
 	'maintenance-memc-total' => 'รวม:',
-);
-
-/** Turkmen (Türkmençe)
- * @author Hanberke
- */
-$messages['tk'] = array(
-	'maintenance-name' => 'Ulanyjy ady',
 );
 
 /** Tagalog (Tagalog)
@@ -6099,27 +5959,37 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-re-total' => 'Değiştirilecek toplam girdi: $1',
 );
 
-/** ئۇيغۇرچە (ئۇيغۇرچە)
- * @author Alfredie
- */
-$messages['ug-arab'] = array(
-	'maintenance-name' => 'ئىشلەتكۇچى ئىسمى',
-);
-
-/** Uighur (Latin) (Uyghurche‎ / ئۇيغۇرچە (Latin))
- * @author Jose77
- */
-$messages['ug-latn'] = array(
-	'maintenance-name' => 'Ishletkuchi ismi',
-);
-
 /** Ukrainian (Українська)
  * @author Prima klasy4na
  * @author Тест
  */
 $messages['uk'] = array(
-	'maintenance-reason' => 'Причина',
-	'maintenance-confirm' => 'Підтвердити',
+	'maintenance' => 'Запуск скриптів обслуговування',
+	'maintenance-desc' => '[[Special:Maintenance|Вікі інтерфейс]] для різноманітних скриптів обслуговування',
+	'right-maintenance' => 'Запуск скриптів обслуговування через [[Special:Maintenance]]',
+	'maintenance-backlink' => 'Повернутися до вибору скрипту',
+	'maintenance-initEditCount-desc' => 'Перерахувати кількість редагувань користувачів',
+	'maintenance-initStats-desc' => 'Перерахувати статистику сайту',
+	'maintenance-invalidname' => "Неправильне ім'я користувача!",
+	'maintenance-userexists' => 'Користувач вже існує!',
+	'maintenance-invalidtitle' => 'Неприпустима назва "$1"!',
+	'maintenance-titlenoexist' => 'Вказаного заголовку ("$1") не існує!',
+	'maintenance-deleted' => 'ВИЛУЧЕНО',
+	'maintenance-revnotfound' => 'Версію $1 не знайдено!',
+	'maintenance-stats-edits' => 'Кількість редагувань: $1',
+	'maintenance-stats-articles' => 'Кількість сторінок в основному просторі назв: $1',
+	'maintenance-stats-pages' => 'Кількість сторінок: $1',
+	'maintenance-stats-users' => 'Кількість користувачів: $1',
+	'maintenance-stats-admins' => 'Кількість адміністраторів: $1',
+	'maintenance-stats-images' => 'Кількість файлів: $1',
+	'maintenance-stats-views' => 'Кількість переглядів сторінок: $1',
+	'maintenance-stats-update' => 'Оновлення бази даних{{int:ellipsis}}',
+	'maintenance-error' => 'Помилка: $1',
+	'maintenance-memc-requests' => 'Запити',
+	'maintenance-memc-total' => 'всього:',
+	'maintenance-memc-parsercache' => 'Кеш парсера',
+	'maintenance-memc-imagecache' => 'Кеш зображень',
+	'maintenance-re-nf' => 'Користувача $1 не знайдено',
 );
 
 /** Veps (Vepsan kel')
@@ -6270,9 +6140,11 @@ Topätükam pestöpädon.',
 	'maintenance-re-re' => 'Redakams padönugivülons{{int:ellipsis}} peledunon.',
 );
 
-/** Wu (吴语) */
-$messages['wuu'] = array(
-	'maintenance-reason' => '理由：',
+/** Walloon (Walon)
+ * @author Lucyin
+ */
+$messages['wa'] = array(
+	'maintenance-deleted' => 'DISFACÉ',
 );
 
 /** Yiddish (ייִדיש)
