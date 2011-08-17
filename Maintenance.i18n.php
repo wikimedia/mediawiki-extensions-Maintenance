@@ -1543,6 +1543,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Dferg
+ * @author Fitoschido
  * @author Imre
  * @author Locos epraix
  * @author Mor
@@ -1596,7 +1597,7 @@ Cada línea debería especificar una página fuente y página destino separadas 
 	'maintenance-eval-desc' => 'Evaluar código PHP en ambiente MediaWiki',
 	'maintenance-update' => '¿Utilizar UPDATE cuando se actualiza una tabla? Si está desmarcado utiliza DELETE/INSERT en lugar de UPDATE.',
 	'maintenance-noviews' => 'Verificar esto para evitar la actualización del número de vistas a la página',
-	'maintenance-invalidname' => 'Nombre de usuario inválido!',
+	'maintenance-invalidname' => '¡Nombre de usuario no válido!',
 	'maintenance-userexists' => 'Usuario ya existe!',
 	'maintenance-invalidtitle' => 'Título inválido "$1"!',
 	'maintenance-titlenoexist' => 'Título especificado ("$1") no existe!',
