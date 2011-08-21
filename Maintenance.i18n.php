@@ -3602,6 +3602,7 @@ An all Linn soll en Quellsäit an eng Zilsäit, getrennt duerch een ''<nowiki>|<
 	'maintenance-moveBatch-desc' => 'Vill Säite matenee réckelen',
 	'maintenance-reassignEdits-desc' => 'Ännerunge vun engem Benotzer engem aneren zouweisen',
 	'maintenance-runJobs-desc' => 'Aarbechten an der Queue vun den Aarbechte starten',
+	'maintenance-runJobs-error-invalidprocs' => 'Dir musst zwëschen 1 an 1000 Prozesser uginn',
 	'maintenance-showJobs-desc' => "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
 	'maintenance-sql' => 'Dëse Formaulaire benotze fir eng SQL-Ufro an der Datebank ze maachen.',
 	'maintenance-sql-desc' => 'Eng SQL-Ufro ausféieren',
