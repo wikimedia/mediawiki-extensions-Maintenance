@@ -6153,6 +6153,7 @@ $messages['wa'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'maintenance-generic-username' => 'באַניצער נאָמען',
 	'maintenance-option-confirm' => 'באַשטעטיגן',
 	'maintenance-invalidname' => 'אומגילטיקער באַניצער נאָמען!',
 );
