@@ -393,7 +393,7 @@ $messages['ar'] = array(
 	'maintenance-backlink' => 'الرجوع إلى اختيار السكريبت',
 	'maintenance-header' => 'من فضلك اختر سكريبت بالأسفل للتنفيذ.
 الوصوفات بجانب كل سكريبت',
-	'maintenance-error-invalidtype' => 'نوع غير صحيح!',
+	'maintenance-error-invalidtype' => 'السكريبت المحدد لم يتم العثور عليه',
 	'maintenance-generic-username' => 'اسم المستخدم',
 	'maintenance-generic-password' => 'كلمة السر',
 	'maintenance-generic-reason' => 'السبب',
