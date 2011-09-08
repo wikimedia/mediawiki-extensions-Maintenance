@@ -2919,7 +2919,7 @@ Cata linea debe specificar un pagina de origine e un pagina de destination separ
 	'maintenance-update' => 'Usar UPDATE pro actualisar un tabella? Dismarca pro usar DELETE/INSERT in vice.',
 	'maintenance-noviews' => 'Marca isto pro impedir le actualisation del numero de visitas de paginas.',
 	'maintenance-invalidname' => 'Nomine de usator invalide!',
-	'maintenance-userexists' => 'Le usator existe ja!',
+	'maintenance-userexists' => 'Le usator existe jam!',
 	'maintenance-invalidtitle' => 'Titulo invalide "$1"!',
 	'maintenance-titlenoexist' => 'Le titulo specificate ("$1") non existe!',
 	'maintenance-failed' => 'FALTA',
