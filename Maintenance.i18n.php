@@ -595,6 +595,7 @@ $messages['az'] = array(
 	'maintenance-option-confirm' => 'Təsdiq et',
 	'maintenance-checkBadRedirects-output-footer' => '
 Oldu.',
+	'maintenance-deleted' => 'SİLİNİB',
 	'maintenance-error' => 'Xəta: $1',
 	'maintenance-memc-total' => 'ümumi:',
 );
@@ -4544,11 +4545,12 @@ Arrèst del desplaçament.',
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
 	'maintenance-generic-done' => 'କରାଯାଇଛି',
 	'maintenance-generic-reason' => 'କାରଣ',
-	'maintenance-option-confirm' => ' ନିଶ୍ଚିତନ',
+	'maintenance-option-confirm' => 'ଥୟ କରିବେ',
 	'maintenance-checkBadRedirects-output-footer' => 'କରାଯାଇଛି.',
 	'maintenance-memc-requests' => 'ଅନୁରୋଧ',
 	'maintenance-memc-updates' => 'ଅଦ୍ୟତନ:',
