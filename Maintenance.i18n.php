@@ -5416,6 +5416,13 @@ Presúvanie sa ruší',
 	'maintenance-re-re' => 'Zmena pôvodcu úprav{{int:ellipsis}} hotovo',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'maintenance-generic-username' => 'Uporabniško ime',
+);
+
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
