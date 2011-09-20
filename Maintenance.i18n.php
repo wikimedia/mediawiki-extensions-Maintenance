@@ -2185,7 +2185,7 @@ Poña só un número de revisión por liña',
 	'maintenance-initStats' => 'Use este formulario para volver calcular as estatísticas do sitio, especificando se tamén quere calcular de novo as vistas por páxina',
 	'maintenance-initStats-desc' => 'Volver calcular as estatísticas do sitio',
 	'maintenance-moveBatch' => 'Use este formulario para mover páxinas en masa.
-Cada liña debería especificar unha fonte e destino da páxina separados por unha barra (“|”)',
+Cada liña debería especificar unha fonte e destino da páxina separados por unha barra vertical ("|")',
 	'maintenance-moveBatch-desc' => 'Mover páxinas masivamente',
 	'maintenance-reassignEdits-desc' => 'Reasignar as edicións dun usuario a outro',
 	'maintenance-runJobs-desc' => 'Executar os traballos na cola de traballo',
