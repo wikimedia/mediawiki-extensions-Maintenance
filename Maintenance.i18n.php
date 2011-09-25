@@ -83,7 +83,7 @@ $messages['en'] = array(
 	'maintenance-checkBadRedirects' => 'Use this form to see if pages marked as redirects really are redirects',
 	'maintenance-checkBadRedirects-desc' => 'Check for bad redirects',
 	'maintenance-checkBadRedirects-output-header' => 'Fetching redirects...',
-	'maintenance-checkBadRedirects-output-found' => "Found \$1 redirects.\nChecking for bad redirects...\n", #$1=number of redirects
+	'maintenance-checkBadRedirects-output-found' => "Found \$1 redirects.\nChecking for bad redirects...", #$1=number of redirects
 	'maintenance-checkBadRedirects-output-footer' => "\nDone.",
 	// checkImages
 	'maintenance-checkImages' => 'Use this form to see which images on your server are corrupted',
