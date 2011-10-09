@@ -333,10 +333,11 @@ Aborting move',
  * @author Siebrand
  * @author The Evil IP address
  * @author Translationista
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'maintenance-desc' => '{{desc}}',
-	'right-maintenance' => '{{doc-right}}',
+	'right-maintenance' => '{{doc-right|maintenance}}',
 	'maintenance-error-badini' => 'Do not translate the <code>metadata.ini</code> part.',
 	'maintenance-generic-username' => '{{Identical|Username}}',
 	'maintenance-generic-password' => '{{Identical|Password}}',
@@ -5423,7 +5424,7 @@ $messages['sl'] = array(
 	'maintenance-generic-username' => 'Uporabniško ime',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -5485,7 +5486,7 @@ $messages['sr-ec'] = array(
 	'maintenance-memc-withsession' => 'са сесијом:',
 	'maintenance-memc-withoutsession' => 'без сесије:',
 	'maintenance-memc-total' => 'укупно:',
-	'maintenance-memc-parsercache' => 'Кеш парсера',
+	'maintenance-memc-parsercache' => 'Међумеморија рашчлањивача',
 	'maintenance-memc-hits' => 'погодака:',
 	'maintenance-memc-invalid' => 'неисправно:',
 	'maintenance-memc-expired' => 'истекло:',
