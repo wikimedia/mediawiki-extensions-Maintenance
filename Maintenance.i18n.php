@@ -2271,6 +2271,7 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -2281,6 +2282,10 @@ $messages['gsw'] = array(
 	'maintenance-header' => 'Bitte wehl e Skript uus, wu soll uusgfiert wäre.
 Bschrybige stehn näbe jedem Skript.',
 	'maintenance-error-invalidtype' => 'Nit giltige Typ!',
+	'maintenance-generic-done' => 'erledigt',
+	'maintenance-generic-username' => 'Benutzername',
+	'maintenance-generic-password' => 'Passwort',
+	'maintenance-generic-reason' => 'Grund',
 	'maintenance-option-confirm' => 'Bstätige',
 	'maintenance-output-success' => '$1 erfolgrych uusgfiert!',
 	'maintenance-changePassword' => 'Passwort vun eme Benutzer ändere',
