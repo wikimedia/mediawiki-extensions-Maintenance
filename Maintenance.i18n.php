@@ -1778,6 +1778,7 @@ Keskeytetään siirto',
  * @author Justadust
  * @author Marc-André Beauchamp
  * @author PieRRoMaN
+ * @author Urhixidur
  * @author Verdy p
  * @author Zetud
  */
@@ -1933,7 +1934,7 @@ Déplacement interrompu.',
 	'maintenance-memc-withsession' => 'avec la session :',
 	'maintenance-memc-withoutsession' => 'sans la session :',
 	'maintenance-memc-total' => 'total :',
-	'maintenance-memc-parsercache' => 'Cache parseur',
+	'maintenance-memc-parsercache' => 'Cache de l’analyseur syntaxique',
 	'maintenance-memc-hits' => 'clics :',
 	'maintenance-memc-invalid' => 'incorrects :',
 	'maintenance-memc-expired' => 'expirés :',
