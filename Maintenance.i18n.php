@@ -1363,7 +1363,7 @@ $messages['dsb'] = array(
 	'maintenance-backlink' => 'Slědk k wuběrkoju skriptow',
 	'maintenance-header' => 'Pšosym wubjeŕ skript za wuwjaźenje.
 Wopisanja su pódla wótpowědnego skripta.',
-	'maintenance-error-invalidtype' => 'Njepłaśiwy typ!',
+	'maintenance-error-invalidtype' => 'Pódany skript njejo se namakał',
 	'maintenance-option-confirm' => 'Wobkšuśiś',
 	'maintenance-output-success' => '$1 wuspěšnje wuwjeźony!',
 	'maintenance-changePassword' => 'Wužyj toś ten formular, aby změnił gronidło wužywarja',
