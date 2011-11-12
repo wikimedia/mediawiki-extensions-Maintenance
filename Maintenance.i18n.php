@@ -995,7 +995,7 @@ E pep linenn e rankimp kaout ar bajenn orin hag ar bajenn da dizhout dispartiet 
 	'maintenance-update' => 'Ha c\'hoant hoc\'h eus da implijout an doare "UPDATE" evit hizivaat war-eeun un daolenn? Diaskit an dibarzh evit implijout kentoc\'h "DELETE/INSERT" e plas.',
 	'maintenance-noviews' => 'Askit kement-mañ evit enebiñ ouzh hizivadenn an niver a weladennoù evit ar pajennoù.',
 	'maintenance-invalidname' => 'Anv implijer fall !',
-	'maintenance-userexists' => 'An implijer zo anezhañ dija !',
+	'maintenance-userexists' => "An implijer-mañ zo anezhañ c'hoazh !",
 	'maintenance-invalidtitle' => 'Titl fall "$1" !',
 	'maintenance-titlenoexist' => 'N\'eus ket eus an titl bet lakaet ("$1") !',
 	'maintenance-failed' => "C'HWITET",
