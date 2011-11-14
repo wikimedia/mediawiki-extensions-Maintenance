@@ -3585,6 +3585,7 @@ No Falsche Viruleedunge sichen...',
 	'maintenance-checkImages-output-good' => 'Gutt Biller: $1/$2',
 	'maintenance-checkSyntax' => "Dëse Formulaire benotze fir d'Syntax vun alle PHP-Fichiere vu MediaWiki nozekucken.",
 	'maintenance-checkSyntax-desc' => 'Syntax vun alle PHP-Fichieren vu MediaWiki nokucken',
+	'maintenance-checkSyntax-option-list-file' => 'Lëscht vun de Fichieren oder Repertoiren déi nogekuckt musse ginn',
 	'maintenance-checkSyntax-output-footer' => 'Fäerdeg! $1 Fichieren nogekuckt, $2 Feeler fonnt a(n) $3 Warnunge kritt',
 	'maintenance-checkSyntax-output-buildlist' => "D'Lëscht vun de Fichiere gëtt opgebaut...",
 	'maintenance-checkSyntax-output-error' => 'Feeler am $1, Linn $2:$3',
@@ -4568,6 +4569,17 @@ $messages['or'] = array(
  */
 $messages['os'] = array(
 	'maintenance-deleted' => 'АППÆРСТ',
+);
+
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'maintenance-generic-done' => 'geduh',
+	'maintenance-generic-username' => 'Yuuser-Naame',
+	'maintenance-generic-password' => 'Paesswatt',
+	'maintenance-checkBadRedirects-output-footer' => 'Geduh.',
+	'maintenance-deleted' => 'GELESCHT',
 );
 
 /** Polish (Polski)
