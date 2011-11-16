@@ -5453,7 +5453,7 @@ $messages['sr-ec'] = array(
 	'maintenance-backlink' => 'Повратак на обележавање скрипти',
 	'maintenance-header' => 'Молимо Вас да испот означите скрипту коју треба покренути.
 Поред сваке скрипте се налази одговарајући опис.',
-	'maintenance-error-invalidtype' => 'Непознат тип!',
+	'maintenance-error-invalidtype' => 'Не могу да пронађем наведени скрипт',
 	'maintenance-option-confirm' => 'Потврди',
 	'maintenance-output-success' => '$1 се успешно извршила!',
 	'maintenance-changePassword' => 'Користите ову форму да бисте променили лозинку корисника',
