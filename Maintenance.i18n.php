@@ -5525,7 +5525,7 @@ $messages['sr-ec'] = array(
 	'maintenance-re-re' => 'Приписивање измена{{int:ellipsis}} готово',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
