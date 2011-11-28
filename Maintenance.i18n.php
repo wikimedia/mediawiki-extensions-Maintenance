@@ -3618,6 +3618,7 @@ An all Linn soll en Quellsäit an eng Zilsäit, getrennt duerch een ''<nowiki>|<
 	'maintenance-showJobs-desc' => "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
 	'maintenance-sql' => 'Dëse Formaulaire benotze fir eng SQL-Ufro an der Datebank ze maachen.',
 	'maintenance-sql-desc' => 'Eng SQL-Ufro ausféieren',
+	'maintenance-sql-option-file' => 'SQL-Ufro déi ausgeféiert gi soll',
 	'maintenance-stats-desc' => 'Statistiken vun der Cache Memoire weisen',
 	'maintenance-eval' => 'Benotzt dëse Formulaire fir PHP-Code am MediaWiki-Kontext ze bewerten',
 	'maintenance-eval-desc' => 'PHP-Code am MediaWiki-Kontext bewerten',
