@@ -1011,8 +1011,8 @@ E pep linenn e rankimp kaout ar bajenn orin hag ar bajenn da dizhout dispartiet 
 	'maintenance-stats-views' => 'Niver a bajennoù gwelet : $1',
 	'maintenance-stats-update' => "Oc'h hizivaat an diaz roadennoù{{int:ellipsis}}",
 	'maintenance-move' => "Dilec'hiañ $1 da $2{{int:ellipsis}}",
-	'maintenance-movefail' => "Ur fazi 'zo bet e-pad an adenvel : $1.
-Harzet eo bet an dilerc'hiañ.",
+	'maintenance-movefail' => "Ur fazi zo bet e-pad an adenvel : $1.
+Harzet eo bet an dilec'hiañ.",
 	'maintenance-error' => 'Fazi : $1',
 	'maintenance-memc-fake' => "Emaoc'h oc'h implijout FakeMemCachedClient. Ne vo ket tu kaout a stadegoù.",
 	'maintenance-memc-requests' => 'Rekedoù',
@@ -3563,6 +3563,7 @@ D'Beschreiwunge stinn niewent all Script.",
 	'maintenance-option-optional' => '(optional)',
 	'maintenance-output-success' => '$1 ass gemaach ginn!',
 	'maintenance-output-failure' => '$1 huet net richteg fonctionnéiert!',
+	'maintenance-attachLatest-output-begin' => 'No Säite sichen an deene page_latest op 0 steet...',
 	'maintenance-attachLatest-output-done' => 'Fäerdeg! $1 Säite goufe behandelt.',
 	'maintenance-benchmarkPurge-output-trial' => '$1 Titelen a(n) $2ms ($3ms an der Moyenne)',
 	'maintenance-changePassword' => "Dëse Formulaire benotze fir engem Benotzer säi Passwuert z'änneren",
