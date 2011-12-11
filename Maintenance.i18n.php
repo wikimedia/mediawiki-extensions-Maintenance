@@ -5451,7 +5451,7 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'maintenance' => 'Покрени скрипте за одржавање',
-	'maintenance-desc' => '[[Special:Maintenance|Вики интерфејс]] за разне скрипте за одржавање',
+	'maintenance-desc' => '[[Special:Maintenance|Вики-сучеље]] за разне скриптове за одржавање',
 	'maintenance-backlink' => 'Повратак на обележавање скрипти',
 	'maintenance-header' => 'Молимо Вас да испот означите скрипту коју треба покренути.
 Поред сваке скрипте се налази одговарајући опис.',
@@ -5506,7 +5506,7 @@ $messages['sr-ec'] = array(
 	'maintenance-memc-withsession' => 'са сесијом:',
 	'maintenance-memc-withoutsession' => 'без сесије:',
 	'maintenance-memc-total' => 'укупно:',
-	'maintenance-memc-parsercache' => 'Међумеморија рашчлањивача',
+	'maintenance-memc-parsercache' => 'Кеш рашчлањивача',
 	'maintenance-memc-hits' => 'погодака:',
 	'maintenance-memc-invalid' => 'неисправно:',
 	'maintenance-memc-expired' => 'истекло:',
