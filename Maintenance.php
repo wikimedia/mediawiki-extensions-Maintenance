@@ -22,7 +22,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => 'Ryan Schmidt',
 	'version' => '2.0.0',
 	'descriptionmsg' => 'maintenance-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Maintenance',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Maintenance',
 );
 
 // Set up the new special page
