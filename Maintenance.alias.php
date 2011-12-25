@@ -173,6 +173,11 @@ $specialPageAliases['mt'] = array(
 	'Maintenance' => array( 'Manteniment' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'Maintenance' => array( 'Vedlikehold' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
@@ -181,11 +186,6 @@ $specialPageAliases['nds-nl'] = array(
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'Maintenance' => array( 'Vedlikehold' ),
 );
 
 /** Polish (Polski) */
@@ -203,7 +203,7 @@ $specialPageAliases['pt-br'] = array(
 	'Maintenance' => array( 'Manutenção' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'Maintenance' => array( 'निर्वहण' ),
 );
@@ -257,8 +257,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'Maintenance' => array( '維護' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
