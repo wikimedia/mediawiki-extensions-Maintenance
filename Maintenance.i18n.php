@@ -4329,7 +4329,7 @@ Stoggar flytting.',
  * @author Nghtwlkr
  * @author Simny
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'maintenance' => 'Kjør vedlikeholdsskript',
 	'maintenance-desc' => '[[Special:Maintenance|Nettgrensesnitt]] for ulike vedlikeholdsskript',
 	'right-maintenance' => 'Kjør vedlikeholdsskript gjennom [[Special:Maintenance]]',
