@@ -4184,6 +4184,13 @@ Avbryter flytting',
 	'maintenance-re-re' => 'Flytter endringer{{int:ellipsis}} fullført',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'maintenance-generic-username' => 'प्रयोगकर्ता नाम',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin
