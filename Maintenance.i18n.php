@@ -4588,7 +4588,7 @@ $messages['pdc'] = array(
 	'maintenance-generic-username' => 'Yuuser-Naame',
 	'maintenance-generic-password' => 'Paesswatt',
 	'maintenance-checkBadRedirects-output-footer' => 'Geduh.',
-	'maintenance-deleted' => 'GELESCHT',
+	'maintenance-deleted' => 'VERWISCHT',
 );
 
 /** Polish (Polski)
