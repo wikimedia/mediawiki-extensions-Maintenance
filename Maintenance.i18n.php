@@ -4592,6 +4592,7 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Maikking
  * @author McMonster
  * @author Sp5uhe
@@ -4604,19 +4605,41 @@ $messages['pl'] = array(
 	'maintenance-backlink' => 'Wróć do wyboru skryptu',
 	'maintenance-header' => 'Wybierz skrypt, który chcesz uruchomić.
 Przy nazwach skryptów znajdują się ich opisy.',
+	'maintenance-error-invalidtype' => 'Wskazany skrypt nie został znaleziony',
+	'maintenance-error-badargs' => 'Nie określono wszystkich wymaganych opcji',
 	'maintenance-generic-done' => 'gotowe',
 	'maintenance-generic-username' => 'Nazwa użytkownika',
 	'maintenance-generic-password' => 'Hasło',
 	'maintenance-generic-reason' => 'Powód',
+	'maintenance-cleanupTable-dry-run' => 'Wykonaj próbę generalną',
+	'maintenance-cleanupTable-check' => 'Trwa sprawdzanie złych tytułów...',
+	'maintenance-cleanupTable-checkfix' => 'Sprawdzanie i korekta złych tytułów...',
+	'maintenance-cleanupTable-progress' => '$1 $2: $3% zakończono w czasie $4; ETA $5 [$6/$7] $8/sek <zmieniono $9%>',
+	'maintenance-cleanupTable-missingparam' => '$1: Brak parametru $2',
 	'maintenance-cleanupTable-processing' => 'Przetwarzanie $1...',
+	'maintenance-cleanupTable-finished' => 'Zakończono $1... $2  z  $3  wierszy zaktualizowano',
+	'maintenance-option-quiet' => 'Pominięcie na wyjściu wszystkiego co nie jest błędem',
+	'maintenance-option-globals' => 'Globalne dane wyjściowe na końcu przetwarzania w celu debugowania',
 	'maintenance-option-confirm' => 'Potwierdź',
+	'maintenance-option-batch-size' => 'Uruchom tyle operacji na wsad, domyślnie: $1',
 	'maintenance-option-required' => '(wymagane)',
 	'maintenance-option-optional' => '(opcjonalne)',
+	'maintenance-output-success' => '$1 wykonany pomyślnie!',
+	'maintenance-output-failure' => '$1 nie został wykonany pomyślnie!',
+	'maintenance-attachLatest' => 'Ten formularz służy do ustalenia wpisów tabeli stron gdzie page_latest jest ustawiona na 0',
+	'maintenance-attachLatest-desc' => 'Ustalenie wpisów page_latest w tabeli stron',
 	'maintenance-attachLatest-output-done' => 'Gotowe! Przetworzono $1 {{PLURAL:$1|stronę|strony|stron}}.',
 	'maintenance-changePassword' => 'Użyj tego formularza, by zmienić hasło użytkownika',
 	'maintenance-changePassword-desc' => 'Zmień hasło użytkownika',
 	'maintenance-changePassword-output-set' => 'Ustawiono hasło dla $1',
 	'maintenance-checkBadRedirects-output-footer' => 'Gotowe.',
+	'maintenance-checkSyntax-output-svnlist' => 'Trwa pobieranie listy z Subversion...',
+	'maintenance-checkSyntax-output-buildlist' => 'Trwa budowanie listy plików...',
+	'maintenance-checkSyntax-output-error' => 'Błąd w $1 linia $2: $3',
+	'maintenance-checkSyntax-output-warning' => 'Ostrzeżenie w pliku $1: znaleziono $2',
+	'maintenance-checkSyntax-error-nofile' => 'Błąd: nie można odnaleźć pliku lub katalogu $1',
+	'maintenance-checkSyntax-error-cantopen' => 'Nie można otworzyć pliku $1',
+	'maintenance-checkSyntax-error-svnerr' => 'Błąd pobierania listy z Subversion!',
 	'maintenance-createAndPromote' => 'Użyj tego formularza, by utworzyć nowe konto użytkownika i nadać mu uprawnienia administratora.
 Zaznacz pole wyboru poniżej, aby przyznać mu również uprawnienia biurokraty.',
 	'maintenance-createAndPromote-desc' => 'Utwórz użytkownika i nadaj mu uprawnienia administratora',
@@ -4637,6 +4660,9 @@ W każdym wierszu należy określić stronę źródłową oraz stronę docelową
 	'maintenance-showJobs-desc' => 'Pokaż kolejkę zadań oczekujących na wykonanie',
 	'maintenance-sql' => 'Formularz ten służy do wykonania zapytania SQL do bazy danych.',
 	'maintenance-sql-desc' => 'Wykonywanie zapytań SQL',
+	'maintenance-sql-option-file' => 'SQL do wykonania',
+	'maintenance-sql-output-aff' => 'Zapytanie OK, dotyczy $1 {{PLURAL:$1| wiersza|wierszy|wierszy}}',
+	'maintenance-sql-error-cantopen' => 'Nie można otworzyć pliku wejściowego',
 	'maintenance-stats-desc' => 'Statystyki pamięci podręcznej',
 	'maintenance-eval' => 'Formularz ten służy do oceny kodu PHP w środowisku MediaWiki.',
 	'maintenance-eval-desc' => 'Sprawdzanie kodu PHP w środowisku MediaWiki',
