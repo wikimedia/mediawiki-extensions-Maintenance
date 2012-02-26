@@ -1543,6 +1543,7 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Dferg
  * @author Fitoschido
@@ -1559,11 +1560,16 @@ $messages['es'] = array(
 	'maintenance-backlink' => 'Regresar a selección de escritura',
 	'maintenance-header' => 'Por favor, seleccione el script de abajo para ejecutarlo.
 Las descripciones están del lado de cada script',
+	'maintenance-error-badini' => 'El archivo metadata.ini está dañado o no existe. Por favor, vuelva a descargar la extensión de mantenimiento',
 	'maintenance-error-invalidtype' => 'El script especificado no fue encontrado',
+	'maintenance-error-badargs' => 'No ha especificado todas las opciones necesarias',
 	'maintenance-generic-done' => 'hecho',
 	'maintenance-generic-username' => 'Nombre de usuario',
 	'maintenance-generic-password' => 'Contraseña',
 	'maintenance-generic-reason' => 'Motivo',
+	'maintenance-cleanupTable-dry-run' => 'Realizar un simulacro',
+	'maintenance-cleanupTable-check' => 'Comprobando títulos erróneos...',
+	'maintenance-cleanupTable-checkfix' => 'Comprobando y corrigiendo títulos erróneos...',
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-option-required' => '(obligatorio)',
 	'maintenance-option-optional' => '(opcional)',
