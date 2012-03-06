@@ -4649,7 +4649,7 @@ Arrèst del desplaçament.',
 $messages['or'] = array(
 	'maintenance-generic-done' => 'କରାଯାଇଛି',
 	'maintenance-generic-reason' => 'କାରଣ',
-	'maintenance-option-confirm' => 'ଥୟ କରିବେ',
+	'maintenance-option-confirm' => 'ନିଶ୍ଚିତ କରନ୍ତୁ',
 	'maintenance-checkBadRedirects-output-footer' => 'କରାଯାଇଛି.',
 	'maintenance-memc-requests' => 'ଅନୁରୋଧ',
 	'maintenance-memc-updates' => 'ଅଦ୍ୟତନ:',
