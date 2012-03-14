@@ -3370,6 +3370,46 @@ $messages['ja'] = array(
 	'maintenance-re-re' => '編集の再割り当て… 完了',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'maintenance-cleanupTable-processing' => 'მუშავდება $1...',
+	'maintenance-option-confirm' => 'დადასტურება',
+	'maintenance-option-required' => '(სავალდებულო)',
+	'maintenance-option-optional' => '(არასავალდებულო)',
+	'maintenance-output-success' => '$1 წარმატებით შესრულდა!',
+	'maintenance-output-failure' => '$1 წარმატებით ვერ შესრულდა!',
+	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] ვერ პოულობს ბოლო ვერსიის დროს?!',
+	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] ბოლო დრო $4, ვერსიის იდენტიფიკატორის პოვნა ვერ მოხერხდა',
+	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] ბოლო დრო $4, $5 ვერსიის იდენტიფიკატორი',
+	'maintenance-attachLatest-output-done' => 'გაკეთდა! დამუშავებულია $1 გვერდი.',
+	'maintenance-changePassword' => 'მომხმარებლის პაროლის შესაცვლელად გამოიყენეთ ეს ფორმა',
+	'maintenance-changePassword-desc' => 'მომხმარებლის პაროლის შეცვლა',
+	'maintenance-changePassword-error-nouser' => 'მომხმარებელი: $1 არ არსებობს',
+	'maintenance-changePassword-output-set' => 'დაყენდა პაროლი $1-თვის',
+	'maintenance-checkAutoLoader-output-list2' => '$1: არასწორი ფაილი: ნაპოვნია $2-ში, მითითებულია $3-ში',
+	'maintenance-checkBadRedirects-desc' => 'არასწორი გადამისამართებების მონიშვნა',
+	'maintenance-checkBadRedirects-output-footer' => 'შესრულებულია.',
+	'maintenance-checkImages-output-noaccess' => '$1: ლოკალურად არ არის ხელმისაწვდომი',
+	'maintenance-checkImages-output-missing' => '$1: არ არის',
+	'maintenance-checkImages-output-isdir' => '$1 - კატალოგი',
+	'maintenance-checkImages-output-good' => 'კარგი სურათები: $1/$2',
+	'maintenance-checkSyntax-output-buildlist' => 'ფაილების სიის შექმნა...',
+	'maintenance-checkSyntax-error-cantopen' => 'ფაილ $1 გახსნა შეუძლებელია',
+	'maintenance-checkUsernames-error-notvalid' => 'არასწორი მომხმარებლის სახელი: "$3" (მომხმარებლის იდენტიფიკატორი $2)',
+	'maintenance-createAndPromote-desc' => 'მომხმარებლის შექმნა ადმინისტრატორის სტატუსით',
+	'maintenance-createAndPromote-option-bureaucrat' => 'მომხმარებლისათვის ბიუროკრატის უფლებების მინიჭება',
+	'maintenance-deleteBatch' => 'გვერდების მასიურად წასაშლელად გამოიყენეთ ეს ფორმა. ერთ ხაზზე უნდა იყოს მხოლოდ ერთი გვერდი.',
+	'maintenance-deleteBatch-desc' => 'გვერდების მასობრივად წაშლა',
+	'maintenance-moveBatch-desc' => 'გვერდების მასობრივად გადატანა',
+	'maintenance-invalidname' => 'არასწორი მომხმარებლის სახელი!',
+	'maintenance-userexists' => 'მომხმარებელი უკვე არსებობს!',
+	'maintenance-invalidtitle' => 'არასწორი სათაური "$1"!',
+	'maintenance-titlenoexist' => 'მითითებული სათაური ("$1") არ არსებობს!',
+	'maintenance-deleted' => 'წაშლილია',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
