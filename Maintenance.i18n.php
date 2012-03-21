@@ -86,7 +86,7 @@ $messages['en'] = array(
 	'maintenance-checkBadRedirects-output-found' => "Found \$1 redirects.\nChecking for bad redirects...", #$1=number of redirects
 	'maintenance-checkBadRedirects-output-footer' => "\nDone.",
 	// checkImages
-	'maintenance-checkImages' => 'Use this form to see which images on your server are corrupted',
+	'maintenance-checkImages' => 'Use this form to see which images on your wiki are corrupted',
 	'maintenance-checkImages-desc' => 'Check images to see if they exist, are readable, etc',
 	'maintenance-checkImages-output-noaccess' => '$1: not locally accessible', #$1=image name
 	'maintenance-checkImages-output-missing' => '$1: missing', #$1=image name
@@ -100,7 +100,7 @@ $messages['en'] = array(
 	'maintenance-checkSyntax-option-with-extensions' => 'Also recurse the extensions folder',
 	'maintenance-checkSyntax-option-path' => 'Specific path (file or directory) to check, either with absolute path or relative to the root of this MediaWiki installation',
 	'maintenance-checkSyntax-option-list-file' => 'List of files or directories to check',
-	'maintenance-checkSyntax-option-modified' => 'Check only files that were modified (requires SVN command-line client)',
+	'maintenance-checkSyntax-option-modified' => 'Check only files that were modified (requires svn command-line client)',
 	'maintenance-checkSyntax-option-syntax-only' => 'Check for syntax validity only, skip code style warnings',
 	'maintenance-checkSyntax-output-parsekit' => 'Checking syntax (using parsekit)',
 	'maintenance-checkSyntax-output-phpl' => 'Checking syntax (using php -l, this can take a long time)',
@@ -135,9 +135,24 @@ $messages['en'] = array(
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks is on -- no need for caps links cleanup.',
 	// cleanupImages
 	// cleanupSpam
+	'maintenance-cleanupSpam' => 'Use this form to revert spam edits that link to external sites',
+	'maintenance-cleanupSpam-desc' => 'Clean up all spam from a given hostname',
+	'maintenance-cleanupSpam-arg-hostname' => 'Hostname that was spamming',
+	'maintenance-cleanupSpam-output-found' => 'Found $1 {{PLURAL:$1|articles|article}} containing $2', #$1=count, $2=hostname
+	'maintenance-cleanupSpam-output-done' => '{{int:maintenance-generic-done}}',
+	'maintenance-cleanupSpam-output-false' => 'False match',
+	'maintenance-cleanupSpam-output-blanking' => 'blanking',
+	'maintenance-cleanupSpam-output-reverting' => 'reverting',
+	'maintenance-cleanupSpam-output-page' => '$1 ...', #$1=page name
+	'maintenance-cleanupSpam-error-invalid' => 'Not a valid hostname specification: $1', #$1=hostname
+	'maintenance-cleanupSpam-error-noid' => 'Internal error: no page for ID $1', #$1=page id
 	// cleanupTitles
 	// cleanupWatchlist
 	// clear_interwiki_cache
+	'maintenance-clear_interwiki_cache' => 'Use this form to completely clear the interwiki cache',
+	'maintenance-clear_interwiki_cache-desc' => 'Clear all interwiki links for all languages from the cache',
+	'maintenance-clear_interwiki_cache-done' => '{{int:maintenance-generic-done}}',
+	'maintenance-clear_interwiki_cache-db' => '$1...', #$1=db name
 	// clear_stats
 	// convertLinks
 	// convertUserOptions
@@ -145,6 +160,13 @@ $messages['en'] = array(
 	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to administrator. Check the bureaucrat box if you wish to promote to bureaucrat as well',
 	'maintenance-createAndPromote-desc' => 'Create a user and promote to administrator status',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Promote user to bureaucrat status',
+	'maintenance-createAndPromote-option-username' => '{{int:maintenance-generic-username}}',
+	'maintenance-createAndPromote-option-password' => '{{int:maintenance-generic-password}}',
+	'maintenance-createAndPromote-output-creating' => 'Creating and promoting User:$2...', #$1=wiki id, $2=username
+	'maintenance-createAndPromote-output-done' => '{{int:maintenance-generic-done}}',
+	'maintenance-createAndPromote-error-invalid' => '{{int:noname}}',
+	'maintenance-createAndPromote-error-exists' => '{{int:userexists}}',
+	'maintenance-createAndPromote-error-password' => 'An error was encountered with the password you entered: $1', #$1=password error
 	// deleteArchivedFiles
 	// deleteArchivedRevisions
 	// deleteBatch
