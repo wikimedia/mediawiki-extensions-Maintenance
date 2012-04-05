@@ -4409,6 +4409,7 @@ $messages['ne'] = array(
  * @author SPQRobin
  * @author Siebrand
  * @author Tvdm
+ * @author Wiki13
  */
 $messages['nl'] = array(
 	'maintenance' => 'Beheerscripts uitvoeren',
@@ -4467,7 +4468,7 @@ Beschrijvingen staan naast de scripts',
 	'maintenance-checkBadRedirects-output-found' => 'Er zijn $1 doorverwijzingen gevonden.
 Bezig met zoeken naar onjuiste doorverwijzingen...',
 	'maintenance-checkBadRedirects-output-footer' => 'Uitgevoerd.',
-	'maintenance-checkImages' => 'Gebruik dit formulier om te controleren op beschadigde bestanden op uw wiki',
+	'maintenance-checkImages' => 'Gebruik dit formulier om te controleren welke beschadigde bestanden uw wiki bevat',
 	'maintenance-checkImages-desc' => 'Controleer bestanden op bestaan, leesbaarheid, enzovoort.',
 	'maintenance-checkImages-output-noaccess' => '$1: niet lokaal toegankelijk',
 	'maintenance-checkImages-output-missing' => '$1: niet aanwezig',
@@ -4502,7 +4503,9 @@ Bezig met zoeken naar onjuiste doorverwijzingen...',
 	'maintenance-cleanupCaps-output-clash' => '"$1" is overgeslagen; "$2" bestaat al',
 	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": Controlerun, nog niet verplaatst',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks is actief -- Hoofdletters en kleine letters hoeven niet opgeschoond te worden.',
-	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Eén artikel die $2 bevat|$1 artikels die $2 bevatten}} gevonden',
+	'maintenance-cleanupSpam-output-found' => "{{PLURAL:$1|Eén pagina die $2 bevat|$1 pagina's die $2 bevatten}} gevonden",
+	'maintenance-cleanupSpam-output-blanking' => 'Leeghalen',
+	'maintenance-cleanupSpam-output-reverting' => 'Terugdraaien',
 	'maintenance-createAndPromote' => "Gebruik dit formulier om een gebruiker aan te maken en deze beheerder te maken.
 Vink het vakje 'bureaucraat' aan om de gebruik ook bureacraat te maken",
 	'maintenance-createAndPromote-desc' => 'Een nieuwe gebruiker aanmaken en deze beheerder maken',
