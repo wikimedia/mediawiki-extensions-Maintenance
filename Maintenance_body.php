@@ -1,7 +1,7 @@
 <?php
 if( !defined('MEDIAWIKI') ) {
-	echo("This file is an extension to the MediaWiki software and is not a valid access point");
-	die(1);
+	echo "This file is an extension to the MediaWiki software and is not a valid access point";
+	die( 1 );
 }
 
 class SpecialMaintenance extends SpecialPage {
@@ -49,7 +49,11 @@ class SpecialMaintenance extends SpecialPage {
 		
 		# Grab the ini file and validate it
 		$this->metadata = parse_ini_file( dirname( __FILE__ ) . '/metadata.ini', true );
-		$this->scripts = @array_keys( $this->metadata ); //suppress errors since metadata could be false if the metadata.ini file doesn't exist
+		if( $this->metadata === false ) {
+			throw new ErrorPageError( 'error', 'maintenance-error-badini' );
+			return;
+		}
+		$this->scripts = array_keys( $this->metadata );
 		$valid = $this->parseMetadata(); //parses the metadata ini and validates it
 		if( !$valid ) {
 			throw new ErrorPageError( 'error', 'maintenance-error-badini' );
