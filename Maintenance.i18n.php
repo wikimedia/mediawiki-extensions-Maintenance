@@ -138,7 +138,7 @@ $messages['en'] = array(
 	'maintenance-cleanupSpam' => 'Use this form to revert spam edits that link to external sites',
 	'maintenance-cleanupSpam-desc' => 'Clean up all spam from a given hostname',
 	'maintenance-cleanupSpam-option-hostname' => 'Hostname that was spamming',
-	'maintenance-cleanupSpam-output-found' => 'Found $1 {{PLURAL:$1|articles|article}} containing $2', #$1=count, $2=hostname
+	'maintenance-cleanupSpam-output-found' => 'Found $1 {{PLURAL:$1|article|articles}} containing $2', #$1=count, $2=hostname
 	'maintenance-cleanupSpam-output-done' => '{{int:maintenance-generic-done}}',
 	'maintenance-cleanupSpam-output-false' => 'False match',
 	'maintenance-cleanupSpam-output-blanking' => 'blanking',
