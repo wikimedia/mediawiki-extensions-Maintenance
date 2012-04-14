@@ -54,7 +54,7 @@ $messages['en'] = array(
 	'maintenance-attachLatest' => 'Use this form to fix entries in the page table where page_latest is set to 0',
 	'maintenance-attachLatest-desc' => 'Fix page_latest entries in the page table',
 	'maintenance-attachLatest-option-fix' => 'Actually fix the entries, will dry run otherwise',
-	'maintenance-attachLatest-output-begin' => 'Looking for pages with page_latest set to 0...', 
+	'maintenance-attachLatest-output-begin' => 'Looking for pages with page_latest set to 0...',
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] cannot find the latest rev time?!', #$1=wiki id, $2=page id, $3=page name
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] latest time $4, cannot find revision id', #$1=wiki id, $2=page id, $3=page name, $4=latest time
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] latest time $4, rev id $5', #$1=wiki id, $2=page id, $3=page name, $4=latest time, $5=rev id
@@ -162,7 +162,7 @@ $messages['en'] = array(
 	'maintenance-createAndPromote-option-bureaucrat' => 'Promote user to bureaucrat status',
 	'maintenance-createAndPromote-option-username' => '{{int:maintenance-generic-username}}',
 	'maintenance-createAndPromote-option-password' => '{{int:maintenance-generic-password}}',
-	'maintenance-createAndPromote-output-creating' => 'Creating and promoting User:$2...', #$1=wiki id, $2=username
+	'maintenance-createAndPromote-output-creating' => 'Creating and promoting {{ns:user}}:$2...', #$1=wiki id, $2=username
 	'maintenance-createAndPromote-output-done' => '{{int:maintenance-generic-done}}',
 	'maintenance-createAndPromote-error-invalid' => '{{int:noname}}',
 	'maintenance-createAndPromote-error-exists' => '{{int:userexists}}',
@@ -417,7 +417,7 @@ $messages['qqq'] = array(
 	'maintenance-attachLatest' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-desc' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-option-fix' => 'Checkbox label. "dry run" refers to when the script is run and shows what needs to be fixed, but does not fix those items. Also called from {{mw-msg|maintenance-attachLatest-output-dryrun}} for the same context.',
-	'maintenance-attachLatest-output-begin' => 'Do not translate <code>page_latest</code>', 
+	'maintenance-attachLatest-output-begin' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-output-notime' => '* $1 is the wiki id (database name)
 * $2 is the page id (number)
 * $3 is the page name',
@@ -657,23 +657,23 @@ $messages['qqq'] = array(
 
 Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
 	'maintenance-deleted' => '{{Identical|Deleted}}
-	
+
 This message is currently not used in this extension.',
 	'maintenance-revdelete' => '* $1 is a list of revisions numbers
 * $2 is the local wiki id (string containing database name and tables prefix, if any)
 
 This message is currently not used in this extension.',
 	'maintenance-memc-total' => '{{Identical|Total}}
-	
+
 This message is currently not used in this extension.',
 	'maintenance-memc-hits' => '{{Identical|Hits}}
-	
+
 This message is currently not used in this extension.',
 	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.
-	
+
 This message is currently not used in this extension.',
 	'maintenance-re-rr' => '* $1 is substituted by {{msg-mw|maintenance-re-report}}
-	
+
  This message is currently not used in this extension.',
 );
 
@@ -5167,7 +5167,7 @@ W każdej linijce podaj tylko jeden numer wersji artykułu.',
 	'maintenance-initEditCount-desc' => 'Przelicz ponownie liczniki edycji użytkowników',
 	'maintenance-initStats' => 'Formularz pozwala na przeliczanie statystyk witryny, z możliwością wymuszenia przeliczenia również liczby odsłon',
 	'maintenance-initStats-desc' => 'Przelicz ponownie statystyki strony',
-	'maintenance-moveBatch' => 'Formularz służy do masowego przenoszenia stron. 
+	'maintenance-moveBatch' => 'Formularz służy do masowego przenoszenia stron.
 W każdym wierszu należy określić stronę źródłową oraz stronę docelową rozdzielając je pionową kreską',
 	'maintenance-moveBatch-desc' => 'Przenieś masowo strony',
 	'maintenance-reassignEdits-desc' => 'Przypisanie edycji jednego użytkownika drugiemu',
@@ -5723,7 +5723,7 @@ $messages['ru'] = array(
 	'maintenance-desc' => '[[Special:Maintenance|Веб-интерфейс]] для различных скриптов обслуживания',
 	'right-maintenance' => 'запуск скриптов обслуживания с помощью [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Вернуться к выбору скрипта',
-	'maintenance-header' => 'Пожалуйста, выберите скрипт для исполнения. 
+	'maintenance-header' => 'Пожалуйста, выберите скрипт для исполнения.
 Описание рядом с каждым скриптом',
 	'maintenance-error-badini' => 'Файл Metadata.ini поврежден или отсутствует. Пожалуйста, повторно загрузите расширение Maintenance',
 	'maintenance-error-invalidtype' => 'Не найден указанный скрипт',
