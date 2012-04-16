@@ -345,7 +345,6 @@ Aborting move',
 );
 
 /** Message documentation (Message documentation)
- * @author Ryan Schmidt
  * @author Darth Kule
  * @author EugeneZelenko
  * @author Fryed-peach
@@ -353,32 +352,25 @@ Aborting move',
  * @author Jon Harald Søby
  * @author Lloffiwr
  * @author Purodha
+ * @author Ryan Schmidt
  * @author Siebrand
  * @author The Evil IP address
  * @author Translationista
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-// special page text
 	'maintenance' => 'Special page title and what is shown in Special:SpecialPages',
-	// description
 	'maintenance-desc' => '{{desc}}',
-	// for Special:ListGroupRights
 	'right-maintenance' => '{{doc-right|maintenance}}',
-	// main form
 	'maintenance-backlink' => 'This text is shown in the link back to the list of runnable maintenance scripts',
 	'maintenance-header' => 'This text is shown in the top of the list of runnable maintenance scripts, prompting the user to choose a script to run',
-	// errors
 	'maintenance-error-badini' => 'Do not translate the <code>metadata.ini</code> part.',
 	'maintenance-error-invalidtype' => 'Shown when the user tries to run a script that is disabled or that does not exist',
 	'maintenance-error-badargs' => 'Shown when the user tries to run a script without filling in required text inputs, checkboxes, etc.',
-	// generic includes
 	'maintenance-generic-done' => 'done',
 	'maintenance-generic-username' => '{{Identical|Username}}',
 	'maintenance-generic-password' => '{{Identical|Password}}',
 	'maintenance-generic-reason' => '{{Identical|Reason}}',
-	'maintenance-generic-notrans' => 'Do not translate this message',
-	// generic messages from cleanupTable.inc
 	'maintenance-cleanupTable-dry-run' => 'Label for a checkbox indicating that the script will run, but will not fix anything (a "dry run")',
 	'maintenance-cleanupTable-check' => 'Script output. "Titles" in this case refers to page names',
 	'maintenance-cleanupTable-checkfix' => 'Script output. "Titles" in this case refers to page names',
@@ -401,19 +393,16 @@ $messages['qqq'] = array(
 * $1 is the SQL table name
 * $2 is the number of records that were fixed
 * $3 is the number of records that were processed',
-	// default options
 	'maintenance-option-quiet' => 'Label for a checkbox',
 	'maintenance-option-globals' => 'Label for a checkbox',
 	'maintenance-option-confirm' => '{{Identical|Confirm}}',
 	'maintenance-option-batch-size' => 'Label for a text input shown when running a script that has a "batch mode", where a bulk of operations can be run in one script execution. $1 is the default batch size',
 	'maintenance-option-required' => '{{Identical|Required}}. This message is currently not used in the extension',
 	'maintenance-option-optional' => 'This message is currently not used in the extension',
-	// default output
 	'maintenance-output-success' => 'Indicates a script ran successfully.
 * $1 is the name of the script',
 	'maintenance-output-failure' => 'Indicates a script did not run successfully.
 * $1 is the name of the script',
-	// attachLatest
 	'maintenance-attachLatest' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-desc' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-option-fix' => 'Checkbox label. "dry run" refers to when the script is run and shows what needs to be fixed, but does not fix those items. Also called from {{mw-msg|maintenance-attachLatest-output-dryrun}} for the same context.',
@@ -433,7 +422,6 @@ $messages['qqq'] = array(
 	'maintenance-attachLatest-output-done' => '"Done!" is identical to {{mw-msg|Done}}.
 * $1 is the number of pages that were processed by this script',
 	'maintenance-attachLatest-output-dryrun' => 'Do not translate <code>page_latest</code>.',
-	// benchmarkPurge
 	'maintenance-benchmarkPurge' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.',
 	'maintenance-benchmarkPurge-desc' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable. "Benchmark" refers to measuring how fast something is.',
 	'maintenance-benchmarkPurge-option-count' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.',
@@ -443,216 +431,10 @@ $messages['qqq'] = array(
 	'maintenance-benchmarkPurge-output-trial' => '* $1 is the number of titles processed in the trial
 * $2 is the total time of the trial in milliseconds
 * $3 is the average time of each title in milliseconds',
-/*
-############################# PROGRESS ######################################
-	// changePassword
-	'maintenance-changePassword' => "Use this form to change a user's password",
-	'maintenance-changePassword-desc' => "Change a user's password",
-	'maintenance-changePassword-option-user' => '{{int:maintenance-generic-username}}',
-	'maintenance-changePassword-option-password' => '{{int:maintenance-generic-password}}',
-	'maintenance-changePassword-error-nouser' => 'No such user: $1', #$1=username
-	'maintenance-changePassword-output-set' => 'Password set for $1', #$1=username
-	// checkAutoLoader
-	'maintenance-checkAutoLoader' => 'Use this form to do some sanity checks on the AutoLoader',
-	'maintenance-checkAutoLoader-desc' => 'AutoLoader sanity checks',
-	'maintenance-checkAutoLoader-output-list1' => "\t'\$1' => '\$2',", #$1=class, $2=file
-	'maintenance-checkAutoLoader-output-list2' => '$1: Wrong file: found in $2, listed in $3', #$1=class, $2=file, $3=file
-	// checkBadRedirects
-	'maintenance-checkBadRedirects' => 'Use this form to see if pages marked as redirects really are redirects',
-	'maintenance-checkBadRedirects-desc' => 'Check for bad redirects',
-	'maintenance-checkBadRedirects-output-header' => 'Fetching redirects...',
-	'maintenance-checkBadRedirects-output-found' => "Found \$1 redirects.\nChecking for bad redirects...", #$1=number of redirects
 	'maintenance-checkBadRedirects-output-footer' => '{{Identical|Done}}',
-	// checkImages
-	'maintenance-checkImages' => 'Use this form to see which images on your wiki are corrupted',
-	'maintenance-checkImages-desc' => 'Check images to see if they exist, are readable, etc',
-	'maintenance-checkImages-output-noaccess' => '$1: not locally accessible', #$1=image name
-	'maintenance-checkImages-output-missing' => '$1: missing', #$1=image name
-	'maintenance-checkImages-output-isdir' => '$1: is a directory', #$1=image name
-	'maintenance-checkImages-output-truncated' => '$1: truncated, was $2', #$1=image name, $2=db size
-	'maintenance-checkImages-output-mismatch' => '$1: size mismatch DB=$2, actual=$3', #$1=image name, $2=db size, $3=actual size
-	'maintenance-checkImages-output-good' => 'Good images: $1/$2', #$1=good images, $2=total images
-	// checkSyntax
-	'maintenance-checkSyntax' => 'Use this form to check the syntax of all PHP files in MediaWiki',
-	'maintenance-checkSyntax-desc' => 'Check syntax for all PHP files in MediaWiki',
-	'maintenance-checkSyntax-option-with-extensions' => 'Also recurse the extensions folder',
-	'maintenance-checkSyntax-option-path' => 'Specific path (file or directory) to check, either with absolute path or relative to the root of this MediaWiki installation',
-	'maintenance-checkSyntax-option-list-file' => 'List of files or directories to check',
-	'maintenance-checkSyntax-option-modified' => 'Check only files that were modified (requires svn command-line client)',
-	'maintenance-checkSyntax-option-syntax-only' => 'Check for syntax validity only, skip code style warnings',
-	'maintenance-checkSyntax-output-parsekit' => 'Checking syntax (using parsekit)',
-	'maintenance-checkSyntax-output-phpl' => 'Checking syntax (using php -l, this can take a long time)',
-	'maintenance-checkSyntax-output-footer' => 'Done! $1 files checked, $2 failures and $3 warnings found', #$1=files checked, $2=php errors, $3=php warnings
-	'maintenance-checkSyntax-output-svnlist' => 'Retrieving list from Subversion...',
-	'maintenance-checkSyntax-output-done' => '{{int:maintenance-generic-done}}',
-	'maintenance-checkSyntax-output-buildlist' => 'Building file list...',
-	'maintenance-checkSyntax-output-error' => 'Error in $1 line $2: $3', #$1=file, $2=line no, $3=error message
-	'maintenance-checkSyntax-output-warning' => 'Warning in file $1: $2 found', #$1=file, $2=warning message
-	'maintenance-checkSyntax-error-nofile' => 'Error: cannot find file or directory $1', #$1=file or directory path
-	'maintenance-checkSyntax-error-cantopen' => 'Cannot open file $1', #$1=filename
-	'maintenance-checkSyntax-error-svnerr' => 'Error retrieving list from Subversion!',
-	// checkUsernames
-	'maintenance-checkUsernames' => 'Use this form to show which usernames are invalid due to configuration changes. If nothing is listed after running this script, all usernames are valid',
-	'maintenance-checkUsernames-desc' => 'Verify that database usernames are actually valid',
-	'maintenance-checkUsernames-error-notvalid' => 'Invalid username: "$3" (user id $2)', #$1=wiki id, $2=user id, $3=username
-	// cleanupCaps
-	'maintenance-cleanupCaps' => 'Use this form to fix broken pages caused by modifying $wgCapitalLinks',
-	'maintenance-cleanupCaps-desc' => 'Script to cleanup capitalization',
-	'maintenance-cleanupCaps-option-dry-run' => '{{int:maintenance-cleanupTable-dry-run}}',
-	'maintenance-cleanupCaps-option-namespace' => 'Namespace number to run caps cleanup on',
-	'maintenance-cleanupCaps-output-islower' => '"$1" already lowercase.', #$1=page name
-	'maintenance-cleanupCaps-output-clash' => '"$1" skipped; "$2" already exists', #$1=upppercase page name, $2=lowercase page name
-	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": DRY RUN, NOT MOVED', #$1=upppercase page name, $2=lowercase page name
-	'maintenance-cleanupCaps-output-moved' => '"$1" -> "$2": $3', #$1=upppercase page name, $2=lowercase page name, $3=status of move (ok or not)
-	'maintenance-cleanupCaps-output-check' => '{{int:maintenance-cleanupTable-check}}',
-	'maintenance-cleanupCaps-output-checkfix' => '{{int:maintenance-cleanupTable-checkfix}}',
-	'maintenance-cleanupCaps-output-progress' => '{{int:maintenance-cleanupTable-progress|$1|$2|$3|$4|$5|$6|$7|$8|$9}}',
-	'maintenance-cleanupCaps-output-processing' => '{{int:maintenance-cleanupTable-processing|$1}}',
-	'maintenance-cleanupCaps-output-finished' => '{{int:maintenance-cleanupTable-check|$1|$2|$3}}',
-	'maintenance-cleanupCaps-error-missingparam' => '{{int:maintenance-cleanupTable-missingparam|$1|$2}}',
-	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks is on -- no need for caps links cleanup.',
-	// cleanupImages
-	// cleanupSpam
-	'maintenance-cleanupSpam' => 'Use this form to revert spam edits that link to external sites',
-	'maintenance-cleanupSpam-desc' => 'Clean up all spam from a given hostname',
-	'maintenance-cleanupSpam-option-hostname' => 'Hostname that was spamming',
-	'maintenance-cleanupSpam-output-found' => 'Found $1 {{PLURAL:$1|articles|article}} containing $2', #$1=count, $2=hostname
-	'maintenance-cleanupSpam-output-done' => '{{int:maintenance-generic-done}}',
-	'maintenance-cleanupSpam-output-false' => 'False match',
-	'maintenance-cleanupSpam-output-blanking' => 'blanking',
-	'maintenance-cleanupSpam-output-reverting' => 'reverting',
-	'maintenance-cleanupSpam-output-page' => '$1 ...', #$1=page name
-	'maintenance-cleanupSpam-error-invalid' => 'Not a valid hostname specification: $1', #$1=hostname
-	'maintenance-cleanupSpam-error-noid' => 'Internal error: no page for ID $1', #$1=page id
-	// cleanupTitles
-	// cleanupWatchlist
-	// clear_interwiki_cache
-	'maintenance-clear_interwiki_cache' => 'Use this form to completely clear the interwiki cache',
-	'maintenance-clear_interwiki_cache-desc' => 'Clear all interwiki links for all languages from the cache',
-	'maintenance-clear_interwiki_cache-done' => '{{int:maintenance-generic-done}}',
-	'maintenance-clear_interwiki_cache-db' => '$1...', #$1=db name
-	// clear_stats
-	// convertLinks
-	// convertUserOptions
-	// createAndPromote
-	'maintenance-createAndPromote' => 'Use this form to create a new user and promote it to administrator. Check the bureaucrat box if you wish to promote to bureaucrat as well',
-	'maintenance-createAndPromote-desc' => 'Create a user and promote to administrator status',
-	'maintenance-createAndPromote-option-bureaucrat' => 'Promote user to bureaucrat status',
-	'maintenance-createAndPromote-option-username' => '{{int:maintenance-generic-username}}',
-	'maintenance-createAndPromote-option-password' => '{{int:maintenance-generic-password}}',
-	'maintenance-createAndPromote-output-creating' => 'Creating and promoting User:$2...', #$1=wiki id, $2=username
-	'maintenance-createAndPromote-output-done' => '{{int:maintenance-generic-done}}',
-	'maintenance-createAndPromote-error-invalid' => '{{int:noname}}',
-	'maintenance-createAndPromote-error-exists' => '{{int:userexists}}',
-	'maintenance-createAndPromote-error-password' => 'An error was encountered with the password you entered: $1', #$1=password error
-	// deleteArchivedFiles
-	// deleteArchivedRevisions
-	// deleteBatch
-	'maintenance-deleteBatch' => 'Use this form to mass-delete pages. Put only one page per line',
-	'maintenance-deleteBatch-desc' => 'Mass-delete pages',
-	// deleteDefaultMessages
-	// deleteImageMemcached
-	// deleteOldRevisions
-	// deleteOrphanedRevisions
-	// deleteRevision
-	'maintenance-deleteRevision' => 'Use this form to mass-delete revisions. Put only one revision number per line',
-	'maintenance-deleteRevision-desc' => 'Remove revisions from the database',
-	// deleteSelfExternals
-	// dumpLinks
-	// dumpSisterSites
-	// dumpUploads
-	// edit
-	// fetchText
-	// findhooks
-	// fixSlaveDesync
-	// fixTimestamps
-	// fixUserRegistration
-	// generateSitemap
-	// getLagTimes
-	// getSlaveServer
-	// getText
-	// httpSessionDownload
-	// initEditCount
-	'maintenance-initEditCount' => '',
-	'maintenance-initEditCount-desc' => 'Recalculate the edit counts of users',
-	// initStats
-	'maintenance-initStats' => 'Use this form to recalculate site statistics, specifying if you want to recalculate page views as well',
-	'maintenance-initStats-desc' => 'Recalculate site statistics',
-	// lag
-	// mctest
-	// mergeMessageFileList
-	// migrateUserGroup
-	// minify
-	// moveBatch
-	'maintenance-moveBatch' => 'Use this form to mass-move pages. Each line should specify a source page and destination page separated by a pipe',
-	'maintenance-moveBatch-desc' => 'Mass-move pages',
-	// namespaceDupes
-	// nextJobDB
-	// nukeNS
-	// nukePage
-	// orphans
-	// patchSql
-	// populateCategory
-	// populateLogSearch
-	// populateLogUsertext
-	// populateParentId
-	// populateRevisionLength
-	// populateSha1
-	// protect
-	// purgeList
-	// purgeOldText
-	// reassignEdits
-	'maintenance-reassignEdits-desc' => 'Reassign edits from one user to another',
-	// rebuildall
-	// rebuildFileCache
-	// rebuildLocalisationCache
-	// rebuildmessages
-	// rebuildrecentchanges
-	// rebuildtextindex
-	// refreshCategoryCounts
-	// refreshImageCount
-	// refreshLinks
-	// removeUnusedAccounts
-	// renameDbPrefix
-	// renderDump
-	// rollbackEdits
-	// runBatchedQuery
-	// runJobs
-	'maintenance-runJobs' => '',
-	'maintenance-runJobs-desc' => 'Run jobs in the job queue',
-	'maintenance-runJobs-option-maxjobs' => 'Maximum number of jobs to run',
-	'maintenance-runJobs-option-type' => 'Type of job to run',
-	'maintenance-runJobs-option-procs' => 'Number of processes to use', #currently not used
-	'maintenance-runJobs-option-exclusive' => 'Run only one exclusive runJobs script at a time. Timeout is 1800 seconds.',
-	'maintenance-runJobs-output-job' => '{{int:maintenance-generic-notrans|$1}}', #$1=job result
-	'maintenance-runJobs-error-invalidprocs' => 'You must specify between 1 and 1000 processes', #currently not used
-	// showJobs
-	'maintenance-showJobs' => '',
-	'maintenance-showJobs-desc' => 'Show a list of jobs pending in the job queue',
-	'maintenance-showJobs-option-group' => 'Show number of jobs per job type',
-	'maintenance-showJobs-output-job' => '{{int:maintenance-generic-notrans|$1}}', #$1=job info
-	// showStats
-	// sql
-	'maintenance-sql' => 'Use this form to execute a SQL query on the database.',
-	'maintenance-sql-desc' => 'Execute an SQL query',
-	'maintenance-sql-option-file' => 'SQL to execute',
-	'maintenance-sql-output-row' => '{{int:maintenance-generic-notrans|$1}}', #$1=print_r result of row
-	'maintenance-sql-output-aff' => 'Query OK, $1 {{PLURAL:$1|row|rows}} affected',
-	'maintenance-sql-error-cantopen' => 'Unable to open input file',
-	'maintenance-sql-error-sql' => '{{int:maintenance-generic-notrans|$1}}', #$1=sql error
-	// sqlite
-	// stats
-	'maintenance-stats' => '',
-	'maintenance-stats-desc' => 'Show Memcached statistics',
-	// undelete
-	// updateArticleCount
-	// updateDoubleWidthSearch
-	// updateRestrictions
-	// updateSearchIndex
-	// updateSpecialPages
-	// waitForSlave
-#################################################################################################
-*/
+	'maintenance-cleanupSpam-output-found' => 'Parameters:
+* $1 is a count for number of matches
+* $2 is an external link that was spammed.',
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
