@@ -3339,6 +3339,7 @@ Pemindahan dibatalkan',
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
  * @author Gianfranco
@@ -3352,6 +3353,8 @@ $messages['it'] = array(
 	'maintenance-header' => 'Scegli uno script da eseguire.
 Le descrizioni sono riportate a fianco di ciascuno script',
 	'maintenance-error-invalidtype' => 'Tipo non valido',
+	'maintenance-generic-username' => 'Nome utente',
+	'maintenance-generic-password' => 'Password',
 	'maintenance-option-confirm' => 'Conferma',
 	'maintenance-output-success' => '$1 eseguito con successo!',
 	'maintenance-changePassword' => 'Usa questo modulo per cambiare la password di un utente',
@@ -4584,8 +4587,11 @@ Bezig met zoeken naar onjuiste doorverwijzingen...',
 	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": Controlerun, nog niet verplaatst',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks is actief -- Hoofdletters en kleine letters hoeven niet opgeschoond te worden.',
 	'maintenance-cleanupSpam-output-found' => "{{PLURAL:$1|Eén pagina die $2 bevat|$1 pagina's die $2 bevatten}} gevonden",
-	'maintenance-cleanupSpam-output-blanking' => 'Leeghalen',
-	'maintenance-cleanupSpam-output-reverting' => 'Terugdraaien',
+	'maintenance-cleanupSpam-output-blanking' => 'leeghalen',
+	'maintenance-cleanupSpam-output-reverting' => 'bezig met terugdraaien',
+	'maintenance-cleanupSpam-error-noid' => 'Interne fout: geen pagina voor ID $1',
+	'maintenance-clear_interwiki_cache' => 'Gebruik dit formulier om de interwikicache volledig te legen',
+	'maintenance-clear_interwiki_cache-desc' => 'Alle interwikiverwijzingen voor alle talen verwijderen uit de cache',
 	'maintenance-createAndPromote' => "Gebruik dit formulier om een gebruiker aan te maken en deze beheerder te maken.
 Vink het vakje 'bureaucraat' aan om de gebruik ook bureacraat te maken",
 	'maintenance-createAndPromote-desc' => 'Een nieuwe gebruiker aanmaken en deze beheerder maken',
