@@ -353,13 +353,14 @@ Aborting move',
  * @author Lloffiwr
  * @author Purodha
  * @author Ryan Schmidt
+ * @author Shirayuki
  * @author Siebrand
  * @author The Evil IP address
  * @author Translationista
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'maintenance' => 'Special page title and what is shown in Special:SpecialPages',
+	'maintenance' => 'Special page title and what is shown in [[Special:SpecialPages]]',
 	'maintenance-desc' => '{{desc}}',
 	'right-maintenance' => '{{doc-right|maintenance}}',
 	'maintenance-backlink' => 'This text is shown in the link back to the list of runnable maintenance scripts',
@@ -3439,10 +3440,11 @@ Spostamento annullato',
  * @author Aotake
  * @author Fryed-peach
  * @author Ohgi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'maintenance' => 'メンテナンス・スクリプトを実行する',
-	'maintenance-desc' => '様々なメンテナンス・スクリプト用の[[Special:Maintenance|ウィキ・インタフェース]]',
+	'maintenance' => 'メンテナンススクリプトを実行',
+	'maintenance-desc' => '様々なメンテナンススクリプト用の[[Special:Maintenance|ウィキインターフェイス]]',
 	'right-maintenance' => '[[Special:Maintenance]] を使ってメンテナンス・スクリプトを実行する',
 	'maintenance-backlink' => 'スクリプト選択に戻る',
 	'maintenance-header' => '実行するスクリプトを以下から選んでください。解説は各スクリプトの隣にあります',
@@ -3454,11 +3456,15 @@ $messages['ja'] = array(
 	'maintenance-generic-password' => 'パスワード',
 	'maintenance-generic-reason' => '理由',
 	'maintenance-option-confirm' => '確認',
+	'maintenance-option-required' => '（必須）',
+	'maintenance-option-optional' => '（省略可能）',
 	'maintenance-output-success' => '$1 の実行は成功しました！',
 	'maintenance-output-failure' => '$1 正常に実行されませんでした。',
 	'maintenance-attachLatest-output-done' => '完了しました。$1件のページが処理されました。',
 	'maintenance-changePassword' => 'このフォームを使って利用者のパスワードを変更する',
 	'maintenance-changePassword-desc' => '利用者のパスワードを変更する',
+	'maintenance-checkBadRedirects-output-footer' => '
+完了。',
 	'maintenance-createAndPromote' => 'このフォームを使って利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合はビューロクラット・ボックスをチェックする',
 	'maintenance-createAndPromote-desc' => '利用者を作成し、管理者にする',
 	'maintenance-deleteBatch' => 'このフォームを使ってページを一括削除する。1行に1ページのみ書く',
