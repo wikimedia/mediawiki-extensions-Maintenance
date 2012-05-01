@@ -1568,6 +1568,7 @@ Pśesunjenje pśetergnjone',
  */
 $messages['el'] = array(
 	'maintenance-error-invalidtype' => 'Μη έγκυρος τύπος!',
+	'maintenance-generic-username' => 'Όνομα χρήστη',
 	'maintenance-option-confirm' => 'Επιβεβαίωση',
 	'maintenance-output-success' => 'Το $1 έτρεξε επιτυχώς!',
 	'maintenance-changePassword-desc' => 'Αλλαγή κωδικού ενός χρήστη',
