@@ -766,7 +766,7 @@ $messages['be-tarask'] = array(
 	'maintenance-checkBadRedirects-output-found' => 'Перанакіраваньняў знойдзена: $1
 Шукаюцца няслушныя перанакіраваньні…',
 	'maintenance-checkBadRedirects-output-footer' => 'Зроблена.',
-	'maintenance-checkImages' => 'Выкарыстоўвайце гэтую форму для таго, каб убачыць якія выявы на Вашым сэрвэры пашкоджаныя',
+	'maintenance-checkImages' => 'Выкарыстоўвайце гэтую форму, каб убачыць, якія выявы ў Вашай вікі пашкоджаныя',
 	'maintenance-checkImages-desc' => 'Праверка выяваў на іх існаваньне, чытальнасьць і г. д.',
 	'maintenance-checkImages-output-noaccess' => '$1: недаступны лякальна',
 	'maintenance-checkImages-output-missing' => '$1: адсутнічае',
@@ -801,6 +801,7 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupCaps-output-clash' => '«$1» прапушчаная; «$2» ужо існуе',
 	'maintenance-cleanupCaps-output-dryrun' => '«$1» → «$2»: ТЭСТАВЫ ЗАПУСК, НЕ ПЕРАНЕСЕНАЯ',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks устаноўлены — няма неабходнасьці для ачысткі спасылак, якія пачынаюцца з малых літар.',
+	'maintenance-cleanupSpam' => 'Выкарыстоўвайце гэтую форму, каб скасоўваць спамэрскія праўкі, у якіх утрымліваюцца вонкавыя спасылкі',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
@@ -2363,7 +2364,7 @@ As descricións están ao lado de cada escritura',
 Comprobando as redireccións erróneas...',
 	'maintenance-checkBadRedirects-output-footer' => '
 Feito.',
-	'maintenance-checkImages' => 'Empregue este formulario para comprobar as imaxes corrompidas do servidor',
+	'maintenance-checkImages' => 'Empregue este formulario para comprobar as imaxes corrompidas do wiki',
 	'maintenance-checkImages-desc' => 'Consulte as imaxes para ver se existen, son lexibles etc.',
 	'maintenance-checkImages-output-noaccess' => '$1: non está accesible localmente',
 	'maintenance-checkImages-output-missing' => '$1: ausente',
@@ -2398,10 +2399,22 @@ Feito.',
 	'maintenance-cleanupCaps-output-clash' => '"$1" saltado; "$2" xa existe',
 	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": SIMULACRO, NON TRASLADADO',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks está activado; non se necesita realizar a limpeza da utilización de maiúsculas e minúsculas.',
-	'maintenance-createAndPromote' => 'Use este formulario para crear un novo usuario e promovelo ao status de administrador.
-Comprobe a caixa de burócrata se quere tamén promovelo ao status de burócrata',
-	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo ao status de administrador',
+	'maintenance-cleanupSpam' => 'Use este formulario para reverter as edicións vandálicas con spam que ligan a sitios web externos',
+	'maintenance-cleanupSpam-desc' => 'Limpar todo o spam dun servidor determinado',
+	'maintenance-cleanupSpam-option-hostname' => 'Nome do servidor que produce o spam',
+	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Atopouse $1 artigo|Atopáronse $1 artigos}} que {{PLURAL:$1|contiña|contiñan}} $2',
+	'maintenance-cleanupSpam-output-false' => 'Coincidencia incorrecta',
+	'maintenance-cleanupSpam-output-blanking' => 'baleirado',
+	'maintenance-cleanupSpam-output-reverting' => 'reversión',
+	'maintenance-cleanupSpam-error-invalid' => 'A especificación do nome do servidor non é válida: $1',
+	'maintenance-cleanupSpam-error-noid' => 'Erro interno: Non hai páxina ningunha para o ID $1',
+	'maintenance-clear_interwiki_cache' => 'Use este formulario para limpar completamente a caché do interwiki',
+	'maintenance-clear_interwiki_cache-desc' => 'Limpar todas as ligazóns interwiki de todas as linguas da caché',
+	'maintenance-createAndPromote' => 'Use este formulario para crear un novo usuario e promovelo a administrador. Marque a caixa de burócrata se quere tamén promovelo a burócrata',
+	'maintenance-createAndPromote-desc' => 'Crear un usuario e promovelo a administrador',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Dar ao usuario os dereitos de burócrata',
+	'maintenance-createAndPromote-output-creating' => 'Creando e promovendo o usuario $2...',
+	'maintenance-createAndPromote-error-password' => 'Houbo un erro co contrasinal que inseriu: $1',
 	'maintenance-deleteBatch' => 'Use este formulario para borrar revisións en masa.
 Poña só unha páxina por liña',
 	'maintenance-deleteBatch-desc' => 'Borrar páxinas masivamente',
@@ -4600,9 +4613,13 @@ Bezig met zoeken naar onjuiste doorverwijzingen...',
 	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": Controlerun, nog niet verplaatst',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks is actief -- Hoofdletters en kleine letters hoeven niet opgeschoond te worden.',
 	'maintenance-cleanupSpam' => 'Gebruik dit formulier om spambewerkingen terug te draaien die naar externe websites verwijzen',
+	'maintenance-cleanupSpam-desc' => 'Alle spam van een opgegeven hostnaam opruimen',
+	'maintenance-cleanupSpam-option-hostname' => 'De hostnaam die heeft gespamd',
 	'maintenance-cleanupSpam-output-found' => "{{PLURAL:$1|Eén pagina die $2 bevat|$1 pagina's die $2 bevatten}} gevonden",
+	'maintenance-cleanupSpam-output-false' => 'Onjuiste overeenkomst',
 	'maintenance-cleanupSpam-output-blanking' => 'leeghalen',
 	'maintenance-cleanupSpam-output-reverting' => 'bezig met terugdraaien',
+	'maintenance-cleanupSpam-error-invalid' => 'Geen geldige hostnaamspecificatie: $1',
 	'maintenance-cleanupSpam-error-noid' => 'Interne fout: geen pagina voor ID $1',
 	'maintenance-clear_interwiki_cache' => 'Gebruik dit formulier om de interwikicache volledig te legen',
 	'maintenance-clear_interwiki_cache-desc' => 'Alle interwikiverwijzingen voor alle talen verwijderen uit de cache',
@@ -4610,6 +4627,8 @@ Bezig met zoeken naar onjuiste doorverwijzingen...',
 Vink het vakje 'bureaucraat' aan om de gebruik ook bureacraat te maken",
 	'maintenance-createAndPromote-desc' => 'Een nieuwe gebruiker aanmaken en deze beheerder maken',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Gebruiker bureaucraat maken',
+	'maintenance-createAndPromote-output-creating' => 'De gebruiker {{ns:user}}:$2 wordt aangemaakt en in de opgegeven gebruikersgroepen geplaatst...',
+	'maintenance-createAndPromote-error-password' => 'Er is een fout opgetreden met het wachtwoord dat u hebt opgegeven: $1',
 	'maintenance-deleteBatch' => "Gebruik dit formulier om en masse pagina's te verwijderen.
 Geef op iedere regel een paginanaam op",
 	'maintenance-deleteBatch-desc' => "Pagina's en masse verwijderen",
@@ -4695,6 +4714,7 @@ Hernoemen is afgebroken',
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Nghtwlkr
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'maintenance' => 'Køyr vedlikehaldsskript',
@@ -4969,7 +4989,7 @@ W każdej linijce podaj tylko jeden numer wersji artykułu.',
 	'maintenance-initEditCount-desc' => 'Przelicz ponownie liczniki edycji użytkowników',
 	'maintenance-initStats' => 'Formularz pozwala na przeliczanie statystyk witryny, z możliwością wymuszenia przeliczenia również liczby odsłon',
 	'maintenance-initStats-desc' => 'Przelicz ponownie statystyki strony',
-	'maintenance-moveBatch' => 'Formularz służy do masowego przenoszenia stron.
+	'maintenance-moveBatch' => 'Formularz służy do masowego przenoszenia stron. 
 W każdym wierszu należy określić stronę źródłową oraz stronę docelową rozdzielając je pionową kreską',
 	'maintenance-moveBatch-desc' => 'Przenieś masowo strony',
 	'maintenance-reassignEdits-desc' => 'Przypisanie edycji jednego użytkownika drugiemu',
@@ -5525,7 +5545,7 @@ $messages['ru'] = array(
 	'maintenance-desc' => '[[Special:Maintenance|Веб-интерфейс]] для различных скриптов обслуживания',
 	'right-maintenance' => 'запуск скриптов обслуживания с помощью [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Вернуться к выбору скрипта',
-	'maintenance-header' => 'Пожалуйста, выберите скрипт для исполнения.
+	'maintenance-header' => 'Пожалуйста, выберите скрипт для исполнения. 
 Описание рядом с каждым скриптом',
 	'maintenance-error-badini' => 'Файл Metadata.ini поврежден или отсутствует. Пожалуйста, повторно загрузите расширение Maintenance',
 	'maintenance-error-invalidtype' => 'Не найден указанный скрипт',
@@ -6313,6 +6333,8 @@ $messages['tr'] = array(
 	'maintenance-header' => 'Lütfen çalıştırmak için aşağıdan bir betik seçin.
 Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-error-invalidtype' => 'Geçersiz tür!',
+	'maintenance-generic-username' => 'Kullanıcı adı',
+	'maintenance-generic-password' => 'Parola',
 	'maintenance-option-confirm' => 'Onayla',
 	'maintenance-changePassword-desc' => 'Bir kullanıcının parolasını değiştir',
 	'maintenance-deleteBatch-desc' => 'Sayfaları toplu sil',
@@ -6345,6 +6367,7 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-memc-updates' => 'güncellemeler',
 	'maintenance-memc-diffcache' => 'Fark Önbelleği',
 	'maintenance-re-rc' => 'Son değişiklikler tablosunu güncellemeyin',
+	'maintenance-re-nf' => 'Kullanıcı $1 bulunamadı',
 	'maintenance-re-ce' => 'Mevcut değişiklik: $1',
 	'maintenance-re-de' => 'Silinen değişiklikler: $1',
 	'maintenance-re-rce' => 'SonDeğişiklikler girdileri: $1',
@@ -6384,7 +6407,7 @@ $messages['uk'] = array(
 	'maintenance-re-nf' => 'Користувача $1 не знайдено',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
