@@ -28,6 +28,11 @@ $specialPageAliases['bg'] = array(
 	'Maintenance' => array( 'Поддръжка' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'Maintenance' => array( 'Pamaliharaan' ),
+);
+
 /** Breton (Brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Maintenance' => array( 'Trezalc\'h' ),
