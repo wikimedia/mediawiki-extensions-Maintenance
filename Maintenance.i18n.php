@@ -4946,7 +4946,7 @@ $messages['pdc'] = array(
 	'maintenance-deleted' => 'VERWISCHT',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Maikking
  * @author McMonster
