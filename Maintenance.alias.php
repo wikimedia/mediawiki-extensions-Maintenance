@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'Maintenance' => array( 'صيانه' ),
 );
 
-/** Bulgarian (Български) */
+/** Bulgarian (български) */
 $specialPageAliases['bg'] = array(
 	'Maintenance' => array( 'Поддръжка' ),
 );
@@ -33,12 +33,12 @@ $specialPageAliases['bjn'] = array(
 	'Maintenance' => array( 'Pamaliharaan' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Maintenance' => array( 'Trezalc\'h' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'Maintenance' => array( 'Odrzavanje' ),
 );
@@ -48,17 +48,22 @@ $specialPageAliases['de'] = array(
 	'Maintenance' => array( 'Wartung' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Maintenance' => array( 'Timaryayış' ),
+);
+
 /** Lower Sorbian (Dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Maintenance' => array( 'Wótwardowanje' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'Maintenance' => array( 'Mantenimiento' ),
 );
 
-/** Basque (Euskara) */
+/** Basque (euskara) */
 $specialPageAliases['eu'] = array(
 	'Maintenance' => array( 'Mantenimendua' ),
 );
@@ -68,12 +73,12 @@ $specialPageAliases['fa'] = array(
 	'Maintenance' => array( 'نگهداری' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Maintenance' => array( 'Mantegnence' ),
 );
@@ -93,7 +98,7 @@ $specialPageAliases['he'] = array(
 	'Maintenance' => array( 'תחזוקה' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Maintenance' => array( 'Održavanje' ),
 );
@@ -108,12 +113,12 @@ $specialPageAliases['ht'] = array(
 	'Maintenance' => array( 'TravayPouGadeAnfòm' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'Maintenance' => array( 'Karbantartás' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Maintenance' => array( 'Mantenentia' ),
 );
@@ -123,7 +128,7 @@ $specialPageAliases['id'] = array(
 	'Maintenance' => array( 'Pemeliharaan' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Maintenance' => array( 'Manutenzione' ),
 );
@@ -158,7 +163,7 @@ $specialPageAliases['lb'] = array(
 	'Maintenance' => array( 'Ënnerhalt' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Maintenance' => array( 'Одржување' ),
 );
@@ -178,7 +183,7 @@ $specialPageAliases['mt'] = array(
 	'Maintenance' => array( 'Manteniment' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Maintenance' => array( 'Vedlikehold' ),
 );
@@ -193,17 +198,17 @@ $specialPageAliases['nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Maintenance' => array( 'Konserwacja' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Maintenance' => array( 'Manutenção' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
+/** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
 	'Maintenance' => array( 'Manutenção' ),
 );
@@ -213,17 +218,17 @@ $specialPageAliases['sa'] = array(
 	'Maintenance' => array( 'निर्वहण' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Maintenance' => array( 'Údržba' ),
 );
 
-/** Albanian (Shqip) */
+/** Albanian (shqip) */
 $specialPageAliases['sq'] = array(
 	'Maintenance' => array( 'Mirëmbajtje' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'Maintenance' => array( 'Underhåll' ),
 );
@@ -248,17 +253,17 @@ $specialPageAliases['tr'] = array(
 	'Maintenance' => array( 'Bakım' ),
 );
 
-/** Vèneto (Vèneto) */
+/** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Maintenance' => array( 'Manutension' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Maintenance' => array( '维护' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'Maintenance' => array( '維護' ),
 );
