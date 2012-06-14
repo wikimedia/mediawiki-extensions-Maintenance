@@ -688,7 +688,7 @@ $messages['arz'] = array(
 	'maintenance-re-re' => 'جارى إعادة إلحاق التعديلات... تم',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -888,7 +888,7 @@ $messages['be-tarask'] = array(
 	'maintenance-re-re' => 'Перадача рэдагаваньняў... выкананая',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -989,7 +989,7 @@ $messages['bn'] = array(
 	'maintenance-memc-diffcache' => 'পার্থক্য ক্যাশে',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -1149,7 +1149,7 @@ Harzet eo bet an dilec'hiañ.",
 	'maintenance-re-re' => "Addeverkañ ar c'hemmoù{{int:ellipsis}} graet",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -1249,7 +1249,7 @@ Odustajem od premještanja',
 	'maintenance-re-re' => 'Preraspoređivanje izmjena{{int:ellipsis}} završeno',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  * @author Solde
  */
@@ -1660,7 +1660,7 @@ $messages['eo'] = array(
 	'maintenance-re-de' => 'Forigitaj redaktoj: $1',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Dferg
@@ -1862,7 +1862,7 @@ Se cancela el traslado.',
 	'maintenance-re-re' => 'Reasignando las ediciones {{int:ellipsis}} hecho',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  * @author Silvar
  */
@@ -1874,7 +1874,7 @@ $messages['et'] = array(
 	'maintenance-re-nf' => 'Kasutajat $1 ei leidu',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -1884,7 +1884,7 @@ $messages['eu'] = array(
 	'maintenance-memc-total' => 'guztira:',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Jack Phoenix
@@ -1982,7 +1982,7 @@ Keskeytetään siirto',
 	'maintenance-re-re' => 'Määritetään uudestaan muokkauksia{{int:ellipsis}} valmis',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Gomoko
  * @author Grondin
@@ -2186,7 +2186,7 @@ Déplacement interrompu.',
 	'maintenance-re-re' => 'Réaffectation des modifications{{int:ellipsis}} fait',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -2711,7 +2711,7 @@ $messages['he'] = array(
 	'maintenance-re-re' => 'הקצאת העריכות מחדש... בוצעה',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  */
 $messages['hr'] = array(
@@ -2920,7 +2920,7 @@ Přesunjenje přetorhnjene',
 	'maintenance-re-re' => 'Změny se připokazuja{{int:ellipsis}} sčinjeny',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -3036,7 +3036,7 @@ Minden sorban egy-egy forráslapnak és céllapnak kell szerepelnie, pipe ( | ) 
 	'maintenance-re-re' => 'Szerkesztések átadása … megtörtént',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -3353,7 +3353,7 @@ Pemindahan dibatalkan',
 	'maintenance-re-re' => 'Pengalihan suntingan{{int:ellipsis}} berhasil',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
@@ -4012,7 +4012,7 @@ $messages['lfn'] = array(
 	'maintenance-stats-edits' => 'Numero de cambias: $1',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -4731,7 +4731,7 @@ Hernoemen is afgebroken',
 	'maintenance-re-re' => 'Bezig met het toewijzen… Klaar',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -4826,7 +4826,7 @@ Stoggar flytting.',
 	'maintenance-re-re' => 'Flyttar endringar{{int:ellipsis}} gjort',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -5208,7 +5208,7 @@ $messages['ps'] = array(
 	'maintenance-memc-invalid' => 'ناسم:',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author SandroHc
@@ -5391,7 +5391,7 @@ A abortar a movimentação',
 	'maintenance-re-re' => 'A re-atribuir edições{{int:ellipsis}} concluído',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -5482,7 +5482,7 @@ Abortando a movimentação',
 	'maintenance-re-re' => 'Re-atribuindo edições{{int:ellipsis}} concluído',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
@@ -5554,7 +5554,7 @@ Puneți doar o revizie pe un rând',
 	'maintenance-re-de' => 'Modificări șterse: $1',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -5568,7 +5568,7 @@ $messages['roa-tara'] = array(
 	'maintenance-error' => 'Errore: $1',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  * @author Ferrer
  * @author Haffman
@@ -5756,7 +5756,7 @@ $messages['ru'] = array(
 	'maintenance-re-re' => 'Переназначение правок{{int:ellipsis}} завершено',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -5846,14 +5846,14 @@ Presúvanie sa ruší',
 	'maintenance-re-re' => 'Zmena pôvodcu úprav{{int:ellipsis}} hotovo',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'maintenance-generic-username' => 'Uporabniško ime',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -5936,7 +5936,7 @@ $messages['sr-ec'] = array(
 	'maintenance-re-re' => 'Приписивање измена{{int:ellipsis}} готово',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -6024,7 +6024,7 @@ $messages['su'] = array(
 	'maintenance-deleted' => 'DIHAPUS',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Fluff
  * @author M.M.S.
  * @author Sannab
@@ -6163,7 +6163,7 @@ $messages['te'] = array(
 	'maintenance-re-de' => 'తొలగించిన మార్పులు: $1',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -6412,7 +6412,7 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-re-total' => 'Değiştirilecek toplam girdi: $1',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  * @author Тест
  */
@@ -6593,7 +6593,7 @@ Topätükam pestöpädon.',
 	'maintenance-re-re' => 'Redakams padönugivülons{{int:ellipsis}} peledunon.',
 );
 
-/** Walloon (Walon)
+/** Walloon (walon)
  * @author Lucyin
  */
 $messages['wa'] = array(
@@ -6610,7 +6610,7 @@ $messages['yi'] = array(
 	'maintenance-move' => 'באוועגן $1 צו $2{{int:ellipsis}}',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
@@ -6720,7 +6720,7 @@ $messages['zh-hans'] = array(
 	'maintenance-re-rce' => '最近更改条目：$1',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wrightbus
  */
