@@ -6615,6 +6615,7 @@ $messages['yi'] = array(
  * @author Liangent
  * @author PhiLiP
  * @author Wrightbus
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'maintenance' => '运行维护脚本',
@@ -6670,7 +6671,7 @@ $messages['zh-hans'] = array(
 	'maintenance-checkSyntax-output-warning' => '文件$1中的警告：$2',
 	'maintenance-checkSyntax-error-nofile' => '错误：找不到文件或目录$1',
 	'maintenance-checkSyntax-error-cantopen' => '无法打开文件$1',
-	'maintenance-deleteBatch-desc' => '大量删除页面',
+	'maintenance-deleteBatch-desc' => '删除大量页面',
 	'maintenance-deleteRevision-desc' => '从资料库中删除修改',
 	'maintenance-initStats-desc' => '重新计算网站的统计资料',
 	'maintenance-moveBatch-desc' => '大量移动页面',
