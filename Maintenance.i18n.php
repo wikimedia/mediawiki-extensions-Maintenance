@@ -704,7 +704,7 @@ Oldu.',
 	'maintenance-memc-total' => 'ümumi:',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -802,6 +802,9 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupCaps-output-dryrun' => '«$1» → «$2»: ТЭСТАВЫ ЗАПУСК, НЕ ПЕРАНЕСЕНАЯ',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks устаноўлены — няма неабходнасьці для ачысткі спасылак, якія пачынаюцца з малых літар.',
 	'maintenance-cleanupSpam' => 'Выкарыстоўвайце гэтую форму, каб скасоўваць спамэрскія праўкі, у якіх утрымліваюцца вонкавыя спасылкі',
+	'maintenance-cleanupSpam-desc' => 'Выдаліць увесь спам з дадзенага дамэну',
+	'maintenance-cleanupSpam-option-hostname' => 'Дамэн, зь якога вядзецца спам-рассылка',
+	'maintenance-cleanupSpam-output-false' => 'Аблуднае дапасаваньне',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
