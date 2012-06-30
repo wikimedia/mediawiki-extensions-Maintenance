@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'Maintenance' => array( 'صيانه' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'Maintenance' => array( 'পৰিচৰ্যা' ),
+);
+
 /** Bulgarian (български) */
 $specialPageAliases['bg'] = array(
 	'Maintenance' => array( 'Поддръжка' ),
@@ -53,7 +58,7 @@ $specialPageAliases['diq'] = array(
 	'Maintenance' => array( 'Timaryayış' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Maintenance' => array( 'Wótwardowanje' ),
 );
@@ -83,7 +88,7 @@ $specialPageAliases['frp'] = array(
 	'Maintenance' => array( 'Mantegnence' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Maintenance' => array( 'Mantemento' ),
 );
@@ -103,7 +108,7 @@ $specialPageAliases['hr'] = array(
 	'Maintenance' => array( 'Održavanje' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Maintenance' => array( 'Wothladowanje' ),
 );
