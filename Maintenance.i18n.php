@@ -478,7 +478,7 @@ $messages['af'] = array(
 	'maintenance-memc-absent' => 'afwesig:',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -804,7 +804,9 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupSpam' => 'Выкарыстоўвайце гэтую форму, каб скасоўваць спамэрскія праўкі, у якіх утрымліваюцца вонкавыя спасылкі',
 	'maintenance-cleanupSpam-desc' => 'Выдаліць увесь спам з дадзенага дамэну',
 	'maintenance-cleanupSpam-option-hostname' => 'Дамэн, зь якога вядзецца спам-рассылка',
+	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Знойдзены $1 артыкул, які ўтрымлівае|Знойдзеныя $1 артыкулы, якія ўтрымліваюць|Знойдзеныя $1 артыкулаў, якія ўтрымліваюць}} $2',
 	'maintenance-cleanupSpam-output-false' => 'Аблуднае дапасаваньне',
+	'maintenance-cleanupSpam-error-noid' => 'Унутраная памылка: няма старонкі з ідэнтыфікатарам $1',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
@@ -1473,7 +1475,7 @@ Verschieben abgebrochen',
 	'maintenance-re-re' => 'Neuzuordnung der Edits … erledigt',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -2305,7 +2307,7 @@ $messages['ga'] = array(
 	'maintenance-memc-total' => 'iomlán:',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author HombreDHojalata
  * @author Toliño
  */
@@ -2790,7 +2792,7 @@ Premještanje prekinuto.',
 	'maintenance-memc-diffcache' => 'Diff memorija',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
