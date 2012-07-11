@@ -4360,7 +4360,7 @@ $messages['ms'] = array(
 	'maintenance-deleted' => 'DIHAPUSKAN',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -4393,8 +4393,7 @@ $messages['nah'] = array(
 	'maintenance-memc-expired' => 'ōmotlami:',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -6482,7 +6481,7 @@ $messages['uk'] = array(
 	'maintenance-re-nf' => 'Користувача $1 не знайдено',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
