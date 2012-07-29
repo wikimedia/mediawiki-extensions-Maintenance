@@ -17,7 +17,7 @@ class SpecialMaintenance extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'Maintenance'/*class*/, 'maintenance'/*restriction*/ );
 	}
-	
+
 	public function getType() { return $this->type; }
 	public function getMetadata() { return $this->metadata; }
 
@@ -27,26 +27,26 @@ class SpecialMaintenance extends SpecialPage {
 	 * @param $par Mixed: parameter passed to the page or null
 	 */
 	public function execute( $par ) {
-		global $wgRequest, $wgOut, $wgUser;
-
+		$user = $this->getUser();
+		$out = $this->getOutput();
 		# If user is blocked, s/he doesn't need to access this page
-		if ( $wgUser->isBlocked() ) {
-			$wgOut->blockedPage();
+		if ( $user->isBlocked() ) {
+			$out->blockedPage();
 			return;
 		}
 
 		# Show a message if the database is in read-only mode
 		if ( wfReadOnly() ) {
-			$wgOut->readOnlyPage();
+			$out->readOnlyPage();
 			return;
 		}
 
 		# If the user doesn't have the required 'maintenance' permission, display an error
-		if( !$wgUser->isAllowed( 'maintenance' ) ) {
-			$wgOut->permissionRequired( 'maintenance' );
+		if( !$user->isAllowed( 'maintenance' ) ) {
+			$out->permissionRequired( 'maintenance' );
 			return;
 		}
-		
+
 		# Grab the ini file and validate it
 		$this->metadata = parse_ini_file( dirname( __FILE__ ) . '/metadata.ini', true );
 		if( $this->metadata === false ) {
@@ -64,13 +64,13 @@ class SpecialMaintenance extends SpecialPage {
 		$this->validateType(); //this checks to ensure $par is valid so we don't execute arbitrary code
 		if( $this->type === '' ) {
 			$this->makeInitialForm();
-		} elseif( $this->type !== '' && !$wgRequest->wasPosted() ) {
+		} elseif( $this->type !== '' && !$this->getRequest()->wasPosted() ) {
 			$this->makeForm( $this->type );
-		} elseif( $this->type !== '' && $wgRequest->wasPosted() ) {
+		} elseif( $this->type !== '' && $this->getRequest()->wasPosted() ) {
 			$this->executeScript( $this->type );
 		}
 	}
-	
+
 	private function validateType() {
 		if( !in_array( $this->type, $this->scripts ) ) {
 			$this->errmsg = 'maintenance-error-invalidtype';
@@ -78,79 +78,80 @@ class SpecialMaintenance extends SpecialPage {
 	}
 
 	private function makeInitialForm() {
-		global $wgOut, $wgUser;
-
 		$this->setHeaders();
-		$wgOut->addWikiMsg( 'maintenance-header' );
-		
-		$sk = $wgUser->getSkin();
-		$wgOut->addHTML( '<ul>' );
+		$out = $this->getOutput();
+		$out->addWikiMsg( 'maintenance-header' );
+
+		$sk = $this->getUser()->getSkin();
+		$out->addHTML( '<ul>' );
 
 		//scripts that we allow to run via this interface, from the metadata.ini file
 		$scripts = $this->scripts;
 		sort( $scripts );
 		foreach( $scripts as $type ) {
 			$title = $this->getTitle( $type );
-			$wgOut->addHTML( '<li>'. $sk->makeKnownLinkObj( $title, htmlspecialchars( $type ) ) . ' -- '.
-				wfMsgExt( 'maintenance-'.$type.'-desc', array( 'parseinline' ) ) . '</li>' );
+			$out->addHTML( '<li>'. $sk->makeKnownLinkObj( $title, htmlspecialchars( $type ) ) . ' -- '.
+				wfMessage( 'maintenance-'.$type.'-desc' )->parse() . '</li>' );
 		}
-		$wgOut->addHTML( '</ul>' );
+		$out->addHTML( '</ul>' );
 	}
 
 	private function makeForm( $type ) {
-		global $wgOut, $wgUser, $wgMaintenanceDebug;
+		global $wgMaintenanceDebug;
 
 		$this->setHeaders();
-		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
-		
+		$out = $this->getOutput();
+		$out->addHTML( $this->getUser()->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+
 		if( $this->errmsg ) {
-			$wgOut->addWikiMsg( $this->errmsg );
+			$out->addWikiMsg( $this->errmsg );
 			return;
 		}
-		
-		$wgOut->addWikiMsg( 'maintenance-' . $type );
 
-		$wgOut->addHTML( Xml::openElement( 'form', array( 'method' => 'post', 'action' => $this->getTitle( $type )->getFullURL() ) ) );
+		$out->addWikiMsg( 'maintenance-' . $type );
+
+		$out->addHTML( Xml::openElement( 'form', array( 'method' => 'post', 'action' => $this->getTitle( $type )->getFullURL() ) ) );
 		//build the form
 		$options = array_merge( $this->metadata[$type]['option'], $this->metadata[$type]['arg'] );
 		foreach( $options as $option ) {
 			switch( $option['type'] ) {
 				case 'check':
-					$wgOut->addHTML( Xml::checkLabel( wfMsg( "maintenance-$type-option-" . $option['name'] ), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['default'] ) . '<br />' );
+					$out->addHTML( Xml::checkLabel( wfMessage( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['default'] ) . '<br />' );
 					break;
 				case 'input':
-					$wgOut->addHTML( Xml::inputLabel( wfMsg( "maintenance-$type-option-" . $option['name'] ), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, $option['attrib'] ) . '<br />' );
+					$out->addHTML( Xml::inputLabel( wfMessage( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, $option['attrib'] ) . '<br />' );
 					break;
 				case 'password':
-					$wgOut->addHTML( Xml::inputLabel( wfMsg( "maintenance-$type-option-" . $option['name'] ), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, array( 'type' => 'password' ) + $option['attrib'] ) . '<br />' );
+					$out->addHTML( Xml::inputLabel( wfMessage( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, array( 'type' => 'password' ) + $option['attrib'] ) . '<br />' );
 					break;
 				case 'textarea':
-					$wgOut->addHTML( wfMsg( "maintenance-$type-option-" . $option['name'] ) . '<textarea name="wp' . ucfirst( $option['name'] ) . '" rows="25" cols="80"></textarea><br />');
+					$out->addHTML( wfMessage( "maintenance-$type-option-" . $option['name'] )->text() . '<textarea name="wp' . ucfirst( $option['name'] ) . '" rows="25" cols="80"></textarea><br />');
 					break;
 			}
 		}
-		$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-option-quiet' ), 'wpQuiet', 'wpQuiet' ) . '<br />' );
+		$out->addHTML( Xml::checkLabel( wfMessage( 'maintenance-option-quiet' )->text(), 'wpQuiet', 'wpQuiet' ) . '<br />' );
 		if( $wgMaintenanceDebug ) {
-			$wgOut->addHTML( Xml::checkLabel( wfMsg( 'maintenance-option-globals' ), 'wpGlobals', 'wpGlobals' ) . '<br />' );
+			$out->addHTML( Xml::checkLabel( wfMessage( 'maintenance-option-globals' )->text(), 'wpGlobals', 'wpGlobals' ) . '<br />' );
 		}
 		if( $this->metadata[$type]['batch'] ) {
-			$wgOut->addHTML( Xml::inputLabel( wfMsg( 'maintenance-option-batch-size', $this->metadata[$type]['batch'] ), 'wpBatch-size', 'wpBatch-size' ) . '<br />' );
+			$out->addHTML( Xml::inputLabel( wfMessage( 'maintenance-option-batch-size', $this->metadata[$type]['batch'] )->text(), 'wpBatch-size', 'wpBatch-size' ) . '<br />' );
 		}
-		$wgOut->addHTML( Xml::submitButton( wfMsg( 'maintenance-option-confirm' ), array( 'name' => 'wpConfirm' ) ) . '</form>' );
+		$out->addHTML( Xml::submitButton( wfMessage( 'maintenance-option-confirm' )->text(), array( 'name' => 'wpConfirm' ) ) . '</form>' );
 		return;
 	}
 
 	private function executeScript( $type ) {
-		global $wgOut, $wgRequest, $wgUser, $IP, $wgMaintenanceScripts, $wgMaintenanceDebug;
+		global $IP, $wgMaintenanceScripts, $wgMaintenanceDebug;
 
+		$out = $this->getOutput();
 		$this->setHeaders();
-		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
-		
+		$out->addHTML( $this->getUser()->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+
 		if( $this->errmsg ) {
-			$wgOut->addWikiMsg( $this->errmsg );
+			$out->addWikiMsg( $this->errmsg );
 			return;
 		}
-		
+
 		@set_time_limit( 0 ); //if we can, disable the time limit
 		@ini_set('memory_limit', '-1'); //also try to disable the memory limit
 		//run the script and capture output
@@ -180,17 +181,17 @@ class SpecialMaintenance extends SpecialPage {
 		} else {
 			require_once( $wgMaintenanceScripts[$type] );
 		}
-		
+
 		//epic hax magic (TODO: figure out a way to do this without using eval, might require core changes)
 		eval( 'class WebMaintenanceHack extends ' . $maintClass . ' {
 			public $mSpecialMaintenance; //our SpecialMaintenance object
 			protected $atLineStart = true;
 			protected $lastChannel = null;
-			
+
 			public function setSpecialMaintenance( &$abj ) {
 				$this->mSpecialMaintenance = &$abj;
 			}
-			
+
 			protected function output( $out, $channel = null ) {
 				if ( $this->mQuiet ) {
 					return;
@@ -203,7 +204,7 @@ class SpecialMaintenance extends SpecialPage {
 					$this->outputChanneled( $out, $channel );
 				}
 			}
-			
+
 			public function cleanupChanneled() {
 				global $wgOut;
 				if ( !$this->atLineStart ) {
@@ -211,10 +212,10 @@ class SpecialMaintenance extends SpecialPage {
 					$this->atLineStart = true;
 				}
 			}
-			
+
 			public function outputChanneled( $msg, $channel = null ) {
 				global $wgOut;
-				
+
 				if ( $msg === false ) {
 					// For cleanup
 					$this->cleanupChanneled();
@@ -237,27 +238,27 @@ class SpecialMaintenance extends SpecialPage {
 				}
 				$this->lastChannel = $channel;
 			}
-			
+
 			protected function error( $err, $die = false ) {
 				$this->outputChanneled( false );
-				
+
 				//look up $err for l10n, treat as plaintext
 				$this->output_i18n( $err, "error" );
-				
+
 				if( $die ) throw new SpecialMaintenanceException();
 			}
-			
+
 			//$type is either "output" or "error"
 			private function output_i18n( $msg, $type ) {
 				global $wgOut;
-				
+
 				$found = false;
 				$metadata = $this->mSpecialMaintenance->getMetadata();
 				$script = $this->mSpecialMaintenance->getType();
 				foreach( $metadata[$script][$type] as $a ) {
 					if( $a["type"] == "string" ) {
 						if( trim( $msg ) == $a["match"] ) {
-							$wgOut->addHTML( wfMsgExt( "maintenance-$script-$type-" . $a["name"], array( "escape" ) ) );
+							$wgOut->addHTML( wfMessage( "maintenance-$script-$type-" . $a["name"] )->escaped() );
 							if( $type == "error" ) {
 								$wgOut->addHTML( "\n" );
 							}
@@ -269,7 +270,7 @@ class SpecialMaintenance extends SpecialPage {
 						if( preg_match( "/^" . $a["match"] . "\$/", trim( $msg ), $matches ) ) {
 							//$matches contains the respective $1, $2, $3, $4, etc. in order once we take out the first match
 							array_shift( $matches );
-							$wgOut->addHTML( wfMsgExt( "maintenance-$script-$type-" . $a["name"], array( "escape" ), $matches ) );
+							$wgOut->addHTML( wfMessage( "maintenance-$script-$type-" . $a["name"], $matches )->escaped() );
 							if( $type == "error" ) {
 								$wgOut->addHTML( "\n" );
 							}
@@ -284,12 +285,12 @@ class SpecialMaintenance extends SpecialPage {
 					if( $type == "error" ) {
 						$wgOut->addHTML( "\n" );
 					}
-				}				
+				}
 			}
-			
+
 			protected function validateParamsAndArgs() {
 				$die = false;
-				
+
 				foreach( $this->mParams as $opt => $info ) {
 					if( $info["require"] && !$this->hasOption( $opt ) ) {
 						$die = true;
@@ -297,33 +298,33 @@ class SpecialMaintenance extends SpecialPage {
 				}
 				# Check arg list too
 				foreach( $this->mArgList as $k => $info ) {
-					if( $info["require"] && !$this->hasArg($k) ) {
+					if( $info["require"] && !$this->hasArg( $k ) ) {
 						$die = true;
 					}
 				}
-				
+
 				return $die;
 			}
-			
+
 			public function doValidateParamsAndArgs() {
 				return $this->validateParamsAndArgs();
 			}
-			
+
 			public function globals() {
 				if( $this->hasOption( "globals" ) ) {
 					global $wgOut;
 					$wgOut->addHTML( htmlspecialchars( print_r( $GLOBALS, true ) ) );
 				}
 			}
-			
+
 			public function memoryLimit() {
 				return -1;
 			}
-			
+
 		}' );
-		
+
 		//run the script, throwing output into a <pre> block
-		$wgOut->addHTML( '<pre>' );
+		$out->addHTML( '<pre>' );
 		$script = new WebMaintenanceHack();
 		$script->setSpecialMaintenance( $this );
 		$res = $this->setup( $script );
@@ -338,18 +339,18 @@ class SpecialMaintenance extends SpecialPage {
 			if( $wgMaintenanceDebug ) {
 				$script->globals();
 			}
-			$wgOut->addHTML( wfMsgExt( 'maintenance-output-success', array( 'escape' ), $this->type ) . "\n" );
+			$out->addHTML( wfMessage( 'maintenance-output-success', $this->type )->escaped() . "\n" );
 		} catch( SpecialMaintenanceException $e ) {
-			$wgOut->addHTML( wfMsgExt( 'maintenance-output-failure', array( 'escape' ), $this->type ) . "\n" );
+			$out->addHTML( wfMessage( 'maintenance-output-failure', $this->type )->escaped() . "\n" );
 		} catch( MWException $mwe ) {
-			$wgOut->addHTML( htmlspecialchars( $mwe->getText() ) . "\n" );
-			$wgOut->addHTML( wfMsgExt( 'maintenance-output-failure', array( 'escape' ), $this->type ) . "\n" );
+			$out->addHTML( htmlspecialchars( $mwe->getText() ) . "\n" );
+			$out->addHTML( wfMessage( 'maintenance-output-failure', $this->type )->escaped() . "\n" );
 		}
-		$wgOut->addHTML( '</pre>' );
+		$out->addHTML( '</pre>' );
 		$this->scriptDone( $script );
-		$wgOut->addHTML( $wgUser->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMsgHtml( 'maintenance-backlink' ) ). '<br />' );
+		$out->addHTML( $this->getUser()->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
 	}
-	
+
 	private function parseMetadata() {
 		global $IP, $wgMaintenanceScripts;
 		$metadata = $this->metadata;
@@ -357,19 +358,19 @@ class SpecialMaintenance extends SpecialPage {
 		foreach( $metadata as $script => &$stuff ) {
 			//increment $i, which is the index of the $this->scripts array
 			$i++;
-			
+
 			//is the script disabled for whatever reason?
 			if( isset( $stuff['enabled'] ) && !$stuff['enabled'] ) {
 				unset( $this->scripts[$i] ); //remove it from the list of scripts
 				continue;
 			}
-			
+
 			//make sure that the script exists
 			if( !file_exists( "$IP/maintenance/$script.php" ) && !array_key_exists( $script, $wgMaintenanceScripts ) ) {
 				unset( $this->scripts[$i] ); //remove it from the list of scripts
 				continue;
 			}
-			
+
 			//parse options
 			if( !isset( $stuff['option'] ) ) {
 				$stuff['option'] = array();
@@ -414,7 +415,7 @@ class SpecialMaintenance extends SpecialPage {
 				$option['name'] = $name;
 				$option['type'] = $type;
 			}
-			
+
 			//parse args
 			if( !isset( $stuff['arg'] ) ) {
 				$stuff['arg'] = array();
@@ -459,7 +460,7 @@ class SpecialMaintenance extends SpecialPage {
 				$arg['name'] = $name;
 				$arg['type'] = $type;
 			}
-			
+
 			//parse output messages (for i18n)
 			if( !isset( $stuff['output'] ) ) {
 				$stuff['output'] = array();
@@ -482,7 +483,7 @@ class SpecialMaintenance extends SpecialPage {
 				}
 				$autput['match'] = $bits[2];
 			}
-			
+
 			//parse error messages (for i18n)
 			if( !isset( $stuff['error'] ) ) {
 				$stuff['error'] = array();
@@ -505,7 +506,7 @@ class SpecialMaintenance extends SpecialPage {
 				}
 				$error['match'] = $bits[2];
 			}
-			
+
 			//parse special options (batch, stdin)
 			if( !isset( $stuff['batch'] ) ) {
 				$stuff['batch'] = 0;
@@ -517,13 +518,13 @@ class SpecialMaintenance extends SpecialPage {
 		$this->metadata = $metadata;
 		return true;
 	}
-	
+
 	private function setup( $maintenance ) {
 		//set the memory limit
 		@ini_set( 'memory_limit', $maintenance->memoryLimit() );
-		
+
 		//set up the params and args
-		global $wgRequest;
+		$request = $this->getRequest();
 		$goptions = $this->metadata[$this->type]['option'];
 		$gargs = $this->metadata[$this->type]['arg'];
 		$opts = $args = null;
@@ -533,15 +534,15 @@ class SpecialMaintenance extends SpecialPage {
 				if( $a['type'] == 'textarea' && $a['tmpfile'] ) {
 					$fname = tempnam( sys_get_temp_dir(), $a['tmpfile'] );
 					$f = fopen( $fname, 'wt' );
-					fwrite( $f, $wgRequest->getText( 'wp' . ucfirst( $a['name'] ) ) );
+					fwrite( $f, $request->getText( 'wp' . ucfirst( $a['name'] ) ) );
 					fclose( $f );
 					$opts[$a['name']] = $fname;
 				} elseif( $a['type'] == 'textarea' ) {
-					$opts[$a['name']] = $wgRequest->getText( 'wp' . ucfirst( $a['name'] ) );				
+					$opts[$a['name']] = $request->getText( 'wp' . ucfirst( $a['name'] ) );
 				} elseif( $a['type'] != 'check' ) {
-					$opts[$a['name']] = $wgRequest->getVal( 'wp' . ucfirst( $a['name'] ) );
+					$opts[$a['name']] = $request->getVal( 'wp' . ucfirst( $a['name'] ) );
 				} else {
-					$opts[$a['name']] = $wgRequest->getCheck( 'wp' . ucfirst( $a['name'] ) );
+					$opts[$a['name']] = $request->getCheck( 'wp' . ucfirst( $a['name'] ) );
 				}
 			}
 		}
@@ -551,50 +552,49 @@ class SpecialMaintenance extends SpecialPage {
 				if( $a['type'] == 'textarea' && $a['tmpfile'] ) {
 					$fname = tempnam( sys_get_temp_dir(), $a['tmpfile'] );
 					$f = fopen( $fname, 'wt' );
-					fwrite( $f, $wgRequest->getText( 'wp' . ucfirst( $a['name'] ) ) );
+					fwrite( $f, $request->getText( 'wp' . ucfirst( $a['name'] ) ) );
 					fclose( $f );
 					$args[] = $fname;
 				} elseif( $a['type'] == 'textarea' ) {
-					$args[] = $wgRequest->getText( 'wp' . ucfirst( $a['name'] ) );	
+					$args[] = $request->getText( 'wp' . ucfirst( $a['name'] ) );
 				} elseif( $a['type'] != 'check' ) {
-					$args[] = $wgRequest->getVal( 'wp' . ucfirst( $a['name'] ) );
+					$args[] = $request->getVal( 'wp' . ucfirst( $a['name'] ) );
 				} else {
-					$args[] = $wgRequest->getCheck( 'wp' . ucfirst( $a['name'] ) );
+					$args[] = $request->getCheck( 'wp' . ucfirst( $a['name'] ) );
 				}
 			}
 		}
-		
+
 		//special opts
-		if( $wgRequest->getCheck( 'wpQuiet' ) ) {
+		if( $request->getCheck( 'wpQuiet' ) ) {
 			$opts['quiet'] = true;
 		}
-		if( $wgRequest->getCheck( 'wpGlobals' ) ) {
+		if( $request->getCheck( 'wpGlobals' ) ) {
 			$opts['globals'] = true;
 		}
-		if( $wgRequest->getVal( 'wpBatch-size', false ) ) {
-			$opts['batch-size'] = $wgRequest->getVal( 'wpBatch-size' );
+		if( $request->getVal( 'wpBatch-size', false ) ) {
+			$opts['batch-size'] = $request->getVal( 'wpBatch-size' );
 		}
-		
+
 		//per-script special cases
 		switch( $this->type ) {
 			case 'checkSyntax':
 				//need to save list-file to a temp txt file and set list-file to that file's location
 				$this->loc = tempnam( sys_get_temp_dir(), "tmpfile" );
 				$f = fopen( $this->loc, 'wt' );
-				fwrite( $f, $wgRequest->getText( 'wpList-file' ) );
+				fwrite( $f, $request->getText( 'wpList-file' ) );
 				fclose( $f );
 				$opts['list-file'] = $this->loc;
 				break;
 		}
-		
+
 		$maintenance->loadParamsAndArgs( $this->type, $opts, $args );
 		$die = $maintenance->doValidateParamsAndArgs();
 		if( $die ) {
-			global $wgOut;
-			$wgOut->addHTML( wfMsg( 'maintenance-error-badargs' ) );
+			$this->getOutput()->addHTML( wfMessage( 'maintenance-error-badargs' )->text() );
 			return false;
 		}
-		
+
 		global $IP;
 		if( $maintenance->getDbType() === Maintenance::DB_ADMIN ) {
 			global $wgDBuser, $wgDBpassword, $wgDBadminuser, $wgDBadminpassword, $wgDBuserold, $wgDBpasswordold;
@@ -609,10 +609,10 @@ class SpecialMaintenance extends SpecialPage {
 				LBFactory::destroyInstance();
 			}
 		}
-		
+
 		return true;
 	}
-	
+
 	private function scriptDone( $script ) {
 		global $wgDBuser, $wgDBpassword, $wgDBadminuser, $wgDBadminpassword, $wgDBuserold, $wgDBpasswordold;
 		if( $script->getDbType() === Maintenance::DB_ADMIN && isset( $wgDBadminuser ) ) {
@@ -621,10 +621,10 @@ class SpecialMaintenance extends SpecialPage {
 			unset( $GLOBALS['wgDBuserold'], $GLOBALS['wgDBpasswordold'] );
 			LBFactory::destroyInstance();
 		}
-		
+
 		$goptions = $this->metadata[$this->type]['option'];
 		$gargs = $this->metadata[$this->type]['arg'];
-		
+
 		if( $goptions != array() ) {
 			foreach( $goptions as $a ) {
 				if( $a['type'] == 'textarea' && $a['tmpfile'] && file_exists( $a['tmpfile'] ) ) {
@@ -632,7 +632,7 @@ class SpecialMaintenance extends SpecialPage {
 				}
 			}
 		}
-		
+
 		if( $gargs != array() ) {
 			foreach( $gargs as $a ) {
 				if( $a['type'] == 'textarea' && $a['tmpfile'] && file_exists( $a['tmpfile'] ) ) {

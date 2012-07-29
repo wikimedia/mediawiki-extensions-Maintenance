@@ -39,7 +39,7 @@ $messages['en'] = array(
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% done on $4; ETA $5 [$6/$7] $8/sec <$9% updated>', #$1=wiki id, $2=timestamp, $3=portion done, $4=table name, $5=eta, $6=num processed, $7=total, $8=processed/sec, $9=updated rate
 	'maintenance-cleanupTable-missingparam' => '$1: Missing parameter $2', #$1=method name, $2=list of params missing (hardcoded in cleanupTables.inc to be seperated by a comma and a space, e.g. "param1, param2")
 	'maintenance-cleanupTable-processing' => 'Processing $1...', #$1=table name
-	'maintenance-cleanupTable-finished' => 'Finished $1... $2 of $3 rows updated', #$1=table name, $2=num updated, $3=num processed
+	'maintenance-cleanupTable-finished' => 'Finished $1... $2 of $3 {{PLURAL:$3|row|rows}} updated', #$1=table name, $2=num updated, $3=num processed
 	// default options
 	'maintenance-option-quiet' => 'Suppress non-error output',
 	'maintenance-option-globals' => 'Output globals at the end of processing for debugging',
@@ -58,15 +58,15 @@ $messages['en'] = array(
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] cannot find the latest rev time?!', #$1=wiki id, $2=page id, $3=page name
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] latest time $4, cannot find revision id', #$1=wiki id, $2=page id, $3=page name, $4=latest time
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] latest time $4, rev id $5', #$1=wiki id, $2=page id, $3=page name, $4=latest time, $5=rev id
-	'maintenance-attachLatest-output-done' => 'Done! Processed $1 pages.', #$1=number of pages with page_latest=0
+	'maintenance-attachLatest-output-done' => 'Done! Processed $1 {{PLURAL:$1|page|pages}}.', #$1=number of pages with page_latest=0
 	'maintenance-attachLatest-output-dryrun' => 'This was a dry run; rerun with "{{int:maintenance-attachLatest-option-fix}}" to update page_latest.',
 	// benchmarkPurge
 	'maintenance-benchmarkPurge' => 'Use this form to test how long the Squid purge functions take',
 	'maintenance-benchmarkPurge-desc' => 'Benchmark the Squid purge functions',
 	'maintenance-benchmarkPurge-option-count' => 'How many URLs to feed to Squid for purging',
 	'maintenance-benchmarkPurge-error-nosquid' => "Squid purge benchmark doesn't do much without Squid support on.",
-	'maintenance-benchmarkPurge-output-numsquids' => 'There are $1 defined Squid servers:', #$1=number of squid servers
-	'maintenance-benchmarkPurge-output-trial' => '$1 titles in $2ms ($3ms each)', #$1=number of titles, $2=total time, $3=average time
+	'maintenance-benchmarkPurge-output-numsquids' => 'There are $1 defined Squid {{PLURAL:$1|server|servers}}:', #$1=number of squid servers
+	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|title|titles}} in $2ms ($3ms each)', #$1=number of titles, $2=total time, $3=average time
 	// changePassword
 	'maintenance-changePassword' => "Use this form to change a user's password",
 	'maintenance-changePassword-desc' => "Change a user's password",
@@ -83,7 +83,7 @@ $messages['en'] = array(
 	'maintenance-checkBadRedirects' => 'Use this form to see if pages marked as redirects really are redirects',
 	'maintenance-checkBadRedirects-desc' => 'Check for bad redirects',
 	'maintenance-checkBadRedirects-output-header' => 'Fetching redirects...',
-	'maintenance-checkBadRedirects-output-found' => "Found \$1 redirects.\nChecking for bad redirects...", #$1=number of redirects
+	'maintenance-checkBadRedirects-output-found' => "Found \$1 {{PLURAL:$1|redirect|redirects}}.\nChecking for bad redirects...", #$1=number of redirects
 	'maintenance-checkBadRedirects-output-footer' => "\nDone.",
 	// checkImages
 	'maintenance-checkImages' => 'Use this form to see which images on your wiki are corrupted',
