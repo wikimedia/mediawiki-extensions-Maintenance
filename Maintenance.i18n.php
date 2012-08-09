@@ -1269,6 +1269,16 @@ $messages['ca'] = array(
 	'maintenance-stats-users' => "Nombre d'usuaris: $1",
 );
 
+/** Czech (česky)
+ * @author Chmee2
+ */
+$messages['cs'] = array(
+	'maintenance-generic-done' => 'hotovo',
+	'maintenance-generic-username' => 'Uživatelské jméno',
+	'maintenance-generic-password' => 'Heslo',
+	'maintenance-generic-reason' => 'Důvod',
+);
+
 /** German (Deutsch)
  * @author ChrisiPK
  * @author DaSch
@@ -1912,6 +1922,27 @@ $messages['eu'] = array(
 	'maintenance-memc-total' => 'guztira:',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'maintenance-generic-done' => 'انجام شد',
+	'maintenance-generic-username' => 'نام کاربری',
+	'maintenance-generic-password' => 'گذرواژه',
+	'maintenance-generic-reason' => 'دلیل',
+	'maintenance-option-confirm' => 'تأیید',
+	'maintenance-option-required' => '(اجباری)',
+	'maintenance-option-optional' => '(اختیاری)',
+	'maintenance-checkBadRedirects-output-footer' => 'انجام شد.',
+	'maintenance-invalidname' => 'نام کاربری نامعتبر!',
+	'maintenance-userexists' => 'کاربر در حال حاضر وجود دارد!',
+	'maintenance-invalidtitle' => 'عنوان نامعتبر «$1»!',
+	'maintenance-error' => 'خطا: $1',
+	'maintenance-memc-requests' => 'درخواست‌ها',
+	'maintenance-memc-updates' => 'به روز رسانی‌ها:',
+	'maintenance-re-nf' => 'کاربر $1 یافت نشد',
+);
+
 /** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
@@ -2019,6 +2050,7 @@ Keskeytetään siirto',
  * @author Justadust
  * @author Marc-André Beauchamp
  * @author PieRRoMaN
+ * @author Sherbrooke
  * @author Urhixidur
  * @author Verdy p
  * @author Zetud
@@ -2043,7 +2075,7 @@ Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% effectué(s) sur $4; ETA $5 [$6/$7] $8/sec <$9% mis à jour>',
 	'maintenance-cleanupTable-missingparam' => '$1: Paramètre manquant $2',
 	'maintenance-cleanupTable-processing' => 'En cours de traitement $1...',
-	'maintenance-cleanupTable-finished' => 'Terminé $1... $2 sur $3 lignes mises à jour',
+	'maintenance-cleanupTable-finished' => 'Terminé $1... $2 sur $3 {{PLURAL:$3|ligne mise|lignes mises}} à jour',
 	'maintenance-option-quiet' => "Supprimer la sortie de tout ce qui n'est pas une erreur",
 	'maintenance-option-globals' => 'Afficher les variables globales à la fin du traitement pour le débogage',
 	'maintenance-option-confirm' => 'Confirmer',
@@ -2065,8 +2097,8 @@ Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-benchmarkPurge-desc' => "Mesurer le temps d'exécution des fonctions de purge de Squid",
 	'maintenance-benchmarkPurge-option-count' => "Le nombre d'URL à donner à Squid pour la purge",
 	'maintenance-benchmarkPurge-error-nosquid' => "La mesure du temps d'exécution ne fait pas grand chose sans le support de Squid activé.",
-	'maintenance-benchmarkPurge-output-numsquids' => 'Il y a $1 serveurs Squid définis :',
-	'maintenance-benchmarkPurge-output-trial' => '$1 titres en $2 ms ( $3 ms chaque)',
+	'maintenance-benchmarkPurge-output-numsquids' => 'Il y a $1 {{PLURAL:$1|serveur Squid défini|serveurs Squid définis}}  :',
+	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|titre|titres}} en $2 ms ($3 ms chacun)',
 	'maintenance-changePassword' => 'Utiliser ce formulaire pour changer le mot de passe d’un utilisateur',
 	'maintenance-changePassword-desc' => 'Changer le mot de passe d’un utilisateur',
 	'maintenance-changePassword-error-nouser' => 'Aucun utilisateur « $1 »',
@@ -2077,7 +2109,7 @@ Les descriptions sont à la suite de chacun de ceux-ci.',
 	'maintenance-checkBadRedirects' => 'Utilisez ce formulaire pour voir si les pages marquées comme redirection sont vraiment des redirections',
 	'maintenance-checkBadRedirects-desc' => 'Rechercher des mauvaises redirections',
 	'maintenance-checkBadRedirects-output-header' => 'Récupération des redirections...',
-	'maintenance-checkBadRedirects-output-found' => '$1 redirections trouvées.
+	'maintenance-checkBadRedirects-output-found' => '$1 {{PLURAL:$1|redirection trouvée|redirections trouvées}}.
 Recherche des mauvaises redirections...',
 	'maintenance-checkBadRedirects-output-footer' => 'Fait.',
 	'maintenance-checkImages' => 'Utilisez ce formulaire pour voir quelles images sur votre wiki sont corrompues.',
@@ -3400,6 +3432,7 @@ $messages['it'] = array(
 	'maintenance-header' => 'Scegli uno script da eseguire.
 Le descrizioni sono riportate a fianco di ciascuno script',
 	'maintenance-error-invalidtype' => 'Lo script specificato non è stato trovato',
+	'maintenance-error-badargs' => 'Non sono state specificate tutte le opzioni necessarie',
 	'maintenance-generic-done' => 'fatto',
 	'maintenance-generic-username' => 'Nome utente',
 	'maintenance-generic-password' => 'Password',
@@ -3407,24 +3440,62 @@ Le descrizioni sono riportate a fianco di ciascuno script',
 	'maintenance-cleanupTable-check' => 'Controllo i titoli non validi...',
 	'maintenance-cleanupTable-checkfix' => 'Controllo e correggo i titoli non validi...',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% eseguito su $4; ETA $5 [$6/$7] $8/sec <$9% aggiornato>',
+	'maintenance-cleanupTable-missingparam' => '$1: parametro $2 mancante',
+	'maintenance-cleanupTable-processing' => 'Elaborazione $1 in corso...',
+	'maintenance-cleanupTable-finished' => '$1 finito... $2 di $3 {{PLURAL:$3|riga|righe}} {{PLURAL:$2|aggiornata|aggiornate}}',
 	'maintenance-option-confirm' => 'Conferma',
 	'maintenance-option-required' => '(obbligatorio)',
 	'maintenance-option-optional' => '(opzionale)',
 	'maintenance-output-success' => '$1 eseguito con successo!',
 	'maintenance-output-failure' => '$1 non è stato eseguito con successo!',
-	'maintenance-attachLatest-output-done' => 'Fatto! Elaborate $1 pagine.',
+	'maintenance-attachLatest-output-done' => 'Fatto! Elaborate $1 {{PLURAL:$1|pagina|pagine}}.',
+	'maintenance-benchmarkPurge-output-numsquids' => "{{PLURAL:$1|C'è un server Squid definito|Ci sono $1 server Squid definiti}}:",
+	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|titolo|titoli}} in $2ms ($3ms ciascuno)',
 	'maintenance-changePassword' => 'Usa questo modulo per cambiare la password di un utente',
 	'maintenance-changePassword-desc' => 'Cambia una password utente',
+	'maintenance-changePassword-error-nouser' => 'Nessun utente: $1',
+	'maintenance-changePassword-output-set' => 'Password impostata per $1',
+	'maintenance-checkAutoLoader-output-list2' => '$1: file sbagliato: trovato in $2, elencato in $3',
+	'maintenance-checkBadRedirects-desc' => 'Controllo redirect sbagliati',
+	'maintenance-checkBadRedirects-output-header' => 'Recupero redirect in corso...',
+	'maintenance-checkBadRedirects-output-found' => 'Trovati $1 {{PLURAL:$1|redirect}}.
+Controllo redirect sbagliati in corso...',
 	'maintenance-checkBadRedirects-output-footer' => '
 Fatto.',
+	'maintenance-checkImages' => 'Utilizzare questo modulo per vedere quali immagini sul proprio wiki sono danneggiate',
+	'maintenance-checkImages-desc' => 'Controllare le immagini per vedere se esistono, sono leggibili, ecc',
+	'maintenance-checkImages-output-noaccess' => '$1: non è accessibile localmente',
+	'maintenance-checkImages-output-missing' => '$1: mancante',
+	'maintenance-checkImages-output-isdir' => '$1: è una directory',
+	'maintenance-checkImages-output-mismatch' => '$1: mancata corrispondenza della dimensione DB=$2 , effettivo=$3',
+	'maintenance-checkImages-output-good' => 'Immagini buone: $1/$2',
+	'maintenance-checkSyntax' => 'Utilizzare questo modulo per controllare la sintassi di tutti i file PHP in MediaWiki',
+	'maintenance-checkSyntax-desc' => 'Controllare la sintassi per tutti i file PHP in MediaWiki',
+	'maintenance-checkSyntax-option-path' => 'Percorso preciso (file o directory) da verificare, con percorso assoluto oppure relativo alla radice di questa installazione di MediaWiki',
+	'maintenance-checkSyntax-option-list-file' => 'Elenco dei file o directory da controllare',
+	'maintenance-checkSyntax-option-modified' => 'Controllare solo i file che sono stati modificati (richiede il client di svn da riga di comando)',
+	'maintenance-checkSyntax-option-syntax-only' => 'Controllare solo la validità della sintassi, ignorare gli avvisi sullo stile del codice',
+	'maintenance-checkSyntax-output-parsekit' => 'Controllo sintassi (utilizzando parsekit)',
+	'maintenance-checkSyntax-output-phpl' => 'Controllo sintassi (utilizzando php -l, questo può richiedere molto tempo)',
+	'maintenance-checkSyntax-output-footer' => 'Fatto! $1 file {{PLURAL:$1|controllato|controllati}}, $2 {{PLURAL:$2|errore|errore}} e $3 {{PLURAL:$3|avviso|avvisi}} trovati',
+	'maintenance-checkSyntax-output-svnlist' => 'Recupero elenco da Subversion in corso...',
+	'maintenance-checkSyntax-output-buildlist' => 'Creazione elenco file in corso...',
 	'maintenance-checkSyntax-output-error' => 'Errore in $1 linea $2: $3',
 	'maintenance-checkSyntax-output-warning' => 'Attenzione nel file $1: trovato $2',
 	'maintenance-checkSyntax-error-nofile' => 'Errore: impossibile trovare il file o la directory $1',
 	'maintenance-checkSyntax-error-cantopen' => 'Impossibile aprire il file $1',
+	'maintenance-checkSyntax-error-svnerr' => "Si è verificato un errore durante il recupero dell'elenco da Subversion.",
+	'maintenance-checkUsernames' => "Utilizzare questo modulo per mostrare quali nomi utente non sono valide a causa di modifiche della configurazione. Se non è elencato niente dopo l'esecuzione di questo script, tutti i nomi utente sono validi",
+	'maintenance-checkUsernames-desc' => 'Verificare che i nomi utente del database siano effettivamente validi',
 	'maintenance-checkUsernames-error-notvalid' => 'Nome utente non valido: "$3" (id utente $2)',
+	'maintenance-cleanupCaps' => 'Utilizzare questo modulo per correggere le pagine corrotte causate dalla modifica a $wgCapitalLinks',
+	'maintenance-cleanupCaps-output-islower' => '"$1" già minuscolo.',
+	'maintenance-cleanupCaps-output-clash' => '"$1" ignorato; "$2" esiste già',
+	'maintenance-cleanupSpam' => 'Utilizzare questo modulo per annullare modifiche di spam che puntano a siti esterni',
 	'maintenance-createAndPromote' => 'Usa questo modulo per creare un nuovo utente e promuoverlo amministratore (sysop).
 Spunta la casella burocrate se vuoi promuoverlo anche burocrate',
 	'maintenance-createAndPromote-desc' => 'Crea un utente e promuovilo amministratore (sysop)',
+	'maintenance-createAndPromote-error-password' => 'Si è verificato un errore con la password inserita: $1',
 	'maintenance-deleteBatch' => 'Usa questo modulo per cancellare pagine in blocco.
 Indica solo una pagina per riga',
 	'maintenance-deleteBatch-desc' => 'Cancella pagine in blocco',
@@ -3439,9 +3510,15 @@ Ogni riga deve indicare una pagina di origine ed una di destinazione, separate d
 	'maintenance-moveBatch-desc' => 'Sposta pagine in blocco',
 	'maintenance-reassignEdits-desc' => 'Riassegna gli edit da un utente ad un altro utente',
 	'maintenance-runJobs-desc' => 'Esegui richieste in coda job',
+	'maintenance-runJobs-option-maxjobs' => 'Numero massimo di lavori da eseguire',
+	'maintenance-runJobs-option-type' => 'Tipo di lavoro da eseguire',
+	'maintenance-runJobs-option-procs' => 'Numero di processi da utilizzare',
+	'maintenance-runJobs-error-invalidprocs' => 'È necessario specificare tra 1 e 1000 processi',
 	'maintenance-showJobs-desc' => 'Mostra un elenco di operazioni in attesa in coda job',
+	'maintenance-showJobs-option-group' => 'Visualizza numero di lavori per tipo di lavoro',
 	'maintenance-sql' => 'Usa questo modulo per eseguire una query SQL sul database.',
 	'maintenance-sql-desc' => 'Esegui una query SQL',
+	'maintenance-sql-option-file' => 'SQL da eseguire',
 	'maintenance-sql-error-cantopen' => 'Impossibile aprire il file di input',
 	'maintenance-stats-desc' => 'Mostra statistiche latenti in Memcache',
 	'maintenance-eval' => 'Usa questo modulo per sperimentare codice PHP in ambiente MediaWiki.',
@@ -5331,8 +5408,8 @@ As descrições estão junto a cada script',
 	'maintenance-checkBadRedirects' => 'Use este formulário para verificar se as páginas marcadas como redireccionamentos são realmente redireccionamentos',
 	'maintenance-checkBadRedirects-desc' => 'Verificar redireccionamentos falsos',
 	'maintenance-checkBadRedirects-output-header' => 'A obter lista de redireccionamentos...',
-	'maintenance-checkBadRedirects-output-found' => 'Foram encontrados $1 redireccionamentos.
-A procurar redireccionamentos incorrectos...',
+	'maintenance-checkBadRedirects-output-found' => '{{PLURAL:$1|Foi encontrado|Foram encontrados}} $1 {{PLURAL:$1|redirecionamento|redirecionamentos}}.
+A procurar redirecionamentos incorretos...',
 	'maintenance-checkBadRedirects-output-footer' => 'Terminado.',
 	'maintenance-checkImages' => 'Use este formulário para verificar as imagens que estão danificadas no seu servidor',
 	'maintenance-checkImages-desc' => 'Verificar se as imagens existem, são legíveis, etc.',
@@ -5549,6 +5626,7 @@ Abortando a movimentação',
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'maintenance' => 'Rulează scripturile de întreținere',
@@ -5572,6 +5650,12 @@ Descrierile se află în apropierea fiecărui script',
 	'maintenance-output-failure' => '$1 nu a rulat cu succes!',
 	'maintenance-changePassword' => 'Utilizați acest formular pentru a schimba parola unui utilizator',
 	'maintenance-changePassword-desc' => 'Schimbă parola unui utilizator',
+	'maintenance-changePassword-error-nouser' => 'Niciun asemenea utilizator: $1',
+	'maintenance-changePassword-output-set' => 'Parola setată pentru $1',
+	'maintenance-checkBadRedirects-output-footer' => '
+Realizat.',
+	'maintenance-checkImages-output-missing' => 'Lipsește $1',
+	'maintenance-checkSyntax-output-buildlist' => 'Se construiește lista de fișiere...',
 	'maintenance-createAndPromote' => 'Utilizați acest formular pentru a crea un nou utilizator și a-l promova la statutul de administrator.
 Bifați și caseta „birocrat” dacă doriți să-l promovați și la statutul de birocrat',
 	'maintenance-createAndPromote-desc' => 'Creează un utilizator și promovează-l la statutul de administrator',
@@ -5819,6 +5903,20 @@ $messages['ru'] = array(
 	'maintenance-re-re' => 'Переназначение правок{{int:ellipsis}} завершено',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'maintenance-generic-done' => 'සිදුකලා',
+	'maintenance-generic-username' => 'පරිශීලක නාමය',
+	'maintenance-generic-password' => 'මුරපදය',
+	'maintenance-generic-reason' => 'හේතුව',
+	'maintenance-option-confirm' => 'තහවුරු කරන්න',
+	'maintenance-checkBadRedirects-output-footer' => 'හරි.',
+	'maintenance-memc-requests' => 'අයදුම්',
+	'maintenance-memc-total' => 'එකතුව:',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
@@ -5928,10 +6026,27 @@ $messages['sr-ec'] = array(
 	'maintenance-header' => 'Молимо Вас да испот означите скрипту коју треба покренути.
 Поред сваке скрипте се налази одговарајући опис.',
 	'maintenance-error-invalidtype' => 'Не могу да пронађем наведени скрипт',
+	'maintenance-generic-done' => 'готово',
+	'maintenance-generic-username' => 'Корисничко име',
+	'maintenance-generic-password' => 'Лозинка',
+	'maintenance-generic-reason' => 'Разлог',
+	'maintenance-cleanupTable-check' => 'Провера на лоше наслове...',
+	'maintenance-cleanupTable-checkfix' => 'Проналажење и исправљање лоших наслова...',
+	'maintenance-cleanupTable-processing' => 'Обрада $1...',
 	'maintenance-option-confirm' => 'Потврди',
+	'maintenance-option-required' => '(обавезно)',
+	'maintenance-option-optional' => '(необавезно)',
 	'maintenance-output-success' => '$1 се успешно извршила!',
+	'maintenance-output-failure' => '$1 се није успешно извршила!',
 	'maintenance-changePassword' => 'Користите ову форму да бисте променили лозинку корисника',
 	'maintenance-changePassword-desc' => 'Промени лозинку корисника',
+	'maintenance-changePassword-error-nouser' => 'Нема таквог корисника: $1',
+	'maintenance-changePassword-output-set' => 'Лозинка постављена за $1',
+	'maintenance-checkBadRedirects-desc' => 'Провери на лоша преусмерења',
+	'maintenance-checkBadRedirects-output-header' => 'Преузимање преусмерења...',
+	'maintenance-checkBadRedirects-output-footer' => '
+Готово.',
+	'maintenance-checkImages' => 'Ова форма служи за преглед оштећених слика на Вашој Вики',
 	'maintenance-createAndPromote-desc' => 'Направи корисника и унапреди га у администратора',
 	'maintenance-deleteBatch' => 'Користите ову форму да бисте масовно брисали странице.
 Уписујте само једну страну по линији.',
@@ -6691,6 +6806,7 @@ $messages['yi'] = array(
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
+ * @author Simon Shek
  * @author Wrightbus
  * @author Xiaomingyan
  */
@@ -6722,7 +6838,7 @@ $messages['zh-hans'] = array(
 	'maintenance-output-failure' => '$1未成功运行！',
 	'maintenance-attachLatest-option-fix' => '实际修复项目，否则预运行',
 	'maintenance-attachLatest-output-begin' => '寻找page_latest设置为0的页面...',
-	'maintenance-attachLatest-output-done' => '完成！$1个页面已处理。',
+	'maintenance-attachLatest-output-done' => '完成！已处理$1个页面。',
 	'maintenance-changePassword' => '使用此表单来更改用户的密码',
 	'maintenance-changePassword-desc' => '更改用户的密码',
 	'maintenance-changePassword-error-nouser' => '没有这样的用户：$1',
@@ -6734,7 +6850,7 @@ $messages['zh-hans'] = array(
 检查坏的重定向...',
 	'maintenance-checkBadRedirects-output-footer' => '
 完成。',
-	'maintenance-checkImages' => '使用此表单来查看您的服务器上的哪些图像已损坏',
+	'maintenance-checkImages' => '使用此表单来查看您的wiki上的哪些图像已损坏',
 	'maintenance-checkImages-desc' => '检查图像以查看它们是否存在、可读等等',
 	'maintenance-checkImages-output-noaccess' => '$1：本地不可访问',
 	'maintenance-checkImages-output-missing' => '$1：丢失',
@@ -6800,6 +6916,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
+ * @author Simon Shek
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
@@ -6830,7 +6947,7 @@ $messages['zh-hant'] = array(
 	'maintenance-output-failure' => '$1未成功運行！',
 	'maintenance-attachLatest-option-fix' => '實際修復項目，否則預運行',
 	'maintenance-attachLatest-output-begin' => '尋找page_latest設置為0的頁面...',
-	'maintenance-attachLatest-output-done' => '完成！$1個頁面已處理。',
+	'maintenance-attachLatest-output-done' => '完成！已處理$1個頁面。',
 	'maintenance-changePassword' => '使用此表單來更改用戶的密碼',
 	'maintenance-changePassword-desc' => '變更使用者的密碼',
 	'maintenance-changePassword-error-nouser' => '沒有這樣的用戶：$1',
@@ -6842,7 +6959,7 @@ $messages['zh-hant'] = array(
 檢查壞的重定向...',
 	'maintenance-checkBadRedirects-output-footer' => '
 完成。',
-	'maintenance-checkImages' => '使用此表單來查看您的服務器上的哪些圖像已損壞',
+	'maintenance-checkImages' => '使用此表單來查看您的wiki上的哪些圖像已損壞',
 	'maintenance-checkImages-desc' => '檢查圖像以查看它們是否存在、可讀等等',
 	'maintenance-checkImages-output-noaccess' => '$1：本地不可訪問',
 	'maintenance-checkImages-output-missing' => '$1：丟失',
@@ -6856,6 +6973,10 @@ $messages['zh-hant'] = array(
 	'maintenance-checkSyntax-output-warning' => '文件$1中的警告：$2',
 	'maintenance-checkSyntax-error-nofile' => '錯誤：找不到文件或目錄$1',
 	'maintenance-checkSyntax-error-cantopen' => '無法打開文件$1',
+	'maintenance-checkUsernames-error-notvalid' => '無效的使用者名：「$3 」（使用者id  $2 ）',
+	'maintenance-cleanupSpam-output-blanking' => '正在清空',
+	'maintenance-cleanupSpam-output-reverting' => '正在回退',
+	'maintenance-cleanupSpam-error-noid' => '內部錯誤: 沒有ID$1的頁面',
 	'maintenance-deleteBatch-desc' => '大量刪除頁面',
 	'maintenance-deleteRevision-desc' => '從資料庫中刪除修改',
 	'maintenance-initStats-desc' => '重新計算網站的統計資料',
@@ -6888,6 +7009,7 @@ $messages['zh-hant'] = array(
 	'maintenance-stats-update' => '更新資料庫 {{int:ellipsis}}',
 	'maintenance-move' => '移動 $1 至 $2{{int:ellipsis}}',
 	'maintenance-error' => '錯誤：$1',
+	'maintenance-memc-fake' => '您正在運行FakeMemCachedClient。沒有統計資料可以提供',
 	'maintenance-memc-requests' => '請求',
 	'maintenance-memc-total' => '總計：',
 	'maintenance-memc-parsercache' => '清除快取',
