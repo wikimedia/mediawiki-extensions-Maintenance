@@ -2905,6 +2905,7 @@ Wopisanja su pódla wotpowědneho skripta',
 	'maintenance-createAndPromote' => 'Wužij tutón formular, zo by noweho wužiwarja wutworił a jeho k administratorej powyšił.
 Wubjer běrokratowy kašćik, jeli chceš jeho tež k běrokratej powyšić.',
 	'maintenance-createAndPromote-desc' => 'Wužiwarske konto załožić a do statusa administratora pozběhnyć',
+	'maintenance-createAndPromote-option-bureaucrat' => 'Wužiwarja do statusa běrokrata powyšić',
 	'maintenance-deleteBatch' => 'Wužij tutón formular, zo by strony z masami wušmórnył.
 Napisaj jenož jednu stronu na linku',
 	'maintenance-deleteBatch-desc' => 'Strony z masami wušmórnyć',
