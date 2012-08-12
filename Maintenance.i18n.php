@@ -465,7 +465,14 @@ This message is currently not used in this extension.',
  * @author Naudefj
  */
 $messages['af'] = array(
+	'maintenance-generic-done' => 'uitgevoer',
+	'maintenance-generic-username' => 'Gebruikersnaam',
+	'maintenance-generic-password' => 'Wagwoord',
+	'maintenance-generic-reason' => 'Rede',
 	'maintenance-option-confirm' => 'Bevestig',
+	'maintenance-option-required' => '(verpligtend)',
+	'maintenance-option-optional' => '(opsioneel)',
+	'maintenance-checkBadRedirects-output-footer' => 'Uitgevoer.',
 	'maintenance-invalidname' => 'Ongeldige gebruikersnaam!',
 	'maintenance-invalidtitle' => 'Ongeldige bladsynaam: "$1"!',
 	'maintenance-deleted' => 'Geskrap',
@@ -751,8 +758,8 @@ $messages['be-tarask'] = array(
 	'maintenance-benchmarkPurge-desc' => 'Вымярэньне хуткасьці функцыяў ачысткі Squid',
 	'maintenance-benchmarkPurge-option-count' => 'Колькі URL-адрасоў патрэбна для ачысткі Squid',
 	'maintenance-benchmarkPurge-error-nosquid' => 'Вымярэньне хуткасьці ачысткі Squid не працуе без падтрымкі Squid.',
-	'maintenance-benchmarkPurge-output-numsquids' => '$1 {{PLURAL:$1|вызначаны сэрвэраў Squid|вызначаных сэрвэры Squid|вызначаных сэрвэраў Squid}}:',
-	'maintenance-benchmarkPurge-output-trial' => '$1 назваў у $2мс ($3мс кожная)',
+	'maintenance-benchmarkPurge-output-numsquids' => '{{PLURAL:$1|Вызначаны $1 сэрвэр Squid|Вызначаныя $1 сэрвэры Squid|Вызначаныя $1 сэрвэраў Squid}}:',
+	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|назва|назвы|назваў}} у $2мс ($3мс кожная)',
 	'maintenance-changePassword' => 'Выкарыстоўвайце гэтую форму для зьмены паролю ўдзельніка',
 	'maintenance-changePassword-desc' => 'Зьмяніць пароль удзельніка',
 	'maintenance-changePassword-error-nouser' => 'Удзельнік не існуе: $1',
@@ -763,7 +770,7 @@ $messages['be-tarask'] = array(
 	'maintenance-checkBadRedirects' => 'Выкарыстоўвайце гэтую форму для таго, каб пабачыць ці сапраўды пазначаныя як перанакіравані ўсе перанакіравані',
 	'maintenance-checkBadRedirects-desc' => 'Пошук няслушных перанакіраваньняў',
 	'maintenance-checkBadRedirects-output-header' => 'Выбарка перанакіраваньняў…',
-	'maintenance-checkBadRedirects-output-found' => 'Перанакіраваньняў знойдзена: $1
+	'maintenance-checkBadRedirects-output-found' => 'Знойдзена $1 {{PLURAL:$1|перанакіраваньне|перанакіраваньні|перанакіраваньняў}}.
 Шукаюцца няслушныя перанакіраваньні…',
 	'maintenance-checkBadRedirects-output-footer' => 'Зроблена.',
 	'maintenance-checkImages' => 'Выкарыстоўвайце гэтую форму, каб убачыць, якія выявы ў Вашай вікі пашкоджаныя',
@@ -806,11 +813,13 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupSpam-option-hostname' => 'Дамэн, зь якога вядзецца спам-рассылка',
 	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Знойдзены $1 артыкул, які ўтрымлівае|Знойдзеныя $1 артыкулы, якія ўтрымліваюць|Знойдзеныя $1 артыкулаў, якія ўтрымліваюць}} $2',
 	'maintenance-cleanupSpam-output-false' => 'Аблуднае дапасаваньне',
+	'maintenance-cleanupSpam-error-invalid' => 'Няслушнае вызначэньне імя хосту: $1',
 	'maintenance-cleanupSpam-error-noid' => 'Унутраная памылка: няма старонкі з ідэнтыфікатарам $1',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Надаць удзельніку правы бюракрата',
+	'maintenance-createAndPromote-output-creating' => 'Стварэньне і наданьне правоў {{ns:user}}:$2…',
 	'maintenance-deleteBatch' => 'Выкарыстоўвайце гэтую форму для масавага выдаленьня старонак.
 Пастаўце толькі адну назву старонкі ў кожны радок',
 	'maintenance-deleteBatch-desc' => 'Масавае выдаленьне старонак',
@@ -1271,12 +1280,29 @@ $messages['ca'] = array(
 
 /** Czech (česky)
  * @author Chmee2
+ * @author Jkjk
  */
 $messages['cs'] = array(
 	'maintenance-generic-done' => 'hotovo',
 	'maintenance-generic-username' => 'Uživatelské jméno',
 	'maintenance-generic-password' => 'Heslo',
 	'maintenance-generic-reason' => 'Důvod',
+	'maintenance-changePassword-output-set' => 'Heslo nastaveno pro $1',
+	'maintenance-checkAutoLoader-output-list2' => '$1: Chybný soubor: nalezen v $2, použit v $3',
+	'maintenance-checkBadRedirects' => 'Použijte tento formulář a uvidíte, jestli stránky označené jako přesměrování jsou opravdu přesměrováními',
+	'maintenance-checkBadRedirects-desc' => 'Hledat nesprávná přesměrování',
+	'maintenance-checkBadRedirects-output-header' => 'Hledám přesměrování...',
+	'maintenance-checkBadRedirects-output-found' => '$1 přesměrování {{PLURAL:$1|nalezeno|nalezena|nalezeno}}.
+Hledám chybná přesměrování',
+	'maintenance-checkBadRedirects-output-footer' => 'Hotovo.',
+	'maintenance-checkImages' => 'Použijte tento formulář a uvidíte, které obrázky na Vaší wiki jsou poškozené',
+	'maintenance-checkImages-desc' => 'Hledat obrázky a ověřit, jestli existují, dají se načíst, atd.',
+	'maintenance-checkImages-output-noaccess' => '$1: není místně přístupný',
+	'maintenance-checkImages-output-missing' => '$1: chybí',
+	'maintenance-checkImages-output-isdir' => '$1: je adresář',
+	'maintenance-checkImages-output-truncated' => '$1: zkrácený, byl $2',
+	'maintenance-checkImages-output-mismatch' => '$1: velikost je rozdílná - v databázi $2, současná $3',
+	'maintenance-checkImages-output-good' => 'Správné obrázky: $1/$2',
 );
 
 /** German (Deutsch)
@@ -6320,11 +6346,55 @@ Avbryt flyttning',
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
+ * @author Shanmugamp7
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'maintenance-generic-username' => 'பயனர் பெயர்',
+	'maintenance-generic-password' => 'கடவுச்சொல்',
+	'maintenance-generic-reason' => 'காரணம்',
+	'maintenance-cleanupTable-check' => 'மோசமான தலைப்புகளைத் தேடுகிறது ...',
+	'maintenance-cleanupTable-checkfix' => 'மோசமான தலைப்புகளைத் தேடிச் சரிசெய்கிறது...',
+	'maintenance-option-confirm' => 'உறுதிசெய்',
+	'maintenance-changePassword-desc' => 'ஒரு பயனரின் கடவுச்சொல்லை மாற்று',
+	'maintenance-changePassword-error-nouser' => '"$1" என்று ஒரு பயனர் இல்லை.',
+	'maintenance-checkSyntax-output-buildlist' => 'கோப்புப் பட்டியல் உருவாக்கப்படுகிறது...',
+	'maintenance-checkSyntax-error-cantopen' => '$1 கோப்பைத் திறக்க முடியவில்லை.',
+	'maintenance-cleanupSpam-output-false' => 'தவறான பொருத்தம்',
+	'maintenance-cleanupSpam-output-blanking' => 'வெறுமையாக்கல்',
+	'maintenance-cleanupSpam-output-reverting' => 'மீளமைத்தல்',
+	'maintenance-moveBatch-desc' => 'பக்கங்களை மொத்தமாக நகர்த்து',
+	'maintenance-invalidname' => 'செல்லாத பயனர்பெயர்!',
+	'maintenance-userexists' => 'பயனர் ஏற்கனவே உள்ளார்!',
+	'maintenance-invalidtitle' => 'செல்லாத தலைப்பு "$1"!',
 	'maintenance-deleted' => 'நீக்கப்பட்டுவிட்டது',
+	'maintenance-stats-edits' => 'தொகுப்புகள் எண்ணிக்கை: $1',
+	'maintenance-stats-pages' => 'பக்கங்களின் எண்ணிக்கை: $1',
+	'maintenance-stats-users' => 'பயனர்கள் எண்ணிக்கை: $1',
+	'maintenance-stats-admins' => 'நிருவாகிகள் எண்ணிக்கை: $1',
+	'maintenance-stats-images' => 'கோப்புகள் எண்ணிக்கை: $1',
+	'maintenance-stats-views' => 'பக்கங்கள் பார்வையிடப்பட்ட எண்ணிக்கை: $1',
+	'maintenance-error' => 'பிழை: $1',
+	'maintenance-memc-requests' => 'வேண்டுகோள்கள்',
 	'maintenance-memc-total' => 'மொத்தம்:',
+	'maintenance-memc-invalid' => 'செல்லாதவை:',
+	'maintenance-memc-expired' => 'காலாவதியாகிறது:',
+	'maintenance-memc-absent' => 'இல்லாமை:',
+	'maintenance-memc-imagecache' => 'படிம இடைமாற்று',
+	'maintenance-memc-misses' => 'விடுபட்டவை:',
+	'maintenance-memc-updates' => 'புதுப்பித்தல்கள்:',
+	'maintenance-reassignEdits' => 'ஒரு பயனரிலிருந்து மற்றொரு பயனருக்கு தொகுப்புகளை மாற்றியமைக்க இந்தப் படிவத்தைப் பயன்படுத்தவும்.',
+	'maintenance-re-from' => 'தொகுப்புகளிலிருந்து மாற்றியமைக்க வேண்டிய பயனரின்  பெயர்',
+	'maintenance-re-to' => 'தொகுப்புகளை அமைக்க வேண்டிய பயனரின்  பெயர்',
+	'maintenance-re-force' => 'இலக்கு பயனர் இல்லை எனினும் மாற்றியமைக்கவும்',
+	'maintenance-re-rc' => 'அண்மைய மாற்றங்கள் பட்டியலை இற்றைப்படுத்த வேண்டாம்',
+	'maintenance-re-nf' => 'பயனர் $1 காணப்படவில்லை',
+	'maintenance-re-ce' => 'தற்போதைய தொகுப்புகள்: $1',
+	'maintenance-re-de' => 'நீக்கப்பட்ட தொகுப்புகள்: $1',
+	'maintenance-re-rce' => 'அண்மைய மாற்றங்கள் பதிவுகள்: $1',
+	'maintenance-re-total' => 'மாற்ற வேண்டிய மொத்த பதிவுகள்: $1',
+	'maintenance-re-re' => 'தொகுப்புகளை{{int:ellipsis}} மாற்றியமைத்தல் ஆயிற்று',
 );
 
 /** Telugu (తెలుగు)
