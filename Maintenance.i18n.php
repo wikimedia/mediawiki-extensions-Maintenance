@@ -1927,12 +1927,18 @@ Se cancela el traslado.',
 );
 
 /** Estonian (eesti)
+ * @author Avjoska
  * @author Pikne
  * @author Silvar
  */
 $messages['et'] = array(
 	'maintenance-error-invalidtype' => 'Määratud skripti ei leidu.',
+	'maintenance-generic-done' => 'valmis',
+	'maintenance-generic-username' => 'Kasutajanimi',
+	'maintenance-generic-password' => 'Parool',
+	'maintenance-generic-reason' => 'Põhjus',
 	'maintenance-changePassword-desc' => 'Muuda kasutajate paroole',
+	'maintenance-checkBadRedirects-output-footer' => 'Valmis.',
 	'maintenance-deleteBatch-desc' => 'Lehekülgede lauskustutamine',
 	'maintenance-deleted' => 'KUSTUTATUD',
 	'maintenance-re-nf' => 'Kasutajat $1 ei leidu',
@@ -3814,8 +3820,10 @@ $messages['kn'] = array(
 /** Korean (한국어)
  * @author Ficell
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
+	'maintenance-generic-username' => '사용자 이름',
 	'maintenance-option-confirm' => '확인',
 );
 
@@ -6256,6 +6264,7 @@ $messages['su'] = array(
  * @author Fluff
  * @author M.M.S.
  * @author Sannab
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'maintenance' => 'Kör underhållsskripter',
@@ -6264,11 +6273,26 @@ $messages['sv'] = array(
 	'maintenance-backlink' => 'Tillbaka till skriptvalet',
 	'maintenance-header' => 'Var god ange ett skript nedan till att exekvera.
 Beskrivningar finns brevid varje skript',
-	'maintenance-error-invalidtype' => 'Ogiltig typ!',
+	'maintenance-error-invalidtype' => 'Det angivna skriptet hittades inte',
+	'maintenance-generic-done' => 'klar',
+	'maintenance-generic-username' => 'Användarnamn',
+	'maintenance-generic-password' => 'Lösenord',
+	'maintenance-generic-reason' => 'Anledning',
+	'maintenance-cleanupTable-processing' => 'Bearbetar $1...',
 	'maintenance-option-confirm' => 'Bekräfta',
+	'maintenance-option-required' => '(nödvändig)',
+	'maintenance-option-optional' => '(valfri)',
 	'maintenance-output-success' => '$1 kördes lyckat!',
+	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|titel|titlar}} på $2ms ($3ms vardera)',
 	'maintenance-changePassword' => 'Använd detta formulär för att ändra en användares lösenord',
 	'maintenance-changePassword-desc' => 'Ändra en användares lösenord',
+	'maintenance-changePassword-error-nouser' => 'Ingen sådan användare: $1',
+	'maintenance-checkBadRedirects-desc' => 'Letar efter dåliga omdirigeringar',
+	'maintenance-checkBadRedirects-output-header' => 'Hämtar omdirigeringar...',
+	'maintenance-checkBadRedirects-output-found' => 'Hittade $1 {{PLURAL:$1|omdirigering|omdirigeringar}}.
+Letar efter dåliga omdirigeringar...',
+	'maintenance-checkBadRedirects-output-footer' => '
+Färdig.',
 	'maintenance-createAndPromote' => 'Använd detta formulär för att skapa en ny användare och befodra den till administratör.
 Kryssa i byråkratruta om du vill befodra den till byråkrat istället',
 	'maintenance-createAndPromote-desc' => 'Skapa en användare och befodra till administratör',
