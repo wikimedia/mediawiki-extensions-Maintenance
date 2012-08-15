@@ -2418,8 +2418,12 @@ Dèplacement arrètâ',
 
 /** Irish (Gaeilge)
  * @author Alison
+ * @author පසිඳු කාවින්ද
  */
 $messages['ga'] = array(
+	'maintenance-generic-username' => 'Ainm úsáideora',
+	'maintenance-generic-reason' => 'Fáth',
+	'maintenance-option-confirm' => 'Deimhnigh',
 	'maintenance-invalidname' => 'Ainm úsáideoir neamhbhailí!',
 	'maintenance-invalidtitle' => 'Teideal neamhbhailí "$1"!',
 	'maintenance-deleted' => 'SCRIOSTA',
@@ -5805,6 +5809,11 @@ $messages['roa-tara'] = array(
 	'maintenance-userexists' => "L'utende già esiste!",
 	'maintenance-stats-edits' => 'Numere de cangiaminde: $1',
 	'maintenance-error' => 'Errore: $1',
+	'maintenance-memc-requests' => 'Richieste',
+	'maintenance-memc-withsession' => "cu 'a sessione:",
+	'maintenance-memc-withoutsession' => 'senze sessione:',
+	'maintenance-memc-total' => 'totale:',
+	'maintenance-memc-invalid' => 'invalide:',
 );
 
 /** Russian (русский)
