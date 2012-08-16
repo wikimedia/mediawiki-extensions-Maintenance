@@ -1984,8 +1984,12 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author An13sa
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
+	'maintenance-generic-username' => 'Erabiltzaile izena',
+	'maintenance-generic-password' => 'Pasahitza',
+	'maintenance-generic-reason' => 'Arrazoia',
 	'maintenance-option-confirm' => 'Baieztatu',
 	'maintenance-invalidname' => 'Lankide izen okerra!',
 	'maintenance-deleted' => 'EZABATUA',
@@ -6972,9 +6976,11 @@ $messages['wa'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'maintenance-generic-username' => 'באַניצער נאָמען',
+	'maintenance-generic-password' => 'פאַסווארט',
 	'maintenance-option-confirm' => 'באַשטעטיגן',
 	'maintenance-invalidname' => 'אומגילטיקער באַניצער נאָמען!',
 	'maintenance-move' => 'באוועגן $1 צו $2{{int:ellipsis}}',
