@@ -1975,7 +1975,7 @@ $messages['et'] = array(
 	'maintenance-generic-username' => 'Kasutajanimi',
 	'maintenance-generic-password' => 'Parool',
 	'maintenance-generic-reason' => 'Põhjus',
-	'maintenance-changePassword-desc' => 'Muuda kasutajate paroole',
+	'maintenance-changePassword-desc' => 'Muuda kasutaja parool',
 	'maintenance-checkBadRedirects-output-footer' => 'Valmis.',
 	'maintenance-deleteBatch-desc' => 'Lehekülgede lauskustutamine',
 	'maintenance-deleted' => 'KUSTUTATUD',
@@ -2018,6 +2018,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Beluga
  * @author Cimon Avaro
  * @author Crt
  * @author Jack Phoenix
@@ -2035,10 +2036,15 @@ $messages['fi'] = array(
 	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
 	Skriptien kuvaukset ovat niiden nimien vieressä',
 	'maintenance-error-invalidtype' => 'Kelvoton tyyppi!',
+	'maintenance-generic-done' => 'valmis',
+	'maintenance-generic-username' => 'Käyttäjätunnus',
+	'maintenance-generic-password' => 'Salasana',
+	'maintenance-generic-reason' => 'Syy',
 	'maintenance-option-confirm' => 'Vahvista',
 	'maintenance-output-success' => '$1 ajettiin onnistuneesti.',
 	'maintenance-changePassword' => 'Vaihda käyttäjän salasana tällä lomakkeella',
 	'maintenance-changePassword-desc' => 'Muuta käyttäjän salasana',
+	'maintenance-checkBadRedirects-output-footer' => 'Valmis.',
 	'maintenance-createAndPromote' => 'Käytä tätä lomaketta luodaksesi uuden käyttäjän ja ylentääksesi hänet ylläpitäjäksi.
 Laita myös rasti byrokraatti-laatikkoon jos haluat ylentää käyttäjän byrokraatiksi',
 	'maintenance-createAndPromote-desc' => 'Luo käyttäjä ja lisää ylläpitäjäksi',
@@ -2754,6 +2760,7 @@ $messages['gv'] = array(
  * @author Amire80
  * @author Rotemliss
  * @author YaronSh
+ * @author ערן
  */
 $messages['he'] = array(
 	'maintenance' => 'הרצת סקריפטים של תחזוקה',
@@ -2763,16 +2770,46 @@ $messages['he'] = array(
 	'maintenance-header' => 'אנא בחרו איזה מהסקריפטים שלהלן להריץ.
 התיאורים מופיעים ליד כל סקריפט',
 	'maintenance-error-invalidtype' => 'הסקריפט שצוין לא נמצא',
+	'maintenance-error-badargs' => 'לא צויינו כל ההגדרות הנדרשות',
 	'maintenance-generic-done' => 'בוצע',
 	'maintenance-generic-username' => 'שם משתמש',
 	'maintenance-generic-password' => 'ססמה',
 	'maintenance-generic-reason' => 'סיבה',
+	'maintenance-cleanupTable-dry-run' => 'הרצה על יבש',
+	'maintenance-cleanupTable-check' => 'בדיקת כותרות פגומות...',
+	'maintenance-cleanupTable-checkfix' => 'בדיקה ותיקון של כותרות פגומות...',
+	'maintenance-cleanupTable-finished' => 'עודכן $1 ...  $2  מתוך $3 {{PLURAL:$3| רשומה|רשומות}}',
 	'maintenance-option-confirm' => 'אישור',
+	'maintenance-option-required' => '(חובה)',
+	'maintenance-option-optional' => '(אופציונלי)',
 	'maintenance-output-success' => 'הסקריפט $1 רץ בהצלחה!',
+	'maintenance-output-failure' => '$1 נכשל בהרצה!',
 	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
 	'maintenance-changePassword-desc' => 'שינוי סיסמת משתמש',
+	'maintenance-changePassword-error-nouser' => 'אין משתמש בשם: $1',
+	'maintenance-changePassword-output-set' => 'סיסמה להגדרה עבור $1',
 	'maintenance-checkBadRedirects-output-footer' => '
 בוצע.',
+	'maintenance-checkImages-output-good' => 'תמונות טובות: $1/$2',
+	'maintenance-checkSyntax' => 'טופס זה משמש כדי לבדוק את התחביר של כל קבצי ה-PHP במדיה-ויקי',
+	'maintenance-checkSyntax-desc' => 'בדיקת התחביר של כל קבצי ה-PHP במדיה-ויקי',
+	'maintenance-checkSyntax-option-with-extensions' => 'בדיקה רקורסיבית בתיקיית ההרחבות',
+	'maintenance-checkSyntax-option-list-file' => 'רשימת קבצים ותיקיות לבדיקה',
+	'maintenance-checkSyntax-option-modified' => 'בדיקה רק של קבצים ששונו (מחייב לקוח שורת פקודה svn)',
+	'maintenance-checkSyntax-option-syntax-only' => 'בדוק חוקיות תחביר בלבד, ללא אזהרות סגנון',
+	'maintenance-checkSyntax-output-parsekit' => 'בדיקת תחביר (באמצעות parsekit)',
+	'maintenance-checkSyntax-output-phpl' => 'בדיקת תחביר (באמצעות php -l, עשוי לקחת זמן ממושך)',
+	'maintenance-checkSyntax-output-footer' => 'בוצע! $1  קבצים נבדקו, $2 בעיות ו $3  אזהרות נמצאו',
+	'maintenance-checkSyntax-output-buildlist' => 'בונה רשימת קבצים...',
+	'maintenance-checkSyntax-output-error' => 'שגיאה $1 בשורה $2: $3',
+	'maintenance-checkSyntax-error-cantopen' => 'אין אפשרות לפתוח את הקובץ $1',
+	'maintenance-checkUsernames-error-notvalid' => 'שם משתמש לא חוקי: "$3" (מזהה משתמש $2)',
+	'maintenance-cleanupCaps-output-dryrun' => '" $1 "->" $2 ": הרצה על יבש, לא הועבר',
+	'maintenance-cleanupSpam' => 'השתמשו בטופס לשחזור עריכות ספאם שמקשרות לאתרים חיצוניים',
+	'maintenance-cleanupSpam-desc' => 'ניקוי כל הספאם משרת מסוים',
+	'maintenance-cleanupSpam-option-hostname' => 'שם המארח המזבל',
+	'maintenance-cleanupSpam-output-blanking' => 'ריקון',
+	'maintenance-cleanupSpam-output-reverting' => 'שחזור',
 	'maintenance-createAndPromote' => 'השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.
 סמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט',
 	'maintenance-createAndPromote-desc' => 'יצירת משתמש וקידומו למצב מפעיל מערכת',
@@ -2793,6 +2830,9 @@ $messages['he'] = array(
 	'maintenance-showJobs-desc' => 'הצגת רשימת משימות הממתינות בתור המשימות',
 	'maintenance-sql' => 'השתמשו בטופס זה כדי להריץ שאילתת SQL על בסיס הנתונים.',
 	'maintenance-sql-desc' => 'הרצת שאילתת SQL',
+	'maintenance-sql-option-file' => 'SQL לביצוע',
+	'maintenance-sql-output-aff' => 'השאילתא תקינה, {{PLURAL:$1|רשומה אחת שונתה|$1 רשומות שונו}}',
+	'maintenance-sql-error-cantopen' => 'אין אפשרות לפתוח את קובץ הקלט',
 	'maintenance-stats-desc' => 'הצגת סטטיסטיקת Memcached',
 	'maintenance-eval' => 'השתמשו בטופס זה כדי להעריך קוד PHP בסביבת מדיה־ויקי.',
 	'maintenance-eval-desc' => 'הרצת קוד PHP בסביבת מדיה־ויקי',
@@ -6817,6 +6857,42 @@ $messages['uk'] = array(
 	'maintenance-memc-parsercache' => 'Кеш парсера',
 	'maintenance-memc-imagecache' => 'Кеш зображень',
 	'maintenance-re-nf' => 'Користувача $1 не знайдено',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'maintenance-backlink' => 'سکرپٹ کا انتخاب کرنے کے لئے واپس',
+	'maintenance-header' => 'براہ مہربانی ایک سکرپٹ کو ذیل میں منتخب کریں ۔ انگيز ہر سکرپٹ کے سامنے ہیں',
+	'maintenance-error-invalidtype' => 'مخصوص سکرپٹ نہیں پایا گیا',
+	'maintenance-error-badargs' => 'آپ نے نہیں وضاحت ضروری اختیارات کے تمام',
+	'maintenance-generic-done' => 'کیا کیا',
+	'maintenance-generic-username' => 'صارف کا نام',
+	'maintenance-generic-password' => 'پاس ورڈ',
+	'maintenance-generic-reason' => 'وجہ',
+	'maintenance-option-confirm' => 'اس بات کی تصدیق',
+	'maintenance-option-required' => '(ضرورت)',
+	'maintenance-option-optional' => '(اختیاری)',
+	'maintenance-checkBadRedirects-output-footer' => 'کیا.',
+	'maintenance-checkSyntax-output-buildlist' => 'تحریک منہاج القرآن کے فائل عمارت فہرست...',
+	'maintenance-cleanupSpam-output-false' => 'باطل میچ',
+	'maintenance-reassignEdits-desc' => 'گئی تدوین ایک صارف سے دوسرے اجازتیں',
+	'maintenance-runJobs-desc' => 'کام قطار میں روزگار کے لیے چلائیں',
+	'maintenance-runJobs-option-maxjobs' => 'کو چلانے کے لئے روزگار کے زیادہ سے زیادہ تعداد',
+	'maintenance-runJobs-option-type' => 'کو چلانے کے لئے کام کی قسم',
+	'maintenance-runJobs-option-procs' => 'استعمال کرنے کے لئے عمل کی تعداد',
+	'maintenance-runJobs-error-invalidprocs' => 'آپ 1 اور 1000 کے عمل کے درمیان وضاحت ضروری',
+	'maintenance-showJobs-desc' => 'کام قطار میں التواء روزگار کی فہرست دکھائیں',
+	'maintenance-showJobs-option-group' => 'شو کی ملازمتوں فی کام قسم کی بڑی تعداد',
+	'maintenance-invalidname' => 'باطل صارف کا نام!',
+	'maintenance-userexists' => 'موجود صارف پہلے ہی ہے!',
+	'maintenance-memc-requests' => 'کی درخواستیں',
+	'maintenance-memc-total' => 'کل:',
+	'maintenance-memc-invalid' => 'باطل:',
+	'maintenance-memc-updates' => 'تازہ ترین معلومات:',
+	'maintenance-reassignEdits' => 'اجازتیں گئی تدوین ایک صارف سے دوسرے کو اس فارم استعمال کریں ۔',
+	'maintenance-re-from' => 'گئی تدوین سے تفویض کرنے کے لئے صارف کا نام',
 );
 
 /** Veps (vepsän kel’)
