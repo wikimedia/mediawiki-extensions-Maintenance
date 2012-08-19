@@ -2044,7 +2044,8 @@ $messages['fi'] = array(
 	'maintenance-output-success' => '$1 ajettiin onnistuneesti.',
 	'maintenance-changePassword' => 'Vaihda käyttäjän salasana tällä lomakkeella',
 	'maintenance-changePassword-desc' => 'Muuta käyttäjän salasana',
-	'maintenance-checkBadRedirects-output-footer' => 'Valmis.',
+	'maintenance-checkBadRedirects-output-footer' => '
+Valmis.',
 	'maintenance-createAndPromote' => 'Käytä tätä lomaketta luodaksesi uuden käyttäjän ja ylentääksesi hänet ylläpitäjäksi.
 Laita myös rasti byrokraatti-laatikkoon jos haluat ylentää käyttäjän byrokraatiksi',
 	'maintenance-createAndPromote-desc' => 'Luo käyttäjä ja lisää ylläpitäjäksi',
@@ -3019,6 +3020,7 @@ Wopisanja su pódla wotpowědneho skripta',
 	'maintenance-cleanupCaps-output-islower' => '"$1" je hižo mało pisany.',
 	'maintenance-cleanupCaps-output-clash' => '"$1" přeskočeny; "$2" hižo eksistuje',
 	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Je so $1 nastawk namakał|Stej so $1 nastawkaj namakałoj|Su so $1 nastawki namakali|Je so $1 nastawkow namakało}}, {{PLURAL:$1|kotryž $2 wobsahowaše|kotrejž $2 wobsahowaštej|kotrež $2 wobsahowachu|kotrež $2 wobsahowaše}}',
+	'maintenance-cleanupSpam-output-false' => 'Wopačny wotpowědnik',
 	'maintenance-cleanupSpam-error-noid' => 'Interny zmylk: žana strona za ID $1',
 	'maintenance-createAndPromote' => 'Wužij tutón formular, zo by noweho wužiwarja wutworił a jeho k administratorej powyšił.
 Wubjer běrokratowy kašćik, jeli chceš jeho tež k běrokratej powyšić.',
@@ -6923,7 +6925,7 @@ $messages['vi'] = array(
 	'maintenance-backlink' => 'Quay lại lựa chọn mã',
 	'maintenance-header' => 'Xin hãy chọn một đoạn mã ở dưới để thực thi.
 Mô tả nằm ở bên cạnh mỗi đoạn mã',
-	'maintenance-error-invalidtype' => 'Không tìm thấy script đã định rõ',
+	'maintenance-error-invalidtype' => 'Không tìm thấy kịch bản đã định rõ',
 	'maintenance-generic-username' => 'Tên người dùng',
 	'maintenance-generic-password' => 'Mật khẩu',
 	'maintenance-generic-reason' => 'Lý do',
