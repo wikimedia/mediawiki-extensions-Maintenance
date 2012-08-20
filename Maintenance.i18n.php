@@ -3048,6 +3048,8 @@ Kóžda linka měła žórłowu stronu a cilowu stronu podać, wótdźělenej p�
 	'maintenance-showJobs-option-group' => 'Ličbu nadawkow po nadawkowym typje pokazać',
 	'maintenance-sql' => 'Wužij tutón formular, zo by SQL-wotprašenje w datowej bance wuwjedł.',
 	'maintenance-sql-desc' => 'SQL-wotprašenje wuwjesć',
+	'maintenance-sql-option-file' => 'SQL, kotryž ma so wuwjesć',
+	'maintenance-sql-output-aff' => 'Naprašowanje w porjadku, $1 {{PLURAL:$1|rjadka bě potrjechena|rjadce běštej potrjechenej|rjadki běchu potrjechene|rjadkow bě potrjechenych}}',
 	'maintenance-sql-error-cantopen' => 'Zapodawanska dataja njeda so wočinić',
 	'maintenance-stats-desc' => 'Statistiku Memcached pokazać',
 	'maintenance-eval' => 'Wužij tutón formular, zo by PHP-kod we wokolinje MediaWiki wuhódnoćił.',
@@ -5804,8 +5806,8 @@ Bifați și caseta „birocrat” dacă doriți să-l promovați și la statutul
 	'maintenance-deleteBatch' => 'Utilizați acest formular pentru ștergerea în masă a paginilor.
 Puneți doar o pagină pe un rând',
 	'maintenance-deleteBatch-desc' => 'Şterge pagini în masă',
-	'maintenance-deleteRevision' => 'Utilizați acest formular pentru ștergerea în masă a reviziilor.
-Puneți doar o revizie pe un rând',
+	'maintenance-deleteRevision' => 'Utilizați acest formular pentru ștergerea în masă a versiunilor.
+Specificați doar o versiune pe fiecare rând',
 	'maintenance-deleteRevision-desc' => 'Şterge reviziile din baza de date',
 	'maintenance-initEditCount-desc' => 'Recalculează numărul de modificări ale utilizatorilor',
 	'maintenance-initStats-desc' => 'Recalculează statisticile sitului',
