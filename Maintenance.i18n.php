@@ -5803,7 +5803,7 @@ Descrierile se află în apropierea fiecărui script',
 	'maintenance-changePassword-output-set' => 'Parola setată pentru $1',
 	'maintenance-checkBadRedirects-output-footer' => '
 Realizat.',
-	'maintenance-checkImages-output-missing' => 'Lipsește $1',
+	'maintenance-checkImages-output-missing' => '$1: lipsește',
 	'maintenance-checkSyntax-output-buildlist' => 'Se construiește lista de fișiere...',
 	'maintenance-createAndPromote' => 'Utilizați acest formular pentru a crea un nou utilizator și a-l promova la statutul de administrator.
 Bifați și caseta „birocrat” dacă doriți să-l promovați și la statutul de birocrat',
