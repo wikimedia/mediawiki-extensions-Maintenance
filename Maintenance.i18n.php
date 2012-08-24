@@ -815,6 +815,7 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupSpam-output-false' => 'Аблуднае дапасаваньне',
 	'maintenance-cleanupSpam-error-invalid' => 'Няслушнае вызначэньне імя хосту: $1',
 	'maintenance-cleanupSpam-error-noid' => 'Унутраная памылка: няма старонкі з ідэнтыфікатарам $1',
+	'maintenance-clear_interwiki_cache' => 'Гэтая форма служыць для поўнай ачысткі кэшу інтэрвікі',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
