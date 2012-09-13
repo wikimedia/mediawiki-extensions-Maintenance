@@ -5485,6 +5485,7 @@ $messages['ps'] = array(
 	'maintenance-generic-username' => 'کارن-نوم',
 	'maintenance-generic-password' => 'پټنوم',
 	'maintenance-generic-reason' => 'سبب',
+	'maintenance-option-confirm' => 'تاييد',
 	'maintenance-option-optional' => '(اختياري)',
 	'maintenance-checkBadRedirects-output-footer' => 'ترسره شو.',
 	'maintenance-invalidname' => 'ناسم کارن-نوم!',
