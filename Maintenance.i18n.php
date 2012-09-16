@@ -3709,7 +3709,7 @@ Spostamento annullato',
 $messages['ja'] = array(
 	'maintenance' => 'メンテナンススクリプトを実行',
 	'maintenance-desc' => 'さまざまなメンテナンススクリプト用の[[Special:Maintenance|ウィキインターフェイス]]',
-	'right-maintenance' => '[[Special:Maintenance]] を使ってメンテナンススクリプトを実行',
+	'right-maintenance' => '[[Special:Maintenance]] を使用してメンテナンススクリプトを実行',
 	'maintenance-backlink' => 'スクリプト選択に戻る',
 	'maintenance-header' => '実行するスクリプトを以下から選んでください。解説は各スクリプトの隣にあります',
 	'maintenance-error-badini' => 'metadata.iniファイルが壊れているか、欠落しています。メンテナンス拡張機能を再ダウンロードしてください。',
