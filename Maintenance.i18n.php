@@ -351,6 +351,7 @@ Aborting move',
  * @author IAlex
  * @author Jon Harald Søby
  * @author Lloffiwr
+ * @author Nemo bis
  * @author Purodha
  * @author Ryan Schmidt
  * @author Shirayuki
@@ -436,6 +437,7 @@ $messages['qqq'] = array(
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
+	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.',
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
@@ -813,14 +815,18 @@ $messages['be-tarask'] = array(
 	'maintenance-cleanupSpam-option-hostname' => 'Дамэн, зь якога вядзецца спам-рассылка',
 	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Знойдзены $1 артыкул, які ўтрымлівае|Знойдзеныя $1 артыкулы, якія ўтрымліваюць|Знойдзеныя $1 артыкулаў, якія ўтрымліваюць}} $2',
 	'maintenance-cleanupSpam-output-false' => 'Аблуднае дапасаваньне',
+	'maintenance-cleanupSpam-output-blanking' => 'ачышчаем',
+	'maintenance-cleanupSpam-output-reverting' => 'адкочваем',
 	'maintenance-cleanupSpam-error-invalid' => 'Няслушнае вызначэньне імя хосту: $1',
 	'maintenance-cleanupSpam-error-noid' => 'Унутраная памылка: няма старонкі з ідэнтыфікатарам $1',
 	'maintenance-clear_interwiki_cache' => 'Гэтая форма служыць для поўнай ачысткі кэшу інтэрвікі',
+	'maintenance-clear_interwiki_cache-desc' => 'Ачысьціць кэш ад інтэрвікі-спасылак ва ўсіх мовах',
 	'maintenance-createAndPromote' => 'Выкарыстоўвайце гэтую форму для стварэньня новага ўдзельніка з правамі адміністратара.
 Пазначце поле ніжэй, каб зрабіць яго бюракратам',
 	'maintenance-createAndPromote-desc' => 'Стварыць удзельнікам з правамі адміністратара',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Надаць удзельніку правы бюракрата',
 	'maintenance-createAndPromote-output-creating' => 'Стварэньне і наданьне правоў {{ns:user}}:$2…',
+	'maintenance-createAndPromote-error-password' => 'З уведзеным паролем адбылася памылка: $1',
 	'maintenance-deleteBatch' => 'Выкарыстоўвайце гэтую форму для масавага выдаленьня старонак.
 Пастаўце толькі адну назву старонкі ў кожны радок',
 	'maintenance-deleteBatch-desc' => 'Масавае выдаленьне старонак',
@@ -3947,7 +3953,7 @@ Donn dat Zohsatzprojramm <code lang="en">Maintenance</code> norr_ens neu eronger
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% op $4 jedonn; bruch wall noch $5 [$6 vun $7] $8 pro Sekund <$9% sin ald aanjepaß>',
 	'maintenance-cleanupTable-missingparam' => '$1: Dä Parrammeeter $2 fählt',
 	'maintenance-cleanupTable-processing' => 'Ben $1 aam beärbeide&nbsp;…',
-	'maintenance-cleanupTable-finished' => 'Fäädesch met $1. Han {{PLURAL:$2|eine|$2|keine}} vun {{PLURAL:$3|einem Daatesaz|$3 Daatesäz|keine Daatesäz}} beärbeidt.',
+	'maintenance-cleanupTable-finished' => 'Fäädesch met $1. Han {{PLURAL:$2|eine|$2|keine}} vun {{PLURAL:$3|einem Daatesaz|$3 Daatesäz|kein Daatesäz}} beärbeidt.',
 	'maintenance-option-quiet' => 'Donn de Ußjaabe ußer Fählermädonge ongerdröcke.',
 	'maintenance-option-globals' => 'Donn aam Engk zom Prööfe de jlobaale Varijaable ußjävve.',
 	'maintenance-option-confirm' => 'Bestätije',
@@ -3970,7 +3976,7 @@ Donn dat Zohsatzprojramm <code lang="en">Maintenance</code> norr_ens neu eronger
 	'maintenance-benchmarkPurge-option-count' => 'Wie vill <i lang="en">URLs</i> sulle däm <i lang="en">Squid</i> zom läddesch Maache un Oprühme jejovve wääde?',
 	'maintenance-benchmarkPurge-error-nosquid' => 'Der <i lang="en">Squid</i> ußzeprobeere deiht nit vill, sulang der <i lang="en">Squid</i> nit aanjeschaldt es.',
 	'maintenance-benchmarkPurge-output-numsquids' => '{{PLURAL:$1|Eine|$1|Keine}} <i lang="en">Squid</i>-ẞööver {{PLURAL:$1|es|sin|es}} faßjelaat woode:',
-	'maintenance-benchmarkPurge-output-trial' => '$1 Sigge ier Titelle en {{PLURAL:$2|ein Millisekund|$2 Millisekunde|nit ens en Millisekund}}, dat {{PLURAL:$3|es ein Millisekond|sinn_er $3 Millisekonde|es keine Millisekond}} pro Sigge_Titel',
+	'maintenance-benchmarkPurge-output-trial' => '$1 Sigge ier Titelle en {{PLURAL:$2|ein Millisekund|$2 Millisekunde|nit ens en Millisekund}}, dat {{PLURAL:$3|es ein Millisekond|sinn_er $3 Millisekonde|es keine Millisekond}} pro Ttitel.',
 	'maintenance-changePassword' => 'Ennem Medmaacher sing Passwoot övver e Formular änndere',
 	'maintenance-changePassword-desc' => 'Ennem Metmaacher sing Paßwoot ändere',
 	'maintenance-changePassword-error-nouser' => 'Mer han keine Metmaacher, dä „$1“ heiße däät.',
@@ -3985,7 +3991,7 @@ Donn dat Zohsatzprojramm <code lang="en">Maintenance</code> norr_ens neu eronger
 Ben noh kappodde Ömleidonge aam looere&nbsp;…',
 	'maintenance-checkBadRedirects-output-footer' => '
 Jedonn.',
-	'maintenance-checkImages' => 'Met dämm Fommulaa kam_mer prööve, wat för en Belder em Wiki kapott sin.',
+	'maintenance-checkImages' => 'Met dämm Fommulaa heh kam_mer prööve, wat för en Belder em Wiki kapott sin.',
 	'maintenance-checkImages-desc' => 'Donn Belder prööve, dat se doh sen, dat mer se lässe kann, un esu wigger.',
 	'maintenance-checkImages-output-noaccess' => '$1: doh kammer om ẞööver nit drop zohjriefe',
 	'maintenance-checkImages-output-missing' => '$1: es nit doh.',
@@ -4020,11 +4026,24 @@ Jedonn.',
 	'maintenance-cleanupCaps-output-clash' => 'Han „$1“ övverjange, nohsämm et „$2“ ald johv.',
 	'maintenance-cleanupCaps-output-dryrun' => '„$1“ → „$2“: Prööflouf nix wood ömjedäuf.',
 	'maintenance-cleanupCaps-error-noneed' => '<span class="plainlinks">$wgCapitalLinks </span> es aanjeschalldt, dröm bruch mer kein jruußjeschrevve Lengks oprühme.',
+	'maintenance-cleanupSpam' => 'Met heh däm Fommolaa kam_mer SPAM wider loßwääde, dä op ander Webßaits lengke deiht.',
+	'maintenance-cleanupSpam-desc' => 'Donn alle SPAm Fottschmiiße, dä op enen beschtemmpte Räschner zeisch.',
+	'maintenance-cleanupSpam-option-hostname' => 'Da Naame vun däm Rääschner, vun woh dä SPAM hehr kohm',
+	'maintenance-cleanupSpam-output-found' => 'Mer han {{PLURAL:$1|eine Atikel|$1 Atikelle|kein Atikelle}} jefonge met „$2“ dren.',
+	'maintenance-cleanupSpam-output-false' => 'Jetroffe, wohr ävver verkiehrt.',
+	'maintenance-cleanupSpam-output-blanking' => 'läddesch maache',
+	'maintenance-cleanupSpam-output-reverting' => 'retuur ändere',
+	'maintenance-cleanupSpam-error-invalid' => 'Kein jölteje Aanjaabe för enem Rääschner singe Naame: „$1“',
+	'maintenance-cleanupSpam-error-noid' => 'Fähler em Wiki: Kein Sigg met dä Kännong $1 jefonge.',
+	'maintenance-clear_interwiki_cache' => 'Met heh däm Fommulaa kanns_De der Engerwiki-Zwescheschpeischer kumplätt läddesch maache.',
+	'maintenance-clear_interwiki_cache-desc' => 'SChmiiß all Engerwiki-Lengks uss_em wescheschpeischer fott.',
 	'maintenance-createAndPromote' => 'Met dämm Fommulaa hee kanns De ene neue Metmaacher aanläje un och tiräk
 ene {{int:group-sysop-member}} odder ene {{int:group-bureaucrat-member}}
 druß maache.',
 	'maintenance-createAndPromote-desc' => 'Don ene Metmaacher aanlääje un zom Wiki-Köbes maache',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Donn dä Metmaacher zom Bürrokraat opshtoofe.',
+	'maintenance-createAndPromote-output-creating' => 'Aanlääje un  promoting {{ns:user}}:$2...',
+	'maintenance-createAndPromote-error-password' => 'Ene Fähler wohr opjetrodde met däm Paßwoot, wat De enjejovve häs: „$1“',
 	'maintenance-deleteBatch' => 'Met hee dämm Fommulaa kanns De Sigge ang-maß fott schmiiße.
 Jif nur eine Sigge-Tittel en jede Reih en.',
 	'maintenance-deleteBatch-desc' => 'Massehaff Sigge fottschmiiße',
