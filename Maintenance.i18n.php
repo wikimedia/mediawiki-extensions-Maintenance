@@ -4042,7 +4042,7 @@ ene {{int:group-sysop-member}} odder ene {{int:group-bureaucrat-member}}
 druß maache.',
 	'maintenance-createAndPromote-desc' => 'Don ene Metmaacher aanlääje un zom Wiki-Köbes maache',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Donn dä Metmaacher zom Bürrokraat opshtoofe.',
-	'maintenance-createAndPromote-output-creating' => 'Aanlääje un  promoting {{ns:user}}:$2...',
+	'maintenance-createAndPromote-output-creating' => 'Aanlääje un zom Wiki_Kööbes maache: {{ns:user}}:$2&nbsp;&hellip;',
 	'maintenance-createAndPromote-error-password' => 'Ene Fähler wohr opjetrodde met däm Paßwoot, wat De enjejovve häs: „$1“',
 	'maintenance-deleteBatch' => 'Met hee dämm Fommulaa kanns De Sigge ang-maß fott schmiiße.
 Jif nur eine Sigge-Tittel en jede Reih en.',
