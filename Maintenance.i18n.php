@@ -438,6 +438,13 @@ $messages['qqq'] = array(
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
 	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.',
+	'maintenance-createAndPromote-error-password' => '$1 can be one of the following:
+* {{msg-mw|password-change-forbidden}}
+* {{msg-mw|passwordtooshort}}
+* {{msg-mw|password-name-match}}
+* {{msg-mw|password-login-forbidden}}
+* {{msg-mw|externaldberror}}
+* Anything returned by the [[mw:Manual:Hooks/isValidPassword|isValidPassword]] hook.',
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
@@ -3743,6 +3750,7 @@ $messages['ja'] = array(
 	'maintenance-checkImages-output-mismatch' => '$1: サイズが不一致 データベース=$2、実サイズ=$3',
 	'maintenance-createAndPromote' => 'このフォームを使って利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合はビューロクラット・ボックスをチェックする',
 	'maintenance-createAndPromote-desc' => '利用者を作成し、管理者にする',
+	'maintenance-createAndPromote-error-password' => '入力したパスワードでエラーが発生しました: $1',
 	'maintenance-deleteBatch' => 'このフォームを使ってページを一括削除する。1行に1ページのみ書く',
 	'maintenance-deleteBatch-desc' => 'ページを一括削除する',
 	'maintenance-deleteRevision' => 'このフォームを使って版を一括削除する。1行に1版のみ書く',
