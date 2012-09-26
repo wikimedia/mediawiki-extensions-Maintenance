@@ -6308,7 +6308,7 @@ $messages['sr-ec'] = array(
 	'maintenance-re-re' => 'Приписивање измена{{int:ellipsis}} готово',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -6318,10 +6318,27 @@ $messages['sr-el'] = array(
 	'maintenance-header' => 'Molimo Vas da ispot označite skriptu koju treba pokrenuti.
 Pored svake skripte se nalazi odgovarajući opis.',
 	'maintenance-error-invalidtype' => 'Ne mogu da pronađem navedeni skript',
+	'maintenance-generic-done' => 'gotovo',
+	'maintenance-generic-username' => 'Korisničko ime',
+	'maintenance-generic-password' => 'Lozinka',
+	'maintenance-generic-reason' => 'Razlog',
+	'maintenance-cleanupTable-check' => 'Provera na loše naslove...',
+	'maintenance-cleanupTable-checkfix' => 'Pronalaženje i ispravljanje loših naslova...',
+	'maintenance-cleanupTable-processing' => 'Obrada $1...',
 	'maintenance-option-confirm' => 'Potvrdi',
+	'maintenance-option-required' => '(obavezno)',
+	'maintenance-option-optional' => '(neobavezno)',
 	'maintenance-output-success' => '$1 se uspešno izvršila!',
+	'maintenance-output-failure' => '$1 nije uspešno izvršena!',
 	'maintenance-changePassword' => 'Koristite ovu formu da biste promenili lozinku korisnika',
 	'maintenance-changePassword-desc' => 'Promeni lozinku korisnika',
+	'maintenance-changePassword-error-nouser' => 'Nema takvog korisnika: $1',
+	'maintenance-changePassword-output-set' => 'Postavljena je lozinka za $1',
+	'maintenance-checkBadRedirects-desc' => 'Potraži neispravna preusmerenja',
+	'maintenance-checkBadRedirects-output-header' => 'Preuzimam preusmerenja…',
+	'maintenance-checkBadRedirects-output-footer' => '
+Gotovo.',
+	'maintenance-checkImages' => 'Poslužite se ovim obrascem da saznate koje su slike na vašem vikiju oštećene',
 	'maintenance-createAndPromote-desc' => 'Napravi korisnika i unapredi ga u administratora',
 	'maintenance-deleteBatch' => 'Koristite ovu formu da biste masovno brisali stranice.
 Upisujte samo jednu stranu po liniji.',
@@ -7107,7 +7124,7 @@ $messages['yi'] = array(
 	'maintenance-move' => 'באוועגן $1 צו $2{{int:ellipsis}}',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
@@ -7169,6 +7186,10 @@ $messages['zh-hans'] = array(
 	'maintenance-checkSyntax-output-warning' => '文件$1中的警告：$2',
 	'maintenance-checkSyntax-error-nofile' => '错误：找不到文件或目录$1',
 	'maintenance-checkSyntax-error-cantopen' => '无法打开文件$1',
+	'maintenance-checkUsernames-error-notvalid' => '无效的使用者名：「$3 」（使用者id  $2 ）',
+	'maintenance-cleanupSpam-output-blanking' => '正在清空',
+	'maintenance-cleanupSpam-output-reverting' => '正在回退',
+	'maintenance-cleanupSpam-error-noid' => '内部错误: 没有ID$1的页面',
 	'maintenance-deleteBatch-desc' => '删除大量页面',
 	'maintenance-deleteRevision-desc' => '从资料库中删除修改',
 	'maintenance-initStats-desc' => '重新计算网站的统计资料',
@@ -7201,6 +7222,7 @@ $messages['zh-hans'] = array(
 	'maintenance-stats-update' => '更新数据库{{int:ellipsis}}',
 	'maintenance-move' => '移动$1到$2{{int:ellipsis}}',
 	'maintenance-error' => '错误：$1',
+	'maintenance-memc-fake' => '您正在运行FakeMemCachedClient。没有统计资料可以提供',
 	'maintenance-memc-requests' => '请求',
 	'maintenance-memc-total' => '总数：',
 	'maintenance-memc-parsercache' => '解析器缓存',
