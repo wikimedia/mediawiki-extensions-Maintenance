@@ -720,7 +720,7 @@ Oldu.',
 	'maintenance-memc-total' => 'ümumi:',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -4670,7 +4670,7 @@ $messages['nah'] = array(
 	'maintenance-memc-expired' => 'ōmotlami:',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -5012,7 +5012,7 @@ Hernoemen is afgebroken',
 	'maintenance-re-re' => 'Bezig met het toewijzen… Klaar',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -6208,7 +6208,7 @@ $messages['sl'] = array(
 	'maintenance-generic-username' => 'Uporabniško ime',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -7241,7 +7241,7 @@ $messages['zh-hans'] = array(
 	'maintenance-re-rce' => '最近更改条目：$1',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Simon Shek
  * @author Wrightbus
