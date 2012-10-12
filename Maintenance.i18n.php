@@ -602,7 +602,7 @@ $messages['ar'] = array(
  */
 $messages['arc'] = array(
 	'maintenance-deleted' => 'ܫܝܦܬ',
-	'maintenance-stats-pages' => 'ܡܢܝܢܐ ܕܕ̈ܦܐ: $1',
+	'maintenance-stats-pages' => 'ܡܢܝܢܐ ܕܦܐܬܬ̈ܐ: $1',
 	'maintenance-stats-users' => 'ܡܢܝܢܐ ܕܡܦܠܚܢ̈ܐ: $1',
 	'maintenance-stats-admins' => 'ܡܢܝܢܐ ܕܡܕܒܪ̈ܢܐ: $1',
 	'maintenance-stats-images' => 'ܡܢܝܢܐ ܕܠܦܦ̈ܐ: $1',
