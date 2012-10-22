@@ -373,6 +373,7 @@ $messages['qqq'] = array(
 	'maintenance-generic-username' => '{{Identical|Username}}',
 	'maintenance-generic-password' => '{{Identical|Password}}',
 	'maintenance-generic-reason' => '{{Identical|Reason}}',
+	'maintenance-generic-notrans' => '{{notranslate}}',
 	'maintenance-cleanupTable-dry-run' => 'Label for a checkbox indicating that the script will run, but will not fix anything (a "dry run")',
 	'maintenance-cleanupTable-check' => 'Script output. "Titles" in this case refers to page names',
 	'maintenance-cleanupTable-checkfix' => 'Script output. "Titles" in this case refers to page names',
@@ -433,7 +434,19 @@ $messages['qqq'] = array(
 	'maintenance-benchmarkPurge-output-trial' => '* $1 is the number of titles processed in the trial
 * $2 is the total time of the trial in milliseconds
 * $3 is the average time of each title in milliseconds',
+	'maintenance-changePassword-option-user' => '{{notranslate}}',
+	'maintenance-changePassword-option-password' => '{{notranslate}}',
+	'maintenance-checkAutoLoader-output-list1' => '{{notranslate}}',
 	'maintenance-checkBadRedirects-output-footer' => '{{Identical|Done}}',
+	'maintenance-checkSyntax-output-done' => '{{notranslate}}',
+	'maintenance-cleanupCaps-option-dry-run' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-moved' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-check' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-checkfix' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-progress' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-processing' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-finished' => '{{notranslate}}',
+	'maintenance-cleanupCaps-error-missingparam' => '{{notranslate}}',
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
@@ -445,6 +458,14 @@ $messages['qqq'] = array(
 * {{msg-mw|password-login-forbidden}}
 * {{msg-mw|externaldberror}}
 * Anything returned by the [[mw:Manual:Hooks/isValidPassword|isValidPassword]] hook.',
+	'maintenance-initEditCount' => '{{notranslate}}',
+	'maintenance-runJobs' => '{{notranslate}}',
+	'maintenance-runJobs-output-job' => '{{notranslate}}',
+	'maintenance-showJobs' => '{{notranslate}}',
+	'maintenance-showJobs-output-job' => '{{notranslate}}',
+	'maintenance-sql-output-row' => '{{notranslate}}',
+	'maintenance-sql-error-sql' => '{{notranslate}}',
+	'maintenance-stats' => '{{notranslate}}',
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
@@ -623,7 +644,7 @@ $messages['arz'] = array(
 	'maintenance-backlink' => 'الرجوع إلى اختيار السكريبت',
 	'maintenance-header' => 'من فضلك اختر سكريبت بالأسفل للتنفيذ.
 الوصوفات بجانب كل سكريبت',
-	'maintenance-error-invalidtype' => 'نوع غير صحيح!',
+	'maintenance-error-invalidtype' => 'نوع غير صحيح!', # Fuzzy
 	'maintenance-option-confirm' => 'تأكيد',
 	'maintenance-output-success' => '$1 عمل بنجاح!',
 	'maintenance-changePassword' => 'استخدم هذه الاستمارة لتغيير كلمة السر لمستخدم',
@@ -923,7 +944,7 @@ $messages['bg'] = array(
 	'maintenance' => 'Пускане на скриптове за поддръжка',
 	'maintenance-desc' => '[[Special:Maintenance|Уеб интерфейс]] за различни скриптове за поддръжка',
 	'maintenance-backlink' => 'Връщане към избора на скрипт',
-	'maintenance-error-invalidtype' => 'Невалиден тип!',
+	'maintenance-error-invalidtype' => 'Невалиден тип!', # Fuzzy
 	'maintenance-generic-username' => 'Потребителско име',
 	'maintenance-generic-password' => 'Парола',
 	'maintenance-generic-reason' => 'Причина',
@@ -952,7 +973,7 @@ $messages['bg'] = array(
 	'maintenance-userexists' => 'Този потребител вече съществува!',
 	'maintenance-invalidtitle' => 'Невалидно заглавие „$1“!',
 	'maintenance-titlenoexist' => 'Посоченото заглавие („$1“) не съществува!',
-	'maintenance-revdelete' => 'Изтриване на версии $1 от уики $2',
+	'maintenance-revdelete' => 'Изтриване на версии $1 от уики $2', # Fuzzy
 	'maintenance-revnotfound' => 'Версия $1 не беше намерена!',
 	'maintenance-stats-edits' => 'Брой редакции: $1',
 	'maintenance-stats-articles' => 'Брой страници в основното именно пространство: $1',
@@ -1041,7 +1062,7 @@ An diskrivadurioù a vez goude pep hini anezho.',
 	'maintenance-cleanupTable-progress' => '$1 $2 : $3% graet dwar $4; ETA $5 [$6/$7] $8/sec <$9% hizivaet>',
 	'maintenance-cleanupTable-missingparam' => '$1: Arventenn a vank $2',
 	'maintenance-cleanupTable-processing' => 'O plediñ gant $1...',
-	'maintenance-cleanupTable-finished' => 'Echuet $1... $2 diwar $3 linenn hizivaet',
+	'maintenance-cleanupTable-finished' => 'Echuet $1... $2 diwar $3 linenn hizivaet', # Fuzzy
 	'maintenance-option-confirm' => 'Kadarnaat',
 	'maintenance-option-required' => '(rekis)',
 	'maintenance-option-optional' => '(diret)',
@@ -1054,9 +1075,9 @@ An diskrivadurioù a vez goude pep hini anezho.',
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] dibosupl kavour deiziad an adweladenn ziwezhañ ?!',
 	'maintenance-attachLatest-output-norev' => "$1 $2 [[$3]] deiziad dizezhañ $4, n'haller ket kavout anaouder an adweladenn",
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] deiziad an adweladenn ziwezhañ $4, anaoueder an adweladenn $5',
-	'maintenance-attachLatest-output-done' => 'Echu ! Pledet ez eus bet gant $1 pajenn.',
-	'maintenance-benchmarkPurge-output-numsquids' => 'Termenet ez eus $1 servijer Squid :',
-	'maintenance-benchmarkPurge-output-trial' => '$1 titl e $2ms ($3ms pep hini)',
+	'maintenance-attachLatest-output-done' => 'Echu ! Pledet ez eus bet gant $1 pajenn.', # Fuzzy
+	'maintenance-benchmarkPurge-output-numsquids' => 'Termenet ez eus $1 servijer Squid :', # Fuzzy
+	'maintenance-benchmarkPurge-output-trial' => '$1 titl e $2ms ($3ms pep hini)', # Fuzzy
 	'maintenance-changePassword' => 'Implijout ar furmskrid-mañ da cheñch ger-tremen un implijer',
 	'maintenance-changePassword-desc' => 'Cheñch ger-tremen un implijer',
 	'maintenance-changePassword-error-nouser' => 'Implijer ebet evel hemañ : $1',
@@ -1066,10 +1087,10 @@ An diskrivadurioù a vez goude pep hini anezho.',
 	'maintenance-checkBadRedirects-desc' => 'Klask adkasoù fall',
 	'maintenance-checkBadRedirects-output-header' => "Oc'h adtapout an adkasoù",
 	'maintenance-checkBadRedirects-output-found' => 'Kavez ez eus bet $1 adkas.
-O wiriañ an adkasoù fall...',
+O wiriañ an adkasoù fall...', # Fuzzy
 	'maintenance-checkBadRedirects-output-footer' => '
 Graet.',
-	'maintenance-checkImages' => 'Ober gant ar furmskrid-mañ da welet peseurt skeudennoù zo brein war ho servijer',
+	'maintenance-checkImages' => 'Ober gant ar furmskrid-mañ da welet peseurt skeudennoù zo brein war ho servijer', # Fuzzy
 	'maintenance-checkImages-desc' => 'Gwiriañ ar skeudennoù da welet hag-eñ ez eus anezho, hag-eñ ez int lennus, h.a.',
 	'maintenance-checkImages-output-noaccess' => "$1: n'eo ket hegerz ent lec'hel",
 	'maintenance-checkImages-output-missing' => '$1: ezvezant',
@@ -1345,7 +1366,7 @@ Hledám chybná přesměrování',
 	'maintenance-userexists' => 'Uživatel již existuje!',
 	'maintenance-invalidtitle' => 'Nesprávný název „$1“!',
 	'maintenance-titlenoexist' => 'Zadaný název „$1“ neexistuje!',
-	'maintenance-failed' => 'SELHALO',
+	'maintenance-failed' => 'SELHALO', # Fuzzy
 	'maintenance-revdelete' => '{{PLURAL:$3|Maže se verze|Mažou se verze}} $1 z wiki $2',
 	'maintenance-revnotfound' => 'Verze $1 nenalezena!',
 	'maintenance-stats-edits' => 'Počet editací: $1',
@@ -1684,7 +1705,7 @@ Pśesunjenje pśetergnjone',
  * @author ZaDiak
  */
 $messages['el'] = array(
-	'maintenance-error-invalidtype' => 'Μη έγκυρος τύπος!',
+	'maintenance-error-invalidtype' => 'Μη έγκυρος τύπος!', # Fuzzy
 	'maintenance-generic-username' => 'Όνομα χρήστη',
 	'maintenance-option-confirm' => 'Επιβεβαίωση',
 	'maintenance-output-success' => 'Το $1 έτρεξε επιτυχώς!',
@@ -2049,7 +2070,7 @@ $messages['fi'] = array(
 	'maintenance-backlink' => 'Takaisin skriptin valintaan',
 	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
 	Skriptien kuvaukset ovat niiden nimien vieressä',
-	'maintenance-error-invalidtype' => 'Kelvoton tyyppi!',
+	'maintenance-error-invalidtype' => 'Kelvoton tyyppi!', # Fuzzy
 	'maintenance-generic-done' => 'valmis',
 	'maintenance-generic-username' => 'Käyttäjätunnus',
 	'maintenance-generic-password' => 'Salasana',
@@ -2358,15 +2379,15 @@ $messages['frp'] = array(
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% fêt(s) sur $4 ; ETA $5 [$6/$7] $8/sec <$9% betâ a jorn>',
 	'maintenance-cleanupTable-missingparam' => '$1 : paramètre manquent $2',
 	'maintenance-cleanupTable-processing' => 'En cors de trètament $1...',
-	'maintenance-cleanupTable-finished' => 'Chavonâ $1... $2 sur $3 legnes betâs a jorn',
+	'maintenance-cleanupTable-finished' => 'Chavonâ $1... $2 sur $3 legnes betâs a jorn', # Fuzzy
 	'maintenance-option-quiet' => 'Suprimar la sortia de tot cen qu’est pas una èrror',
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-option-required' => '(nècèssèro)',
 	'maintenance-option-optional' => '(u chouèx)',
 	'maintenance-output-success' => '$1 s’est dèroulâ avouéc reusséta !',
 	'maintenance-output-failure' => '$1 s’est pas dèroulâ avouéc reusséta !',
-	'maintenance-attachLatest-output-done' => 'Fêt ! $1 pâges trètâs.',
-	'maintenance-benchmarkPurge-output-trial' => '$1 titros en $2 ms ($3 ms châque)',
+	'maintenance-attachLatest-output-done' => 'Fêt ! $1 pâges trètâs.', # Fuzzy
+	'maintenance-benchmarkPurge-output-trial' => '$1 titros en $2 ms ($3 ms châque)', # Fuzzy
 	'maintenance-changePassword-desc' => 'Changiér lo contresegno a un usanciér',
 	'maintenance-changePassword-error-nouser' => 'Gins d’usanciér : $1',
 	'maintenance-changePassword-output-set' => 'Contresegno dèfeni por $1',
@@ -2375,7 +2396,7 @@ $messages['frp'] = array(
 	'maintenance-checkBadRedirects-desc' => 'Rechèrchiér des crouyes redirèccions',
 	'maintenance-checkBadRedirects-output-header' => 'Rècupèracion de les redirèccions...',
 	'maintenance-checkBadRedirects-output-found' => '$1 redirèccions trovâs.
-Rechèrche de les crouyes redirèccions...',
+Rechèrche de les crouyes redirèccions...', # Fuzzy
 	'maintenance-checkBadRedirects-output-footer' => 'Fêt.',
 	'maintenance-checkImages-output-noaccess' => '$1 : pas accèssibla localament',
 	'maintenance-checkImages-output-missing' => '$1 : absent',
@@ -2679,7 +2700,7 @@ $messages['gsw'] = array(
 	'maintenance-backlink' => 'Zrugg zue dr Skript-Uuswahl',
 	'maintenance-header' => 'Bitte wehl e Skript uus, wu soll uusgfiert wäre.
 Bschrybige stehn näbe jedem Skript.',
-	'maintenance-error-invalidtype' => 'Nit giltige Typ!',
+	'maintenance-error-invalidtype' => 'Nit giltige Typ!', # Fuzzy
 	'maintenance-generic-done' => 'erledigt',
 	'maintenance-generic-username' => 'Benutzername',
 	'maintenance-generic-password' => 'Passwort',
@@ -2913,7 +2934,7 @@ $messages['hr'] = array(
 	'maintenance-backlink' => 'Nazad na odabir skripte',
 	'maintenance-header' => 'Odaberite dolje skriptu za pokrenuti.
 Opis stoji pored svake skripte.',
-	'maintenance-error-invalidtype' => 'Neispravna vrsta!',
+	'maintenance-error-invalidtype' => 'Neispravna vrsta!', # Fuzzy
 	'maintenance-option-confirm' => 'Potvrdi',
 	'maintenance-output-success' => '$1 pokrenut uspješno!',
 	'maintenance-changePassword' => 'Koristite ovu stranicu za promjenu suradničke lozinke',
@@ -2948,7 +2969,7 @@ Svaki red mora sadržavati polazišnu stranicu i ciljnu stranicu odvojeno kosom 
 	'maintenance-titlenoexist' => 'Određeni naslov ("$1") ne postoji!',
 	'maintenance-failed' => 'NEUSPJEŠNO',
 	'maintenance-deleted' => 'OBRISANO',
-	'maintenance-revdelete' => 'Brisanje izmjene $1 s wiki $2',
+	'maintenance-revdelete' => 'Brisanje izmjene $1 s wiki $2', # Fuzzy
 	'maintenance-revnotfound' => 'Izmjena $1 nije pronađena!',
 	'maintenance-stats-edits' => 'Broj uređivanja: $1',
 	'maintenance-stats-articles' => 'Broj stranica u glavnom imenskom prostoru: $1',
@@ -3132,7 +3153,7 @@ $messages['hu'] = array(
 	'maintenance-backlink' => 'Vissza a parancsfájl-választáshoz',
 	'maintenance-header' => 'Kérlek válaszd ki az alábbiak közül a futtatni kívánt parancsfájlt.
 Minden parancsfájl mellett megtalálható a leírása',
-	'maintenance-error-invalidtype' => 'Érvénytelen típus!',
+	'maintenance-error-invalidtype' => 'Érvénytelen típus!', # Fuzzy
 	'maintenance-generic-done' => 'kész',
 	'maintenance-generic-username' => 'Felhasználónév',
 	'maintenance-generic-password' => 'Jelszó',
@@ -3140,7 +3161,7 @@ Minden parancsfájl mellett megtalálható a leírása',
 	'maintenance-cleanupTable-checkfix' => 'Hibás címek ellenőrzése és javítása...',
 	'maintenance-cleanupTable-missingparam' => '$1: hiányzó paraméter: $2',
 	'maintenance-cleanupTable-processing' => '$1 feldolgozása...',
-	'maintenance-cleanupTable-finished' => '$1 befejezve... $2 frissült a(z) $3 sorból',
+	'maintenance-cleanupTable-finished' => '$1 befejezve... $2 frissült a(z) $3 sorból', # Fuzzy
 	'maintenance-option-confirm' => 'Megerősítés',
 	'maintenance-option-required' => '(kötelező)',
 	'maintenance-option-optional' => '(nem kötelező)',
@@ -3458,7 +3479,7 @@ Deskripsi tersedia di samping masing-masing skrip',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% selesai pada $4; Perkiraan $5 [$6/$7] $8/detik <$9% diperbarui>',
 	'maintenance-cleanupTable-missingparam' => '$1: Parameter tidak ditemukan $2',
 	'maintenance-cleanupTable-processing' => 'Memproses $1...',
-	'maintenance-cleanupTable-finished' => 'Selesai $1... $2 dari $3 baris diperbarui',
+	'maintenance-cleanupTable-finished' => 'Selesai $1... $2 dari $3 baris diperbarui', # Fuzzy
 	'maintenance-option-quiet' => 'Sembunyikan keluaran nongalat',
 	'maintenance-option-globals' => 'Tampilkan globals pada akhir pemrosesan untuk debugging',
 	'maintenance-option-confirm' => 'Konfirmasi',
@@ -3474,7 +3495,7 @@ Deskripsi tersedia di samping masing-masing skrip',
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] tidak dapat menemukan waktu revisi terakhir?!',
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] waktu terbaru $4, tidak dapat menemukan id revisi',
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] waktu terbaru $4, id revisi $5',
-	'maintenance-attachLatest-output-done' => 'Selesai! Memproses $1 halaman.',
+	'maintenance-attachLatest-output-done' => 'Selesai! Memproses $1 halaman.', # Fuzzy
 	'maintenance-attachLatest-output-dryrun' => 'Ini adalah pengujian dasar; jalankan kembali dengan "{{int:maintenance-attachLatest-option-fix}}" untuk memperbarui page_latest.',
 	'maintenance-changePassword' => 'Gunakan formulir ini untuk mengubah kata sandi pengguna',
 	'maintenance-changePassword-desc' => 'Ubah kata sandi pengguna',
@@ -3749,8 +3770,11 @@ $messages['ja'] = array(
 	'maintenance-checkImages-output-missing' => '$1: 見つかりません',
 	'maintenance-checkImages-output-isdir' => '$1: ディレクトリです',
 	'maintenance-checkImages-output-mismatch' => '$1: サイズが不一致 データベース=$2、実サイズ=$3',
+	'maintenance-cleanupSpam-output-page' => '$1 ...',
+	'maintenance-clear_interwiki_cache-db' => '$1...',
 	'maintenance-createAndPromote' => 'このフォームを使用して利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合は、ビューロクラットのボックスにチェックを入れる',
 	'maintenance-createAndPromote-desc' => '利用者を作成し、管理者にする',
+	'maintenance-createAndPromote-option-username' => '{{int:maintenance-generic-username}}',
 	'maintenance-createAndPromote-error-password' => '入力したパスワードでエラーが発生しました: $1',
 	'maintenance-deleteBatch' => 'このフォームを使用してページを一括削除する。各行に 1 ページのみ記述',
 	'maintenance-deleteBatch-desc' => 'ページを一括削除する',
@@ -3885,7 +3909,7 @@ $messages['ka'] = array(
  */
 $messages['km'] = array(
 	'maintenance' => 'ដំណើរការស្រ្គីបតំហែទាំ',
-	'maintenance-error-invalidtype' => 'គំរូ​មិន​ត្រឹមត្រូវ!',
+	'maintenance-error-invalidtype' => 'គំរូ​មិន​ត្រឹមត្រូវ!', # Fuzzy
 	'maintenance-option-confirm' => 'អះអាង',
 	'maintenance-output-success' => '$1 បាន​ដំណើការ​ដោយ​ជោគជ័យ​!',
 	'maintenance-changePassword-desc' => 'ប្តូរពាក្យសំងាត់របស់អ្នកប្រើប្រាស់',
@@ -3956,6 +3980,7 @@ Donn dat Zohsatzprojramm <code lang="en">Maintenance</code> norr_ens neu eronger
 	'maintenance-generic-username' => 'Metmaacher_Name',
 	'maintenance-generic-password' => 'Paßwoot',
 	'maintenance-generic-reason' => 'Jrond',
+	'maintenance-generic-notrans' => '$1',
 	'maintenance-cleanupTable-dry-run' => 'Bloß för ußzeprobeere',
 	'maintenance-cleanupTable-check' => 'Ben op verkehte Sigge_Name aam prööfe …',
 	'maintenance-cleanupTable-checkfix' => 'Ben op kappodde Siggee_Tittelle aam pröfe un di aam repareere&nbsp;…',
@@ -3988,10 +4013,13 @@ Donn dat Zohsatzprojramm <code lang="en">Maintenance</code> norr_ens neu eronger
 	'maintenance-benchmarkPurge-output-trial' => '$1 Sigge ier Titelle en {{PLURAL:$2|ein Millisekund|$2 Millisekunde|nit ens en Millisekund}}, dat {{PLURAL:$3|es ein Millisekond|sinn_er $3 Millisekonde|es keine Millisekond}} pro Ttitel.',
 	'maintenance-changePassword' => 'Ennem Medmaacher sing Passwoot övver e Formular änndere',
 	'maintenance-changePassword-desc' => 'Ennem Metmaacher sing Paßwoot ändere',
+	'maintenance-changePassword-option-user' => '{{int:maintenance-generic-username}}',
+	'maintenance-changePassword-option-password' => '{{int:maintenance-generic-password}}',
 	'maintenance-changePassword-error-nouser' => 'Mer han keine Metmaacher, dä „$1“ heiße däät.',
 	'maintenance-changePassword-output-set' => 'Et Paßwoot för {{GENDER:$1|dä|et|dä Metmaacher|de|dat}} $1 es faßjelaat.',
 	'maintenance-checkAutoLoader' => 'Met däm Fomulaa heh määt mer e paa Pröfunge, dat Projramm vum Selfs_Laader vernömftesch läuf.',
 	'maintenance-checkAutoLoader-desc' => 'Pröfunge vum Selfs_Laader',
+	'maintenance-checkAutoLoader-output-list1' => "	'$1' => '$2',",
 	'maintenance-checkAutoLoader-output-list2' => '$1: verkeehte Dattei: en $2 jefonge, es ävver opjeföhrd en $3',
 	'maintenance-checkBadRedirects' => 'Met dämm Fommulaa kam_mer Sigge pröve, di als Ömleidonge en de Daatebangk shtonn, of di verhaftesch Ömleidonge sin.',
 	'maintenance-checkBadRedirects-desc' => 'Noh kapodde Ömleidonge söhke',
@@ -4019,6 +4047,7 @@ Jedonn.',
 	'maintenance-checkSyntax-output-phpl' => 'Ben de Süntax met „<code lang="en">php -l</code>“ aam övverprööfe, wadd en janze Zick dooere kann.',
 	'maintenance-checkSyntax-output-footer' => 'Fäädesch! {{PLURAL:$1|Ein Dattei|$1 Datteije|Kein Dattei}} dorschjelässe, {{PLURAL:$2|eine Fähler|$2 Fähler|keine Fähler}} un {{PLURAL:$3|ein Warnong|$3 Warnonge|keine Warnong}} jefonge.',
 	'maintenance-checkSyntax-output-svnlist' => 'Ben di Leß uss_em <i lang="en">Subversion</i> aam holle&nbsp;…',
+	'maintenance-checkSyntax-output-done' => '{{int:maintenance-generic-done}}',
 	'maintenance-checkSyntax-output-buildlist' => 'Ben en Leß met Datteije aam opboue&nbsp;…',
 	'maintenance-checkSyntax-output-error' => 'Ene Fähler es en dä Dattei $1 en dä Reih $2 opjefalle: $3',
 	'maintenance-checkSyntax-output-warning' => 'Opjepaß: En dä Dattei $1 ham_mer $2 jefonge.',
@@ -4030,10 +4059,17 @@ Jedonn.',
 	'maintenance-checkUsernames-error-notvalid' => 'Dä Name „$3“ för ene Metmaacher met dä Kännommer $2 es nit jöltesch.',
 	'maintenance-cleanupCaps' => 'Met dämm Fommulaa heh kam_mer de Tittelle vun Sigge repaerere, op di mer nit mieh zohjriife kann, nohämm <span class="plainlinks">$wgCapitalLinks</span> verändert woode es.',
 	'maintenance-cleanupCaps-desc' => 'Skrep för verkeht jrußjeschrevve Sigge ier Tittelle ze repareere',
+	'maintenance-cleanupCaps-option-dry-run' => '{{int:maintenance-cleanupTable-dry-run}}',
 	'maintenance-cleanupCaps-option-namespace' => 'De Nommer vum Appachtemang, woh mer de Fähler jrußjeschrevve Sigge_Titelle söhke un oprühme welle',
 	'maintenance-cleanupCaps-output-islower' => '„$1“ es ald klein jeschrevve.',
 	'maintenance-cleanupCaps-output-clash' => 'Han „$1“ övverjange, nohsämm et „$2“ ald johv.',
 	'maintenance-cleanupCaps-output-dryrun' => '„$1“ → „$2“: Prööflouf nix wood ömjedäuf.',
+	'maintenance-cleanupCaps-output-check' => '{{int:maintenance-cleanupTable-check}}',
+	'maintenance-cleanupCaps-output-checkfix' => '{{int:maintenance-cleanupTable-checkfix}}',
+	'maintenance-cleanupCaps-output-progress' => '{{int:maintenance-cleanupTable-progress|$1|$2|$3|$4|$5|$6|$7|$8|$9}}',
+	'maintenance-cleanupCaps-output-processing' => '{{int:maintenance-cleanupTable-processing|$1}}',
+	'maintenance-cleanupCaps-output-finished' => '{{int:maintenance-cleanupTable-check|$1|$2|$3}}',
+	'maintenance-cleanupCaps-error-missingparam' => '{{int:maintenance-cleanupTable-missingparam|$1|$2}}',
 	'maintenance-cleanupCaps-error-noneed' => '<span class="plainlinks">$wgCapitalLinks </span> es aanjeschalldt, dröm bruch mer kein jruußjeschrevve Lengks oprühme.',
 	'maintenance-cleanupSpam' => 'Met heh däm Fommolaa kam_mer SPAM wider loßwääde, dä op ander Webßaits lengke deiht.',
 	'maintenance-cleanupSpam-desc' => 'Donn alle SPAm Fottschmiiße, dä op enen beschtemmpte Räschner zeisch.',
@@ -4073,12 +4109,15 @@ met enem senkrääschte Shtresh dozwesche, allsu däm „|“',
 	'maintenance-runJobs-option-type' => 'De Zoot Aufjabe för ze beärbeide',
 	'maintenance-runJobs-option-procs' => 'De Aanzahl Vörjäng för de Aufjabe',
 	'maintenance-runJobs-option-exclusive' => 'Donn dat Skrep <code lang="en">runJobs</code> nur eijmohl einzel ußföhre. De Zick doför es 1800 Sekonde.',
+	'maintenance-runJobs-output-job' => '{{int:maintenance-generic-notrans|$1}}',
 	'maintenance-runJobs-error-invalidprocs' => 'Do moß en Zahl zwesche 1 un 1000 Vörjäng aanjävve.',
 	'maintenance-showJobs-desc' => 'De Leß met de Aufjabe aanzeije',
 	'maintenance-showJobs-option-group' => 'Donn de Aanzahl Aufjabe vun jeede Zoot aanzeije',
+	'maintenance-showJobs-output-job' => '{{int:maintenance-generic-notrans|$1}}',
 	'maintenance-sql' => 'Met hee dämm Fommulaa kanns De ene SQL-Befäähl aan de Datebangk schecke.',
 	'maintenance-sql-desc' => 'De <i lang="en">SQL</i> Datebangk befroore',
 	'maintenance-sql-option-file' => 'Dat <i lang="en">SQL</i>-Projramm zom Ußföhre',
+	'maintenance-sql-output-row' => '{{int:maintenance-generic-notrans|$1}}',
 	'maintenance-sql-output-aff' => 'Dat hät jeflup, {{PLURAL:$1|ein Reih wood|$1 Reije woode|kein Reih wood}} beärbeidt.',
 	'maintenance-sql-error-cantopen' => 'Mer künne di Dattei för zom Lässe nit opmaache.',
 	'maintenance-stats-desc' => 'Zeich de Statistike vom <tt>Memcached</tt>',
@@ -4344,6 +4383,8 @@ $messages['mk'] = array(
 	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|наслов|наслови}} за $2 мс (секој по $3 мс)',
 	'maintenance-changePassword' => 'Овој образец служи за менување на лозинка на корисник',
 	'maintenance-changePassword-desc' => 'Измена на лозинка на корисник',
+	'maintenance-changePassword-option-user' => '{{int:maintenance-generic-username}}',
+	'maintenance-changePassword-option-password' => '{{int:maintenance-generic-password}}',
 	'maintenance-changePassword-error-nouser' => 'Нема таков корисник: $1',
 	'maintenance-changePassword-output-set' => 'Поставена е лозинката за $1',
 	'maintenance-checkAutoLoader' => 'Користете го овој образец за да извршите извесни проверки на исправноста на АвтоВчитувачот',
@@ -4374,6 +4415,7 @@ $messages['mk'] = array(
 	'maintenance-checkSyntax-output-phpl' => 'Ја проверувам синтаксата (користејќи php -l; ова може да трае долго)',
 	'maintenance-checkSyntax-output-footer' => 'Готово! Проверени се $1 податотеки. Пронајдени се $2 неуспешни и $3 предупредувања',
 	'maintenance-checkSyntax-output-svnlist' => 'Го преземам списокот од Subversion...',
+	'maintenance-checkSyntax-output-done' => '{{int:maintenance-generic-done}}',
 	'maintenance-checkSyntax-output-buildlist' => 'Составувам список на податотеки...',
 	'maintenance-checkSyntax-output-error' => 'Грешка во $1 - ред $2: $3',
 	'maintenance-checkSyntax-output-warning' => 'Предупредување во податотеката $1: пронајдено е $2',
@@ -4389,6 +4431,7 @@ $messages['mk'] = array(
 	'maintenance-cleanupCaps-output-islower' => '„$1“ е веќе со мали букви.',
 	'maintenance-cleanupCaps-output-clash' => '„$1“ е прескокнато. „$2“ веќе постои',
 	'maintenance-cleanupCaps-output-dryrun' => '„$1“ -> „$2“: СРАБОТЕНО НА СУВО - НЕ Е ПРЕМЕСТЕНО',
+	'maintenance-cleanupCaps-output-finished' => '{{int:maintenance-cleanupTable-check|$1|$2|$3}}',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks е вклучено -- нема потреба од чистење на врски со големи букви.',
 	'maintenance-cleanupSpam' => 'Послужете се со овој образец за да отповикате уредувања со кои се вметнати надворешни спам-врски',
 	'maintenance-cleanupSpam-desc' => 'Чистење на сиот спам за дадено домаќинско име',
@@ -4433,6 +4476,7 @@ $messages['mk'] = array(
 	'maintenance-sql-option-file' => 'SQL за извршување',
 	'maintenance-sql-output-aff' => 'Барањето е во ред. {{PLURAL:$1|Засегнат е $1 ред|Засегнати се $1 реда}}',
 	'maintenance-sql-error-cantopen' => 'Не можам да ја отворам вносната податотека',
+	'maintenance-sql-error-sql' => '{{int:maintenance-generic-notrans|$1}}',
 	'maintenance-stats-desc' => 'Прикажи Memcached статистики',
 	'maintenance-eval' => 'Овој образец служи за проверка на PHP-код во МедијаВики околина.',
 	'maintenance-eval-desc' => 'Проверка на PHP-кодот во МедијаВики околина',
@@ -4558,7 +4602,7 @@ $messages['mr'] = array(
 	'maintenance-backlink' => 'स्क्रीप्ट निवडीकडे परत चला',
 	'maintenance-header' => 'चालविण्यासाठी खालील एक स्क्रीप्ट निवडा.
 प्रत्येक स्क्रीप्टच्या पुढे माहिती दिलेली आहे',
-	'maintenance-error-invalidtype' => 'चुकीचा प्रकार!',
+	'maintenance-error-invalidtype' => 'चुकीचा प्रकार!', # Fuzzy
 	'maintenance-option-confirm' => 'निश्चित करा',
 	'maintenance-output-success' => '$1 यशस्वीरित्या पूर्ण झाले!',
 	'maintenance-changePassword' => 'हा अर्ज एखाद्या सदस्याचा परवलीचा शब्द बदलण्यासाठी वापरा',
@@ -4589,7 +4633,7 @@ $messages['mr'] = array(
 	'maintenance-titlenoexist' => 'दिलेले शीर्षक ("$1") अस्तित्वात नाही!',
 	'maintenance-failed' => 'रद्द झाले',
 	'maintenance-deleted' => 'वगळले',
-	'maintenance-revdelete' => '$2 या विकिवरील $1 आवृत्त्या वगळत आहे',
+	'maintenance-revdelete' => '$2 या विकिवरील $1 आवृत्त्या वगळत आहे', # Fuzzy
 	'maintenance-revnotfound' => '$1 आवृत्ती सापडली नाही!',
 	'maintenance-stats-edits' => 'संपादनांची संख्या: $1',
 	'maintenance-stats-articles' => 'मुख्य नामविश्वातील पानांची संख्या: $1',
@@ -4694,14 +4738,14 @@ Beskrivelser gis ved siden av hvert skript.',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% ferdig på $4; Antatt ferdig $5 [$6/$7] $8/sek <$9% oppdatert>',
 	'maintenance-cleanupTable-missingparam' => '$1: Mangler parameter $2',
 	'maintenance-cleanupTable-processing' => 'Behandler $1...',
-	'maintenance-cleanupTable-finished' => 'Ferdig $1... $2 av $3 rader oppdatert',
+	'maintenance-cleanupTable-finished' => 'Ferdig $1... $2 av $3 rader oppdatert', # Fuzzy
 	'maintenance-option-quiet' => 'Undertrykk utdata for ikke-feil',
 	'maintenance-option-confirm' => 'Bekreft',
 	'maintenance-option-required' => '(påkrevd)',
 	'maintenance-option-optional' => '(valgfri)',
 	'maintenance-output-success' => '$1 ble gjennomført uten uhell.',
-	'maintenance-benchmarkPurge-output-numsquids' => 'Det er $1 definerte Squid-tjenere:',
-	'maintenance-benchmarkPurge-output-trial' => '$1 titler på $2ms ($3ms hver)',
+	'maintenance-benchmarkPurge-output-numsquids' => 'Det er $1 definerte Squid-tjenere:', # Fuzzy
+	'maintenance-benchmarkPurge-output-trial' => '$1 titler på $2ms ($3ms hver)', # Fuzzy
 	'maintenance-changePassword' => 'Bruk dette skjemaet for å endre en brukers passord',
 	'maintenance-changePassword-desc' => 'Endre en brukers passord',
 	'maintenance-changePassword-error-nouser' => 'Ingen slik bruker: $1',
@@ -4713,10 +4757,10 @@ Beskrivelser gis ved siden av hvert skript.',
 	'maintenance-checkBadRedirects-desc' => 'Ser etter dårlige omdirigeringer',
 	'maintenance-checkBadRedirects-output-header' => 'Henter omdirigeringer...',
 	'maintenance-checkBadRedirects-output-found' => 'Fant $1 omdirigeringer.
-Ser etter dårlige omdirigeringer...',
+Ser etter dårlige omdirigeringer...', # Fuzzy
 	'maintenance-checkBadRedirects-output-footer' => '
 Ferdig.',
-	'maintenance-checkImages' => 'Bruk dette skjemaet for å se hvilke bilder på tjeneren din som er skadet',
+	'maintenance-checkImages' => 'Bruk dette skjemaet for å se hvilke bilder på tjeneren din som er skadet', # Fuzzy
 	'maintenance-checkImages-desc' => 'Sjekk bilder for å se om de finnes, er lesbare, etc',
 	'maintenance-checkImages-output-noaccess' => '$1: ikke tilgjengelig lokalt',
 	'maintenance-checkImages-output-missing' => '$1: mangler',
@@ -5024,7 +5068,7 @@ $messages['nn'] = array(
 	'maintenance-backlink' => 'Attende til skriptval',
 	'maintenance-header' => 'Vel eit skript under som skal verta køyrt.
 Skildringa til kvart skript ligg ved sida det.',
-	'maintenance-error-invalidtype' => 'Ugyldig type!',
+	'maintenance-error-invalidtype' => 'Ugyldig type!', # Fuzzy
 	'maintenance-generic-username' => 'Brukarnamn',
 	'maintenance-generic-password' => 'Passord',
 	'maintenance-option-confirm' => 'Stadfest',
@@ -5117,7 +5161,7 @@ $messages['oc'] = array(
 	'maintenance-backlink' => "Retorn cap a la seleccion de l'escript",
 	'maintenance-header' => "Seleccionatz, çaijós, un escript d'executar.
 Las descripcions son a la seguida de cadun d'aquestes.",
-	'maintenance-error-invalidtype' => 'Tipe incorrècte !',
+	'maintenance-error-invalidtype' => 'Tipe incorrècte !', # Fuzzy
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-output-success' => '$1 a marchat amb succès !',
 	'maintenance-changePassword' => 'Utilizar aqueste formulari per cambiar lo senhal d’un utilizaire',
@@ -5559,7 +5603,7 @@ As descrições estão junto a cada script',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% em $4; hora prevista para terminar $5 [$6/$7] $8/seg <$9% actualizados>',
 	'maintenance-cleanupTable-missingparam' => '$1: Parâmetros em falta $2',
 	'maintenance-cleanupTable-processing' => 'A processar $1 ...',
-	'maintenance-cleanupTable-finished' => 'Terminado $1... $2 de $3 linhas actualizadas',
+	'maintenance-cleanupTable-finished' => 'Terminado $1... $2 de $3 linhas actualizadas', # Fuzzy
 	'maintenance-option-quiet' => 'Suprimir resultados não relacionados com erros',
 	'maintenance-option-globals' => 'Incluir as variáveis globais no fim do processamento para auxiliar o despiste de problemas',
 	'maintenance-option-confirm' => 'Confirmar',
@@ -5575,14 +5619,14 @@ As descrições estão junto a cada script',
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] não foi encontrada a data da última revisão!',
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] data da última revisão $4, não foi encontrada a identificação da revisão',
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] data da última revisão $4, identificação da revisão $5',
-	'maintenance-attachLatest-output-done' => 'Terminado! Foram processadas $1 páginas.',
+	'maintenance-attachLatest-output-done' => 'Terminado! Foram processadas $1 páginas.', # Fuzzy
 	'maintenance-attachLatest-output-dryrun' => 'Esta execução foi uma simulação; volte a executar com "{{int:maintenance-attachLatest-option-fix}}" para actualizar page_latest.',
 	'maintenance-benchmarkPurge' => 'Use este formulário para testar quanto tempo demoram as funções de limpeza do Squid',
 	'maintenance-benchmarkPurge-desc' => 'Aferir valores de referência para as funções de limpeza do Squid',
 	'maintenance-benchmarkPurge-option-count' => 'Quantas URLs devem ser fornecidas ao Squid para limpeza',
 	'maintenance-benchmarkPurge-error-nosquid' => 'A aferição dos valores de referência da limpeza do Squid não faz nada sem suporte do Squid.',
-	'maintenance-benchmarkPurge-output-numsquids' => 'Existem $1 servidores Squid definidos:',
-	'maintenance-benchmarkPurge-output-trial' => '$1 títulos em $2ms ($3ms cada um)',
+	'maintenance-benchmarkPurge-output-numsquids' => 'Existem $1 servidores Squid definidos:', # Fuzzy
+	'maintenance-benchmarkPurge-output-trial' => '$1 títulos em $2ms ($3ms cada um)', # Fuzzy
 	'maintenance-changePassword' => 'Use este formulário para alterar a palavra-chave de um utilizador',
 	'maintenance-changePassword-desc' => 'Alterar a palavra-chave de um utilizador',
 	'maintenance-changePassword-error-nouser' => 'Utilizador inexistente: $1',
@@ -5596,7 +5640,7 @@ As descrições estão junto a cada script',
 	'maintenance-checkBadRedirects-output-found' => '{{PLURAL:$1|Foi encontrado|Foram encontrados}} $1 {{PLURAL:$1|redirecionamento|redirecionamentos}}.
 A procurar redirecionamentos incorretos...',
 	'maintenance-checkBadRedirects-output-footer' => 'Terminado.',
-	'maintenance-checkImages' => 'Use este formulário para verificar as imagens que estão danificadas no seu servidor',
+	'maintenance-checkImages' => 'Use este formulário para verificar as imagens que estão danificadas no seu servidor', # Fuzzy
 	'maintenance-checkImages-desc' => 'Verificar se as imagens existem, são legíveis, etc.',
 	'maintenance-checkImages-output-noaccess' => '$1: não são acessíveis localmente',
 	'maintenance-checkImages-output-missing' => '$1: em falta',
@@ -5726,7 +5770,7 @@ $messages['pt-br'] = array(
 	'maintenance-backlink' => 'Voltar à seleção de scripts',
 	'maintenance-header' => 'Por favor, selecione abaixo um script a executar.
 As descrições estão junto a cada script',
-	'maintenance-error-invalidtype' => 'Tipo inválido!',
+	'maintenance-error-invalidtype' => 'Tipo inválido!', # Fuzzy
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-output-success' => '$1 executado com sucesso!',
 	'maintenance-changePassword' => 'Use este formulário para alterar a palavra-chave de um utilizador',
@@ -5935,7 +5979,7 @@ $messages['ru'] = array(
 	'maintenance-cleanupTable-progress' => '$1 $2 : $3 % сделано на $4 ; ПВЗ $5 [ $6 / $7 ] $8 / сек < $9 % обновлено>',
 	'maintenance-cleanupTable-missingparam' => '$1: Отсутствует параметр $2',
 	'maintenance-cleanupTable-processing' => 'Обработка $1...',
-	'maintenance-cleanupTable-finished' => 'Готово $1... $2 {{PLURAL:$2|строчка из $3 обновлена|строчки из $3 обновлены|строчек из $3 обновлены}}',
+	'maintenance-cleanupTable-finished' => 'Готово $1... $2 {{PLURAL:$2|строчка из $3 обновлена|строчки из $3 обновлены|строчек из $3 обновлены}}', # Fuzzy
 	'maintenance-option-quiet' => 'Показывать только ошибки',
 	'maintenance-option-globals' => 'Выводить глобальные переменные в конце процесса отладки',
 	'maintenance-option-confirm' => 'Подтвердить',
@@ -5951,14 +5995,14 @@ $messages['ru'] = array(
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] не может найти время последней версии?!',
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] последнее время $4, не удалось найти идентификатор версии',
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] последнее время $4, идентификатор версии $5',
-	'maintenance-attachLatest-output-done' => 'Сделано! Обработано $1 страниц.',
+	'maintenance-attachLatest-output-done' => 'Сделано! Обработано $1 страниц.', # Fuzzy
 	'maintenance-attachLatest-output-dryrun' => 'Это был тестовый прогон; запустите вновь с "{{int:maintenance-attachLatest-option-fix}}" для обновления page_latest.',
 	'maintenance-benchmarkPurge' => 'Используйте эту форму, чтобы проверить, сколько времени уйдёт на функции очистки Squid',
 	'maintenance-benchmarkPurge-desc' => 'Измерение скорости функций очистки Squid',
 	'maintenance-benchmarkPurge-option-count' => 'Сколько URL-адресов требуется для очистки Squid',
 	'maintenance-benchmarkPurge-error-nosquid' => 'Измерение скорости очистки Squid не работает без поддержки Squid',
-	'maintenance-benchmarkPurge-output-numsquids' => '$1 {{PLURAL:$1|определенный сервер Squid|определенных сервера Squid|определенных серверов Squid}}:',
-	'maintenance-benchmarkPurge-output-trial' => '$1 названий в $2 мс ($3 мс каждое)',
+	'maintenance-benchmarkPurge-output-numsquids' => '$1 {{PLURAL:$1|определенный сервер Squid|определенных сервера Squid|определенных серверов Squid}}:', # Fuzzy
+	'maintenance-benchmarkPurge-output-trial' => '$1 названий в $2 мс ($3 мс каждое)', # Fuzzy
 	'maintenance-changePassword' => 'Используйте эту форму, чтобы изменить пароль участника',
 	'maintenance-changePassword-desc' => 'Изменить пароль участника',
 	'maintenance-changePassword-error-nouser' => 'Участник не существует: $1',
@@ -5970,7 +6014,7 @@ $messages['ru'] = array(
 	'maintenance-checkBadRedirects-desc' => 'Поиск неверных перенаправлений',
 	'maintenance-checkBadRedirects-output-header' => 'Выборка перенаправлений...',
 	'maintenance-checkBadRedirects-output-found' => 'Найдено {{PLURAL:$1|$1 перенаправление|$1 перенаправления|$1 перенаправлений}}.
-Проверка на неверные перенаправления...',
+Проверка на неверные перенаправления...', # Fuzzy
 	'maintenance-checkBadRedirects-output-footer' => 'Готово.',
 	'maintenance-checkImages' => 'Используйте эту форму, чтобы увидеть, какие изображения на Вашей вики повреждены',
 	'maintenance-checkImages-desc' => 'Проверка изображений на существование, читабельность и т.д.',
@@ -6120,7 +6164,7 @@ $messages['sk'] = array(
 	'right-maintenance' => 'Spúšťať údržbové skripty pomocou [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Späť na výber skriptu',
 	'maintenance-header' => 'Prosím, vyberte dolu skript, ktorý sa má spustiť.',
-	'maintenance-error-invalidtype' => 'Neplatný typ!',
+	'maintenance-error-invalidtype' => 'Neplatný typ!', # Fuzzy
 	'maintenance-option-confirm' => 'Potvrdiť',
 	'maintenance-output-success' => '$1 prebehol úspešne!',
 	'maintenance-changePassword' => 'Tento formulár slúži na zmenu hesla používateľa',
@@ -6590,7 +6634,7 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'maintenance-error-invalidtype' => 'చెల్లని రకం!',
+	'maintenance-error-invalidtype' => 'చెల్లని రకం!', # Fuzzy
 	'maintenance-generic-username' => 'వాడుకరి పేరు',
 	'maintenance-generic-password' => 'సంకేతపదం',
 	'maintenance-generic-reason' => 'కారణం',
@@ -6846,7 +6890,7 @@ $messages['tr'] = array(
 	'maintenance-backlink' => 'Betik seçimine geri dön',
 	'maintenance-header' => 'Lütfen çalıştırmak için aşağıdan bir betik seçin.
 Her betiğin yanında açıklamalarına yer verilmiştir.',
-	'maintenance-error-invalidtype' => 'Geçersiz tür!',
+	'maintenance-error-invalidtype' => 'Geçersiz tür!', # Fuzzy
 	'maintenance-generic-username' => 'Kullanıcı adı',
 	'maintenance-generic-password' => 'Parola',
 	'maintenance-option-confirm' => 'Onayla',
@@ -6961,7 +7005,7 @@ $messages['ur'] = array(
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
-	'maintenance-error-invalidtype' => 'Vär tip!',
+	'maintenance-error-invalidtype' => 'Vär tip!', # Fuzzy
 	'maintenance-option-confirm' => 'Vahvištoitta',
 	'maintenance-invalidname' => 'Vär kävutajannimi!',
 	'maintenance-failed' => 'ONETOMAŠTI',
@@ -7055,7 +7099,7 @@ Hủy di chuyển',
  * @author Smeira
  */
 $messages['vo'] = array(
-	'maintenance-error-invalidtype' => 'Sot no lonöföl!',
+	'maintenance-error-invalidtype' => 'Sot no lonöföl!', # Fuzzy
 	'maintenance-option-confirm' => 'Fümedön',
 	'maintenance-changePassword' => 'Gebolös fometi at ad votükön letavödi gebana',
 	'maintenance-changePassword-desc' => 'Votükön gebanaletavödi',
@@ -7081,7 +7125,7 @@ Lien alik muton ninädön fonätapadi e zeilapadi pateilölis dub malat: „|“
 	'maintenance-titlenoexist' => 'Tiäd pavilöl („$1“) no dabinon!',
 	'maintenance-failed' => 'NO EPLÖPON',
 	'maintenance-deleted' => 'PEMOÜKON',
-	'maintenance-revdelete' => 'Revids: $1 se vük: $2 pamoükons',
+	'maintenance-revdelete' => 'Revids: $1 se vük: $2 pamoükons', # Fuzzy
 	'maintenance-revnotfound' => 'Revid: $1 no petuvon!',
 	'maintenance-stats-edits' => 'Num redakamas: $1',
 	'maintenance-stats-articles' => 'Num padas in nemaspad cifik: $1',
@@ -7354,4 +7398,3 @@ $messages['zh-hant'] = array(
 	'maintenance-re-de' => '刪除編輯：$1',
 	'maintenance-re-rce' => '最近更改條目：$1',
 );
-
