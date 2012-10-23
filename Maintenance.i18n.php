@@ -2033,6 +2033,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author پاناروما
  */
 $messages['fa'] = array(
 	'maintenance-generic-done' => 'انجام شد',
@@ -2043,11 +2044,13 @@ $messages['fa'] = array(
 	'maintenance-option-required' => '(اجباری)',
 	'maintenance-option-optional' => '(اختیاری)',
 	'maintenance-checkBadRedirects-output-footer' => 'انجام شد.',
+	'maintenance-checkSyntax-error-cantopen' => 'پرونده باز نمی‌شود $1',
 	'maintenance-invalidname' => 'نام کاربری نامعتبر!',
 	'maintenance-userexists' => 'کاربر در حال حاضر وجود دارد!',
 	'maintenance-invalidtitle' => 'عنوان نامعتبر «$1»!',
 	'maintenance-error' => 'خطا: $1',
 	'maintenance-memc-requests' => 'درخواست‌ها',
+	'maintenance-memc-total' => 'مجموع',
 	'maintenance-memc-updates' => 'به روز رسانی‌ها:',
 	'maintenance-re-nf' => 'کاربر $1 یافت نشد',
 );
@@ -3770,6 +3773,8 @@ $messages['ja'] = array(
 	'maintenance-checkImages-output-missing' => '$1: 見つかりません',
 	'maintenance-checkImages-output-isdir' => '$1: ディレクトリです',
 	'maintenance-checkImages-output-mismatch' => '$1: サイズが不一致 データベース=$2、実サイズ=$3',
+	'maintenance-cleanupCaps-output-islower' => '「$1」は既に小文字です。',
+	'maintenance-cleanupCaps-output-clash' => '「$1」をスキップしました。「$2」は既に存在します。',
 	'maintenance-createAndPromote' => 'このフォームを使用して利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合は、ビューロクラットのボックスにチェックを入れる',
 	'maintenance-createAndPromote-desc' => '利用者を作成し、管理者にする',
 	'maintenance-createAndPromote-error-password' => '入力したパスワードでエラーが発生しました: $1',
