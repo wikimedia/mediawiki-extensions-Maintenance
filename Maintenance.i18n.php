@@ -3790,6 +3790,7 @@ $messages['ja'] = array(
 	'maintenance-cleanupTable-processing' => '$1 を処理中...',
 	'maintenance-cleanupTable-finished' => '$1 の処理が完了しました... $3 {{PLURAL:$3|行}}中 $2 行を更新しました',
 	'maintenance-option-quiet' => 'エラー以外の出力を抑制する',
+	'maintenance-option-globals' => '処理が終了した際にグローバル変数を出力する (デバッグ用)',
 	'maintenance-option-confirm' => '確認',
 	'maintenance-option-required' => '(必須)',
 	'maintenance-option-optional' => '(省略可能)',
