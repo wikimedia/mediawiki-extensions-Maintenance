@@ -437,19 +437,36 @@ $messages['qqq'] = array(
 	'maintenance-changePassword-desc' => 'Used as description',
 	'maintenance-changePassword-option-user' => '{{notranslate}}',
 	'maintenance-changePassword-option-password' => '{{notranslate}}',
+	'maintenance-changePassword-error-nouser' => '*$1 - username',
+	'maintenance-changePassword-output-set' => '*$1 - username',
 	'maintenance-checkAutoLoader-desc' => 'Used as description',
 	'maintenance-checkAutoLoader-output-list1' => '{{notranslate}}',
 	'maintenance-checkBadRedirects-desc' => 'Used as description',
+	'maintenance-checkBadRedirects-output-found' => '*$1 - number of redirects',
 	'maintenance-checkBadRedirects-output-footer' => '{{Identical|Done}}',
 	'maintenance-checkImages-desc' => 'Used as description',
+	'maintenance-checkImages-output-good' => '*$1 - number of good images
+*$2 - number of images',
 	'maintenance-checkSyntax-desc' => 'Used as description',
 	'maintenance-checkSyntax-option-with-extensions' => 'Used as option',
 	'maintenance-checkSyntax-option-path' => 'Used as option',
 	'maintenance-checkSyntax-option-list-file' => 'Used as option',
 	'maintenance-checkSyntax-option-modified' => 'Used as option',
 	'maintenance-checkSyntax-option-syntax-only' => 'Used as option',
+	'maintenance-checkSyntax-output-footer' => '*$1 - number of files checked
+*$2 - number of failures
+*$3 - number of warnings',
 	'maintenance-checkSyntax-output-done' => '{{notranslate}}',
+	'maintenance-checkSyntax-output-error' => '*$1 - filename
+*$2 - line number
+*$3 - error message',
+	'maintenance-checkSyntax-output-warning' => '*$1 - filename
+*$2 - ...',
+	'maintenance-checkSyntax-error-nofile' => '*$1 - name of file or directory',
+	'maintenance-checkSyntax-error-cantopen' => '*$1 - filename',
 	'maintenance-checkUsernames-desc' => 'Used as description',
+	'maintenance-checkUsernames-error-notvalid' => '*$2 - user ID
+*$3 - username',
 	'maintenance-cleanupCaps-desc' => 'Used as description',
 	'maintenance-cleanupCaps-option-dry-run' => '{{notranslate}}',
 	'maintenance-cleanupCaps-option-namespace' => 'Used as option',
@@ -464,6 +481,8 @@ $messages['qqq'] = array(
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
+	'maintenance-cleanupSpam-error-invalid' => '*$1 - provided hostname',
+	'maintenance-cleanupSpam-error-noid' => '*$1 - page ID',
 	'maintenance-clear_interwiki_cache-desc' => 'Used as description',
 	'maintenance-createAndPromote-desc' => 'Used as description',
 	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.',
@@ -489,6 +508,7 @@ $messages['qqq'] = array(
 	'maintenance-showJobs-output-job' => '{{notranslate}}',
 	'maintenance-sql-desc' => 'Used as description',
 	'maintenance-sql-output-row' => '{{notranslate}}',
+	'maintenance-sql-output-aff' => '* $1 is the number of records that were fixed',
 	'maintenance-sql-error-sql' => '{{notranslate}}',
 	'maintenance-stats' => '{{notranslate}}',
 	'maintenance-stats-desc' => 'Used as description',
@@ -512,6 +532,7 @@ This message is currently not used in this extension.',
 	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.
 
 This message is currently not used in this extension.',
+	'maintenance-re-nf' => '*$1 - username',
 	'maintenance-re-rr' => '* $1 is substituted by {{msg-mw|maintenance-re-report}}
 
  This message is currently not used in this extension.',
