@@ -6044,6 +6044,7 @@ $messages['roa-tara'] = array(
  * @author KorneySan
  * @author Lockal
  * @author Putnik
+ * @author Volkov
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -6198,17 +6199,17 @@ $messages['ru'] = array(
 	'maintenance-memc-withsession' => 'с сеансом:',
 	'maintenance-memc-withoutsession' => 'без сеанса:',
 	'maintenance-memc-total' => 'всего:',
-	'maintenance-memc-parsercache' => 'Кеш парсера',
+	'maintenance-memc-parsercache' => 'Кэш парсера',
 	'maintenance-memc-hits' => 'просмотров:',
 	'maintenance-memc-invalid' => 'ошибочных:',
 	'maintenance-memc-expired' => 'истекших:',
 	'maintenance-memc-absent' => 'отсутствует:',
 	'maintenance-memc-stub' => 'порог заготовок:',
-	'maintenance-memc-imagecache' => 'Кеш изображений',
+	'maintenance-memc-imagecache' => 'Кэш изображений',
 	'maintenance-memc-misses' => 'ошибок:',
 	'maintenance-memc-updates' => 'обновлений:',
 	'maintenance-memc-uncacheable' => 'некэшируемых:',
-	'maintenance-memc-diffcache' => 'Кеш сравнений версий',
+	'maintenance-memc-diffcache' => 'Кэш сравнений версий',
 	'maintenance-reassignEdits' => 'Используйте эту форму для переназначения правок от одного участника к другому.',
 	'maintenance-re-from' => 'Имя участника, правки которого переназначаются',
 	'maintenance-re-to' => 'Имя участника, которому переназначаются правки',
