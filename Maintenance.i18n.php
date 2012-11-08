@@ -1641,6 +1641,7 @@ $messages['diq'] = array(
 	'maintenance-generic-username' => 'Namey karberi',
 	'maintenance-generic-password' => 'Parola',
 	'maintenance-generic-reason' => 'Sebeb',
+	'maintenance-option-optional' => '(opsiyonel)',
 	'maintenance-checkBadRedirects-output-footer' => 'Qeyd ke.',
 	'maintenance-failed' => 'NÊŞA',
 	'maintenance-deleted' => 'BESTERNEYÊ',
@@ -3698,12 +3699,15 @@ Fatto.',
 	'maintenance-checkUsernames-desc' => 'Verificare che i nomi utente del database siano effettivamente validi',
 	'maintenance-checkUsernames-error-notvalid' => 'Nome utente non valido: "$3" (id utente $2)',
 	'maintenance-cleanupCaps' => 'Utilizzare questo modulo per correggere le pagine corrotte causate dalla modifica a $wgCapitalLinks',
+	'maintenance-cleanupCaps-desc' => 'Script per ripulitura delle maiuscole',
 	'maintenance-cleanupCaps-output-islower' => '"$1" già minuscolo.',
 	'maintenance-cleanupCaps-output-clash' => '"$1" ignorato; "$2" esiste già',
 	'maintenance-cleanupSpam' => 'Utilizzare questo modulo per annullare modifiche di spam che puntano a siti esterni',
+	'maintenance-cleanupSpam-output-reverting' => 'ripristino',
 	'maintenance-createAndPromote' => 'Usa questo modulo per creare un nuovo utente e promuoverlo amministratore (sysop).
 Spunta la casella burocrate se vuoi promuoverlo anche burocrate',
 	'maintenance-createAndPromote-desc' => 'Crea un utente e promuovilo amministratore (sysop)',
+	'maintenance-createAndPromote-option-bureaucrat' => "Promuovi l'utente allo status di burocrate",
 	'maintenance-createAndPromote-error-password' => 'Si è verificato un errore con la password inserita: $1',
 	'maintenance-deleteBatch' => 'Usa questo modulo per cancellare pagine in blocco.
 Indica solo una pagina per riga',
@@ -6968,6 +6972,7 @@ Itinitigil ang paglilipat',
 );
 
 /** Turkish (Türkçe)
+ * @author Erdemaslancan
  * @author Karduelis
  * @author Suelnur
  * @author Vito Genovese
@@ -6982,6 +6987,7 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 	'maintenance-generic-username' => 'Kullanıcı adı',
 	'maintenance-generic-password' => 'Parola',
 	'maintenance-option-confirm' => 'Onayla',
+	'maintenance-option-optional' => '(isteğe bağlı)',
 	'maintenance-changePassword-desc' => 'Bir kullanıcının parolasını değiştir',
 	'maintenance-deleteBatch-desc' => 'Sayfaları toplu sil',
 	'maintenance-deleteRevision-desc' => 'Sürümleri veritabanından kaldır',
