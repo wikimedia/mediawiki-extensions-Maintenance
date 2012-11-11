@@ -481,11 +481,18 @@ $messages['qqq'] = array(
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
+	'maintenance-cleanupSpam-output-done' => '{{notranslate}}',
 	'maintenance-cleanupSpam-error-invalid' => '*$1 - provided hostname',
 	'maintenance-cleanupSpam-error-noid' => '*$1 - page ID',
 	'maintenance-clear_interwiki_cache-desc' => 'Used as description',
+	'maintenance-clear_interwiki_cache-done' => '{{notranslate}}',
 	'maintenance-createAndPromote-desc' => 'Used as description',
+	'maintenance-createAndPromote-option-username' => '{{notranslate}}',
+	'maintenance-createAndPromote-option-password' => '{{notranslate}}',
 	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.',
+	'maintenance-createAndPromote-output-done' => '{{notranslate}}',
+	'maintenance-createAndPromote-error-invalid' => '{{notranslate}}',
+	'maintenance-createAndPromote-error-exists' => '{{notranslate}}',
 	'maintenance-createAndPromote-error-password' => '$1 can be one of the following:
 * {{msg-mw|password-change-forbidden}}
 * {{msg-mw|passwordtooshort}}
@@ -2848,6 +2855,7 @@ $messages['gv'] = array(
  * @author Amire80
  * @author Rotemliss
  * @author YaronSh
+ * @author חיים
  * @author ערן
  */
 $messages['he'] = array(
@@ -2866,6 +2874,7 @@ $messages['he'] = array(
 	'maintenance-cleanupTable-dry-run' => 'הרצה על יבש',
 	'maintenance-cleanupTable-check' => 'בדיקת כותרות פגומות...',
 	'maintenance-cleanupTable-checkfix' => 'בדיקה ותיקון של כותרות פגומות...',
+	'maintenance-cleanupTable-processing' => 'מעבד $1...',
 	'maintenance-cleanupTable-finished' => 'עודכן $1 ...  $2  מתוך $3 {{PLURAL:$3| רשומה|רשומות}}',
 	'maintenance-option-confirm' => 'אישור',
 	'maintenance-option-required' => '(חובה)',
@@ -4342,6 +4351,7 @@ No Falsche Viruleedunge sichen...',
 	'maintenance-cleanupSpam' => 'Benotzt dëse Formulaire fir Spam-Ännerungen zréckzesetzen déi op extern Site linken',
 	'maintenance-cleanupSpam-output-blanking' => 'eidelmaachen',
 	'maintenance-cleanupSpam-output-reverting' => 'zerécksetzen',
+	'maintenance-cleanupSpam-error-noid' => 'Interne Feeler: keng Säit fir ID $1',
 	'maintenance-createAndPromote' => "Dëse Formulaire benotze fir en neie Benotzer unzeleeën a fir him Adminstrateur's-Rechter ze ginn.
 Klickt d'Bürokrate-Këscht u wann Dir wëllt datt en och Bürokrat gi soll.",
 	'maintenance-createAndPromote-desc' => 'E Benotzerkont opmaachen an deem de Statut vun engem Administrateur ginn',
