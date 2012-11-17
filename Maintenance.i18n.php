@@ -1856,6 +1856,7 @@ $messages['eo'] = array(
 /** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
+ * @author Dalton2
  * @author Dferg
  * @author Fitoschido
  * @author Imre
@@ -1982,8 +1983,7 @@ Coloque solamente un número de revisión por línea',
 	'maintenance-initEditCount-desc' => 'Recalcular los conteos de ediciones de los usuarios',
 	'maintenance-initStats' => 'Usar este formulario para recalcular estadísticas del sitio, especificando si deseas recalcular vistas de página también',
 	'maintenance-initStats-desc' => 'Recalcular estadísticas del sitio',
-	'maintenance-moveBatch' => 'Use este formulario para mover páginas en masa.
-Cada línea debería especificar una página fuente y página destino separadas por una barra (“|”)',
+	'maintenance-moveBatch' => 'Use este formulario para trasladar páginas en masa. Cada línea debe especificar una página fuente y página destino separadas por una barra (“|”)',
 	'maintenance-moveBatch-desc' => 'Movilización masiva de páginas',
 	'maintenance-reassignEdits-desc' => 'Reasignar ediciones de un usuario a otro',
 	'maintenance-runJobs-desc' => 'Ejecutar los trabajos de la cola de trabajos',
