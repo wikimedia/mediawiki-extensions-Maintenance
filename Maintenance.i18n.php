@@ -1659,7 +1659,7 @@ $messages['diq'] = array(
 	'maintenance-stats-images' => 'Amariya dosyayan: $1',
 	'maintenance-stats-views' => 'Amariya pelan mocnayış: $1',
 	'maintenance-error' => 'Xırab: $1',
-	'maintenance-memc-requests' => 'Wastışi',
+	'maintenance-memc-requests' => 'Wazteni',
 	'maintenance-memc-diffcache' => 'Ferqê Verhafızi',
 );
 
