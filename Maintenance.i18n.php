@@ -2020,7 +2020,7 @@ Coloque solamente un número de revisión por línea',
 	'maintenance-stats-images' => 'Número de archivos: $1',
 	'maintenance-stats-views' => 'Número de vistas de página: $1',
 	'maintenance-stats-update' => 'Actualizando base de datos...',
-	'maintenance-move' => 'Moviendo $1 a $2...',
+	'maintenance-move' => 'Trasladando $1 a $2...',
 	'maintenance-movefail' => 'Se ha producido un error mientras se trasladaba: $1.
 Se cancela el traslado.',
 	'maintenance-error' => 'Error: $1',
