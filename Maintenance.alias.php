@@ -223,6 +223,11 @@ $specialPageAliases['sa'] = array(
 	'Maintenance' => array( 'निर्वहण' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'Maintenance' => array( 'Manutenzione' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Maintenance' => array( 'Údržba' ),
