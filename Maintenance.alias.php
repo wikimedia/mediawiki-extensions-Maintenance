@@ -193,7 +193,7 @@ $specialPageAliases['nb'] = array(
 	'Maintenance' => array( 'Vedlikehold' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Maintenance' => array( 'Onderhoud' ),
 );
