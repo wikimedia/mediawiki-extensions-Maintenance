@@ -2116,6 +2116,7 @@ $messages['fa'] = array(
  * @author Cimon Avaro
  * @author Crt
  * @author Jack Phoenix
+ * @author Nedergard
  * @author Nike
  * @author Silvonen
  * @author Str4nd
@@ -2130,16 +2131,30 @@ $messages['fi'] = array(
 	'maintenance-header' => 'Valitse suoritettava skripti alapuolelta.
 	Skriptien kuvaukset ovat niiden nimien vieressä',
 	'maintenance-error-invalidtype' => 'Kelvoton tyyppi!', # Fuzzy
+	'maintenance-error-badargs' => 'Kaikkia pakollisia tietoja ei ole annettu.',
 	'maintenance-generic-done' => 'valmis',
 	'maintenance-generic-username' => 'Käyttäjätunnus',
 	'maintenance-generic-password' => 'Salasana',
 	'maintenance-generic-reason' => 'Syy',
+	'maintenance-cleanupTable-dry-run' => 'Tee koeajo',
+	'maintenance-cleanupTable-missingparam' => '$1: Puuttuu parametri $2',
 	'maintenance-option-confirm' => 'Vahvista',
+	'maintenance-option-required' => '(pakollinen)',
+	'maintenance-option-optional' => '(valinnainen)',
 	'maintenance-output-success' => '$1 ajettiin onnistuneesti.',
 	'maintenance-changePassword' => 'Vaihda käyttäjän salasana tällä lomakkeella',
 	'maintenance-changePassword-desc' => 'Muuta käyttäjän salasana',
 	'maintenance-checkBadRedirects-output-footer' => '
 Valmis.',
+	'maintenance-checkImages-output-missing' => '$1: puuttuu',
+	'maintenance-checkImages-output-isdir' => '$1: on hakemisto',
+	'maintenance-checkImages-output-truncated' => '$1: katkaistu, oli $2',
+	'maintenance-checkImages-output-mismatch' => '$1: kokoristiriita: tietokannassa $2, todellinen koko $3',
+	'maintenance-checkSyntax-option-list-file' => 'Tarkistettavien tiedostojen ja hakemistojen luettelo',
+	'maintenance-checkSyntax-output-buildlist' => 'Kootaan tiedostoluetteloa...',
+	'maintenance-checkSyntax-output-warning' => 'Varoitus tiedostossa $1: $2 löytyi',
+	'maintenance-checkSyntax-error-nofile' => 'Virhe: tiedostoa tai hakemistoa $1 ei löytynyt',
+	'maintenance-checkSyntax-error-cantopen' => 'Tiedostoa $1 ei voitu avata',
 	'maintenance-createAndPromote' => 'Käytä tätä lomaketta luodaksesi uuden käyttäjän ja ylentääksesi hänet ylläpitäjäksi.
 Laita myös rasti byrokraatti-laatikkoon jos haluat ylentää käyttäjän byrokraatiksi',
 	'maintenance-createAndPromote-desc' => 'Luo käyttäjä ja lisää ylläpitäjäksi',
