@@ -2144,6 +2144,7 @@ $messages['fi'] = array(
 	'maintenance-output-success' => '$1 ajettiin onnistuneesti.',
 	'maintenance-changePassword' => 'Vaihda käyttäjän salasana tällä lomakkeella',
 	'maintenance-changePassword-desc' => 'Muuta käyttäjän salasana',
+	'maintenance-changePassword-error-nouser' => 'Käyttäjää ei ole: $1',
 	'maintenance-checkBadRedirects-output-footer' => '
 Valmis.',
 	'maintenance-checkImages-output-missing' => '$1: puuttuu',
