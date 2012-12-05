@@ -7054,6 +7054,7 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 );
 
 /** Ukrainian (українська)
+ * @author Base
  * @author Prima klasy4na
  * @author Тест
  */
@@ -7062,6 +7063,28 @@ $messages['uk'] = array(
 	'maintenance-desc' => '[[Special:Maintenance|Вікі інтерфейс]] для різноманітних скриптів обслуговування',
 	'right-maintenance' => 'Запуск скриптів обслуговування через [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Повернутися до вибору скрипту',
+	'maintenance-header' => 'Будь ласка, оберіть скрипт для виконання. Описи поруч із кожним скриптом',
+	'maintenance-error-badini' => 'Файл metadata.ini пошкоджено або відсутній. Будь ласка, завантажте розширення Maintenance знову',
+	'maintenance-error-invalidtype' => 'Вказаний скрипт не знайдено',
+	'maintenance-error-badargs' => 'Ви не вказали всі необхідні параметри',
+	'maintenance-generic-done' => 'виконано',
+	'maintenance-generic-username' => "Ім'я користувача",
+	'maintenance-generic-password' => 'Пароль',
+	'maintenance-generic-reason' => 'Причина',
+	'maintenance-cleanupTable-dry-run' => 'Виконати тестовий запуск',
+	'maintenance-cleanupTable-check' => 'Перевірка на погані назви…',
+	'maintenance-cleanupTable-checkfix' => 'Перевірка і заміна поганих назв…',
+	'maintenance-cleanupTable-progress' => '$1 $2: $3% зроблено на $4; ETA $5 [$6/$7] $8/сек. <$9% оновлено>',
+	'maintenance-cleanupTable-missingparam' => '$1: Відсутній параметр $2',
+	'maintenance-cleanupTable-processing' => 'Обробка $1…',
+	'maintenance-cleanupTable-finished' => 'Завершено $1… $2 {{PLURAL:$3|рядок|рядки|рядків}} із $3 оновлено',
+	'maintenance-option-quiet' => 'Показувати лише помилки',
+	'maintenance-option-globals' => 'Виводить глобальні змінні у кінці процесу відладки.',
+	'maintenance-option-confirm' => 'Підтвердити',
+	'maintenance-option-required' => "(обов'язково)",
+	'maintenance-option-optional' => "(необов'язково)",
+	'maintenance-output-success' => '$1 успішно виконано!',
+	'maintenance-output-failure' => 'Не вдалося виконати $1!',
 	'maintenance-initEditCount-desc' => 'Перерахувати кількість редагувань користувачів',
 	'maintenance-initStats-desc' => 'Перерахувати статистику сайту',
 	'maintenance-invalidname' => "Неправильне ім'я користувача!",
