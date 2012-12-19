@@ -362,7 +362,7 @@ Aborting move',
  */
 $messages['qqq'] = array(
 	'maintenance' => 'Special page title and what is shown in [[Special:SpecialPages]]',
-	'maintenance-desc' => '{{desc}}',
+	'maintenance-desc' => '{{desc|name=Maintenance|url=http://www.mediawiki.org/wiki/Extension:Maintenance}}',
 	'right-maintenance' => '{{doc-right|maintenance}}',
 	'maintenance-backlink' => 'This text is shown in the link back to the list of runnable maintenance scripts',
 	'maintenance-header' => 'This text is shown in the top of the list of runnable maintenance scripts, prompting the user to choose a script to run',
