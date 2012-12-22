@@ -2066,9 +2066,12 @@ $messages['et'] = array(
 	'maintenance-generic-username' => 'Kasutajanimi',
 	'maintenance-generic-password' => 'Parool',
 	'maintenance-generic-reason' => 'Põhjus',
+	'maintenance-option-confirm' => 'Kinnita',
 	'maintenance-changePassword-desc' => 'Muuda kasutaja parool',
 	'maintenance-checkBadRedirects-output-footer' => 'Valmis.',
 	'maintenance-deleteBatch-desc' => 'Lehekülgede lauskustutamine',
+	'maintenance-invalidname' => 'Vigane kasutajanimi!',
+	'maintenance-userexists' => 'Kasutaja on juba olemas!',
 	'maintenance-deleted' => 'KUSTUTATUD',
 	'maintenance-re-nf' => 'Kasutajat $1 ei leidu',
 );
@@ -3532,6 +3535,7 @@ Le renomination es abortate.',
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Farras
  * @author IvanLanin
  * @author Kandar
  * @author Rex
@@ -3576,6 +3580,7 @@ Deskripsi tersedia di samping masing-masing skrip',
 	'maintenance-attachLatest-output-dryrun' => 'Ini adalah pengujian dasar; jalankan kembali dengan "{{int:maintenance-attachLatest-option-fix}}" untuk memperbarui page_latest.',
 	'maintenance-changePassword' => 'Gunakan formulir ini untuk mengubah kata sandi pengguna',
 	'maintenance-changePassword-desc' => 'Ubah kata sandi pengguna',
+	'maintenance-checkBadRedirects-output-footer' => 'Selesai.',
 	'maintenance-createAndPromote' => 'Gunakan formulir ini untuk membuat pengguna baru dan mempromosikannya menjadi pengurus.
 Cek kotak birokrat jika Anda ingin mempromosikannya juga sebagai birokrat',
 	'maintenance-createAndPromote-desc' => 'Buat seorang pengguna dan promosikan menjadi pengurus',
@@ -4026,6 +4031,7 @@ $messages['ka'] = array(
 	'maintenance-userexists' => 'მომხმარებელი უკვე არსებობს!',
 	'maintenance-invalidtitle' => 'არასწორი სათაური "$1"!',
 	'maintenance-titlenoexist' => 'მითითებული სათაური ("$1") არ არსებობს!',
+	'maintenance-failed' => 'წარუმატებელია',
 	'maintenance-deleted' => 'წაშლილია',
 	'maintenance-stats-edits' => 'რედაქტირებების რაოდენობა: $1',
 	'maintenance-stats-articles' => 'გვერდების რაოდენობა ძირითად სახელთა სივცეში: $1',
@@ -5989,6 +5995,8 @@ Descrierile se află în apropierea fiecărui script',
 	'maintenance-generic-username' => 'Nume de utilizator',
 	'maintenance-generic-password' => 'Parolă',
 	'maintenance-generic-reason' => 'Motiv',
+	'maintenance-cleanupTable-check' => 'Se caută titlurile rele...',
+	'maintenance-cleanupTable-checkfix' => 'Se verifică și se corectează titlurile rele...',
 	'maintenance-cleanupTable-processing' => 'Se procesează $1...',
 	'maintenance-option-confirm' => 'Confirmă',
 	'maintenance-option-required' => '(obligatoriu)',
@@ -6001,8 +6009,17 @@ Descrierile se află în apropierea fiecărui script',
 	'maintenance-changePassword-output-set' => 'Parola setată pentru $1',
 	'maintenance-checkBadRedirects-output-footer' => '
 Realizat.',
+	'maintenance-checkImages-output-noaccess' => '$1: inaccesibil local',
 	'maintenance-checkImages-output-missing' => '$1: lipsește',
+	'maintenance-checkImages-output-isdir' => '$1: este un director',
+	'maintenance-checkImages-output-good' => 'Imagini bune: $1/$2',
 	'maintenance-checkSyntax-output-buildlist' => 'Se construiește lista de fișiere...',
+	'maintenance-checkSyntax-output-error' => 'Eroare în $1, linia $2: $3',
+	'maintenance-checkSyntax-output-warning' => 'Avertisment în fișierul $1: $2 găsit',
+	'maintenance-checkSyntax-error-cantopen' => 'Imposibil de deschis fișierul $1',
+	'maintenance-checkUsernames-error-notvalid' => 'Nume de utilizator incorect: „$3” (ID utilizator $2)',
+	'maintenance-cleanupCaps-output-islower' => '„$1” deja în minuscule.',
+	'maintenance-cleanupSpam-output-reverting' => 'revenire',
 	'maintenance-createAndPromote' => 'Utilizați acest formular pentru a crea un nou utilizator și a-l promova la statutul de administrator.
 Bifați și caseta „birocrat” dacă doriți să-l promovați și la statutul de birocrat',
 	'maintenance-createAndPromote-desc' => 'Creează un utilizator și promovează-l la statutul de administrator',
@@ -6267,10 +6284,20 @@ $messages['si'] = array(
 	'maintenance-option-confirm' => 'තහවුරු කරන්න',
 	'maintenance-option-required' => '(අවශ්‍යයි)',
 	'maintenance-option-optional' => '(වෛකල්පිත)',
+	'maintenance-changePassword-error-nouser' => 'පරිශීලකයෙකු නැත: $1',
 	'maintenance-checkBadRedirects-output-footer' => 'හරි.',
+	'maintenance-checkImages-output-good' => 'හොද පින්තූර : $1/$2',
+	'maintenance-checkSyntax-output-buildlist' => 'ගොනු ලැයිස්තුව තනමින්...',
+	'maintenance-cleanupSpam-output-blanking' => 'ශුන්‍ය කරමින්',
+	'maintenance-cleanupSpam-output-reverting' => 'ප්‍රතිවර්තනය කරමින්',
+	'maintenance-invalidname' => 'වලංගු නොවන පරිශීලක නාමය!',
+	'maintenance-userexists' => 'පරිශීලක දැනටමත් පවතියි!',
 	'maintenance-error' => 'දෝෂය: $1',
 	'maintenance-memc-requests' => 'අයදුම්',
+	'maintenance-memc-withsession' => 'සැසියක් සමඟ:',
 	'maintenance-memc-total' => 'එකතුව:',
+	'maintenance-memc-invalid' => 'වලංගු නැති:',
+	'maintenance-memc-expired' => 'ඉකුත් වූ:',
 	'maintenance-memc-updates' => 'යාවත්කාලීන:',
 );
 
@@ -7056,6 +7083,7 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 /** Ukrainian (українська)
  * @author Base
  * @author Prima klasy4na
+ * @author Steve.rusyn
  * @author Тест
  */
 $messages['uk'] = array(
@@ -7081,10 +7109,12 @@ $messages['uk'] = array(
 	'maintenance-option-quiet' => 'Показувати лише помилки',
 	'maintenance-option-globals' => 'Виводить глобальні змінні у кінці процесу відладки.',
 	'maintenance-option-confirm' => 'Підтвердити',
+	'maintenance-option-batch-size' => 'Запуск усіх цих операцій у пакеті, за замовчуванням: $1',
 	'maintenance-option-required' => "(обов'язково)",
 	'maintenance-option-optional' => "(необов'язково)",
 	'maintenance-output-success' => '$1 успішно виконано!',
 	'maintenance-output-failure' => 'Не вдалося виконати $1!',
+	'maintenance-checkSyntax-output-buildlist' => 'Побудова списку файлів...',
 	'maintenance-initEditCount-desc' => 'Перерахувати кількість редагувань користувачів',
 	'maintenance-initStats-desc' => 'Перерахувати статистику сайту',
 	'maintenance-invalidname' => "Неправильне ім'я користувача!",
@@ -7107,6 +7137,8 @@ $messages['uk'] = array(
 	'maintenance-memc-parsercache' => 'Кеш парсера',
 	'maintenance-memc-imagecache' => 'Кеш зображень',
 	'maintenance-re-nf' => 'Користувача $1 не знайдено',
+	'maintenance-re-ce' => 'Поточні редагування: $1',
+	'maintenance-re-de' => 'Вилучені редагування: $1',
 );
 
 /** Urdu (اردو)
