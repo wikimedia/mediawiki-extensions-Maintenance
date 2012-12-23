@@ -796,6 +796,18 @@ Oldu.',
 	'maintenance-memc-total' => 'ümumi:',
 );
 
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'maintenance-invalidname' => 'Яңылыш ҡатнашыусы исеме!',
+	'maintenance-userexists' => 'Ҡатнашыусы бар инде!',
+	'maintenance-invalidtitle' => 'Хаталы исем "$1"!',
+	'maintenance-titlenoexist' => 'Күрһәтелгән исем ("$1") юҡ!',
+	'maintenance-failed' => 'УҢЫШҺЫҘ!',
+	'maintenance-deleted' => 'ЮЙЫЛДЫ',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
@@ -3581,6 +3593,7 @@ Deskripsi tersedia di samping masing-masing skrip',
 	'maintenance-changePassword' => 'Gunakan formulir ini untuk mengubah kata sandi pengguna',
 	'maintenance-changePassword-desc' => 'Ubah kata sandi pengguna',
 	'maintenance-checkBadRedirects-output-footer' => 'Selesai.',
+	'maintenance-checkSyntax-error-cantopen' => 'Gagal membuka berkas $1',
 	'maintenance-createAndPromote' => 'Gunakan formulir ini untuk membuat pengguna baru dan mempromosikannya menjadi pengurus.
 Cek kotak birokrat jika Anda ingin mempromosikannya juga sebagai birokrat',
 	'maintenance-createAndPromote-desc' => 'Buat seorang pengguna dan promosikan menjadi pengurus',
@@ -3661,6 +3674,7 @@ Pemindahan dibatalkan',
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
+ * @author F. Cosoleto
  * @author Gianfranco
  * @author Pietrodn
  */
@@ -3688,6 +3702,8 @@ Le descrizioni sono riportate a fianco di ciascuno script',
 	'maintenance-option-optional' => '(opzionale)',
 	'maintenance-output-success' => '$1 eseguito con successo!',
 	'maintenance-output-failure' => '$1 non è stato eseguito con successo!',
+	'maintenance-attachLatest' => 'Usa questo modulo per correggere le voci nella tabella della pagina dove page_latest è impostato a 0',
+	'maintenance-attachLatest-output-begin' => 'Ricerca delle pagine con page_latest impostato a 0...',
 	'maintenance-attachLatest-output-done' => 'Fatto! Elaborate $1 {{PLURAL:$1|pagina|pagine}}.',
 	'maintenance-benchmarkPurge-output-numsquids' => "{{PLURAL:$1|C'è un server Squid definito|Ci sono $1 server Squid definiti}}:",
 	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|titolo|titoli}} in $2ms ($3ms ciascuno)',
@@ -4460,6 +4476,30 @@ Réckelen ofgebrach',
  */
 $messages['lfn'] = array(
 	'maintenance-stats-edits' => 'Numero de cambias: $1',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'maintenance-generic-done' => 'atlikta',
+	'maintenance-generic-username' => 'Vartotojo vardas',
+	'maintenance-generic-password' => 'Slaptažodis',
+	'maintenance-generic-reason' => 'Priežastis',
+	'maintenance-option-confirm' => 'Patvirtinti',
+	'maintenance-option-required' => '(privaloma)',
+	'maintenance-option-optional' => '(nebūtinas)',
+	'maintenance-checkBadRedirects-output-footer' => '
+Atlikta.',
+	'maintenance-invalidname' => 'Negalimas vartotojo vardas!',
+	'maintenance-userexists' => 'Vartotojas jau egzistuoja!',
+	'maintenance-failed' => 'NEPAVYKO',
+	'maintenance-deleted' => 'IŠTRINTA',
+	'maintenance-error' => 'Klaida: $1',
+	'maintenance-memc-requests' => 'Prašymai',
+	'maintenance-memc-total' => 'iš viso:',
+	'maintenance-memc-invalid' => 'netinkamas:',
+	'maintenance-memc-expired' => 'baigiasi:',
 );
 
 /** Macedonian (македонски)
@@ -6274,6 +6314,7 @@ $messages['ru'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
@@ -6292,13 +6333,17 @@ $messages['si'] = array(
 	'maintenance-cleanupSpam-output-reverting' => 'ප්‍රතිවර්තනය කරමින්',
 	'maintenance-invalidname' => 'වලංගු නොවන පරිශීලක නාමය!',
 	'maintenance-userexists' => 'පරිශීලක දැනටමත් පවතියි!',
+	'maintenance-stats-images' => 'ගොනු සංඛ්‍යාව: $1',
 	'maintenance-error' => 'දෝෂය: $1',
 	'maintenance-memc-requests' => 'අයදුම්',
 	'maintenance-memc-withsession' => 'සැසියක් සමඟ:',
+	'maintenance-memc-withoutsession' => 'සැසියක් නොමැතිව:',
 	'maintenance-memc-total' => 'එකතුව:',
 	'maintenance-memc-invalid' => 'වලංගු නැති:',
 	'maintenance-memc-expired' => 'ඉකුත් වූ:',
 	'maintenance-memc-updates' => 'යාවත්කාලීන:',
+	'maintenance-re-nf' => '$1 පරිශීලක හමුනොවුණි',
+	'maintenance-re-de' => 'මකාදැමූ සංස්කරණ: $1',
 );
 
 /** Slovak (slovenčina)
