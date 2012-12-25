@@ -2085,6 +2085,7 @@ $messages['et'] = array(
 	'maintenance-invalidname' => 'Vigane kasutajanimi!',
 	'maintenance-userexists' => 'Kasutaja on juba olemas!',
 	'maintenance-deleted' => 'KUSTUTATUD',
+	'maintenance-error' => 'Tõrge: $1',
 	'maintenance-re-nf' => 'Kasutajat $1 ei leidu',
 );
 
@@ -3895,7 +3896,7 @@ $messages['ja'] = array(
 	'maintenance-checkImages-output-good' => '正常な画像: $1/$2',
 	'maintenance-checkSyntax' => 'このフォームを使用して MediaWiki のすべての PHP ファイルの構文をチェックする',
 	'maintenance-checkSyntax-desc' => 'MediaWiki のすべての PHP ファイルの構文をチェックする',
-	'maintenance-checkSyntax-option-with-extensions' => '拡張機能のフォルダに対しても再帰的に実行する',
+	'maintenance-checkSyntax-option-with-extensions' => '拡張機能のフォルダーに対しても再帰的に実行する',
 	'maintenance-checkSyntax-option-list-file' => 'チェックするファイルまたはディレクトリの一覧',
 	'maintenance-checkSyntax-option-modified' => '変更されたファイルのみをチェックする (svn コマンドライン クライアントが必要)',
 	'maintenance-checkSyntax-option-syntax-only' => '構文が正しいことのみをチェックして、スタイルの警告をスキップする',
@@ -4843,6 +4844,44 @@ $messages['ms'] = array(
 	'maintenance-option-optional' => '(tidak wajib)',
 	'maintenance-failed' => 'GAGAL',
 	'maintenance-deleted' => 'DIHAPUSKAN',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'maintenance-generic-username' => 'Isem tal-utent',
+	'maintenance-generic-password' => 'Password',
+	'maintenance-generic-reason' => 'Raġuni',
+	'maintenance-option-confirm' => 'Ikkonferma',
+	'maintenance-option-required' => '(bżonnjuż)',
+	'maintenance-option-optional' => '(opzjonali)',
+	'maintenance-checkImages' => 'Uża din il-formola sabiex tara liema stampi fil-wiki tiegħek huma korrotti',
+	'maintenance-checkImages-desc' => 'Tiċċekkja l-istampi biex tara jekk jeżistux, jekk jistgħux jinqraw, etċ.',
+	'maintenance-checkImages-output-noaccess' => "$1: mhuwiex aċċessibbli b'mod lokali",
+	'maintenance-checkImages-output-missing' => '$1: nieqes',
+	'maintenance-checkImages-output-isdir' => '$1: dan huwa direttorju',
+	'maintenance-checkImages-output-good' => 'Stampi tajbin: $1/$2',
+	'maintenance-checkSyntax' => "Uża din il-formola sabiex tiċċekkja s-sintassi tal-fajls kollha tal-PHP f'MediaWiki",
+	'maintenance-checkSyntax-desc' => "Tiċċekkja s-sintassi għal kull fajls PHP f'MediaWiki",
+	'maintenance-invalidtitle' => 'It-titlu "$1" huwa ħażin!',
+	'maintenance-titlenoexist' => 'It-titlu li tajt ("$1") ma jeżistix!',
+	'maintenance-failed' => 'FALLA',
+	'maintenance-deleted' => 'IMĦASSAR',
+	'maintenance-revdelete' => 'Tħassir tar-{{PLURAL:$3|reviżjoni|reviżjonijiet}} $1 mill-wiki $2',
+	'maintenance-revnotfound' => 'Ir-reviżjoni $1 ma nstabitx!',
+	'maintenance-stats-edits' => "Numru ta' modifiki: $1",
+	'maintenance-stats-articles' => "Numru ta' paġni fl-ispazju tal-isem prinċipali: $1",
+	'maintenance-stats-pages' => "Numru ta' paġni: $1",
+	'maintenance-stats-users' => "Numru ta' utenti: $1",
+	'maintenance-stats-admins' => "Numru ta' amministraturi: $1",
+	'maintenance-stats-images' => "Numru ta' fajls: $1",
+	'maintenance-stats-views' => "Numru ta' żjajjar ta' paġni: $1",
+	'maintenance-stats-update' => 'Għaddej l-aġġornament tad-databażi{{int:ellipsis}}',
+	'maintenance-move' => "Għaddejja it-tmexxija ta' $1 lejn $2{{int:ellipsis}}",
+	'maintenance-error' => 'Żball: $1',
+	'maintenance-memc-fake' => "Qiegħed tesegwixxi FakeMemCachedClient. L-ebda statistika m'hi mogħtija",
+	'maintenance-memc-requests' => 'Rikjesti',
 );
 
 /** Erzya (эрзянь)
@@ -7159,6 +7198,10 @@ $messages['uk'] = array(
 	'maintenance-option-optional' => "(необов'язково)",
 	'maintenance-output-success' => '$1 успішно виконано!',
 	'maintenance-output-failure' => 'Не вдалося виконати $1!',
+	'maintenance-attachLatest' => 'Використовуйте цю форму для виправлення записів у таблиці сторінок, де page_latest встановлено у 0',
+	'maintenance-attachLatest-desc' => 'Виправити записи page_latest у таблиці сторінок',
+	'maintenance-attachLatest-option-fix' => 'Справді виправити записи, чи виконати тестовий запуск',
+	'maintenance-attachLatest-output-begin' => 'Пошук сторінок із page_latest встановленим у 0…',
 	'maintenance-checkSyntax-output-buildlist' => 'Побудова списку файлів...',
 	'maintenance-initEditCount-desc' => 'Перерахувати кількість редагувань користувачів',
 	'maintenance-initStats-desc' => 'Перерахувати статистику сайту',
