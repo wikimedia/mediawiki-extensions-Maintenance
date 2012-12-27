@@ -3245,6 +3245,7 @@ Přesunjenje přetorhnjene',
 
 /** Hungarian (magyar)
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -3273,6 +3274,12 @@ Minden parancsfájl mellett megtalálható a leírása',
 	'maintenance-changePassword-output-set' => '$1 jelszava beállítva',
 	'maintenance-checkBadRedirects-output-footer' => '
 Kész.',
+	'maintenance-checkImages-output-noaccess' => '$1: helyileg nem elérhető',
+	'maintenance-checkImages-output-missing' => '$1: hiányzik',
+	'maintenance-checkImages-output-isdir' => '$1: könyvtár',
+	'maintenance-checkImages-output-truncated' => '$1: csonkolva erről: $2',
+	'maintenance-checkImages-output-mismatch' => '$1: méret nem stimmel DB=$2, akruális=$3',
+	'maintenance-checkImages-output-good' => 'Jó képek: $1/$2',
 	'maintenance-checkUsernames-error-notvalid' => 'Érvénytelen felhasználónév: „$3” (azonosító: $2)',
 	'maintenance-cleanupCaps-output-islower' => '„$1” már kisbetűs.',
 	'maintenance-cleanupCaps-output-clash' => '„$1” kihagyva; „$2” már létezik',
@@ -6168,7 +6175,14 @@ $messages['roa-tara'] = array(
 	'maintenance-memc-withsession' => "cu 'a sessione:",
 	'maintenance-memc-withoutsession' => 'senze sessione:',
 	'maintenance-memc-total' => 'totale:',
+	'maintenance-memc-hits' => 'cazzaminde:',
 	'maintenance-memc-invalid' => 'invalide:',
+	'maintenance-memc-expired' => 'scadute:',
+	'maintenance-memc-absent' => 'assende:',
+	'maintenance-memc-stub' => "soglie d'u stub:",
+	'maintenance-memc-imagecache' => "Immaggine d'a cache",
+	'maintenance-memc-misses' => 'perdute:',
+	'maintenance-memc-updates' => 'aggiornate:',
 );
 
 /** Russian (русский)
@@ -6849,6 +6863,7 @@ $messages['ta'] = array(
 	'maintenance-changePassword-desc' => 'ஒரு பயனரின் கடவுச்சொல்லை மாற்று',
 	'maintenance-changePassword-error-nouser' => '"$1" என்று ஒரு பயனர் இல்லை.',
 	'maintenance-checkBadRedirects-output-footer' => 'முடிந்தது.',
+	'maintenance-checkImages-output-isdir' => '$1: ஒரு கோப்புறை ஆகும்.',
 	'maintenance-checkImages-output-good' => 'நற்படிமங்கள்: $1/$2',
 	'maintenance-checkSyntax-output-buildlist' => 'கோப்புப் பட்டியல் உருவாக்கப்படுகிறது...',
 	'maintenance-checkSyntax-error-cantopen' => '$1 கோப்பைத் திறக்க முடியவில்லை.',
