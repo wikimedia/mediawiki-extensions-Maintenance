@@ -1383,6 +1383,7 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jkjk
+ * @author Vks
  */
 $messages['cs'] = array(
 	'maintenance' => 'Spustit skripty údržby',
@@ -1397,13 +1398,17 @@ $messages['cs'] = array(
 	'maintenance-generic-username' => 'Uživatelské jméno',
 	'maintenance-generic-password' => 'Heslo',
 	'maintenance-generic-reason' => 'Důvod',
+	'maintenance-cleanupTable-dry-run' => 'Provedení nanečisto',
 	'maintenance-cleanupTable-check' => 'Hledám špatné názvy stránek...',
 	'maintenance-cleanupTable-checkfix' => 'Hledám a opravuji špatné názvy stránek...',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% hotovo z $4; předpokládaný konec v $5 [$6/$7] $8/sekudnu <$9% změněno>',
 	'maintenance-cleanupTable-missingparam' => '$1: Parametr $2 chybí',
 	'maintenance-cleanupTable-processing' => 'Zpracovává se $1...',
 	'maintenance-cleanupTable-finished' => 'Hotovo $1... $2 z $3 {{PLURAL:$3|řádku|řádků}} opraveno',
+	'maintenance-option-quiet' => 'Potlačit nechybový výstup',
+	'maintenance-option-globals' => 'Vypsat globální proměnné na konci zpracování při ladění',
 	'maintenance-option-confirm' => 'Potvrdit',
+	'maintenance-option-batch-size' => 'Spusťte tolik operací v dávce, výchozí:$1',
 	'maintenance-option-required' => '(vyžadováno)',
 	'maintenance-option-optional' => '(volitelné)',
 	'maintenance-output-success' => '$1 úspěšně proběhl!',
@@ -1428,12 +1433,26 @@ Hledám chybná přesměrování',
 	'maintenance-checkImages-output-truncated' => '$1: zkrácený, byl $2',
 	'maintenance-checkImages-output-mismatch' => '$1: velikost je rozdílná - v databázi $2, současná $3',
 	'maintenance-checkImages-output-good' => 'Správné obrázky: $1/$2',
+	'maintenance-checkSyntax-output-svnlist' => 'Načítám seznam ze Subversion...',
+	'maintenance-checkSyntax-output-buildlist' => 'Vytvářím seznam souborů...',
+	'maintenance-checkUsernames-desc' => 'Ověřit, že databázové přihlašovací jména jsou skutečně platná.',
+	'maintenance-checkUsernames-error-notvalid' => 'Neplatné uživatelské jméno: „$3“ (uživatelské id $2)',
+	'maintenance-cleanupCaps-output-islower' => '„$1“ už je malými písmeny.',
+	'maintenance-cleanupSpam-option-hostname' => 'Název hostitele, který spamoval',
+	'maintenance-cleanupSpam-output-false' => 'Falešná shoda',
+	'maintenance-cleanupSpam-output-reverting' => 'vracení zpět',
+	'maintenance-deleteBatch-desc' => 'Hromadné mazání stránek',
+	'maintenance-moveBatch-desc' => 'Hromadný přesun stránek',
+	'maintenance-sql-desc' => 'Vykonat SQL dotaz',
+	'maintenance-sql-option-file' => 'SQL k provedení',
+	'maintenance-sql-error-cantopen' => 'Nelze otevřít vstupní soubor',
 	'maintenance-noviews' => 'Označit tady, aby se neaktualizoval počet zobrazení stránky',
 	'maintenance-invalidname' => 'Neplatné uživatelské jméno!',
 	'maintenance-userexists' => 'Uživatel již existuje!',
 	'maintenance-invalidtitle' => 'Nesprávný název „$1“!',
 	'maintenance-titlenoexist' => 'Zadaný název „$1“ neexistuje!',
 	'maintenance-failed' => 'SELHALO', # Fuzzy
+	'maintenance-deleted' => 'ODSTRANĚNO',
 	'maintenance-revdelete' => '{{PLURAL:$3|Maže se verze|Mažou se verze}} $1 z wiki $2',
 	'maintenance-revnotfound' => 'Verze $1 nenalezena!',
 	'maintenance-stats-edits' => 'Počet editací: $1',
@@ -1443,6 +1462,20 @@ Hledám chybná přesměrování',
 	'maintenance-stats-admins' => 'Počet správců: $1',
 	'maintenance-stats-images' => 'Počet souborů: $1',
 	'maintenance-stats-views' => 'Počet zobrazení stránek: $1',
+	'maintenance-memc-requests' => 'Požadavky',
+	'maintenance-memc-total' => 'celkem:',
+	'maintenance-memc-parsercache' => 'Mezipaměť parseru',
+	'maintenance-memc-hits' => 'zásahy:',
+	'maintenance-memc-invalid' => 'neplatné:',
+	'maintenance-memc-expired' => 'vypršelé:',
+	'maintenance-memc-absent' => 'chybí:',
+	'maintenance-memc-stub' => 'hranice velikosti pahýlu',
+	'maintenance-memc-imagecache' => 'Předstažené obrázky',
+	'maintenance-memc-misses' => 'netrefené:',
+	'maintenance-memc-updates' => 'aktualizace:',
+	'maintenance-memc-uncacheable' => 'nekešovatelné:',
+	'maintenance-memc-diffcache' => 'Vyrovnávací paměť pro porovnávání',
+	'maintenance-re-nf' => 'Uživatel $1 nebyl nalezen',
 );
 
 /** German (Deutsch)
@@ -2474,8 +2507,9 @@ Déplacement interrompu.',
 $messages['frp'] = array(
 	'maintenance' => 'Lanciér los scriptes de mantegnence',
 	'maintenance-backlink' => 'Retôrn u chouèx du scripte',
+	'maintenance-error-invalidtype' => 'Lo scripte spècifiâ est pas étâ trovâ',
 	'maintenance-generic-done' => 'fêt',
-	'maintenance-generic-username' => 'Nom d’usanciér',
+	'maintenance-generic-username' => 'Nom d’utilisator',
 	'maintenance-generic-password' => 'Contresegno',
 	'maintenance-generic-reason' => 'Rêson',
 	'maintenance-cleanupTable-dry-run' => 'Fâre un passâjo sen changiér la bâsa de balyês',
@@ -2484,15 +2518,15 @@ $messages['frp'] = array(
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% fêt(s) sur $4 ; ETA $5 [$6/$7] $8/sec <$9% betâ a jorn>',
 	'maintenance-cleanupTable-missingparam' => '$1 : paramètre manquent $2',
 	'maintenance-cleanupTable-processing' => 'En cors de trètament $1...',
-	'maintenance-cleanupTable-finished' => 'Chavonâ $1... $2 sur $3 legnes betâs a jorn', # Fuzzy
+	'maintenance-cleanupTable-finished' => 'Chavonâ $1... $2 sur $3 {{PLURAL:$3|legne betâye|legnes betâyes}} a jorn',
 	'maintenance-option-quiet' => 'Suprimar la sortia de tot cen qu’est pas una èrror',
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-option-required' => '(nècèssèro)',
 	'maintenance-option-optional' => '(u chouèx)',
 	'maintenance-output-success' => '$1 s’est dèroulâ avouéc reusséta !',
 	'maintenance-output-failure' => '$1 s’est pas dèroulâ avouéc reusséta !',
-	'maintenance-attachLatest-output-done' => 'Fêt ! $1 pâges trètâs.', # Fuzzy
-	'maintenance-benchmarkPurge-output-trial' => '$1 titros en $2 ms ($3 ms châque)', # Fuzzy
+	'maintenance-attachLatest-output-done' => 'Fêt ! $1 {{PLURAL:$1|pâge trètâye|pâges trètâyes}}.',
+	'maintenance-benchmarkPurge-output-trial' => '$1 titro{{PLURAL:$1||s}} en $2 ms ($3 ms châcun)',
 	'maintenance-changePassword-desc' => 'Changiér lo contresegno a un usanciér',
 	'maintenance-changePassword-error-nouser' => 'Gins d’usanciér : $1',
 	'maintenance-changePassword-output-set' => 'Contresegno dèfeni por $1',
@@ -2500,8 +2534,8 @@ $messages['frp'] = array(
 	'maintenance-checkAutoLoader-output-list2' => '$1 : crouyo fichiér : trovâ dens $2, listâ dens $3',
 	'maintenance-checkBadRedirects-desc' => 'Rechèrchiér des crouyes redirèccions',
 	'maintenance-checkBadRedirects-output-header' => 'Rècupèracion de les redirèccions...',
-	'maintenance-checkBadRedirects-output-found' => '$1 redirèccions trovâs.
-Rechèrche de les crouyes redirèccions...', # Fuzzy
+	'maintenance-checkBadRedirects-output-found' => '$1 {{PLURAL:$1|redirèccion trovâye|redirèccions trovâyes}}.
+Contrôlo de les crouyes redirèccions...',
 	'maintenance-checkBadRedirects-output-footer' => 'Fêt.',
 	'maintenance-checkImages-output-noaccess' => '$1 : pas accèssibla localament',
 	'maintenance-checkImages-output-missing' => '$1 : absent',
@@ -2518,6 +2552,8 @@ Rechèrche de les crouyes redirèccions...', # Fuzzy
 	'maintenance-cleanupCaps-output-islower' => '« $1 » ja en petiôtes lètres.',
 	'maintenance-cleanupCaps-output-clash' => '« $1 » ignorâ ; « $2 » ègziste ja',
 	'maintenance-cleanupCaps-output-dryrun' => '« $1 » -> « $2 » : FÔRMA ÈPRÔVA, PAS DÈPLACIÊ',
+	'maintenance-cleanupSpam-output-found' => '$1 {{PLURAL:$1|articllo que contint|articllos que contegnont}} $2 trovâ{{PLURAL:$1||s}}',
+	'maintenance-cleanupSpam-output-false' => 'Fôssa corrèspondance',
 	'maintenance-deleteBatch-desc' => 'Suprèssion de pâges en massa',
 	'maintenance-initStats-desc' => 'Tornar calcular les statistiques du seto',
 	'maintenance-moveBatch-desc' => 'Renomâjo de pâges en massa',
@@ -3030,6 +3066,16 @@ $messages['he'] = array(
 	'maintenance-re-rce' => 'רשומות שינויים אחרונים: $1',
 	'maintenance-re-total' => 'סך כל הרשומות לשינוי: $1',
 	'maintenance-re-re' => 'הקצאת העריכות מחדש... בוצעה',
+);
+
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'maintenance-generic-username' => 'सदस्यनाम',
+	'maintenance-generic-password' => 'पासवर्ड',
+	'maintenance-generic-reason' => 'कारण',
+	'maintenance-option-optional' => '(वैकल्पिक)',
 );
 
 /** Croatian (hrvatski)
@@ -5191,7 +5237,7 @@ Bezig met zoeken naar onjuiste doorverwijzingen...',
 	'maintenance-cleanupSpam-error-invalid' => 'Geen geldige hostnaamspecificatie: $1',
 	'maintenance-cleanupSpam-error-noid' => 'Interne fout: geen pagina voor ID $1',
 	'maintenance-clear_interwiki_cache' => 'Gebruik dit formulier om de interwikicache volledig te legen',
-	'maintenance-clear_interwiki_cache-desc' => 'Alle interwikiverwijzingen voor alle talen verwijderen uit de cache',
+	'maintenance-clear_interwiki_cache-desc' => 'Alle interwikikoppelingen voor alle talen verwijderen uit de cache',
 	'maintenance-createAndPromote' => "Gebruik dit formulier om een gebruiker aan te maken en deze beheerder te maken.
 Vink het vakje 'bureaucraat' aan om de gebruik ook bureacraat te maken",
 	'maintenance-createAndPromote-desc' => 'Een nieuwe gebruiker aanmaken en deze beheerder maken',
@@ -5278,6 +5324,17 @@ Hernoemen is afgebroken',
 	'maintenance-re-rce' => 'Regels in recente wijzigingen: $1',
 	'maintenance-re-total' => 'Aantal bij te werken bewerkingen: $1',
 	'maintenance-re-re' => 'Bezig met het toewijzen… Klaar',
+);
+
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'maintenance-error-badargs' => 'Je hebt niet alle verplichte instellingen gemaakt.',
+	'maintenance-checkImages' => 'Gebruik dit formulier om te controleren welke beschadigde bestanden je wiki bevat',
+	'maintenance-createAndPromote-error-password' => 'Er is een fout opgetreden met het wachtwoord dat je hebt opgegeven: $1',
+	'maintenance-runJobs-error-invalidprocs' => 'Je moet een waarde tussen 1 en 1.000 processen opgeven',
+	'maintenance-memc-fake' => 'Je maakt gebruik van FakeMemCachedClient. Het is niet mogelijk statistieken te berekenen',
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
@@ -6492,24 +6549,37 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'maintenance' => 'නඩත්තු කිරීම් කොටස්කර ධාවනය කරන්න',
+	'maintenance-backlink' => 'අක්ෂර තේරීම වෙත නැවතත්',
 	'maintenance-generic-done' => 'සිදුකලා',
 	'maintenance-generic-username' => 'පරිශීලක නාමය',
 	'maintenance-generic-password' => 'මුරපදය',
 	'maintenance-generic-reason' => 'හේතුව',
+	'maintenance-cleanupTable-dry-run' => 'වියළි ධාවනයක් සිදු කරන්න',
+	'maintenance-cleanupTable-check' => 'අයහපත් ශීර්ෂයන් සඳහා පරික්ෂා කරමින්...',
 	'maintenance-cleanupTable-missingparam' => '$1: $2 දක්නට නොමැති පරාමිතිය',
 	'maintenance-cleanupTable-processing' => 'ක්‍රියායනය වෙමින් $1...',
 	'maintenance-option-confirm' => 'තහවුරු කරන්න',
 	'maintenance-option-required' => '(අවශ්‍යයි)',
 	'maintenance-option-optional' => '(වෛකල්පිත)',
+	'maintenance-output-success' => '$1 සාර්ථකව දුවන ලදී!',
+	'maintenance-output-failure' => '$1 සාර්ථකව දුවන නොලදී!',
 	'maintenance-changePassword-desc' => 'පරිශීලකගේ මුරපදය වෙනස් කරන්න',
 	'maintenance-changePassword-error-nouser' => 'පරිශීලකයෙකු නැත: $1',
 	'maintenance-changePassword-output-set' => '$1 සඳහා මුරපදය සකසන ලදී',
+	'maintenance-checkAutoLoader-desc' => 'ස්වයංපූරක සිහිනුවණ පරීක්ෂාවන්',
+	'maintenance-checkBadRedirects-desc' => 'අයහපත් යළියොමුකිරීම් සඳහා පරික්ෂා කරන්න',
+	'maintenance-checkBadRedirects-output-header' => 'යළියොමුකිරීම් පමුණුවමින්...',
 	'maintenance-checkBadRedirects-output-footer' => 'හරි.',
 	'maintenance-checkImages-output-noaccess' => '$1: ස්ථානීය වශයෙන් ප්‍රවේශ විය නොහැක',
 	'maintenance-checkImages-output-missing' => '$1: දක්නට නොමැත',
 	'maintenance-checkImages-output-isdir' => '$1: යනු නාමාවලියකි',
+	'maintenance-checkImages-output-truncated' => '$1: ලුප්තයි, වූයේ $2',
 	'maintenance-checkImages-output-good' => 'හොද පින්තූර : $1/$2',
+	'maintenance-checkSyntax-output-svnlist' => 'පෙරළියෙන් ලැයිස්තුව ලබා ගනිමින්...',
 	'maintenance-checkSyntax-output-buildlist' => 'ගොනු ලැයිස්තුව තනමින්...',
+	'maintenance-checkSyntax-output-error' => '$1 හී දෝෂය පෙළ $2: $3',
+	'maintenance-checkSyntax-output-warning' => '$1 ගොනුවේ අවවාදය: $2 හමුවුණි',
 	'maintenance-checkSyntax-error-cantopen' => '$1 ගොනුව විවෘත කල නොහැක',
 	'maintenance-cleanupCaps-output-islower' => '"$1" දැනටමත් කුඩා අකුරකි.',
 	'maintenance-cleanupCaps-output-clash' => '"$1" මඟහරින ලදී; "$2" දැනටමත් පවතී',
@@ -6519,9 +6589,11 @@ $messages['si'] = array(
 	'maintenance-cleanupSpam-output-reverting' => 'ප්‍රතිවර්තනය කරමින්',
 	'maintenance-cleanupSpam-error-noid' => 'අභ්‍යන්තර දෝෂය: $1 හැඳුනුම සඳහා පිටුවක් නොමැත',
 	'maintenance-deleteBatch-desc' => 'සමස්ත-පිටු මැකුම',
+	'maintenance-initStats-desc' => 'අඩවි සංඛ්‍යාන දත්ත නැවත ගණනය කරන්න',
 	'maintenance-moveBatch-desc' => 'පිටු ගොඩක් ගෙනයාම',
 	'maintenance-runJobs-option-type' => 'ධාවනය කල යුතු කාර්යයේ වර්ගය',
 	'maintenance-runJobs-option-procs' => 'භාවිතයට ගත යුතු ක්‍රියාවලියන් ගණන',
+	'maintenance-sql-desc' => 'SQL ප්‍රශ්නය ක්‍රියාත්මක කරන්න',
 	'maintenance-sql-option-file' => 'සම්පාදනය කල යුතු SQL',
 	'maintenance-sql-error-cantopen' => 'ආදාන ගොනුව විවෘත කල නොහැක',
 	'maintenance-stats-desc' => 'මතකකෑෂිත සංඛ්‍යාලේඛන පෙන්වන්න',
@@ -6530,6 +6602,7 @@ $messages['si'] = array(
 	'maintenance-invalidtitle' => 'වලංගු නොවන ශීර්ෂය "$1"!',
 	'maintenance-failed' => 'අසාර්ථක වූ',
 	'maintenance-deleted' => 'මකා දමන ලද',
+	'maintenance-revnotfound' => '$1 සංශෝධනය හමු නොවුණි!',
 	'maintenance-stats-edits' => 'සංස්කරණ සංඛ්‍යාව: $1',
 	'maintenance-stats-pages' => 'පිටු සංඛ්‍යාව: $1',
 	'maintenance-stats-users' => 'පරිශීලකයන් සංඛ්‍යාව: $1',
@@ -6546,6 +6619,7 @@ $messages['si'] = array(
 	'maintenance-memc-invalid' => 'වලංගු නැති:',
 	'maintenance-memc-expired' => 'ඉකුත් වූ:',
 	'maintenance-memc-absent' => 'අසම්මුඛ:',
+	'maintenance-memc-stub' => 'අක්කඩ ඒළකය:',
 	'maintenance-memc-imagecache' => 'පින්තූර කෑෂය',
 	'maintenance-memc-misses' => 'අතෑරුම්:',
 	'maintenance-memc-updates' => 'යාවත්කාලීන:',
@@ -6554,6 +6628,8 @@ $messages['si'] = array(
 	'maintenance-re-nf' => '$1 පරිශීලක හමුනොවුණි',
 	'maintenance-re-ce' => 'වත්මන් සංස්කරණ: $1',
 	'maintenance-re-de' => 'මකාදැමූ සංස්කරණ: $1',
+	'maintenance-re-rce' => 'මෑතවෙනස්වීම් ඇතුල් කිරීම්: $1',
+	'maintenance-re-total' => 'වෙනස් කිරීමට ඇති සමස්ත ඇතුල් කිරීම්: $1',
 );
 
 /** Slovak (slovenčina)
