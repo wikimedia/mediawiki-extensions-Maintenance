@@ -422,8 +422,9 @@ $messages['qqq'] = array(
 * $3 is the page name
 * $4 is the latest revision time of the page
 * $5 is the latest revision id (number)',
-	'maintenance-attachLatest-output-done' => '"Done!" is identical to {{msg-mw|Done}}.
-* $1 is the number of pages that were processed by this script',
+	'maintenance-attachLatest-output-done' => 'Parameters:
+* $1 - the number of pages that were processed by this script
+{{Identical|Done}}',
 	'maintenance-attachLatest-output-dryrun' => 'Do not translate <code>page_latest</code>.',
 	'maintenance-benchmarkPurge' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.',
 	'maintenance-benchmarkPurge-desc' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable. "Benchmark" refers to measuring how fast something is.',
