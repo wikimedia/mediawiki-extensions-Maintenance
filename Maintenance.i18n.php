@@ -7444,6 +7444,7 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 
 /** Ukrainian (українська)
  * @author Base
+ * @author Olvin
  * @author Prima klasy4na
  * @author Steve.rusyn
  * @author Тест
@@ -7495,11 +7496,11 @@ $messages['uk'] = array(
 	'maintenance-runJobs-option-procs' => 'Кількість процесів для використання',
 	'maintenance-runJobs-error-invalidprocs' => 'Ви повинні вказати від 1 до 1000 процесів',
 	'maintenance-showJobs-desc' => 'Показати список завдань з черги завдань',
-	'maintenance-showJobs-option-group' => 'Показати кількість задач за їхнім типом',
+	'maintenance-showJobs-option-group' => 'Показати кількість задач за типами',
 	'maintenance-sql' => 'Використовуйте цю форму, щоб виконати SQL-запит у базі даних.',
 	'maintenance-sql-desc' => 'Виконати SQL-запит',
 	'maintenance-sql-option-file' => 'SQL для виконання',
-	'maintenance-sql-output-aff' => 'Запит виконано. Опрацьовано {{PLURAL:$1|$1 рядок|$1 рядки|$1 рядків}}.',
+	'maintenance-sql-output-aff' => 'Запит виконано. Оброблено $1 {{PLURAL:$1|рядок|рядки|рядків}}.',
 	'maintenance-sql-error-cantopen' => 'Не вдається відкрити вхідний файл',
 	'maintenance-stats-desc' => 'Показати статистику Memcached',
 	'maintenance-eval' => 'Використовуйте цю форму, щоб перевірити PHP-код в MediaWiki середовищі.',
