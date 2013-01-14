@@ -531,6 +531,7 @@ This message is currently not used in this extension.',
 * $2 is the local wiki id (string containing database name and tables prefix, if any)
 
 This message is currently not used in this extension.',
+	'maintenance-error' => '{{Identical|Error}}',
 	'maintenance-memc-total' => '{{Identical|Total}}
 
 This message is currently not used in this extension.',
