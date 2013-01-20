@@ -1689,6 +1689,7 @@ Verschieben abgebrochen',
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'maintenance-generic-done' => 'qeyd ke',
@@ -1698,7 +1699,7 @@ $messages['diq'] = array(
 	'maintenance-option-optional' => '(opsiyonel)',
 	'maintenance-checkBadRedirects-output-footer' => 'Qeyd ke.',
 	'maintenance-failed' => 'NÊŞA',
-	'maintenance-deleted' => 'BESTERNEYÊ',
+	'maintenance-deleted' => 'ESTERİYA',
 	'maintenance-stats-edits' => 'Amriya vurnayışan: $1',
 	'maintenance-stats-pages' => 'Amariya pelan: $1',
 	'maintenance-stats-users' => 'Amariya karberan: $1',
