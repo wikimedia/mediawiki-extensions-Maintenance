@@ -7748,10 +7748,11 @@ $messages['yi'] = array(
  * @author Simon Shek
  * @author Wrightbus
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'maintenance' => '运行维护脚本',
-	'maintenance-desc' => '各种维护脚本的[[Special:Maintenance|wiki界面]]',
+	'maintenance-desc' => '各种维护脚本的[[Special:Maintenance|wiki接口]]',
 	'right-maintenance' => '通过[[Special:Maintenance]]运行维护脚本',
 	'maintenance-backlink' => '返回到脚本选择',
 	'maintenance-header' => '请在下面选择一个脚本来执行。描述在各脚本的旁边',
