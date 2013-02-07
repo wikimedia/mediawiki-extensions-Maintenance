@@ -188,7 +188,7 @@ $specialPageAliases['mt'] = array(
 	'Maintenance' => array( 'Manteniment' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Maintenance' => array( 'Vedlikehold' ),
 );
