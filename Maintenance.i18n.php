@@ -524,6 +524,7 @@ $messages['qqq'] = array(
 	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
 
 Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
+	'maintenance-failed' => '{{Identical|Failed}}',
 	'maintenance-deleted' => '{{Identical|Deleted}}
 
 This message is currently not used in this extension.',
