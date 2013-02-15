@@ -353,6 +353,7 @@ Aborting move',
  * @author Lloffiwr
  * @author Nemo bis
  * @author Purodha
+ * @author Raymond
  * @author Ryan Schmidt
  * @author Shirayuki
  * @author Siebrand
