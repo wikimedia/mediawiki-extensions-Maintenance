@@ -522,9 +522,13 @@ $messages['qqq'] = array(
 	'maintenance-showCacheStats' => '{{notranslate}}',
 	'maintenance-showCacheStats-desc' => 'Used as description',
 	'maintenance-eval-desc' => 'Used as description',
-	'maintenance-update' => "This message appears next to a checkbox. 'Unchecked' means that the checkbox has not been 'checked'. Words having the same meaning as 'checked' in this sentence are 'marked', 'ticked' and 'selected'.
+	'maintenance-update' => '{{doc-important|Do not translate "<code>UPDATE</code>", "<code>DELETE</code>" or "<code>INSERT</code>".}}
+This message appears next to a checkbox.
 
-Do not translate 'UPDATE', 'DELETE', or 'INSERT'. This message is currently not used in this extension.",
+"Unchecked" means that the checkbox has not been "checked".
+Words having the same meaning as "checked" in this sentence are "marked", "ticked" and "selected".
+
+This message is currently not used in this extension.',
 	'maintenance-failed' => '{{Identical|Failed}}',
 	'maintenance-deleted' => '{{Identical|Deleted}}
 
