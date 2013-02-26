@@ -401,7 +401,8 @@ $messages['qqq'] = array(
 	'maintenance-option-globals' => 'Label for a checkbox',
 	'maintenance-option-confirm' => '{{Identical|Confirm}}',
 	'maintenance-option-batch-size' => 'Label for a text input shown when running a script that has a "batch mode", where a bulk of operations can be run in one script execution. $1 is the default batch size',
-	'maintenance-option-required' => '{{Identical|Required}}. This message is currently not used in the extension',
+	'maintenance-option-required' => 'This message is currently not used in the extension.
+{{Identical|Required}}',
 	'maintenance-option-optional' => 'This message is currently not used in the extension',
 	'maintenance-output-success' => 'Indicates a script ran successfully.
 * $1 is the name of the script',
@@ -530,20 +531,17 @@ Words having the same meaning as "checked" in this sentence are "marked", "ticke
 
 This message is currently not used in this extension.',
 	'maintenance-failed' => '{{Identical|Failed}}',
-	'maintenance-deleted' => '{{Identical|Deleted}}
-
-This message is currently not used in this extension.',
+	'maintenance-deleted' => 'This message is currently not used in this extension.
+{{Identical|Deleted}}',
 	'maintenance-revdelete' => '* $1 is a list of revisions numbers
 * $2 is the local wiki id (string containing database name and tables prefix, if any)
 
 This message is currently not used in this extension.',
 	'maintenance-error' => '{{Identical|Error}}',
-	'maintenance-memc-total' => '{{Identical|Total}}
-
-This message is currently not used in this extension.',
-	'maintenance-memc-hits' => '{{Identical|Hits}}
-
-This message is currently not used in this extension.',
+	'maintenance-memc-total' => 'This message is currently not used in this extension.
+{{Identical|Total}}',
+	'maintenance-memc-hits' => 'This message is currently not used in this extension.
+{{Identical|Hits}}',
 	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.
 
 This message is currently not used in this extension.',
