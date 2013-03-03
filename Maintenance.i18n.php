@@ -1135,7 +1135,7 @@ An diskrivadurioù a vez goude pep hini anezho.',
 	'maintenance-cleanupTable-progress' => '$1 $2 : $3% graet dwar $4; ETA $5 [$6/$7] $8/sec <$9% hizivaet>',
 	'maintenance-cleanupTable-missingparam' => '$1: Arventenn a vank $2',
 	'maintenance-cleanupTable-processing' => 'O plediñ gant $1...',
-	'maintenance-cleanupTable-finished' => 'Echuet $1... $2 diwar $3 linenn hizivaet', # Fuzzy
+	'maintenance-cleanupTable-finished' => 'Echuet $1... $2 diwar $3 {{PLURAL:$3|linenn}} hizivaet',
 	'maintenance-option-confirm' => 'Kadarnaat',
 	'maintenance-option-required' => '(rekis)',
 	'maintenance-option-optional' => '(diret)',
