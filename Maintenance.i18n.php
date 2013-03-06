@@ -1867,6 +1867,13 @@ $messages['el'] = array(
 	'maintenance-re-re' => 'Έγινε επανανάθεση επεξεργασιών{{int:ellipsis}}',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'maintenance-cleanupCaps-desc' => 'Script to cleanup capitalisation',
+);
+
 /** Esperanto (Esperanto)
  * @author Michawiki
  * @author Yekrats
