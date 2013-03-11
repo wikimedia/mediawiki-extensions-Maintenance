@@ -1188,6 +1188,7 @@ Graet.',
 	'maintenance-checkUsernames-error-notvalid' => 'Anv implijer faziek: "$3" (Implijer ID $2)',
 	'maintenance-cleanupCaps-output-islower' => 'Skrivet eo "$1" gant lizherennoù bihan dija.',
 	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": MOD AMPROUIÑ, N\'EO KET BET DILEC\'HIET',
+	'maintenance-cleanupSpam-error-noid' => 'Fazi diabarzh : pajenn ebet evit an ID $1',
 	'maintenance-createAndPromote' => "Implijit ar furmskrid-mañ evit krouiñ un implijer nevez ha lakaat anezhañ da verour.
 Askit al log bureviad ma fell deoc'h reiñ dezhañ ar statud-se ivez.",
 	'maintenance-createAndPromote-desc' => "Krouiñ un implijer hag uhelaat d'ar statud merour",
