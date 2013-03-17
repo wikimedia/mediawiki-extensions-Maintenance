@@ -470,6 +470,7 @@ $messages['qqq'] = array(
 	'maintenance-checkUsernames-desc' => 'Used as description',
 	'maintenance-checkUsernames-error-notvalid' => '*$2 - user ID
 *$3 - username',
+	'maintenance-cleanupCaps' => '{{doc-important|Do not translate <code>$wgCapitalLinks</code>.}}',
 	'maintenance-cleanupCaps-desc' => 'Used as description',
 	'maintenance-cleanupCaps-option-dry-run' => '{{notranslate}}',
 	'maintenance-cleanupCaps-option-namespace' => 'Used as option',
@@ -480,6 +481,7 @@ $messages['qqq'] = array(
 	'maintenance-cleanupCaps-output-processing' => '{{notranslate}}',
 	'maintenance-cleanupCaps-output-finished' => '{{notranslate}}',
 	'maintenance-cleanupCaps-error-missingparam' => '{{notranslate}}',
+	'maintenance-cleanupCaps-error-noneed' => '{{doc-important|Do not translate <code>$wgCapitalLinks</code>.}}',
 	'maintenance-cleanupSpam-desc' => 'Used as description',
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
