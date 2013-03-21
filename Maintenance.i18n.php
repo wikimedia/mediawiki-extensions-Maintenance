@@ -539,6 +539,12 @@ This message is currently not used in this extension.',
 * $2 is the local wiki id (string containing database name and tables prefix, if any)
 
 This message is currently not used in this extension.',
+	'maintenance-move' => '{{doc-important|Do not translate <code><nowiki>{{int:ellipsis}}</nowiki></code>.}}
+Unused at this time. Parameters:
+* $1 - ...
+* $2 - ...',
+	'maintenance-movefail' => 'Unused at this time. Parameters:
+* $1 - ...',
 	'maintenance-error' => '{{Identical|Error}}',
 	'maintenance-memc-total' => 'This message is currently not used in this extension.
 {{Identical|Total}}',
@@ -6365,6 +6371,7 @@ Specificați doar o versiune pe fiecare rând',
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'maintenance' => 'Lange le script de manutenzione',
 	'maintenance-generic-done' => 'fatte',
 	'maintenance-generic-username' => 'Nome utende',
 	'maintenance-generic-password' => 'Passuord',
@@ -6372,10 +6379,23 @@ $messages['roa-tara'] = array(
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% fatte sus a $4; ETA $5 [$6/$7] $8/sec <$9% aggiornate>',
 	'maintenance-cleanupTable-processing' => 'Stoche a processe $1...',
 	'maintenance-option-confirm' => 'Conferme',
+	'maintenance-option-required' => '(richieste)',
+	'maintenance-option-optional' => '(opzionale)',
 	'maintenance-output-success' => '$1 eseguite cu successe!',
 	'maintenance-output-failure' => "$1 non g'ha state eseguite cu successe!",
+	'maintenance-deleteBatch-desc' => 'Scangellazione de masse de le pàggene',
+	'maintenance-runJobs-option-type' => 'Tipe de fatìe ca se ste esegue',
+	'maintenance-sql-option-file' => 'SQL da eseguì',
 	'maintenance-userexists' => "L'utende già esiste!",
+	'maintenance-failed' => 'FALLITE',
+	'maintenance-deleted' => 'SCANGELLATE',
+	'maintenance-revnotfound' => 'Revisione $1 non acchiate!',
 	'maintenance-showCacheStats-edits' => 'Numere de cangiaminde: $1',
+	'maintenance-showCacheStats-pages' => 'Numere de pàggene: $1',
+	'maintenance-showCacheStats-users' => 'Numere de utinde: $1',
+	'maintenance-showCacheStats-admins' => 'Numere de amministrature: $1',
+	'maintenance-showCacheStats-images' => 'Numere de file: $1',
+	'maintenance-showCacheStats-views' => 'Numere de pàggene viste: $1',
 	'maintenance-error' => 'Errore: $1',
 	'maintenance-memc-requests' => 'Richieste',
 	'maintenance-memc-withsession' => "cu 'a sessione:",
@@ -6389,6 +6409,7 @@ $messages['roa-tara'] = array(
 	'maintenance-memc-imagecache' => "Immaggine d'a cache",
 	'maintenance-memc-misses' => 'perdute:',
 	'maintenance-memc-updates' => 'aggiornate:',
+	'maintenance-re-nf' => 'Utende $1 none acchiate',
 );
 
 /** Russian (русский)
