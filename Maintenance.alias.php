@@ -63,6 +63,11 @@ $specialPageAliases['dsb'] = array(
 	'Maintenance' => array( 'Wótwardowanje' ),
 );
 
+/** Esperanto (Esperanto) */
+$specialPageAliases['eo'] = array(
+	'Maintenance' => array( 'Prizorgado' ),
+);
+
 /** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'Maintenance' => array( 'Mantenimiento' ),
