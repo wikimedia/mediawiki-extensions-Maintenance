@@ -362,7 +362,7 @@ Aborting move',
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'maintenance' => 'Special page title and what is shown in [[Special:SpecialPages]]',
+	'maintenance' => '{{doc-special|Maintenance}}',
 	'maintenance-desc' => '{{desc|name=Maintenance|url=http://www.mediawiki.org/wiki/Extension:Maintenance}}',
 	'right-maintenance' => '{{doc-right|maintenance}}',
 	'maintenance-backlink' => 'This text is shown in the link back to the list of runnable maintenance scripts',
@@ -1709,6 +1709,7 @@ $messages['diq'] = array(
 	'maintenance-generic-username' => 'Namey karberi',
 	'maintenance-generic-password' => 'Parola',
 	'maintenance-generic-reason' => 'Sebeb',
+	'maintenance-option-required' => '(lazım)',
 	'maintenance-option-optional' => '(opsiyonel)',
 	'maintenance-checkBadRedirects-output-footer' => 'Qeyd ke.',
 	'maintenance-failed' => 'NÊŞA',
