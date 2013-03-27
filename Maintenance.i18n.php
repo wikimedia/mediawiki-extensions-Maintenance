@@ -1706,7 +1706,7 @@ Verschieben abgebrochen',
  */
 $messages['diq'] = array(
 	'maintenance-generic-done' => 'qeyd ke',
-	'maintenance-generic-username' => 'Namey karberi',
+	'maintenance-generic-username' => 'Nameyê karberi',
 	'maintenance-generic-password' => 'Parola',
 	'maintenance-generic-reason' => 'Sebeb',
 	'maintenance-option-required' => '(lazım)',
