@@ -5164,6 +5164,17 @@ Avbryter flytting',
 	'maintenance-re-re' => 'Flytter endringer{{int:ellipsis}} fullført',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'maintenance-generic-done' => 'färdig',
+	'maintenance-generic-username' => 'Brukernaam',
+	'maintenance-generic-password' => 'Passwoord',
+	'maintenance-option-confirm' => 'Tostimmen',
+	'maintenance-checkBadRedirects-output-footer' => 'Färdig.',
+);
+
 /** Nepali (नेपाली)
  * @author RajeshPandey
  */
