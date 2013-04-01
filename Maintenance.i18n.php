@@ -794,6 +794,32 @@ $messages['arz'] = array(
 	'maintenance-re-re' => 'جارى إعادة إلحاق التعديلات... تم',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'maintenance' => 'Executar scripts de mantenimientu',
+	'maintenance-desc' => '[[Special:Maintenance|Interfaz wiki]] pa dellos scripts de mantenimientu',
+	'right-maintenance' => 'Executar scripts de mantenimientu per aciu de [[Special:Maintenance]]',
+	'maintenance-backlink' => 'Volver a la seleición de script',
+	'maintenance-header' => 'Por favor, seleicione un script más abaxo pa executalu.
+Les descripciones tan cabo cada script',
+	'maintenance-error-badini' => "Falta'l ficheru metadata.ini o ta corrompíu. Por favor, vuelva a descargar la estensión Mantenimientu",
+	'maintenance-error-invalidtype' => "Nun s'alcontró el script indicáu",
+	'maintenance-error-badargs' => 'Nun indicó toles opciones requeríes',
+	'maintenance-generic-done' => 'fecho',
+	'maintenance-generic-username' => "Nome d'usuariu",
+	'maintenance-generic-password' => 'Contraseña',
+	'maintenance-generic-reason' => 'Motivu',
+	'maintenance-cleanupTable-dry-run' => 'Executar una simulación',
+	'maintenance-cleanupTable-check' => 'Buscando títulos equivocaos...',
+	'maintenance-cleanupTable-checkfix' => 'Comprobando y corrixendo títulos equivocaos...',
+	'maintenance-cleanupTable-progress' => '$1 $2: $3% fecho en $4; tiempu final previstu $5 [$6/$7] $8/s <$9% anovao>',
+	'maintenance-cleanupTable-missingparam' => '$1: Falta el parámetru $2',
+	'maintenance-cleanupTable-processing' => 'Procesando $1...',
+	'maintenance-cleanupTable-finished' => 'Terminao $1... $2 de $3 {{PLURAL:$3|filera anovada|fileres anovaes}}',
+);
+
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
