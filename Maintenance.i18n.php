@@ -7835,6 +7835,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Kuailong
  * @author Liangent
  * @author PhiLiP
  * @author Simon Shek
@@ -7897,13 +7898,22 @@ $messages['zh-hans'] = array(
 	'maintenance-checkSyntax-error-nofile' => '错误：找不到文件或目录$1',
 	'maintenance-checkSyntax-error-cantopen' => '无法打开文件$1',
 	'maintenance-checkUsernames-error-notvalid' => '无效的使用者名：「$3 」（使用者id  $2 ）',
+	'maintenance-cleanupCaps-output-islower' => '“$1”已经是小写字母。',
 	'maintenance-cleanupSpam-output-blanking' => '正在清空',
 	'maintenance-cleanupSpam-output-reverting' => '正在回退',
 	'maintenance-cleanupSpam-error-noid' => '内部错误: 没有ID$1的页面',
+	'maintenance-createAndPromote-desc' => '创建用户并赋予管理员权限',
+	'maintenance-createAndPromote-option-bureaucrat' => '赋予用户行政员权限',
+	'maintenance-createAndPromote-error-password' => '您输入的密码存在以下错误：$1',
+	'maintenance-deleteBatch' => '使用本表单来大量删除页面。每一行只可键入一个页面',
 	'maintenance-deleteBatch-desc' => '删除大量页面',
+	'maintenance-deleteRevision' => '使用本表单来大规模删除修订版本。每一行只可键入一个修订版本号',
 	'maintenance-deleteRevision-desc' => '从资料库中删除修改',
+	'maintenance-initEditCount-desc' => '重新计算用户的编辑计数',
 	'maintenance-initSiteStats-desc' => '重新计算网站的统计资料',
+	'maintenance-moveBatch' => '使用本表单进行大规模移动页面。每一行都应输入源页面和目标页面，并用管道符分隔',
 	'maintenance-moveBatch-desc' => '大量移动页面',
+	'maintenance-reassignEdits-desc' => '将一个用户的编辑转移给另一用户',
 	'maintenance-runJobs-desc' => '运行工作队列中的工作',
 	'maintenance-runJobs-option-maxjobs' => '最大的工作运行数量',
 	'maintenance-runJobs-option-type' => '要运行的工作类型',
@@ -7919,8 +7929,10 @@ $messages['zh-hans'] = array(
 	'maintenance-invalidname' => '无效用户名！',
 	'maintenance-userexists' => '用户已存在！',
 	'maintenance-invalidtitle' => '无效标题“$1”！',
+	'maintenance-titlenoexist' => '指定标题（“$1”）不存在！',
 	'maintenance-failed' => '失败了',
 	'maintenance-deleted' => '删除了',
+	'maintenance-revdelete' => '删除wiki$2上的{{PLURAL:$3|修订版本}}$1',
 	'maintenance-revnotfound' => '修订$1没有找到！',
 	'maintenance-showCacheStats-edits' => '编辑数：$1',
 	'maintenance-showCacheStats-articles' => '主名字空间中的页面数：$1',
@@ -7931,6 +7943,8 @@ $messages['zh-hans'] = array(
 	'maintenance-showCacheStats-views' => '页面访问数：$1',
 	'maintenance-showCacheStats-update' => '更新数据库{{int:ellipsis}}',
 	'maintenance-move' => '移动$1到$2{{int:ellipsis}}',
+	'maintenance-movefail' => '在移动时发生错误：$1。
+终止移动',
 	'maintenance-error' => '错误：$1',
 	'maintenance-memc-fake' => '您正在运行FakeMemCachedClient。没有统计资料可以提供',
 	'maintenance-memc-requests' => '请求',
