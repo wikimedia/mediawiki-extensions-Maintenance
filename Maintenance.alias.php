@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'Maintenance' => array( 'صيانه' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Maintenance' => array( 'পৰিচৰ্যা' ),
 );
