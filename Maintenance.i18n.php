@@ -6045,6 +6045,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  * @author SandroHc
  * @author Waldir
@@ -6173,7 +6174,7 @@ Cada linha deverá especificar uma página de origem e uma página destino, sepa
 	'maintenance-showCacheStats-desc' => 'Mostrar estatísticas do Memcached',
 	'maintenance-eval' => 'Utilize este formulário para executar código PHP no ambiente MediaWiki.',
 	'maintenance-eval-desc' => 'Interpretar código PHP no ambiente MediaWiki',
-	'maintenance-update' => 'Usar UPDATE para actualizar tabelas? Se desmarcado, será usado DELETE/INSERT.',
+	'maintenance-update' => 'Usar UPDATE para atualizar uma tabela? Se desmarcado, será usado DELETE/INSERT.',
 	'maintenance-noviews' => 'Marque esta opção para impedir a actualização dos visionamentos de páginas',
 	'maintenance-invalidname' => 'Nome de utilizador inválido!',
 	'maintenance-userexists' => 'O utilizador já existe!',
@@ -6190,7 +6191,7 @@ Cada linha deverá especificar uma página de origem e uma página destino, sepa
 	'maintenance-showCacheStats-admins' => 'Número de administradores: $1',
 	'maintenance-showCacheStats-images' => 'Número de ficheiros: $1',
 	'maintenance-showCacheStats-views' => 'Número de visionamentos: $1',
-	'maintenance-showCacheStats-update' => 'A actualizar a base de dados{{int:ellipsis}}',
+	'maintenance-showCacheStats-update' => 'A atualizar a base de dados{{int:ellipsis}}',
 	'maintenance-move' => 'A mover $1 para $2{{int:ellipsis}}',
 	'maintenance-movefail' => 'Erro encontrado durante a movimentação: $1.
 A abortar a movimentação',
@@ -6215,10 +6216,10 @@ A abortar a movimentação',
 	'maintenance-re-from' => 'Nome do utilizador a que desatribuir edições',
 	'maintenance-re-to' => 'Nome do utilizador a que atribuir edições',
 	'maintenance-re-force' => 'Re-atribuir mesmo que o utilizador alvo não exista',
-	'maintenance-re-rc' => 'Não actualizar a tabela de modificações recentes',
+	'maintenance-re-rc' => 'Não atualizar a tabela de modificações recentes',
 	'maintenance-re-report' => 'Apresentar detalhes do que seria alterado, mas não alterar',
 	'maintenance-re-nf' => 'Utilizador $1 não encontrado',
-	'maintenance-re-rr' => 'Executar o script novamente sem "$1" para actualizar.',
+	'maintenance-re-rr' => 'Executar o script novamente sem "$1" para atualizar.',
 	'maintenance-re-ce' => 'Edições actuais: $1',
 	'maintenance-re-de' => 'Edições eliminadas: $1',
 	'maintenance-re-rce' => 'Entradas das Mudanças Recentes: $1',
@@ -6228,6 +6229,7 @@ A abortar a movimentação',
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'maintenance' => 'Execute scripts de manutenção',
@@ -6243,7 +6245,7 @@ As descrições estão junto a cada script',
 	'maintenance-changePassword-desc' => 'Alterar a palavra-chave de um utilizador',
 	'maintenance-createAndPromote' => 'Utilize este formulário para criar um novo utilizador e promovê-lo a administrador.
 Assinale a caixa de burocrata se pretende também promovê-lo a burocrata',
-	'maintenance-createAndPromote-desc' => 'Criar um utilizador e promover a administrador',
+	'maintenance-createAndPromote-desc' => 'Criar um usuário e promover a administrador',
 	'maintenance-deleteBatch' => 'Utilize este formulário para eliminar páginas em massa.
 Coloque apenas uma página por linha',
 	'maintenance-deleteBatch-desc' => 'Eliminar páginas em massa',
@@ -6266,8 +6268,8 @@ Cada linha deverá especificar uma página fonte e uma página destino, separada
 	'maintenance-eval-desc' => 'Interpretar código PHP no ambiente MediaWiki',
 	'maintenance-update' => 'Usar UPDATE para atualizar uma tabela? Se desselecionado, usa DELETE/INSERT.',
 	'maintenance-noviews' => 'Assinale aqui para prevenir a atualização do número de visualizações de página',
-	'maintenance-invalidname' => 'Nome de utilizador inválido!',
-	'maintenance-userexists' => 'O utilizador já existe!',
+	'maintenance-invalidname' => 'Nome de usuário inválido!',
+	'maintenance-userexists' => 'O usuário já existe!',
 	'maintenance-invalidtitle' => 'Título "$1" inválido!',
 	'maintenance-titlenoexist' => 'O título especificado ("$1") não existe!',
 	'maintenance-failed' => 'FALHOU',
@@ -6308,7 +6310,7 @@ Abortando a movimentação',
 	'maintenance-re-force' => 'Re-atribuir mesmo que o utilizador alvo não exista',
 	'maintenance-re-rc' => 'Não atualizar a tabela de modificações recentes',
 	'maintenance-re-report' => 'Apresentar detalhes do que seria alterado, mas não o atualizar',
-	'maintenance-re-nf' => 'Utilizador $1 não encontrado',
+	'maintenance-re-nf' => 'Usuário $1 não encontrado',
 	'maintenance-re-rr' => 'Executar o script novamente sem "$1" para atualizar.',
 	'maintenance-re-ce' => 'Edições atuais: $1',
 	'maintenance-re-de' => 'Edições eliminadas: $1',
