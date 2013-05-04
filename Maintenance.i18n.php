@@ -6856,13 +6856,14 @@ $messages['sl'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'maintenance' => 'Покрени скрипте за одржавање',
-	'maintenance-desc' => '[[Special:Maintenance|Вики-сучеље]] за разне скриптове за одржавање',
+	'maintenance-desc' => '[[Special:Maintenance|Вики интерфејс]] за разне скрипте намењене одржавању',
 	'maintenance-backlink' => 'Повратак на обележавање скрипти',
 	'maintenance-header' => 'Молимо Вас да испот означите скрипту коју треба покренути.
 Поред сваке скрипте се налази одговарајући опис.',
