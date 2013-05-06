@@ -2989,6 +2989,7 @@ $messages['gv'] = array(
  * @author Amire80
  * @author Rotemliss
  * @author YaronSh
+ * @author אור שפירא
  * @author חיים
  * @author ערן
  */
@@ -2999,6 +3000,7 @@ $messages['he'] = array(
 	'maintenance-backlink' => 'חזרה לבחירת הסקריפטים',
 	'maintenance-header' => 'אנא בחרו איזה מהסקריפטים שלהלן להריץ.
 התיאורים מופיעים ליד כל סקריפט',
+	'maintenance-error-badini' => 'הקובץ metadata.ini פגום או חסר. נא להוריד את התוסף תחזוקה',
 	'maintenance-error-invalidtype' => 'הסקריפט שצוין לא נמצא',
 	'maintenance-error-badargs' => 'לא צויינו כל ההגדרות הנדרשות',
 	'maintenance-generic-done' => 'בוצע',
@@ -3008,13 +3010,19 @@ $messages['he'] = array(
 	'maintenance-cleanupTable-dry-run' => 'הרצה על יבש',
 	'maintenance-cleanupTable-check' => 'בדיקת כותרות פגומות...',
 	'maintenance-cleanupTable-checkfix' => 'בדיקה ותיקון של כותרות פגומות...',
+	'maintenance-cleanupTable-progress' => '$1 $2: $3% בוצעו ב $4; ETA $5 [$6/$7] $8/שניות <$9% updated>',
+	'maintenance-cleanupTable-missingparam' => '$1: פרמטר חסר$2',
 	'maintenance-cleanupTable-processing' => 'מעבד $1...',
 	'maintenance-cleanupTable-finished' => 'עודכן $1 ...  $2  מתוך $3 {{PLURAL:$3| רשומה|רשומות}}',
+	'maintenance-option-globals' => 'פלט משתנים גלובליים צריך להופיע בסוף התהליך עבור איתור באגים',
 	'maintenance-option-confirm' => 'אישור',
 	'maintenance-option-required' => '(חובה)',
 	'maintenance-option-optional' => '(אופציונלי)',
 	'maintenance-output-success' => 'הסקריפט $1 רץ בהצלחה!',
 	'maintenance-output-failure' => '$1 נכשל בהרצה!',
+	'maintenance-attachLatest' => 'השתמש בטופס זה כדי לתקן את הערכים בטבלה page שבהם page_latest מוגדר כ- 0',
+	'maintenance-attachLatest-desc' => 'לתקן page_latest ערכים בטבלה page',
+	'maintenance-attachLatest-output-begin' => 'מחפש דפים שהpage_latest מוגדר כ- 0...',
 	'maintenance-changePassword' => 'השתמשו בטופס זה כדי לשנות סיסמה של משתמש',
 	'maintenance-changePassword-desc' => 'שינוי סיסמת משתמש',
 	'maintenance-changePassword-error-nouser' => 'אין משתמש בשם: $1',
