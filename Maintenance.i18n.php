@@ -1421,6 +1421,13 @@ $messages['ca'] = array(
 	'maintenance-showCacheStats-users' => "Nombre d'usuaris: $1",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'maintenance-re-de' => 'ДӀадаьхна нийсдарш: $1',
+);
+
 /** Czech (česky)
  * @author Chmee2
  * @author Jkjk
