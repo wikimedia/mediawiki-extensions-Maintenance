@@ -1425,7 +1425,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'maintenance-re-de' => 'ДӀадаьхна нийсдарш: $1',
+	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
 
 /** Czech (česky)
