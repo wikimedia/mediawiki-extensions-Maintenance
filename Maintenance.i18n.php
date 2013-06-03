@@ -818,6 +818,18 @@ Les descripciones tan cabo cada script',
 	'maintenance-cleanupTable-missingparam' => '$1: Falta el parámetru $2',
 	'maintenance-cleanupTable-processing' => 'Procesando $1...',
 	'maintenance-cleanupTable-finished' => 'Terminao $1... $2 de $3 {{PLURAL:$3|filera anovada|fileres anovaes}}',
+	'maintenance-option-quiet' => 'Torgar les salies que nun seyan errores',
+	'maintenance-option-globals' => 'Amosar les variables globales al final del procesu pa depuración',
+	'maintenance-option-confirm' => 'Confirmar',
+	'maintenance-option-batch-size' => "Executar esti númberu d'operaciones por llote; predeterminao: $1",
+	'maintenance-option-required' => '(obligatoriu)',
+	'maintenance-option-optional' => '(opcional)',
+	'maintenance-output-success' => '¡$1 executóse correutamente!',
+	'maintenance-output-failure' => "¡$1 nun s'executó correutamente!",
+	'maintenance-attachLatest' => 'Use esti formulariu pa correxir les entraes na tabla de la páxina onde page_latest tea establecíu en 0',
+	'maintenance-attachLatest-desc' => 'Correxir les entraes page_latest na tabla de la páxina',
+	'maintenance-attachLatest-option-fix' => 'Correxir realmente les entraes; sinón, faise una prueba',
+	'maintenance-attachLatest-output-begin' => 'Buscando les páxines con page_latest establecíu a 0...',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -6258,10 +6270,20 @@ $messages['pt-br'] = array(
 	'maintenance-header' => 'Por favor, selecione abaixo um script a executar.
 As descrições estão junto a cada script',
 	'maintenance-error-invalidtype' => 'Tipo inválido!', # Fuzzy
+	'maintenance-generic-done' => 'feito',
+	'maintenance-generic-username' => 'Nome de usuário',
+	'maintenance-generic-password' => 'Senha',
+	'maintenance-generic-reason' => 'Motivo',
+	'maintenance-cleanupTable-missingparam' => '$1: Falta o parâmetro $2',
+	'maintenance-cleanupTable-processing' => 'Procesando $1...',
 	'maintenance-option-confirm' => 'Confirmar',
+	'maintenance-option-required' => '(obrigatório)',
+	'maintenance-option-optional' => '(opcional)',
 	'maintenance-output-success' => '$1 executado com sucesso!',
 	'maintenance-changePassword' => 'Use este formulário para alterar a palavra-chave de um utilizador',
 	'maintenance-changePassword-desc' => 'Alterar a palavra-chave de um utilizador',
+	'maintenance-checkBadRedirects-output-footer' => '
+Feito.',
 	'maintenance-createAndPromote' => 'Utilize este formulário para criar um novo utilizador e promovê-lo a administrador.
 Assinale a caixa de burocrata se pretende também promovê-lo a burocrata',
 	'maintenance-createAndPromote-desc' => 'Criar um usuário e promover a administrador',
