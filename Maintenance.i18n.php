@@ -1981,6 +1981,7 @@ $messages['eo'] = array(
  * @author Fitoschido
  * @author Imre
  * @author Locos epraix
+ * @author MarcoAurelio
  * @author Mor
  * @author Pertile
  * @author Translationista
@@ -4071,6 +4072,7 @@ $messages['ja'] = array(
 	'maintenance-cleanupSpam-error-noid' => '内部エラー: ID $1 のページはありません',
 	'maintenance-clearInterwikiCache' => 'このフォームを使用してウィキ間キャッシュを完全に消去する',
 	'maintenance-clearInterwikiCache-desc' => 'キャッシュから全言語のウィキ間リンクをすべて消去する',
+	'maintenance-clearInterwikiCache-db' => '$1...',
 	'maintenance-createAndPromote' => 'このフォームを使用して利用者を新規作成し、管理者にする。ビューロクラットにもしたい場合は、ビューロクラットのボックスにチェックを入れる',
 	'maintenance-createAndPromote-desc' => '利用者を作成し、管理者にする',
 	'maintenance-createAndPromote-option-bureaucrat' => '利用者をビューロクラットにする',
@@ -5086,7 +5088,7 @@ $messages['nah'] = array(
 	'maintenance-memc-expired' => 'ōmotlami:',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -5450,7 +5452,7 @@ $messages['nl-informal'] = array(
 	'maintenance-memc-fake' => 'Je maakt gebruik van FakeMemCachedClient. Het is niet mogelijk statistieken te berekenen',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -5636,7 +5638,7 @@ Arrèst del desplaçament.',
 	'maintenance-re-re' => 'Reafectacion dels cambiaments{{int:ellipsis}} fach',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
  * @author Psubhashish
  */
