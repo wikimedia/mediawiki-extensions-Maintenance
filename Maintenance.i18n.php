@@ -1437,6 +1437,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
 
@@ -4489,6 +4490,13 @@ Dat Ömnenne weed jeshtopp.',
 	'maintenance-re-re' => "Änderunge neu zo'oodene … jedonn",
 );
 
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
+ * @author Ghybu
+ */
+$messages['ku-latn'] = array(
+	'maintenance-generic-username' => 'Navê bikarhêner',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Purodha
@@ -5743,6 +5751,9 @@ Trwa sprawdzanie niepoprawnych przekierowań...',
 	'maintenance-checkSyntax-option-with-extensions' => 'Sprawdzić również folder rozszerzeń',
 	'maintenance-checkSyntax-option-list-file' => 'Lista plików oraz katalogów do sprawdzenia',
 	'maintenance-checkSyntax-option-modified' => 'Sprawdź tylko te pliki, które zostały zmienione (wymaga klienta svn wiersza polecenia)',
+	'maintenance-checkSyntax-output-parsekit' => 'Sprawdzanie składni (używając parsekit)',
+	'maintenance-checkSyntax-output-phpl' => 'Sprawdzanie składni (używając php -l, może to zająć dużo czasu)',
+	'maintenance-checkSyntax-output-footer' => 'Gotowe! Sprawdzono $1 plików, znaleziono $2 problemów oraz $3 ostrzeżeń',
 	'maintenance-checkSyntax-output-svnlist' => 'Trwa pobieranie listy z Subversion...',
 	'maintenance-checkSyntax-output-buildlist' => 'Trwa budowanie listy plików...',
 	'maintenance-checkSyntax-output-error' => 'Błąd w $1 linia $2: $3',
@@ -5750,9 +5761,12 @@ Trwa sprawdzanie niepoprawnych przekierowań...',
 	'maintenance-checkSyntax-error-nofile' => 'Błąd: nie można odnaleźć pliku lub katalogu $1',
 	'maintenance-checkSyntax-error-cantopen' => 'Nie można otworzyć pliku $1',
 	'maintenance-checkSyntax-error-svnerr' => 'Błąd pobierania listy z Subversion!',
+	'maintenance-checkUsernames' => 'Użyj tego formularza aby sprawdzić, które nazwy użytkowników są nieprawidłowe od momentu zmian konfiguracyjnych. Jeżeli nic nie zostanie pokazane po uruchomieniu tego skryptu, wszystkie nazwy użytkowników sa poprawne',
 	'maintenance-checkUsernames-desc' => 'Sprawdzenie, czy użytkownicy z bazy danych są rzeczywiście poprawni',
+	'maintenance-checkUsernames-error-notvalid' => 'Nieprawidłowa nazwa użytkownika: "$3" (id użytkownika $2)',
 	'maintenance-cleanupCaps' => 'Ten formularz służy do napraw zerwanie połączeń do stron spowodowane przez zmodyfikowanie $wgCapitalLinks',
 	'maintenance-cleanupCaps-desc' => 'Skrypt do oczyszczania z wielkich liter',
+	'maintenance-cleanupCaps-option-namespace' => 'Numer przestrzeni nazw do uruchomienia oczyszczania dużych liter',
 	'maintenance-cleanupCaps-output-islower' => '" $1 " już zapisane małymi literami.',
 	'maintenance-cleanupCaps-output-clash' => '" $1 " pominięto; " $2 " już istnieje',
 	'maintenance-cleanupCaps-output-dryrun' => '" $1 "->" $2 ": PRZEBIEG TESTOWY, NIE PRZENIESIONO',
@@ -6120,7 +6134,7 @@ As descrições estão junto a cada script',
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] data da última revisão $4, não foi encontrada a identificação da revisão',
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] data da última revisão $4, identificação da revisão $5',
 	'maintenance-attachLatest-output-done' => 'Terminado! Foram processadas $1 páginas.', # Fuzzy
-	'maintenance-attachLatest-output-dryrun' => 'Esta execução foi uma simulação; volte a executar com "{{int:maintenance-attachLatest-option-fix}}" para actualizar page_latest.',
+	'maintenance-attachLatest-output-dryrun' => 'Esta execução foi uma simulação; volte a executar com "{{int:maintenance-attachLatest-option-fix}}" para atualizar page_latest.',
 	'maintenance-benchmarkPurge' => 'Use este formulário para testar quanto tempo demoram as funções de limpeza do Squid',
 	'maintenance-benchmarkPurge-desc' => 'Aferir valores de referência para as funções de limpeza do Squid',
 	'maintenance-benchmarkPurge-option-count' => 'Quantas URLs devem ser fornecidas ao Squid para limpeza',
