@@ -546,6 +546,7 @@ Unused at this time. Parameters:
 	'maintenance-movefail' => 'Unused at this time. Parameters:
 * $1 - ...',
 	'maintenance-error' => '{{Identical|Error}}',
+	'maintenance-memc-requests' => '{{Identical|Request}}',
 	'maintenance-memc-total' => 'This message is currently not used in this extension.
 {{Identical|Total}}',
 	'maintenance-memc-hits' => 'This message is currently not used in this extension.
