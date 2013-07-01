@@ -551,6 +551,9 @@ Unused at this time. Parameters:
 {{Identical|Total}}',
 	'maintenance-memc-hits' => 'This message is currently not used in this extension.
 {{Identical|Hits}}',
+	'maintenance-memc-invalid' => '{{Identical|Invalid}}',
+	'maintenance-memc-misses' => '{{Identical|Miss}}',
+	'maintenance-memc-updates' => '{{Identical|Update}}',
 	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.
 
 This message is currently not used in this extension.',
