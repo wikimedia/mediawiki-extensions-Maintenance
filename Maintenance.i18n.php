@@ -1491,6 +1491,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'maintenance-generic-username' => 'Декъашхон цӀе',
 	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
