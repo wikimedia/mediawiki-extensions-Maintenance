@@ -1594,6 +1594,13 @@ Hledám chybná přesměrování',
 	'maintenance-re-nf' => 'Uživatel $1 nebyl nalezen',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'maintenance-error' => 'блаꙁна : $1',
+);
+
 /** German (Deutsch)
  * @author ChrisiPK
  * @author DaSch
@@ -6229,14 +6236,14 @@ A procurar redirecionamentos incorretos...',
 	'maintenance-checkImages-desc' => 'Verificar se as imagens existem, são legíveis, etc.',
 	'maintenance-checkImages-output-noaccess' => '$1: não são acessíveis localmente',
 	'maintenance-checkImages-output-missing' => '$1: em falta',
-	'maintenance-checkImages-output-isdir' => '$1: é um directório',
+	'maintenance-checkImages-output-isdir' => '$1: é um diretório',
 	'maintenance-checkImages-output-truncated' => '$1: truncado, era $2',
 	'maintenance-checkImages-output-mismatch' => '$1: incompatibilidade de tamanho BD=$2, actual=$3',
 	'maintenance-checkImages-output-good' => 'Imagens em bom estado: $1/$2',
 	'maintenance-checkSyntax' => 'Use este formulário para verificar a sintaxe de todos os ficheiros PHP do MediaWiki',
 	'maintenance-checkSyntax-desc' => 'Verificar a sintaxe de todos os ficheiros PHP do MediaWiki',
-	'maintenance-checkSyntax-option-with-extensions' => 'Visitar também recursivamente o directório das extensões',
-	'maintenance-checkSyntax-option-path' => 'Localização específica (ficheiro ou directório) a verificar, absoluta ou relativa à raiz desta instalação do MediaWiki',
+	'maintenance-checkSyntax-option-with-extensions' => 'Visitar também recursivamente o diretório das extensões',
+	'maintenance-checkSyntax-option-path' => 'Localização específica (ficheiro ou diretório) a verificar, absoluta ou relativa à raiz desta instalação do MediaWiki',
 	'maintenance-checkSyntax-option-list-file' => 'Lista de ficheiros ou directórios a verificar',
 	'maintenance-checkSyntax-option-modified' => 'Verificar só os ficheiros que foram modificados (requer o cliente da linha de comandos SVN)',
 	'maintenance-checkSyntax-option-syntax-only' => 'Verificar somente a validade da sintaxe, ignorando os avisos sobre o estilo do código',
@@ -6247,7 +6254,7 @@ A procurar redirecionamentos incorretos...',
 	'maintenance-checkSyntax-output-buildlist' => 'A construir a lista de ficheiros...',
 	'maintenance-checkSyntax-output-error' => 'Erro em $1, na linha $2: $3',
 	'maintenance-checkSyntax-output-warning' => 'Aviso no ficheiro $1: $2 encontrado',
-	'maintenance-checkSyntax-error-nofile' => 'Erro: não foi possível encontrar o ficheiro ou directório $1',
+	'maintenance-checkSyntax-error-nofile' => 'Erro: não foi possível encontrar o ficheiro ou diretório $1',
 	'maintenance-checkSyntax-error-cantopen' => 'Não é possível abrir o ficheiro $1',
 	'maintenance-checkSyntax-error-svnerr' => 'Ocorreu um erro na obtençao da lista a partir do Subversion!',
 	'maintenance-checkUsernames' => 'Use este formulário para mostrar os nomes de utilizador inválidos devido a alterações da configuração. Se não for listado nenhum nome após a execução, todos os nomes são válidos.',
