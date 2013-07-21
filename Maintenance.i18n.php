@@ -1492,6 +1492,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'maintenance-generic-username' => 'Декъашхон цӀе',
+	'maintenance-checkUsernames-error-notvalid' => 'Декъашхон цӀе нийса яц: $3 (декъашхон ID: $2)',
 	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
@@ -7198,6 +7199,7 @@ $messages['su'] = array(
 
 /** Swedish (svenska)
  * @author Fluff
+ * @author Jopparn
  * @author M.M.S.
  * @author Sannab
  * @author WikiPhoenix
@@ -7229,6 +7231,7 @@ Beskrivningar finns brevid varje skript',
 Letar efter dåliga omdirigeringar...',
 	'maintenance-checkBadRedirects-output-footer' => '
 Färdig.',
+	'maintenance-checkImages-output-good' => 'Bra bilder: $1/$2',
 	'maintenance-cleanupSpam-output-found' => 'Hittade $1 {{PLURAL:$1|artikel|artiklar}} som innehåller $2',
 	'maintenance-cleanupSpam-output-reverting' => 'återställer',
 	'maintenance-createAndPromote' => 'Använd detta formulär för att skapa en ny användare och befodra den till administratör.
