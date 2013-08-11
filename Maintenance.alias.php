@@ -48,6 +48,11 @@ $specialPageAliases['bs'] = array(
 	'Maintenance' => array( 'Odrzavanje' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'Maintenance' => array( '維護' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Maintenance' => array( 'Wartung' ),
