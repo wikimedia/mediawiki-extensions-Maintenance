@@ -7720,10 +7720,12 @@ Her betiğin yanında açıklamalarına yer verilmiştir.',
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Base
  * @author Olvin
  * @author Prima klasy4na
  * @author Steve.rusyn
+ * @author SteveR
  * @author Тест
  */
 $messages['uk'] = array(
@@ -7758,6 +7760,8 @@ $messages['uk'] = array(
 	'maintenance-attachLatest-desc' => 'Виправити записи page_latest у таблиці сторінок',
 	'maintenance-attachLatest-option-fix' => 'Справді виправити записи, чи виконати тестовий запуск',
 	'maintenance-attachLatest-output-begin' => 'Пошук сторінок із page_latest встановленим у 0…',
+	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] не вдалося знайти час останньої версії?!',
+	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] останній час $4, не вдалося знайти ідентифікатор версії',
 	'maintenance-changePassword-desc' => 'Змінити пароль користувача',
 	'maintenance-changePassword-output-set' => 'Пароль для $1 встановлено',
 	'maintenance-checkBadRedirects-output-footer' => 'Готово.',
