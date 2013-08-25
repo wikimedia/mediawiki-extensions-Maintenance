@@ -374,25 +374,30 @@ $messages['qqq'] = array(
 	'maintenance-generic-username' => '{{Identical|Username}}',
 	'maintenance-generic-password' => '{{Identical|Password}}',
 	'maintenance-generic-reason' => '{{Identical|Reason}}',
-	'maintenance-generic-notrans' => '{{notranslate}}',
+	'maintenance-generic-notrans' => '{{notranslate}}
+Used in the following messages:
+* {{msg-mw|Maintenance-runJobs-output-job}}
+* {{msg-mw|Maintenance-showJobs-output-job}}
+* {{msg-mw|Maintenance-sql-output-row}}
+* {{msg-mw|Maintenance-sql-error-sql}}',
 	'maintenance-cleanupTable-dry-run' => 'Label for a checkbox indicating that the script will run, but will not fix anything (a "dry run")',
 	'maintenance-cleanupTable-check' => 'Script output. "Titles" in this case refers to page names',
 	'maintenance-cleanupTable-checkfix' => 'Script output. "Titles" in this case refers to page names',
-	'maintenance-cleanupTable-progress' => 'Script output that shows the current progress.
-* $1 is the wiki id
-* $2 is the timestamp
-* $3 is the portion done (percent)
-* $4 is the SQL table name that is being worked on
-* $5 is the ETA on when the script will finish
-* $6 is the number of records processed
-* $7 is the total number of records
-* $8 is how many records are processed per second
-* $9 is what percent of the records needed to be fixed',
-	'maintenance-cleanupTable-missingparam' => 'Script output to show that an error occurred.
-* $1 is the PHP method name that had the error
-* $2 is the list of missing parameters (hardcoded in MediaWiki core\'s /maintenance/cleanupTables.inc to be seperated by a comma and a space, e.g. "param1, param2")',
-	'maintenance-cleanupTable-processing' => 'Script output.
-* $1 is the SQL table name',
+	'maintenance-cleanupTable-progress' => 'Script output that shows the current progress. Parameters:
+* $1 - the wiki id
+* $2 - the timestamp
+* $3 - the portion done (percent)
+* $4 - the SQL table name that is being worked on
+* $5 - the ETA on when the script will finish
+* $6 - the number of records processed
+* $7 - the total number of records
+* $8 - how many records are processed per second
+* $9 - what percent of the records needed to be fixed',
+	'maintenance-cleanupTable-missingparam' => 'Script output to show that an error occurred. Parameters:
+* $1 - the PHP method name that had the error
+* $2 - the list of missing parameters (hardcoded in MediaWiki core\'s /maintenance/cleanupTables.inc to be separated by a comma and a space, e.g. "param1, param2")',
+	'maintenance-cleanupTable-processing' => 'Script output. Parameters:
+* $1 - the SQL table name',
 	'maintenance-cleanupTable-finished' => 'Script output.
 * $1 is the SQL table name
 * $2 is the number of records that were fixed
@@ -443,11 +448,31 @@ $messages['qqq'] = array(
 	'maintenance-changePassword-error-nouser' => '*$1 - username',
 	'maintenance-changePassword-output-set' => '*$1 - username',
 	'maintenance-checkAutoLoader-desc' => 'Used as description',
-	'maintenance-checkAutoLoader-output-list1' => '{{notranslate}}',
+	'maintenance-checkAutoLoader-output-list1' => '{{notranslate}}
+Parameters:
+* $1 - class
+* $2 - file',
+	'maintenance-checkAutoLoader-output-list2' => 'Parameters:
+* $1 - class
+* $2 - file
+* $3 - file',
 	'maintenance-checkBadRedirects-desc' => 'Used as description',
 	'maintenance-checkBadRedirects-output-found' => '*$1 - number of redirects',
 	'maintenance-checkBadRedirects-output-footer' => '{{Identical|Done}}',
 	'maintenance-checkImages-desc' => 'Used as description',
+	'maintenance-checkImages-output-noaccess' => 'Parameters:
+* $1 - image name',
+	'maintenance-checkImages-output-missing' => 'Parameters:
+* $1 - image name',
+	'maintenance-checkImages-output-isdir' => 'Parameters:
+* $1 - image name',
+	'maintenance-checkImages-output-truncated' => 'Parameters:
+* $1 - image name
+* $2 - database size',
+	'maintenance-checkImages-output-mismatch' => 'Parameters:
+* $1 - image name
+* $2 - database size
+* $3 - actual size',
 	'maintenance-checkImages-output-good' => '*$1 - number of good images
 *$2 - number of images',
 	'maintenance-checkSyntax-desc' => 'Used as description',
@@ -474,27 +499,55 @@ $messages['qqq'] = array(
 	'maintenance-cleanupCaps-desc' => 'Used as description',
 	'maintenance-cleanupCaps-option-dry-run' => '{{notranslate}}',
 	'maintenance-cleanupCaps-option-namespace' => 'Used as option',
-	'maintenance-cleanupCaps-output-moved' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-islower' => 'Parameters:
+* $1 - page name',
+	'maintenance-cleanupCaps-output-clash' => 'Parameters:
+* $1 - uppercase page name
+* $2 - lowercase page name',
+	'maintenance-cleanupCaps-output-dryrun' => 'Parameters:
+* $1 - uppercase page name
+* $2 - lowercase page name',
+	'maintenance-cleanupCaps-output-moved' => '{{notranslate}}
+Parameters:
+* $1 - uppercase page name
+* $2 - lowercase page name
+* $3 - status of move (ok or not)',
 	'maintenance-cleanupCaps-output-check' => '{{notranslate}}',
 	'maintenance-cleanupCaps-output-checkfix' => '{{notranslate}}',
-	'maintenance-cleanupCaps-output-progress' => '{{notranslate}}',
-	'maintenance-cleanupCaps-output-processing' => '{{notranslate}}',
-	'maintenance-cleanupCaps-output-finished' => '{{notranslate}}',
-	'maintenance-cleanupCaps-error-missingparam' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-progress' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-cleanupTable-progress}}',
+	'maintenance-cleanupCaps-output-processing' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-cleanupTable-processing}}',
+	'maintenance-cleanupCaps-output-finished' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-cleanupTable-check}}',
+	'maintenance-cleanupCaps-error-missingparam' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-cleanupTable-missingparam}}',
 	'maintenance-cleanupCaps-error-noneed' => '{{doc-important|Do not translate <code>$wgCapitalLinks</code>.}}',
 	'maintenance-cleanupSpam-desc' => 'Used as description',
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
 	'maintenance-cleanupSpam-output-done' => '{{notranslate}}',
+	'maintenance-cleanupSpam-output-page' => 'Parameters:
+* $1 - page name',
 	'maintenance-cleanupSpam-error-invalid' => '*$1 - provided hostname',
 	'maintenance-cleanupSpam-error-noid' => '*$1 - page ID',
 	'maintenance-clearInterwikiCache-desc' => 'Used as description',
 	'maintenance-clearInterwikiCache-done' => '{{notranslate}}',
+	'maintenance-clearInterwikiCache-db' => 'Parameters:
+* $1 - database name',
 	'maintenance-createAndPromote-desc' => 'Used as description',
 	'maintenance-createAndPromote-option-username' => '{{notranslate}}',
 	'maintenance-createAndPromote-option-password' => '{{notranslate}}',
-	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.',
+	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.
+
+Parameters:
+* $1 - (Unused) wiki ID
+* $2 - username',
 	'maintenance-createAndPromote-output-done' => '{{notranslate}}',
 	'maintenance-createAndPromote-error-invalid' => '{{notranslate}}',
 	'maintenance-createAndPromote-error-exists' => '{{notranslate}}',
@@ -514,14 +567,22 @@ $messages['qqq'] = array(
 	'maintenance-reassignEdits-desc' => 'Used as description',
 	'maintenance-runJobs' => '{{notranslate}}',
 	'maintenance-runJobs-desc' => 'Used as description',
-	'maintenance-runJobs-output-job' => '{{notranslate}}',
+	'maintenance-runJobs-output-job' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-generic-notrans}}',
 	'maintenance-showJobs' => '{{notranslate}}',
 	'maintenance-showJobs-desc' => 'Used as description',
-	'maintenance-showJobs-output-job' => '{{notranslate}}',
+	'maintenance-showJobs-output-job' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-generic-notrans}}',
 	'maintenance-sql-desc' => 'Used as description',
-	'maintenance-sql-output-row' => '{{notranslate}}',
+	'maintenance-sql-output-row' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-generic-notrans}}',
 	'maintenance-sql-output-aff' => '* $1 is the number of records that were fixed',
-	'maintenance-sql-error-sql' => '{{notranslate}}',
+	'maintenance-sql-error-sql' => '{{notranslate}}
+See also:
+* {{msg-mw|Maintenance-generic-notrans}}',
 	'maintenance-showCacheStats' => '{{notranslate}}',
 	'maintenance-showCacheStats-desc' => 'Used as description',
 	'maintenance-eval-desc' => 'Used as description',
@@ -532,6 +593,14 @@ This message appears next to a checkbox.
 Words having the same meaning as "checked" in this sentence are "marked", "ticked" and "selected".
 
 This message is currently not used in this extension.',
+	'maintenance-invalidtitle' => 'Unused at this time.
+
+Parameters:
+* $1 - page title',
+	'maintenance-titlenoexist' => 'Unused at this time.
+
+Parameters:
+* $1 - page title',
 	'maintenance-failed' => '{{Identical|Failed}}',
 	'maintenance-deleted' => 'This message is currently not used in this extension.
 {{Identical|Deleted}}',
@@ -539,13 +608,35 @@ This message is currently not used in this extension.',
 * $2 is the local wiki id (string containing database name and tables prefix, if any)
 
 This message is currently not used in this extension.',
+	'maintenance-revnotfound' => 'Unused at this time.
+
+Parameters:
+* $1 - revision ID',
+	'maintenance-showCacheStats-edits' => 'Parameters:
+* $1 - number of edits',
+	'maintenance-showCacheStats-articles' => 'Parameters:
+* $1 - number of pages',
+	'maintenance-showCacheStats-pages' => 'Parameters:
+* $1 - number of pages',
+	'maintenance-showCacheStats-users' => 'Parameters:
+* $1 - number of users',
+	'maintenance-showCacheStats-admins' => 'Parameters:
+* $1 - number of administrators',
+	'maintenance-showCacheStats-images' => 'Parameters:
+* $1 - number of files',
+	'maintenance-showCacheStats-views' => 'Parameters:
+* $1 - number of pageviews',
 	'maintenance-move' => '{{doc-important|Do not translate <code><nowiki>{{int:ellipsis}}</nowiki></code>.}}
 Unused at this time. Parameters:
 * $1 - ...
 * $2 - ...',
 	'maintenance-movefail' => 'Unused at this time. Parameters:
 * $1 - ...',
-	'maintenance-error' => '{{Identical|Error}}',
+	'maintenance-error' => 'Unused at this time.
+
+Parameters:
+* $1 - ...
+{{Identical|Error}}',
 	'maintenance-memc-requests' => '{{Identical|Request}}',
 	'maintenance-memc-total' => 'This message is currently not used in this extension.
 {{Identical|Total}}',
@@ -562,6 +653,22 @@ This message is currently not used in this extension.',
 	'maintenance-re-rr' => '* $1 is substituted by {{msg-mw|maintenance-re-report}}
 
  This message is currently not used in this extension.',
+	'maintenance-re-ce' => 'Unused at this time.
+
+Parameters:
+* $1 - ...',
+	'maintenance-re-de' => 'Unused at this time.
+
+Parameters:
+* $1 - ...',
+	'maintenance-re-rce' => 'Unused at this time.
+
+Parameters:
+* $1 - ...',
+	'maintenance-re-total' => 'Unused at this time.
+
+Parameters:
+* $1 - ...',
 );
 
 /** Afrikaans (Afrikaans)
