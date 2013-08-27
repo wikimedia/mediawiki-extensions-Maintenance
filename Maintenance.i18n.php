@@ -604,10 +604,12 @@ Parameters:
 	'maintenance-failed' => '{{Identical|Failed}}',
 	'maintenance-deleted' => 'This message is currently not used in this extension.
 {{Identical|Deleted}}',
-	'maintenance-revdelete' => '* $1 is a list of revisions numbers
-* $2 is the local wiki id (string containing database name and tables prefix, if any)
+	'maintenance-revdelete' => 'This message is currently not used in this extension.
 
-This message is currently not used in this extension.',
+Parameters:
+* $1 - a list of revisions numbers
+* $2 - the local wiki id (string containing database name and tables prefix, if any)
+* $3 - number of revisions',
 	'maintenance-revnotfound' => 'Unused at this time.
 
 Parameters:
