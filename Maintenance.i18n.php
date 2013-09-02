@@ -5758,7 +5758,7 @@ $messages['oc'] = array(
 	'maintenance-backlink' => "Retorn cap a la seleccion de l'escript",
 	'maintenance-header' => "Seleccionatz, çaijós, un escript d'executar.
 Las descripcions son a la seguida de cadun d'aquestes.",
-	'maintenance-error-invalidtype' => 'Tipe incorrècte !', # Fuzzy
+	'maintenance-error-invalidtype' => "L'escript especificat es pas estat trobat",
 	'maintenance-option-confirm' => 'Confirmar',
 	'maintenance-output-success' => '$1 a marchat amb succès !',
 	'maintenance-changePassword' => 'Utilizar aqueste formulari per cambiar lo senhal d’un utilizaire',
