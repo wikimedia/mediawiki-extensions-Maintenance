@@ -551,13 +551,14 @@ Parameters:
 	'maintenance-createAndPromote-output-done' => '{{notranslate}}',
 	'maintenance-createAndPromote-error-invalid' => '{{notranslate}}',
 	'maintenance-createAndPromote-error-exists' => '{{notranslate}}',
-	'maintenance-createAndPromote-error-password' => '$1 can be one of the following:
-* {{msg-mw|password-change-forbidden}}
-* {{msg-mw|passwordtooshort}}
-* {{msg-mw|password-name-match}}
-* {{msg-mw|password-login-forbidden}}
-* {{msg-mw|externaldberror}}
-* Anything returned by the [[mw:Manual:Hooks/isValidPassword|isValidPassword]] hook.',
+	'maintenance-createAndPromote-error-password' => 'Parameters:
+* $1 - can be one of the following:
+** {{msg-mw|Password-change-forbidden}}
+** {{msg-mw|Passwordtooshort}}
+** {{msg-mw|Password-name-match}}
+** {{msg-mw|Password-login-forbidden}}
+** {{msg-mw|Externaldberror}}
+** anything returned by the [[mw:Manual:Hooks/isValidPassword|isValidPassword]] hook',
 	'maintenance-deleteBatch-desc' => 'Used as description',
 	'maintenance-deleteRevision-desc' => 'Used as description',
 	'maintenance-initEditCount' => '{{notranslate}}',
@@ -6468,6 +6469,7 @@ A abortar a movimentação',
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Luckas
  */
@@ -6478,7 +6480,7 @@ $messages['pt-br'] = array(
 	'maintenance-backlink' => 'Voltar à seleção de scripts',
 	'maintenance-header' => 'Por favor, selecione abaixo um script a executar.
 As descrições estão junto a cada script',
-	'maintenance-error-invalidtype' => 'Tipo inválido!', # Fuzzy
+	'maintenance-error-invalidtype' => 'O script especificado não foi encontrado',
 	'maintenance-generic-done' => 'feito',
 	'maintenance-generic-username' => 'Nome de usuário',
 	'maintenance-generic-password' => 'Senha',
