@@ -417,18 +417,21 @@ Used in the following messages:
 	'maintenance-attachLatest-desc' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-option-fix' => 'Checkbox label. "dry run" refers to when the script is run and shows what needs to be fixed, but does not fix those items. Also called from {{msg-mw|maintenance-attachLatest-output-dryrun}} for the same context.',
 	'maintenance-attachLatest-output-begin' => 'Do not translate <code>page_latest</code>',
-	'maintenance-attachLatest-output-notime' => '* $1 is the wiki id (database name)
-* $2 is the page id (number)
-* $3 is the page name',
-	'maintenance-attachLatest-output-norev' => '* $1 is the wiki id (database name)
-* $2 is the page id (number)
-* $3 is the page name
-* $4 is the latest revision time of the page',
-	'maintenance-attachLatest-output-found' => '* $1 is the wiki id (database name)
-* $2 is the page id (number)
-* $3 is the page name
-* $4 is the latest revision time of the page
-* $5 is the latest revision id (number)',
+	'maintenance-attachLatest-output-notime' => 'Parameters:
+* $1 - the wiki ID (database name)
+* $2 - the page ID (number)
+* $3 - the page name',
+	'maintenance-attachLatest-output-norev' => 'Parameters:
+* $1 - the wiki ID (database name)
+* $2 - the page ID (number)
+* $3 - the page name
+* $4 - the latest revision time of the page',
+	'maintenance-attachLatest-output-found' => 'Parameters:
+* $1 - the wiki ID (database name)
+* $2 - the page ID (number)
+* $3 - the page name
+* $4 - the latest revision time of the page
+* $5 - the latest revision ID (number)',
 	'maintenance-attachLatest-output-done' => 'Parameters:
 * $1 - the number of pages that were processed by this script
 {{Identical|Done}}',
@@ -439,14 +442,21 @@ Used in the following messages:
 	'maintenance-benchmarkPurge-error-nosquid' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.',
 	'maintenance-benchmarkPurge-output-numsquids' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.
 * $1 is the number of Squid servers',
-	'maintenance-benchmarkPurge-output-trial' => '* $1 is the number of titles processed in the trial
-* $2 is the total time of the trial in milliseconds
-* $3 is the average time of each title in milliseconds',
+	'maintenance-benchmarkPurge-output-trial' => 'Parameters:
+* $1 - the number of titles processed in the trial
+* $2 - the total time of the trial (in milliseconds)
+* $3 - the average time of each title (in milliseconds)',
 	'maintenance-changePassword-desc' => 'Used as description',
 	'maintenance-changePassword-option-user' => '{{notranslate}}',
 	'maintenance-changePassword-option-password' => '{{notranslate}}',
-	'maintenance-changePassword-error-nouser' => '*$1 - username',
-	'maintenance-changePassword-output-set' => '*$1 - username',
+	'maintenance-changePassword-error-nouser' => 'Parameters:
+* $1 - username',
+	'maintenance-changePassword-output-set' => 'Used as success message.
+
+"set" is the past tense.
+
+Parameters:
+* $1 - username',
 	'maintenance-checkAutoLoader-desc' => 'Used as description',
 	'maintenance-checkAutoLoader-output-list1' => '{{notranslate}}
 Parameters:
@@ -457,7 +467,8 @@ Parameters:
 * $2 - file
 * $3 - file',
 	'maintenance-checkBadRedirects-desc' => 'Used as description',
-	'maintenance-checkBadRedirects-output-found' => '*$1 - number of redirects',
+	'maintenance-checkBadRedirects-output-found' => 'Parameters:
+* $1 - number of redirects',
 	'maintenance-checkBadRedirects-output-footer' => '{{Identical|Done}}',
 	'maintenance-checkImages-desc' => 'Used as description',
 	'maintenance-checkImages-output-noaccess' => 'Parameters:
@@ -473,25 +484,31 @@ Parameters:
 * $1 - image name
 * $2 - database size
 * $3 - actual size',
-	'maintenance-checkImages-output-good' => '*$1 - number of good images
-*$2 - number of images',
+	'maintenance-checkImages-output-good' => 'Parameters:
+* $1 - number of good images
+* $2 - number of images',
 	'maintenance-checkSyntax-desc' => 'Used as description',
 	'maintenance-checkSyntax-option-with-extensions' => 'Used as option',
 	'maintenance-checkSyntax-option-path' => 'Used as option',
 	'maintenance-checkSyntax-option-list-file' => 'Used as option',
 	'maintenance-checkSyntax-option-modified' => 'Used as option',
 	'maintenance-checkSyntax-option-syntax-only' => 'Used as option',
-	'maintenance-checkSyntax-output-footer' => '*$1 - number of files checked
-*$2 - number of failures
-*$3 - number of warnings',
+	'maintenance-checkSyntax-output-footer' => 'Parameters:
+* $1 - number of files checked
+* $2 - number of failures
+* $3 - number of warnings',
 	'maintenance-checkSyntax-output-done' => '{{notranslate}}',
-	'maintenance-checkSyntax-output-error' => '*$1 - filename
-*$2 - line number
-*$3 - error message',
-	'maintenance-checkSyntax-output-warning' => '*$1 - filename
-*$2 - ...',
-	'maintenance-checkSyntax-error-nofile' => '*$1 - name of file or directory',
-	'maintenance-checkSyntax-error-cantopen' => '*$1 - filename',
+	'maintenance-checkSyntax-output-error' => 'Parameters:
+* $1 - filename
+* $2 - line number
+* $3 - error message',
+	'maintenance-checkSyntax-output-warning' => 'Parameters:
+* $1 - filename
+* $2 - ...',
+	'maintenance-checkSyntax-error-nofile' => 'Parameters:
+* $1 - name of file or directory',
+	'maintenance-checkSyntax-error-cantopen' => 'Parameters:
+* $1 - filename',
 	'maintenance-checkUsernames-desc' => 'Used as description',
 	'maintenance-checkUsernames-error-notvalid' => '*$2 - user ID
 *$3 - username',
@@ -534,8 +551,10 @@ See also:
 	'maintenance-cleanupSpam-output-done' => '{{notranslate}}',
 	'maintenance-cleanupSpam-output-page' => 'Parameters:
 * $1 - page name',
-	'maintenance-cleanupSpam-error-invalid' => '*$1 - provided hostname',
-	'maintenance-cleanupSpam-error-noid' => '*$1 - page ID',
+	'maintenance-cleanupSpam-error-invalid' => 'Parameters:
+* $1 - provided hostname',
+	'maintenance-cleanupSpam-error-noid' => 'Parameters:
+* $1 - page ID',
 	'maintenance-clearInterwikiCache-desc' => 'Used as description',
 	'maintenance-clearInterwikiCache-done' => '{{notranslate}}',
 	'maintenance-clearInterwikiCache-db' => 'Parameters:
@@ -580,7 +599,8 @@ See also:
 	'maintenance-sql-output-row' => '{{notranslate}}
 See also:
 * {{msg-mw|Maintenance-generic-notrans}}',
-	'maintenance-sql-output-aff' => '* $1 is the number of records that were fixed',
+	'maintenance-sql-output-aff' => 'Parameters:
+* $1 - the number of records that were fixed',
 	'maintenance-sql-error-sql' => '{{notranslate}}
 See also:
 * {{msg-mw|Maintenance-generic-notrans}}',
@@ -649,13 +669,15 @@ Parameters:
 	'maintenance-memc-expired' => '{{Identical|Expired}}',
 	'maintenance-memc-misses' => '{{Identical|Miss}}',
 	'maintenance-memc-updates' => '{{Identical|Update}}',
-	'maintenance-re-report' => 'Used as text for an option check box. Also substituted in {{msg-mw|maintenance-re-rr}}.
+	'maintenance-re-report' => 'Unused at this time.
 
-This message is currently not used in this extension.',
-	'maintenance-re-nf' => '*$1 - username',
-	'maintenance-re-rr' => '* $1 is substituted by {{msg-mw|maintenance-re-report}}
+Used as text for an option check box. Also substituted in {{msg-mw|Maintenance-re-rr}}.',
+	'maintenance-re-nf' => 'Parameters:
+* $1 - username',
+	'maintenance-re-rr' => 'Unused at this time.
 
- This message is currently not used in this extension.',
+Parameters:
+* $1 - substituted by {{msg-mw|Maintenance-re-report}}',
 	'maintenance-re-ce' => 'Unused at this time.
 
 Parameters:
