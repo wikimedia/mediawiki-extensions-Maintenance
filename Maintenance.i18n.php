@@ -370,9 +370,20 @@ $messages['qqq'] = array(
 	'maintenance-error-badini' => 'Do not translate the <code>metadata.ini</code> part.',
 	'maintenance-error-invalidtype' => 'Shown when the user tries to run a script that is disabled or that does not exist',
 	'maintenance-error-badargs' => 'Shown when the user tries to run a script without filling in required text inputs, checkboxes, etc.',
-	'maintenance-generic-done' => 'done',
-	'maintenance-generic-username' => '{{Identical|Username}}',
-	'maintenance-generic-password' => '{{Identical|Password}}',
+	'maintenance-generic-done' => 'Used in:
+* {{msg-mw|Maintenance-checkSyntax-output-done}}
+* {{msg-mw|Maintenance-cleanupSpam-output-done}}
+* {{msg-mw|Maintenance-clearInterwikiCache-done}}
+* {{msg-mw|Maintenance-createAndPromote-output-done}}
+{{Identical|Done}}',
+	'maintenance-generic-username' => 'Used in:
+* {{msg-mw|Maintenance-changePassword-option-user}}
+* {{msg-mw|Maintenance-createAndPromote-option-username}}
+{{Identical|Username}}',
+	'maintenance-generic-password' => 'Used in:
+* {{msg-mw|Maintenance-changePassword-option-password}}
+* {{msg-mw|Maintenance-createAndPromote-option-password}}
+{{Identical|Password}}',
 	'maintenance-generic-reason' => '{{Identical|Reason}}',
 	'maintenance-generic-notrans' => '{{notranslate}}
 Used in the following messages:
@@ -380,9 +391,17 @@ Used in the following messages:
 * {{msg-mw|Maintenance-showJobs-output-job}}
 * {{msg-mw|Maintenance-sql-output-row}}
 * {{msg-mw|Maintenance-sql-error-sql}}',
-	'maintenance-cleanupTable-dry-run' => 'Label for a checkbox indicating that the script will run, but will not fix anything (a "dry run")',
-	'maintenance-cleanupTable-check' => 'Script output. "Titles" in this case refers to page names',
-	'maintenance-cleanupTable-checkfix' => 'Script output. "Titles" in this case refers to page names',
+	'maintenance-cleanupTable-dry-run' => 'Label for a checkbox indicating that the script will run, but will not fix anything (a "dry run")
+
+Used in {{msg-mw|Maintenance-cleanupCaps-option-dry-run}}',
+	'maintenance-cleanupTable-check' => 'Script output. "Titles" in this case refers to page names
+
+Used in:
+* {{msg-mw|Maintenance-cleanupCaps-output-check}}
+* {{msg-mw|Maintenance-cleanupCaps-output-finished}}',
+	'maintenance-cleanupTable-checkfix' => 'Script output. "Titles" in this case refers to page names.
+
+Used in {{msg-mw|Maintenance-cleanupCaps-output-checkfix}}.',
 	'maintenance-cleanupTable-progress' => 'Script output that shows the current progress. Parameters:
 * $1 - the wiki id
 * $2 - the timestamp
@@ -415,7 +434,9 @@ Used in the following messages:
 * $1 is the name of the script',
 	'maintenance-attachLatest' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-desc' => 'Do not translate <code>page_latest</code>',
-	'maintenance-attachLatest-option-fix' => 'Checkbox label. "dry run" refers to when the script is run and shows what needs to be fixed, but does not fix those items. Also called from {{msg-mw|maintenance-attachLatest-output-dryrun}} for the same context.',
+	'maintenance-attachLatest-option-fix' => 'Checkbox label. "dry run" refers to when the script is run and shows what needs to be fixed, but does not fix those items.
+
+Also called from {{msg-mw|maintenance-attachLatest-output-dryrun}} for the same context.',
 	'maintenance-attachLatest-output-begin' => 'Do not translate <code>page_latest</code>',
 	'maintenance-attachLatest-output-notime' => 'Parameters:
 * $1 - the wiki ID (database name)
@@ -435,7 +456,8 @@ Used in the following messages:
 	'maintenance-attachLatest-output-done' => 'Parameters:
 * $1 - the number of pages that were processed by this script
 {{Identical|Done}}',
-	'maintenance-attachLatest-output-dryrun' => 'Do not translate <code>page_latest</code>.',
+	'maintenance-attachLatest-output-dryrun' => '{{doc-important|Do not translate <code>page_latest</code>.}}
+Refers to {{msg-mw|Maintenance-attachLatest-option-fix}}.',
 	'maintenance-benchmarkPurge' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.',
 	'maintenance-benchmarkPurge-desc' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable. "Benchmark" refers to measuring how fast something is.',
 	'maintenance-benchmarkPurge-option-count' => '"Squid" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.',
@@ -447,8 +469,12 @@ Used in the following messages:
 * $2 - the total time of the trial (in milliseconds)
 * $3 - the average time of each title (in milliseconds)',
 	'maintenance-changePassword-desc' => 'Used as description',
-	'maintenance-changePassword-option-user' => '{{notranslate}}',
-	'maintenance-changePassword-option-password' => '{{notranslate}}',
+	'maintenance-changePassword-option-user' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-username}}',
+	'maintenance-changePassword-option-password' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-password}}',
 	'maintenance-changePassword-error-nouser' => 'Parameters:
 * $1 - username',
 	'maintenance-changePassword-output-set' => 'Used as success message.
@@ -497,7 +523,9 @@ Parameters:
 * $1 - number of files checked
 * $2 - number of failures
 * $3 - number of warnings',
-	'maintenance-checkSyntax-output-done' => '{{notranslate}}',
+	'maintenance-checkSyntax-output-done' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-done}}',
 	'maintenance-checkSyntax-output-error' => 'Parameters:
 * $1 - filename
 * $2 - line number
@@ -514,7 +542,9 @@ Parameters:
 *$3 - username',
 	'maintenance-cleanupCaps' => '{{doc-important|Do not translate <code>$wgCapitalLinks</code>.}}',
 	'maintenance-cleanupCaps-desc' => 'Used as description',
-	'maintenance-cleanupCaps-option-dry-run' => '{{notranslate}}',
+	'maintenance-cleanupCaps-option-dry-run' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-cleanupTable-dry-run}}',
 	'maintenance-cleanupCaps-option-namespace' => 'Used as option',
 	'maintenance-cleanupCaps-output-islower' => 'Parameters:
 * $1 - page name',
@@ -529,8 +559,12 @@ Parameters:
 * $1 - uppercase page name
 * $2 - lowercase page name
 * $3 - status of move (ok or not)',
-	'maintenance-cleanupCaps-output-check' => '{{notranslate}}',
-	'maintenance-cleanupCaps-output-checkfix' => '{{notranslate}}',
+	'maintenance-cleanupCaps-output-check' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-cleanupTable-check}}',
+	'maintenance-cleanupCaps-output-checkfix' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-cleanupTable-checkfix}}',
 	'maintenance-cleanupCaps-output-progress' => '{{notranslate}}
 See also:
 * {{msg-mw|Maintenance-cleanupTable-progress}}',
@@ -538,7 +572,7 @@ See also:
 See also:
 * {{msg-mw|Maintenance-cleanupTable-processing}}',
 	'maintenance-cleanupCaps-output-finished' => '{{notranslate}}
-See also:
+Default:
 * {{msg-mw|Maintenance-cleanupTable-check}}',
 	'maintenance-cleanupCaps-error-missingparam' => '{{notranslate}}
 See also:
@@ -548,7 +582,9 @@ See also:
 	'maintenance-cleanupSpam-output-found' => 'Parameters:
 * $1 is a count for number of matches
 * $2 is an external link that was spammed.',
-	'maintenance-cleanupSpam-output-done' => '{{notranslate}}',
+	'maintenance-cleanupSpam-output-done' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-done}}',
 	'maintenance-cleanupSpam-output-page' => 'Parameters:
 * $1 - page name',
 	'maintenance-cleanupSpam-error-invalid' => 'Parameters:
@@ -556,20 +592,32 @@ See also:
 	'maintenance-cleanupSpam-error-noid' => 'Parameters:
 * $1 - page ID',
 	'maintenance-clearInterwikiCache-desc' => 'Used as description',
-	'maintenance-clearInterwikiCache-done' => '{{notranslate}}',
+	'maintenance-clearInterwikiCache-done' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-done}}',
 	'maintenance-clearInterwikiCache-db' => 'Parameters:
 * $1 - database name',
 	'maintenance-createAndPromote-desc' => 'Used as description',
-	'maintenance-createAndPromote-option-username' => '{{notranslate}}',
-	'maintenance-createAndPromote-option-password' => '{{notranslate}}',
+	'maintenance-createAndPromote-option-username' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-username}}',
+	'maintenance-createAndPromote-option-password' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-password}}',
 	'maintenance-createAndPromote-output-creating' => 'Progress message from [[mw:Manual:createAndPromote.php|createAndPromote.php]], which creates a new user and auto-promotes them to sysop status.
 
 Parameters:
 * $1 - (Unused) wiki ID
 * $2 - username',
-	'maintenance-createAndPromote-output-done' => '{{notranslate}}',
-	'maintenance-createAndPromote-error-invalid' => '{{notranslate}}',
-	'maintenance-createAndPromote-error-exists' => '{{notranslate}}',
+	'maintenance-createAndPromote-output-done' => '{{notranslate}}
+Default:
+* {{msg-mw|Maintenance-generic-done}}',
+	'maintenance-createAndPromote-error-invalid' => '{{notranslate}}
+Default:
+* {{msg-mw|Noname}}',
+	'maintenance-createAndPromote-error-exists' => '{{notranslate}}
+Default:
+* {{msg-mw|Userexists}}',
 	'maintenance-createAndPromote-error-password' => 'Parameters:
 * $1 - can be one of the following:
 ** {{msg-mw|Password-change-forbidden}}
@@ -649,8 +697,13 @@ Parameters:
 * $1 - number of files',
 	'maintenance-showCacheStats-views' => 'Parameters:
 * $1 - number of pageviews',
+	'maintenance-showCacheStats-update' => 'Refers to {{msg-mw|Ellipsis}}.',
 	'maintenance-move' => '{{doc-important|Do not translate <code><nowiki>{{int:ellipsis}}</nowiki></code>.}}
-Unused at this time. Parameters:
+Unused at this time.
+
+Refers to {{msg-mw|Ellipsis}}.
+
+Parameters:
 * $1 - ...
 * $2 - ...',
 	'maintenance-movefail' => 'Unused at this time. Parameters:
@@ -694,6 +747,7 @@ Parameters:
 
 Parameters:
 * $1 - ...',
+	'maintenance-re-re' => 'Refers to {{msg-mw|Ellipsis}}.',
 );
 
 /** Afrikaans (Afrikaans)
