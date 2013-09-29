@@ -6789,6 +6789,7 @@ $messages['roa-tara'] = array(
  * @author Innv
  * @author KorneySan
  * @author Lockal
+ * @author Okras
  * @author Putnik
  * @author Volkov
  * @author Александр Сигачёв
@@ -6885,12 +6886,17 @@ $messages['ru'] = array(
 	'maintenance-cleanupCaps-output-clash' => '«$1» пропущена; «$2» уже существует',
 	'maintenance-cleanupCaps-output-dryrun' => '«$1» → «$2»: ПРОБНЫЙ ЗАПУСК, НЕ ПЕРЕИМЕНОВАНА',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks включён — нет необходимости для очистки ссылок с заглавными буквами',
+	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|Найдена|Найдено}} $1 {{PLURAL:$1|статья, содержащая|статьи, содержащих|статей, содержащих}} $2',
 	'maintenance-cleanupSpam-output-reverting' => 'возврат',
+	'maintenance-cleanupSpam-error-noid' => 'Внутренняя ошибка: нет страницы для ID $1',
+	'maintenance-clearInterwikiCache' => 'Используйте эту форму, чтобы полностью очистить кэш интервики',
+	'maintenance-clearInterwikiCache-desc' => 'Очистить из кэша все интервики для всех языков',
 	'maintenance-createAndPromote' => 'Используйте эту форму для создания нового участника с правами администратора.
 Обратите внимание на форму бюрократа, если вы хотите сделать его бюрократом',
 	'maintenance-createAndPromote-desc' => 'Создать участника со статусом администратора',
 	'maintenance-createAndPromote-option-bureaucrat' => 'Дать участнику права бюрократа',
 	'maintenance-createAndPromote-output-creating' => 'Создание и продвижение {{ns:user}}:$2...',
+	'maintenance-createAndPromote-error-password' => 'Произошла ошибка с паролем, который вы ввели: $1',
 	'maintenance-deleteBatch' => 'Используйте эту форму для массового удаления страниц.
 На одной строке должна находиться только одна страница.',
 	'maintenance-deleteBatch-desc' => 'Массовое удаление страниц',
