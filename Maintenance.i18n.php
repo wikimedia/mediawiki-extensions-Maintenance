@@ -4770,6 +4770,7 @@ $messages['ku-latn'] = array(
  * @author Les Meloures
  * @author Purodha
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'maintenance' => 'Maintenance-Skripten ausféieren',
@@ -4796,7 +4797,7 @@ D'Beschreiwunge stinn niewent all Script.",
 	'maintenance-option-required' => '(obligatoresch)',
 	'maintenance-option-optional' => '(optional)',
 	'maintenance-output-success' => '$1 ass gemaach ginn!',
-	'maintenance-output-failure' => '$1 huet net richteg fonctionnéiert!',
+	'maintenance-output-failure' => '$1 huet net richteg funktionéiert!',
 	'maintenance-attachLatest-output-begin' => 'No Säite sichen an deene page_latest op 0 steet...',
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] kann den neiste Versiounszäitpunkt net fannen?!',
 	'maintenance-attachLatest-output-norev' => "$1 $2 [[$3]] déi leschte Kéier $4, d'Versiounsnummer konnt net fonnt ginn",
@@ -4874,7 +4875,7 @@ An all Linn soll en Quellsäit an eng Zilsäit, getrennt duerch een ''<nowiki>|<
 	'maintenance-userexists' => 'De Benotzer gëtt et schonn!',
 	'maintenance-invalidtitle' => 'Ongëltegen Titel "$1"!',
 	'maintenance-titlenoexist' => 'Den Titel den dir uginn hutt ("$1") gëtt et net!',
-	'maintenance-failed' => 'Huet net fonctionnéiert',
+	'maintenance-failed' => 'Huet net funktionéiert',
 	'maintenance-deleted' => 'GELÄSCHT',
 	'maintenance-revdelete' => 'Läsche {{PLURAL:$3|vun der Versioun| vun de Versioune(n)}} $1 vun der Wiki $2',
 	'maintenance-revnotfound' => "D'Versioun $1 gouf net fonnt!",
@@ -6345,7 +6346,7 @@ $messages['ps'] = array(
 	'maintenance-checkBadRedirects-output-footer' => 'ترسره شو.',
 	'maintenance-invalidname' => 'ناسم کارن-نوم!',
 	'maintenance-userexists' => 'دا کارن د پخوا نه ثبت دی!',
-	'maintenance-deleted' => 'ړنګ شو',
+	'maintenance-deleted' => 'ړنگ شو',
 	'maintenance-showCacheStats-edits' => 'د سمونو شمېر: $1',
 	'maintenance-showCacheStats-pages' => 'د مخونو شمېر: $1',
 	'maintenance-showCacheStats-users' => 'د کارنانو شمېر: $1',
