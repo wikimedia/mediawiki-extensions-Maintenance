@@ -8319,6 +8319,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hydra
+ * @author Hzy980512
  * @author Kuailong
  * @author Liangent
  * @author PhiLiP
@@ -8381,6 +8382,7 @@ $messages['zh-hans'] = array(
 	'maintenance-checkSyntax-output-warning' => '文件$1中的警告：$2',
 	'maintenance-checkSyntax-error-nofile' => '错误：找不到文件或目录$1',
 	'maintenance-checkSyntax-error-cantopen' => '无法打开文件$1',
+	'maintenance-checkSyntax-error-svnerr' => '从Subversion获取列表时发生错误！',
 	'maintenance-checkUsernames-error-notvalid' => '无效的使用者名：「$3 」（使用者id  $2 ）',
 	'maintenance-cleanupCaps-output-islower' => '“$1”已经是小写字母。',
 	'maintenance-cleanupSpam-output-blanking' => '正在清空',
