@@ -2115,6 +2115,7 @@ Pśesunjenje pśetergnjone',
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author Geraki
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -2160,10 +2161,10 @@ $messages['el'] = array(
 	'maintenance-memc-invalid' => 'μη έγκυρο:',
 	'maintenance-memc-expired' => 'ληγμένο:',
 	'maintenance-memc-absent' => 'απών:',
-	'maintenance-memc-imagecache' => 'Λανθάνουσα μνήμη εικόνας',
+	'maintenance-memc-imagecache' => 'Προσωρινή μνήμη εικόνας',
 	'maintenance-memc-misses' => 'αστοχίες:',
 	'maintenance-memc-updates' => 'αναβαθμίσεις:',
-	'maintenance-memc-uncacheable' => 'χωρίς λανθάνουσα μνήμη:',
+	'maintenance-memc-uncacheable' => 'χωρίς προσωρινή μνήμη:',
 	'maintenance-memc-diffcache' => 'Λανθάνουσα μνήμη διαφορών',
 	'maintenance-re-nf' => 'Ο χρήστης $1 δεν βρέθηκε',
 	'maintenance-re-ce' => 'Τωρινές επεξεργασίες: $1',
