@@ -2474,6 +2474,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author Omidh
  * @author پاناروما
  */
 $messages['fa'] = array(
@@ -6699,7 +6700,7 @@ Bifați și caseta „birocrat” dacă doriți să-l promovați și la statutul
 	'maintenance-createAndPromote-desc' => 'Creează un utilizator și promovează-l la statutul de administrator',
 	'maintenance-deleteBatch' => 'Utilizați acest formular pentru ștergerea în masă a paginilor.
 Puneți doar o pagină pe un rând',
-	'maintenance-deleteBatch-desc' => 'Şterge pagini în masă',
+	'maintenance-deleteBatch-desc' => 'Șterge pagini în masă',
 	'maintenance-deleteRevision' => 'Utilizați acest formular pentru ștergerea în masă a versiunilor.
 Specificați doar o versiune pe fiecare rând',
 	'maintenance-deleteRevision-desc' => 'Şterge reviziile din baza de date',
