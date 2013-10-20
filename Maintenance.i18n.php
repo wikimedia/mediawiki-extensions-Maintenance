@@ -1680,7 +1680,9 @@ $messages['ce'] = array(
 	'maintenance-generic-username' => 'Декъашхочун цӀе',
 	'maintenance-checkUsernames-error-notvalid' => 'Декъашхочун цӀе нийса яц: $3 (декъашхочун ID: $2)',
 	'maintenance-deleteBatch-desc' => 'Дуккха агIонаш дӀаяхар',
+	'maintenance-revnotfound' => 'АгӀона $1 верси цакарий!',
 	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
+	'maintenance-memc-total' => 'ерриг:',
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
 
