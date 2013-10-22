@@ -1302,12 +1302,17 @@ $messages['be-tarask'] = array(
 $messages['bg'] = array(
 	'maintenance' => 'Пускане на скриптове за поддръжка',
 	'maintenance-desc' => '[[Special:Maintenance|Уеб интерфейс]] за различни скриптове за поддръжка',
+	'right-maintenance' => 'Изпълняване на скриптове за поддръжка чрез [[Special:Maintenance]]',
 	'maintenance-backlink' => 'Връщане към избора на скрипт',
 	'maintenance-error-invalidtype' => 'Невалиден тип!', # Fuzzy
+	'maintenance-generic-done' => 'готово',
 	'maintenance-generic-username' => 'Потребителско име',
 	'maintenance-generic-password' => 'Парола',
 	'maintenance-generic-reason' => 'Причина',
+	'maintenance-cleanupTable-missingparam' => '$1: Липсващ параметър $2',
 	'maintenance-option-confirm' => 'Потвърждаване',
+	'maintenance-option-required' => '(задължително)',
+	'maintenance-option-optional' => '(незадължително)',
 	'maintenance-output-success' => '$1 беше изпълнен успешно!',
 	'maintenance-changePassword' => 'Формулярът по-долу се използва за промяна на паролата на потребител',
 	'maintenance-changePassword-desc' => 'Променяне на потребителска парола',
@@ -1689,6 +1694,7 @@ $messages['ce'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Jkjk
+ * @author Juandev
  * @author Vks
  */
 $messages['cs'] = array(
@@ -1768,7 +1774,9 @@ Hledám chybná přesměrování',
 	'maintenance-showCacheStats-admins' => 'Počet správců: $1',
 	'maintenance-showCacheStats-images' => 'Počet souborů: $1',
 	'maintenance-showCacheStats-views' => 'Počet zobrazení stránek: $1',
+	'maintenance-error' => 'Chyba: $1',
 	'maintenance-memc-requests' => 'Požadavky',
+	'maintenance-memc-withoutsession' => 'bez relace:',
 	'maintenance-memc-total' => 'celkem:',
 	'maintenance-memc-parsercache' => 'Mezipaměť parseru',
 	'maintenance-memc-hits' => 'zásahy:',
