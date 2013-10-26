@@ -5222,6 +5222,7 @@ $messages['ml'] = array(
 
 /** Marathi (मराठी)
  * @author Kaustubh
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'maintenance' => 'व्यवस्थापन स्क्रीप्ट्स चालवा',
@@ -5258,7 +5259,7 @@ $messages['mr'] = array(
 	'maintenance-userexists' => 'सदस्य अगोदरच अस्तित्वात आहे!',
 	'maintenance-invalidtitle' => 'चुकीचे शीर्षक "$1"!',
 	'maintenance-titlenoexist' => 'दिलेले शीर्षक ("$1") अस्तित्वात नाही!',
-	'maintenance-failed' => 'रद्द झाले',
+	'maintenance-failed' => 'अयशस्वी',
 	'maintenance-deleted' => 'वगळले',
 	'maintenance-revdelete' => '$2 या विकिवरील $1 आवृत्त्या वगळत आहे', # Fuzzy
 	'maintenance-revnotfound' => '$1 आवृत्ती सापडली नाही!',
