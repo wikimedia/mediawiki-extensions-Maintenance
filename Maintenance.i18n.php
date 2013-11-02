@@ -4829,9 +4829,9 @@ $messages['lb'] = array(
 	'maintenance-desc' => '[[Special:Maintenance|Web interface]] fir verschidde Maintenance-Skripten',
 	'right-maintenance' => 'Ënnerhalts-Skripten op [[Special:Maintenance]] starten',
 	'maintenance-backlink' => "Zréck op d'Auswiel vum Script",
-	'maintenance-header' => "Sicht w.e.g. ënnendrëmmer e Script eraus fir auszeféieren.
-D'Beschreiwunge stinn niewent all Script.",
-	'maintenance-error-badini' => "De Fichier metada.ini ass entweder korrupt oder e feelt. Lued w.e.g. d''Maintenance'-Erweiderung nach eng Kéier erof",
+	'maintenance-header' => "Sicht w.e.g. ënnendrënner e Script eraus fir auszeféieren.
+D'Beschreiwunge stinn nieft all Skript.",
+	'maintenance-error-badini' => "De Fichier metada.ini ass entweder korrupt oder e feelt. Luet w.e.g. d''Maintenance'-Erweiderung nach eng Kéier erof",
 	'maintenance-error-invalidtype' => 'De Skript den ugi gouf, gouf net fonnt',
 	'maintenance-error-badargs' => 'Dir hutt net all déi obligatoresch Optiounen uginn',
 	'maintenance-generic-done' => 'fäerdeg',
