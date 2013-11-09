@@ -8384,6 +8384,7 @@ $messages['yi'] = array(
  * @author Hzy980512
  * @author Kuailong
  * @author Liangent
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Simon Shek
  * @author Wrightbus
@@ -8406,6 +8407,7 @@ $messages['zh-hans'] = array(
 	'maintenance-cleanupTable-dry-run' => '执行预运行',
 	'maintenance-cleanupTable-check' => '检查坏的标题...',
 	'maintenance-cleanupTable-checkfix' => '检查和修复坏的标题...',
+	'maintenance-cleanupTable-progress' => '$1$2：$4已完成$3%；ETA $5 [$6/$7] $8/sec<$9%已更新>',
 	'maintenance-cleanupTable-missingparam' => '$1：缺少参数$2',
 	'maintenance-cleanupTable-processing' => '处理$1...',
 	'maintenance-cleanupTable-finished' => '完成$1... $3中的$2行已更新',
@@ -8418,6 +8420,7 @@ $messages['zh-hans'] = array(
 	'maintenance-output-failure' => '$1未成功运行！',
 	'maintenance-attachLatest-option-fix' => '实际修复项目，否则预运行',
 	'maintenance-attachLatest-output-begin' => '寻找page_latest设置为0的页面...',
+	'maintenance-attachLatest-output-notime' => '$1$2[[$3]]无法找到最新校正时间？？？',
 	'maintenance-attachLatest-output-done' => '完成！已处理$1个页面。',
 	'maintenance-changePassword' => '使用此表单来更改用户的密码',
 	'maintenance-changePassword-desc' => '更改用户的密码',
