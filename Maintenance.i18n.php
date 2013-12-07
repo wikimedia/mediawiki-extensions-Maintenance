@@ -1794,7 +1794,7 @@ $messages['ce'] = array(
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Jkjk
  * @author Juandev
@@ -1895,7 +1895,7 @@ Hledám chybná přesměrování',
 	'maintenance-re-nf' => 'Uživatel $1 nebyl nalezen',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -5663,7 +5663,7 @@ Beschrijvingen staan naast de scripts',
 	'maintenance-cleanupTable-check' => 'Bezig met het controleren op incorrecte paginanamen...',
 	'maintenance-cleanupTable-checkfix' => 'Bezig met het controleren en bijwerken van paginanamen...',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% uitgevoerd op $4; Verwachte eindtijd $5 [$6/$7] $8/sec <$9% bijgewerkt>',
-	'maintenance-cleanupTable-missingparam' => '$1: de parameter $2 mist',
+	'maintenance-cleanupTable-missingparam' => '$1: de parameter $2 ontbreekt',
 	'maintenance-cleanupTable-processing' => 'Bezig met verwerken van $1...',
 	'maintenance-cleanupTable-finished' => 'Klaar met $1... {{PLURAL:$3|De rij is|Er zijn $2 van $3 rijen}} bijgewerkt',
 	'maintenance-option-quiet' => 'Niet-foutmeldingen onderdrukken',
