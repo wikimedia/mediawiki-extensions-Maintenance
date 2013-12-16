@@ -1791,6 +1791,7 @@ $messages['ce'] = array(
 	'maintenance-revnotfound' => 'АгӀона $1 верси цакарий!',
 	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
 	'maintenance-memc-total' => 'ерриг:',
+	'maintenance-memc-imagecache' => 'Суьртан кэш',
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
 
