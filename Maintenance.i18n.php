@@ -416,7 +416,8 @@ Used in {{msg-mw|Maintenance-cleanupCaps-output-checkfix}}.',
 * $1 - the PHP method name that had the error
 * $2 - the list of missing parameters (hardcoded in MediaWiki core\'s /maintenance/cleanupTables.inc to be separated by a comma and a space, e.g. "param1, param2")',
 	'maintenance-cleanupTable-processing' => 'Script output. Parameters:
-* $1 - the SQL table name',
+* $1 - the SQL table name
+{{Identical|Processing}}',
 	'maintenance-cleanupTable-finished' => 'Script output.
 * $1 is the SQL table name
 * $2 is the number of records that were fixed
@@ -665,7 +666,8 @@ This message is currently not used in this extension.',
 	'maintenance-invalidtitle' => 'Unused at this time.
 
 Parameters:
-* $1 - page title',
+* $1 - page title
+{{Identical|Invalid title}}',
 	'maintenance-titlenoexist' => 'Unused at this time.
 
 Parameters:
