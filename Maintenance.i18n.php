@@ -1790,10 +1790,12 @@ $messages['ce'] = array(
 	'maintenance-generic-username' => 'Декъашхочун цӀе',
 	'maintenance-checkUsernames-error-notvalid' => 'Декъашхочун цӀе нийса яц: $3 (декъашхочун ID: $2)',
 	'maintenance-deleteBatch-desc' => 'Дуккха агIонаш дӀаяхар',
+	'maintenance-deleted' => 'ДӀАЯЬККХИНА',
 	'maintenance-revnotfound' => 'АгӀона $1 верси цакарий!',
 	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
 	'maintenance-memc-total' => 'ерриг:',
 	'maintenance-memc-imagecache' => 'Суьртан кэш',
+	'maintenance-re-ce' => 'Карара нисдарш: $1',
 	'maintenance-re-de' => 'ДӀадяхна нийсдарш: $1',
 );
 
@@ -5094,7 +5096,7 @@ $messages['mk'] = array(
 	'maintenance-cleanupTable-checkfix' => 'Проверувам и поправам погрешни наслови...',
 	'maintenance-cleanupTable-progress' => '$1 $2: $3% завршено на $4; преостанува $5 [$6/$7] $8/сек <$9% подновено>',
 	'maintenance-cleanupTable-missingparam' => '$1: Недостасува параметарот $2',
-	'maintenance-cleanupTable-processing' => 'Го обработувам $1...',
+	'maintenance-cleanupTable-processing' => 'Обработувам $1...',
 	'maintenance-cleanupTable-finished' => 'Завршив со $1... {{PLURAL:$1|подновен е $2|подновени се $2}} од вкупно $3 {{PLURAL:$1|ред|реда}}',
 	'maintenance-option-quiet' => 'Притаи изводи што не се однесуваат на грешки',
 	'maintenance-option-globals' => 'Дај извод на глобални на крајот од обработката за отстранување грешки',
