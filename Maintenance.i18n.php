@@ -2593,6 +2593,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Mjbmr
  * @author Omidh
+ * @author Reza1615
  * @author پاناروما
  */
 $messages['fa'] = array(
@@ -2611,6 +2612,7 @@ $messages['fa'] = array(
 	'maintenance-error' => 'خطا: $1',
 	'maintenance-memc-requests' => 'درخواست‌ها',
 	'maintenance-memc-total' => 'مجموع',
+	'maintenance-memc-invalid' => 'نامعتبر:',
 	'maintenance-memc-updates' => 'به روز رسانی‌ها:',
 	'maintenance-re-nf' => 'کاربر $1 یافت نشد',
 );
