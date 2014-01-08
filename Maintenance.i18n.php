@@ -2668,6 +2668,8 @@ $messages['fa'] = array(
 	'maintenance-clearInterwikiCache' => 'استفاده از این فرم برای پاک کردن کامل ذخیره‌گاه ویکی داخلی',
 	'maintenance-clearInterwikiCache-desc' => 'پاک کردن همهٔ لینک‌های ویکی داخلی برای همهٔ زبان‌ها از ذخیره‌گاه',
 	'maintenance-createAndPromote-desc' => 'ایجاد یک کاربر و ارتقاء دادن به وضعیت سرپرست',
+	'maintenance-createAndPromote-option-bureaucrat' => 'ارتقاء کاربر برای وضعیت بوروکرات',
+	'maintenance-createAndPromote-output-creating' => 'ایجاد و ارتقاء {{ns:کاربر}}:$2...',
 	'maintenance-invalidname' => 'نام کاربری نامعتبر!',
 	'maintenance-userexists' => 'کاربر در حال حاضر وجود دارد!',
 	'maintenance-invalidtitle' => 'عنوان نامعتبر «$1»!',
@@ -4802,7 +4804,7 @@ Donn dat Zohsatzprojramm <code lang="en">Maintenance</code> norr_ens neu eronger
 	'maintenance-checkBadRedirects' => 'Met dämm Fommulaa kam_mer Sigge pröve, di als Ömleidonge en de Daatebangk shtonn, of di verhaftesch Ömleidonge sin.',
 	'maintenance-checkBadRedirects-desc' => 'Noh kapodde Ömleidonge söhke',
 	'maintenance-checkBadRedirects-output-header' => 'Ben Ömleidonge aam Laade&nbsp;……',
-	'maintenance-checkBadRedirects-output-found' => 'Ensjesamp ham_mer {{PLURAL:$1|ein Ömleidung|$1 Ömleidunge|kein Ömleidung}} jefonge.
+	'maintenance-checkBadRedirects-output-found' => 'Ensjesamp ham_mer {{PLURAL:$1|ein Ömleidong|$1 Ömleidonge|kein Ömleidong}} jefonge.
 Ben noh kappodde Ömleidonge aam looere&nbsp;…',
 	'maintenance-checkBadRedirects-output-footer' => '
 Jedonn.',
@@ -6973,6 +6975,7 @@ $messages['roa-tara'] = array(
  * @author Ferrer
  * @author Haffman
  * @author Innv
+ * @author Kaganer
  * @author KorneySan
  * @author Lockal
  * @author Okras
@@ -7000,7 +7003,7 @@ $messages['ru'] = array(
 	'maintenance-cleanupTable-progress' => '$1 $2 : $3 % сделано на $4 ; ПВЗ $5 [ $6 / $7 ] $8 / сек < $9 % обновлено>',
 	'maintenance-cleanupTable-missingparam' => '$1: Отсутствует параметр $2',
 	'maintenance-cleanupTable-processing' => 'Обработка $1...',
-	'maintenance-cleanupTable-finished' => 'Готово $1... $2 {{PLURAL:$2|строчка из $3 обновлена|строчек из $3 обновлены|строчки из $3 обновлены}}', # Fuzzy
+	'maintenance-cleanupTable-finished' => 'Обработана $1... {{PLURAL:$2|Обновлена $2 строка из $3|Обновлены $2 строк из $3|Обновлены $2 строки из $3}}',
 	'maintenance-option-quiet' => 'Показывать только ошибки',
 	'maintenance-option-globals' => 'Выводить глобальные переменные в конце процесса отладки',
 	'maintenance-option-confirm' => 'Подтвердить',
@@ -7016,14 +7019,14 @@ $messages['ru'] = array(
 	'maintenance-attachLatest-output-notime' => '$1 $2 [[$3]] не может найти время последней версии?!',
 	'maintenance-attachLatest-output-norev' => '$1 $2 [[$3]] последнее время $4, не удалось найти идентификатор версии',
 	'maintenance-attachLatest-output-found' => '$1 $2 [[$3]] последнее время $4, идентификатор версии $5',
-	'maintenance-attachLatest-output-done' => 'Сделано! Обработано $1 {{PLURAL:$1|страница|страниц|страницы}}.', # Fuzzy
+	'maintenance-attachLatest-output-done' => 'Готово! {{PLURAL:$1|Обработана $1 страница|Обработано $1 страниц|Обработано $1 страницы}}.',
 	'maintenance-attachLatest-output-dryrun' => 'Это был тестовый прогон; запустите вновь с "{{int:maintenance-attachLatest-option-fix}}" для обновления page_latest.',
 	'maintenance-benchmarkPurge' => 'Используйте эту форму, чтобы проверить, сколько времени уйдёт на функции очистки Squid',
 	'maintenance-benchmarkPurge-desc' => 'Измерение скорости функций очистки Squid',
 	'maintenance-benchmarkPurge-option-count' => 'Сколько URL-адресов требуется для очистки Squid',
 	'maintenance-benchmarkPurge-error-nosquid' => 'Измерение скорости очистки Squid не работает без поддержки Squid',
-	'maintenance-benchmarkPurge-output-numsquids' => '$1 {{PLURAL:$1|определенный сервер Squid|определенных серверов Squid|определенных сервера Squid}}:', # Fuzzy
-	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|название|названий|названия}} в $2 мс ($3 мс каждое)', # Fuzzy
+	'maintenance-benchmarkPurge-output-numsquids' => '$1 {{PLURAL:$1|определённый сервер Squid|определённых серверов Squid|определённых сервера Squid}}:',
+	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|название|названий|названия}} в $2 мс ($3 мс каждое)',
 	'maintenance-changePassword' => 'Используйте эту форму, чтобы изменить пароль участника',
 	'maintenance-changePassword-desc' => 'Изменить пароль участника',
 	'maintenance-changePassword-error-nouser' => 'Участник не существует: $1',
@@ -7035,7 +7038,7 @@ $messages['ru'] = array(
 	'maintenance-checkBadRedirects-desc' => 'Поиск неверных перенаправлений',
 	'maintenance-checkBadRedirects-output-header' => 'Выборка перенаправлений...',
 	'maintenance-checkBadRedirects-output-found' => 'Найдено {{PLURAL:$1|$1 перенаправление|$1 перенаправлений|$1 перенаправления}}.
-Проверка на неверные перенаправления...', # Fuzzy
+Проверяются неверные перенаправления...',
 	'maintenance-checkBadRedirects-output-footer' => 'Готово.',
 	'maintenance-checkImages' => 'Используйте эту форму, чтобы увидеть, какие изображения на Вашей вики повреждены',
 	'maintenance-checkImages-desc' => 'Проверка изображений на существование, читабельность и т.д.',
@@ -7075,7 +7078,7 @@ $messages['ru'] = array(
 	'maintenance-cleanupSpam' => 'Используйте эту форму, чтобы отменить спам-правки, которые ссылаются на внешние сайты',
 	'maintenance-cleanupSpam-desc' => 'Очистить весь спам от заданного хоста',
 	'maintenance-cleanupSpam-option-hostname' => 'Имя хоста, с которого был спам',
-	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|1=Найдена|Найдено}} $1 {{PLURAL:$1|статья, содержащая|статей, содержащих|статьи, содержащих}} $2', # Fuzzy
+	'maintenance-cleanupSpam-output-found' => '{{PLURAL:$1|1=Найдена|Найдено}} $1 {{PLURAL:$1|статья, содержащая|статей, содержащих|статьи, содержащих}} $2',
 	'maintenance-cleanupSpam-output-false' => 'Ложное совпадение',
 	'maintenance-cleanupSpam-output-blanking' => 'очистка',
 	'maintenance-cleanupSpam-output-reverting' => 'возврат',
@@ -7113,7 +7116,7 @@ $messages['ru'] = array(
 	'maintenance-sql' => 'Используйте эту форму для выполнения SQL-запроса в базе данных.',
 	'maintenance-sql-desc' => 'Выполнить SQL-запрос',
 	'maintenance-sql-option-file' => 'SQL для выполнения',
-	'maintenance-sql-output-aff' => 'Запрос выполнен. {{PLURAL:$1|Обработана $1 строка|Обработано $1 строк|Обработано $1 строки}}.', # Fuzzy
+	'maintenance-sql-output-aff' => 'Запрос выполнен. {{PLURAL:$1|Обработана $1 строка|Обработано $1 строк|Обработано $1 строки}}.',
 	'maintenance-sql-error-cantopen' => 'Невозможно открыть входной файл',
 	'maintenance-showCacheStats-desc' => 'Показать статистику Memcached',
 	'maintenance-eval' => 'используйте эту форму для проверка кода PHP в окружении MediaWiki.',
@@ -7126,7 +7129,7 @@ $messages['ru'] = array(
 	'maintenance-titlenoexist' => 'Указанный заголовок («$1») не существует!',
 	'maintenance-failed' => 'НЕУДАЧНО',
 	'maintenance-deleted' => 'УДАЛЕНО',
-	'maintenance-revdelete' => 'Удаление {{PLURAL:$3|версия страницы|версий страниц|версии страницы}} $1 из вики $2', # Fuzzy
+	'maintenance-revdelete' => 'Удаление из вики $2 {{PLURAL:$3|1=следующей версии страницы|следующих версий страниц}}: $1',
 	'maintenance-revnotfound' => 'Версия страницы $1 не найдена!',
 	'maintenance-showCacheStats-edits' => 'Число правок: $1',
 	'maintenance-showCacheStats-articles' => 'Количество страниц в основном пространстве: $1',
