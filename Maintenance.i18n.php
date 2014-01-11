@@ -1788,6 +1788,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'maintenance-generic-username' => 'Декъашхочун цӀе',
+	'maintenance-checkBadRedirects-output-footer' => 'Кийчча ю.',
 	'maintenance-checkUsernames-error-notvalid' => 'Декъашхочун цӀе нийса яц: $3 (декъашхочун ID: $2)',
 	'maintenance-deleteBatch-desc' => 'Дуккха агIонаш дӀаяхар',
 	'maintenance-deleted' => 'ДӀАЯЬККХИНА',
