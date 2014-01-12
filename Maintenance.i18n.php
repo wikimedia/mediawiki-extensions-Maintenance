@@ -2600,8 +2600,8 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'maintenance' => 'اجرای متون حفاظت',
-	'maintenance-desc' => '[[Special:حفاظت|رابط ویکی]] برای متون گوناگون حفاظت', # Fuzzy
-	'right-maintenance' => 'اجرای متون حفاظت از طریق [[Special:حفاظت]]', # Fuzzy
+	'maintenance-desc' => '[[ویژه:محافظت|رابط ویکی]] برای متون گوناگون محافظت', # Fuzzy
+	'right-maintenance' => 'اجرای متون محافظت از طریق [[ویژه:محافظت]]', # Fuzzy
 	'maintenance-backlink' => 'بازگشت به انتخاب متن',
 	'maintenance-error-invalidtype' => 'متن تعیین شده پیدا نشد',
 	'maintenance-error-badargs' => 'شما همهٔ گزینه‌های مورد نیاز را تعیین نکردید',
