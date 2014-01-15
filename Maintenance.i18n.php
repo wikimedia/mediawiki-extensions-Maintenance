@@ -2600,7 +2600,7 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'maintenance' => 'اجرای متون حفاظت',
-	'maintenance-desc' => '[[ویژه:محافظت|رابط ویکی]] برای متون گوناگون محافظت', # Fuzzy
+	'maintenance-desc' => ' [[ویژه:محافظت|رابط ویکی]] برای متون گوناگون محافظت', # Fuzzy
 	'right-maintenance' => 'اجرای متون محافظت از طریق [[ویژه:محافظت]]', # Fuzzy
 	'maintenance-backlink' => 'بازگشت به انتخاب متن',
 	'maintenance-error-invalidtype' => 'متن تعیین شده پیدا نشد',
@@ -2717,6 +2717,7 @@ $messages['fa'] = array(
 	'maintenance-memc-withoutsession' => 'بدون دوره:',
 	'maintenance-memc-total' => 'مجموع',
 	'maintenance-memc-parsercache' => 'ذخیره‌گاه تجزیه‌کننده',
+	'maintenance-memc-hits' => 'بازدیدها:',
 	'maintenance-memc-invalid' => 'نامعتبر:',
 	'maintenance-memc-expired' => 'منقضی شده:',
 	'maintenance-memc-absent' => 'مفقود:',
@@ -2726,11 +2727,18 @@ $messages['fa'] = array(
 	'maintenance-memc-updates' => 'به روز رسانی‌ها:',
 	'maintenance-memc-uncacheable' => 'غیر قابل ذخیره:',
 	'maintenance-memc-diffcache' => 'ذخیره‌گاه متفاوت',
+	'maintenance-reassignEdits' => 'از این فرم برای اختصاص دادن دوبارهٔ ویرایش‌ها از یک کاربر به دیگری استفاده کنید.',
+	'maintenance-re-from' => 'نام کاربر برای تعیین ویرایش‌ها از',
+	'maintenance-re-to' => 'نام کاربر برای اختصاص دادن ویرایش‌ها به',
+	'maintenance-re-force' => 'دوباره اختصاص دادن حتی اگر کاربر مورد نظر وجود ندارد',
+	'maintenance-re-rc' => 'جدول تغییرات اخیر را به روز رسانی نکنید',
 	'maintenance-re-nf' => 'کاربر $1 یافت نشد',
+	'maintenance-re-rr' => 'اجرای دوبارهٔ متن برای به روز رسانی بدون "$1".',
 	'maintenance-re-ce' => 'ویرایش های کنونی: $1',
 	'maintenance-re-de' => 'ویرایش‌های حذف‌ شده: $1',
 	'maintenance-re-rce' => 'تغییرات اخیر مقدار اطلاعات: $1',
 	'maintenance-re-total' => 'تعداد کل مقدار اطلاعات برای تغییر: $1',
+	'maintenance-re-re' => 'اختصاص دادن ویرایش‌های {{int:ellipsis}} انجام شده',
 );
 
 /** Finnish (suomi)
@@ -4791,10 +4799,14 @@ $messages['kn'] = array(
 /** Korean (한국어)
  * @author Ficell
  * @author Kwj2772
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
 	'maintenance-generic-username' => '사용자 이름',
+	'maintenance-generic-password' => '비밀번호',
+	'maintenance-generic-reason' => '이유',
+	'maintenance-cleanupTable-dry-run' => '시험적으로 실행',
 	'maintenance-option-confirm' => '확인',
 );
 
