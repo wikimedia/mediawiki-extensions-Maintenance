@@ -4808,6 +4808,8 @@ $messages['ko'] = array(
 	'maintenance-generic-reason' => '이유',
 	'maintenance-cleanupTable-dry-run' => '시험적으로 실행',
 	'maintenance-option-confirm' => '확인',
+	'maintenance-checkSyntax-error-cantopen' => '$1 파일을 열 수 없습니다',
+	'maintenance-createAndPromote' => '새 사용자를 만드려면 이 양식을 사용하고 관리자에게 알려주세요. 사무관에게도 알리려면 사무관 알림판을 확인하세요.',
 );
 
 /** Colognian (Ripoarisch)
@@ -5275,7 +5277,7 @@ $messages['mk'] = array(
 	'maintenance-checkSyntax' => 'Користете го овој образец за да ја проверите синтаксата на сите PHP-податотеки во МедијаВики',
 	'maintenance-checkSyntax-desc' => 'Проверка на синтаксата сите PHP-податотеки во МедијаВики',
 	'maintenance-checkSyntax-option-with-extensions' => 'Исто така повтори ја папката за додатоци',
-	'maintenance-checkSyntax-option-path' => 'Конкретна патека (податотека или директориум) за проверка - или со апсолутна патека, или релативна на основата на оваа инсталација на МедијаВики',
+	'maintenance-checkSyntax-option-path' => 'Конкретна патека (податотека или директориум) за проверка - или со апсолутна патека, или релативна на основата на оваа воспоставка на МедијаВики',
 	'maintenance-checkSyntax-option-list-file' => 'Список на податотеки или директориуми за проверка',
 	'maintenance-checkSyntax-option-modified' => 'Проверувај ги само податотеките што се изменети (бара SVN-клиент со наредбен ред)',
 	'maintenance-checkSyntax-option-syntax-only' => 'Провери ја исправноста само на синтаксата, прескокни ги предупредувањата за стил на кодот',
