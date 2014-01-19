@@ -2600,8 +2600,8 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'maintenance' => 'اجرای متون حفاظت',
-	'maintenance-desc' => ' [[ویژه:محافظت|رابط ویکی]] برای متون گوناگون محافظت', # Fuzzy
-	'right-maintenance' => 'اجرای متون محافظت از طریق [[ویژه:محافظت]]', # Fuzzy
+	'maintenance-desc' => ' [[Special:Maintenance|Wiki interface]]  برای متون گوناگون محافظت',
+	'right-maintenance' => 'اجرای متون محافظت از طریق [[Special:Maintenance]]',
 	'maintenance-backlink' => 'بازگشت به انتخاب متن',
 	'maintenance-error-invalidtype' => 'متن تعیین شده پیدا نشد',
 	'maintenance-error-badargs' => 'شما همهٔ گزینه‌های مورد نیاز را تعیین نکردید',
@@ -4803,16 +4803,67 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
+	'maintenance' => '유지 관리 스크립트 실행',
+	'maintenance-desc' => '다양한 유지 관리 스크립트를 위한 [[Special:Maintenance|위키 인터페이스]]',
+	'right-maintenance' => '[[Special:Maintenance]]를 통한 유지 관리 스크립트 실행',
+	'maintenance-backlink' => '스크립트 선택으로 돌아가기',
+	'maintenance-header' => '실행하려면 아래 스크립트를 선택해주세요. 설명은 각각의 스크립트 옆에 있습니다',
+	'maintenance-error-invalidtype' => '지정된 스크립트를 찾을 수 없습니다',
+	'maintenance-error-badargs' => '필수 선택지를 모두 선택하지 지정하지 않았습니다',
+	'maintenance-generic-done' => '완료',
 	'maintenance-generic-username' => '사용자 이름',
 	'maintenance-generic-password' => '비밀번호',
 	'maintenance-generic-reason' => '이유',
 	'maintenance-cleanupTable-dry-run' => '시험적으로 실행',
+	'maintenance-cleanupTable-check' => '올바르지 않은 제목을 확인 중...',
+	'maintenance-cleanupTable-checkfix' => '올바르지 않은 제목을 확인하는 중...',
+	'maintenance-cleanupTable-processing' => '$1 작업을 처리중...',
+	'maintenance-option-quiet' => '오류가 아닌 결과물 숨기기',
 	'maintenance-option-confirm' => '확인',
+	'maintenance-option-required' => '(필수)',
+	'maintenance-option-optional' => '(선택 사항)',
+	'maintenance-output-success' => '$1 스크립트를 실행하는 데 성공했습니다.',
+	'maintenance-output-failure' => '$1 스크립트 실행하는 데 성공하지 못했습니다!',
+	'maintenance-changePassword-error-nouser' => '해당 사용자 없음: $1',
+	'maintenance-changePassword-output-set' => '$1 사용자가 비밀번호를 설정했습니다.',
+	'maintenance-checkBadRedirects-output-header' => '넘겨주기를 가져오는 중...',
+	'maintenance-checkBadRedirects-output-footer' => '완료.',
 	'maintenance-checkSyntax-error-cantopen' => '$1 파일을 열 수 없습니다',
+	'maintenance-cleanupSpam-option-hostname' => '스팸이었던 호스트 이름',
+	'maintenance-cleanupSpam-output-false' => '잘못된 일치',
+	'maintenance-cleanupSpam-output-blanking' => '비우기',
+	'maintenance-cleanupSpam-output-reverting' => '되돌리기',
+	'maintenance-cleanupSpam-error-invalid' => '유효하지 않은 호스트 이름 사양:$1',
+	'maintenance-cleanupSpam-error-noid' => '내부 오류: ID $1를 위한 문서 없음',
+	'maintenance-clearInterwikiCache' => '인터위키 캐시를 완전히 지우기 위해서는 이 양식을 사용하기',
+	'maintenance-clearInterwikiCache-desc' => '캐시에서 모든 언어의 인터위키 링크를 지우기',
 	'maintenance-createAndPromote' => '새 사용자를 만드려면 이 양식을 사용하고 관리자에게 알려주세요. 사무관에게도 알리려면 사무관 알림판을 확인하세요.',
+	'maintenance-createAndPromote-desc' => '사용자를 만들고 관리자으로 승격시키기',
+	'maintenance-createAndPromote-option-bureaucrat' => '사용자를 만들고 사무관으로 승격시키기',
+	'maintenance-deleteBatch-desc' => '문서 대량 삭제',
+	'maintenance-initSiteStats-desc' => '사이트 통계 다시 계산하기',
+	'maintenance-moveBatch-desc' => '대량 이동 문서',
+	'maintenance-runJobs-desc' => '작업 대기열의 작업 실행하기',
+	'maintenance-runJobs-option-maxjobs' => '실행할 작업의 최대 개수',
+	'maintenance-runJobs-option-type' => '실행할 작업의 유형',
+	'maintenance-runJobs-option-procs' => '사용할 프로세스의 수',
+	'maintenance-sql-desc' => 'SQL 쿼리 실행',
+	'maintenance-sql-option-file' => '실행할 SQL',
+	'maintenance-sql-output-aff' => '쿼리 확인, $1 {{PLURAL:$1|행}}이 영향 받음',
+	'maintenance-sql-error-cantopen' => '입력 파일을 열 수 없음',
+	'maintenance-showCacheStats-desc' => '메모리 안에 캐시된 통계 보기',
+	'maintenance-eval' => '미디어 위키 환경에서 PHP 코드를 평가하려면 이 양식을 사용하세요',
+	'maintenance-eval-desc' => '미디어위키 환경에서 PHP 코드를 평가하기',
+	'maintenance-invalidname' => '유효하지 않은 사용자 이름!',
 	'maintenance-userexists' => '사용자가 이미 존재합니다!',
+	'maintenance-invalidtitle' => '유효하지 않은 제목 "$1"!',
+	'maintenance-titlenoexist' => '지정한 제목("$1")이 존재 않습니다.',
 	'maintenance-failed' => '실패함.',
 	'maintenance-deleted' => '삭제됨',
+	'maintenance-revdelete' => '$2 위키에서 $1{{PLURAL:$3|판}}을 삭제하는 중',
+	'maintenance-revnotfound' => '$1판을 찾을 수 없습니다!',
+	'maintenance-showCacheStats-edits' => '편집 수: $1',
+	'maintenance-showCacheStats-articles' => '주요 이름공간의 문서 수: $1',
 	'maintenance-showCacheStats-pages' => '페이지 수: $1',
 	'maintenance-showCacheStats-users' => '사용자 수: $1',
 	'maintenance-showCacheStats-admins' => '관리자 수: $1',
@@ -4839,6 +4890,12 @@ $messages['ko'] = array(
 	'maintenance-memc-updates' => '업데이트:',
 	'maintenance-memc-uncacheable' => '캐시할 수 없음:',
 	'maintenance-memc-diffcache' => '차이 캐시',
+	'maintenance-re-nf' => '$1 사용자를 찾을 수 없습니다',
+	'maintenance-re-ce' => '현재 편집: $1',
+	'maintenance-re-de' => '삭제된 편집: $1',
+	'maintenance-re-rce' => '최근 바뀜 항목: $1',
+	'maintenance-re-total' => '바꾸려는 총 항목: $1',
+	'maintenance-re-re' => '{{int:ellipsis}} 편집 재할당 완료',
 );
 
 /** Colognian (Ripoarisch)
@@ -7540,7 +7597,7 @@ $messages['sr-ec'] = array(
 	'maintenance-titlenoexist' => 'Наведени наслов ("$1") не постоји!',
 	'maintenance-failed' => 'НЕУСПЕЛО',
 	'maintenance-deleted' => 'ОБРИСАНО',
-	'maintenance-revdelete' => 'Брисање {{PLURAL:$3|1=ревизије|ревизија}} $1 са $2-Викија.', # Fuzzy
+	'maintenance-revdelete' => 'Брисање {{PLURAL:$3|ревизије|ревизија}} $1 са $2-Викија.',
 	'maintenance-revnotfound' => 'Ревизија $1 није пронађена!',
 	'maintenance-showCacheStats-edits' => 'Број измена: $1',
 	'maintenance-showCacheStats-articles' => 'Број страница у главном именском простору: $1',
@@ -7582,6 +7639,7 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
+ * @author Milicevic01
  */
 $messages['sr-el'] = array(
 	'maintenance' => 'Pokreni skripte za održavanje',
@@ -7638,7 +7696,7 @@ U svakoj liniji treba (tim redom) označiti trenutno i ciljano ime stranice, i r
 	'maintenance-titlenoexist' => 'Navedeni naslov ("$1") ne postoji!',
 	'maintenance-failed' => 'NEUSPELO',
 	'maintenance-deleted' => 'OBRISANO',
-	'maintenance-revdelete' => 'Brisanje {{PLURAL:$3|1=revizije|revizija}} $1 sa $2-Vikija.', # Fuzzy
+	'maintenance-revdelete' => 'Brisanje {{PLURAL:$3|revizije|revizija}} $1 sa $2-Vikija.',
 	'maintenance-revnotfound' => 'Revizija $1 nije pronađena!',
 	'maintenance-showCacheStats-edits' => 'Broj izmena: $1',
 	'maintenance-showCacheStats-articles' => 'Broj strana u glavnom imenskom prostoru: $1',
