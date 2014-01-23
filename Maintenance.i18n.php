@@ -1559,7 +1559,7 @@ An diskrivadurioù a vez goude pep hini anezho.',
 O wiriañ an adkasoù fall...', # Fuzzy
 	'maintenance-checkBadRedirects-output-footer' => '
 Graet.',
-	'maintenance-checkImages' => 'Ober gant ar furmskrid-mañ da welet peseurt skeudennoù zo brein war ho servijer', # Fuzzy
+	'maintenance-checkImages' => 'Ober gant ar furmskrid-mañ da welet peseurt skeudennoù zo brein war ho wiki',
 	'maintenance-checkImages-desc' => 'Gwiriañ ar skeudennoù da welet hag-eñ ez eus anezho, hag-eñ ez int lennus, h.a.',
 	'maintenance-checkImages-output-noaccess' => "$1: n'eo ket hegerz ent lec'hel",
 	'maintenance-checkImages-output-missing' => '$1: ezvezant',
