@@ -8590,6 +8590,13 @@ $messages['ur'] = array(
 	'maintenance-re-from' => 'گئی تدوین سے تفویض کرنے کے لئے صارف کا نام',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author Sociologist
+ */
+$messages['uz'] = array(
+	'maintenance-generic-reason' => 'Sabab',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
