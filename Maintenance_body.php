@@ -81,8 +81,6 @@ class SpecialMaintenance extends SpecialPage {
 		$this->setHeaders();
 		$out = $this->getOutput();
 		$out->addWikiMsg( 'maintenance-header' );
-
-		$sk = $this->getUser()->getSkin();
 		$out->addHTML( '<ul>' );
 
 		//scripts that we allow to run via this interface, from the metadata.ini file
@@ -90,7 +88,7 @@ class SpecialMaintenance extends SpecialPage {
 		sort( $scripts );
 		foreach( $scripts as $type ) {
 			$title = $this->getTitle( $type );
-			$out->addHTML( '<li>'. $sk->makeKnownLinkObj( $title, htmlspecialchars( $type ) ) . ' -- '.
+			$out->addHTML( '<li>'. Linker::makeKnownLinkObj( $title, htmlspecialchars( $type ) ) . ' -- '.
 				wfMessage( 'maintenance-'.$type.'-desc' )->parse() . '</li>' );
 		}
 		$out->addHTML( '</ul>' );
@@ -101,7 +99,7 @@ class SpecialMaintenance extends SpecialPage {
 
 		$this->setHeaders();
 		$out = $this->getOutput();
-		$out->addHTML( $this->getUser()->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+		$out->addHTML( Linker::makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
 
 		if( $this->errmsg ) {
 			$out->addWikiMsg( $this->errmsg );
@@ -145,7 +143,7 @@ class SpecialMaintenance extends SpecialPage {
 
 		$out = $this->getOutput();
 		$this->setHeaders();
-		$out->addHTML( $this->getUser()->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+		$out->addHTML( Linker::makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
 
 		if( $this->errmsg ) {
 			$out->addWikiMsg( $this->errmsg );
@@ -166,7 +164,7 @@ class SpecialMaintenance extends SpecialPage {
 					str_replace(
 						array( 'dirname( __FILE__ )' ), //search
 						array( '"$IP/maintenance"' ), //replace
-						preg_replace( '/\s+(exit|die)\s*\(.*?\)\s*;/', ';', 
+						preg_replace( '/\s+(exit|die)\s*\(.*?\)\s*;/', ';',
 							file_get_contents( "$IP/maintenance/sql.php" )
 						)
 					)
@@ -348,7 +346,7 @@ class SpecialMaintenance extends SpecialPage {
 		}
 		$out->addHTML( '</pre>' );
 		$this->scriptDone( $script );
-		$out->addHTML( $this->getUser()->getSkin()->makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+		$out->addHTML( Linker::makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
 	}
 
 	private function parseMetadata() {
