@@ -2141,6 +2141,7 @@ $messages['diq'] = array(
 );
 
 /** Lower Sorbian (dolnoserbski)
+ * @author Derbeth
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -2184,7 +2185,7 @@ Kužda smužka by měła žrědłowy bok a celowy bok pódaś, kótrejž stej p�
 	'maintenance-userexists' => 'Wužywaŕ južo eksistěrujo!',
 	'maintenance-invalidtitle' => 'Njepłaśiwy titel "$1"!',
 	'maintenance-titlenoexist' => 'Pódany titel ("$1") njeeksistěrujo!',
-	'maintenance-failed' => 'NJERAŹIŁO SE',
+	'maintenance-failed' => 'NJEJO SE RAŹIŁO',
 	'maintenance-deleted' => 'WULAŠOWANY',
 	'maintenance-revdelete' => '{{PLURAL:$3|Lašujo se wersija|Lašujotej se wersiji|Lašuju se wersije|Lašuju se wersije}} $1 z wikija $2',
 	'maintenance-revnotfound' => 'Wersija $1 njenamakana!',
