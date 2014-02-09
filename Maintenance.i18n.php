@@ -2720,6 +2720,7 @@ $messages['fa'] = array(
 	'maintenance-runJobs-option-maxjobs' => 'حداکثر تعداد مشاغل برای اجرا',
 	'maintenance-runJobs-option-type' => 'نوع کار برای اجرا',
 	'maintenance-runJobs-option-procs' => 'تعداد پردازش‌ها برای استفاده کردن',
+	'maintenance-runJobs-option-exclusive' => 'اجرای فقط یک متن ران‌جابز اجرایی در یک زمان. زمان ۱۸۰۰ ثانیه است.',
 	'maintenance-runJobs-error-invalidprocs' => 'شما باید بین ۱ و ۱۰۰۰ پردازش را تعیین کنید',
 	'maintenance-showJobs-desc' => 'نمایش فهرست شغل‌های در حال انتظار در صف کار',
 	'maintenance-showJobs-option-group' => 'نمایش تعداد مشاغل هر نوع شغل',
