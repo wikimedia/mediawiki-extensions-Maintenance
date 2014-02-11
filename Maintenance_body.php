@@ -139,7 +139,7 @@ class SpecialMaintenance extends SpecialPage {
 	}
 
 	private function executeScript( $type ) {
-		global $IP, $wgMaintenanceScripts, $wgMaintenanceDebug;
+		global $IP, $wgMaintenanceDebug;
 
 		$out = $this->getOutput();
 		$this->setHeaders();
@@ -177,7 +177,7 @@ class SpecialMaintenance extends SpecialPage {
 		} elseif( file_exists( "$IP/maintenance/$type.php" ) ) {
 			require_once( "$IP/maintenance/$type.php" );
 		} else {
-			require_once( $wgMaintenanceScripts[$type] );
+			throw new MWException( "No such maintenance script $type" );
 		}
 
 		//epic hax magic (TODO: figure out a way to do this without using eval, might require core changes)
@@ -350,7 +350,7 @@ class SpecialMaintenance extends SpecialPage {
 	}
 
 	private function parseMetadata() {
-		global $IP, $wgMaintenanceScripts;
+		global $IP;
 		$metadata = $this->metadata;
 		$i = -1;
 		foreach( $metadata as $script => &$stuff ) {
@@ -364,7 +364,7 @@ class SpecialMaintenance extends SpecialPage {
 			}
 
 			//make sure that the script exists
-			if( !file_exists( "$IP/maintenance/$script.php" ) && !array_key_exists( $script, $wgMaintenanceScripts ) ) {
+			if( !file_exists( "$IP/maintenance/$script.php" ) ) {
 				unset( $this->scripts[$i] ); //remove it from the list of scripts
 				continue;
 			}
