@@ -1789,11 +1789,13 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'maintenance-generic-username' => 'Декъашхочун цӀе',
 	'maintenance-checkBadRedirects-output-footer' => 'Кийчча ю.',
+	'maintenance-checkSyntax-desc' => 'Хьажа синтаксисе массо файлийн PHP MediaWiki чохь',
+	'maintenance-checkSyntax-option-syntax-only' => 'Синтаксисе бен ма хьажа, хьалхалера кодан кеп хье мае',
 	'maintenance-checkUsernames-error-notvalid' => 'Декъашхочун цӀе нийса яц: $3 (декъашхочун ID: $2)',
 	'maintenance-deleteBatch-desc' => 'Дуккха агIонаш дӀаяхар',
 	'maintenance-deleted' => 'ДӀАЯЬККХИНА',
 	'maintenance-revnotfound' => 'АгӀона $1 верси цакарий!',
-	'maintenance-showCacheStats-update' => 'Хааман база керла яккхар...',
+	'maintenance-showCacheStats-update' => 'Хааман база керлаяккхар...',
 	'maintenance-memc-total' => 'ерриг:',
 	'maintenance-memc-imagecache' => 'Суьртан кэш',
 	'maintenance-re-ce' => 'Карара нисдарш: $1',
@@ -2597,6 +2599,7 @@ $messages['eu'] = array(
  * @author Mjbmr
  * @author Omidh
  * @author Reza1615
+ * @author Sahim
  * @author پاناروما
  */
 $messages['fa'] = array(
@@ -2775,6 +2778,7 @@ $messages['fa'] = array(
 	'maintenance-re-to' => 'نام کاربر برای اختصاص دادن ویرایش‌ها به',
 	'maintenance-re-force' => 'دوباره اختصاص دادن حتی اگر کاربر مورد نظر وجود ندارد',
 	'maintenance-re-rc' => 'جدول تغییرات اخیر را به روز رسانی نکنید',
+	'maintenance-re-report' => 'چاپ جزئیات آنچه تغییر کرده، اما آن را به روز رسانی نکنید',
 	'maintenance-re-nf' => 'کاربر $1 یافت نشد',
 	'maintenance-re-rr' => 'اجرای دوبارهٔ متن برای به روز رسانی بدون "$1".',
 	'maintenance-re-ce' => 'ویرایش های کنونی: $1',
