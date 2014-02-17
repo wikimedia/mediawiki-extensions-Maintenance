@@ -1796,6 +1796,7 @@ $messages['ce'] = array(
 	'maintenance-deleted' => 'ДӀАЯЬККХИНА',
 	'maintenance-revnotfound' => 'АгӀона $1 верси цакарий!',
 	'maintenance-showCacheStats-update' => 'Хааман база керлаяккхар...',
+	'maintenance-memc-requests' => 'Хаттарш',
 	'maintenance-memc-total' => 'ерриг:',
 	'maintenance-memc-imagecache' => 'Суьртан кэш',
 	'maintenance-re-ce' => 'Карара нисдарш: $1',
