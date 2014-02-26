@@ -5598,7 +5598,7 @@ $messages['mk'] = array(
 	'maintenance-memc-withsession' => 'со сесија:',
 	'maintenance-memc-withoutsession' => 'без сесија:',
 	'maintenance-memc-total' => 'вкупно:',
-	'maintenance-memc-parsercache' => 'Парсерски меѓусклад',
+	'maintenance-memc-parsercache' => 'Расчленувачки меѓусклад',
 	'maintenance-memc-hits' => 'погодоци:',
 	'maintenance-memc-invalid' => 'неважечки:',
 	'maintenance-memc-expired' => 'истечени:',
@@ -8102,6 +8102,7 @@ $messages['ta'] = array(
 
 /** Telugu (తెలుగు)
  * @author C.Chandra Kanth Rao
+ * @author Chaduvari
  * @author Veeven
  */
 $messages['te'] = array(
@@ -8130,7 +8131,7 @@ $messages['te'] = array(
 	'maintenance-showCacheStats-images' => 'ఫైళ్ళ సంఖ్య: $1',
 	'maintenance-showCacheStats-views' => 'పేజీ వీక్షణల సంఖ్య: $1',
 	'maintenance-showCacheStats-update' => 'డాటాబేస్ తాజాకరింపబడుచున్నది',
-	'maintenance-error' => 'పొరపాటు: $1',
+	'maintenance-error' => 'లోపం: $1',
 	'maintenance-memc-requests' => 'అభ్యర్థనలు',
 	'maintenance-memc-total' => 'మొత్తం:',
 	'maintenance-memc-invalid' => 'చెల్లనివి:',
