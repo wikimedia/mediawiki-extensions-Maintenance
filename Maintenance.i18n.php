@@ -4794,6 +4794,13 @@ $messages['ka'] = array(
 	'maintenance-re-rce' => 'ბოლო ცვლილებების ჩანაწერები: $1',
 );
 
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'maintenance-showCacheStats-edits' => 'Өңдеме саны: $1',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
@@ -5315,7 +5322,7 @@ No Falsche Viruleedunge sichen...',
 	'maintenance-cleanupSpam' => 'Benotzt dëse Formulaire fir Spam-Ännerungen zréckzesetzen déi op extern Site linken',
 	'maintenance-cleanupSpam-output-found' => '$1 {{PLURAL:$1|Artikel|Artikele}} fonnt wou $2 dran ass',
 	'maintenance-cleanupSpam-output-blanking' => 'eidelmaachen',
-	'maintenance-cleanupSpam-output-reverting' => 'zerécksetzen',
+	'maintenance-cleanupSpam-output-reverting' => 'zrécksetzen',
 	'maintenance-cleanupSpam-error-noid' => 'Interne Feeler: keng Säit fir ID $1',
 	'maintenance-createAndPromote' => "Dëse Formulaire benotze fir en neie Benotzer unzeleeën a fir him Adminstrateur's-Rechter ze ginn.
 Klickt d'Bürokrate-Këscht u wann Dir wëllt datt en och Bürokrat gi soll.",
