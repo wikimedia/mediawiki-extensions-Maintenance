@@ -8871,6 +8871,8 @@ $messages['zh-hans'] = array(
 	'maintenance-attachLatest-output-dryrun' => '当前此为试运行；通过“{{int:maintenance-attachLatest-option-fix}}”重新运行以更新page_latest。',
 	'maintenance-benchmarkPurge' => '使用此表单来测试 Squid 的清洗功能需要耗时多久',
 	'maintenance-benchmarkPurge-desc' => '标准的 Squid 清洗功能',
+	'maintenance-benchmarkPurge-option-count' => '多少URL需要订阅至Squid用于清除',
+	'maintenance-benchmarkPurge-output-numsquids' => '以下是$1个合法的Squid服务器：',
 	'maintenance-benchmarkPurge-output-trial' => '$2毫秒内的$1个标题（每$3毫秒）',
 	'maintenance-changePassword' => '使用此表单来更改用户的密码',
 	'maintenance-changePassword-desc' => '更改用户的密码',
@@ -8895,6 +8897,7 @@ $messages['zh-hans'] = array(
 	'maintenance-checkSyntax-desc' => '检查MediaWiki中所有PHP文件的语法',
 	'maintenance-checkSyntax-option-list-file' => '要检查的文件或目录列表',
 	'maintenance-checkSyntax-output-parsekit' => '检查语法（通过parsekit）',
+	'maintenance-checkSyntax-output-footer' => '完成！$1个文件已检查，并已找到$2个失败和$3个警告',
 	'maintenance-checkSyntax-output-svnlist' => '从Subversion获取列表...',
 	'maintenance-checkSyntax-output-buildlist' => '建立文件列表...',
 	'maintenance-checkSyntax-output-error' => '文件$1中于行$2的错误：$3',
@@ -8908,6 +8911,7 @@ $messages['zh-hans'] = array(
 	'maintenance-cleanupCaps-output-islower' => '“$1”已经是小写字母。',
 	'maintenance-cleanupCaps-output-clash' => '“$1”被跳过；“$2”已存在',
 	'maintenance-cleanupCaps-output-dryrun' => '“$1”->“$2”：试运行期间不会移动',
+	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks已打开——无需清理大写连接。',
 	'maintenance-cleanupSpam' => '使用此表单可恢复链向外部网站的垃圾信息编辑',
 	'maintenance-cleanupSpam-desc' => '以给定的主机名清理所有垃圾信息',
 	'maintenance-cleanupSpam-option-hostname' => '发送垃圾邮件的主机名',
@@ -8984,6 +8988,7 @@ $messages['zh-hans'] = array(
 	'maintenance-re-ce' => '当前编辑：$1',
 	'maintenance-re-de' => '已删除编辑：$1',
 	'maintenance-re-rce' => '最近更改条目：$1',
+	'maintenance-re-re' => '重新分配编辑{{int:ellipsis}}完成',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
