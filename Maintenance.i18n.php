@@ -2597,6 +2597,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  * @author Mjbmr
  * @author Omidh
  * @author Reza1615
@@ -2694,7 +2695,7 @@ $messages['fa'] = array(
 	'maintenance-cleanupCaps-output-clash' => '"$1" نادیده گرفته شده؛ "$2" در حال حاضر وجود دارد',
 	'maintenance-cleanupCaps-output-dryrun' => '"$1" -> "$2": اجرای خسته کننده، منتقل نشده',
 	'maintenance-cleanupCaps-error-noneed' => '$wgCapitalLinks بدون نیاز به پاک کردن لینک‌های با حروف بزرگ است.',
-	'maintenance-cleanupSpam' => 'از این فرم برای برگشت ویرایش‌های اسپمی که به سایت‌های خارجی لینک شده، استفاده کنید',
+	'maintenance-cleanupSpam' => 'از این فرم برای برگشت ویرایش‌های اسپمی که به وب‌گاه‌های خارجی پیوندشده، استفاده کنید',
 	'maintenance-cleanupSpam-desc' => 'پاک کردن همهٔ اسپم از یک میزبان داده شده',
 	'maintenance-cleanupSpam-option-hostname' => 'نام گروهی که اسپم شده بود',
 	'maintenance-cleanupSpam-output-found' => 'پیدا شدن $1{{PLURAL:$1|مقاله|مقاله‌ها}} شامل $2',
