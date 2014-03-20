@@ -6326,6 +6326,9 @@ Las descripcions son a la seguida de cadun d'aquestes.",
 	'maintenance-output-success' => '$1 a marchat amb succès !',
 	'maintenance-changePassword' => 'Utilizar aqueste formulari per cambiar lo senhal d’un utilizaire',
 	'maintenance-changePassword-desc' => 'Cambiar lo senhal d’un utilizaire',
+	'maintenance-checkBadRedirects-output-found' => '$1 {{PLURAL:$1|redireccion trobada|redireccions trobadas}}.
+Recèrca de las marridas redireccions...',
+	'maintenance-cleanupSpam-output-found' => '$1 {{PLURAL:$1|articles|article}} que {{PLURAL:$1|conten|contenon}} $2 de {{PLURAL:$1|trobat|trobats}}',
 	'maintenance-createAndPromote' => 'Utilizar aqueste formulari per crear un utilizaire novèl e per lo promòure administrator.
 Marcar la casa burocrata se li desiratz conferir tanben aqueste estatut.',
 	'maintenance-createAndPromote-desc' => "Crear un utilizaire e promòure a l'estatut d’administrator",
