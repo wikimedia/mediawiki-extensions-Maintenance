@@ -8170,6 +8170,7 @@ $messages['th'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Jojit fb
  */
 $messages['tl'] = array(
 	'maintenance' => 'Patakbuhin ang mga panitik na pang-pagpapanatili',
@@ -8183,7 +8184,7 @@ Katabi ng bawat panitik ang mga paglalarawan',
 	'maintenance-error-badargs' => 'Hindi mo tinukoy ang lahat ng kinakailangang mga pagpili',
 	'maintenance-generic-done' => 'nagawa na',
 	'maintenance-generic-username' => 'Pangalan ng tagagamit',
-	'maintenance-generic-password' => 'Hudyat',
+	'maintenance-generic-password' => 'Password',
 	'maintenance-generic-reason' => 'Dahilan',
 	'maintenance-cleanupTable-dry-run' => 'Subukan muna',
 	'maintenance-cleanupTable-check' => 'Nagsusuri ng masasamang mga pamagat...',
@@ -8216,9 +8217,9 @@ Katabi ng bawat panitik ang mga paglalarawan',
 	'maintenance-benchmarkPurge-output-numsquids' => 'Mayroong $1 na binigyan ng kahulugan na {{PLURAL:$1|tagapaghain|mga tagapaghain}} ng Squid:',
 	'maintenance-benchmarkPurge-output-trial' => '$1 {{PLURAL:$1|pamagat|mga pamagat}} sa loob ng $2ms ($3ms ang bawat isa)',
 	'maintenance-changePassword' => 'Gamitin ang pormularyong ito upang baguhin ang hudyat ng isang tagagamit',
-	'maintenance-changePassword-desc' => 'Palitan ang hudyat ng isang tagagamit',
+	'maintenance-changePassword-desc' => 'Palitan ang password ng isang tagagamit o user',
 	'maintenance-changePassword-error-nouser' => 'Walang ganyang tagagamit: $1',
-	'maintenance-changePassword-output-set' => 'Hudyat na itinakda para sa $1',
+	'maintenance-changePassword-output-set' => 'Password na itinakda para sa $1',
 	'maintenance-checkAutoLoader' => 'Gamitin ang pormularyong ito upang gumawa ng ilang mga pagsusuri ng katinuan sa AutoLoader',
 	'maintenance-checkAutoLoader-desc' => 'Mga pagususri ng katinuan sa AutoLoader',
 	'maintenance-checkAutoLoader-output-list2' => '$1:Maling talaksan: natagpuan sa $2 , nakatala sa $3',
@@ -8279,7 +8280,7 @@ Lagyan ng tsek ang kahon ng burokrato kung nais mong itaas din ito bilang burokr
 	'maintenance-createAndPromote-desc' => "Lumikha ng isang tagagamit at itaas sa katayuang ''sysop'' (tagapagpatakbo ng sistema)",
 	'maintenance-createAndPromote-option-bureaucrat' => 'Itaas ng ranggo ang tagagamit upang maging burokrata ang katayuan',
 	'maintenance-createAndPromote-output-creating' => 'Nililikha at itinataguyod ang {{ns:user}}:$2...',
-	'maintenance-createAndPromote-error-password' => 'Nakatagpo ng isang pagkakamali sa hudyat na ipinasok mo: $1',
+	'maintenance-createAndPromote-error-password' => 'Nakatagpo ng isang pagkakamali sa password na ipinasok mo: $1',
 	'maintenance-deleteBatch' => 'Gamitin ang pormularyong ito upang malawakang makapagbura ng mga pahina.
 Maglagay lamang ng isang pahina sa bawat guhit',
 	'maintenance-deleteBatch-desc' => 'Malawakang burahin ang mga pahina',
