@@ -8883,6 +8883,7 @@ $messages['zh-hans'] = array(
 	'maintenance-changePassword-desc' => '更改用户的密码',
 	'maintenance-changePassword-error-nouser' => '没有这样的用户：$1',
 	'maintenance-changePassword-output-set' => '已为$1设置密码',
+	'maintenance-checkAutoLoader-desc' => '自动载入器完好性检查',
 	'maintenance-checkAutoLoader-output-list2' => '$1：错误文件：在$2找到并列在$3',
 	'maintenance-checkBadRedirects' => '使用此表单来查看标记为重定向的页面是否真的是重定向',
 	'maintenance-checkBadRedirects-desc' => '检查坏的重定向',
