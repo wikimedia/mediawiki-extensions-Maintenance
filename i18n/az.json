@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cekli829"
+        ]
+    },
+    "maintenance-generic-done": "heç biri",
+    "maintenance-generic-username": "İstifadəçi adı",
+    "maintenance-generic-password": "Parol",
+    "maintenance-generic-reason": "Səbəb",
+    "maintenance-option-confirm": "Təsdiq et",
+    "maintenance-checkBadRedirects-output-footer": "\nOldu.",
+    "maintenance-deleted": "SİLİNİB",
+    "maintenance-error": "Xəta: $1",
+    "maintenance-memc-total": "ümumi:"
+}

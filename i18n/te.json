@@ -1,0 +1,42 @@
+{
+    "@metadata": {
+        "authors": [
+            "C.Chandra Kanth Rao",
+            "Chaduvari",
+            "Veeven"
+        ]
+    },
+    "maintenance-error-invalidtype": "చెల్లని రకం!",
+    "maintenance-generic-username": "వాడుకరి పేరు",
+    "maintenance-generic-password": "సంకేతపదం",
+    "maintenance-generic-reason": "కారణం",
+    "maintenance-option-confirm": "నిర్ధారించండి",
+    "maintenance-option-required": "(తప్పనిసరి)",
+    "maintenance-option-optional": "(ఐచ్చికం)",
+    "maintenance-output-success": "$1 విజయవంతంగా నడిచింది!",
+    "maintenance-benchmarkPurge-output-trial": "$2ms లో $1 {{PLURAL:$1|శీర్షిక|శీర్షికలు}} (ఒక్కోటి $3ms)",
+    "maintenance-changePassword-desc": "వాడుకరి యొక్క సంకేతపదం మార్చండి",
+    "maintenance-checkBadRedirects-output-footer": "పూర్తయింది.",
+    "maintenance-initEditCount-desc": "వాడుకరులు మార్పుల సంఖ్యను మళ్లీ లెక్కించు",
+    "maintenance-initSiteStats-desc": "సైటు గణాంకాలని మళ్ళీ లెక్కించు",
+    "maintenance-invalidname": "తప్పుడు వాడుకరిపేరు!",
+    "maintenance-userexists": "వాడుకరి ఇప్పటికే ఉన్నారు!",
+    "maintenance-invalidtitle": "తప్పుడు శీర్షిక \"$1\"!",
+    "maintenance-failed": "విఫలమైనది",
+    "maintenance-deleted": "తొలిగించబడినది",
+    "maintenance-showCacheStats-edits": "మార్పుల సంఖ్య: $1",
+    "maintenance-showCacheStats-pages": "పేజీల సంఖ్య: $1",
+    "maintenance-showCacheStats-users": "వాడుకర్ల సంఖ్య: $1",
+    "maintenance-showCacheStats-admins": "నిర్వాహకుల సంఖ్య: $1",
+    "maintenance-showCacheStats-images": "ఫైళ్ళ సంఖ్య: $1",
+    "maintenance-showCacheStats-views": "పేజీ వీక్షణల సంఖ్య: $1",
+    "maintenance-showCacheStats-update": "డాటాబేస్ తాజాకరింపబడుచున్నది",
+    "maintenance-error": "లోపం: $1",
+    "maintenance-memc-requests": "అభ్యర్థనలు",
+    "maintenance-memc-total": "మొత్తం:",
+    "maintenance-memc-invalid": "చెల్లనివి:",
+    "maintenance-memc-updates": "తాజాకరణలు:",
+    "maintenance-re-nf": "వాడుకరి $1 కనబడలేదు",
+    "maintenance-re-ce": "ప్రస్తుత మార్పుల: $1",
+    "maintenance-re-de": "తొలగించిన మార్పులు: $1"
+}

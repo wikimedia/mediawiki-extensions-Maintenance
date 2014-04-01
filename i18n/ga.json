@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Alison",
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "maintenance-generic-username": "Ainm úsáideora",
+    "maintenance-generic-reason": "Fáth",
+    "maintenance-option-confirm": "Deimhnigh",
+    "maintenance-invalidname": "Ainm úsáideoir neamhbhailí!",
+    "maintenance-invalidtitle": "Teideal neamhbhailí \"$1\"!",
+    "maintenance-deleted": "SCRIOSTA",
+    "maintenance-showCacheStats-pages": "Líon leathanaigh: $1",
+    "maintenance-showCacheStats-users": "Líon úsáideoirí: $1",
+    "maintenance-showCacheStats-admins": "Líon riarthóirí: $1",
+    "maintenance-showCacheStats-images": "Líon comhaid: $1",
+    "maintenance-error": "Earráid: $1",
+    "maintenance-memc-requests": "Iarratais",
+    "maintenance-memc-total": "iomlán:"
+}

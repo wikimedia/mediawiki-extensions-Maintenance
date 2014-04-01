@@ -1,0 +1,31 @@
+{
+    "@metadata": {
+        "authors": [
+            "Avjoska",
+            "Pikne",
+            "Silvar"
+        ]
+    },
+    "maintenance-error-invalidtype": "Määratud skripti ei leidu.",
+    "maintenance-generic-done": "valmis",
+    "maintenance-generic-username": "Kasutajanimi",
+    "maintenance-generic-password": "Parool",
+    "maintenance-generic-reason": "Põhjus",
+    "maintenance-option-confirm": "Kinnita",
+    "maintenance-changePassword-desc": "Muuda kasutaja parool",
+    "maintenance-checkBadRedirects-output-footer": "Valmis.",
+    "maintenance-checkSyntax-output-buildlist": "Faililoendi loomine...",
+    "maintenance-deleteBatch-desc": "Lehekülgede lauskustutamine",
+    "maintenance-invalidname": "Vigane kasutajanimi!",
+    "maintenance-userexists": "Kasutaja on juba olemas!",
+    "maintenance-failed": "NURJUS",
+    "maintenance-deleted": "KUSTUTATUD",
+    "maintenance-error": "Tõrge: $1",
+    "maintenance-memc-total": "kokku:",
+    "maintenance-memc-hits": "vaatamisi:",
+    "maintenance-memc-invalid": "ei sobi:",
+    "maintenance-memc-expired": "aegunud:",
+    "maintenance-memc-absent": "puudub:",
+    "maintenance-memc-updates": "uuendused:",
+    "maintenance-re-nf": "Kasutajat $1 ei leidu"
+}

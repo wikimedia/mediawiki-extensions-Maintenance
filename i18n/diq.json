@@ -1,0 +1,26 @@
+{
+    "@metadata": {
+        "authors": [
+            "Erdemaslancan",
+            "Mirzali"
+        ]
+    },
+    "maintenance-generic-done": "qeyd ke",
+    "maintenance-generic-username": "Nameyê karberi",
+    "maintenance-generic-password": "Parola",
+    "maintenance-generic-reason": "Sebeb",
+    "maintenance-option-required": "(lazım)",
+    "maintenance-option-optional": "(opsiyonel)",
+    "maintenance-checkBadRedirects-output-footer": "Qeyd ke.",
+    "maintenance-failed": "NÊŞA",
+    "maintenance-deleted": "ESTERİYA",
+    "maintenance-showCacheStats-edits": "Amriya vurnayışan: $1",
+    "maintenance-showCacheStats-pages": "Amariya pelan: $1",
+    "maintenance-showCacheStats-users": "Amariya karberan: $1",
+    "maintenance-showCacheStats-admins": "Amariya xizmetkaran: $1",
+    "maintenance-showCacheStats-images": "Amariya dosyayan: $1",
+    "maintenance-showCacheStats-views": "Amariya pelan mocnayış: $1",
+    "maintenance-error": "Xırab: $1",
+    "maintenance-memc-requests": "Wazteni",
+    "maintenance-memc-diffcache": "Ferqê Verhafızi"
+}

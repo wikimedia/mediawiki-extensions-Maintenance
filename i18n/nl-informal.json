@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "maintenance-error-badargs": "Je hebt niet alle verplichte instellingen gemaakt.",
+    "maintenance-checkImages": "Gebruik dit formulier om te controleren welke beschadigde bestanden je wiki bevat",
+    "maintenance-createAndPromote-error-password": "Er is een fout opgetreden met het wachtwoord dat je hebt opgegeven: $1",
+    "maintenance-runJobs-error-invalidprocs": "Je moet een waarde tussen 1 en 1.000 processen opgeven",
+    "maintenance-memc-fake": "Je maakt gebruik van FakeMemCachedClient. Het is niet mogelijk statistieken te berekenen"
+}

@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "An13sa",
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "maintenance-generic-username": "Erabiltzaile izena",
+    "maintenance-generic-password": "Pasahitza",
+    "maintenance-generic-reason": "Arrazoia",
+    "maintenance-option-confirm": "Baieztatu",
+    "maintenance-invalidname": "Lankide izen okerra!",
+    "maintenance-deleted": "EZABATUA",
+    "maintenance-memc-total": "guztira:"
+}

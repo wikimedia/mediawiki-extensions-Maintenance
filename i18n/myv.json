@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Botuzhaleny-sodamo"
+        ]
+    },
+    "maintenance-option-confirm": "Кемекстамс",
+    "maintenance-failed": "ЭЗЬ ЛИСЕ",
+    "maintenance-deleted": "НАРДАЗЬ",
+    "maintenance-showCacheStats-edits": "Зяроксть витнезь-петнезь: $1",
+    "maintenance-showCacheStats-pages": "Зяро лопатнеде: $1",
+    "maintenance-showCacheStats-admins": "Зяро админтнэде: $1",
+    "maintenance-showCacheStats-images": "Зяро файлатнеде: $1",
+    "maintenance-memc-requests": "Вешемат",
+    "maintenance-memc-total": "весемезэ:",
+    "maintenance-memc-absent": "арась:"
+}

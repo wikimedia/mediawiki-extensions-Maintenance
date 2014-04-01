@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "פוילישער",
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "maintenance-generic-username": "באַניצער נאָמען",
+    "maintenance-generic-password": "פאַסווארט",
+    "maintenance-option-confirm": "באַשטעטיגן",
+    "maintenance-invalidname": "אומגילטיקער באַניצער נאָמען!",
+    "maintenance-move": "באוועגן $1 צו $2{{int:ellipsis}}"
+}
