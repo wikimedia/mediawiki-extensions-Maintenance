@@ -120,7 +120,7 @@
     "maintenance-initSiteStats": "이 양식을 사용해서 사이트 통계를 다시계산하고, 문서 조회수도 마찬가지로 다시 계산하려면 지정하기",
     "maintenance-initSiteStats-desc": "사이트 통계 다시 계산하기",
     "maintenance-moveBatch": "이 양식을 사용해서 문서를 대량 이동하세요. 각각의 줄은 출발 문서와 도착 문서를 파이프 문자로 구분하여 지정해야 합니다",
-    "maintenance-moveBatch-desc": "대량 이동 문서",
+    "maintenance-moveBatch-desc": "대량 옮기기 문서",
     "maintenance-reassignEdits-desc": "한 사용자에서 다른 사용자에게 편집을 재할당",
     "maintenance-runJobs-desc": "작업 대기열의 작업 실행하기",
     "maintenance-runJobs-option-maxjobs": "실행할 작업의 최대 개수",
