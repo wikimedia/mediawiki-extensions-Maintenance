@@ -114,6 +114,11 @@ $specialPageAliases['gsw'] = array(
 	'Maintenance' => array( 'Wartig' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'Maintenance' => array( 'Mālama', 'Malama' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Maintenance' => array( 'תחזוקה' ),
