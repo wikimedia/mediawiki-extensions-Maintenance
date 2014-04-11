@@ -143,7 +143,7 @@
     "maintenance-invalidname": "유효하지 않은 사용자 이름!",
     "maintenance-userexists": "사용자가 이미 존재합니다!",
     "maintenance-invalidtitle": "유효하지 않은 제목 \"$1\"!",
-    "maintenance-titlenoexist": "지정한 제목(\"$1\")이 존재 않습니다.",
+    "maintenance-titlenoexist": "지정한 제목(\"$1\")이 존재 않습니다!",
     "maintenance-failed": "실패함.",
     "maintenance-deleted": "삭제됨",
     "maintenance-revdelete": "$2 위키에서 $1{{PLURAL:$3|판}}을 삭제하는 중",
