@@ -127,6 +127,8 @@
     "maintenance-sql-output-aff": "查询完成，$1行被影响",
     "maintenance-sql-error-cantopen": "无法打开输入文件",
     "maintenance-showCacheStats-desc": "显示Memcached统计信息",
+    "maintenance-eval-desc": "在MediaWiki环境中评估PHP代码",
+    "maintenance-update": "当更新表单时使用UPDATE？不选中使用DELETE/INSERT代替。",
     "maintenance-invalidname": "无效用户名！",
     "maintenance-userexists": "用户已存在！",
     "maintenance-invalidtitle": "无效标题“$1”！",

@@ -10,6 +10,7 @@
     "maintenance-checkSyntax-option-syntax-only": "Синтаксисе бен ма хьажа, хьалхалера кодан кеп хье мае",
     "maintenance-checkUsernames-error-notvalid": "Декъашхочун цӀе нийса яц: $3 (декъашхочун ID: $2)",
     "maintenance-deleteBatch-desc": "Дуккха агIонаш дӀаяхар",
+    "maintenance-showCacheStats-desc": "Гайта Memcached статистика",
     "maintenance-deleted": "ДӀАЯЬККХИНА",
     "maintenance-revnotfound": "АгӀона $1 верси цакарий!",
     "maintenance-showCacheStats-update": "Хааман база керлаяккхар...",
