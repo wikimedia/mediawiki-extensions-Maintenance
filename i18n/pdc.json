@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xqt"
-        ]
-    },
-    "maintenance-generic-done": "geduh",
-    "maintenance-generic-username": "Yuuser-Naame",
-    "maintenance-generic-password": "Paesswatt",
-    "maintenance-checkBadRedirects-output-footer": "Geduh.",
-    "maintenance-deleted": "VERWISCHT"
+	"@metadata": {
+		"authors": [
+			"Xqt"
+		]
+	},
+	"maintenance-generic-done": "geduh",
+	"maintenance-generic-username": "Yuuser-Naame",
+	"maintenance-generic-password": "Paesswatt",
+	"maintenance-checkBadRedirects-output-footer": "Geduh.",
+	"maintenance-deleted": "VERWISCHT"
 }

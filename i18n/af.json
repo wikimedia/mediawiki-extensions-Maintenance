@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "Arnobarnard",
-            "Naudefj"
-        ]
-    },
-    "maintenance-generic-done": "uitgevoer",
-    "maintenance-generic-username": "Gebruikersnaam",
-    "maintenance-generic-password": "Wagwoord",
-    "maintenance-generic-reason": "Rede",
-    "maintenance-option-confirm": "Bevestig",
-    "maintenance-option-required": "(verpligtend)",
-    "maintenance-option-optional": "(opsioneel)",
-    "maintenance-checkBadRedirects-output-footer": "Uitgevoer.",
-    "maintenance-invalidname": "Ongeldige gebruikersnaam!",
-    "maintenance-invalidtitle": "Ongeldige bladsynaam: \"$1\"!",
-    "maintenance-deleted": "Geskrap",
-    "maintenance-showCacheStats-edits": "Aantal wysigings: $1",
-    "maintenance-showCacheStats-pages": "Aantal bladsye: $1",
-    "maintenance-showCacheStats-users": "Aantal gebruikers: $1",
-    "maintenance-showCacheStats-images": "Aantal lêers: $1",
-    "maintenance-memc-total": "totaal:",
-    "maintenance-memc-invalid": "ongeldig:",
-    "maintenance-memc-absent": "afwesig:"
+	"@metadata": {
+		"authors": [
+			"Arnobarnard",
+			"Naudefj"
+		]
+	},
+	"maintenance-generic-done": "uitgevoer",
+	"maintenance-generic-username": "Gebruikersnaam",
+	"maintenance-generic-password": "Wagwoord",
+	"maintenance-generic-reason": "Rede",
+	"maintenance-option-confirm": "Bevestig",
+	"maintenance-option-required": "(verpligtend)",
+	"maintenance-option-optional": "(opsioneel)",
+	"maintenance-checkBadRedirects-output-footer": "Uitgevoer.",
+	"maintenance-invalidname": "Ongeldige gebruikersnaam!",
+	"maintenance-invalidtitle": "Ongeldige bladsynaam: \"$1\"!",
+	"maintenance-deleted": "Geskrap",
+	"maintenance-showCacheStats-edits": "Aantal wysigings: $1",
+	"maintenance-showCacheStats-pages": "Aantal bladsye: $1",
+	"maintenance-showCacheStats-users": "Aantal gebruikers: $1",
+	"maintenance-showCacheStats-images": "Aantal lêers: $1",
+	"maintenance-memc-total": "totaal:",
+	"maintenance-memc-invalid": "ongeldig:",
+	"maintenance-memc-absent": "afwesig:"
 }

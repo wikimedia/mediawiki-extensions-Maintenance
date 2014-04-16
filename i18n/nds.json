@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joachim Mos"
-        ]
-    },
-    "maintenance-generic-done": "färdig",
-    "maintenance-generic-username": "Brukernaam",
-    "maintenance-generic-password": "Passwoord",
-    "maintenance-option-confirm": "Tostimmen",
-    "maintenance-checkBadRedirects-output-footer": "Färdig."
+	"@metadata": {
+		"authors": [
+			"Joachim Mos"
+		]
+	},
+	"maintenance-generic-done": "färdig",
+	"maintenance-generic-username": "Brukernaam",
+	"maintenance-generic-password": "Passwoord",
+	"maintenance-option-confirm": "Tostimmen",
+	"maintenance-checkBadRedirects-output-footer": "Färdig."
 }

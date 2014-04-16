@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Arystanbek"
-        ]
-    },
-    "maintenance-showCacheStats-edits": "Өңдеме саны: $1"
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"maintenance-showCacheStats-edits": "Өңдеме саны: $1"
 }

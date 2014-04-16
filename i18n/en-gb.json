@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "maintenance-cleanupCaps-desc": "Script to cleanup capitalisation"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"maintenance-cleanupCaps-desc": "Script to cleanup capitalisation"
 }

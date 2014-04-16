@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Paucabot",
-            "Solde"
-        ]
-    },
-    "maintenance-option-confirm": "Confirma",
-    "maintenance-changePassword-desc": "Canvia la contrasenya d'un usuari",
-    "maintenance-deleteBatch-desc": "Eliminació massiva de pàgines",
-    "maintenance-invalidname": "Nom d'usuari no vàlid!",
-    "maintenance-deleted": "ELIMINAT",
-    "maintenance-showCacheStats-edits": "Nombre d'edicions: $1",
-    "maintenance-showCacheStats-pages": "Nombre de pàgines: $1",
-    "maintenance-showCacheStats-users": "Nombre d'usuaris: $1"
+	"@metadata": {
+		"authors": [
+			"Paucabot",
+			"Solde"
+		]
+	},
+	"maintenance-option-confirm": "Confirma",
+	"maintenance-changePassword-desc": "Canvia la contrasenya d'un usuari",
+	"maintenance-deleteBatch-desc": "Eliminació massiva de pàgines",
+	"maintenance-invalidname": "Nom d'usuari no vàlid!",
+	"maintenance-deleted": "ELIMINAT",
+	"maintenance-showCacheStats-edits": "Nombre d'edicions: $1",
+	"maintenance-showCacheStats-pages": "Nombre de pàgines: $1",
+	"maintenance-showCacheStats-users": "Nombre d'usuaris: $1"
 }

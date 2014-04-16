@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crazymadlover",
-            "Omnipaedista"
-        ]
-    },
-    "maintenance-option-confirm": "Κυροῦν",
-    "maintenance-failed": "ΑΠΕΤΕΥΧΘΗ",
-    "maintenance-deleted": "ΔΙΕΓΡΑΦΗ",
-    "maintenance-memc-requests": "Αἰτήσεις",
-    "maintenance-memc-total": "συνολικόν:"
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista"
+		]
+	},
+	"maintenance-option-confirm": "Κυροῦν",
+	"maintenance-failed": "ΑΠΕΤΕΥΧΘΗ",
+	"maintenance-deleted": "ΔΙΕΓΡΑΦΗ",
+	"maintenance-memc-requests": "Αἰτήσεις",
+	"maintenance-memc-total": "συνολικόν:"
 }

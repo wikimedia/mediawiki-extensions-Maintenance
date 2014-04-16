@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "ОйЛ"
-        ]
-    },
-    "maintenance-error": "блаꙁна : $1"
+	"@metadata": {
+		"authors": [
+			"ОйЛ"
+		]
+	},
+	"maintenance-error": "блаꙁна : $1"
 }

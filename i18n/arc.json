@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Basharh"
-        ]
-    },
-    "maintenance-deleted": "ܫܝܦܬ",
-    "maintenance-showCacheStats-pages": "ܡܢܝܢܐ ܕܦܐܬܬ̈ܐ: $1",
-    "maintenance-showCacheStats-users": "ܡܢܝܢܐ ܕܡܦܠܚܢ̈ܐ: $1",
-    "maintenance-showCacheStats-admins": "ܡܢܝܢܐ ܕܡܕܒܪ̈ܢܐ: $1",
-    "maintenance-showCacheStats-images": "ܡܢܝܢܐ ܕܠܦܦ̈ܐ: $1",
-    "maintenance-error": "ܦܘܕܐ: $1",
-    "maintenance-memc-invalid": "ܠܐ ܬܪܝܨܐ:",
-    "maintenance-memc-updates": "ܚܘܕ̈ܬܐ:"
+	"@metadata": {
+		"authors": [
+			"Basharh"
+		]
+	},
+	"maintenance-deleted": "ܫܝܦܬ",
+	"maintenance-showCacheStats-pages": "ܡܢܝܢܐ ܕܦܐܬܬ̈ܐ: $1",
+	"maintenance-showCacheStats-users": "ܡܢܝܢܐ ܕܡܦܠܚܢ̈ܐ: $1",
+	"maintenance-showCacheStats-admins": "ܡܢܝܢܐ ܕܡܕܒܪ̈ܢܐ: $1",
+	"maintenance-showCacheStats-images": "ܡܢܝܢܐ ܕܠܦܦ̈ܐ: $1",
+	"maintenance-error": "ܦܘܕܐ: $1",
+	"maintenance-memc-invalid": "ܠܐ ܬܪܝܨܐ:",
+	"maintenance-memc-updates": "ܚܘܕ̈ܬܐ:"
 }

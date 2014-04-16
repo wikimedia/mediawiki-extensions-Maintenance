@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Malafaya"
-        ]
-    },
-    "maintenance-showCacheStats-edits": "Numero de cambias: $1"
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"maintenance-showCacheStats-edits": "Numero de cambias: $1"
 }
