@@ -20,7 +20,7 @@
 	"maintenance-showCacheStats-admins": "Amariya xizmetkaran: $1",
 	"maintenance-showCacheStats-images": "Amariya dosyayan: $1",
 	"maintenance-showCacheStats-views": "Amariya pelan mocnayış: $1",
-	"maintenance-error": "Xırab: $1",
+	"maintenance-error": "Xeta: $1",
 	"maintenance-memc-requests": "Wazteni",
 	"maintenance-memc-diffcache": "Ferqê Verhafızi"
 }
