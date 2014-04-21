@@ -168,5 +168,6 @@
 	"maintenance-re-ce": "当前编辑：$1",
 	"maintenance-re-de": "已删除编辑：$1",
 	"maintenance-re-rce": "最近更改条目：$1",
+	"maintenance-re-total": "要更改的记录总数：$1",
 	"maintenance-re-re": "重新分配编辑{{int:ellipsis}}完成"
 }
