@@ -87,6 +87,7 @@
 	"maintenance-checkUsernames-desc": "验证数据库用户名真实有效",
 	"maintenance-checkUsernames-error-notvalid": "无效的使用者名：「$3 」（使用者id  $2 ）",
 	"maintenance-cleanupCaps": "使用此表单可以修复因修改$wgCapitalLinks导致的损坏页面",
+	"maintenance-cleanupCaps-option-namespace": "运行清理盖帽的名字空间数字",
 	"maintenance-cleanupCaps-output-islower": "“$1”已经是小写字母。",
 	"maintenance-cleanupCaps-output-clash": "“$1”被跳过；“$2”已存在",
 	"maintenance-cleanupCaps-output-dryrun": "“$1”->“$2”：试运行期间不会移动",
