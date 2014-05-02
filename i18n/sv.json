@@ -28,6 +28,7 @@
 	"maintenance-option-optional": "(valfri)",
 	"maintenance-output-success": "$1 kördes lyckat!",
 	"maintenance-output-failure": "$1 kördes inte framgångsrikt!",
+	"maintenance-attachLatest-output-done": "Färdigt! Bearbetade $1 {{PLURAL:$1|sida|sidor}}.",
 	"maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|titel|titlar}} på $2ms ($3ms vardera)",
 	"maintenance-changePassword": "Använd detta formulär för att ändra en användares lösenord",
 	"maintenance-changePassword-desc": "Ändra en användares lösenord",
