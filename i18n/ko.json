@@ -29,7 +29,7 @@
 	"maintenance-option-quiet": "오류가 아닌 결과물 숨기기",
 	"maintenance-option-globals": "디버깅을 위한 처리가 끝났을 때 전역 변수를 출력",
 	"maintenance-option-confirm": "확인",
-	"maintenance-option-batch-size": "일괄 처리당 많은 작업을 실행, 기본 값:$1",
+	"maintenance-option-batch-size": "일괄 처리마다 많은 작업을 실행, 기본값:$1",
 	"maintenance-option-required": "(필수)",
 	"maintenance-option-optional": "(선택 사항)",
 	"maintenance-output-success": "$1 스크립트를 실행하는 데 성공했습니다.",
