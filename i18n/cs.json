@@ -4,7 +4,8 @@
 			"Chmee2",
 			"Jkjk",
 			"Juandev",
-			"Vks"
+			"Vks",
+			"Matěj Grabovský"
 		]
 	},
 	"maintenance": "Spustit skripty údržby",
@@ -86,7 +87,7 @@
 	"maintenance-memc-requests": "Požadavky",
 	"maintenance-memc-withoutsession": "bez relace:",
 	"maintenance-memc-total": "celkem:",
-	"maintenance-memc-parsercache": "Mezipaměť parseru",
+	"maintenance-memc-parsercache": "Mezipaměť syntaktického analyzátoru",
 	"maintenance-memc-hits": "zásahy:",
 	"maintenance-memc-invalid": "neplatné:",
 	"maintenance-memc-expired": "vypršelé:",
