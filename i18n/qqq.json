@@ -146,6 +146,7 @@
 	"maintenance-showCacheStats-desc": "Used as description",
 	"maintenance-eval-desc": "Used as description",
 	"maintenance-update": "{{doc-important|Do not translate \"<code>UPDATE</code>\", \"<code>DELETE</code>\" or \"<code>INSERT</code>\".}}\nThis message appears next to a checkbox.\n\n\"Unchecked\" means that the checkbox has not been \"checked\".\nWords having the same meaning as \"checked\" in this sentence are \"marked\", \"ticked\" and \"selected\".\n\nThis message is currently not used in this extension.",
+	"maintenance-invalidname": "{{Identical|Invalid username}}",
 	"maintenance-invalidtitle": "Unused at this time.\n\nParameters:\n* $1 - page title\n{{Identical|Invalid title}}",
 	"maintenance-titlenoexist": "Unused at this time.\n\nParameters:\n* $1 - page title",
 	"maintenance-failed": "{{Identical|Failed}}",
