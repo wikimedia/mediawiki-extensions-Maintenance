@@ -88,6 +88,7 @@
 	"maintenance-moveBatch-desc": "Vill Säite matenee réckelen",
 	"maintenance-reassignEdits-desc": "Ännerunge vun engem Benotzer engem aneren zouweisen",
 	"maintenance-runJobs-desc": "Aarbechten an der Queue vun den Aarbechte starten",
+	"maintenance-runJobs-option-maxjobs": "Maximal Zuel vun Jobben déi gestart solle ginn",
 	"maintenance-runJobs-error-invalidprocs": "Dir musst zwëschen 1 an 1000 Prozesser uginn",
 	"maintenance-showJobs-desc": "Weis d'Lësccht vun den Aarbechten déi nach an der ''Queue'' stinn",
 	"maintenance-sql": "Dëse Formaulaire benotze fir eng SQL-Ufro an der Datebank ze maachen.",
