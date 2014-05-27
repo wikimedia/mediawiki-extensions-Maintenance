@@ -6,7 +6,8 @@
 			"Darth Kule",
 			"F. Cosoleto",
 			"Gianfranco",
-			"Pietrodn"
+			"Pietrodn",
+			"Nemo bis"
 		]
 	},
 	"maintenance": "Esegui script di manutenzione",
@@ -114,8 +115,8 @@
 	"maintenance-createAndPromote-error-password": "Si è verificato un errore con la password inserita: $1",
 	"maintenance-deleteBatch": "Usa questo modulo per cancellare pagine in blocco.\nIndica solo una pagina per riga",
 	"maintenance-deleteBatch-desc": "Cancella pagine in blocco",
-	"maintenance-deleteRevision": "Usa questo modulo per cancellare revisioni in blocco.\nIndica solo un numero di revisione per riga",
-	"maintenance-deleteRevision-desc": "Rimuovi revisioni dal database",
+	"maintenance-deleteRevision": "Usa questo modulo per cancellare versioni in blocco.\nIndica solo un numero di versione per riga",
+	"maintenance-deleteRevision-desc": "Rimuovi versioni dal database",
 	"maintenance-initEditCount-desc": "Ricalcola il conteggio degli edit degli utenti",
 	"maintenance-initSiteStats": "Usa questo modulo per ricalcolare le statistiche del sito, specificando se vuoi ricalcolare anche il numero di visualizzazioni per pagina",
 	"maintenance-initSiteStats-desc": "Ricalcola le statistiche del sito",
@@ -146,8 +147,8 @@
 	"maintenance-titlenoexist": "Il titolo indicato (\"$1\") non esiste!",
 	"maintenance-failed": "FALLITO",
 	"maintenance-deleted": "CANCELLATO",
-	"maintenance-revdelete": "Cancellazione di $1 {{PLURAL:$3|revisione|revisioni}} dal wiki $2",
-	"maintenance-revnotfound": "Revisione $1 non trovata!",
+	"maintenance-revdelete": "Cancellazione di $1 {{PLURAL:$3|versione|versioni}} dal wiki $2",
+	"maintenance-revnotfound": "Versione $1 non trovata!",
 	"maintenance-showCacheStats-edits": "Numero di edit: $1",
 	"maintenance-showCacheStats-articles": "Numero di pagine nel namespace principale: $1",
 	"maintenance-showCacheStats-pages": "Numero di pagine: $1",
