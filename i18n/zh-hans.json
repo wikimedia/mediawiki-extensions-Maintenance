@@ -10,13 +10,14 @@
 			"Simon Shek",
 			"Wrightbus",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Mywood"
 		]
 	},
 	"maintenance": "运行维护脚本",
 	"maintenance-desc": "各种维护脚本的[[Special:Maintenance|wiki接口]]",
 	"right-maintenance": "通过[[Special:Maintenance]]运行维护脚本",
-	"maintenance-backlink": "返回到脚本选择",
+	"maintenance-backlink": "返回脚本选择",
 	"maintenance-header": "请选择下面的脚本执行。说明在每个脚本旁边",
 	"maintenance-error-badini": "metadata.ini文件已损坏或丢失。请重新下载Maintenance扩展",
 	"maintenance-error-invalidtype": "找不到指定的脚本",
@@ -158,7 +159,7 @@
 	"maintenance-memc-parsercache": "解析器缓存",
 	"maintenance-memc-hits": "命中：",
 	"maintenance-memc-invalid": "无效：",
-	"maintenance-memc-expired": "过期：",
+	"maintenance-memc-expired": "终止时间：",
 	"maintenance-memc-absent": "缺失：",
 	"maintenance-memc-stub": "子阀值：",
 	"maintenance-memc-imagecache": "图片缓存",
