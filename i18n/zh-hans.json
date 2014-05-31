@@ -113,7 +113,7 @@
 	"maintenance-deleteBatch-desc": "删除大量页面",
 	"maintenance-deleteRevision": "使用本表单来大规模删除修订版本。每一行只可键入一个修订版本号",
 	"maintenance-deleteRevision-desc": "从资料库中删除修改",
-	"maintenance-initEditCount-desc": "重新计算用户的编辑计数",
+	"maintenance-initEditCount-desc": "重新计算用户的编辑数",
 	"maintenance-initSiteStats-desc": "重新计算网站的统计资料",
 	"maintenance-moveBatch": "使用本表单进行大规模移动页面。每一行都应输入源页面和目标页面，并用管道符分隔",
 	"maintenance-moveBatch-desc": "大量移动页面",
