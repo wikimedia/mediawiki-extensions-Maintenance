@@ -35,5 +35,6 @@
 	"maintenance-move": "Għaddejja it-tmexxija ta' $1 lejn $2{{int:ellipsis}}",
 	"maintenance-error": "Żball: $1",
 	"maintenance-memc-fake": "Qiegħed tesegwixxi FakeMemCachedClient. L-ebda statistika m'hi mogħtija",
-	"maintenance-memc-requests": "Rikjesti"
+	"maintenance-memc-requests": "Rikjesti",
+	"maintenance-memc-updates": "aġġornamenti:"
 }
