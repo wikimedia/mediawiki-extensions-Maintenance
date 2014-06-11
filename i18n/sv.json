@@ -49,6 +49,7 @@
 	"maintenance-checkSyntax-desc": "Kontrollera syntax för alla PHP-filer i MediaWiki",
 	"maintenance-checkSyntax-option-list-file": "Lista över filer eller kataloger att kontrollera",
 	"maintenance-checkSyntax-option-modified": "Kontrollera endast filer som har ändrats (kräver svn kommandoradsklienten)",
+	"maintenance-checkSyntax-output-parsekit": "Kontrollerar syntax (använder parsekit)",
 	"maintenance-checkSyntax-output-footer": "Klart! $1 filer kontrollerade, $2 misslyckanden och $3 varningar hittade",
 	"maintenance-checkSyntax-output-buildlist": "Bygger fillista",
 	"maintenance-checkSyntax-output-error": "Fel i $1 rad $2: $3",
