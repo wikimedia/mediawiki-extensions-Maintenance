@@ -5,7 +5,8 @@
 			"Jopparn",
 			"M.M.S.",
 			"Sannab",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
 	"maintenance": "Kör underhållsskripter",
@@ -13,13 +14,17 @@
 	"right-maintenance": "Kör underhållsskript genom [[Special:Maintenance]]",
 	"maintenance-backlink": "Tillbaka till skriptvalet",
 	"maintenance-header": "Var god ange ett skript nedan till att exekvera.\nBeskrivningar finns brevid varje skript",
+	"maintenance-error-badini": "Filen metadata.ini är antingen skadad eller saknas. Vänligen ladda ner Underhållstillägget igen",
 	"maintenance-error-invalidtype": "Det angivna skriptet hittades inte",
+	"maintenance-error-badargs": "Du ange inte alla nödvändiga alternativ",
 	"maintenance-generic-done": "klar",
 	"maintenance-generic-username": "Användarnamn",
 	"maintenance-generic-password": "Lösenord",
 	"maintenance-generic-reason": "Anledning",
+	"maintenance-cleanupTable-dry-run": "Genomför en testkörning",
 	"maintenance-cleanupTable-check": "Söker efter dåliga titlar...",
 	"maintenance-cleanupTable-checkfix": "Söker och korrigerar dåliga titlar...",
+	"maintenance-cleanupTable-progress": "$1 $2: $3% utfört på $4; ETA $5 [$6/$7] $8/sek <$9% uppdaterade>",
 	"maintenance-cleanupTable-missingparam": "$1: Saknad parameter $2",
 	"maintenance-cleanupTable-processing": "Bearbetar $1...",
 	"maintenance-cleanupTable-finished": "Färdig $1... $2 av $3 {{PLURAL:$3|rad uppdaterad|rader uppdaterade}}",
