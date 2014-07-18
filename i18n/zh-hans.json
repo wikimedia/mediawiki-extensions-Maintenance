@@ -11,7 +11,8 @@
 			"Wrightbus",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Mywood"
+			"Mywood",
+			"Impersonator 1"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -169,6 +170,8 @@
 	"maintenance-memc-updates": "更新：",
 	"maintenance-memc-uncacheable": "无法缓存：",
 	"maintenance-memc-diffcache": "差异缓存",
+	"maintenance-re-from": "分配编辑者的用户名",
+	"maintenance-re-to": "分配指定编辑的用户名",
 	"maintenance-re-nf": "用户$1没有找到",
 	"maintenance-re-ce": "当前编辑：$1",
 	"maintenance-re-de": "已删除编辑：$1",
