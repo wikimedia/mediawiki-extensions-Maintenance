@@ -28,6 +28,7 @@
 	"maintenance-cleanupTable-missingparam": "$1: פרמטר חסר$2",
 	"maintenance-cleanupTable-processing": "מעבד $1...",
 	"maintenance-cleanupTable-finished": "עודכן $1 ...  $2  מתוך $3 {{PLURAL:$3| רשומה|רשומות}}",
+	"maintenance-option-quiet": "העלמה של פלט שיאנו שגיאה",
 	"maintenance-option-globals": "פלט משתנים גלובליים צריך להופיע בסוף התהליך עבור איתור באגים",
 	"maintenance-option-confirm": "אישור",
 	"maintenance-option-required": "(חובה)",
