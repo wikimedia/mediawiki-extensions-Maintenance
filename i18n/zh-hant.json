@@ -17,7 +17,7 @@
 	"maintenance-error-invalidtype": "找不到指定的腳本",
 	"maintenance-error-badargs": "您沒有指定所有必填的選項",
 	"maintenance-generic-done": "完成",
-	"maintenance-generic-username": "用戶名",
+	"maintenance-generic-username": "使用者名稱",
 	"maintenance-generic-password": "密碼",
 	"maintenance-generic-reason": "原因",
 	"maintenance-cleanupTable-dry-run": "執行預運行",
