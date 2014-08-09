@@ -78,6 +78,7 @@
 	"maintenance-checkSyntax": "使用此表单检查MediaWiki中的PHP文件的语法",
 	"maintenance-checkSyntax-desc": "检查MediaWiki中所有PHP文件的语法",
 	"maintenance-checkSyntax-option-list-file": "要检查的文件或目录列表",
+	"maintenance-checkSyntax-option-syntax-only": "只检查语法有效性，跳过代码样式警告",
 	"maintenance-checkSyntax-output-parsekit": "检查语法（通过parsekit）",
 	"maintenance-checkSyntax-output-phpl": "检查语法（使用php -l，这将花费较长时间）",
 	"maintenance-checkSyntax-output-footer": "完成！$1个文件已检查，并已找到$2个失败和$3个警告",
