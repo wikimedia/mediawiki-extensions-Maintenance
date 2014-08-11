@@ -5,7 +5,8 @@
 			"Mark85296341",
 			"Simon Shek",
 			"Wrightbus",
-			"LNDDYL"
+			"LNDDYL",
+			"Cwlin0416"
 		]
 	},
 	"maintenance": "運行維護腳本",
@@ -65,7 +66,7 @@
 	"maintenance-checkSyntax-output-warning": "檔案$1中的警告：$2",
 	"maintenance-checkSyntax-error-nofile": "錯誤：找不到檔案或目錄$1",
 	"maintenance-checkSyntax-error-cantopen": "無法打開文件$1",
-	"maintenance-checkUsernames-error-notvalid": "無效的使用者名：「$3 」（使用者id  $2 ）",
+	"maintenance-checkUsernames-error-notvalid": "無效的使用者名稱：\"$3\" (使用者ID $2)",
 	"maintenance-cleanupCaps-output-dryrun": "「$1」->「$2」試運行期間不會移動",
 	"maintenance-cleanupSpam-output-false": "錯誤匹配",
 	"maintenance-cleanupSpam-output-blanking": "正在清空",
