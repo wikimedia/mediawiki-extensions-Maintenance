@@ -109,6 +109,7 @@
 	"maintenance-cleanupSpam-error-noid": "内部错误: 没有ID$1的页面",
 	"maintenance-clearInterwikiCache": "使用此表单可以完全清除跨维基缓存",
 	"maintenance-clearInterwikiCache-desc": "从缓存清除所有语言的所有跨维基链接",
+	"maintenance-createAndPromote": "使用此表单创建新用户并提权为管理员。勾选行政员框如果您希望提权为行政员",
 	"maintenance-createAndPromote-desc": "创建用户并赋予管理员权限",
 	"maintenance-createAndPromote-option-bureaucrat": "赋予用户行政员权限",
 	"maintenance-createAndPromote-output-creating": "正在创建并提升{{ns:user}}:$2...",
