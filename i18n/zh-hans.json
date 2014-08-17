@@ -77,6 +77,7 @@
 	"maintenance-checkImages-output-good": "好图片：$1/$2",
 	"maintenance-checkSyntax": "使用此表单检查MediaWiki中的PHP文件的语法",
 	"maintenance-checkSyntax-desc": "检查MediaWiki中所有PHP文件的语法",
+	"maintenance-checkSyntax-option-with-extensions": "并且递归扩展文件夹",
 	"maintenance-checkSyntax-option-list-file": "要检查的文件或目录列表",
 	"maintenance-checkSyntax-option-syntax-only": "只检查语法有效性，跳过代码样式警告",
 	"maintenance-checkSyntax-output-parsekit": "检查语法（通过parsekit）",
