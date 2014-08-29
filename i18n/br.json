@@ -73,6 +73,7 @@
 	"maintenance-checkUsernames-desc": "Gwiriañ eo mat anvioù implijer an diaz roadennoù",
 	"maintenance-checkUsernames-error-notvalid": "Anv implijer faziek: \"$3\" (Implijer ID $2)",
 	"maintenance-cleanupCaps-output-islower": "Skrivet eo \"$1\" gant lizherennoù bihan dija.",
+	"maintenance-cleanupCaps-output-clash": "\"$1\" lezet a-gostez ; \"$2\" zo anezhañ dija",
 	"maintenance-cleanupCaps-output-dryrun": "\"$1\" -> \"$2\": MOD AMPROUIÑ, N'EO KET BET DILEC'HIET",
 	"maintenance-cleanupSpam-error-noid": "Fazi diabarzh : pajenn ebet evit an ID $1",
 	"maintenance-createAndPromote": "Implijit ar furmskrid-mañ evit krouiñ un implijer nevez ha lakaat anezhañ da verour.\nAskit al log bureviad ma fell deoc'h reiñ dezhañ ar statud-se ivez.",
