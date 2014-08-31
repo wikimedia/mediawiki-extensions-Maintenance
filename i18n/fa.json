@@ -7,7 +7,8 @@
 			"Omidh",
 			"Reza1615",
 			"Sahim",
-			"پاناروما"
+			"پاناروما",
+			"Alirezaaa"
 		]
 	},
 	"maintenance": "اجرای متون حفاظت",
@@ -59,7 +60,7 @@
 	"maintenance-checkAutoLoader": "استفاده از این فرم برای انجام بررسی‌های سلامت عقل در آتولودر",
 	"maintenance-checkAutoLoader-desc": "بررسی‌های یلامت عقل آتولودر",
 	"maintenance-checkAutoLoader-output-list2": "$1: پوشهٔ اشتباه: در $2 پیدا شد، در $3 فهرست شده",
-	"maintenance-checkBadRedirects": "استفاده از این فرم برای دیدن اینکه اگر صفحه‌ها به عنوان تغییر جهت‌ها علامت‌گذاری شده در حقیقت تغییر جهت هستند",
+	"maintenance-checkBadRedirects": "استفاده از این فرم برای دیدن اینکه اگر صفحات به عنوان تغییر جهت‌ها علامت‌گذاری شده در حقیقت تغییر جهت هستند",
 	"maintenance-checkBadRedirects-desc": "بررسی برای تغییر جهت‌های بد",
 	"maintenance-checkBadRedirects-output-header": "در حال آوردن تغییر جهت‌ها...",
 	"maintenance-checkBadRedirects-output-found": "پیدا شده $1 {{PLURAL:$1|تغییر جهت|تغییر جهت‌ها}}.\nدر حال بررسی برای تغییر جهت‌های بد...",
