@@ -9,11 +9,11 @@
 			"Lokal Profil"
 		]
 	},
-	"maintenance": "Kör underhållsskripter",
-	"maintenance-desc": "[[Special:Maintenance|Webbgränssnitt]] för olika underhållsskripter",
+	"maintenance": "Kör underhållsskript",
+	"maintenance-desc": "[[Special:Maintenance|Webbgränssnitt]] för olika underhållsskript",
 	"right-maintenance": "Kör underhållsskript genom [[Special:Maintenance]]",
 	"maintenance-backlink": "Tillbaka till skriptvalet",
-	"maintenance-header": "Var god ange ett skript nedan till att exekvera.\nBeskrivningar finns brevid varje skript",
+	"maintenance-header": "Var god välj ett skript nedan för att exekvera.\nBeskrivningar finns bredvid varje skript",
 	"maintenance-error-badini": "Filen metadata.ini är antingen skadad eller saknas. Vänligen ladda ner Underhållstillägget igen",
 	"maintenance-error-invalidtype": "Det angivna skriptet hittades inte",
 	"maintenance-error-badargs": "Du ange inte alla nödvändiga alternativ",
