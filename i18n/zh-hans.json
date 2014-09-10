@@ -176,6 +176,7 @@
 	"maintenance-memc-diffcache": "差异缓存",
 	"maintenance-re-from": "分配编辑者的用户名",
 	"maintenance-re-to": "分配指定编辑的用户名",
+	"maintenance-re-force": "即便目标用户不存在也重新分配",
 	"maintenance-re-rc": "不要更新最近更改表",
 	"maintenance-re-nf": "用户$1没有找到",
 	"maintenance-re-rr": "重新运行不带“$1”的脚本以更新。",
