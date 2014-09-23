@@ -284,7 +284,7 @@ $specialPageAliases['tr'] = array(
 	'Maintenance' => array( 'Bakım' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Maintenance' => array( 'Manutension' ),
 );
