@@ -5,7 +5,8 @@
 			"Luckas",
 			"Malafaya",
 			"SandroHc",
-			"Waldir"
+			"Waldir",
+			"Vitorvicentevalente"
 		]
 	},
 	"maintenance": "Executar scripts de manutenção",
@@ -49,7 +50,7 @@
 	"maintenance-benchmarkPurge-option-count": "Quantas URLs devem ser fornecidas ao Squid para limpeza",
 	"maintenance-benchmarkPurge-error-nosquid": "A aferição dos valores de referência da limpeza do Squid não faz nada sem suporte do Squid.",
 	"maintenance-benchmarkPurge-output-numsquids": "Existem $1 servidores Squid definidos:",
-	"maintenance-benchmarkPurge-output-trial": "$1 títulos em $2ms ($3ms cada um)",
+	"maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|título|títulos}} em $2ms ($3ms cada um)",
 	"maintenance-changePassword": "Use este formulário para alterar a palavra-chave de um utilizador",
 	"maintenance-changePassword-desc": "Alterar a palavra-chave de um utilizador",
 	"maintenance-changePassword-error-nouser": "Utilizador inexistente: $1",
@@ -62,7 +63,7 @@
 	"maintenance-checkBadRedirects-output-header": "A obter lista de redirecionamentos...",
 	"maintenance-checkBadRedirects-output-found": "{{PLURAL:$1|Foi encontrado|Foram encontrados}} $1 {{PLURAL:$1|redirecionamento|redirecionamentos}}.\nA procurar redirecionamentos incorretos...",
 	"maintenance-checkBadRedirects-output-footer": "Terminado.",
-	"maintenance-checkImages": "Use este formulário para verificar as imagens que estão danificadas no seu servidor",
+	"maintenance-checkImages": "Use este formulário para verificar as imagens que estão danificadas na sua wiki",
 	"maintenance-checkImages-desc": "Verificar se as imagens existem, são legíveis, etc.",
 	"maintenance-checkImages-output-noaccess": "$1: não são acessíveis localmente",
 	"maintenance-checkImages-output-missing": "$1: em falta",
@@ -97,6 +98,7 @@
 	"maintenance-cleanupCaps-output-clash": "\"$1\" foi saltada; \"$2\" já existe",
 	"maintenance-cleanupCaps-output-dryrun": "\"$1\" -> \"$2\": EXECUÇÂO SIMULADA; NÃO FOI MOVIDA",
 	"maintenance-cleanupCaps-error-noneed": "$wgCapitalLinks está ativado; não é necessário fazer a limpeza do uso de maiúsculas e minúsculas.",
+	"maintenance-cleanupSpam": "Use este formulário para reverter edições spam que façam ligação a sítios externos",
 	"maintenance-createAndPromote": "Utilize este formulário para criar um novo utilizador e promovê-lo a administrador.\nAssinale a caixa de burocrata se pretende também promovê-lo a burocrata",
 	"maintenance-createAndPromote-desc": "Criar um utilizador e promover a administrador",
 	"maintenance-createAndPromote-option-bureaucrat": "Promover o utilizador ao estatuto de burocrata",
