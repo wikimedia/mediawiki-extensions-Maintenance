@@ -144,7 +144,7 @@
 	"maintenance-re-nf": "De Benotzer $1 gouf net fonnt",
 	"maintenance-re-rr": "De Skript nachemol lafe lossen ouni \"$1\" z'aktualiséieren",
 	"maintenance-re-ce": "Aktuell Ännerungen: $1",
-	"maintenance-re-de": "Geläschten Ännerungen: $1",
+	"maintenance-re-de": "Geläscht Ännerungen: $1",
 	"maintenance-re-rce": "Zuel vun de rezenten Ännerungen: $1",
 	"maintenance-re-total": "Total vun den Ännerunge déi z'ännere sinn: $1",
 	"maintenance-re-re": "Reassignéiere vun Ännerungen{{int:ellipsis}} ass gemaach"
