@@ -15,7 +15,8 @@
 			"Siebrand",
 			"The Evil IP address",
 			"Translationista",
-			"Umherirrender"
+			"Umherirrender",
+			"Liuxinyu970226"
 		]
 	},
 	"maintenance": "{{doc-special|Maintenance}}",
@@ -43,7 +44,7 @@
 	"maintenance-option-confirm": "{{Identical|Confirm}}",
 	"maintenance-option-batch-size": "Label for a text input shown when running a script that has a \"batch mode\", where a bulk of operations can be run in one script execution. $1 is the default batch size",
 	"maintenance-option-required": "This message is currently not used in the extension.\n{{Identical|Required}}",
-	"maintenance-option-optional": "This message is currently not used in the extension",
+	"maintenance-option-optional": "This message is currently not used in the extension\n{{Identical|Optional}}",
 	"maintenance-output-success": "Indicates a script ran successfully.\n* $1 is the name of the script",
 	"maintenance-output-failure": "Indicates a script did not run successfully.\n* $1 is the name of the script",
 	"maintenance-attachLatest": "Do not translate <code>page_latest</code>",
@@ -74,7 +75,7 @@
 	"maintenance-checkBadRedirects-output-footer": "{{Identical|Done}}",
 	"maintenance-checkImages-desc": "Used as description",
 	"maintenance-checkImages-output-noaccess": "Parameters:\n* $1 - image name",
-	"maintenance-checkImages-output-missing": "Parameters:\n* $1 - image name",
+	"maintenance-checkImages-output-missing": "Parameters:\n* $1 - image name\n{{Identical|Missing}}",
 	"maintenance-checkImages-output-isdir": "Parameters:\n* $1 - image name",
 	"maintenance-checkImages-output-truncated": "Parameters:\n* $1 - image name\n* $2 - database size",
 	"maintenance-checkImages-output-mismatch": "Parameters:\n* $1 - image name\n* $2 - database size\n* $3 - actual size",
