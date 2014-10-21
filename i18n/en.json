@@ -46,7 +46,7 @@
     "maintenance-benchmarkPurge-desc": "Benchmark the Squid purge functions",
     "maintenance-benchmarkPurge-option-count": "How many URLs to feed to Squid for purging",
     "maintenance-benchmarkPurge-error-nosquid": "Squid purge benchmark doesn't do much without Squid support on.",
-    "maintenance-benchmarkPurge-output-numsquids": "There are $1 defined Squid {{PLURAL:$1|server|servers}}:",
+    "maintenance-benchmarkPurge-output-numsquids": "There {{PLURAL:$1|is|are}} $1 defined Squid {{PLURAL:$1|server|servers}}:",
     "maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|title|titles}} in $2ms ($3ms each)",
     "maintenance-changePassword": "Use this form to change a user's password",
     "maintenance-changePassword-desc": "Change a user's password",
