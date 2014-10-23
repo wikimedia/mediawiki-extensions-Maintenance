@@ -49,7 +49,7 @@
 	"maintenance-benchmarkPurge-desc": "Aferir valores de referência para as funções de limpeza do Squid",
 	"maintenance-benchmarkPurge-option-count": "Quantas URLs devem ser fornecidas ao Squid para limpeza",
 	"maintenance-benchmarkPurge-error-nosquid": "A aferição dos valores de referência da limpeza do Squid não faz nada sem suporte do Squid.",
-	"maintenance-benchmarkPurge-output-numsquids": "Existem $1 servidores Squid definidos:",
+	"maintenance-benchmarkPurge-output-numsquids": "{{PLURAL:$1|Existe|Existem}} $1 {{PLURAL:$1|servidor|servidores}} Squid {{PLURAL:$1|definido|definidos}}:",
 	"maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|título|títulos}} em $2ms ($3ms cada um)",
 	"maintenance-changePassword": "Use este formulário para alterar a palavra-chave de um utilizador",
 	"maintenance-changePassword-desc": "Alterar a palavra-chave de um utilizador",
