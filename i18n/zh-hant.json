@@ -33,7 +33,7 @@
 	"maintenance-option-confirm": "確認",
 	"maintenance-option-batch-size": "每個批次檔執行操作的數量，預設：$1",
 	"maintenance-option-required": "(必填)",
-	"maintenance-option-optional": "(選填)",
+	"maintenance-option-optional": "（選填）",
 	"maintenance-output-success": "已成功執行 $1！",
 	"maintenance-output-failure": "$1 執行失敗！",
 	"maintenance-attachLatest-option-fix": "實際修復項目，否則預運行",
