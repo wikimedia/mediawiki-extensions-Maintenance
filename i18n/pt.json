@@ -6,7 +6,8 @@
 			"Malafaya",
 			"SandroHc",
 			"Waldir",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Macofe"
 		]
 	},
 	"maintenance": "Executar scripts de manutenção",
@@ -43,7 +44,7 @@
 	"maintenance-attachLatest-output-notime": "$1 $2 [[$3]] não foi encontrada a data da última revisão!",
 	"maintenance-attachLatest-output-norev": "$1 $2 [[$3]] data da última revisão $4, não foi encontrada a identificação da revisão",
 	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] data da última revisão $4, identificação da revisão $5",
-	"maintenance-attachLatest-output-done": "Terminado! Foram processadas $1 páginas.",
+	"maintenance-attachLatest-output-done": "Terminado! Foram processadas $1 {{PLURAL:$1|página|páginas}}.",
 	"maintenance-attachLatest-output-dryrun": "Esta execução foi uma simulação; volte a executar com \"{{int:maintenance-attachLatest-option-fix}}\" para atualizar page_latest.",
 	"maintenance-benchmarkPurge": "Use este formulário para testar quanto tempo demoram as funções de limpeza do Squid",
 	"maintenance-benchmarkPurge-desc": "Aferir valores de referência para as funções de limpeza do Squid",
