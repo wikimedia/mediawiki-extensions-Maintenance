@@ -3,7 +3,8 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"maintenance": "Запуск скрыптоў падтрымкі",
@@ -145,7 +146,7 @@
 	"maintenance-titlenoexist": "Пазначаная назва («$1») не існуе!",
 	"maintenance-failed": "НЕ АТРЫМАЛАСЯ",
 	"maintenance-deleted": "ВЫДАЛЕНА",
-	"maintenance-revdelete": "Выдаленьне {{PLURAL:$3|1=вэрсіі|вэрсіяў}} $1 з вікі $2",
+	"maintenance-revdelete": "Выдаленьне {{PLURAL:$3|1=вэрсіі|вэрсіяў}} $1 зь вікі $2",
 	"maintenance-revnotfound": "Вэрсія $1 ня знойдзена!",
 	"maintenance-showCacheStats-edits": "Колькасьць рэдагаваньняў: $1",
 	"maintenance-showCacheStats-articles": "Колькасьць старонак у асноўнай прасторы назваў: $1",
