@@ -13,7 +13,7 @@
 	"right-maintenance": "Onderhoudscripts uitvoeren via [[Special:Maintenance]]",
 	"maintenance-backlink": "Naar scriptselectie terugkeren",
 	"maintenance-header": "Selecteer hieronder een uit te voeren script.\nBeschrijvingen staan naast de scripts",
-	"maintenance-error-badini": "Het bestand metadata.ini is corrupt of niet aanwezig. Download de uitbreiding Maintenance opnieuw.",
+	"maintenance-error-badini": "Het bestand metadata.ini is beschadigd of niet aanwezig. Download de uitbreiding Maintenance opnieuw.",
 	"maintenance-error-invalidtype": "Het opgegeven script is niet gevonden",
 	"maintenance-error-badargs": "U hebt niet alle verplichte instellingen gemaakt.",
 	"maintenance-generic-done": "afgerond",
