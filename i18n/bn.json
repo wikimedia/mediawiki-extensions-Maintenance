@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Ehsanulhb",
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftabuzzaman"
 		]
 	},
 	"maintenance-error-badargs": "আপনি সকল বাধ্যতামূলক অপশন উল্লেখ করেননি",
 	"maintenance-generic-done": "সম্পন্ন",
 	"maintenance-generic-username": "ব্যবহারকারী নাম",
-	"maintenance-generic-password": "শব্দচাবি",
+	"maintenance-generic-password": "পাসওয়ার্ড",
 	"maintenance-generic-reason": "কারণ",
 	"maintenance-cleanupTable-processing": "$1 প্রক্রিয়াকরণ করা হচ্ছে...",
 	"maintenance-option-confirm": "নিশ্চিত করুন",
@@ -16,9 +17,9 @@
 	"maintenance-option-optional": "(ঐচ্ছিক)",
 	"maintenance-output-success": "$1 সফলভাবে চালু হয়েছিলো!",
 	"maintenance-output-failure": "$1 সফলভাবে চালু হয়নি!",
-	"maintenance-changePassword-desc": "ব্যবহারকারীর শব্দচাবি পরিবর্তন করুন",
+	"maintenance-changePassword-desc": "ব্যবহারকারীর পাসওয়ার্ড পরিবর্তন করুন",
 	"maintenance-changePassword-error-nouser": "\"$1\" নামে কোন ব্যবহারকারী নেই।",
-	"maintenance-changePassword-output-set": "$1-এর জন্য শব্দচাবি ঠিক করা হয়েছে",
+	"maintenance-changePassword-output-set": "$1-এর জন্য পাসওয়ার্ড ঠিক করা হয়েছে",
 	"maintenance-checkBadRedirects-output-header": "পুনর্নির্দেশনার আনা হচ্ছে...",
 	"maintenance-checkBadRedirects-output-footer": "নিষ্পন্ন হয়েছে।",
 	"maintenance-checkImages-output-noaccess": "$1:  স্থানীয়ভাবে প্রবেশ করা সম্ভব নয়",
