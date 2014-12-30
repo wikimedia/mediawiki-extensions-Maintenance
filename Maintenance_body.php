@@ -173,9 +173,9 @@ class SpecialMaintenance extends SpecialPage {
 				break;
 		}
 		if( $needhax ) {
-			require_once( $fname );
+			require_once $fname;
 		} elseif( file_exists( "$IP/maintenance/$type.php" ) ) {
-			require_once( "$IP/maintenance/$type.php" );
+			require_once "$IP/maintenance/$type.php";
 		} else {
 			throw new MWException( "No such maintenance script $type" );
 		}
@@ -597,7 +597,7 @@ class SpecialMaintenance extends SpecialPage {
 		if( $maintenance->getDbType() === Maintenance::DB_ADMIN ) {
 			global $wgDBuser, $wgDBpassword, $wgDBadminuser, $wgDBadminpassword, $wgDBuserold, $wgDBpasswordold;
 			if( !isset( $wgDBadminuser ) && is_readable( "$IP/AdminSettings.php" ) ) {
-				require( "$IP/AdminSettings.php" );
+				require "$IP/AdminSettings.php";
 			}
 			if( isset( $wgDBadminuser ) ) {
 				$wgDBuserold = $wgDBuser;
