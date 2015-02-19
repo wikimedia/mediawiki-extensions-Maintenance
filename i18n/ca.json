@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Paucabot",
-			"Solde"
+			"Solde",
+			"Joan manel"
 		]
 	},
+	"maintenance": "Executar scripts de manteniment",
 	"maintenance-option-confirm": "Confirma",
 	"maintenance-changePassword-desc": "Canvia la contrasenya d'un usuari",
 	"maintenance-deleteBatch-desc": "Eliminació massiva de pàgines",

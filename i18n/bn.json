@@ -6,6 +6,7 @@
 			"Aftabuzzaman"
 		]
 	},
+	"maintenance": "রক্ষণাবেক্ষণ স্ক্রিপ্ট চালান",
 	"maintenance-error-badargs": "আপনি সকল বাধ্যতামূলক অপশন উল্লেখ করেননি",
 	"maintenance-generic-done": "সম্পন্ন",
 	"maintenance-generic-username": "ব্যবহারকারী নাম",
