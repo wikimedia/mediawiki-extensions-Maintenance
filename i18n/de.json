@@ -17,7 +17,7 @@
 			"Umherirrender"
 		]
 	},
-	"maintenance": "Wartungsskript starten",
+	"maintenance": "Wartungsskripte ausführen",
 	"maintenance-desc": "Stellt die Spezialseite [[Special:Maintenance|Webinterface]] bereit, über die verschiedene Wartungsskripte ausgeführt werden können",
 	"right-maintenance": "Wartungsskripte über [[Special:Maintenance]] starten",
 	"maintenance-backlink": "Zurück zur Skript-Auswahl",
