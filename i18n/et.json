@@ -6,6 +6,7 @@
 			"Silvar"
 		]
 	},
+	"maintenance": "Hooldusskriptide käitamine",
 	"maintenance-error-invalidtype": "Määratud skripti ei leidu.",
 	"maintenance-generic-done": "valmis",
 	"maintenance-generic-username": "Kasutajanimi",
