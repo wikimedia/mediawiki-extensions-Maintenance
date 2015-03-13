@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Hugo.arg"
 		]
 	},
+	"maintenance": "Paleisti aptarnavimo skriptus",
 	"maintenance-generic-done": "atlikta",
 	"maintenance-generic-username": "Vartotojo vardas",
 	"maintenance-generic-password": "Slaptažodis",
