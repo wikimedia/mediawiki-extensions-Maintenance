@@ -34,6 +34,11 @@ $specialPageAliases['bg'] = array(
 	'Maintenance' => array( 'Поддръжка' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Maintenance' => array( 'ساتیتین' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Maintenance' => array( 'Pamaliharaan' ),
