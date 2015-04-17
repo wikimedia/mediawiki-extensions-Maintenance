@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Yekrats"
+			"Yekrats",
+			"KuboF"
 		]
 	},
+	"maintenance": "Lanĉi bontenajn skriptojn",
 	"maintenance-error-invalidtype": "La petita skripto ne estis trovita",
 	"maintenance-option-confirm": "Konfirmi",
 	"maintenance-output-success": "$1 sukcesis!",
