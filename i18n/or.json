@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Odisha1",
-			"Psubhashish"
+			"Psubhashish",
+			"Jnanaranjan Sahu"
 		]
 	},
+	"maintenance": "ରକ୍ଷଣାବେଖଣ ସ୍କ୍ରିପ୍ଟ ଚଳେଇବେ",
 	"maintenance-generic-done": "କରାଯାଇଛି",
 	"maintenance-generic-reason": "କାରଣ",
 	"maintenance-option-confirm": "ନିଶ୍ଚିତ କରନ୍ତୁ",
