@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010"
+			"David1010",
+			"SHOTHA"
 		]
 	},
+	"maintenance": "მომსახურების სკრიპტების გაშვება",
 	"maintenance-generic-done": "შესრულდა",
 	"maintenance-generic-username": "მომხმარებლის სახელი",
 	"maintenance-generic-password": "პაროლი",
