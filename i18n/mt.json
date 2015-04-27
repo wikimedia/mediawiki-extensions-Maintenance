@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisportelli"
+			"Chrisportelli",
+			"Leli Forte"
 		]
 	},
+	"maintenance": "Esegwi l-iscripts ta' manutenzjoni",
 	"maintenance-generic-username": "Isem tal-utent",
 	"maintenance-generic-password": "Password",
 	"maintenance-generic-reason": "Raġuni",
