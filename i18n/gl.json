@@ -138,7 +138,7 @@
 	"maintenance-eval-desc": "Avaliar o código PHP no ambiente MediaWiki",
 	"maintenance-update": "Desexa usar ACTUALIZAR ao actualizar unha táboa? Se non marca a opción, usarase, no canto diso, BORRAR/INSERTAR.",
 	"maintenance-noviews": "Comprove isto para previr a actualización do número de vistas por páxina",
-	"maintenance-invalidname": "Nome de usuario inválido!",
+	"maintenance-invalidname": "Nome de usuario non válido!",
 	"maintenance-userexists": "O usuario xa existe!",
 	"maintenance-invalidtitle": "Título inválido \"$1\"!",
 	"maintenance-titlenoexist": "O título especificado (\"$1\") non existe!",
