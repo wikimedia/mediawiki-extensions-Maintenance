@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ghybu"
+			"Ghybu",
+			"George Animal"
 		]
 	},
-	"maintenance-generic-username": "Navê bikarhêner"
+	"maintenance-generic-done": "çêbû",
+	"maintenance-generic-username": "Navê bikarhêner",
+	"maintenance-generic-reason": "Sedem",
+	"maintenance-checkBadRedirects-output-footer": "Çêbû.",
+	"maintenance-showCacheStats-edits": "Hejmara guherandinan: $1",
+	"maintenance-showCacheStats-users": "Hejmara bikarhêneran: $1",
+	"maintenance-showCacheStats-admins": "Hejmara rêveberan: $1",
+	"maintenance-error": "Çewtî: $1",
+	"maintenance-re-de": "Guherandinên jêbirî: $1"
 }
