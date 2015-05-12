@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'Maintenance' => array( 'صيانة' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Maintenance' => array( 'صيانه' ),
 );
@@ -104,7 +104,7 @@ $specialPageAliases['fi'] = array(
 	'Maintenance' => array( 'Ylläpito' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Maintenance' => array( 'Mantegnence' ),
 );
