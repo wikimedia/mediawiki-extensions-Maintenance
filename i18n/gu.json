@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arbhatt"
+			"Arbhatt",
+			"KartikMistry"
 		]
 	},
-	"maintenance": "મરામતને લગતી સ્ક્રીપ્ટ રન કરો"
+	"maintenance": "મરામતને લગતી સ્ક્રીપ્ટ ચલાવો"
 }
