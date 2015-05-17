@@ -6,5 +6,6 @@
 	},
 	"maintenance-generic-username": "Brûkersnamme",
 	"maintenance-generic-password": "Wachtwurd",
+	"maintenance-generic-reason": "Reden",
 	"maintenance-error": "Flater: $1"
 }
