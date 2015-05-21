@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Haqmar"
+			"Haqmar",
+			"Рустам Нурыев"
 		]
 	},
+	"maintenance": "Хеҙмәтләндереү скрипттарын эшләтеп ебәреү",
 	"maintenance-invalidname": "Яңылыш ҡатнашыусы исеме!",
 	"maintenance-userexists": "Ҡатнашыусы бар инде!",
 	"maintenance-invalidtitle": "Хаталы исем \"$1\"!",
