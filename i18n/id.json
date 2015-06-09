@@ -51,7 +51,7 @@
 	"maintenance-createAndPromote": "Gunakan formulir ini untuk membuat pengguna baru dan mempromosikannya menjadi pengurus.\nCek kotak birokrat jika Anda ingin mempromosikannya juga sebagai birokrat",
 	"maintenance-createAndPromote-desc": "Buat seorang pengguna dan promosikan menjadi pengurus",
 	"maintenance-deleteBatch": "Gunakan formulir ini untuk menghapus massal halaman.\nCantumkan hanya satu halaman per baris",
-	"maintenance-deleteBatch-desc": "Penghapusan halaman secara masal",
+	"maintenance-deleteBatch-desc": "Penghapusan halaman secara massal",
 	"maintenance-deleteRevision": "Gunakan formulir ini untuk menghapus massal revisi.\nCantumkan hanya satu nomor revisi per baris",
 	"maintenance-deleteRevision-desc": "Hapus revisi dari basis data",
 	"maintenance-initEditCount-desc": "Hitung ulang jumlah suntingan pengguna",
