@@ -45,8 +45,6 @@ $wgAutoloadClasses['SpecialMaintenance'] = $dir . 'Maintenance_body.php';
 $wgAutoloadClasses['SpecialMaintenanceException'] = $dir . 'Maintenance_body.php';
 
 $wgSpecialPages['Maintenance'] = 'SpecialMaintenance';
-// Special page group for MW 1.13+
-$wgSpecialPageGroups['Maintenance'] = 'wiki';
 
 // New user right - required to access Special:Maintenance
 $wgAvailableRights[] = 'maintenance';

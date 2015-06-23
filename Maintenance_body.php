@@ -639,6 +639,10 @@ class SpecialMaintenance extends SpecialPage {
 			}
 		}
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }
 
 class SpecialMaintenanceException extends MWException {
