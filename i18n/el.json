@@ -5,7 +5,8 @@
 			"Crazymadlover",
 			"Geraki",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Protnet"
 		]
 	},
 	"maintenance": "Εκτέλεση λειτουργιών συντήρησης",
@@ -57,7 +58,7 @@
 	"maintenance-memc-diffcache": "Λανθάνουσα μνήμη διαφορών",
 	"maintenance-re-nf": "Ο χρήστης $1 δεν βρέθηκε",
 	"maintenance-re-ce": "Τωρινές επεξεργασίες: $1",
-	"maintenance-re-de": "Διαγραμμένες επεξεργασίες: $1",
+	"maintenance-re-de": "Διαγεγραμμένες επεξεργασίες: $1",
 	"maintenance-re-rce": "Καταχωρήσεις ΠροσφάτωνΑλλαγών: $1",
 	"maintenance-re-total": "Συνολικές καταχωρήσεις για αλλαγή: $1",
 	"maintenance-re-re": "Έγινε επανανάθεση επεξεργασιών{{int:ellipsis}}"
