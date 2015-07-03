@@ -6,7 +6,8 @@
 			"Simon Shek",
 			"Wrightbus",
 			"LNDDYL",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Zhxy 519"
 		]
 	},
 	"maintenance": "執行維護 Script",
@@ -50,7 +51,7 @@
 	"maintenance-checkAutoLoader-output-list2": "$1：錯誤檔案：於 $2 發現并於 $3 列出",
 	"maintenance-checkBadRedirects": "使用此表單來查看標記為重新導向的頁面是否真的是重新導向",
 	"maintenance-checkBadRedirects-desc": "檢查壞的重新導向",
-	"maintenance-checkBadRedirects-output-header": "讀取重新導向...",
+	"maintenance-checkBadRedirects-output-header": "讀取重定向...",
 	"maintenance-checkBadRedirects-output-found": "找到了 $1 個重新導向。\n檢查壞的重新導向...",
 	"maintenance-checkBadRedirects-output-footer": "\n完成。",
 	"maintenance-checkImages": "使用此表單來查看您的 wiki 上的哪些圖片已損壞",
