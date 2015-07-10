@@ -39,7 +39,6 @@ $wgExtensionCredits['specialpage'][] = array(
 // Set up the new special page
 $dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['Maintenance'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Maintenance'] = $dir . 'Maintenance.i18n.php';
 $wgExtensionMessagesFiles['MaintenanceAlias'] = $dir . 'Maintenance.alias.php';
 $wgAutoloadClasses['SpecialMaintenance'] = $dir . 'Maintenance_body.php';
 $wgAutoloadClasses['SpecialMaintenanceException'] = $dir . 'Maintenance_body.php';
