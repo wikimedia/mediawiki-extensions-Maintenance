@@ -11,7 +11,8 @@
 			"MarcoAurelio",
 			"Mor",
 			"Pertile",
-			"Translationista"
+			"Translationista",
+			"Macofe"
 		]
 	},
 	"maintenance": "Ejecutar scripts de mantenimiento",
@@ -156,7 +157,7 @@
 	"maintenance-revdelete": "Borrando {{PLURAL:$3|revisión|revisiones}} $1 del wiki $2",
 	"maintenance-revnotfound": "Revisión $1 no encontrada!",
 	"maintenance-showCacheStats-edits": "Número de ediciones: $1",
-	"maintenance-showCacheStats-articles": "Número de páginas en el espacio de nombre principal: $1",
+	"maintenance-showCacheStats-articles": "Número de páginas en el espacio de nombres principal: $1",
 	"maintenance-showCacheStats-pages": "Número de páginas: $1",
 	"maintenance-showCacheStats-users": "Número de usuarios: $1",
 	"maintenance-showCacheStats-admins": "Número de administradores: $1",
