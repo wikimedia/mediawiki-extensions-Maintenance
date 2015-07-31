@@ -7,7 +7,8 @@
 			"Prima klasy4na",
 			"Steve.rusyn",
 			"SteveR",
-			"Тест"
+			"Тест",
+			"Ата"
 		]
 	},
 	"maintenance": "Запуск скриптів обслуговування",
@@ -94,7 +95,7 @@
 	"maintenance-checkUsernames-error-notvalid": "Неправильне ім'я користувача: „$3“ (ідентифікатор користувача  $2)",
 	"maintenance-cleanupCaps": "Використовуйте цю форму, аби виправити непрацюючі сторінки, зіпсовані змінами $wgCapitalLinks",
 	"maintenance-cleanupCaps-desc": "Сценарій для очищення переведення у великі літери",
-	"maintenance-cleanupCaps-option-namespace": "Номер простору імен для виконання очищення великих літер",
+	"maintenance-cleanupCaps-option-namespace": "Номер простору назв для виконання очищення великих літер",
 	"maintenance-cleanupCaps-output-islower": "\" $1 \" вже в нижньому регістрі.",
 	"maintenance-cleanupCaps-output-clash": "\"$1\" пропущено; \"$2\" вже існує",
 	"maintenance-cleanupCaps-output-dryrun": "„$1“ → „$2“: ПРОБНИЙ ПУСК, НЕ ПЕРЕЙМЕНОВАНА",
