@@ -99,7 +99,7 @@
 	"maintenance-cleanupSpam-output-found": "Mer han {{PLURAL:$1|eine Atikel|$1 Atikelle|kein Atikelle}} jefonge met „$2“ dren.",
 	"maintenance-cleanupSpam-output-false": "Jetroffe, wohr ävver verkiehrt.",
 	"maintenance-cleanupSpam-output-blanking": "läddesch maache",
-	"maintenance-cleanupSpam-output-reverting": "retuur ändere",
+	"maintenance-cleanupSpam-output-reverting": "retuhr ändere",
 	"maintenance-cleanupSpam-error-invalid": "Kein jölteje Aanjahbe för enem Rääschner singe Nahme: „$1“",
 	"maintenance-cleanupSpam-error-noid": "Fähler em Wiki: Kein Sigg met dä Kännong $1 jefonge.",
 	"maintenance-clearInterwikiCache": "Met heh däm Fommulaa kanns_De der Engerwiki-Zwescheschpeischer kumplätt läddesch maache.",
