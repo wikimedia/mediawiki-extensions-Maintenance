@@ -106,7 +106,7 @@
 	"maintenance-clearInterwikiCache-desc": "SChmiiß all Engerwiki-Lengks uss_em wescheschpeischer fott.",
 	"maintenance-createAndPromote": "Met dämm Fommulaa hee kanns De ene neue Metmaacher aanläje un och tiräk\nene {{int:group-sysop-member}} odder ene {{int:group-bureaucrat-member}}\ndruß maache.",
 	"maintenance-createAndPromote-desc": "Don ene Metmaacher aanlääje un zom Wiki-Köbes maache",
-	"maintenance-createAndPromote-option-bureaucrat": "Donn dä Metmaacher zom Bürrokraat opshtoofe.",
+	"maintenance-createAndPromote-option-bureaucrat": "Donn dä Metmaacher zor Bürrokrahd opschtohfe.",
 	"maintenance-createAndPromote-output-creating": "Aanlähje, un zom Wikki_Köhbeß maache: {{ns:user}}:$2&nbsp;…",
 	"maintenance-createAndPromote-error-password": "Ene Fähler wohr opjetrodde met däm Paßwoot, wat De enjejovve häs: „$1“",
 	"maintenance-deleteBatch": "Met hee dämm Fommulaa kanns De Sigge ang-maß fott schmiiße.\nJif nur eine Sigge-Tittel en jede Reih en.",
