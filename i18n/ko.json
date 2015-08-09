@@ -106,7 +106,7 @@
 	"maintenance-cleanupSpam-error-invalid": "유효하지 않은 호스트 이름 사양:$1",
 	"maintenance-cleanupSpam-error-noid": "내부 오류: ID $1를 위한 문서 없음",
 	"maintenance-clearInterwikiCache": "이 양식을 사용하여 인터위키 캐시를 완전히 지우세요",
-	"maintenance-clearInterwikiCache-desc": "캐시에서 모든 언어의 인터위키 링크를 지우기",
+	"maintenance-clearInterwikiCache-desc": "캐시에서 모든 언어의 인터위키 링크를 모두 지우기",
 	"maintenance-createAndPromote": "새 사용자를 만드려면 이 양식을 사용하고 관리자에게 알려주세요. 사무관에게도 알리려면 사무관 알림판을 확인하세요.",
 	"maintenance-createAndPromote-desc": "사용자를 만들고 관리자으로 승격시키기",
 	"maintenance-createAndPromote-option-bureaucrat": "사용자를 만들고 사무관으로 승격시키기",
