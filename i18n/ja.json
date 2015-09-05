@@ -4,7 +4,8 @@
 			"Aotake",
 			"Fryed-peach",
 			"Ohgi",
-			"Shirayuki"
+			"Shirayuki",
+			"Otokoume"
 		]
 	},
 	"maintenance": "メンテナンススクリプトを実行",
@@ -22,6 +23,7 @@
 	"maintenance-cleanupTable-dry-run": "試験的に実行",
 	"maintenance-cleanupTable-check": "ページ名が正しいかチェックしています...",
 	"maintenance-cleanupTable-checkfix": "ページ名をチェックして、正しくないものを修正しています...",
+	"maintenance-cleanupTable-progress": "$1 $2: $4 が $3% 完了しています; $4 ETA $5 [$6/$7] $8/秒 <$9% updated>",
 	"maintenance-cleanupTable-missingparam": "$1: パラメーター $2 がありません",
 	"maintenance-cleanupTable-processing": "$1 を処理中...",
 	"maintenance-cleanupTable-finished": "$1 の処理が完了しました... $3 {{PLURAL:$3|行}}中 $2 行を更新しました",
