@@ -116,7 +116,7 @@
 	"maintenance-clearInterwikiCache": "Utilice este formulario para borrar completamente la memoria caché de interwikis",
 	"maintenance-clearInterwikiCache-desc": "Borrar todos los enlaces interwiki para todos los idiomas de la memoria caché",
 	"maintenance-createAndPromote": "Usar este formulario para crear un nuevo usuario y promoverlo para administrador.\nVerificar la tabla de burócrata si deseas promoverlo a burócrata también",
-	"maintenance-createAndPromote-desc": "Crear un usuario y promoverlo al status de administrador",
+	"maintenance-createAndPromote-desc": "Crear un usuario y promoverlo al estado de administrador",
 	"maintenance-createAndPromote-option-bureaucrat": "Promover al usuario a estado de burócrata",
 	"maintenance-createAndPromote-output-creating": "Creación y promoción del usuario: $2 ...",
 	"maintenance-createAndPromote-error-password": "Se detectó un error en la contraseña que ha introducido: $1",
