@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mashoi7"
+			"Mashoi7",
+			"Ilja.mos"
 		]
 	},
-	"maintenance": "Rua huoldoskriptat",
+	"maintenance": "Aja huoldoskriptat",
 	"maintenance-generic-username": "Käyttäinimi",
 	"maintenance-generic-password": "Peittosana",
 	"maintenance-generic-reason": "Viärys",
