@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Gorizon"
 		]
 	},
+	"maintenance": "Skriptanê xızmeti bıgureyne",
 	"maintenance-generic-done": "qeyd ke",
 	"maintenance-generic-username": "Nameyê karberi",
 	"maintenance-generic-password": "Parola",

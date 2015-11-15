@@ -3,9 +3,11 @@
 		"authors": [
 			"C.Chandra Kanth Rao",
 			"Chaduvari",
-			"Veeven"
+			"Veeven",
+			"రహ్మానుద్దీన్"
 		]
 	},
+	"maintenance": "మెయింటెనెన్స్ స్క్రిప్టులను ఆడించు",
 	"maintenance-error-invalidtype": "చెల్లని రకం!",
 	"maintenance-generic-username": "వాడుకరి పేరు",
 	"maintenance-generic-password": "సంకేతపదం",
