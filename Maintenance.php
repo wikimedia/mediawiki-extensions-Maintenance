@@ -31,17 +31,16 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Maintenance',
 	'author' => 'Ryan Schmidt',
-	'version' => '2.2.0',
+	'version' => '2.3.0',
 	'descriptionmsg' => 'maintenance-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Maintenance',
 );
 
 // Set up the new special page
-$dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['Maintenance'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['MaintenanceAlias'] = $dir . 'Maintenance.alias.php';
-$wgAutoloadClasses['SpecialMaintenance'] = $dir . 'Maintenance_body.php';
-$wgAutoloadClasses['SpecialMaintenanceException'] = $dir . 'Maintenance_body.php';
+$wgExtensionMessagesFiles['MaintenanceAlias'] = __DIR__ . '/Maintenance.alias.php';
+$wgAutoloadClasses['SpecialMaintenance'] = __DIR__ . '/Maintenance_body.php';
+$wgAutoloadClasses['SpecialMaintenanceException'] = __DIR__ . '/Maintenance_body.php';
 
 $wgSpecialPages['Maintenance'] = 'SpecialMaintenance';
 

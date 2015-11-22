@@ -1,0 +1,33 @@
+{
+	"name": "Maintenance",
+	"version": "2.3.0",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:Maintenance",
+	"descriptionmsg": "maintenance-desc",
+	"type": "specialpage",
+	"config": {
+		"MaintenanceDebug": false
+	},
+	"MessagesDirs": {
+		"Maintenance": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MaintenanceAlias": "Maintenance.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialMaintenance": "Maintenance_body.php",
+		"SpecialMaintenanceException": "Maintenance_body.php"
+	},
+	"SpecialPages": {
+		"Maintenance": "SpecialMaintenance"
+	},
+	"AvailableRights": [
+		"maintenance"
+	],
+	"manifest_version": 1
+}
