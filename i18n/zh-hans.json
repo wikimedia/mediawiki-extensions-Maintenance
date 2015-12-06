@@ -54,6 +54,7 @@
 	"maintenance-benchmarkPurge": "使用此表单来测试 Squid 的清洗功能需要耗时多久",
 	"maintenance-benchmarkPurge-desc": "标准的 Squid 清洗功能",
 	"maintenance-benchmarkPurge-option-count": "多少URL需要订阅至Squid用于清除",
+	"maintenance-benchmarkPurge-error-nosquid": "在没有Squid支持的情况下，Squid刷新基准不能大量进行。",
 	"maintenance-benchmarkPurge-output-numsquids": "以下是$1个定义的Squid服务器：",
 	"maintenance-benchmarkPurge-output-trial": "$2毫秒内的$1个标题（每$3毫秒）",
 	"maintenance-changePassword": "使用此表单来更改用户的密码",
