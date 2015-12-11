@@ -4,6 +4,7 @@
 			"Игорь Бродский"
 		]
 	},
+	"maintenance": "Holitamižen skriptoiden kävutamine",
 	"maintenance-error-invalidtype": "Vär tip!",
 	"maintenance-option-confirm": "Vahvištoitta",
 	"maintenance-invalidname": "Vär kävutajannimi!",
