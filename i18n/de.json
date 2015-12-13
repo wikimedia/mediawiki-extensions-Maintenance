@@ -14,7 +14,8 @@
 			"Purodha",
 			"Raimond Spekking",
 			"Revolus",
-			"Umherirrender"
+			"Umherirrender",
+			"MGChecker"
 		]
 	},
 	"maintenance": "Wartungsskripte ausführen",
@@ -117,7 +118,7 @@
 	"maintenance-cleanupSpam-error-noid": "Interner Fehler: Zu Seitenkennung $1 ist keine Seite vorhanden",
 	"maintenance-clearInterwikiCache": "Diese Maske nutzen, um den Interwikicache vollständig zu löschen",
 	"maintenance-clearInterwikiCache-desc": "Alle Interwikilinks für alle Sprachen aus dem Cache entfernen",
-	"maintenance-createAndPromote": "Diese Maske verwenden, um einen neuen Benutzer zu erstellen und um ihn zum Administrator zu machen.\nKreuze das Auswahlkästchen Bürokrat an, sofern er auch zum Bürokraten gemachte werden soll.",
+	"maintenance-createAndPromote": "Diese Maske verwenden, um einen neuen Benutzer zu erstellen und um ihn zum Administrator zu machen.\nKreuze das Auswahlkästchen Bürokrat an, sofern er auch zum Bürokraten gemacht werden soll.",
 	"maintenance-createAndPromote-desc": "Ein Benutzerkonto erstellen und dieses der Benutzergruppe Administrator zuordnen",
 	"maintenance-createAndPromote-option-bureaucrat": "Den Benutzer der Benutzergruppe Bürokrat zuordnen",
 	"maintenance-createAndPromote-output-creating": "Erstellung und Benutzergruppenzuordnung von Benutzer:$2 …",
