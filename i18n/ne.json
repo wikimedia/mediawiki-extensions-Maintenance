@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"RajeshPandey"
+			"RajeshPandey",
+			"बिप्लब आनन्द"
 		]
 	},
+	"maintenance": "रेखदेख स्क्रिप्टहरू चलाउने",
 	"maintenance-generic-username": "प्रयोगकर्ता नाम"
 }
