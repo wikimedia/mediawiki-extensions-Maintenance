@@ -125,5 +125,5 @@
 	"maintenance-re-nf": "使用者 $1 沒有找到",
 	"maintenance-re-ce": "目前編輯：$1",
 	"maintenance-re-de": "刪除編輯：$1",
-	"maintenance-re-rce": "最近變更條目：$1"
+	"maintenance-re-rce": "近期變更條目：$1"
 }
