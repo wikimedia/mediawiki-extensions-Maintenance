@@ -84,8 +84,15 @@ class SpecialMaintenance extends SpecialPage {
 		sort( $scripts );
 		foreach( $scripts as $type ) {
 			$title = $this->getTitle( $type );
-			$out->addHTML( '<li>'. Linker::makeKnownLinkObj( $title, htmlspecialchars( $type ) ) . ' -- '.
-				wfMessage( 'maintenance-'.$type.'-desc' )->parse() . '</li>' );
+			$out->addHTML( '<li>'. Linker::link(
+					$title,
+					htmlspecialchars( $type ),
+					array(),
+					array(),
+					array( 'known' )
+				) . ' -- '.
+				wfMessage( 'maintenance-'.$type.'-desc' )->parse() . '</li>'
+			);
 		}
 		$out->addHTML( '</ul>' );
 	}
@@ -95,7 +102,14 @@ class SpecialMaintenance extends SpecialPage {
 
 		$this->setHeaders();
 		$out = $this->getOutput();
-		$out->addHTML( Linker::makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+		$out->addHTML( Linker::link(
+				$this->getPageTitle(),
+				wfMessage( 'maintenance-backlink' )->escaped(),
+				array(),
+				array(),
+				array( 'known' )
+			) . '<br />'
+		);
 
 		if( $this->errmsg ) {
 			$out->addWikiMsg( $this->errmsg );
@@ -139,7 +153,15 @@ class SpecialMaintenance extends SpecialPage {
 
 		$out = $this->getOutput();
 		$this->setHeaders();
-		$out->addHTML( Linker::makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+		$out->addHTML(
+			Linker::link(
+				$this->getPageTitle(),
+				wfMessage( 'maintenance-backlink' )->escaped(),
+				array(),
+				array(),
+				array( 'known' )
+			) . '<br />'
+		);
 
 		if( $this->errmsg ) {
 			$out->addWikiMsg( $this->errmsg );
@@ -342,7 +364,14 @@ class SpecialMaintenance extends SpecialPage {
 		}
 		$out->addHTML( '</pre>' );
 		$this->scriptDone( $script );
-		$out->addHTML( Linker::makeKnownLinkObj( $this->getTitle(), wfMessage( 'maintenance-backlink' )->escaped() ). '<br />' );
+		$out->addHTML( Linker::link(
+				$this->getTitle(),
+				wfMessage( 'maintenance-backlink' )->escaped(),
+				array(),
+				array(),
+				array( 'known' )
+			) . '<br />'
+		);
 	}
 
 	private function parseMetadata() {
