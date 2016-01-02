@@ -43,21 +43,18 @@ class SpecialMaintenance extends SpecialPage {
 
 		# If the user doesn't have the required 'maintenance' permission, display an error
 		if( !$user->isAllowed( 'maintenance' ) ) {
-			$out->permissionRequired( 'maintenance' );
-			return;
+			throw new PermissionsError( 'maintenance' );
 		}
 
 		# Grab the ini file and validate it
 		$this->metadata = parse_ini_file( dirname( __FILE__ ) . '/metadata.ini', true );
 		if( $this->metadata === false ) {
 			throw new ErrorPageError( 'error', 'maintenance-error-badini' );
-			return;
 		}
 		$this->scripts = array_keys( $this->metadata );
 		$valid = $this->parseMetadata(); //parses the metadata ini and validates it
 		if( !$valid ) {
 			throw new ErrorPageError( 'error', 'maintenance-error-badini' );
-			return;
 		}
 
 		$this->type = $par ? $par : '';
