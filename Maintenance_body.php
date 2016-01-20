@@ -18,6 +18,10 @@ class SpecialMaintenance extends SpecialPage {
 		parent::__construct( 'Maintenance'/*class*/, 'maintenance'/*restriction*/ );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	public function getType() { return $this->type; }
 	public function getMetadata() { return $this->metadata; }
 
