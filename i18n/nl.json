@@ -5,7 +5,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Tvdm",
-			"Wiki13"
+			"Wiki13",
+			"Sjoerddebruin"
 		]
 	},
 	"maintenance": "Beheerscripts uitvoeren",
@@ -120,7 +121,7 @@
 	"maintenance-initEditCount-desc": "Aantal bewerkingen van gebruikers herberekenen",
 	"maintenance-initSiteStats": "Gebruik dit formulier de sitestatistieken opnieuw te berekenen. Geef daarbij aan of u de tellingen van het aantal keren dat een pagina is bekeken ook wilt bijwerken",
 	"maintenance-initSiteStats-desc": "Sitestatistieken herberekenen",
-	"maintenance-moveBatch": "Gebruik dit formulier om en masse pagina's te hernoemen.\nIedere regel moet een doelpagina en een bestemmingspagina bevatten, gescheiden door een pipe-teken (\"|\")",
+	"maintenance-moveBatch": "Gebruik dit formulier om en masse pagina's te hernoemen.\nIedere regel moet een doelpagina en een bestemmingspagina bevatten, gescheiden door een sluisteken (\"|\")",
 	"maintenance-moveBatch-desc": "Pagina's en masse hernoemen",
 	"maintenance-reassignEdits-desc": "Bewerkingen aan een andere gebruiker toewijzen",
 	"maintenance-runJobs-desc": "Taken uit de jobqueue uitvoeren",
