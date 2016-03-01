@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Crazymadlover",
-			"Omnipaedista"
+			"Omnipaedista",
+			"Gts-tg"
 		]
 	},
+	"maintenance": "Ἐκτέλεση ἐργασιών συντηρήσεως",
 	"maintenance-option-confirm": "Κυροῦν",
 	"maintenance-failed": "ΑΠΕΤΕΥΧΘΗ",
 	"maintenance-deleted": "ΔΙΕΓΡΑΦΗ",
