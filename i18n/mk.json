@@ -88,7 +88,7 @@
 	"maintenance-checkUsernames-desc": "Потврдете дека корисничките имиња во базата се всушност важечки",
 	"maintenance-checkUsernames-error-notvalid": "Неважечко корисничко име: „$3“ (корисн. назнака: $2)",
 	"maintenance-cleanupCaps": "Користете го овој образец за да поправите оштетени страници изменувајќи го $wgCapitalLinks",
-	"maintenance-cleanupCaps-desc": "Скрипта за расчистување на големи букви",
+	"maintenance-cleanupCaps-desc": "Скрипта за средување на големи букви",
 	"maintenance-cleanupCaps-option-namespace": "Број на имен. простор кајшто треба да се исчисти големи букви",
 	"maintenance-cleanupCaps-output-islower": "„$1“ е веќе со мали букви.",
 	"maintenance-cleanupCaps-output-clash": "„$1“ е прескокнато. „$2“ веќе постои",
