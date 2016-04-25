@@ -12,7 +12,8 @@
 			"Sherbrooke",
 			"Urhixidur",
 			"Verdy p",
-			"Zetud"
+			"Zetud",
+			"Thibaut120094"
 		]
 	},
 	"maintenance": "Lancer les scripts de maintenance",
@@ -104,7 +105,7 @@
 	"maintenance-cleanupCaps-output-clash": "« $1 » ignoré; « $2 » existe déjà",
 	"maintenance-cleanupCaps-output-dryrun": "« $1 » -> « $2 » : MODE ESSAI, NON DÉPLACÉ",
 	"maintenance-cleanupCaps-error-noneed": "$wgCapitalLinks est activé -- aucun besoin de nettoyer les liens avec majuscule.",
-	"maintenance-cleanupSpam": "Utilisez ce formulaire pour rétablir les modifications de pourriel qui pointent vers des sites externes",
+	"maintenance-cleanupSpam": "Utilisez ce formulaire pour rétablir les modifications de pollupostage qui pointent vers des sites externes",
 	"maintenance-cleanupSpam-desc": "Nettoyer tous les pourriels d'un nom d'hôte donné",
 	"maintenance-cleanupSpam-option-hostname": "Nom d'hôte qui a pollué",
 	"maintenance-cleanupSpam-output-found": "$1 {{PLURAL:$1|articles|article}} contenant $2 {{PLURAL:$1|trouvé|trouvés}}",
