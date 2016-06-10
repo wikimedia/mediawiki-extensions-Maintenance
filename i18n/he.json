@@ -6,12 +6,13 @@
 			"YaronSh",
 			"אור שפירא",
 			"חיים",
-			"ערן"
+			"ערן",
+			"Guycn2"
 		]
 	},
 	"maintenance": "הרצת סקריפטים של תחזוקה",
 	"maintenance-desc": "[[Special:Maintenance|ממשק אינטרנט]] למגוון סקריפטים של תחזוקה",
-	"right-maintenance": "הרצת סקריפטים לתחזוקה דרך [[Special:Maintenance]]",
+	"right-maintenance": "הפעלת סקריפטים לתחזוקה באמצעות הדף [[Special:Maintenance]]",
 	"maintenance-backlink": "חזרה לבחירת הסקריפטים",
 	"maintenance-header": "אנא בחרו איזה מהסקריפטים שלהלן להריץ.\nהתיאורים מופיעים ליד כל סקריפט",
 	"maintenance-error-badini": "הקובץ metadata.ini פגום או חסר. נא להוריד את התוסף תחזוקה",
