@@ -24,7 +24,7 @@
 	"maintenance-cleanupTable-dry-run": "시험적으로 실행",
 	"maintenance-cleanupTable-check": "올바르지 않은 제목을 확인 중...",
 	"maintenance-cleanupTable-checkfix": "올바르지 않은 제목을 확인하는 중...",
-	"maintenance-cleanupTable-progress": "$1 $2: $4에서 $3% 완료; ETA $5 [$6/$7]$8/초 <$9% 업데이트 됨>",
+	"maintenance-cleanupTable-progress": "$1 $2: $4에서 $3% 완료; ETA $5 [$6/$7]$8/초 <$9% 업데이트됨>",
 	"maintenance-cleanupTable-missingparam": "$1: $2 변수가 없음",
 	"maintenance-cleanupTable-processing": "$1 작업을 처리중...",
 	"maintenance-cleanupTable-finished": "$1 완료... $3 중 $2{{PLURAL:$3|열}} 업데이트됨",
