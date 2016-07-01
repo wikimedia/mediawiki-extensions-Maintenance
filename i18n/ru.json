@@ -68,7 +68,7 @@
 	"maintenance-checkBadRedirects-output-header": "Выборка перенаправлений...",
 	"maintenance-checkBadRedirects-output-found": "Найдено {{PLURAL:$1|$1 перенаправление|$1 перенаправления|$1 перенаправлений}}.\nПроверяются неверные перенаправления...",
 	"maintenance-checkBadRedirects-output-footer": "Готово.",
-	"maintenance-checkImages": "Используйте эту форму, чтобы увидеть, какие изображения на Вашей вики повреждены",
+	"maintenance-checkImages": "Используйте эту форму, чтобы увидеть, какие изображения в вашей вики повреждены",
 	"maintenance-checkImages-desc": "Проверка изображений на существование, читабельность и т.д.",
 	"maintenance-checkImages-output-noaccess": "$1: не доступен локально",
 	"maintenance-checkImages-output-missing": "$1: отсутствует",
