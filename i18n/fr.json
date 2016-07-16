@@ -87,7 +87,7 @@
 	"maintenance-checkSyntax-option-syntax-only": "Ne vérifier que la validité de la syntaxe, ignorer les avertissements sur le style du code",
 	"maintenance-checkSyntax-output-parsekit": "Vérification de la syntaxe (utilisation de parsekit)",
 	"maintenance-checkSyntax-output-phpl": "Vérification de la syntaxe (en utilisant php-l, ce qui peut prendre un certain temps)",
-	"maintenance-checkSyntax-output-footer": "Fait ! $1 fichiers vérifiés, $2 échecs et $3 avertissements trouvés",
+	"maintenance-checkSyntax-output-footer": "Fait ! {{PLURAL:$1|0=Aucun fichier vérifié|Un fichier vérifié|$1 fichiers vérifiés}}, {{PLURAL:$2|0=aucun échec rencontré|1=un échec rencontré|$2 échecs rencontrés}} et {{PLURAL:$3|aucun avertissement trouvé|1=un avertissement trouvé|$3 avertissements trouvés}}.",
 	"maintenance-checkSyntax-output-svnlist": "Récupération de la liste de Subversion ...",
 	"maintenance-checkSyntax-output-buildlist": "Construction de la liste de fichiers ...",
 	"maintenance-checkSyntax-output-error": "Erreur dans $1, ligne $2 : $3",
