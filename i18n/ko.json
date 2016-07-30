@@ -54,7 +54,7 @@
 	"maintenance-changePassword": "이 양식을 사용하여 사용자의 비밀번호를 바꾸세요",
 	"maintenance-changePassword-desc": "사용자의 비밀번호를 바꾸기",
 	"maintenance-changePassword-error-nouser": "해당 사용자 없음: $1",
-	"maintenance-changePassword-output-set": "$1 사용자가 비밀번호를 설정했습니다.",
+	"maintenance-changePassword-output-set": "$1님의 비밀번호를 설정했습니다.",
 	"maintenance-checkAutoLoader": "양식을 사용하여 AutoLoader에서 온전성 검사를 수행하기",
 	"maintenance-checkAutoLoader-desc": "AutoLoader 온전성 검사",
 	"maintenance-checkAutoLoader-output-list2": "$1: 잘못된 파일: $2에서 찾음, $3에 목록화됨",
