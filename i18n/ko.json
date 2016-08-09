@@ -48,7 +48,7 @@
 	"maintenance-benchmarkPurge": "이 양식을 사용하여 Squid 새로 고침 함수가 얼마나 오래 가지고 있는지 테스트하기",
 	"maintenance-benchmarkPurge-desc": "Squid 새로 고침 함수를 벤치마크 테스트하기",
 	"maintenance-benchmarkPurge-option-count": "얼마나 많은 URL을 새로 고침을 위한 Squid에 피드하는 지",
-	"maintenance-benchmarkPurge-error-nosquid": "Squid 새로고침 벤치마크 테스트가 스퀴드를 지원하지 않고는 진행할 수 없습니다.",
+	"maintenance-benchmarkPurge-error-nosquid": "Squid 지원 없이는 Squid 갱신 벤치마크가 그다지 효력이 없습니다.",
 	"maintenance-benchmarkPurge-output-numsquids": "정의된 Squid {{PLURAL:$1|서버}}가 있습니다.",
 	"maintenance-benchmarkPurge-output-trial": "$2ms로(각각 $3ms) $1개의 {{PLURAL:$1|제목}}",
 	"maintenance-changePassword": "이 양식을 사용하여 사용자의 비밀번호를 바꾸세요",
