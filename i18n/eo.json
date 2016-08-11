@@ -3,11 +3,13 @@
 		"authors": [
 			"Michawiki",
 			"Yekrats",
-			"KuboF"
+			"KuboF",
+			"Robin van der Vliet"
 		]
 	},
 	"maintenance": "Lanĉi bontenajn skriptojn",
 	"maintenance-error-invalidtype": "La petita skripto ne estis trovita",
+	"maintenance-generic-username": "Uzantnomo",
 	"maintenance-option-confirm": "Konfirmi",
 	"maintenance-output-success": "$1 sukcesis!",
 	"maintenance-changePassword-desc": "Ŝangi pasvorton de uzanto",
