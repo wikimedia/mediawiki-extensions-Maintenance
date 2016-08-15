@@ -50,7 +50,7 @@ class SpecialMaintenance extends SpecialPage {
 		}
 
 		# Grab the ini file and validate it
-		$this->metadata = parse_ini_file( dirname( __FILE__ ) . '/metadata.ini', true );
+		$this->metadata = parse_ini_file( __DIR__ . '/metadata.ini', true );
 		if ( $this->metadata === false ) {
 			throw new ErrorPageError( 'error', 'maintenance-error-badini' );
 		}
@@ -87,7 +87,7 @@ class SpecialMaintenance extends SpecialPage {
 		$scripts = $this->scripts;
 		sort( $scripts );
 		foreach ( $scripts as $type ) {
-			$title = $this->getTitle( $type );
+			$title = $this->getPageTitle( $type );
 			$out->addHTML( '<li>' . Linker::link(
 					$title,
 					htmlspecialchars( $type ),
@@ -95,7 +95,7 @@ class SpecialMaintenance extends SpecialPage {
 					array(),
 					array( 'known' )
 				) . ' -- ' .
-				wfMessage( 'maintenance-' . $type . '-desc' )->parse() . '</li>'
+				$this->msg( 'maintenance-' . $type . '-desc' )->parse() . '</li>'
 			);
 		}
 		$out->addHTML( '</ul>' );
@@ -108,7 +108,7 @@ class SpecialMaintenance extends SpecialPage {
 		$out = $this->getOutput();
 		$out->addHTML( Linker::link(
 				$this->getPageTitle(),
-				wfMessage( 'maintenance-backlink' )->escaped(),
+				$this->msg( 'maintenance-backlink' )->escaped(),
 				array(),
 				array(),
 				array( 'known' )
@@ -122,33 +122,33 @@ class SpecialMaintenance extends SpecialPage {
 
 		$out->addWikiMsg( 'maintenance-' . $type );
 
-		$out->addHTML( Xml::openElement( 'form', array( 'method' => 'post', 'action' => $this->getTitle( $type )->getFullURL() ) ) );
+		$out->addHTML( Xml::openElement( 'form', array( 'method' => 'post', 'action' => $this->getPageTitle( $type )->getFullURL() ) ) );
 		// build the form
 		$options = array_merge( $this->metadata[$type]['option'], $this->metadata[$type]['arg'] );
 		foreach ( $options as $option ) {
 			switch( $option['type'] ) {
 				case 'check':
-					$out->addHTML( Xml::checkLabel( wfMessage( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['default'] ) . '<br />' );
+					$out->addHTML( Xml::checkLabel( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['default'] ) . '<br />' );
 					break;
 				case 'input':
-					$out->addHTML( Xml::inputLabel( wfMessage( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, $option['attrib'] ) . '<br />' );
+					$out->addHTML( Xml::inputLabel( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, $option['attrib'] ) . '<br />' );
 					break;
 				case 'password':
-					$out->addHTML( Xml::inputLabel( wfMessage( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, array( 'type' => 'password' ) + $option['attrib'] ) . '<br />' );
+					$out->addHTML( Xml::inputLabel( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, array( 'type' => 'password' ) + $option['attrib'] ) . '<br />' );
 					break;
 				case 'textarea':
-					$out->addHTML( wfMessage( "maintenance-$type-option-" . $option['name'] )->text() . '<textarea name="wp' . ucfirst( $option['name'] ) . '" rows="25" cols="80"></textarea><br />' );
+					$out->addHTML( $this->msg( "maintenance-$type-option-" . $option['name'] )->text() . '<textarea name="wp' . ucfirst( $option['name'] ) . '" rows="25" cols="80"></textarea><br />' );
 					break;
 			}
 		}
-		$out->addHTML( Xml::checkLabel( wfMessage( 'maintenance-option-quiet' )->text(), 'wpQuiet', 'wpQuiet' ) . '<br />' );
+		$out->addHTML( Xml::checkLabel( $this->msg( 'maintenance-option-quiet' )->text(), 'wpQuiet', 'wpQuiet' ) . '<br />' );
 		if ( $wgMaintenanceDebug ) {
-			$out->addHTML( Xml::checkLabel( wfMessage( 'maintenance-option-globals' )->text(), 'wpGlobals', 'wpGlobals' ) . '<br />' );
+			$out->addHTML( Xml::checkLabel( $this->msg( 'maintenance-option-globals' )->text(), 'wpGlobals', 'wpGlobals' ) . '<br />' );
 		}
 		if ( $this->metadata[$type]['batch'] ) {
-			$out->addHTML( Xml::inputLabel( wfMessage( 'maintenance-option-batch-size', $this->metadata[$type]['batch'] )->text(), 'wpBatch-size', 'wpBatch-size' ) . '<br />' );
+			$out->addHTML( Xml::inputLabel( $this->msg( 'maintenance-option-batch-size', $this->metadata[$type]['batch'] )->text(), 'wpBatch-size', 'wpBatch-size' ) . '<br />' );
 		}
-		$out->addHTML( Xml::submitButton( wfMessage( 'maintenance-option-confirm' )->text(), array( 'name' => 'wpConfirm' ) ) . '</form>' );
+		$out->addHTML( Xml::submitButton( $this->msg( 'maintenance-option-confirm' )->text(), array( 'name' => 'wpConfirm' ) ) . '</form>' );
 		return;
 	}
 
@@ -160,7 +160,7 @@ class SpecialMaintenance extends SpecialPage {
 		$out->addHTML(
 			Linker::link(
 				$this->getPageTitle(),
-				wfMessage( 'maintenance-backlink' )->escaped(),
+				$this->msg( 'maintenance-backlink' )->escaped(),
 				array(),
 				array(),
 				array( 'known' )
@@ -359,18 +359,18 @@ class SpecialMaintenance extends SpecialPage {
 			if ( $wgMaintenanceDebug ) {
 				$script->globals();
 			}
-			$out->addHTML( wfMessage( 'maintenance-output-success', $this->type )->escaped() . "\n" );
+			$out->addHTML( $this->msg( 'maintenance-output-success', $this->type )->escaped() . "\n" );
 		} catch ( SpecialMaintenanceException $e ) {
-			$out->addHTML( wfMessage( 'maintenance-output-failure', $this->type )->escaped() . "\n" );
+			$out->addHTML( $this->msg( 'maintenance-output-failure', $this->type )->escaped() . "\n" );
 		} catch ( MWException $mwe ) {
 			$out->addHTML( htmlspecialchars( $mwe->getText() ) . "\n" );
-			$out->addHTML( wfMessage( 'maintenance-output-failure', $this->type )->escaped() . "\n" );
+			$out->addHTML( $this->msg( 'maintenance-output-failure', $this->type )->escaped() . "\n" );
 		}
 		$out->addHTML( '</pre>' );
 		$this->scriptDone( $script );
 		$out->addHTML( Linker::link(
-				$this->getTitle(),
-				wfMessage( 'maintenance-backlink' )->escaped(),
+				$this->getPageTitle(),
+				$this->msg( 'maintenance-backlink' )->escaped(),
 				array(),
 				array(),
 				array( 'known' )
@@ -618,7 +618,7 @@ class SpecialMaintenance extends SpecialPage {
 		$maintenance->loadParamsAndArgs( $this->type, $opts, $args );
 		$die = $maintenance->doValidateParamsAndArgs();
 		if ( $die ) {
-			$this->getOutput()->addHTML( wfMessage( 'maintenance-error-badargs' )->text() );
+			$this->getOutput()->addHTML( $this->msg( 'maintenance-error-badargs' )->text() );
 			return false;
 		}
 
