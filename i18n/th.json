@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Octahedron80",
-			"Passawuth"
+			"Passawuth",
+			"Pon44695"
 		]
 	},
+	"maintenance": "ดำเนินการบำรุงรักษาสคริปต์",
 	"maintenance-option-confirm": "ยืนยัน",
 	"maintenance-memc-total": "รวม:"
 }
