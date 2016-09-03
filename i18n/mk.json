@@ -27,7 +27,7 @@
 	"maintenance-option-quiet": "Притаи изводи што не се однесуваат на грешки",
 	"maintenance-option-globals": "Дај извод на глобални на крајот од обработката за отстранување грешки",
 	"maintenance-option-confirm": "Потврди",
-	"maintenance-option-batch-size": "Пушти волку операции по пакет. По основно: $1",
+	"maintenance-option-batch-size": "Пушти волку постапки по пакет. По основно: $1",
 	"maintenance-option-required": "(задолжително)",
 	"maintenance-option-optional": "(незадолжително)",
 	"maintenance-output-success": "$1 е успешно извршено!",
