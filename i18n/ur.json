@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"Muhammad Shuaib"
 		]
 	},
-	"maintenance": "مینٹینس اسکرپٹ کو چلائے",
+	"maintenance": "نگہداشت کی اسکرپٹ چلائیں",
 	"maintenance-backlink": "سکرپٹ کا انتخاب کرنے کے لئے واپس",
 	"maintenance-header": "براہ مہربانی ایک سکرپٹ کو ذیل میں منتخب کریں ۔ انگيز ہر سکرپٹ کے سامنے ہیں",
 	"maintenance-error-invalidtype": "مخصوص سکرپٹ نہیں پایا گیا",
