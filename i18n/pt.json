@@ -130,7 +130,7 @@
 	"maintenance-eval": "Utilize este formulário para executar código PHP no ambiente MediaWiki.",
 	"maintenance-eval-desc": "Interpretar código PHP no ambiente MediaWiki",
 	"maintenance-update": "Usar UPDATE para atualizar uma tabela? Se desmarcado, será usado DELETE/INSERT.",
-	"maintenance-noviews": "Marque esta opção para impedir a actualização dos visionamentos de páginas",
+	"maintenance-noviews": "Marque esta opção para impedir a atualização dos visionamentos de páginas",
 	"maintenance-invalidname": "Nome de utilizador inválido!",
 	"maintenance-userexists": "O utilizador já existe!",
 	"maintenance-invalidtitle": "O título \"$1\" é inválido!",
