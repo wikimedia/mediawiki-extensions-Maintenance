@@ -48,7 +48,7 @@
 	"maintenance-attachLatest-output-dryrun": "Esta execução foi uma simulação; volte a executar com \"{{int:maintenance-attachLatest-option-fix}}\" para atualizar page_latest.",
 	"maintenance-benchmarkPurge": "Use este formulário para testar quanto tempo demoram as funções de limpeza do Squid",
 	"maintenance-benchmarkPurge-desc": "Aferir valores de referência para as funções de limpeza do Squid",
-	"maintenance-benchmarkPurge-option-count": "Quantas URLs devem ser fornecidas ao Squid para limpeza",
+	"maintenance-benchmarkPurge-option-count": "Quantos URL devem ser fornecidos ao Squid para limpeza",
 	"maintenance-benchmarkPurge-error-nosquid": "A aferição dos valores de referência da limpeza do Squid não faz nada sem suporte do Squid.",
 	"maintenance-benchmarkPurge-output-numsquids": "{{PLURAL:$1|Existe|Existem}} $1 {{PLURAL:$1|servidor|servidores}} Squid {{PLURAL:$1|definido|definidos}}:",
 	"maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|título|títulos}} em $2ms ($3ms cada um)",
