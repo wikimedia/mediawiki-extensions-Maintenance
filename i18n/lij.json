@@ -4,5 +4,11 @@
 			"Giromin Cangiaxo"
 		]
 	},
-	"maintenance": "Esegui script de manutension"
+	"maintenance": "Esegui script de manutension",
+	"maintenance-desc": "[[Special:Maintenance|Interfaccia Wiki]] pe çerti script de manutençion",
+	"right-maintenance": "Esegui i script de manutençion mediante a paggina [[Special:Maintenance]]",
+	"maintenance-backlink": "Torna a-a seleçion di script",
+	"maintenance-header": "Çerni un script da eseguî.\nE descriçioin son riportæ a-a rente d'ogni script",
+	"maintenance-error-badini": "O file metadata.ini o l'è dannezou ò mancante. Pe piaxei rescarrega l'estenscion Maintenance",
+	"maintenance-error-invalidtype": "O script specificou o no l'è stæto trovou"
 }
