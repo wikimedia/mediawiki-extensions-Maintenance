@@ -28,7 +28,7 @@
 	"maintenance-cleanupTable-progress": "$1 $2: $3% em $4; hora prevista para terminar $5 [$6/$7] $8/seg <$9% atualizado>",
 	"maintenance-cleanupTable-missingparam": "$1: Parâmetros em falta $2",
 	"maintenance-cleanupTable-processing": "A processar $1 ...",
-	"maintenance-cleanupTable-finished": "Terminado $1... $2 de $3 linhas actualizadas",
+	"maintenance-cleanupTable-finished": "$1 terminada... $2 de $3 {{PLURAL:$3|linha atualizada|linhas atualizadas}}",
 	"maintenance-option-quiet": "Suprimir resultados não relacionados com erros",
 	"maintenance-option-globals": "Incluir as variáveis globais no fim do processamento para auxiliar o despiste de problemas",
 	"maintenance-option-confirm": "Confirmar",
