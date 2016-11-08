@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dalibor Bosits"
+			"Dalibor Bosits",
+			"SpeedyGonsales"
 		]
 	},
 	"maintenance": "Pokreni skripte za održavanje",
@@ -12,7 +13,7 @@
 	"maintenance-option-confirm": "Potvrdi",
 	"maintenance-output-success": "$1 pokrenut uspješno!",
 	"maintenance-changePassword": "Koristite ovu stranicu za promjenu suradničke lozinke",
-	"maintenance-changePassword-desc": "Promijeni lozinku suradnika",
+	"maintenance-changePassword-desc": "Promijeni zaporku suradnika",
 	"maintenance-createAndPromote": "Koristite ovu stranicu za stvaranje novog suradničkog računa i dodjelu sysop prava.\nOznačite kućicu bureaucrat ako želite dodijeliti i pravo birokrata.",
 	"maintenance-createAndPromote-desc": "Stvori suradnički račun i dodijeli sysop pravo",
 	"maintenance-deleteBatch": "Koristite ovu stranicu za skupno brisanje stranica.\nStavite samu jedno stranicu po retku.",
