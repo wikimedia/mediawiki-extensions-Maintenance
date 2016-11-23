@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Ibrahim khashrowdi"
 		]
 	},
-	"maintenance": "متن هانی قُلپ ئی اجرا"
+	"maintenance": "متن هانی قُلپ ئی اجرا",
+	"maintenance-generic-username": "کار زورؤکین نام"
 }
