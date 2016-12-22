@@ -121,7 +121,7 @@
 	"maintenance-moveBatch-desc": "Групно преместување на страници",
 	"maintenance-reassignEdits-desc": "Презадај уредувања од еден корисник на друг",
 	"maintenance-runJobs-desc": "Пушти ги задачите во редицата на задачи",
-	"maintenance-runJobs-option-maxjobs": "Макс. број на задачи за пуштање",
+	"maintenance-runJobs-option-maxjobs": "Највеќе задачи за пуштање",
 	"maintenance-runJobs-option-type": "Тип на задача за извршување",
 	"maintenance-runJobs-option-procs": "Број на постапки што ќе се користат",
 	"maintenance-runJobs-option-exclusive": "Работи една по една скрипта runJobs. Истекот е 1800 секунди.",
