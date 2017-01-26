@@ -4,6 +4,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialMaintenance extends SpecialPage {
 	private $type = '';
 	private $metadata = array();
@@ -633,7 +635,7 @@ class SpecialMaintenance extends SpecialPage {
 				$wgDBpasswordold = $wgDBpassword;
 				$wgDBuser = $wgDBadminuser;
 				$wgDBpassword = $wgDBadminpassword;
-				LBFactory::destroyInstance();
+
 			}
 		}
 
@@ -646,7 +648,7 @@ class SpecialMaintenance extends SpecialPage {
 			$wgDBuser = $wgDBuserold;
 			$wgDBpassword = $wgDBpasswordold;
 			unset( $GLOBALS['wgDBuserold'], $GLOBALS['wgDBpasswordold'] );
-			LBFactory::destroyInstance();
+			MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->destroy();
 		}
 
 		$goptions = $this->metadata[$this->type]['option'];
