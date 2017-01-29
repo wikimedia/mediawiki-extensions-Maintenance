@@ -13,7 +13,8 @@
 			"Urhixidur",
 			"Verdy p",
 			"Zetud",
-			"Thibaut120094"
+			"Thibaut120094",
+			"The RedBurn"
 		]
 	},
 	"maintenance": "Lancer les scripts de maintenance",
@@ -24,7 +25,7 @@
 	"maintenance-error-badini": "Le fichier metadata.ini est endommagé ou manquant. Veuillez retélécharger l'extension Maintenance",
 	"maintenance-error-invalidtype": "Le script spécifié n'a pas été trouvé",
 	"maintenance-error-badargs": "Vous n'avez pas renseigné toutes les options requises",
-	"maintenance-generic-done": "fait",
+	"maintenance-generic-done": "terminé",
 	"maintenance-generic-username": "Nom d’utilisateur",
 	"maintenance-generic-password": "Mot de passe",
 	"maintenance-generic-reason": "Raison",
