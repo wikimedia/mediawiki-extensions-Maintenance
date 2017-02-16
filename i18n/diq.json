@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Mirzali",
-			"Gorizon"
+			"Gorizon",
+			"Gırd"
 		]
 	},
 	"maintenance": "Skriptanê xızmeti bıgureyne",
@@ -24,5 +25,6 @@
 	"maintenance-showCacheStats-views": "Amariya pelan mocnayış: $1",
 	"maintenance-error": "Xeta: $1",
 	"maintenance-memc-requests": "Wazteni",
-	"maintenance-memc-diffcache": "Ferqê Verhafızi"
+	"maintenance-memc-diffcache": "Ferqê Verhafızi",
+	"maintenance-re-rc": "Tabloyê vırnayışanê peyênan rocane meke"
 }
