@@ -33,7 +33,7 @@
 	"maintenance-cleanupTable-dry-run": "Einen Probelauf durchführen",
 	"maintenance-cleanupTable-check": "Überprüfe auf falsche Seitennamen …",
 	"maintenance-cleanupTable-checkfix": "Überprüfe und korrigiere falsche Seitennamen …",
-	"maintenance-cleanupTable-progress": "$1 $2: $3% auf $4 erledigt. Der voraussichtlicher Zeitbedarf  beträgt $5 [$6/$7] $8/sek. <$9% aktualisiert>",
+	"maintenance-cleanupTable-progress": "$1 $2: $3 % auf $4 erledigt. Der voraussichtlicher Zeitbedarf beträgt $5 [$6/$7] $8/sek. <$9 % aktualisiert>",
 	"maintenance-cleanupTable-missingparam": "$1: Parameter $2 fehlt",
 	"maintenance-cleanupTable-processing": "Verarbeite $1 …",
 	"maintenance-cleanupTable-finished": "$1 Zeilen erledigt … $2 von {{PLURAL:$3|einer Zeile|$3 Zeilen}} wurden aktualisiert",
