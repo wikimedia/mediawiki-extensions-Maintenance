@@ -97,7 +97,7 @@
 	"maintenance-sql": "Implijout ar furmskrid-mañ da seveniñ ur reked SQL war an diaz roadennoù.",
 	"maintenance-sql-desc": "Seveniñ ur reked SQL",
 	"maintenance-sql-option-file": "SQL da erounit",
-	"maintenance-sql-output-aff": "Goulenn OK; sellet a ra ouzh $1 {{PLURAL:$1|enmont|enmont}}",
+	"maintenance-sql-output-aff": "Reked reizh, sellet a ra ouzh $1 {{PLURAL:$1|linenn}}",
 	"maintenance-sql-error-cantopen": "Dibosupl digeriñ ar restr moned",
 	"maintenance-showCacheStats-desc": "Diskouez stadegoù ar grubuilh",
 	"maintenance-eval": "Ober gant ar furmskrid-mañ evit prizañ ar c'hod PHP en endro MediaWiki.",
