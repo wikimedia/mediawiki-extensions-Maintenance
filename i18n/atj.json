@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Benoit Rochon"
+			"Benoit Rochon",
+			"Jeannette Coocoo"
 		]
 	},
+	"maintenance": "Nanto nahactasosinihikan",
 	"maintenance-generic-username": "Icinikasowin",
 	"maintenance-generic-password": "Pitakesinahotiso",
 	"maintenance-deleted": "NESITC WEPINA"
