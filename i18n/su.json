@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Irwangatot"
+			"Irwangatot",
+			"Uchup19"
 		]
 	},
+	"maintenance": "Jalankeun skrip pamulasaraan",
 	"maintenance-deleted": "DIHAPUS"
 }
