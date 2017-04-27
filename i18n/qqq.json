@@ -47,7 +47,7 @@
 	"maintenance-option-optional": "This message is currently not used in the extension\n{{Identical|Optional}}",
 	"maintenance-output-success": "Indicates a script ran successfully.\n* $1 is the name of the script",
 	"maintenance-output-failure": "Indicates a script did not run successfully.\n* $1 is the name of the script",
-	"maintenance-attachLatest": "Do not translate <code>page_latest</code>",
+	"maintenance-attachLatest": "{{doc-important|Do not translate <code>page_latest</code>}}",
 	"maintenance-attachLatest-desc": "Do not translate <code>page_latest</code>",
 	"maintenance-attachLatest-option-fix": "Checkbox label. \"dry run\" refers to when the script is run and shows what needs to be fixed, but does not fix those items.\n\nAlso called from {{msg-mw|maintenance-attachLatest-output-dryrun}} for the same context.",
 	"maintenance-attachLatest-output-begin": "Do not translate <code>page_latest</code>",
