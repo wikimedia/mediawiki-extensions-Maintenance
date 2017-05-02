@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Muhammed taha"
+			"Muhammed taha",
+			"Lost Whispers"
 		]
 	},
-	"maintenance": "بەکارخستنی سکریپتەکانی چاککردنەوە"
+	"maintenance": "بەکارخستنی سکریپتەکانی چاککردنەوە",
+	"maintenance-cleanupSpam-output-blanking": "واڵا کردنەوە"
 }
