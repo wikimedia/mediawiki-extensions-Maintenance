@@ -4,7 +4,8 @@
 			"Meno25",
 			"OsamaK",
 			"Ouda",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Mido"
 		]
 	},
 	"maintenance": "تشغيل سكريبتات الصيانة",
@@ -57,7 +58,7 @@
 	"maintenance-showCacheStats-admins": "عدد الإداريين: $1",
 	"maintenance-showCacheStats-images": "عدد الملفات: $1",
 	"maintenance-showCacheStats-views": "عدد مرات عرض الصفحة: $1",
-	"maintenance-showCacheStats-update": "جاري تحديث قاعدة البيانات...",
+	"maintenance-showCacheStats-update": "جارٍ تحديث قاعدة البيانات...",
 	"maintenance-move": "نقل $1 إلى $2...",
 	"maintenance-movefail": "تمت مصادفة خطأ أثناء النقل: $1.\nترك النقل",
 	"maintenance-error": "خطأ: $1",
@@ -89,5 +90,5 @@
 	"maintenance-re-de": "تعديلات محذوفة: $1",
 	"maintenance-re-rce": "مدخلات أحدث التغييرات: $1",
 	"maintenance-re-total": "إجمالي المدخلات للتغيير: $1",
-	"maintenance-re-re": "جاري إعادة إلحاق التعديلات... تم"
+	"maintenance-re-re": "جارٍ إعادة إلحاق التعديلات... تم"
 }
