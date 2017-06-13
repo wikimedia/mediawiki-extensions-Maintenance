@@ -151,7 +151,7 @@
 	"maintenance-noviews": "Verificar esto para evitar la actualización del número de vistas a la página",
 	"maintenance-invalidname": "¡Nombre de usuario no válido!",
 	"maintenance-userexists": "Usuario ya existe!",
-	"maintenance-invalidtitle": "Título inválido \"$1\"!",
+	"maintenance-invalidtitle": "El título «$1» no es válido.",
 	"maintenance-titlenoexist": "Título especificado (\"$1\") no existe!",
 	"maintenance-failed": "FALLADO",
 	"maintenance-deleted": "BORRADO",

@@ -3,7 +3,8 @@
 		"authors": [
 			"Paucabot",
 			"Solde",
-			"Joan manel"
+			"Joan manel",
+			"Fitoschido"
 		]
 	},
 	"maintenance": "Executar scripts de manteniment",
@@ -11,6 +12,7 @@
 	"maintenance-changePassword-desc": "Canvia la contrasenya d'un usuari",
 	"maintenance-deleteBatch-desc": "Eliminació massiva de pàgines",
 	"maintenance-invalidname": "Nom d'usuari no vàlid!",
+	"maintenance-invalidtitle": "El títol «$1» no és vàlid.",
 	"maintenance-deleted": "ELIMINAT",
 	"maintenance-showCacheStats-edits": "Nombre d'edicions: $1",
 	"maintenance-showCacheStats-pages": "Nombre de pàgines: $1",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"maintenance": "Pokretanje skripti za održavanje",
@@ -36,7 +37,7 @@
 	"maintenance-moveBatch-desc": "Masovno premještanje stranica",
 	"maintenance-reassignEdits-desc": "Prerasporedi izmjene od jednog korisnika drugom",
 	"maintenance-runJobs-desc": "Pokreni poslove koji čekaju u redu",
-	"maintenance-showJobs-desc": "Pokaži spisak poslova koji čekaju na izvršenje",
+	"maintenance-showJobs-desc": "Prikaži spisak poslova koji čekaju na izvršenje",
 	"maintenance-sql": "Koristite ovaj obrazac za izvršavanje SQL upita u bazi podataka.",
 	"maintenance-sql-desc": "Izvrši SQL zahtjev",
 	"maintenance-showCacheStats-desc": "Prikaži Memcached statistike",
