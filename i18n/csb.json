@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kirsan"
+			"Kirsan",
+			"Kaszeba"
 		]
 	},
+	"maintenance": "Zrëszë kònserwacjowé skriptë",
 	"maintenance-generic-username": "Pòzwa brëkòwnika"
 }
