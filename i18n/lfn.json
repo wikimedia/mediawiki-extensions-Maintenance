@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Malafaya",
-			"Cgboeree"
+			"Cgboeree",
+			"Katxis"
 		]
 	},
-	"maintenance": "Esecuta programas de manteni",
+	"maintenance": "Esecuta programes de manteni",
 	"maintenance-showCacheStats-edits": "Numero de cambias: $1"
 }
