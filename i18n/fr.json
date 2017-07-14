@@ -56,7 +56,7 @@
 	"maintenance-benchmarkPurge": "Utilisez ce formulaire pour mesurer le temps que les fonctions de purge de Squid prennent",
 	"maintenance-benchmarkPurge-desc": "Mesurer le temps d'exécution des fonctions de purge de Squid",
 	"maintenance-benchmarkPurge-option-count": "Le nombre d'URL à donner à Squid pour la purge",
-	"maintenance-benchmarkPurge-error-nosquid": "La mesure du temps d'exécution ne fait pas grand chose sans le support de Squid activé.",
+	"maintenance-benchmarkPurge-error-nosquid": "La mesure du temps d’exécution ne fait pas grand chose sans la prise en charge de Squid.",
 	"maintenance-benchmarkPurge-output-numsquids": "Il y a $1 {{PLURAL:$1|serveur Squid défini|serveurs Squid définis}}  :",
 	"maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|titre|titres}} en $2 ms ($3 ms chacun)",
 	"maintenance-changePassword": "Utiliser ce formulaire pour changer le mot de passe d’un utilisateur",
