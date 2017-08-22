@@ -99,7 +99,7 @@
 	"maintenance-checkUsernames-desc": "Compruebe que los nombres de usuario de base de datos son realmente válidos",
 	"maintenance-checkUsernames-error-notvalid": "Nombre de usuario no válido: \"$3\" (identificador de usuario  $2 )",
 	"maintenance-cleanupCaps": "Utilice este formulario para arreglar páginas rotas causadas por modificación de $wgCapitalLinks",
-	"maintenance-cleanupCaps-desc": "Secuencia de comandos (script) para limpiar la utilización de mayúsculas y minúsculas",
+	"maintenance-cleanupCaps-desc": "Secuencia de órdenes para limpiar la utilización de mayúsculas y minúsculas",
 	"maintenance-cleanupCaps-option-namespace": "Número del espacio de nombres en el que realizar la limpieza de la utilización de mayúsculas y minúsculas",
 	"maintenance-cleanupCaps-output-islower": "\"$1\" ya en minúsculas.",
 	"maintenance-cleanupCaps-output-clash": "\"$1\" saltado; \"$2\" ya existe",
