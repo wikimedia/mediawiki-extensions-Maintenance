@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Benel"
+			"Benel",
+			"Tokoabibi"
 		]
 	},
-	"maintenance": "mileku atu midiput Script"
+	"maintenance": "mileku atu midiput Script",
+	"maintenance-generic-done": "malahecitu",
+	"maintenance-checkBadRedirects-output-footer": "malahecitu."
 }

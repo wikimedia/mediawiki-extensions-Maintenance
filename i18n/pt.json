@@ -167,7 +167,7 @@
 	"maintenance-memc-withsession": "com sessão:",
 	"maintenance-memc-withoutsession": "sem sessão:",
 	"maintenance-memc-total": "total:",
-	"maintenance-memc-parsercache": "Cache do analisador sintáctico",
+	"maintenance-memc-parsercache": "Cache do analisador sintático",
 	"maintenance-memc-hits": "acertos:",
 	"maintenance-memc-invalid": "inválidos:",
 	"maintenance-memc-expired": "caducados:",
