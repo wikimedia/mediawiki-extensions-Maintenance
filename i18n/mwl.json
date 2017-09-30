@@ -4,5 +4,6 @@
 			"MokaAkashiyaPT"
 		]
 	},
+	"maintenance": "Eisecutar scripts de manutençon",
 	"maintenance-re-de": "Eidiçones botadas fuora: $1"
 }
