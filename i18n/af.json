@@ -14,6 +14,7 @@
 	"maintenance-option-required": "(verpligtend)",
 	"maintenance-option-optional": "(opsioneel)",
 	"maintenance-checkBadRedirects-output-footer": "Uitgevoer.",
+	"maintenance-cleanupSpam-output-blanking": "leeggemaak",
 	"maintenance-invalidname": "Ongeldige gebruikersnaam!",
 	"maintenance-invalidtitle": "Ongeldige bladsynaam: \"$1\"!",
 	"maintenance-deleted": "Geskrap",
