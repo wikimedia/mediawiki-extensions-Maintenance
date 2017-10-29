@@ -42,7 +42,7 @@
 	"maintenance-attachLatest-output-begin": "page_latest을 0으로 설정하여 문서를 검색하는 중...",
 	"maintenance-attachLatest-output-notime": "$1 $2 [[$3]] 문서가 최신 판 시간을 찾을 수 없습니다?!",
 	"maintenance-attachLatest-output-norev": "$1 $2 [[$3]] 최신 시간 $4, 판 id를 찾을 수 없습니다",
-	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] 최근 판 $4, 판 id $5",
+	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] 최신 판 $4, 판 ID $5",
 	"maintenance-attachLatest-output-done": "완료! $1개의 {{PLURAL:$1|문서}}를 처리했습니다.",
 	"maintenance-attachLatest-output-dryrun": "이것은 시험 실행입니다; page_latest를 업데이트하기 위해서 \"{{int:maintenance-attachLatest-option-fix}}\"를 다시 실행",
 	"maintenance-benchmarkPurge": "이 양식을 사용하여 Squid 새로 고침 함수가 얼마나 오래 가지고 있는지 테스트하기",
