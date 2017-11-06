@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"HombreDHojalata",
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"maintenance": "Executar as escrituras de mantemento",
@@ -164,7 +165,7 @@
 	"maintenance-memc-total": "total:",
 	"maintenance-memc-parsercache": "Analizador da memoria caché",
 	"maintenance-memc-hits": "éxitos:",
-	"maintenance-memc-invalid": "inválido:",
+	"maintenance-memc-invalid": "non válido:",
 	"maintenance-memc-expired": "remata:",
 	"maintenance-memc-absent": "falta:",
 	"maintenance-memc-stub": "bosquexo:",
