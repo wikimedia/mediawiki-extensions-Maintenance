@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"maintenance": "Пускане на скриптове за поддръжка",
 	"maintenance-desc": "[[Special:Maintenance|Уеб интерфейс]] за различни скриптове за поддръжка",
 	"right-maintenance": "Изпълняване на скриптове за поддръжка чрез [[Special:Maintenance]]",
 	"maintenance-backlink": "Връщане към избора на скрипт",
-	"maintenance-error-invalidtype": "Невалиден тип!",
+	"maintenance-error-invalidtype": "Указаният скрипт не е открит",
 	"maintenance-generic-done": "готово",
 	"maintenance-generic-username": "Потребителско име",
 	"maintenance-generic-password": "Парола",
@@ -37,7 +38,7 @@
 	"maintenance-userexists": "Този потребител вече съществува!",
 	"maintenance-invalidtitle": "Невалидно заглавие „$1“!",
 	"maintenance-titlenoexist": "Посоченото заглавие („$1“) не съществува!",
-	"maintenance-revdelete": "Изтриване на версии $1 от уики $2",
+	"maintenance-revdelete": "Изтриване на {{PLURAL:$3|версия |версии }} $1 от уики $2",
 	"maintenance-revnotfound": "Версия $1 не беше намерена!",
 	"maintenance-showCacheStats-edits": "Брой редакции: $1",
 	"maintenance-showCacheStats-articles": "Брой страници в основното именно пространство: $1",
@@ -46,8 +47,8 @@
 	"maintenance-showCacheStats-admins": "Брой администратори: $1",
 	"maintenance-showCacheStats-images": "Брой файлове: $1",
 	"maintenance-showCacheStats-views": "Брой прегледи на страниците: $1",
-	"maintenance-showCacheStats-update": "Обновяване на базата от данни...",
-	"maintenance-move": "Преместване на $1 като $2...",
+	"maintenance-showCacheStats-update": "Обновяване на базата от данни{{int:ellipsis}}",
+	"maintenance-move": "Преместване на $1 като $2{{int:ellipsis}}",
 	"maintenance-movefail": "Възникна грешка при преместване: $1.\nПрекратяване на преместването.",
 	"maintenance-error": "Грешка: $1",
 	"maintenance-memc-requests": "Заявки",
