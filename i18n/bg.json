@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"StanProg"
+			"StanProg",
+			"ShockD"
 		]
 	},
 	"maintenance": "Пускане на скриптове за поддръжка",
@@ -38,7 +39,7 @@
 	"maintenance-userexists": "Този потребител вече съществува!",
 	"maintenance-invalidtitle": "Невалидно заглавие „$1“!",
 	"maintenance-titlenoexist": "Посоченото заглавие („$1“) не съществува!",
-	"maintenance-revdelete": "Изтриване на {{PLURAL:$3|версия |версии }} $1 от уики $2",
+	"maintenance-revdelete": "Изтриване на {{PLURAL:$3|версия|версии}} $1 от уики $2",
 	"maintenance-revnotfound": "Версия $1 не беше намерена!",
 	"maintenance-showCacheStats-edits": "Брой редакции: $1",
 	"maintenance-showCacheStats-articles": "Брой страници в основното именно пространство: $1",
