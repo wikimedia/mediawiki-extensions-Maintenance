@@ -3,7 +3,8 @@
 		"authors": [
 			"Cainamarques",
 			"Eduardo.mps",
-			"Luckas"
+			"Luckas",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"maintenance": "Execute scripts de manutenção",
@@ -11,11 +12,17 @@
 	"right-maintenance": "Executar scripts de manutenção através de [[Special:Maintenance]]",
 	"maintenance-backlink": "Voltar à seleção de scripts",
 	"maintenance-header": "Por favor, selecione abaixo um script a executar.\nAs descrições estão junto a cada script",
+	"maintenance-error-badini": "O arquivo metadata.ini não existe ou está corrompido. Faça novamente o dowload da extensão Manutenção",
 	"maintenance-error-invalidtype": "O script especificado não foi encontrado",
+	"maintenance-error-badargs": "Não especificou todas as opções necessárias",
 	"maintenance-generic-done": "feito",
 	"maintenance-generic-username": "Nome de usuário",
 	"maintenance-generic-password": "Senha",
 	"maintenance-generic-reason": "Motivo",
+	"maintenance-cleanupTable-dry-run": "Executar um teste",
+	"maintenance-cleanupTable-check": "A verificar títulos incorretos...",
+	"maintenance-cleanupTable-checkfix": "A verificar e corrigir títulos incorretos...",
+	"maintenance-cleanupTable-progress": "$1 $2: $3% em $4; hora prevista para terminar $5 [$6/$7] $8/seg <$9% atualizado>",
 	"maintenance-cleanupTable-missingparam": "$1: Falta o parâmetro $2",
 	"maintenance-cleanupTable-processing": "Procesando $1...",
 	"maintenance-option-confirm": "Confirmar",

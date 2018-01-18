@@ -3,13 +3,14 @@
 		"authors": [
 			"පසිඳු කාවින්ද",
 			"عثمان خان شاہ",
-			"Muhammad Shuaib"
+			"Muhammad Shuaib",
+			"BukhariSaeed"
 		]
 	},
 	"maintenance": "نگہداشت کی اسکرپٹ چلائیں",
-	"maintenance-backlink": "سکرپٹ کا انتخاب کرنے کے لئے واپس",
-	"maintenance-header": "براہ مہربانی ایک سکرپٹ کو ذیل میں منتخب کریں ۔ انگيز ہر سکرپٹ کے سامنے ہیں",
-	"maintenance-error-invalidtype": "مخصوص سکرپٹ نہیں پایا گیا",
+	"maintenance-backlink": "اسکرپٹ کا انتخاب کرنے کے لیے واپس",
+	"maintenance-header": "براہ مہربانی ایک اسکرپٹ کو ذیل میں منتخب کریں۔ وضاحتیں ہر اسکرپٹ کے سامنے ہیں",
+	"maintenance-error-invalidtype": "مخصوص اسکرپٹ نہیں پائی گئی",
 	"maintenance-error-badargs": "آپ نے نہیں وضاحت ضروری اختیارات کے تمام",
 	"maintenance-generic-done": "کیا کیا",
 	"maintenance-generic-username": "صارف کا نام",
