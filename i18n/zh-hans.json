@@ -23,7 +23,7 @@
 	"maintenance-error-badini": "metadata.ini文件已损坏或丢失。请重新下载Maintenance扩展",
 	"maintenance-error-invalidtype": "找不到指定的脚本",
 	"maintenance-error-badargs": "您没有指定所有必填的选项",
-	"maintenance-generic-done": "做好了",
+	"maintenance-generic-done": "完成",
 	"maintenance-generic-username": "用户名",
 	"maintenance-generic-password": "密码",
 	"maintenance-generic-reason": "原因",
