@@ -4,7 +4,8 @@
 			"Milicevic01",
 			"Rancher",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Acamicamacaraca"
 		]
 	},
 	"maintenance": "Покрени скрипте за одржавање",
@@ -56,8 +57,8 @@
 	"maintenance-titlenoexist": "Наведени наслов (\"$1\") не постоји!",
 	"maintenance-failed": "НЕУСПЕЛО",
 	"maintenance-deleted": "ОБРИСАНО",
-	"maintenance-revdelete": "Брисање {{PLURAL:$3|ревизије|ревизија}} $1 са $2-Викија.",
-	"maintenance-revnotfound": "Ревизија $1 није пронађена!",
+	"maintenance-revdelete": "Брисање {{PLURAL:$3|измене|измена}} $1 са $2–Викија.",
+	"maintenance-revnotfound": "Измена $1 није пронађена.",
 	"maintenance-showCacheStats-edits": "Број измена: $1",
 	"maintenance-showCacheStats-articles": "Број страница у главном именском простору: $1",
 	"maintenance-showCacheStats-pages": "Број страница: $1",
