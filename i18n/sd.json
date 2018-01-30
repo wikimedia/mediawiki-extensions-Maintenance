@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"maintenance": "مينٽيننس اسڪرپٽس ھلايو",
 	"maintenance-option-confirm": "پڪ ڪريو",
 	"maintenance-deleteBatch-desc": "صفحن جي ججھي-ڊاھ",
-	"maintenance-moveBatch-desc": "ججھا-چوريل صفحا",
+	"maintenance-moveBatch-desc": "جھجھا-چوريل صفحا",
 	"maintenance-showCacheStats-edits": "ترميمن جو انگ: $1",
 	"maintenance-memc-updates": "تجديدون:"
 }
