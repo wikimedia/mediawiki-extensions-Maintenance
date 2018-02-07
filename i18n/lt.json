@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Hugo.arg"
+			"Hugo.arg",
+			"Manvydasz"
 		]
 	},
 	"maintenance": "Paleisti aptarnavimo skriptus",
@@ -14,6 +15,7 @@
 	"maintenance-option-required": "(privaloma)",
 	"maintenance-option-optional": "(nebūtinas)",
 	"maintenance-checkBadRedirects-output-footer": "\nAtlikta.",
+	"maintenance-cleanupSpam-output-blanking": "panaikinta",
 	"maintenance-invalidname": "Negalimas vartotojo vardas!",
 	"maintenance-userexists": "Vartotojas jau egzistuoja!",
 	"maintenance-failed": "NEPAVYKO",
