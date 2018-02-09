@@ -145,7 +145,7 @@
 	"maintenance-deleted": "DELITE",
 	"maintenance-revdelete": "Deletion del {{PLURAL:$3|version|versiones}} $1 del wiki $2",
 	"maintenance-revnotfound": "Version $1 non trovate!",
-	"maintenance-showCacheStats-edits": "Numero de moficicationes: $1",
+	"maintenance-showCacheStats-edits": "Numero de modificationes: $1",
 	"maintenance-showCacheStats-articles": "Numero de paginas in le spatio de nomines principal: $1",
 	"maintenance-showCacheStats-pages": "Numero de paginas: $1",
 	"maintenance-showCacheStats-users": "Numero de usatores: $1",
