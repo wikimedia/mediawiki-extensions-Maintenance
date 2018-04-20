@@ -11,6 +11,7 @@
 	"maintenance-checkSyntax-desc": "Хьажа синтаксисе массо файлийн PHP MediaWiki чохь",
 	"maintenance-checkSyntax-option-syntax-only": "Синтаксисе бен ма хьажа, хьалхалера кодан кеп хье мае",
 	"maintenance-checkUsernames-error-notvalid": "Декъашхочун цӀе нийса яц: $3 (декъашхочун ID: $2)",
+	"maintenance-cleanupSpam-output-blanking": "цӀанъяр",
 	"maintenance-deleteBatch-desc": "Дуккха агӀонаш дӀаяхар",
 	"maintenance-showCacheStats-desc": "Гайта Memcached статистика",
 	"maintenance-deleted": "ДӀАЯЬККХИНА",
