@@ -110,6 +110,8 @@
 	"maintenance-createAndPromote": "Utilize este formulário para criar um novo usuário e promovê-lo a administrador.\nAssinale a caixa de burocrata se pretende também promovê-lo a burocrata",
 	"maintenance-createAndPromote-desc": "Criar um usuário e promover a administrador",
 	"maintenance-createAndPromote-option-bureaucrat": "Promover o usuário ao status de burocrata",
+	"maintenance-createAndPromote-output-creating": "Criando e promovendo {{ns:user}}:$2...",
+	"maintenance-createAndPromote-error-password": "Foi detetado um erro na senha que introduziu: $1",
 	"maintenance-deleteBatch": "Utilize este formulário para eliminar páginas em massa.\nColoque apenas uma página por linha",
 	"maintenance-deleteBatch-desc": "Eliminar páginas em massa",
 	"maintenance-deleteRevision": "Utilize este formulário para eliminar revisões em massa.\nColoque apenas um número de revisão por linha",
