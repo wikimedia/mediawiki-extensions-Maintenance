@@ -6,7 +6,8 @@
 			"Geraki",
 			"Omnipaedista",
 			"ZaDiak",
-			"Protnet"
+			"Protnet",
+			"Nikosgranturismogt"
 		]
 	},
 	"maintenance": "Εκτέλεση λειτουργιών συντήρησης",
@@ -15,6 +16,7 @@
 	"maintenance-generic-username": "Όνομα χρήστη",
 	"maintenance-generic-password": "Κωδικός πρόσβασης",
 	"maintenance-generic-reason": "Αιτία",
+	"maintenance-cleanupTable-processing": "Γίνεται επεξεργασία του $1...",
 	"maintenance-option-confirm": "Επιβεβαίωση",
 	"maintenance-option-required": "(απαιτείται)",
 	"maintenance-option-optional": "(προαιρετικό)",
