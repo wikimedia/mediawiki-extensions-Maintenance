@@ -29,6 +29,7 @@
 	"maintenance-cleanupTable-processing": "تجري معالجة $1...",
 	"maintenance-cleanupTable-finished": "تم الانتهاء من $1... $2 من $3 {{PLURAL:$3|صفوف}} تم تحديثها",
 	"maintenance-option-quiet": "إخفاء الإخراج غير الخطأ",
+	"maintenance-option-globals": "الإخراج العالمي في نهاية معالجة التصحيح",
 	"maintenance-option-confirm": "تأكيد",
 	"maintenance-option-batch-size": "تشغيل هذا العدد الكبير من العمليات لكل دفعة، الافتراضي: $1",
 	"maintenance-option-required": "(مطلوب)",
