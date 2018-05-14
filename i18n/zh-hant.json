@@ -53,7 +53,7 @@
 	"maintenance-benchmarkPurge-error-nosquid": "在未有 Squid 支援之下，Squid 清除測量不可大量進行。",
 	"maintenance-benchmarkPurge-output-numsquids": "以下 $1 {{PLURAL:$1|個|個}}是定義成 Squid {{PLURAL:$1|伺服器|伺服器}}：",
 	"maintenance-benchmarkPurge-output-trial": "$2ms 毫秒裡 $1 {{PLURAL:$1|個標題|個標題}}（各 $3ms 毫秒）",
-	"maintenance-changePassword": "使用此表單來更改使用者的密碼",
+	"maintenance-changePassword": "使用此表單來變更使用者的密碼",
 	"maintenance-changePassword-desc": "變更使用者的密碼",
 	"maintenance-changePassword-error-nouser": "沒有這樣的使用者：$1",
 	"maintenance-changePassword-output-set": "已為 $1 設定密碼",
@@ -190,6 +190,6 @@
 	"maintenance-re-ce": "目前編輯：$1",
 	"maintenance-re-de": "刪除編輯：$1",
 	"maintenance-re-rce": "近期變更條目：$1",
-	"maintenance-re-total": "要更改的總項目：$1",
+	"maintenance-re-total": "欲變更的總量：$1",
 	"maintenance-re-re": "重新分配編輯 {{int:ellipsis}} 完成"
 }
