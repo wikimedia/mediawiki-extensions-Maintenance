@@ -5,7 +5,8 @@
 			"Rancher",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
 	"maintenance": "Покрени скрипте за одржавање",
@@ -48,8 +49,8 @@
 	"maintenance-showJobs-desc": "Покажи списак послова из реда за послове",
 	"maintenance-sql": "Користите ову форму да извршите SQL захтев над базом података.",
 	"maintenance-sql-desc": "Изврши SQL захтев",
-	"maintenance-eval": "Користите ову форму да развијете PHP код у МедијаВики окружењу.",
-	"maintenance-eval-desc": "Развиј PHP код у МедијаВики окружењу",
+	"maintenance-eval": "Користите овај образац да развијете PHP кôд у Медијавики окружењу.",
+	"maintenance-eval-desc": "Развиј PHP кôд у Медијавики окружењу",
 	"maintenance-noviews": "Означите ово да бисте спрежили освежавање броја прегледа страна",
 	"maintenance-invalidname": "Погрешно корисничко име!",
 	"maintenance-userexists": "Тај корисник већ постоји!",
