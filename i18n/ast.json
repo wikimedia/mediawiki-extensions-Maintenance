@@ -81,7 +81,7 @@
 	"maintenance-checkSyntax-output-error": "Error en $1, llinia $2: $3",
 	"maintenance-checkSyntax-output-warning": "Avisu nel ficheru $1: alcontráu $2",
 	"maintenance-checkSyntax-error-nofile": "Error: nun pue alcontrase'l ficheru o direutoriu $1",
-	"maintenance-checkSyntax-error-cantopen": "Nun pue abrise'l ficheru $1",
+	"maintenance-checkSyntax-error-cantopen": "Nun pudo abrise'l ficheru $1",
 	"maintenance-checkSyntax-error-svnerr": "¡Error al recuperar la llista dende Subversion!",
 	"maintenance-checkUsernames": "Use esti formulariu pa ver qué nomes d'usuariu son inválidos por cambios na configuración. Si nun apaez nada después d'executar esti script, tolos nomes d'usuariu son válidos",
 	"maintenance-checkUsernames-desc": "Comprobar que los nomes d'usuariu de la base de datos son realmente válidos",
