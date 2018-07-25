@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Mehtab ahmed",
-			"Indus Asia"
+			"Indus Asia",
+			"Tweety"
 		]
 	},
 	"maintenance": "مينٽيننس اسڪرپٽس ھلايو",
+	"maintenance-generic-username": "واپرائيندڙ-نانءُ",
 	"maintenance-option-confirm": "پڪ ڪريو",
 	"maintenance-deleteBatch-desc": "صفحن جي ججھي-ڊاھ",
 	"maintenance-moveBatch-desc": "جھجھا-چوريل صفحا",
