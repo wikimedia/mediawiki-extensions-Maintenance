@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
-	"maintenance": "ထိန်းသိမ်းရေး script များ လုပ်ဆောင်ရန်"
+	"maintenance": "ထိန်းသိမ်းရေး script များ လုပ်ဆောင်ရန်",
+	"maintenance-generic-username": "အသုံးပြုသူအမည်",
+	"maintenance-generic-password": "စကားဝှက်",
+	"maintenance-option-confirm": "အတည်ပြု",
+	"maintenance-checkBadRedirects-output-footer": "ပြီးပြီ"
 }
