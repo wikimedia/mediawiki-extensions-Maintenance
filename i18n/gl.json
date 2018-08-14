@@ -143,7 +143,7 @@
 	"maintenance-userexists": "O usuario xa existe!",
 	"maintenance-invalidtitle": "Título inválido \"$1\"!",
 	"maintenance-titlenoexist": "O título especificado (\"$1\") non existe!",
-	"maintenance-failed": "FALLIDO",
+	"maintenance-failed": "ERRADO",
 	"maintenance-deleted": "BORRADO",
 	"maintenance-revdelete": "Borrando {{PLURAL:$3|a revisión|as revisións}} $1 de $2",
 	"maintenance-revnotfound": "A revisión $1 non foi atopada!",
