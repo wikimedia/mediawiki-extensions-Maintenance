@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chuvash"
+		]
+	},
+	"maintenance-error-invalidtype": "Скрипчĕ тупăнмарĕ",
+	"maintenance-showCacheStats-desc": "Memcached статистикине кăтартни",
+	"maintenance-re-nf": "Хутшăнакан $1 тупăнмарĕ"
+}
