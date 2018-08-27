@@ -98,7 +98,7 @@
 	"maintenance-cleanupCaps-output-clash": "\"$1\" 넘어감; \"$2\"가 이미 존재함",
 	"maintenance-cleanupCaps-output-dryrun": "\"$1\" -> \"$2\": 시험 실행, 이동되지 않음",
 	"maintenance-cleanupCaps-error-noneed": "$wgCapitalLinks이 작동 중 -- 링크 대문자화 정리 필요 없음.",
-	"maintenance-cleanupSpam": "이 양식을 사용하여 바깥 사이트로 연결된 스팸 편집을 되돌리세요",
+	"maintenance-cleanupSpam": "외부 사이트로 연결된 스팸 편집을 되돌리려면 이 양식을 사용하십시오",
 	"maintenance-cleanupSpam-desc": "입력된 호스트 이름에서 모든 스팸 정리하기",
 	"maintenance-cleanupSpam-option-hostname": "스팸을 넣었던 호스트 이름",
 	"maintenance-cleanupSpam-output-found": "$2를 포함한 $1 {{PLURAL:$1|문서}}를 찾음",
