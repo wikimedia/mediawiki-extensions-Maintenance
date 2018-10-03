@@ -100,7 +100,7 @@
 	"maintenance-cleanupCaps-output-clash": "「$1」已忽略；「$2」已存在",
 	"maintenance-cleanupCaps-output-dryrun": " \"$1\" -> \"$2\" 試執行期間不會移動",
 	"maintenance-cleanupCaps-error-noneed": "$wgCapitalLinks 已開啟 -- 不需清除大寫連結。",
-	"maintenance-cleanupSpam": "使用此表單來撤銷連結到外部網站的垃圾訊息編輯",
+	"maintenance-cleanupSpam": "使用此表單來回復連結至外部網站的垃圾訊息編輯",
 	"maintenance-cleanupSpam-desc": "清除來自指定主機名稱的所有垃圾訊息",
 	"maintenance-cleanupSpam-option-hostname": "垃圾訊息的主機名稱",
 	"maintenance-cleanupSpam-output-found": "找到 $1 {{PLURAL:$1|個|個}}包含 $2 的條目",
