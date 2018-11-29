@@ -11,7 +11,8 @@
 			"Str4nd",
 			"Vililikku",
 			"ZeiP",
-			"01miki10"
+			"01miki10",
+			"Valtlait"
 		]
 	},
 	"maintenance": "Suorita ylläpitoskriptejä",
@@ -50,7 +51,7 @@
 	"maintenance-checkSyntax-output-warning": "Varoitus tiedostossa $1: $2 löytyi",
 	"maintenance-checkSyntax-error-nofile": "Virhe: tiedostoa tai hakemistoa $1 ei löytynyt",
 	"maintenance-checkSyntax-error-cantopen": "Tiedostoa $1 ei voitu avata",
-	"maintenance-cleanupCaps-output-clash": "\"$1\" ohitettiin; \"$2\" on jo olemassa",
+	"maintenance-cleanupCaps-output-clash": "”$1” ohitettiin; ”$2” on jo olemassa",
 	"maintenance-cleanupSpam-output-found": "Löytyi $1 {{PLURAL:$1|artikkeli|artikkelia}}, {{PLURAL:$1|jossa|joissa}} on $2",
 	"maintenance-createAndPromote": "Käytä tätä lomaketta luodaksesi uuden käyttäjän ja ylentääksesi hänet ylläpitäjäksi.\nLaita myös rasti byrokraatti-laatikkoon jos haluat ylentää käyttäjän byrokraatiksi",
 	"maintenance-createAndPromote-desc": "Luo käyttäjä ja lisää ylläpitäjäksi",
@@ -76,8 +77,8 @@
 	"maintenance-noviews": "Valitse tämä estääksesi sivujen näyttökertojen päivittämisen",
 	"maintenance-invalidname": "Virheellinen käyttäjätunnus.",
 	"maintenance-userexists": "Käyttäjä on jo olemassa.",
-	"maintenance-invalidtitle": "Kelvoton otsikko \"$1\"!",
-	"maintenance-titlenoexist": "Määritellyn otsikon (\"$1\") mukaista artikkelia ei ole olemassa!",
+	"maintenance-invalidtitle": "Kelvoton otsikko ”$1”!",
+	"maintenance-titlenoexist": "Määritellyn otsikon (”$1”) mukaista artikkelia ei ole olemassa!",
 	"maintenance-failed": "EPÄONNISTUI",
 	"maintenance-deleted": "POISTETTU",
 	"maintenance-revdelete": "Poistetaan {{PLURAL:$3|versio|versiot}} $1 wikistä $2",
