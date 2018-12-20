@@ -4,5 +4,10 @@
 			"Saraiki"
 		]
 	},
-	"maintenance": "مرمتی لکھتاں چلاؤ"
+	"maintenance": "مرمتی لکھتاں چلاؤ",
+	"maintenance-deleteBatch-option-u": "ورتݨ ناں:",
+	"maintenance-deleteBatch-output-done": "تھی ڳیا۔",
+	"maintenance-initSiteStats-output-done": "تھی ڳیا۔",
+	"maintenance-moveBatch-option-u": "ورتݨ ناں:",
+	"maintenance-updateArticleCount-output-done": "تھی ڳیا۔"
 }

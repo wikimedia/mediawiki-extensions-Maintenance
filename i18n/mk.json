@@ -112,6 +112,8 @@
 	"maintenance-createAndPromote-error-password": "Се појави грешка во внесената лозинка: $1",
 	"maintenance-deleteBatch": "Овој образец користи за групно бришење на слики.\nВнесувајте само една страница по ред",
 	"maintenance-deleteBatch-desc": "Групно бришење на страници",
+	"maintenance-deleteBatch-option-u": "Корисничко име:",
+	"maintenance-deleteBatch-option-r": "Причина за бришењето:",
 	"maintenance-deleteRevision": "Овој образец служи за групно бришење на преработки.\nВнесувајте само по еден број на преработка во секој ред",
 	"maintenance-deleteRevision-desc": "Отстрани преработки од базата на податоци",
 	"maintenance-initEditCount-desc": "Одново пресметај го бројот на уредувањата на корисниците",
