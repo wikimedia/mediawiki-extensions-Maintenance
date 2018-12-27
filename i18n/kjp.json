@@ -4,5 +4,9 @@
 			"Rul1902"
 		]
 	},
-	"maintenance": "အင်းကုံၜီးၜါ်ထ script သယ်လ်ုဖး မ်ုမာဆေဝ်ႋ"
+	"maintenance": "အင်းကုံၜီးၜါ်ထ script သယ်လ်ုဖး မ်ုမာဆေဝ်ႋ",
+	"maintenance-deleteBatch-option-u": "ဏင့်ဆာႋမိင်:",
+	"maintenance-deleteBatch-output-done": "ၯင်ႋယုဂ်",
+	"maintenance-initSiteStats-output-done": "ၯင်ႋယုဂ်",
+	"maintenance-updateArticleCount-output-done": "ၯင်ႋယုဂ်"
 }

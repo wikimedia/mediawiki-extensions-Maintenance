@@ -190,7 +190,7 @@
 	"maintenance-updateArticleCount": "Comptage du nombre d’articles et mise à jour de la table des statistiques du site",
 	"maintenance-updateArticleCount-option-update": "Mettre à jour la table site_stats avec le nouveau comptage",
 	"maintenance-updateArticleCount-output-counting": "Comptage des articles…",
-	"maintenance-updateArticleCount-output-found": "$1 trouvé.",
+	"maintenance-updateArticleCount-output-found": "$1 trouvé{{PLURAL:$1||s}}.",
 	"maintenance-updateArticleCount-output-done": "fait.",
 	"maintenance-move": "Déplacement de $1 vers $2{{int:ellipsis}}",
 	"maintenance-movefail": "Erreur survenue lors du renommage : $1.\nDéplacement interrompu.",

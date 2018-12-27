@@ -16,7 +16,8 @@
 			"The Evil IP address",
 			"Translationista",
 			"Umherirrender",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"BadDog"
 		]
 	},
 	"maintenance": "{{doc-special|Maintenance}}",
@@ -221,7 +222,7 @@
 	"maintenance-updateArticleCount": "Description of what the [[mw:Manual:updateArticleCount.php|updateArticleCount]] maintenance script does, similar to the <code>maintenance-updateArticleCount-desc</code>, except this message is shown on <code>Special:Maintenance/updateArticleCount</code>, when the user is prompted to confirm the script options",
 	"maintenance-updateArticleCount-option-update": "Description of an option. If this option (checkbox) is ''not'' chosen, the script merely outputs the amount of valid articles without updating the [[mw:Manual:site_stats table|<code>site_stats</code> database table]] with the new count.",
 	"maintenance-updateArticleCount-output-counting": "{{notranslate}}",
-	"maintenance-updateArticleCount-output-found": "{{notranslate}}\nParameters:\n * $1 - number of valid articles found by the script",
+	"maintenance-updateArticleCount-output-found": "{{notranslate}}\nParameters:\n* $1 - number of valid articles found by the script",
 	"maintenance-updateArticleCount-output-done": "{{notranslate}}",
 	"maintenance-move": "{{doc-important|Do not translate <code><nowiki>{{int:ellipsis}}</nowiki></code>.}}\nUnused at this time.\n\nRefers to {{msg-mw|Ellipsis}}.\n\nParameters:\n* $1 - ...\n* $2 - ...",
 	"maintenance-movefail": "Unused at this time. Parameters:\n* $1 - ...",

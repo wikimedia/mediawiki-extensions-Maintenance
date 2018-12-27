@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Praveenp",
-			"Shijualex"
+			"Shijualex",
+			"Path slopu"
 		]
 	},
 	"maintenance": "പരിപാലന സ്ക്രിപ്റ്റുകൾ ഓടിക്കുക",
@@ -17,12 +18,15 @@
 	"maintenance-createAndPromote-desc": "ഒരു ഉഒഅയോക്താവിനെ സൃഷ്ടിച്ച് സിസോപ്പായി സ്ഥാനക്കയറ്റം നൽകുക",
 	"maintenance-deleteBatch": "താളുകൾ കൂട്ടത്തോടെ മായ്ക്കുവാൻ ഈ താൾ ഉപയോഗിക്കുക.\nഓരോ നിരയിലും ഒരു താൾ മാത്രം ചേർക്കുക.",
 	"maintenance-deleteBatch-desc": "താലുകൾ കൂട്ടമായി ഒഴിവാക്കുക",
+	"maintenance-deleteBatch-option-u": "ഉപയോക്തൃനാമം:",
 	"maintenance-deleteRevision": "പതിപ്പുകൾ കൂട്ടത്തോടെ മായ്ക്കുവാൻ ഈ താൾ ഉപയോഗിക്കുക.\nഓരോ നിരയിലും ഒരു പതിപ്പ് മാത്രം ചേർക്കുക.",
 	"maintenance-deleteRevision-desc": "ഡാറ്റാബേസിൽ നിന്നു പതിപ്പുകൾ മാറ്റുക",
 	"maintenance-initEditCount-desc": "ഉപയോക്താക്കളുടെ തിരുത്തലിന്റെ എണ്ണം വീണ്ടും കണക്കുകൂട്ടുക.",
 	"maintenance-initSiteStats-desc": "സൈറ്റിന്റെ സ്ഥിതിവിവരക്കണക്ക് വീണ്ടും കണക്കുകൂട്ടുക",
+	"maintenance-initSiteStats-output-countingactiveusers": "സജീവ ഉപയോക്താക്കളെ എണ്ണുന്നു ...",
 	"maintenance-moveBatch": "താളുകളുടെ തലക്കെട്ട് കൂട്ടത്തോടെ മാറ്റുവാൻ ഈ താൾ ഉപയോഗിക്കുക. ഓരോ നിരയിൽ ഒരു സ്രോതസ്സ് താളും പൈപ്പ് ചിഹനം ഇട്ടു വേർതിരിച്ചതിനു ശേഷം അതിന്റെ ലക്ഷ്യതാളും മാത്രം ചേർക്കുക.",
 	"maintenance-moveBatch-desc": "താളുകൾ കൂട്ടമായി മാറ്റുക",
+	"maintenance-moveBatch-option-r": "നീക്കുന്നതിനുള്ള കാരണം:",
 	"maintenance-invalidname": "അസാധുവായ ഉപയോക്തൃനാമം!",
 	"maintenance-userexists": "ഉപയോക്തൃനാമം നിലവിലുണ്ട്",
 	"maintenance-invalidtitle": "അസാധുവായ തലക്കെട്ട് \"$1\"!",
@@ -39,6 +43,7 @@
 	"maintenance-showCacheStats-images": "പ്രമാണങ്ങളുടെ എണ്ണം: $1",
 	"maintenance-showCacheStats-views": "പേജ് വ്യൂവിന്റെ എണ്ണം: $1",
 	"maintenance-showCacheStats-update": "ഡാറ്റാബേസ് പുതുക്കുന്നു...",
+	"maintenance-updateArticleCount-output-done": "ചെയ്തു കഴിഞ്ഞു",
 	"maintenance-move": "$1 നെ $2 ലേക്ക് മാറ്റുന്നു",
 	"maintenance-movefail": "താൾ മാറ്റുമ്പോൾ പിഴവ് സം‌ഭവിച്ചു: $1\nമാറ്റം നിർത്തിവയ്ക്കുന്നു",
 	"maintenance-error": "പിഴവ്: $1",

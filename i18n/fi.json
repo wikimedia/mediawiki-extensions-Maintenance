@@ -12,7 +12,8 @@
 			"Vililikku",
 			"ZeiP",
 			"01miki10",
-			"Valtlait"
+			"Valtlait",
+			"Pyscowicz"
 		]
 	},
 	"maintenance": "Suorita ylläpitoskriptejä",
@@ -57,6 +58,7 @@
 	"maintenance-createAndPromote-desc": "Luo käyttäjä ja lisää ylläpitäjäksi",
 	"maintenance-deleteBatch": "Käytä tätä lomaketta sivujen massapoistamiseen.\nLaita vain yhden sivun nimi riviä kohden",
 	"maintenance-deleteBatch-desc": "Massapoista sivuja",
+	"maintenance-deleteBatch-option-u": "Käyttäjänimi:",
 	"maintenance-deleteRevision": "Käytä tätä lomaketta versioiden massapoistamiseen.\nLaita vain yhden version numero riviä kohden",
 	"maintenance-deleteRevision-desc": "Poista versioita tietokannasta",
 	"maintenance-initEditCount-desc": "Laske uudelleen käyttäjien muokkausmäärät",
@@ -64,6 +66,7 @@
 	"maintenance-initSiteStats-desc": "Laske sivuston tilastot uudelleen",
 	"maintenance-moveBatch": "Käytä tätä lomaketta sivujen massasiirtoon.\nJokaisella rivillä tulisi olla lähdesivu ja kohdesivu pystyviivan erottamina",
 	"maintenance-moveBatch-desc": "Massasiirrä sivuja",
+	"maintenance-moveBatch-option-u": "Käyttäjänimi:",
 	"maintenance-reassignEdits-desc": "Määritä muokkauksia käyttäjältä toiselle",
 	"maintenance-runJobs-desc": "Aja työt ohjelmiston ylläpitotyöjonosta",
 	"maintenance-runJobs-option-procs": "Käytettävien prosessien määrä",
