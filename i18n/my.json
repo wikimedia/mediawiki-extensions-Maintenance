@@ -9,5 +9,7 @@
 	"maintenance-generic-username": "အသုံးပြုသူအမည်",
 	"maintenance-generic-password": "စကားဝှက်",
 	"maintenance-option-confirm": "အတည်ပြု",
-	"maintenance-checkBadRedirects-output-footer": "ပြီးပြီ"
+	"maintenance-checkBadRedirects-output-footer": "ပြီးပြီ",
+	"maintenance-deleteBatch-option-u": "အသုံးပြုသူအမည်:",
+	"maintenance-moveBatch-option-u": "အသုံးပြုသူအမည်:"
 }
