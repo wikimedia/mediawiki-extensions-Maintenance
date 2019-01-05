@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"IKHazarika"
+			"IKHazarika",
+			"Onubadok"
 		]
 	},
-	"maintenance": "ৰক্ষণাবেক্ষণ স্ক্ৰিপ্ট চলাওক"
+	"maintenance": "ৰক্ষণাবেক্ষণ স্ক্ৰিপ্ট চলাওক",
+	"maintenance-deleteBatch-option-r": "বিলোপনৰ কাৰণ:",
+	"maintenance-initSiteStats-output-done": "কৰা হ'ল"
 }

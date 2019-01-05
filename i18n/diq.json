@@ -22,6 +22,7 @@
 	"maintenance-initSiteStats-output-done": "temam.",
 	"maintenance-moveBatch-option-u": "Nameyê karberi:",
 	"maintenance-moveBatch-option-r": "Sebebê ravurnayışi:",
+	"maintenance-invalidname": "Nameyê karberiyo nêvêrde!",
 	"maintenance-failed": "EBE SER NÊKEWT",
 	"maintenance-deleted": "ESTERİYA",
 	"maintenance-showCacheStats-edits": "Amarê vırnayışan: $1",
