@@ -123,6 +123,7 @@
 	"maintenance-showCacheStats-views": "Zuel vun de besichte Säiten: $1",
 	"maintenance-showCacheStats-update": "D'Datebank gëtt aktualiséiert {{int:ellipsis}}",
 	"maintenance-updateArticleCount-output-counting": "Artikelen zielen...",
+	"maintenance-updateArticleCount-output-found": "$1 fonnt.",
 	"maintenance-updateArticleCount-output-done": "fäerdeg.",
 	"maintenance-move": "$1 gëtt op $2 geréckelt {{int:ellipsis}}",
 	"maintenance-movefail": "Feeler beim Réckele vu(n): $1.\nRéckelen ofgebrach",
