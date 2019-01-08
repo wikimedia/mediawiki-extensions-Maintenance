@@ -11,6 +11,7 @@
 	"maintenance-option-confirm": "Confirma",
 	"maintenance-changePassword-desc": "Canvia la contrasenya d'un usuari",
 	"maintenance-deleteBatch-desc": "Eliminació massiva de pàgines",
+	"maintenance-deleteBatch-option-r": "Motiu de la supressió:",
 	"maintenance-invalidname": "Nom d'usuari no vàlid!",
 	"maintenance-invalidtitle": "El títol «$1» no és vàlid.",
 	"maintenance-deleted": "ELIMINAT",

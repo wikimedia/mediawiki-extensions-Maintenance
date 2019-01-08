@@ -4,7 +4,8 @@
 			"Ehsanulhb",
 			"Wikitanvir",
 			"Aftabuzzaman",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"Tahmid02016"
 		]
 	},
 	"maintenance": "রক্ষণাবেক্ষণ স্ক্রিপ্ট চালান",
@@ -28,9 +29,9 @@
 	"maintenance-checkImages-output-missing": "$1: হারানো গেছে",
 	"maintenance-checkImages-output-isdir": "$1: একটি ডিরেক্টরি",
 	"maintenance-checkImages-output-good": "ভালো চিত্রসমূহ: $1/$2",
-	"maintenance-deleteBatch-option-r": "মুছে ফেলার কারণ:",
-	"maintenance-deleteBatch-output-done": "সম্পন্ন",
-	"maintenance-initSiteStats-output-done": "সম্পন্ন",
+	"maintenance-deleteBatch-option-r": "অপসারণের কারণ:",
+	"maintenance-deleteBatch-output-done": "সম্পন্ন।",
+	"maintenance-initSiteStats-output-done": "সম্পন্ন।",
 	"maintenance-moveBatch-option-u": "ব্যবহারকারী নাম:",
 	"maintenance-failed": "ব্যর্থ",
 	"maintenance-deleted": "অপসারিত",
