@@ -155,7 +155,7 @@
 	"maintenance-deleted": "CANCELLATO",
 	"maintenance-revdelete": "Cancellazione di $1 {{PLURAL:$3|versione|versioni}} dal wiki $2",
 	"maintenance-revnotfound": "Versione $1 non trovata!",
-	"maintenance-showCacheStats-edits": "Numero di edit: $1",
+	"maintenance-showCacheStats-edits": "Numero di modifiche: $1",
 	"maintenance-showCacheStats-articles": "Numero di pagine nel namespace principale: $1",
 	"maintenance-showCacheStats-pages": "Numero di pagine: $1",
 	"maintenance-showCacheStats-users": "Numero di utenti: $1",
