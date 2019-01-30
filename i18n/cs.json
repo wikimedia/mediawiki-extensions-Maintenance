@@ -62,6 +62,7 @@
 	"maintenance-cleanupCaps-output-islower": "„$1“ už je malými písmeny.",
 	"maintenance-cleanupSpam-option-hostname": "Název hostitele, který spamoval",
 	"maintenance-cleanupSpam-output-false": "Falešná shoda",
+	"maintenance-cleanupSpam-output-blanking": "vyprázdnění",
 	"maintenance-cleanupSpam-output-reverting": "vracení zpět",
 	"maintenance-deleteBatch-desc": "Hromadné mazání stránek",
 	"maintenance-deleteBatch-option-u": "Uživatelské jméno:",
