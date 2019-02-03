@@ -12,6 +12,7 @@
 	"maintenance-generic-username": "Nameyê karberi",
 	"maintenance-generic-password": "Parola",
 	"maintenance-generic-reason": "Sebeb",
+	"maintenance-cleanupTable-processing": "$1... domneno",
 	"maintenance-option-required": "(lazım)",
 	"maintenance-option-optional": "(opsiyonel)",
 	"maintenance-attachLatest-output-done": "Temam! {{PLURAL:$1|Yew pele vıraziye|$1 peli vıraziyayi}}.",
