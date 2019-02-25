@@ -12,7 +12,8 @@
 			"Xiaomingyan",
 			"Yfdyh000",
 			"Mywood",
-			"Impersonator 1"
+			"Impersonator 1",
+			"Zazzzz"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -122,6 +123,7 @@
 	"maintenance-createAndPromote-error-password": "您输入的密码存在以下错误：$1",
 	"maintenance-deleteBatch": "使用本表单来大量删除页面。每一行只可键入一个页面",
 	"maintenance-deleteBatch-desc": "删除大量页面",
+	"maintenance-deleteBatch-option-u": "用户名：",
 	"maintenance-deleteRevision": "使用本表单来大规模删除版本。每一行只可键入一个版本号",
 	"maintenance-deleteRevision-desc": "从资料库中删除修改",
 	"maintenance-initEditCount-desc": "重新计算用户的编辑数",

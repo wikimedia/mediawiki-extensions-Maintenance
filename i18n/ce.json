@@ -5,6 +5,7 @@
 		]
 	},
 	"maintenance-generic-username": "Декъашхочун цӀе",
+	"maintenance-generic-reason": "Бахьана",
 	"maintenance-checkBadRedirects-output-footer": "Кийчча ю.",
 	"maintenance-checkImages-output-missing": "$1: яц",
 	"maintenance-checkImages-output-isdir": "$1 - каталог",
