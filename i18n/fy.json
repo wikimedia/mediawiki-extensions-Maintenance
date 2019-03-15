@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Robin0van0der0vliet",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"PiefPafPier"
 		]
 	},
-	"maintenance-generic-username": "Brûkersnamme",
+	"maintenance-generic-username": "Meidochnamme",
 	"maintenance-generic-password": "Wachtwurd",
 	"maintenance-generic-reason": "Reden",
 	"maintenance-option-optional": "(opsjoneel)",
