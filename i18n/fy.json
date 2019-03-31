@@ -10,5 +10,6 @@
 	"maintenance-generic-password": "Wachtwurd",
 	"maintenance-generic-reason": "Reden",
 	"maintenance-option-optional": "(opsjoneel)",
+	"maintenance-cleanupSpam-output-blanking": "leech meitsjen",
 	"maintenance-error": "Flater: $1"
 }

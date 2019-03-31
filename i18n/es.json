@@ -14,7 +14,8 @@
 			"Translationista",
 			"Macofe",
 			"Indiralena",
-			"Johnny243"
+			"Johnny243",
+			"Ciencia Al Poder"
 		]
 	},
 	"maintenance": "Ejecutar scripts de mantenimiento",
@@ -191,7 +192,7 @@
 	"maintenance-memc-withsession": "con sesión:",
 	"maintenance-memc-withoutsession": "sin sesión:",
 	"maintenance-memc-total": "total:",
-	"maintenance-memc-parsercache": "Antememoria de analizador",
+	"maintenance-memc-parsercache": "Caché de analizador",
 	"maintenance-memc-hits": "resultados:",
 	"maintenance-memc-invalid": "inválido:",
 	"maintenance-memc-expired": "expirado:",
@@ -201,7 +202,7 @@
 	"maintenance-memc-misses": "fallos:",
 	"maintenance-memc-updates": "actualizaciones:",
 	"maintenance-memc-uncacheable": "no almacenable en antememoria:",
-	"maintenance-memc-diffcache": "Antememoria de diferencias",
+	"maintenance-memc-diffcache": "Caché de diferencias",
 	"maintenance-reassignEdits": "Usar este formulario para reasignar ediciones de un usuario a otro.",
 	"maintenance-re-from": "Nombre del usuario desde el cual se asigna ediciones",
 	"maintenance-re-to": "Nombre del usuario a quien se asigna ediciones",
