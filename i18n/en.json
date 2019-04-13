@@ -7,6 +7,7 @@
 	},
 	"maintenance": "Run maintenance scripts",
 	"maintenance-desc": "[[Special:Maintenance|Wiki interface]] for various maintenance scripts",
+	"action-maintenance": "run maintenance scripts",
 	"right-maintenance": "Run maintenance scripts through [[Special:Maintenance]]",
 	"maintenance-backlink": "Back to script selection",
 	"maintenance-header": "Please select a script below to execute. Descriptions are next to each script",

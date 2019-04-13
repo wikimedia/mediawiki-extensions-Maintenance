@@ -22,6 +22,7 @@
 	},
 	"maintenance": "{{doc-special|Maintenance}}",
 	"maintenance-desc": "{{desc|name=Maintenance|url=https://www.mediawiki.org/wiki/Extension:Maintenance}}",
+	"action-maintenance": "{{doc-action|maintenance}}",
 	"right-maintenance": "{{doc-right|maintenance}}",
 	"maintenance-backlink": "This text is shown in the link back to the list of runnable maintenance scripts",
 	"maintenance-header": "This text is shown in the top of the list of runnable maintenance scripts, prompting the user to choose a script to run",
