@@ -11,6 +11,7 @@
 	},
 	"maintenance": "تشغيل سكريبتات الصيانة",
 	"maintenance-desc": "[[Special:Maintenance|واجهة ويب]] لسكريبتات صيانة مختلفة",
+	"action-maintenance": "تشغيل سكريبتات الصيانة",
 	"right-maintenance": "تشغيل سكريبتات الصيانة من خلال [[Special:Maintenance]]",
 	"maintenance-backlink": "الرجوع إلى اختيار السكريبت",
 	"maintenance-header": "من فضلك اختر سكريبت بالأسفل للتنفيذ.\nالوصوفات بجانب كل سكريبت",

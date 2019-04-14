@@ -11,13 +11,14 @@
 			"Kly"
 		]
 	},
-	"maintenance": "執行維護用手稿語言",
+	"maintenance": "執行維護用手稿",
 	"maintenance-desc": "各種維護用手稿的 [[Special:Maintenance|Wiki 介面]]",
+	"action-maintenance": "執行維護用手稿",
 	"right-maintenance": "透過 [[Special:Maintenance]] 執行維護手稿",
 	"maintenance-backlink": "返回手稿選擇",
 	"maintenance-header": "請選擇下列手稿以執行，描述內容位於各手稿旁",
 	"maintenance-error-badini": "metadata.ini 檔案已損壞或遺失，請重新下載 Maintenance 擴充套件",
-	"maintenance-error-invalidtype": "找不到指定的 Script",
+	"maintenance-error-invalidtype": "找不到指定的手稿",
 	"maintenance-error-badargs": "您沒有指定所有必填的選項",
 	"maintenance-generic-done": "完成",
 	"maintenance-generic-username": "使用者名稱",

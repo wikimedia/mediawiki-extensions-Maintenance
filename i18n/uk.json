@@ -9,11 +9,13 @@
 			"SteveR",
 			"Тест",
 			"Ата",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"maintenance": "Запуск скриптів обслуговування",
 	"maintenance-desc": "[[Special:Maintenance|Вікі інтерфейс]] для різноманітних скриптів обслуговування",
+	"action-maintenance": "запуск скриптів обслуговування",
 	"right-maintenance": "Запуск скриптів обслуговування через [[Special:Maintenance]]",
 	"maintenance-backlink": "Повернутися до вибору скрипту",
 	"maintenance-header": "Будь ласка, оберіть скрипт для виконання. Описи поруч із кожним скриптом",

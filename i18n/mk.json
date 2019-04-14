@@ -8,6 +8,7 @@
 	},
 	"maintenance": "Пушти скрипти за одржување",
 	"maintenance-desc": "[[Special:Maintenance|Вики-посредник]] за разни скрипти за одржување",
+	"action-maintenance": "пуштање на скрипти за одржување",
 	"right-maintenance": "Пуштање на скрипти за одржување преку [[Special:Maintenance]]",
 	"maintenance-backlink": "Назад кон изборот на скрипта",
 	"maintenance-header": "Одберете скрипта подолу за извршување.\nДо секоја скрипта стои нејзин опис",
