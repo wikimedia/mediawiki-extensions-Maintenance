@@ -11,6 +11,7 @@
 	},
 	"maintenance": "유지 관리 스크립트 실행",
 	"maintenance-desc": "다양한 유지 관리 스크립트를 위한 [[Special:Maintenance|위키 인터페이스]]",
+	"action-maintenance": "유지 관리 스크립트 실행",
 	"right-maintenance": "[[Special:Maintenance]]를 통한 유지 관리 스크립트 실행",
 	"maintenance-backlink": "스크립트 선택으로 돌아가기",
 	"maintenance-header": "실행하려면 아래 스크립트를 선택해주세요. 설명은 각각의 스크립트 옆에 있습니다",

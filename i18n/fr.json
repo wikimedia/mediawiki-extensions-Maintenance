@@ -20,6 +20,7 @@
 	},
 	"maintenance": "Lancer les scripts de maintenance",
 	"maintenance-desc": "[[Special:Maintenance|Interface Web]] pour divers scripts de maintenance",
+	"action-maintenance": "lancer les scripts de maintenance",
 	"right-maintenance": "Lancer des scripts de maintenance depuis [[Special:Maintenance]]",
 	"maintenance-backlink": "Retour à la sélection du script",
 	"maintenance-header": "Veuillez sélectionner, ci-dessous, un script à exécuter.\nLes descriptions sont à la suite de chacun de ceux-ci.",
