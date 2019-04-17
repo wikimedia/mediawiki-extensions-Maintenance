@@ -11,6 +11,7 @@
 		]
 	},
 	"maintenance": "Εκτέλεση λειτουργιών συντήρησης",
+	"action-maintenance": "εκτελέσετε δέσμες ενεργειών συντήρησης",
 	"maintenance-error-invalidtype": "Μη έγκυρος τύπος!",
 	"maintenance-generic-done": "έγινε",
 	"maintenance-generic-username": "Όνομα χρήστη",
