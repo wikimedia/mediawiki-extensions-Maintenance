@@ -13,6 +13,7 @@
 	},
 	"maintenance": "Executar scripts de manutenção",
 	"maintenance-desc": "[[Special:Maintenance|Interface na wiki]] para vários scripts de manutenção",
+	"action-maintenance": "executar ''scripts'' de manutenção",
 	"right-maintenance": "Executar scripts de manutenção através de [[Special:Maintenance]]",
 	"maintenance-backlink": "Voltar à seleção de scripts",
 	"maintenance-header": "Por favor, selecione abaixo um script a executar.\nAs descrições estão junto a cada script",

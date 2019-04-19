@@ -20,6 +20,7 @@
 	},
 	"maintenance": "Wartungsskripte ausführen",
 	"maintenance-desc": "Stellt die Spezialseite [[Special:Maintenance|Webinterface]] bereit, über die verschiedene Wartungsskripte ausgeführt werden können",
+	"action-maintenance": "Wartungsskripte zu starten",
 	"right-maintenance": "Wartungsskripte über [[Special:Maintenance]] starten",
 	"maintenance-backlink": "Zurück zur Skript-Auswahl",
 	"maintenance-header": "Bitte ein Skript zur Ausführung auswählen.\nDie jeweiligen Beschreibungen sind neben jedem Skript angegeben.",
