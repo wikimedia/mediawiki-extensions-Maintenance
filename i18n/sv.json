@@ -11,6 +11,7 @@
 	},
 	"maintenance": "Kör underhållsskript",
 	"maintenance-desc": "[[Special:Maintenance|Webbgränssnitt]] för olika underhållsskript",
+	"action-maintenance": "köra underhållsskript",
 	"right-maintenance": "Kör underhållsskript genom [[Special:Maintenance]]",
 	"maintenance-backlink": "Tillbaka till skriptvalet",
 	"maintenance-header": "Var god välj ett skript nedan för att exekvera.\nBeskrivningar finns bredvid varje skript",
