@@ -7,7 +7,8 @@
 			"Tvdm",
 			"Wiki13",
 			"Sjoerddebruin",
-			"Mar(c)"
+			"Mar(c)",
+			"Mainframe98"
 		]
 	},
 	"maintenance": "Beheerscripts uitvoeren",
@@ -117,6 +118,7 @@
 	"maintenance-createAndPromote-error-password": "Er is een fout opgetreden met het wachtwoord dat u hebt opgegeven: $1",
 	"maintenance-deleteBatch": "Gebruik dit formulier om en masse pagina's te verwijderen.\nGeef op iedere regel een paginanaam op",
 	"maintenance-deleteBatch-desc": "Pagina's en masse verwijderen",
+	"maintenance-deleteBatch-option-u": "Gebruikersnaam:",
 	"maintenance-deleteRevision": "Gebruik dit formulier om en masse versie te verwijderen.\nGeef op iedere regel een paginanaam op",
 	"maintenance-deleteRevision-desc": "Versies uit de database verwijderen",
 	"maintenance-initEditCount-desc": "Aantal bewerkingen van gebruikers herberekenen",
@@ -124,6 +126,8 @@
 	"maintenance-initSiteStats-desc": "Sitestatistieken herberekenen",
 	"maintenance-moveBatch": "Gebruik dit formulier om en masse pagina's te hernoemen.\nIedere regel moet een doelpagina en een bestemmingspagina bevatten, gescheiden door een sluisteken (\"|\")",
 	"maintenance-moveBatch-desc": "Pagina's en masse hernoemen",
+	"maintenance-moveBatch-option-u": "Gebruikersnaam:",
+	"maintenance-moveBatch-option-r": "Reden voor hernoemen:",
 	"maintenance-reassignEdits-desc": "Bewerkingen aan een andere gebruiker toewijzen",
 	"maintenance-runJobs-desc": "Taken uit de jobqueue uitvoeren",
 	"maintenance-runJobs-option-maxjobs": "Maximaal aantal uit te voeren taken",
