@@ -16,7 +16,9 @@
 	"maintenance-initSiteStats-output-done": "udført.",
 	"maintenance-moveBatch-option-u": "Brugernavn:",
 	"maintenance-moveBatch-option-r": "Begrundelse for flytning:",
+	"maintenance-deleted": "SLETTET",
 	"maintenance-updateArticleCount-output-counting": "Tæller artikler...",
 	"maintenance-updateArticleCount-output-found": "fandt $1.",
-	"maintenance-updateArticleCount-output-done": "udført."
+	"maintenance-updateArticleCount-output-done": "udført.",
+	"maintenance-re-de": "Slettede redigeringer: $1"
 }
