@@ -11,5 +11,6 @@
 	"maintenance-option-confirm": "အတည်ပြု",
 	"maintenance-checkBadRedirects-output-footer": "ပြီးပြီ",
 	"maintenance-deleteBatch-option-u": "အသုံးပြုသူအမည်:",
-	"maintenance-moveBatch-option-u": "အသုံးပြုသူအမည်:"
+	"maintenance-moveBatch-option-u": "အသုံးပြုသူအမည်:",
+	"maintenance-memc-invalid": "မဆီလျော်ပါ"
 }
