@@ -1,8 +1,4 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo "This file is an extension to the MediaWiki software and is not a valid access point";
-	die( 1 );
-}
 
 use MediaWiki\MediaWikiServices;
 
