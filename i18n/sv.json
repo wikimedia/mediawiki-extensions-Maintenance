@@ -178,6 +178,8 @@
 	"maintenance-showCacheStats-images": "Antal filer: $1",
 	"maintenance-showCacheStats-views": "Antal sidvisningar: $1",
 	"maintenance-showCacheStats-update": "Uppdaterar databasen{{int:ellipsis}}",
+	"maintenance-updateArticleCount-desc": "Räknar antalet artiklar och uppdaterar tabellen med webbplatsstatistik",
+	"maintenance-updateArticleCount": "Räknar antalet artiklar och uppdaterar tabellen med webbplatsstatistik",
 	"maintenance-updateArticleCount-option-update": "Uppdatera tabellen site_stats med det nya antalet",
 	"maintenance-updateArticleCount-output-counting": "Räknar artiklar...",
 	"maintenance-updateArticleCount-output-found": "hittade $1.",
