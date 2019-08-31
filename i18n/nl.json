@@ -8,7 +8,8 @@
 			"Wiki13",
 			"Sjoerddebruin",
 			"Mar(c)",
-			"Mainframe98"
+			"Mainframe98",
+			"Servien"
 		]
 	},
 	"maintenance": "Beheerscripts uitvoeren",
@@ -105,7 +106,7 @@
 	"maintenance-cleanupSpam-option-hostname": "De hostnaam die heeft gespamd",
 	"maintenance-cleanupSpam-output-found": "{{PLURAL:$1|Eén pagina die $2 bevat|$1 pagina's die $2 bevatten}} gevonden",
 	"maintenance-cleanupSpam-output-false": "Onjuiste overeenkomst",
-	"maintenance-cleanupSpam-output-blanking": "leeghalen",
+	"maintenance-cleanupSpam-output-blanking": "leadigmaken",
 	"maintenance-cleanupSpam-output-reverting": "bezig met terugdraaien",
 	"maintenance-cleanupSpam-error-invalid": "Geen geldige hostnaamspecificatie: $1",
 	"maintenance-cleanupSpam-error-noid": "Interne fout: geen pagina voor ID $1",
