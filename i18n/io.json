@@ -7,5 +7,6 @@
 	"maintenance": "Facez script-i di manteno",
 	"maintenance-option-confirm": "Konfirmez",
 	"maintenance-deleteBatch-desc": "Pagini efacita masive",
-	"maintenance-showCacheStats-images": "Quanto di arkivi: $1"
+	"maintenance-showCacheStats-images": "Quanto di arkivi: $1",
+	"maintenance-re-ce": "Nuna redakturi: $1"
 }
