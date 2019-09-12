@@ -26,7 +26,7 @@
 	"maintenance-changePassword": "Формулярът по-долу се използва за промяна на паролата на потребител",
 	"maintenance-changePassword-desc": "Променяне на потребителска парола",
 	"maintenance-changePassword-error-nouser": "Няма такъв потребител: $1",
-	"maintenance-changePassword-output-set": "Поставена е паролата за $1",
+	"maintenance-changePassword-output-set": "Паролата на $1 е установена",
 	"maintenance-checkBadRedirects-output-footer": "Готово.",
 	"maintenance-createAndPromote": "Следният формуляр служи за създаване на нов потребител и предоставянето му на администраторски права.\nПоставянето на отметка ще добави и права на бюрократ.",
 	"maintenance-createAndPromote-desc": "Създаване на потребител и даване на администраторски права",

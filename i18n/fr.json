@@ -132,7 +132,7 @@
 	"maintenance-deleteBatch-option-listfile": "Liste de pages à supprimer séparées par des sauts de ligne",
 	"maintenance-deleteBatch-output-done": "fait.",
 	"maintenance-deleteDefaultMessages": "Appuyer sur le bouton pour confirmer la suppression (attention : cela peut prendre du temps)",
-	"maintenance-deleteDefaultMessages-desc": "Supprime toutes les pages dans l’espace de noms MediaWiki qui ont été modifiées en dernier par « MediaWiki par défaut »",
+	"maintenance-deleteDefaultMessages-desc": "Supprime toutes les pages dans l’espace de noms MediaWiki qui ont été modifiées en dernier par « MediaWiki par défaut »",
 	"maintenance-deleteRevision": "Utilisez ce formulaire pour supprimer en masse des versions.\nIndiquez une seule version par ligne.",
 	"maintenance-deleteRevision-desc": "Enlever des versions de la base de données",
 	"maintenance-initEditCount-desc": "Recalculer les compteurs de modifications des utilisateurs",
