@@ -5,7 +5,8 @@
 			"StanProg",
 			"ShockD",
 			"BadDog",
-			"Vlad5250"
+			"Vlad5250",
+			"Ted Masters"
 		]
 	},
 	"maintenance": "Пускане на скриптове за поддръжка",
@@ -30,7 +31,7 @@
 	"maintenance-checkBadRedirects-output-footer": "Готово.",
 	"maintenance-createAndPromote": "Следният формуляр служи за създаване на нов потребител и предоставянето му на администраторски права.\nПоставянето на отметка ще добави и права на бюрократ.",
 	"maintenance-createAndPromote-desc": "Създаване на потребител и даване на администраторски права",
-	"maintenance-deleteBatch": "Този формуляр служи за масово изтриване на страници. Всеки ред трябва да съдържа по една страница",
+	"maintenance-deleteBatch": "Този формуляр служи за масово изтриване на страници. Всеки ред трябва да съдържа само по една страница",
 	"maintenance-deleteBatch-desc": "Масово изтриване на страници",
 	"maintenance-deleteBatch-option-u": "Потребителско име:",
 	"maintenance-deleteBatch-option-r": "Причина за изтриването:",
@@ -44,7 +45,7 @@
 	"maintenance-initSiteStats-desc": "Опресняване на статистиките на сайта",
 	"maintenance-initSiteStats-option-use-master": "Преброяване според съществуващата главна база от данни",
 	"maintenance-initSiteStats-output-done": "готово.",
-	"maintenance-moveBatch": "Този формуляр служи за масово преместване на страници. Всеки ред трябва да съдържа основна страница и целева страница, разделени с отвесна черта",
+	"maintenance-moveBatch": "Този формуляр служи за масово преместване на страници. Всеки ред трябва да съдържа основна страница и целева страница, разделени с вертикална черта",
 	"maintenance-moveBatch-desc": "Масово преместване на страници",
 	"maintenance-moveBatch-option-u": "Потребителско име:",
 	"maintenance-moveBatch-option-r": "Причина за преместване:",
