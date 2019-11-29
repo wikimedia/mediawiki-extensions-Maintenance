@@ -21,7 +21,7 @@
 	"maintenance-error-badargs": "לא צויינו כל ההגדרות הנדרשות",
 	"maintenance-generic-done": "בוצע",
 	"maintenance-generic-username": "שם משתמש",
-	"maintenance-generic-password": "ססמה",
+	"maintenance-generic-password": "סיסמה",
 	"maintenance-generic-reason": "סיבה",
 	"maintenance-cleanupTable-dry-run": "הרצה על יבש",
 	"maintenance-cleanupTable-check": "בדיקת כותרות פגומות...",
