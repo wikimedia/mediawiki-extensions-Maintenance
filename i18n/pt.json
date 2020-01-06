@@ -18,7 +18,7 @@
 	"right-maintenance": "Executar scripts de manutenção através de [[Special:Maintenance]]",
 	"maintenance-backlink": "Voltar à seleção de scripts",
 	"maintenance-header": "Por favor, selecione abaixo um script a executar.\nAs descrições estão junto a cada script",
-	"maintenance-error-badini": "O ficheiro metadata.ini não existe ou está corrompido. Faça novamente o dowload da extensão Manutenção",
+	"maintenance-error-badini": "O ficheiro metadata.ini não existe ou está corrompido. Descarregue novamente a extensão Manutenção, por favor",
 	"maintenance-error-invalidtype": "O script especificado não foi encontrado",
 	"maintenance-error-badargs": "Não especificou todas as opções necessárias",
 	"maintenance-generic-done": "terminado",
