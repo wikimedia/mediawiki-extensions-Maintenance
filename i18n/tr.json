@@ -12,7 +12,7 @@
 	"maintenance-desc": "Çeşitli bakım betikleri için [[Special:Maintenance|viki arayüzü]]",
 	"maintenance-backlink": "Betik seçimine geri dön",
 	"maintenance-header": "Lütfen çalıştırmak için aşağıdan bir betik seçin.\nHer betiğin yanında açıklamalarına yer verilmiştir.",
-	"maintenance-error-invalidtype": "Geçersiz tür!",
+	"maintenance-error-invalidtype": "Belirtilen betik bulunamadı",
 	"maintenance-generic-username": "Kullanıcı adı",
 	"maintenance-generic-password": "Parola",
 	"maintenance-option-confirm": "Onayla",
