@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Luky001"
 		]
 	},
 	"maintenance": "Spustiť údržbové skripty",
@@ -9,7 +10,7 @@
 	"right-maintenance": "Spúšťať údržbové skripty pomocou [[Special:Maintenance]]",
 	"maintenance-backlink": "Späť na výber skriptu",
 	"maintenance-header": "Prosím, vyberte dolu skript, ktorý sa má spustiť.",
-	"maintenance-error-invalidtype": "Neplatný typ!",
+	"maintenance-error-invalidtype": "Zadaný skript nenájdený",
 	"maintenance-option-confirm": "Potvrdiť",
 	"maintenance-output-success": "$1 prebehol úspešne!",
 	"maintenance-changePassword": "Tento formulár slúži na zmenu hesla používateľa",
