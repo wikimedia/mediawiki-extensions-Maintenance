@@ -16,7 +16,7 @@
 	"maintenance-deleteBatch-desc": "Amasforigi paĝojn",
 	"maintenance-initSiteStats-desc": "Rekalkuli retejan statistikon",
 	"maintenance-moveBatch-desc": "Amasmovi paĝojn",
-	"maintenance-invalidname": "Nevalida salutnomo!",
+	"maintenance-invalidname": "Nevalida uzantnomo!",
 	"maintenance-userexists": "Uzanto jam ekzistas!",
 	"maintenance-invalidtitle": "Nevalida titolo \"$1\"!",
 	"maintenance-failed": "MALSUKCESIS",
