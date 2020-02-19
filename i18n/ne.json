@@ -3,11 +3,13 @@
 		"authors": [
 			"RajeshPandey",
 			"बिप्लब आनन्द",
-			"Parbat subedi"
+			"Parbat subedi",
+			"पर्वत सुबेदी"
 		]
 	},
 	"maintenance": "रेखदेख स्क्रिप्टहरू चलाउने",
 	"maintenance-generic-username": "प्रयोगकर्ता नाम",
 	"maintenance-initSiteStats-output-countingtotaledits": "जम्मा सम्पादनहरू गनिद‌ै",
-	"maintenance-moveBatch-option-u": "प्रयोगकर्ता नाम:"
+	"maintenance-moveBatch-option-u": "प्रयोगकर्ता नाम:",
+	"maintenance-memc-updates": "अद्यावधिकहरू:"
 }
