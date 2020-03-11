@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Palmtree222"
+			"Palmtree222",
+			"Pyscowicz"
 		]
 	},
-	"maintenance": "Suorita ylläpitoskriptejä"
+	"maintenance": "Suorita ylläpitoskriptejä",
+	"maintenance-generic-username": "Käyttäjäkonttu"
 }
