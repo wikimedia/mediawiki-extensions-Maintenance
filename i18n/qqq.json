@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"BadDog",
 			"Darth Kule",
 			"EugeneZelenko",
 			"Fryed-peach",
 			"IAlex",
 			"Jon Harald Søby",
+			"Liuxinyu970226",
 			"Lloffiwr",
 			"Nemo bis",
 			"Purodha",
@@ -15,9 +17,7 @@
 			"Siebrand",
 			"The Evil IP address",
 			"Translationista",
-			"Umherirrender",
-			"Liuxinyu970226",
-			"BadDog"
+			"Umherirrender"
 		]
 	},
 	"maintenance": "{{doc-special|Maintenance}}",

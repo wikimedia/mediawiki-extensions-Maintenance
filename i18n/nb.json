@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jon Harald Søby",
 			"Nghtwlkr",
-			"Simny",
-			"Jon Harald Søby"
+			"Simny"
 		]
 	},
 	"maintenance": "Kjør vedlikeholdsskript",

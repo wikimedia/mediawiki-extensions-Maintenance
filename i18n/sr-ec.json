@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01",
-			"Rancher",
-			"Жељко Тодоровић",
-			"Михајло Анђелковић",
 			"Acamicamacaraca",
 			"BadDog",
-			"Vlad5250"
+			"Milicevic01",
+			"Rancher",
+			"Vlad5250",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
 		]
 	},
 	"maintenance": "Покрени скрипте за одржавање",
