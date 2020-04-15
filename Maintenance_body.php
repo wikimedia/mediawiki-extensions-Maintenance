@@ -37,9 +37,7 @@ class SpecialMaintenance extends SpecialPage {
 		}
 
 		# Show a message if the database is in read-only mode
-		if ( wfReadOnly() ) {
-			throw new ReadOnlyError;
-		}
+		$this->checkReadOnly();
 
 		# If the user doesn't have the required 'maintenance' permission, display an error
 		if ( !$user->isAllowed( 'maintenance' ) ) {
