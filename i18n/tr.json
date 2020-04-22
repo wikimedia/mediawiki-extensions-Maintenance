@@ -101,7 +101,7 @@
 	"maintenance-cleanupSpam": "Harici sitelere bağlantı veren spam düzenlemelerini geri almak için bu formu kullanın",
 	"maintenance-cleanupSpam-desc": "Belirli bir ana bilgisayar adındaki tüm spam'leri temizle",
 	"maintenance-cleanupSpam-option-hostname": "Spam gönderen ana adı",
-	"maintenance-cleanupSpam-output-found": "$2 içeren $1 {{PLURAL:$1|makale|makale}} bulundu",
+	"maintenance-cleanupSpam-output-found": "$2 içeren $1 madde bulundu",
 	"maintenance-cleanupSpam-output-false": "Yanlış eşleşme",
 	"maintenance-cleanupSpam-output-blanking": "boşaltma",
 	"maintenance-cleanupSpam-output-reverting": "geri alma",
