@@ -47,7 +47,7 @@
 	"maintenance-attachLatest-output-norev": "$1 $2 [[$3]] آخرین زمان $4، نمی‌تواند شناسهٔ بازبینی را پیدا کند",
 	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] آخرین زمان $4، شناسهٔ بازبینی $5",
 	"maintenance-attachLatest-output-done": "انجام شده! پردازش $1  {{PLURAL:$1|صفحه|صفحات}}.",
-	"maintenance-attachLatest-output-dryrun": "این یک اجرای قطع شده بود؛ برای به روز رسانی با \"{{int:maintenance-attachLatest-option-fix}}\" آخرین صفحه دوباره اجرا کنید.",
+	"maintenance-attachLatest-output-dryrun": "این یک اجرای قطع شده بود؛ برای روزآمدسازی آخرین صفحه با \"{{int:maintenance-attachLatest-option-fix}}\" دوباره اجرا کنید.",
 	"maintenance-benchmarkPurge": "استفاده از این فرم برای امتحان اینکه چه قدر فعالیت پاکسازی اسکوئید به طول می‌انجامد",
 	"maintenance-benchmarkPurge-desc": "محک فعالیت پاکسازی اسکوئید",
 	"maintenance-benchmarkPurge-option-count": "چه مقدار يوآر‌ال برای تغذیه کردن اسکوئید برای پاکسازی",
