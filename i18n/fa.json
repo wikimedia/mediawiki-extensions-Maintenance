@@ -13,7 +13,7 @@
 		]
 	},
 	"maintenance": "اجرای متون حفاظت",
-	"maintenance-desc": " [[Special:Maintenance|Wiki interface]]  برای متون گوناگون محافظت",
+	"maintenance-desc": "[[Special:Maintenance|Wiki interface]]  برای متون گوناگون محافظت",
 	"right-maintenance": "اجرای متون محافظت از طریق [[Special:Maintenance]]",
 	"maintenance-backlink": "بازگشت به انتخاب متن",
 	"maintenance-header": "لطفاً متن زیر را برای اجرا انتخاب کنید. توصیفات کنار هر متن هستند",
@@ -93,7 +93,7 @@
 	"maintenance-checkSyntax-error-svnerr": "خطای بازیابی فهرست از سرنگونی!",
 	"maintenance-checkUsernames": "استفاده از این فرم برای نمایش اینکه چه نام‌های کاربری به دلیل تغییرات پیکربندی نامعتبر هستند. اگر هیچ چیزی پس از اجرای این متن فهرست نشده‌است، همهٔ نام‌های کاربری معتبر هستند",
 	"maintenance-checkUsernames-desc": "تأیید اینکه نام‌های کاربری پایگاه داده‌ّای در واقع معتبر هستند",
-	"maintenance-checkUsernames-error-notvalid": "نام کاربری نامعتبر: \"$3\" (شناسهٔ کاربری $2)",
+	"maintenance-checkUsernames-error-notvalid": "نام کاربری نامعتبر: «$3» (شناسهٔ $2)",
 	"maintenance-cleanupCaps": "استفاده از این فرم برای تعمیر صفحات خراب ناشی از اصلاح $wgCapitalLinks",
 	"maintenance-cleanupCaps-desc": "متن برای سرمایه گذاری پاکسازی",
 	"maintenance-cleanupCaps-option-namespace": "تعداد فضای نامی برای اجرای پاکسازی سرپوش‌ها در",
