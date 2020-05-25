@@ -65,7 +65,7 @@
 	"maintenance-cleanupSpam-option-hostname": "שם המארח המזבל",
 	"maintenance-cleanupSpam-output-blanking": "ריקון",
 	"maintenance-cleanupSpam-output-reverting": "שחזור",
-	"maintenance-createAndPromote": "השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.\nסמנו את תיבת הביורוקרט אם ברצונכם לקדם אותו גם לדרגת ביורוקרט",
+	"maintenance-createAndPromote": "השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.\nסמנו את תיבת הבירוקרט אם ברצונכם לקדם אותו גם לדרגת בירוקרט",
 	"maintenance-createAndPromote-desc": "יצירת משתמש וקידומו למצב מפעיל מערכת",
 	"maintenance-deleteBatch": "השתמשו בטופס זה למחיקת דפים המונית.\nכתבו שם של דף אחד בכל שורה",
 	"maintenance-deleteBatch-desc": "מחיקה המונית של דפים",
