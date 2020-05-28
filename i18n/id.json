@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Diki Ananta",
 			"Farras",
 			"IvanLanin",
 			"Kandar",
@@ -26,7 +27,7 @@
 	"maintenance-cleanupTable-progress": "$1 $2: $3% selesai pada $4; Perkiraan $5 [$6/$7] $8/detik <$9% diperbarui>",
 	"maintenance-cleanupTable-missingparam": "$1: Parameter tidak ditemukan $2",
 	"maintenance-cleanupTable-processing": "Memproses $1...",
-	"maintenance-cleanupTable-finished": "Selesai $1... $2 dari $3 baris diperbarui",
+	"maintenance-cleanupTable-finished": "Selesai $1... $2 dari $3 {{PLURAL:$3|baris|baris}} diperbarui",
 	"maintenance-option-quiet": "Sembunyikan keluaran nongalat",
 	"maintenance-option-globals": "Tampilkan globals pada akhir pemrosesan untuk debugging",
 	"maintenance-option-confirm": "Konfirmasi",
@@ -42,7 +43,7 @@
 	"maintenance-attachLatest-output-notime": "$1 $2 [[$3]] tidak dapat menemukan waktu revisi terakhir?!",
 	"maintenance-attachLatest-output-norev": "$1 $2 [[$3]] waktu terbaru $4, tidak dapat menemukan id revisi",
 	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] waktu terbaru $4, id revisi $5",
-	"maintenance-attachLatest-output-done": "Selesai! Memproses $1 halaman.",
+	"maintenance-attachLatest-output-done": "Selesai! Memproses $1 {{PLURAL:$1|halaman|halaman}}.",
 	"maintenance-attachLatest-output-dryrun": "Ini adalah pengujian dasar; jalankan kembali dengan \"{{int:maintenance-attachLatest-option-fix}}\" untuk memperbarui page_latest.",
 	"maintenance-changePassword": "Gunakan formulir ini untuk mengubah kata sandi pengguna",
 	"maintenance-changePassword-desc": "Ubah kata sandi pengguna",
