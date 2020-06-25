@@ -3,10 +3,11 @@
 		"authors": [
 			"Crazymadlover",
 			"Gts-tg",
-			"Omnipaedista"
+			"Omnipaedista",
+			"PastelKos"
 		]
 	},
-	"maintenance": "Ἐκτέλεση ἐργασιών συντηρήσεως",
+	"maintenance": "Ἐκτέλεση ἐργασιῶν συντηρήσεως",
 	"maintenance-option-confirm": "Κυροῦν",
 	"maintenance-failed": "ΑΠΕΤΕΥΧΘΗ",
 	"maintenance-deleted": "ΔΙΕΓΡΑΦΗ",
