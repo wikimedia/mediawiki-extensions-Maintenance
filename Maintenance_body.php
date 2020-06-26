@@ -303,7 +303,7 @@ class SpecialMaintenance extends SpecialPage {
 				}
 			}
 
-			protected function validateParamsAndArgs() {
+			public function validateParamsAndArgs() {
 				$die = false;
 
 				foreach( $this->mParams as $opt => $info ) {
