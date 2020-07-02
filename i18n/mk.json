@@ -63,7 +63,7 @@
 	"maintenance-checkBadRedirects-output-found": "Пронајдов $1 {{PLURAL:$1|пренасочување|пренасочувања}}.\nПроверувам дали има лоши пренасочувања...",
 	"maintenance-checkBadRedirects-output-footer": "Готово.",
 	"maintenance-checkImages": "Послужете се со овој образец за да дознаете кои слики на вашето вики се оштетени",
-	"maintenance-checkImages-desc": "Проверка на слики - дали постојат, дали се читливи и тн.",
+	"maintenance-checkImages-desc": "Проверка на слики — дали постојат, дали се читливи итн.",
 	"maintenance-checkImages-output-noaccess": "$1: не е месно достапна",
 	"maintenance-checkImages-output-missing": "$1: недостасува",
 	"maintenance-checkImages-output-isdir": "$1: е директориум",
