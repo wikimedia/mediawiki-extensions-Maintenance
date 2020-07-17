@@ -13,7 +13,6 @@ module.exports = function ( grunt ) {
 			},
 			all: '.'
 		},
-		// eslint-disable-next-line no-restricted-properties
 		banana: Object.assign(
 			conf.MessagesDirs,
 			{

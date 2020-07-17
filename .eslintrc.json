@@ -6,5 +6,8 @@
 	],
 	"globals": {
 		"mw": false
+	},
+	"rules": {
+		"es/no-object-assign": "warn"
 	}
 }
