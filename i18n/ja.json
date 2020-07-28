@@ -10,6 +10,7 @@
 	},
 	"maintenance": "メンテナンススクリプトを実行",
 	"maintenance-desc": "さまざまなメンテナンス スクリプト用の[[Special:Maintenance|ウィキ インターフェイス]]",
+	"action-maintenance": "メンテナンス スクリプトの実行",
 	"right-maintenance": "[[Special:Maintenance]] を使用してメンテナンス スクリプトを実行",
 	"maintenance-backlink": "スクリプト選択に戻る",
 	"maintenance-header": "実行するスクリプトを以下から選択してください。説明は各スクリプトの隣にあります",
