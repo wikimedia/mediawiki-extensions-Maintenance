@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"George Animal",
-			"Ghybu"
+			"Ghybu",
+			"Guherto"
 		]
 	},
 	"maintenance-generic-done": "çêbû",
@@ -10,7 +11,7 @@
 	"maintenance-generic-password": "Şîfre",
 	"maintenance-generic-reason": "Sedem",
 	"maintenance-checkBadRedirects-output-footer": "Çêbû.",
-	"maintenance-showCacheStats-edits": "Hejmara guherandinan: $1",
+	"maintenance-showCacheStats-edits": "Hejmara guhertinan: $1",
 	"maintenance-showCacheStats-users": "Hejmara bikarhêneran: $1",
 	"maintenance-showCacheStats-admins": "Hejmara rêveberan: $1",
 	"maintenance-error": "Çewtî: $1",
