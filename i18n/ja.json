@@ -84,6 +84,7 @@
 	"maintenance-cleanupSpam-desc": "指定したホスト名からのスパムをすべて消去する",
 	"maintenance-cleanupSpam-option-hostname": "スパム攻撃をしていたホスト名",
 	"maintenance-cleanupSpam-output-found": "$2 を含む記事が $1 {{PLURAL:$1|件}}見つかりました",
+	"maintenance-cleanupSpam-output-page": "$1 ...",
 	"maintenance-cleanupSpam-error-invalid": "ホスト名の仕様を満たしていません: $1",
 	"maintenance-cleanupSpam-error-noid": "内部エラー: ID $1 のページはありません",
 	"maintenance-clearInterwikiCache": "このフォームを使用してウィキ間キャッシュを完全に消去する",

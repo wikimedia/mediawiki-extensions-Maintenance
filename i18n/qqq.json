@@ -131,7 +131,7 @@
 	"maintenance-cleanupSpam-output-false": "Output of a maintenance script",
 	"maintenance-cleanupSpam-output-blanking": "Output of a maintenance script",
 	"maintenance-cleanupSpam-output-reverting": "Output of a maintenance script",
-	"maintenance-cleanupSpam-output-page": "{{notranslate}}\nParameters:\n* $1 - page name",
+	"maintenance-cleanupSpam-output-page": "{{optional}}\nParameters:\n* $1 - page name",
 	"maintenance-cleanupSpam-error-invalid": "Parameters:\n* $1 - provided hostname",
 	"maintenance-cleanupSpam-error-noid": "Parameters:\n* $1 - page ID",
 	"maintenance-clearInterwikiCache": "Description for a maintenance script",
