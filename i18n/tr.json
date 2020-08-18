@@ -5,6 +5,7 @@
 			"Erdemaslancan",
 			"Karduelis",
 			"Suelnur",
+			"ToprakM",
 			"Vito Genovese"
 		]
 	},
@@ -180,7 +181,7 @@
 	"maintenance-updateArticleCount-desc": "Madde sayısı ve site istatistikleri tablosunu güncelle",
 	"maintenance-updateArticleCount": "Madde sayısı ve site istatistikleri tablosunu güncelle",
 	"maintenance-updateArticleCount-option-update": "site_stats tablosunu yeni sayımla güncelleyin",
-	"maintenance-updateArticleCount-output-counting": "Makaleler sayılıyor...",
+	"maintenance-updateArticleCount-output-counting": "Maddeler sayılıyor...",
 	"maintenance-updateArticleCount-output-found": "$1 bulundu.",
 	"maintenance-updateArticleCount-output-done": "yapıldı.",
 	"maintenance-move": "$1 ile $2 taşınıyor{{int:ellipsis}}",
