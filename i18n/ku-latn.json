@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Balyozxane",
 			"George Animal",
 			"Ghybu",
 			"Guherto"
@@ -11,6 +12,7 @@
 	"maintenance-generic-password": "Şîfre",
 	"maintenance-generic-reason": "Sedem",
 	"maintenance-checkBadRedirects-output-footer": "Çêbû.",
+	"maintenance-cleanupSpam-output-blanking": "valakirin",
 	"maintenance-showCacheStats-edits": "Hejmara guhertinan: $1",
 	"maintenance-showCacheStats-users": "Hejmara bikarhêneran: $1",
 	"maintenance-showCacheStats-admins": "Hejmara rêveberan: $1",
