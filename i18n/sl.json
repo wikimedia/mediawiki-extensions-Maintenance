@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"maintenance": "Zaženi vzdrževalne skripte",
-	"maintenance-generic-username": "Uporabniško ime"
+	"maintenance-generic-username": "Uporabniško ime",
+	"maintenance-generic-reason": "Razlog",
+	"maintenance-option-required": "(obvezno)"
 }
