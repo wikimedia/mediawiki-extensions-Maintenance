@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andreyyshore",
 			"Firilacroco",
 			"KlaudiuMihaila",
 			"Minisarm",
@@ -48,7 +49,7 @@
 	"maintenance-deleteBatch": "Utilizați acest formular pentru ștergerea în masă a paginilor.\nPuneți doar o pagină pe un rând",
 	"maintenance-deleteBatch-desc": "Șterge pagini în masă",
 	"maintenance-deleteRevision": "Utilizați acest formular pentru ștergerea în masă a versiunilor.\nSpecificați doar o versiune pe fiecare rând",
-	"maintenance-deleteRevision-desc": "Şterge reviziile din baza de date",
+	"maintenance-deleteRevision-desc": "Șterge reviziile din baza de date",
 	"maintenance-initEditCount-desc": "Recalculează numărul de modificări ale utilizatorilor",
 	"maintenance-initSiteStats-desc": "Recalculează statisticile sitului",
 	"maintenance-moveBatch-desc": "Redenumește pagini în masă",
