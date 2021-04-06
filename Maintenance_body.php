@@ -74,7 +74,10 @@ class SpecialMaintenance extends SpecialPage {
 
 	private function makeInitialForm() {
 		$this->setHeaders();
+
 		$out = $this->getOutput();
+		$linkRenderer = $this->getLinkRenderer();
+
 		$out->addWikiMsg( 'maintenance-header' );
 		$out->addHTML( '<ul>' );
 
@@ -83,12 +86,9 @@ class SpecialMaintenance extends SpecialPage {
 		sort( $scripts );
 		foreach ( $scripts as $type ) {
 			$title = $this->getPageTitle( $type );
-			$out->addHTML( '<li>' . Linker::link(
+			$out->addHTML( '<li>' . $linkRenderer->makeKnownLink(
 					$title,
-					htmlspecialchars( $type ),
-					array(),
-					array(),
-					array( 'known' )
+					$type
 				) . ' -- ' .
 				$this->msg( 'maintenance-' . $type . '-desc' )->parse() . '</li>'
 			);
@@ -100,13 +100,13 @@ class SpecialMaintenance extends SpecialPage {
 		global $wgMaintenanceDebug;
 
 		$this->setHeaders();
+
 		$out = $this->getOutput();
-		$out->addHTML( Linker::link(
+		$linkRenderer = $this->getLinkRenderer();
+
+		$out->addHTML( $linkRenderer->makeKnownLink(
 				$this->getPageTitle(),
-				$this->msg( 'maintenance-backlink' )->escaped(),
-				array(),
-				array(),
-				array( 'known' )
+				$this->msg( 'maintenance-backlink' )->text()
 			) . '<br />'
 		);
 
@@ -151,14 +151,14 @@ class SpecialMaintenance extends SpecialPage {
 		global $IP, $wgMaintenanceDebug;
 
 		$out = $this->getOutput();
+		$linkRenderer = $this->getLinkRenderer();
+
 		$this->setHeaders();
+
 		$out->addHTML(
-			Linker::link(
+			$linkRenderer->makeKnownLink(
 				$this->getPageTitle(),
-				$this->msg( 'maintenance-backlink' )->escaped(),
-				array(),
-				array(),
-				array( 'known' )
+				$this->msg( 'maintenance-backlink' )->text()
 			) . '<br />'
 		);
 
@@ -363,12 +363,9 @@ class SpecialMaintenance extends SpecialPage {
 		}
 		$out->addHTML( '</pre>' );
 		$this->scriptDone( $script );
-		$out->addHTML( Linker::link(
+		$out->addHTML( $linkRenderer->makeKnownLink(
 				$this->getPageTitle(),
-				$this->msg( 'maintenance-backlink' )->escaped(),
-				array(),
-				array(),
-				array( 'known' )
+				$this->msg( 'maintenance-backlink' )->text()
 			) . '<br />'
 		);
 	}
