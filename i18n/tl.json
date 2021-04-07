@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"AnakngAraw",
+			"GinawaSaHapon",
 			"Jojit fb"
 		]
 	},
-	"maintenance": "Patakbuhin ang mga panitik na pang-pagpapanatili",
+	"maintenance": "Patakbuhin ang mga maintenance script",
 	"maintenance-desc": "[[Special:Maintenance|Ugnayang-hangganan ng Wiki]] para sa sari-saring mga panitik na pang-pagpapanatili",
 	"right-maintenance": "Patakbuhin ang mga panitik ng pagpapanatili sa pamamagitan ng [[Special:Maintenance]]",
 	"maintenance-backlink": "Bumalik sa pilian ng mga panitik",
