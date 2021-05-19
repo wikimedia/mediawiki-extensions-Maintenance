@@ -17,7 +17,7 @@
 	"maintenance-deleteBatch-desc": "Дукха агӀонаш дӀайахар",
 	"maintenance-showCacheStats-desc": "Гайта Memcached статистика",
 	"maintenance-deleted": "ДӀАЙАЬККХИНА",
-	"maintenance-revnotfound": "АгӀона $1 верси цакарий!",
+	"maintenance-revnotfound": "АгӀонан $1 верси цакарий!",
 	"maintenance-showCacheStats-edits": "Нисдарийн дукхалла: $1",
 	"maintenance-showCacheStats-update": "Хааман база керлаяккхар...",
 	"maintenance-memc-requests": "Хаттарш",
