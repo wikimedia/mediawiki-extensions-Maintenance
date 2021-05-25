@@ -5,7 +5,9 @@
 		]
 	},
 	"maintenance": "Facez script-i di manteno",
+	"maintenance-generic-done": "facita",
 	"maintenance-option-confirm": "Konfirmez",
+	"maintenance-checkBadRedirects-output-footer": "Facita.",
 	"maintenance-deleteBatch-desc": "Pagini efacita masive",
 	"maintenance-showCacheStats-images": "Quanto di arkivi: $1",
 	"maintenance-re-ce": "Nuna redakturi: $1"
