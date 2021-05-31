@@ -3,7 +3,8 @@
 		"authors": [
 			"Dani",
 			"Dj",
-			"Glanthor Reviol"
+			"Glanthor Reviol",
+			"Tacsipacsi"
 		]
 	},
 	"maintenance": "Karbantartó-szkriptek futtatása",
@@ -19,7 +20,7 @@
 	"maintenance-cleanupTable-checkfix": "Hibás címek ellenőrzése és javítása...",
 	"maintenance-cleanupTable-missingparam": "$1: hiányzó paraméter: $2",
 	"maintenance-cleanupTable-processing": "$1 feldolgozása...",
-	"maintenance-cleanupTable-finished": "$1 befejezve... $2 frissült a(z) $3 sorból",
+	"maintenance-cleanupTable-finished": "$1 befejezve… $2 frissült a(z) $3 {{PLURAL:$3|sorból}}",
 	"maintenance-option-confirm": "Megerősítés",
 	"maintenance-option-required": "(kötelező)",
 	"maintenance-option-optional": "(nem kötelező)",
