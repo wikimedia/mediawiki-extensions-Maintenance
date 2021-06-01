@@ -21,7 +21,7 @@
 	"maintenance-showCacheStats-edits": "Нисдарийн дукхалла: $1",
 	"maintenance-showCacheStats-update": "Хааман база керлаяккхар...",
 	"maintenance-memc-requests": "Хаттарш",
-	"maintenance-memc-total": "ерриг:",
+	"maintenance-memc-total": "йерриге:",
 	"maintenance-memc-imagecache": "Суьртан кэш",
 	"maintenance-re-ce": "Карара нисдарш: $1",
 	"maintenance-re-de": "ДӀадяхна нийсдарш: $1"
