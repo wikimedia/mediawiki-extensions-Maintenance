@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hhaboh162002",
 			"Meno25",
 			"Mido",
 			"OsamaK",
@@ -9,7 +10,7 @@
 			"محمد أحمد عبد الفتاح"
 		]
 	},
-	"maintenance": "تشغيل سكريبتات الصيانة",
+	"maintenance": "تشغيل نصوص الصيانة البرمجية",
 	"maintenance-desc": "[[Special:Maintenance|واجهة ويب]] لسكريبتات صيانة مختلفة",
 	"action-maintenance": "تشغيل سكريبتات الصيانة",
 	"right-maintenance": "تشغيل سكريبتات الصيانة من خلال [[Special:Maintenance]]",
