@@ -7,5 +7,6 @@
 	},
 	"maintenance": "Esegui script di manutinzioni",
 	"maintenance-generic-username": "Nomu utenti",
+	"maintenance-generic-reason": "Mutivu",
 	"maintenance-error": "Erruri: $1"
 }
