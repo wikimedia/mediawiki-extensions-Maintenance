@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Seipinne",
-			"Trondtr"
+			"Trondtr",
+			"Yupik"
 		]
 	},
 	"maintenance": "Poorgah paijeentoollâmskriptijd",
+	"maintenance-showCacheStats-pages": "Siijđoi meeri: $1",
 	"maintenance-showCacheStats-admins": "Haldâšeijeeh ohtsis: $1"
 }
