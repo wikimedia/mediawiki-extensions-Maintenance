@@ -6,7 +6,10 @@
 		]
 	},
 	"maintenance": "Esegui script di manutinzioni",
+	"maintenance-generic-done": "fattu",
 	"maintenance-generic-username": "Nomu utenti",
 	"maintenance-generic-reason": "Mutivu",
+	"maintenance-checkBadRedirects-output-footer": "Fattu.",
+	"maintenance-showCacheStats-edits": "Nùmmiru di canciamenti",
 	"maintenance-error": "Erruri: $1"
 }
