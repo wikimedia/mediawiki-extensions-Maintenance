@@ -11,5 +11,6 @@
 	"maintenance-generic-reason": "Mutivu",
 	"maintenance-checkBadRedirects-output-footer": "Fattu.",
 	"maintenance-showCacheStats-edits": "Nùmmiru di canciamenti",
-	"maintenance-error": "Erruri: $1"
+	"maintenance-error": "Erruri: $1",
+	"maintenance-memc-total": "tutali:"
 }
