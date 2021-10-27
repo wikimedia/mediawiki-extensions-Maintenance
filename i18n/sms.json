@@ -4,7 +4,10 @@
 			"Yupik"
 		]
 	},
+	"maintenance-generic-username": "Õõʹnninõmm",
 	"maintenance-generic-password": "Peittsääʹnn",
+	"maintenance-deleteBatch-option-u": "Õõʹnninõmm:",
+	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
 	"maintenance-error": "Vââʹǩǩ: $1"
 }
