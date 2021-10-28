@@ -6,8 +6,10 @@
 	},
 	"maintenance-generic-username": "Õõʹnninõmm",
 	"maintenance-generic-password": "Peittsääʹnn",
+	"maintenance-checkUsernames-error-notvalid": "Vââǥǥlaž õõʹnninõmm: \"$3\" (õõʹnni-ID $2)",
 	"maintenance-deleteBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
+	"maintenance-invalidname": "Vââǥǥlaž õõʹnninõmm!",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
 	"maintenance-error": "Vââʹǩǩ: $1"
 }
