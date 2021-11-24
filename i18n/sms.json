@@ -10,6 +10,8 @@
 	"maintenance-deleteBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-invalidname": "Vââǥǥlaž õõʹnninõmm!",
+	"maintenance-deleted": "JAUKKUUM",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
-	"maintenance-error": "Vââʹǩǩ: $1"
+	"maintenance-error": "Vââʹǩǩ: $1",
+	"maintenance-re-de": "Jaukkuum muttâz: $1"
 }
