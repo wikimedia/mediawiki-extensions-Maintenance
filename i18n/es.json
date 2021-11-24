@@ -15,7 +15,8 @@
 			"MarcoAurelio",
 			"Mor",
 			"Pertile",
-			"Translationista"
+			"Translationista",
+			"Jakeukalane"
 		]
 	},
 	"maintenance": "Ejecutar scripts de mantenimiento",
@@ -170,7 +171,7 @@
 	"maintenance-titlenoexist": "El título especificado («$1») no existe.",
 	"maintenance-failed": "FALLADO",
 	"maintenance-deleted": "BORRADO",
-	"maintenance-revdelete": "Borrando {{PLURAL:$3|revisión|revisiones}} $1 del wiki $2",
+	"maintenance-revdelete": "Borrando {{PLURAL:$3|revisión|revisiones}} $1 de la wiki $2",
 	"maintenance-revnotfound": "No se encontró la revisión $1.",
 	"maintenance-showCacheStats-edits": "Número de ediciones: $1",
 	"maintenance-showCacheStats-articles": "Número de páginas en el espacio de nombres principal: $1",
