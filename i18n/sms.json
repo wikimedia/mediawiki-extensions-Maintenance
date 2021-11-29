@@ -11,7 +11,9 @@
 	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-invalidname": "Vââǥǥlaž õõʹnninõmm!",
 	"maintenance-deleted": "JAUKKUUM",
+	"maintenance-showCacheStats-edits": "Muttâz ohttsa: $1",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
 	"maintenance-error": "Vââʹǩǩ: $1",
+	"maintenance-memc-total": "õhttsa:",
 	"maintenance-re-de": "Jaukkuum muttâz: $1"
 }
