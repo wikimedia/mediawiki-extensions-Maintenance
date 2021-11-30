@@ -29,5 +29,6 @@
 	"maintenance-showCacheStats-images": "Nùmmiru di file: $1",
 	"maintenance-updateArticleCount-output-done": "fattu.",
 	"maintenance-error": "Erruri: $1",
-	"maintenance-memc-total": "tutali:"
+	"maintenance-memc-total": "tutali:",
+	"maintenance-memc-invalid": "nun vàlidu:"
 }
