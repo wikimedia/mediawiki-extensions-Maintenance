@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Juanpabl"
+			"Juanpabl",
+			"Willtron"
 		]
 	},
+	"maintenance": "Executar scripts de mantenimiento",
 	"maintenance-option-confirm": "Confirmar"
 }

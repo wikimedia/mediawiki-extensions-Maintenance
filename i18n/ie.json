@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mithridates"
+			"Mithridates",
+			"Renan"
 		]
 	},
-	"maintenance": "Executer scrites de mantenentie"
+	"maintenance": "Executer scrites de mantenetion"
 }
