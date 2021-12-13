@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kosovastar",
-			"Liridon"
+			"Liridon",
+			"Besnik b"
 		]
 	},
-	"maintenance": "Lëshoje skriptën e mirëmbajtjes",
+	"maintenance": "Xhiro programthe mirëmbajtjeje",
 	"maintenance-initSiteStats-desc": "Rillogarit statistikat e faqes",
 	"maintenance-showCacheStats-desc": "Shfaq statistikat e Memcached"
 }

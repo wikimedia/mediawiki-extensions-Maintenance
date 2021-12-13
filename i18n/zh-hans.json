@@ -13,7 +13,8 @@
 			"Wrightbus",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Zazzzz"
+			"Zazzzz",
+			"Xiplus"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -100,7 +101,7 @@
 	"maintenance-checkUsernames-error-notvalid": "无效的用户名：“$3”（用户ID：$2）",
 	"maintenance-cleanupCaps": "使用此表单可以修复因修改$wgCapitalLinks导致的损坏页面",
 	"maintenance-cleanupCaps-desc": "清除大写的脚本",
-	"maintenance-cleanupCaps-option-namespace": "运行清理盖帽的名字空间数字",
+	"maintenance-cleanupCaps-option-namespace": "运行清理盖帽的命名空间数字",
 	"maintenance-cleanupCaps-output-islower": "“$1”已经是小写字母。",
 	"maintenance-cleanupCaps-output-clash": "“$1”被跳过；“$2”已存在",
 	"maintenance-cleanupCaps-output-dryrun": "“$1”->“$2”：试运行期间不会移动",
@@ -159,7 +160,7 @@
 	"maintenance-revdelete": "删除wiki$2上的{{PLURAL:$3|版本}}$1",
 	"maintenance-revnotfound": "版本$1没有找到！",
 	"maintenance-showCacheStats-edits": "编辑数：$1",
-	"maintenance-showCacheStats-articles": "主名字空间中的页面数：$1",
+	"maintenance-showCacheStats-articles": "主命名空间中的页面数：$1",
 	"maintenance-showCacheStats-pages": "页面数：$1",
 	"maintenance-showCacheStats-users": "用户数：$1",
 	"maintenance-showCacheStats-admins": "管理员数：$1",

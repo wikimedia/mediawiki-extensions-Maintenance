@@ -4,7 +4,8 @@
 			"Cainamarques",
 			"Eduardo Addad de Oliveira",
 			"Eduardo.mps",
-			"Luckas"
+			"Luckas",
+			"Eduardoaddad"
 		]
 	},
 	"maintenance": "Execute scripts de manutenção",
@@ -195,7 +196,7 @@
 	"maintenance-memc-invalid": "inválidos:",
 	"maintenance-memc-expired": "expirados:",
 	"maintenance-memc-absent": "ausentes:",
-	"maintenance-memc-stub": "limite de esboço:",
+	"maintenance-memc-stub": "limite de rascunho:",
 	"maintenance-memc-imagecache": "Cache de imagens",
 	"maintenance-memc-misses": "faltas:",
 	"maintenance-memc-updates": "atualizações:",

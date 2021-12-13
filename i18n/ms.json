@@ -13,6 +13,7 @@
 	"maintenance-option-confirm": "Sahkan",
 	"maintenance-option-required": "(wajib)",
 	"maintenance-option-optional": "(tidak wajib)",
+	"maintenance-clearInterwikiCache-desc": "Padamkan semua pautan antara wiki bagi semua bahasa dari cache",
 	"maintenance-failed": "GAGAL",
 	"maintenance-deleted": "DIHAPUSKAN"
 }

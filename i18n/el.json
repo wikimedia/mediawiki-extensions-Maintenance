@@ -7,12 +7,14 @@
 			"Nikosgranturismogt",
 			"Omnipaedista",
 			"Protnet",
-			"ZaDiak"
+			"ZaDiak",
+			"Giannaras99",
+			"NikosLikomitros"
 		]
 	},
 	"maintenance": "Εκτέλεση λειτουργιών συντήρησης",
 	"action-maintenance": "εκτελέσετε δέσμες ενεργειών συντήρησης",
-	"maintenance-error-invalidtype": "Μη έγκυρος τύπος!",
+	"maintenance-error-invalidtype": "Το σενάριο που καθορίστηκε δεν βρέθηκε",
 	"maintenance-generic-done": "έγινε",
 	"maintenance-generic-username": "Όνομα χρήστη",
 	"maintenance-generic-password": "Συνθηματικό",

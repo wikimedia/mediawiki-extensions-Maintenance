@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
-			"Leli Forte"
+			"Leli Forte",
+			"ToniSant"
 		]
 	},
 	"maintenance": "Esegwi l-iscripts ta' manutenzjoni",
@@ -20,6 +21,9 @@
 	"maintenance-checkImages-output-good": "Stampi tajbin: $1/$2",
 	"maintenance-checkSyntax": "Uża din il-formola sabiex tiċċekkja s-sintassi tal-fajls kollha tal-PHP f'MediaWiki",
 	"maintenance-checkSyntax-desc": "Tiċċekkja s-sintassi għal kull fajls PHP f'MediaWiki",
+	"maintenance-initSiteStats-option-update": "Aġġorna l-istatistika attwali",
+	"maintenance-initSiteStats-output-refreshstats": "Aġġorna l-istatistika tas-sit",
+	"maintenance-initSiteStats-output-updating": "L-istatistika tas-sit qed tiġi aġġornata...",
 	"maintenance-invalidtitle": "It-titlu \"$1\" huwa ħażin!",
 	"maintenance-titlenoexist": "It-titlu li tajt (\"$1\") ma jeżistix!",
 	"maintenance-failed": "FALLA",
