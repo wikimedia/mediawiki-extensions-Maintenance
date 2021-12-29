@@ -83,7 +83,7 @@
 	"maintenance-checkSyntax-error-nofile": "Błąd: nie można odnaleźć pliku lub katalogu $1",
 	"maintenance-checkSyntax-error-cantopen": "Nie można otworzyć pliku $1",
 	"maintenance-checkSyntax-error-svnerr": "Błąd pobierania listy z Subversion!",
-	"maintenance-checkUsernames": "Użyj tego formularza aby sprawdzić, które nazwy użytkowników są nieprawidłowe od momentu zmian konfiguracyjnych. Jeżeli nic nie zostanie pokazane po uruchomieniu tego skryptu, wszystkie nazwy użytkowników sa poprawne",
+	"maintenance-checkUsernames": "Użyj tego formularza aby sprawdzić, które nazwy użytkowników są nieprawidłowe od momentu zmian konfiguracyjnych. Jeżeli nic nie zostanie pokazane po uruchomieniu tego skryptu, wszystkie nazwy użytkowników są poprawne",
 	"maintenance-checkUsernames-desc": "Sprawdzenie, czy użytkownicy z bazy danych są rzeczywiście poprawni",
 	"maintenance-checkUsernames-error-notvalid": "Nieprawidłowa nazwa użytkownika: \"$3\" (id użytkownika $2)",
 	"maintenance-cleanupCaps": "Ten formularz służy do napraw zerwanie połączeń do stron spowodowane przez zmodyfikowanie $wgCapitalLinks",
