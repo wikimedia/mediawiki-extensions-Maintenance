@@ -14,6 +14,7 @@
 	"maintenance-option-optional": "(facultativu)",
 	"maintenance-changePassword-desc": "Cancia na password utenti",
 	"maintenance-checkBadRedirects-output-footer": "Fattu.",
+	"maintenance-checkImages-output-truncated": "$1: truncatu, era $2",
 	"maintenance-deleteBatch-option-u": "Nomu utenti:",
 	"maintenance-deleteBatch-option-r": "Mutivu dâ cancillazioni:",
 	"maintenance-deleteBatch-output-done": "fattu.",
