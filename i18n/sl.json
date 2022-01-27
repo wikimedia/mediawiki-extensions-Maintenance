@@ -7,6 +7,5 @@
 	},
 	"maintenance": "Zaženi vzdrževalne skripte",
 	"maintenance-generic-username": "Uporabniško ime",
-	"maintenance-generic-reason": "Razlog",
-	"maintenance-option-required": "(obvezno)"
+	"maintenance-generic-reason": "Razlog"
 }

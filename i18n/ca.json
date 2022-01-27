@@ -14,7 +14,6 @@
 	"maintenance-deleteBatch-option-r": "Motiu de la supressió:",
 	"maintenance-invalidname": "Nom d'usuari no vàlid!",
 	"maintenance-invalidtitle": "El títol «$1» no és vàlid.",
-	"maintenance-deleted": "ELIMINAT",
 	"maintenance-showCacheStats-edits": "Nombre d'edicions: $1",
 	"maintenance-showCacheStats-pages": "Nombre de pàgines: $1",
 	"maintenance-showCacheStats-users": "Nombre d'usuaris: $1"

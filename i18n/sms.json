@@ -6,16 +6,13 @@
 	},
 	"maintenance-generic-username": "Õõʹnninõmm",
 	"maintenance-generic-password": "Peittsääʹnn",
-	"maintenance-option-optional": "(vaʹlljeemnallšem)",
 	"maintenance-checkUsernames-error-notvalid": "Vââǥǥlaž õõʹnninõmm: \"$3\" (õõʹnni-ID $2)",
 	"maintenance-deleteBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-invalidname": "Vââǥǥlaž õõʹnninõmm!",
 	"maintenance-failed": "IJ OʹNNSTAM",
-	"maintenance-deleted": "JAUKKUUM",
 	"maintenance-showCacheStats-edits": "Muttâz ohttsa: $1",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
 	"maintenance-error": "Vââʹǩǩ: $1",
-	"maintenance-memc-total": "õhttsa:",
 	"maintenance-re-de": "Jaukkuum muttâz: $1"
 }

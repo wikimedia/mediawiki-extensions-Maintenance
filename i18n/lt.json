@@ -12,17 +12,13 @@
 	"maintenance-generic-password": "Slaptažodis",
 	"maintenance-generic-reason": "Priežastis",
 	"maintenance-option-confirm": "Patvirtinti",
-	"maintenance-option-required": "(privaloma)",
-	"maintenance-option-optional": "(nebūtinas)",
 	"maintenance-checkBadRedirects-output-footer": "\nAtlikta.",
 	"maintenance-cleanupSpam-output-blanking": "panaikinta",
 	"maintenance-invalidname": "Negalimas vartotojo vardas!",
 	"maintenance-userexists": "Vartotojas jau egzistuoja!",
 	"maintenance-failed": "NEPAVYKO",
-	"maintenance-deleted": "IŠTRINTA",
 	"maintenance-error": "Klaida: $1",
 	"maintenance-memc-requests": "Prašymai",
-	"maintenance-memc-total": "iš viso:",
 	"maintenance-memc-invalid": "netinkamas:",
 	"maintenance-memc-expired": "baigiasi:"
 }

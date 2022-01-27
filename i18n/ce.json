@@ -16,12 +16,10 @@
 	"maintenance-cleanupSpam-output-blanking": "цӀанъяр",
 	"maintenance-deleteBatch-desc": "Дукха агӀонаш дӀайахар",
 	"maintenance-showCacheStats-desc": "Гайта Memcached статистика",
-	"maintenance-deleted": "ДӀАЙАЬККХИНА",
 	"maintenance-revnotfound": "АгӀонан $1 верси цакарий!",
 	"maintenance-showCacheStats-edits": "Нисдарийн дукхалла: $1",
 	"maintenance-showCacheStats-update": "Хааман база керлаяккхар...",
 	"maintenance-memc-requests": "Хаттарш",
-	"maintenance-memc-total": "йерриге:",
 	"maintenance-memc-imagecache": "Суьртан кэш",
 	"maintenance-re-ce": "Карара нисдарш: $1",
 	"maintenance-re-de": "ДӀадяхна нийсдарш: $1"

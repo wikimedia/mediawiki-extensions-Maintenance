@@ -10,7 +10,5 @@
 	"maintenance": "Ἐκτέλεση ἐργασιῶν συντηρήσεως",
 	"maintenance-option-confirm": "Κυροῦν",
 	"maintenance-failed": "ΑΠΕΤΕΥΧΘΗ",
-	"maintenance-deleted": "ΔΙΕΓΡΑΦΗ",
-	"maintenance-memc-requests": "Αἰτήσεις",
-	"maintenance-memc-total": "συνολικόν:"
+	"maintenance-memc-requests": "Αἰτήσεις"
 }

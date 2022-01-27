@@ -10,6 +10,5 @@
 	"maintenance-userexists": "Ҡатнашыусы бар инде!",
 	"maintenance-invalidtitle": "Хаталы исем \"$1\"!",
 	"maintenance-titlenoexist": "Күрһәтелгән исем (\"$1\") юҡ!",
-	"maintenance-failed": "УҢЫШҺЫҘ!",
-	"maintenance-deleted": "ЮЙЫЛДЫ"
+	"maintenance-failed": "УҢЫШҺЫҘ!"
 }

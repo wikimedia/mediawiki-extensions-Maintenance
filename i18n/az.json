@@ -13,7 +13,5 @@
 	"maintenance-generic-reason": "Səbəb",
 	"maintenance-option-confirm": "Təsdiq et",
 	"maintenance-checkBadRedirects-output-footer": "\nOldu.",
-	"maintenance-deleted": "SİLİNİB",
-	"maintenance-error": "Xəta: $1",
-	"maintenance-memc-total": "ümumi:"
+	"maintenance-error": "Xəta: $1"
 }

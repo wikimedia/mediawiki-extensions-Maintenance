@@ -9,11 +9,8 @@
 	"maintenance-option-confirm": "Vahvištoitta",
 	"maintenance-invalidname": "Vär kävutajannimi!",
 	"maintenance-failed": "ONETOMAŠTI",
-	"maintenance-deleted": "ČUTUD POIŠ",
 	"maintenance-error": "Petuz: $1",
-	"maintenance-memc-total": "kaiked:",
 	"maintenance-memc-parsercache": "Parseran keš",
-	"maintenance-memc-hits": "kacundoid:",
 	"maintenance-memc-invalid": "värid:",
 	"maintenance-memc-expired": "männuden lopstrokanke:",
 	"maintenance-memc-absent": "ei ole:"

@@ -8,13 +8,11 @@
 	},
 	"maintenance-generic-username": "Tequitiuhcatocaitl",
 	"maintenance-invalidtitle": "¡Ahcualli tōcāitl \"$1\"!",
-	"maintenance-deleted": "TLAPOLOC",
 	"maintenance-showCacheStats-edits": "Tlapatlaliztli tlapōhualli: $1",
 	"maintenance-showCacheStats-articles": "Zāzanilli huēyi tōcātzimpan in ītlapōhual: $1",
 	"maintenance-showCacheStats-pages": "Zāzanilli tlapōhualli: $1",
 	"maintenance-showCacheStats-users": "Tlatequitiltilīlli tlapōhualli: $1",
 	"maintenance-showCacheStats-images": "Tlahcuilōlli tlapōhualli: $1",
 	"maintenance-move": "Mozacacah $1 īhuīc $2{{int:ellipsis}}",
-	"maintenance-memc-total": "mochīntīn:",
 	"maintenance-memc-expired": "ōmotlami:"
 }

@@ -10,7 +10,6 @@
 	"maintenance-generic-username": "Meidochnamme",
 	"maintenance-generic-password": "Wachtwurd",
 	"maintenance-generic-reason": "Reden",
-	"maintenance-option-optional": "(opsjoneel)",
 	"maintenance-cleanupSpam-output-blanking": "leechmeitsjen",
 	"maintenance-error": "Flater: $1"
 }
