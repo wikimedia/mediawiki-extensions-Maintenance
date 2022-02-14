@@ -153,6 +153,7 @@
 	"maintenance-deleteBatch-option-i": "Amount of seconds to wait between page moves. Refer to PHP's documentation for the [http://php.net/manual/en/function.sleep.php <code>sleep()</code> function] for details.",
 	"maintenance-deleteBatch-option-listfile": "Label text for the textarea where the user can supply the names of pages to be deleted",
 	"maintenance-deleteBatch-output-done": "Used as message on maintenane script",
+	"maintenance-deleteBatch-error-invalid": "Error message thrown by the [[mw:Manual:deleteBatch.php|deleteBatch]] maintenance script when no user name was supplied or the supplied user name is not a valid MediaWiki user name at all",
 	"maintenance-deleteDefaultMessages": "Description of what the [[mw:Manual:deleteDefaultMessages.php|deleteDefaultMessages]] maintenance script does, similar to the <code>maintenance-deleteDefaultMessages-desc</code> message, except this message is shown on <code>Special:Maintenance/deleteDefaultMessages</code>, when the user is prompted to confirm the script options",
 	"maintenance-deleteDefaultMessages-desc": "Description of what the [[mw:Manual:deleteDefaultMessages.php|deleteDefaultMessages]] maintenance script does, shown on the main <code>Special:Maintenance</code> page",
 	"maintenance-deleteRevision": "Description for a maintenance script",

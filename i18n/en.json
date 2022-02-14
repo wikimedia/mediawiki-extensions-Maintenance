@@ -138,6 +138,7 @@
 	"maintenance-deleteBatch-option-i": "Interval to sleep between deletions",
 	"maintenance-deleteBatch-option-listfile": "Newline-separated list of pages to delete",
 	"maintenance-deleteBatch-output-done": "done.",
+	"maintenance-deleteBatch-error-invalid": "Invalid username",
 	"maintenance-deleteDefaultMessages": "Press the button to confirm the deletion (warning: this may take a while)",
 	"maintenance-deleteDefaultMessages-desc": "Deletes all pages in the MediaWiki namespace which were last edited by \"MediaWiki default\"",
 	"maintenance-deleteRevision": "Use this form to mass-delete revisions. Put only one revision number per line",

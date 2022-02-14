@@ -31,6 +31,7 @@ class SpecialMaintenance extends SpecialPage {
 	public function execute( $par ) {
 		$user = $this->getUser();
 		$out = $this->getOutput();
+
 		# If user is blocked, s/he doesn't need to access this page
 		if ( $user->getBlock() ) {
 			throw new UserBlockedError( $user->getBlock() );
@@ -49,6 +50,7 @@ class SpecialMaintenance extends SpecialPage {
 		if ( $this->metadata === false ) {
 			throw new ErrorPageError( 'error', 'maintenance-error-badini' );
 		}
+
 		$this->scripts = array_keys( $this->metadata );
 		$valid = $this->parseMetadata(); // parses the metadata ini and validates it
 		if ( !$valid ) {
@@ -221,16 +223,13 @@ class SpecialMaintenance extends SpecialPage {
 			}
 
 			public function cleanupChanneled() {
-				global $wgOut;
 				if ( !$this->atLineStart ) {
-					$wgOut->addHTML( "\n" );
+					$this->mSpecialMaintenance->getOutput()->addHTML( "\n" );
 					$this->atLineStart = true;
 				}
 			}
 
 			public function outputChanneled( $msg, $channel = null ) {
-				global $wgOut;
-
 				if ( $msg === false ) {
 					// For cleanup
 					$this->cleanupChanneled();
@@ -239,7 +238,7 @@ class SpecialMaintenance extends SpecialPage {
 
 				// End the current line if necessary
 				if ( !$this->atLineStart && $channel !== $this->lastChannel ) {
-					$wgOut->addHTML( "\n" );
+					$this->mSpecialMaintenance->getOutput()->addHTML( "\n" );
 				}
 
 				//look up $msg for l10n, treat as plaintext
@@ -248,7 +247,7 @@ class SpecialMaintenance extends SpecialPage {
 				$this->atLineStart = false;
 				if ( $channel === null ) {
 					// For unchanneled messages, output trailing newline immediately
-					$wgOut->addHTML( "\n" );
+					$this->mSpecialMaintenance->getOutput()->addHTML( "\n" );
 					$this->atLineStart = true;
 				}
 				$this->lastChannel = $channel;
@@ -263,19 +262,24 @@ class SpecialMaintenance extends SpecialPage {
 				if( $die ) throw new SpecialMaintenanceException();
 			}
 
+			protected function fatalError( $msg, $exitCode = 1 ) {
+				$this->error( $msg );
+				throw new SpecialMaintenanceException();
+			}
+
 			//$type is either "output" or "error"
 			private function output_i18n( $msg, $type ) {
-				global $wgOut;
-
 				$found = false;
 				$metadata = $this->mSpecialMaintenance->getMetadata();
 				$script = $this->mSpecialMaintenance->getType();
 				foreach( $metadata[$script][$type] as $a ) {
 					if( $a["type"] == "string" ) {
 						if( trim( $msg ) == $a["match"] ) {
-							$wgOut->addHTML( wfMessage( "maintenance-$script-$type-" . $a["name"] )->escaped() );
+							$this->mSpecialMaintenance->getOutput()->addHTML(
+								$this->mSpecialMaintenance->msg( "maintenance-$script-$type-" . $a["name"] )->escaped()
+							);
 							if( $type == "error" ) {
-								$wgOut->addHTML( "\n" );
+								$this->mSpecialMaintenance->getOutput()->addHTML( "\n" );
 							}
 							$found = true;
 							break;
@@ -285,9 +289,11 @@ class SpecialMaintenance extends SpecialPage {
 						if( preg_match( "/^" . $a["match"] . "\$/", trim( $msg ), $matches ) ) {
 							//$matches contains the respective $1, $2, $3, $4, etc. in order once we take out the first match
 							array_shift( $matches );
-							$wgOut->addHTML( wfMessage( "maintenance-$script-$type-" . $a["name"], $matches )->escaped() );
+							$this->mSpecialMaintenance->getOutput()->addHTML(
+								$this->mSpecialMaintenance->msg( "maintenance-$script-$type-" . $a["name"], $matches )->escaped()
+							);
 							if( $type == "error" ) {
-								$wgOut->addHTML( "\n" );
+								$this->mSpecialMaintenance->getOutput()->addHTML( "\n" );
 							}
 							$found = true;
 							break;
@@ -296,9 +302,9 @@ class SpecialMaintenance extends SpecialPage {
 				}
 				//not found, so just output it raw
 				if( !$found ) {
-					$wgOut->addHTML( htmlspecialchars( $msg ) );
+					$this->mSpecialMaintenance->getOutput()->addHTML( htmlspecialchars( $msg ) );
 					if( $type == "error" ) {
-						$wgOut->addHTML( "\n" );
+						$this->mSpecialMaintenance->getOutput()->addHTML( "\n" );
 					}
 				}
 			}
@@ -327,8 +333,7 @@ class SpecialMaintenance extends SpecialPage {
 
 			public function globals() {
 				if( $this->hasOption( "globals" ) ) {
-					global $wgOut;
-					$wgOut->addHTML( htmlspecialchars( print_r( $GLOBALS, true ) ) );
+					$this->mSpecialMaintenance->getOutput()->addHTML( htmlspecialchars( print_r( $GLOBALS, true ) ) );
 				}
 			}
 
