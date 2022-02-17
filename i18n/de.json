@@ -132,6 +132,7 @@
 	"maintenance-deleteBatch-option-i": "Zeitspanne zwischen den Löschvorgängen",
 	"maintenance-deleteBatch-option-listfile": "Zeilenumbruchgetrennte Liste von zu löschenden Seiten",
 	"maintenance-deleteBatch-output-done": "Fertig.",
+	"maintenance-deleteBatch-error-invalid": "Ungültiger Benutzername",
 	"maintenance-deleteDefaultMessages": "Klicke auf die Schaltfläche, um die Löschung zu bestätigen (Warnung: Dies kann eine Weile dauern).",
 	"maintenance-deleteDefaultMessages-desc": "Löscht alle Seiten im MediaWiki-Namensraum, die zuletzt von „MediaWiki default“ bearbeitet wurden.",
 	"maintenance-deleteRevision": "Diese Maske verwenden, um viele Versionen gleichzeitig zu löschen.\nNur eine Versionsnummer je Zeile angeben.",
