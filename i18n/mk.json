@@ -118,6 +118,7 @@
 	"maintenance-deleteBatch-option-i": "Интервал на мирување помеѓу бришења",
 	"maintenance-deleteBatch-option-listfile": "Список на страници за бришење, секоја во нов ред",
 	"maintenance-deleteBatch-output-done": "готово.",
+	"maintenance-deleteBatch-error-invalid": "Неважечко корисничко име",
 	"maintenance-deleteDefaultMessages": "Стиснете на копчето за да го потврдите бришењето (предупредување: ова може да потрае)",
 	"maintenance-deleteDefaultMessages-desc": "Ги брише сите страници во именскиот простор „МедијаВики“ со последно уредување од „МедијаВики по посновно“",
 	"maintenance-deleteRevision": "Овој образец служи за групно бришење на преработки.\nВнесувајте само по еден број на преработка во секој ред",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Aotake",
 			"Fryed-peach",
+			"MathXplore",
 			"Ohgi",
 			"Otokoume",
 			"Shirayuki"
@@ -94,6 +95,7 @@
 	"maintenance-createAndPromote-error-password": "入力したパスワードでエラーが発生しました: $1",
 	"maintenance-deleteBatch": "このフォームを使用してページを一括削除する。各行に 1 ページのみ記述",
 	"maintenance-deleteBatch-desc": "ページを一括削除する",
+	"maintenance-deleteBatch-error-invalid": "無効な利用者名",
 	"maintenance-deleteRevision": "このフォームを使用して版を一括削除する。各行に 1 版のみ記述",
 	"maintenance-deleteRevision-desc": "データベースから版を削除する",
 	"maintenance-initEditCount-desc": "利用者の編集回数を再計算する",

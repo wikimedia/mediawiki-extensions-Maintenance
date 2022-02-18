@@ -117,6 +117,7 @@
 	"maintenance-deleteBatch-desc": "Cancella pagine in blocco",
 	"maintenance-deleteBatch-option-u": "Nome utente:",
 	"maintenance-deleteBatch-option-r": "Motivo della cancellazione:",
+	"maintenance-deleteBatch-error-invalid": "Nome utente non valido",
 	"maintenance-deleteRevision": "Usa questo modulo per cancellare versioni in blocco.\nIndica solo un numero di versione per riga",
 	"maintenance-deleteRevision-desc": "Rimuovi versioni dal database",
 	"maintenance-initEditCount-desc": "Ricalcola il conteggio degli edit degli utenti",

@@ -10,6 +10,7 @@
 			"Lockal",
 			"Okras",
 			"Putnik",
+			"Tanzun",
 			"Vlad5250",
 			"Volkov",
 			"Александр Сигачёв"
@@ -125,6 +126,7 @@
 	"maintenance-deleteBatch-option-i": "Интервал задержки между удалениями",
 	"maintenance-deleteBatch-option-listfile": "Список страниц для удаления, каждая в новой строке",
 	"maintenance-deleteBatch-output-done": "готово.",
+	"maintenance-deleteBatch-error-invalid": "Неверное имя пользователя",
 	"maintenance-deleteDefaultMessages": "Нажмите кнопку, чтобы подтвердить удаление (предупреждение: это может занять время)",
 	"maintenance-deleteDefaultMessages-desc": "Удаляет все страницы в пространстве «MediaWiki» с последней правкой от «MediaWiki по умолчанию»",
 	"maintenance-deleteRevision": "Используйте эту форму для массового удаления версий страниц.\nНа одной строке должен быть только один номер версии страницы",

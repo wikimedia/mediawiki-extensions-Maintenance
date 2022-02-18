@@ -80,6 +80,7 @@
 	"maintenance-deleteBatch-option-u": "Benotzernumm:",
 	"maintenance-deleteBatch-option-r": "Grond fir ze läschen:",
 	"maintenance-deleteBatch-output-done": "fäerdeg.",
+	"maintenance-deleteBatch-error-invalid": "Ongëltege Benotzernumm",
 	"maintenance-deleteRevision": "Benotzt dëse Formulaire fir vill Versioune mateneen ze läschen.\nSchreift an all Linn just eng Versioun.",
 	"maintenance-deleteRevision-desc": "Versiounen aus der Datebank eraushuelen",
 	"maintenance-initEditCount-desc": "D'Compteuren vun den Ännerunge vun de Benotzer nei berechnen",
