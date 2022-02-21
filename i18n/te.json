@@ -17,6 +17,7 @@
 	"maintenance-benchmarkPurge-output-trial": "$2ms లో $1 {{PLURAL:$1|శీర్షిక|శీర్షికలు}} (ఒక్కోటి $3ms)",
 	"maintenance-changePassword-desc": "వాడుకరి సంకేతపదం మార్చండి",
 	"maintenance-checkBadRedirects-output-footer": "పూర్తయింది.",
+	"maintenance-deleteBatch-error-invalid": "చెల్లని వాడుకరిపేరు",
 	"maintenance-initEditCount-desc": "వాడుకరులు మార్పుల సంఖ్యను మళ్లీ లెక్కించు",
 	"maintenance-initSiteStats-desc": "సైటు గణాంకాలని మళ్ళీ లెక్కించు",
 	"maintenance-invalidname": "తప్పుడు వాడుకరిపేరు!",

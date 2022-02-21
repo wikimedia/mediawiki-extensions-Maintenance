@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Malikxan",
 			"Sociologist"
 		]
 	},
-	"maintenance-generic-reason": "Sabab"
+	"maintenance-generic-reason": "Sabab",
+	"maintenance-deleteBatch-error-invalid": "Yaroqsiz foydalanuvchi nomi"
 }

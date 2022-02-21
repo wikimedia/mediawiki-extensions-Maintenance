@@ -5,7 +5,8 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardo.mps",
 			"Eduardoaddad",
-			"Luckas"
+			"Luckas",
+			"TheEduGobi"
 		]
 	},
 	"maintenance": "Execute scripts de manutenção",
@@ -119,6 +120,7 @@
 	"maintenance-deleteBatch-option-i": "Intervalo de repouso entre eliminações",
 	"maintenance-deleteBatch-option-listfile": "Lista separada por novas linhas de páginas a serem excluídas",
 	"maintenance-deleteBatch-output-done": "feito.",
+	"maintenance-deleteBatch-error-invalid": "Nome de usuário inválido",
 	"maintenance-deleteDefaultMessages": "Pressione o botão para confirmar a eliminação (aviso: pode demorar algum tempo)",
 	"maintenance-deleteDefaultMessages-desc": "Elimina todas as páginas do espaço nominal MediaWiki cujo último editor foi \"MediaWiki default\"",
 	"maintenance-deleteRevision": "Utilize este formulário para eliminar revisões em massa.\nColoque apenas um número de revisão por linha",

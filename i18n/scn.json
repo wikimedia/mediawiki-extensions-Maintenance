@@ -17,6 +17,7 @@
 	"maintenance-deleteBatch-option-u": "Nomu utenti:",
 	"maintenance-deleteBatch-option-r": "Mutivu dâ cancillazioni:",
 	"maintenance-deleteBatch-output-done": "fattu.",
+	"maintenance-deleteBatch-error-invalid": "Nomu utenti nun vàlidu",
 	"maintenance-initSiteStats-output-done": "fattu.",
 	"maintenance-moveBatch-option-u": "Nomu utenti:",
 	"maintenance-invalidname": "Nomu utenti nun vàlidu!",

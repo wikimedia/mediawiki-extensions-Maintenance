@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Guycn2",
+			"N100a",
 			"Rotemliss",
 			"Strayblues",
 			"YaronSh",
@@ -71,6 +72,7 @@
 	"maintenance-deleteBatch-option-u": "שם משתמש:",
 	"maintenance-deleteBatch-option-r": "סיבת המחיקה:",
 	"maintenance-deleteBatch-output-done": "בוצע.",
+	"maintenance-deleteBatch-error-invalid": "שם משתמש לא תקין",
 	"maintenance-deleteRevision": "השתמשו בטופס זה למחיקה המונית של גרסאות.\nכתבו מספר גרסה אחד בכל שורה",
 	"maintenance-deleteRevision-desc": "הסרת גרסאות ממסד הנתונים",
 	"maintenance-initEditCount-desc": "חישוב מחדש של מספר העריכות שביצע כל משתמש",
