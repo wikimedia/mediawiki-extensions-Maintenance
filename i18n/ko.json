@@ -117,6 +117,7 @@
 	"maintenance-deleteBatch-desc": "문서 대량 삭제",
 	"maintenance-deleteBatch-option-u": "사용자 이름:",
 	"maintenance-deleteBatch-option-r": "삭제 이유:",
+	"maintenance-deleteBatch-error-invalid": "올바르지 않은 사용자 이름",
 	"maintenance-deleteDefaultMessages": "삭제를 확인하려면 버튼을 누르십시오 (경고: 시간이 오래 걸릴 수 있습니다)",
 	"maintenance-deleteDefaultMessages-desc": "\"MediaWiki default\"에 의해 마지막으로 편집된 미디어위키 이름공간의 모든 문서를 삭제합니다",
 	"maintenance-deleteRevision": "이 양식을 사용하여 판을 대량 삭제하세요. 한 줄에 한 판만 넣으세요",
