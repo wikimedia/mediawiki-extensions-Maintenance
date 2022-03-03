@@ -127,6 +127,7 @@
 	"maintenance-deleteBatch-option-u": "Nombre de usuario:",
 	"maintenance-deleteBatch-option-listfile": "Lista de páginas que borrar, una por renglón",
 	"maintenance-deleteBatch-output-done": "hecho.",
+	"maintenance-deleteBatch-error-invalid": "Nombre de usuario no válido",
 	"maintenance-deleteDefaultMessages": "Presiona el botón para confirmar la eliminación (advertencia: esto puede tardar un rato)",
 	"maintenance-deleteRevision": "Usar este formulario para borrado masivo de revisiones.\nColoque solamente un número de revisión por línea",
 	"maintenance-deleteRevision-desc": "Quitar las revisiones de la base de datos",
