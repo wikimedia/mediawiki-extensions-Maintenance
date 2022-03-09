@@ -5,6 +5,7 @@
 			"Erdemaslancan",
 			"Karduelis",
 			"MuratTheTurkish",
+			"SaldırganSincap",
 			"Suelnur",
 			"ToprakM",
 			"Vito Genovese"
@@ -121,6 +122,7 @@
 	"maintenance-deleteBatch-option-i": "Silme işlemleri arasında uyku aralığı",
 	"maintenance-deleteBatch-option-listfile": "Silinecek satır satırıyla ayrılmış sayfa listesi",
 	"maintenance-deleteBatch-output-done": "yapıldı.",
+	"maintenance-deleteBatch-error-invalid": "Geçersiz kullanıcı adı",
 	"maintenance-deleteDefaultMessages": "Silme işlemini onaylamak için düğmeye basın (uyarı: bu biraz zaman alabilir)",
 	"maintenance-deleteDefaultMessages-desc": "MediaWiki ad alanındaki en son \"MediaWiki varsayılanı\" tarafından düzenlenen tüm sayfaları siler",
 	"maintenance-deleteRevision": "Düzeltmeleri toplu olarak silmek için bu formu kullanın. Her satıra yalnızca bir düzeltme numarası koyun",
