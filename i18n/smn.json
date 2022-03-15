@@ -7,7 +7,10 @@
 		]
 	},
 	"maintenance": "Poorgah paijeentoollâmskriptijd",
+	"maintenance-generic-username": "Kevtteenommâ",
 	"maintenance-generic-reason": "Suijâ",
+	"maintenance-deleteBatch-option-u": "Kevtteenommâ:",
+	"maintenance-moveBatch-option-u": "Kevtteenommâ:",
 	"maintenance-showCacheStats-pages": "Siijđoi meeri: $1",
 	"maintenance-showCacheStats-admins": "Haldâšeijeeh ohtsis: $1"
 }
