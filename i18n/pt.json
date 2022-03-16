@@ -123,6 +123,7 @@
 	"maintenance-deleteBatch-option-i": "Intervalo de repouso entre eliminações",
 	"maintenance-deleteBatch-option-listfile": "Lista de páginas a eliminar, separadas por novas linhas",
 	"maintenance-deleteBatch-output-done": "done.",
+	"maintenance-deleteBatch-error-invalid": "Nome de utilizador inválido",
 	"maintenance-deleteDefaultMessages": "Pressione o botão para confirmar a eliminação (aviso: pode demorar algum tempo)",
 	"maintenance-deleteDefaultMessages-desc": "Elimina todas as páginas do espaço nominal MediaWiki cujo último editor foi \"MediaWiki default\"",
 	"maintenance-deleteRevision": "Utilize este formulário para eliminação em massa de revisões. Coloque apenas um número de revisão por linha.",
