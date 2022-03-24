@@ -111,7 +111,7 @@
 	"maintenance-cleanupSpam-error-invalid": "مشخصات نام گروه معتبر نیست: $1",
 	"maintenance-cleanupSpam-error-noid": "خطای داخلی: هیچ صفحه‌ای برای شناسهٔ $1 نیست",
 	"maintenance-clearInterwikiCache": "استفاده از این فرم برای پاک کردن کامل ذخیره‌گاه ویکی داخلی",
-	"maintenance-clearInterwikiCache-desc": "پاک‌کردن همهٔ پیوندهای ویکی داخلی برای همهٔ زبان‌ها از کاشه",
+	"maintenance-clearInterwikiCache-desc": "پاک‌کردن همهٔ پیوندهای میان‌ویکی برای همهٔ زبان‌ها از کاشه",
 	"maintenance-createAndPromote": "استفاده از این فرم برای ایجاد یک کاربر جدید و ارتقاء آن به مدیر. اگر مایل به ارتقاء به دیوان‌سالار به خوبی هستید، جعبهٔ دیوان‌سالار را بررسی کنید",
 	"maintenance-createAndPromote-desc": "ایجاد یک کاربر و ارتقاء دادن به وضعیت سرپرست",
 	"maintenance-createAndPromote-option-bureaucrat": "ارتقاء کاربر برای وضعیت دیوان‌سالار",
