@@ -10,7 +10,8 @@
 			"Reza1615",
 			"Sahim",
 			"پاناروما",
-			"Jeeputer"
+			"Jeeputer",
+			"Beginneruser"
 		]
 	},
 	"maintenance": "اجرای متون حفاظت",
@@ -112,10 +113,10 @@
 	"maintenance-cleanupSpam-error-invalid": "مشخصات نام گروه معتبر نیست: $1",
 	"maintenance-cleanupSpam-error-noid": "خطای داخلی: هیچ صفحه‌ای برای شناسهٔ $1 نیست",
 	"maintenance-clearInterwikiCache": "استفاده از این فرم برای پاک کردن کامل ذخیره‌گاه ویکی داخلی",
-	"maintenance-clearInterwikiCache-desc": "پاک‌کردن همهٔ پیوندهای ویکی داخلی برای همهٔ زبان‌ها از کاشه",
-	"maintenance-createAndPromote": "استفاده از این فرم برای ایجاد یک کاربر جدید و ارتقاء آن به سرپرست. اگر مایل به ارتقاء به مأمور دولتی به خوبی هستید، جعبهٔ مأمور دولتی را بررسی کنید",
+	"maintenance-clearInterwikiCache-desc": "پاک‌کردن همهٔ پیوندهای میان‌ویکی برای همهٔ زبان‌ها از کاشه",
+	"maintenance-createAndPromote": "استفاده از این فرم برای ایجاد یک کاربر جدید و ارتقاء آن به مدیر. اگر مایل به ارتقاء به دیوان‌سالار به خوبی هستید، جعبهٔ دیوان‌سالار را بررسی کنید",
 	"maintenance-createAndPromote-desc": "ایجاد یک کاربر و ارتقاء دادن به وضعیت سرپرست",
-	"maintenance-createAndPromote-option-bureaucrat": "ارتقاء کاربر برای وضعیت بوروکرات",
+	"maintenance-createAndPromote-option-bureaucrat": "ارتقاء کاربر برای وضعیت دیوان‌سالار",
 	"maintenance-createAndPromote-output-creating": "ایجاد و ارتقاء {{ns:کاربر}}:$2...",
 	"maintenance-createAndPromote-error-password": "رمز عبوری که وارد کردید با خطایی مواجه شد: $1",
 	"maintenance-deleteBatch": "استفاده از این فرم برای حذف تودهٔ صفحات. فقط یک صفحه در هر خط بگدارید",
