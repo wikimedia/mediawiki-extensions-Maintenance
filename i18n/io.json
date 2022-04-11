@@ -11,6 +11,7 @@
 	"maintenance-checkBadRedirects-output-footer": "Facita.",
 	"maintenance-deleteBatch-desc": "Pagini efacita masive",
 	"maintenance-deleted": "EFACITA",
+	"maintenance-showCacheStats-edits": "Quanto di redakturi: $1",
 	"maintenance-showCacheStats-images": "Quanto di arkivi: $1",
 	"maintenance-memc-requests": "Demandi",
 	"maintenance-re-ce": "Nuna redakturi: $1"
