@@ -30,7 +30,7 @@
 	"maintenance-generic-done": "terminé",
 	"maintenance-generic-username": "Nom d’utilisateur",
 	"maintenance-generic-password": "Mot de passe",
-	"maintenance-generic-reason": "Raison",
+	"maintenance-generic-reason": "Motif",
 	"maintenance-cleanupTable-dry-run": "Effectuer un passage sans modifier la base de données",
 	"maintenance-cleanupTable-check": "Vérification des mauvais titres...",
 	"maintenance-cleanupTable-checkfix": "Vérification et correction des mauvais titres...",
