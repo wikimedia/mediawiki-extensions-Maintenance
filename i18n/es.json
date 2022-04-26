@@ -16,7 +16,8 @@
 			"Mor",
 			"Pertile",
 			"Translationista",
-			"Jakeukalane"
+			"Jakeukalane",
+			"DiegoAmbrocio"
 		]
 	},
 	"maintenance": "Ejecutar scripts de mantenimiento",
@@ -139,6 +140,8 @@
 	"maintenance-initSiteStats-option-active": "También actualizar el conteo de usuarios activos",
 	"maintenance-initSiteStats-option-use-master": "Contar utilizando la base de datos maestra",
 	"maintenance-initSiteStats-output-refreshstats": "Actualizar estadísticas del sitio",
+	"maintenance-initSiteStats-output-countingtotaledits": "Contando el total de ediciones...",
+	"maintenance-initSiteStats-output-countingactiveusers": "Contando usuarios activos...",
 	"maintenance-initSiteStats-output-updating": "Actualizando estadísticas del sitio…",
 	"maintenance-initSiteStats-output-done": "hecho.",
 	"maintenance-moveBatch": "Use este formulario para trasladar páginas en masa. Cada línea debe especificar una página fuente y página destino separadas por una barra (“|”)",
