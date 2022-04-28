@@ -7,8 +7,9 @@
 		]
 	},
 	"maintenance": "مينٽيننس اسڪرپٽس ھلايو",
-	"maintenance-generic-username": "واپرائيندڙ-نانءُ",
+	"maintenance-generic-username": "واپرائيندڙنانءُ",
 	"maintenance-option-confirm": "پڪ ڪريو",
+	"maintenance-cleanupSpam-output-blanking": "خالي ڪرڻ",
 	"maintenance-deleteBatch-desc": "صفحن جي ججھي-ڊاھ",
 	"maintenance-moveBatch-desc": "جهجها-چوريل صفحا",
 	"maintenance-showCacheStats-edits": "سنوارن جو انگ: $1",
