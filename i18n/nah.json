@@ -3,12 +3,13 @@
 		"authors": [
 			"Akapochtli",
 			"Fluence",
-			"Ricardo gs"
+			"Ricardo gs",
+			"Languaeditor"
 		]
 	},
 	"maintenance-generic-username": "Tequitiuhcatocaitl",
 	"maintenance-invalidtitle": "¡Ahcualli tōcāitl \"$1\"!",
-	"maintenance-showCacheStats-edits": "Tlapatlaliztli tlapōhualli: $1",
+	"maintenance-showCacheStats-edits": "Tlapatlalistli tlapowalli: $1",
 	"maintenance-showCacheStats-articles": "Zāzanilli huēyi tōcātzimpan in ītlapōhual: $1",
 	"maintenance-showCacheStats-pages": "Zāzanilli tlapōhualli: $1",
 	"maintenance-showCacheStats-users": "Tlatequitiltilīlli tlapōhualli: $1",

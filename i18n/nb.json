@@ -117,6 +117,7 @@
 	"maintenance-deleteBatch-option-i": "Intervall det skal soves mellom slettinger",
 	"maintenance-deleteBatch-option-listfile": "Linjeskiftatskilt liste over sider som skal slettes",
 	"maintenance-deleteBatch-output-done": "ferdig.",
+	"maintenance-deleteBatch-error-invalid": "Ugyldig brukernavn",
 	"maintenance-deleteDefaultMessages": "Trykk på knappen for å bekrefte sletting (advarsel: dette kan ta en stund)",
 	"maintenance-deleteDefaultMessages-desc": "Sletter alle sider i MediaWiki-navnerommet som sist ble redigert av «MediaWiki default»",
 	"maintenance-deleteRevision": "Bruk dette skjemaet for å slette mange revisjoner på én gang.\nSkriv ett revisjonsnummer per rad",
