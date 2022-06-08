@@ -14,5 +14,6 @@
 	"maintenance-showCacheStats-images": "Quanto di arkivi: $1",
 	"maintenance-error": "Eroro: $1",
 	"maintenance-memc-requests": "Demandi",
+	"maintenance-memc-updates": "aktualigi:",
 	"maintenance-re-ce": "Nuna redakturi: $1"
 }
