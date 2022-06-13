@@ -17,7 +17,8 @@
 			"Pertile",
 			"Translationista",
 			"Jakeukalane",
-			"DiegoAmbrocio"
+			"DiegoAmbrocio",
+			"OriginReboot"
 		]
 	},
 	"maintenance": "Ejecutar scripts de mantenimiento",
@@ -128,6 +129,7 @@
 	"maintenance-deleteBatch": "Usar este formulario para borrado masivo de páginas.\nColoque solamente una página por línea",
 	"maintenance-deleteBatch-desc": "Borrao masivo de páginas",
 	"maintenance-deleteBatch-option-u": "Nombre de usuario:",
+	"maintenance-deleteBatch-option-r": "Motivo del borrado:",
 	"maintenance-deleteBatch-option-listfile": "Lista de páginas que borrar, una por renglón",
 	"maintenance-deleteBatch-output-done": "hecho.",
 	"maintenance-deleteDefaultMessages": "Presiona el botón para confirmar la eliminación (advertencia: esto puede tardar un rato)",
