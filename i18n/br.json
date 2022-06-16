@@ -3,7 +3,8 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"maintenance": "Lañsañ ar skriptoù kas en-dro",
@@ -73,6 +74,7 @@
 	"maintenance-cleanupCaps-output-islower": "Skrivet eo \"$1\" gant lizherennoù bihan dija.",
 	"maintenance-cleanupCaps-output-clash": "\"$1\" lezet a-gostez ; \"$2\" zo anezhañ dija",
 	"maintenance-cleanupCaps-output-dryrun": "\"$1\" -> \"$2\": MOD AMPROUIÑ, N'EO KET BET DILEC'HIET",
+	"maintenance-cleanupSpam-output-blanking": "goullonderiñ",
 	"maintenance-cleanupSpam-error-noid": "Fazi diabarzh : pajenn ebet evit an ID $1",
 	"maintenance-createAndPromote": "Implijit ar furmskrid-mañ evit krouiñ un implijer nevez ha lakaat anezhañ da verour.\nAskit al log bureviad ma fell deoc'h reiñ dezhañ ar statud-se ivez.",
 	"maintenance-createAndPromote-desc": "Krouiñ un implijer hag uhelaat d'ar statud merour",
