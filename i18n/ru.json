@@ -13,7 +13,8 @@
 			"Tanzun",
 			"Vlad5250",
 			"Volkov",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Pacha Tchernof"
 		]
 	},
 	"maintenance": "Запуск скриптов обслуживания",
@@ -33,7 +34,7 @@
 	"maintenance-cleanupTable-checkfix": "Проверка и исправление плохих названий ...",
 	"maintenance-cleanupTable-progress": "$1 $2 : $3 % сделано на $4 ; ПВЗ $5 [ $6 / $7 ] $8 / сек < $9 % обновлено>",
 	"maintenance-cleanupTable-missingparam": "$1: Отсутствует параметр $2",
-	"maintenance-cleanupTable-processing": "Обработка $1...",
+	"maintenance-cleanupTable-processing": "$1 обрабатывается…",
 	"maintenance-cleanupTable-finished": "Обработана $1... {{PLURAL:$2|Обновлена $2 строка из $3|Обновлены $2 строки из $3|Обновлены $2 строк из $3}}",
 	"maintenance-option-quiet": "Показывать только ошибки",
 	"maintenance-option-globals": "Выводить глобальные переменные в конце процесса отладки",
