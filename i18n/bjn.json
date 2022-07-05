@@ -4,5 +4,6 @@
 			"Ezagren"
 		]
 	},
-	"maintenance": "Jalanakan skrip paharaguan"
+	"maintenance": "Jalanakan skrip paharaguan",
+	"maintenance-deleteBatch-desc": "Pahapusan laman sabukuan"
 }
