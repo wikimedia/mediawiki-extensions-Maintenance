@@ -6,6 +6,7 @@
 	},
 	"maintenance-generic-username": "Õõʹnninõmm",
 	"maintenance-generic-password": "Peittsääʹnn",
+	"maintenance-generic-reason": "Mäinn",
 	"maintenance-checkUsernames-error-notvalid": "Vââǥǥlaž õõʹnninõmm: \"$3\" (õõʹnni-ID $2)",
 	"maintenance-deleteBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
@@ -14,5 +15,6 @@
 	"maintenance-showCacheStats-edits": "Muttâz ohttsa: $1",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
 	"maintenance-error": "Vââʹǩǩ: $1",
+	"maintenance-re-nf": "Õõʹnni $1 ij käunnʼjam",
 	"maintenance-re-de": "Jaukkuum muttâz: $1"
 }
