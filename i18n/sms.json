@@ -12,6 +12,7 @@
 	"maintenance-moveBatch-option-u": "Õõʹnninõmm:",
 	"maintenance-invalidname": "Vââǥǥlaž õõʹnninõmm!",
 	"maintenance-failed": "IJ OʹNNSTAM",
+	"maintenance-revnotfound": "Versio $1 ij käunnʼjam.",
 	"maintenance-showCacheStats-edits": "Muttâz ohttsa: $1",
 	"maintenance-showCacheStats-pages": "Seeidai mieʹrr: $1",
 	"maintenance-error": "Vââʹǩǩ: $1",
