@@ -115,6 +115,7 @@
 	"maintenance-deleteBatch-option-i": "Intervallo de reposo inter deletiones",
 	"maintenance-deleteBatch-option-listfile": "Lista de paginas a deler, un per linea",
 	"maintenance-deleteBatch-output-done": "facite.",
+	"maintenance-deleteBatch-error-invalid": "Nomine de usator invalide",
 	"maintenance-deleteDefaultMessages": "Preme le button pro confirmar le deletion (nota: isto pote prender tempore)",
 	"maintenance-deleteDefaultMessages-desc": "Dele tote le paginas in le spatio de nomines MediaWiki que ha essite modificate le ultime vice per \"MediaWiki default\"",
 	"maintenance-deleteRevision": "Usa iste forma pro deler versiones in massa.\nIndica un sol numero de version per linea.",
