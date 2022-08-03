@@ -14,7 +14,8 @@
 			"Xiaomingyan",
 			"Xiplus",
 			"Yfdyh000",
-			"Zazzzz"
+			"Zazzzz",
+			"Stang"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -62,7 +63,7 @@
 	"maintenance-changePassword-error-nouser": "没有这样的用户：$1",
 	"maintenance-changePassword-output-set": "已为$1设置密码",
 	"maintenance-checkAutoLoader": "使用此表在AutoLoader做一些合理性检查",
-	"maintenance-checkAutoLoader-desc": "自动载入器完好性检查",
+	"maintenance-checkAutoLoader-desc": "自动加载器完好性检查",
 	"maintenance-checkAutoLoader-output-list2": "$1：错误文件：在$2找到并列在$3",
 	"maintenance-checkBadRedirects": "使用此表单来查看标记为重定向的页面是否真的是重定向",
 	"maintenance-checkBadRedirects-desc": "检查坏的重定向",
