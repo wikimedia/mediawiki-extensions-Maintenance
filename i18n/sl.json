@@ -6,7 +6,10 @@
 		]
 	},
 	"maintenance": "Zaženi vzdrževalne skripte",
+	"maintenance-header": "Prosimo, izberite skript za izvedbo. Opisi so poleg vsakega skripta.",
+	"maintenance-generic-done": "končano",
 	"maintenance-generic-username": "Uporabniško ime",
 	"maintenance-generic-reason": "Razlog",
-	"maintenance-option-required": "(obvezno)"
+	"maintenance-option-required": "(obvezno)",
+	"maintenance-checkBadRedirects-output-footer": "Končano."
 }
