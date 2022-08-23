@@ -37,7 +37,7 @@
 	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] deiziad an adweladenn ziwezhañ $4, anaoueder an adweladenn $5",
 	"maintenance-attachLatest-output-done": "Echu ! Pledet ez eus bet gant $1 {{PLURAL:$1|pajenn}}.",
 	"maintenance-benchmarkPurge-output-numsquids": "Termenet ez eus $1 {{PLURAL:$1|servijer}} Squid :",
-	"maintenance-benchmarkPurge-output-trial": "$1 titl e $2ms ($3ms pep hini)",
+	"maintenance-benchmarkPurge-output-trial": "$1 {{PLURAL:$1|titl}} e $2ms ($3ms pep hini)",
 	"maintenance-changePassword": "Implijout ar furmskrid-mañ da cheñch ger-tremen un implijer",
 	"maintenance-changePassword-desc": "Cheñch ger-tremen un implijer",
 	"maintenance-changePassword-error-nouser": "Implijer ebet evel hemañ : $1",
