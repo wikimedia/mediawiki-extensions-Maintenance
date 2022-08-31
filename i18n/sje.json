@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"maintenance-generic-done": "ållånam",
+	"maintenance-checkBadRedirects-output-footer": "Ållånam.",
+	"maintenance-deleteBatch-output-done": "ållånam.",
+	"maintenance-initSiteStats-output-done": "ållånam.",
+	"maintenance-showCacheStats-admins": "Háldadäjjelåhko: $1",
+	"maintenance-updateArticleCount-output-done": "ållånam."
+}
