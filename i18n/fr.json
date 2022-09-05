@@ -218,7 +218,7 @@
 	"maintenance-reassignEdits": "Utilisez ce formulaire pour réassigner les modifications d’un utilisateur vers un autre.",
 	"maintenance-re-from": "Nom de l’utilisateur dont les modifications sont à réaffecter",
 	"maintenance-re-to": "Nom de l’utilisateur à qui réaffecter les modifications",
-	"maintenance-re-force": "Réaffecter même si l’utilisateur cible n’existe pas",
+	"maintenance-re-force": "Réaffecter même si l’utilisateur ou l’utilisatrice cible n’existe pas",
 	"maintenance-re-rc": "Ne pas modifier la table des modifications récentes",
 	"maintenance-re-report": "Afficher les détails de ce qui va être modifié, mais sans mettre à jour les données",
 	"maintenance-re-nf": "L’utilisateur « $1 » n’a pas été trouvé",
