@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"OC Ripper"
+			"OC Ripper",
+			"Vlad5250"
 		]
 	},
-	"maintenance": "Pokretanje skripti za održavanje"
+	"maintenance": "Pokretanje skripti za održavanje",
+	"maintenance-desc": "[[Special:Maintenance|Wiki sučelje]] za različite skripte za održavanje",
+	"action-maintenance": "pokretanje skripti za održavanje",
+	"right-maintenance": "Pokretanje skripti održavanja preko [[Special:Maintenance]]",
+	"maintenance-backlink": "Nazad na odabir skripte"
 }
