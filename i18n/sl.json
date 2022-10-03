@@ -13,5 +13,6 @@
 	"maintenance-option-required": "(obvezno)",
 	"maintenance-attachLatest-output-done": "Opravljeno! {{PLURAL:$1|Obdelana $1 stran|Obdelani $1 strani|Obdelane $1 strani}}.",
 	"maintenance-checkBadRedirects-output-footer": "Končano.",
+	"maintenance-error": "Napaka: $1",
 	"maintenance-memc-requests": "Zahtevki"
 }
