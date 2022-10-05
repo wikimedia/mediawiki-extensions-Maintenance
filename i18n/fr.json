@@ -50,7 +50,7 @@
 	"maintenance-attachLatest-output-begin": "Recherche des pages avec page_latest défini à 0...",
 	"maintenance-attachLatest-output-notime": "$1 $2 [[$3]] impossible de trouver la date de la dernière révision ?!",
 	"maintenance-attachLatest-output-norev": "$1 $2 [[$3]] dernière date $4, impossible de trouver l’ID de la révision",
-	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] date de la dernière révision $4, ID de la révision $5",
+	"maintenance-attachLatest-output-found": "$1 $2 [[$3]] date de la dernière révision $4, identifiant de la révision $5",
 	"maintenance-attachLatest-output-done": "Fait ! $1 page{{PLURAL:$1||s}} traitée{{PLURAL:$1||s}}.",
 	"maintenance-attachLatest-output-dryrun": "Il s’agissait d’une exécution à blanc ; relancez le script avec « {{int:maintenance-attachLatest-option-fix}} » pour modifier page_latest.",
 	"maintenance-benchmarkPurge": "Utilisez ce formulaire pour mesurer le temps que prennent les fonctions de purge de Squid",
