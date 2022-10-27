@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dalibor Bosits",
+			"Ponor",
 			"SpeedyGonsales"
 		]
 	},
@@ -9,7 +10,7 @@
 	"maintenance-desc": "[[Special:Maintenance|Web sučelje]] za različite skripte za održavanje",
 	"maintenance-backlink": "Nazad na odabir skripte",
 	"maintenance-header": "Odaberite dolje skriptu za pokrenuti.\nOpis stoji pored svake skripte.",
-	"maintenance-error-invalidtype": "Neispravna vrsta!",
+	"maintenance-error-invalidtype": "Navedena skripta nije pronađena",
 	"maintenance-option-confirm": "Potvrdi",
 	"maintenance-output-success": "$1 pokrenut uspješno!",
 	"maintenance-changePassword": "Koristite ovu stranicu za promjenu suradničke lozinke",
