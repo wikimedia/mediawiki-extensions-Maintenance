@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Դավիթ Սարոյան"
+			"Դավիթ Սարոյան",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
-	"maintenance": "Մեկնարկել սպասարկման սկրիպտները"
+	"maintenance": "Մեկնարկել սպասարկման սկրիպտները",
+	"maintenance-generic-username": "Օգտանուն",
+	"maintenance-deleteBatch-option-u": "Օգտանուն՝",
+	"maintenance-moveBatch-option-u": "Օգտանուն՝"
 }
