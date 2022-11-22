@@ -7,6 +7,7 @@
 	"maintenance-generic-username": "Õõʹnninõmm",
 	"maintenance-generic-password": "Peittsääʹnn",
 	"maintenance-generic-reason": "Mäinn",
+	"maintenance-option-confirm": "Priim",
 	"maintenance-option-optional": "(vaʹlljeemnallšem)",
 	"maintenance-changePassword-desc": "Vaajât õõʹnni peittsääʹn",
 	"maintenance-checkUsernames-error-notvalid": "Vââǥǥlaž õõʹnninõmm: \"$3\" (õõʹnni-ID $2)",
