@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
 	"maintenance-generic-password": "Beassansátni",
-	"maintenance-showCacheStats-pages": "Siidduid mearri: $1"
+	"maintenance-showCacheStats-pages": "Siidduid mearri: $1",
+	"maintenance-error": "Meattáhus: $1"
 }
