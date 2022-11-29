@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"SADIQUI"
+			"SADIQUI",
+			"Ideophagous"
 		]
 	},
-	"maintenance": "تشغيل سكريبتات الصيانة"
+	"maintenance": "تشغيل سكريبتات الصيانة",
+	"maintenance-deleteBatch-desc": "تحياد د الصفاحي ب الجملة"
 }

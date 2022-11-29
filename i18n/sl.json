@@ -9,6 +9,7 @@
 	"maintenance-header": "Prosimo, izberite skript za izvedbo. Opisi so poleg vsakega skripta.",
 	"maintenance-generic-done": "končano",
 	"maintenance-generic-username": "Uporabniško ime",
+	"maintenance-generic-password": "Geslo",
 	"maintenance-generic-reason": "Razlog",
 	"maintenance-option-required": "(obvezno)",
 	"maintenance-attachLatest-output-done": "Opravljeno! {{PLURAL:$1|Obdelana $1 stran|Obdelani $1 strani|Obdelane $1 strani}}.",
