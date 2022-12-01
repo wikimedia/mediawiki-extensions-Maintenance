@@ -136,7 +136,7 @@
 	"maintenance-deleteDefaultMessages": "Appuyer sur le bouton pour confirmer la suppression (attention : cela peut prendre du temps)",
 	"maintenance-deleteDefaultMessages-desc": "Supprime toutes les pages dans l’espace de noms MediaWiki qui ont été modifiées en dernier par « MediaWiki par défaut »",
 	"maintenance-deleteRevision": "Utilisez ce formulaire pour supprimer en masse des versions.\nIndiquez une seule version par ligne.",
-	"maintenance-deleteRevision-desc": "Enlever des versions de la base de données",
+	"maintenance-deleteRevision-desc": "Retirer des versions de la base de données",
 	"maintenance-initEditCount-desc": "Recalculer les compteurs de modifications des utilisateurs",
 	"maintenance-initSiteStats": "Utilisez ce formulaire pour recalculer les statistiques du site, en indiquant si vous désirez également recalculer le nombre de visites par page.",
 	"maintenance-initSiteStats-desc": "Recalculer les statistiques du site",
