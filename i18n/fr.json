@@ -98,7 +98,7 @@
 	"maintenance-checkSyntax-error-svnerr": "Erreur lors de la récupération de la liste depuis Subversion’!",
 	"maintenance-checkUsernames": "Utilisez ce formulaire pour afficher les noms d’utilisateur incorrects en raison de modifications de la configuration. Si rien n’est affiché après l’exécution de ce script, alors tous les noms d’utilisateur sont valides.",
 	"maintenance-checkUsernames-desc": "Vérifier que les noms des utilisateurs dans la base de données sont effectivement valides",
-	"maintenance-checkUsernames-error-notvalid": "Nom d’utilisateur incorrect : « $3 » (ID d’utilisateur $2)",
+	"maintenance-checkUsernames-error-notvalid": "Nom d’utilisateur incorrect : « $3 » (identifiant d’utilisateur $2)",
 	"maintenance-cleanupCaps": "Utilisez ce formulaire pour corriger les pages cassées par la modification de $wgCapitalLinks",
 	"maintenance-cleanupCaps-desc": "Script pour nettoyer la capitalisation",
 	"maintenance-cleanupCaps-option-namespace": "Numéro de l’espace de noms dans lequel nettoyer la capitalisation",
