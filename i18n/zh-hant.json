@@ -50,7 +50,7 @@
 	"maintenance-benchmarkPurge": "使用此表單來測試 Squid 清除功能的執行時間",
 	"maintenance-benchmarkPurge-desc": "測量 Squid 清除功能",
 	"maintenance-benchmarkPurge-option-count": "有多少資訊提供給給 Squid 的 URL 需要清除",
-	"maintenance-benchmarkPurge-error-nosquid": "在未有 Squid 支援之下，Squid 清除測量不可大量進行。",
+	"maintenance-benchmarkPurge-error-nosquid": "沒有Squid支援時，測量Squid清除基準不太有用。",
 	"maintenance-benchmarkPurge-output-numsquids": "以下 $1 {{PLURAL:$1|個|個}}是定義成 Squid {{PLURAL:$1|伺服器|伺服器}}：",
 	"maintenance-benchmarkPurge-output-trial": "$2ms 毫秒裡 $1 {{PLURAL:$1|個標題|個標題}}（各 $3ms 毫秒）",
 	"maintenance-changePassword": "使用此表單來變更使用者的密碼",
