@@ -17,7 +17,8 @@
 			"Siebrand",
 			"The Evil IP address",
 			"Translationista",
-			"Umherirrender"
+			"Umherirrender",
+			"捍粵者"
 		]
 	},
 	"maintenance": "{{doc-special|Maintenance}}",
@@ -61,7 +62,7 @@
 	"maintenance-benchmarkPurge": "\"Squid\" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.",
 	"maintenance-benchmarkPurge-desc": "\"Squid\" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable. \"Benchmark\" refers to measuring how fast something is.",
 	"maintenance-benchmarkPurge-option-count": "\"Squid\" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.",
-	"maintenance-benchmarkPurge-error-nosquid": "\"Squid\" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.",
+	"maintenance-benchmarkPurge-error-nosquid": "\"Squid\" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably untranslatable.",
 	"maintenance-benchmarkPurge-output-numsquids": "\"Squid\" refers to the software that provides a reverse proxy cache to speed up the MediaWiki software. It is probably not translatable.\n* $1 is the number of Squid servers",
 	"maintenance-benchmarkPurge-output-trial": "Parameters:\n* $1 - the number of titles processed in the trial\n* $2 - the total time of the trial (in milliseconds)\n* $3 - the average time of each title (in milliseconds)",
 	"maintenance-changePassword": "Description for a maintenance script",
