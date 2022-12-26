@@ -14,9 +14,11 @@
 	"maintenance-option-required": "(obvezno)",
 	"maintenance-attachLatest-output-done": "Opravljeno! {{PLURAL:$1|Obdelana $1 stran|Obdelani $1 strani|Obdelane $1 strani}}.",
 	"maintenance-checkBadRedirects-output-footer": "Končano.",
+	"maintenance-runJobs-option-exclusive": "Izvajajte samo en ekskluzivni skript runJobs hkrati. Časovna omejitev je 1800 sekund.",
 	"maintenance-invalidname": "Neveljavno uporabniško ime!",
 	"maintenance-failed": "NI USPELO",
 	"maintenance-error": "Napaka: $1",
 	"maintenance-memc-requests": "Zahtevki",
-	"maintenance-memc-invalid": "neveljavno:"
+	"maintenance-memc-invalid": "neveljavno:",
+	"maintenance-memc-updates": "posodobitve:"
 }
