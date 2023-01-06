@@ -57,7 +57,7 @@
 	"maintenance-checkSyntax-output-buildlist": "בונה רשימת קבצים...",
 	"maintenance-checkSyntax-output-error": "שגיאה $1 בשורה $2: $3",
 	"maintenance-checkSyntax-error-cantopen": "אין אפשרות לפתוח את הקובץ $1",
-	"maintenance-checkUsernames-error-notvalid": "שם משתמש לא חוקי: \"$3\" (מזהה משתמש $2)",
+	"maintenance-checkUsernames-error-notvalid": "שם משתמש בלתי־תקין: \"$3\" (מזהה משתמש $2)",
 	"maintenance-cleanupCaps-output-dryrun": "\" $1 \"->\" $2 \": הרצה על יבש, לא הועבר",
 	"maintenance-cleanupSpam": "השתמשו בטופס לשחזור עריכות ספאם שמקשרות לאתרים חיצוניים",
 	"maintenance-cleanupSpam-desc": "ניקוי כל הספאם משרת מסוים",
