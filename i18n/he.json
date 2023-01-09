@@ -8,7 +8,8 @@
 			"YaronSh",
 			"אור שפירא",
 			"חיים",
-			"ערן"
+			"ערן",
+			"N100a"
 		]
 	},
 	"maintenance": "הרצת סקריפטים של תחזוקה",
@@ -58,7 +59,7 @@
 	"maintenance-checkSyntax-output-buildlist": "בונה רשימת קבצים...",
 	"maintenance-checkSyntax-output-error": "שגיאה $1 בשורה $2: $3",
 	"maintenance-checkSyntax-error-cantopen": "אין אפשרות לפתוח את הקובץ $1",
-	"maintenance-checkUsernames-error-notvalid": "שם משתמש לא חוקי: \"$3\" (מזהה משתמש $2)",
+	"maintenance-checkUsernames-error-notvalid": "שם משתמש בלתי־תקין: \"$3\" (מזהה משתמש $2)",
 	"maintenance-cleanupCaps-output-dryrun": "\" $1 \"->\" $2 \": הרצה על יבש, לא הועבר",
 	"maintenance-cleanupSpam": "השתמשו בטופס לשחזור עריכות ספאם שמקשרות לאתרים חיצוניים",
 	"maintenance-cleanupSpam-desc": "ניקוי כל הספאם משרת מסוים",
@@ -68,6 +69,7 @@
 	"maintenance-createAndPromote": "השתמשו בטופס זה כדי ליצור משתמש חדש ולקדם אותו לדרגת מפעיל מערכת.\nסמנו את תיבת הבירוקרט אם ברצונכם לקדם אותו גם לדרגת בירוקרט",
 	"maintenance-createAndPromote-desc": "יצירת משתמש וקידומו למצב מפעיל מערכת",
 	"maintenance-createAndPromote-option-bureaucrat": "קדם משתמש למעמד בירוקרט",
+	"maintenance-createAndPromote-error-password": "אירעה שגיאה עם הסיסמה שהזנת: $1",
 	"maintenance-deleteBatch": "השתמשו בטופס זה למחיקת דפים המונית.\nכתבו שם של דף אחד בכל שורה",
 	"maintenance-deleteBatch-desc": "מחיקה המונית של דפים",
 	"maintenance-deleteBatch-option-u": "שם משתמש:",
