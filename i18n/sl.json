@@ -45,5 +45,6 @@
 	"maintenance-memc-requests": "Zahtevki",
 	"maintenance-memc-invalid": "neveljavno:",
 	"maintenance-memc-updates": "posodobitve:",
+	"maintenance-re-force": "Dodeli znova, tudi če ciljni uporabnik ne obstaja",
 	"maintenance-re-rc": "Ne posodabljaj tabele zadnjih sprememb"
 }
