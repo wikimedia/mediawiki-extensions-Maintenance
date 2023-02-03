@@ -88,6 +88,7 @@
 	"maintenance-runJobs-desc": "הרצת משימות מתור המשימות",
 	"maintenance-runJobs-option-type": "סוג משימה להפעלה",
 	"maintenance-runJobs-option-procs": "מספר תהליכים לשימוש",
+	"maintenance-runJobs-option-exclusive": "להריץ רק סקריפט runJobs בלעדי אחד בכל פעם. הזמן הקצוב הוא 1800 שניות.",
 	"maintenance-showJobs-desc": "הצגת רשימת משימות הממתינות בתור המשימות",
 	"maintenance-sql": "השתמשו בטופס זה כדי להריץ שאילתת SQL על בסיס הנתונים.",
 	"maintenance-sql-desc": "הרצת שאילתת SQL",
