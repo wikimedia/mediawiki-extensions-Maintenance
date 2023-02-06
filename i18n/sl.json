@@ -46,6 +46,7 @@
 	"maintenance-invalidname": "Neveljavno uporabniško ime!",
 	"maintenance-invalidtitle": "Neveljaven naslov »$1«!",
 	"maintenance-failed": "NI USPELO",
+	"maintenance-revnotfound": "Redakcija $1 ni bila najdena!",
 	"maintenance-showCacheStats-edits": "Število urejanj: $1",
 	"maintenance-showCacheStats-admins": "Število administratorjev: $1",
 	"maintenance-updateArticleCount-option-update": "Posodobi tabelo site_stats z novim številom",
@@ -59,5 +60,6 @@
 	"maintenance-memc-updates": "posodobitve:",
 	"maintenance-re-force": "Dodeli znova, tudi če ciljni uporabnik ne obstaja",
 	"maintenance-re-rc": "Ne posodabljaj tabele zadnjih sprememb",
+	"maintenance-re-nf": "Uporabnik $1 ni bil najden",
 	"maintenance-re-re": "Ponovna dodelitev urejanj{{int:ellipsis}} opravljena"
 }
