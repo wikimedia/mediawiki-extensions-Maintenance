@@ -114,7 +114,7 @@
 	"maintenance-showCacheStats-images": "מספר הקבצים: $1",
 	"maintenance-showCacheStats-views": "מספר הצפיות בדפים: $1",
 	"maintenance-showCacheStats-update": "בסיס הנתונים מתעדכן...",
-	"maintenance-updateArticleCount-output-counting": "סופר ערכים...",
+	"maintenance-updateArticleCount-output-counting": "ספירת ערכים...",
 	"maintenance-updateArticleCount-output-done": "בוצע.",
 	"maintenance-move": "העברת $1 אל $2...",
 	"maintenance-movefail": "אירעה שגיאה בעת העברת: $1.\nההעברה נקטעה",
