@@ -18,7 +18,8 @@
 			"The Evil IP address",
 			"Translationista",
 			"Umherirrender",
-			"捍粵者"
+			"捍粵者",
+			"שוקו מוקה"
 		]
 	},
 	"maintenance": "{{doc-special|Maintenance}}",
@@ -219,7 +220,7 @@
 	"maintenance-updateArticleCount-desc": "Description of what the [[mw:Manual:updateArticleCount.php|updateArticleCount]] maintenance script does, shown on the main <code>Special:Maintenance</code> page",
 	"maintenance-updateArticleCount": "Description of what the [[mw:Manual:updateArticleCount.php|updateArticleCount]] maintenance script does, similar to the <code>maintenance-updateArticleCount-desc</code>, except this message is shown on <code>Special:Maintenance/updateArticleCount</code>, when the user is prompted to confirm the script options",
 	"maintenance-updateArticleCount-option-update": "Description of an option. If this option (checkbox) is ''not'' chosen, the script merely outputs the amount of valid articles without updating the [[mw:Manual:site_stats table|<code>site_stats</code> database table]] with the new count.",
-	"maintenance-updateArticleCount-output-counting": "Used as message on maintenane script",
+	"maintenance-updateArticleCount-output-counting": "Used as message on maintenance script",
 	"maintenance-updateArticleCount-output-found": "Used as message on maintenane script\nParameters:\n* $1 - number of valid articles found by the script",
 	"maintenance-updateArticleCount-output-done": "Used as message on maintenane script",
 	"maintenance-move": "{{doc-important|Do not translate <code><nowiki>{{int:ellipsis}}</nowiki></code>.}}\nUnused at this time.\n\nRefers to {{msg-mw|Ellipsis}}.\n\nParameters:\n* $1 - ...\n* $2 - ...",
