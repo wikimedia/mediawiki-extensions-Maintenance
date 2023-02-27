@@ -55,6 +55,7 @@
 	"maintenance-movefail": "Pri prestavljanju je prišlo do napake: $1.\nPrekinjam prestavljanje",
 	"maintenance-error": "Napaka: $1",
 	"maintenance-memc-requests": "Zahtevki",
+	"maintenance-memc-withsession": "s sejo:",
 	"maintenance-memc-invalid": "neveljavno:",
 	"maintenance-memc-imagecache": "Predpomnilnik slik",
 	"maintenance-memc-updates": "posodobitve:",

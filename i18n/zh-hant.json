@@ -158,7 +158,7 @@
 	"maintenance-sql": "使用此表單來在資料庫上執行 SQL 查詢。",
 	"maintenance-sql-desc": "SQL查詢",
 	"maintenance-sql-option-file": "要執行的SQL",
-	"maintenance-sql-output-aff": "查詢完成，$1行受影響",
+	"maintenance-sql-output-aff": "查詢完成，$1 {{PLURAL:$1|行}}受影響",
 	"maintenance-sql-error-cantopen": "無法打開輸入檔案",
 	"maintenance-showCacheStats-desc": "顯示 Memcached 統計資訊",
 	"maintenance-eval": "使用此表單來評估在 MediaWiki 環境下的 PHP 代碼。",

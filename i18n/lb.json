@@ -4,7 +4,8 @@
 			"Les Meloures",
 			"Purodha",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"maintenance": "Maintenance-Skripten ausféieren",
@@ -13,7 +14,7 @@
 	"maintenance-backlink": "Zréck op d'Auswiel vum Skript",
 	"maintenance-header": "Sicht wgl. ënnendrënner e Skript eraus fir auszeféieren.\nD'Beschreiwunge stinn nieft all Skript.",
 	"maintenance-error-badini": "De Fichier metada.ini ass entweder korrupt oder e feelt. Luet wgl. d''Maintenance'-Erweiderung nach eng Kéier erof",
-	"maintenance-error-invalidtype": "De Skript den ugi gouf, gouf net fonnt",
+	"maintenance-error-invalidtype": "De Skript, deen ugi gouf, gouf net fonnt",
 	"maintenance-error-badargs": "Dir hutt net all déi obligatoresch Optiounen uginn",
 	"maintenance-generic-done": "fäerdeg",
 	"maintenance-generic-username": "Benotzernumm",
