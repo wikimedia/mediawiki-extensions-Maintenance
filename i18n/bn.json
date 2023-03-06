@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Aishik Rehman",
 			"Ehsanulhb",
 			"Tahmid",
 			"Tahmid02016",
@@ -26,7 +27,7 @@
 	"maintenance-checkBadRedirects-output-header": "পুনর্নির্দেশনার আনা হচ্ছে...",
 	"maintenance-checkBadRedirects-output-footer": "নিষ্পন্ন হয়েছে।",
 	"maintenance-checkImages-output-noaccess": "$1:  স্থানীয়ভাবে প্রবেশ করা সম্ভব নয়",
-	"maintenance-checkImages-output-missing": "$1 : অনুপস্থিত",
+	"maintenance-checkImages-output-missing": "$1: অনুপস্থিত",
 	"maintenance-checkImages-output-isdir": "$1: একটি ডিরেক্টরি",
 	"maintenance-checkImages-output-good": "ভালো চিত্রসমূহ: $1/$2",
 	"maintenance-deleteBatch-option-u": "ব্যবহারকারী নাম:",
