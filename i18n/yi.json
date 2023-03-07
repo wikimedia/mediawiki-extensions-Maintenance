@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער",
 			"පසිඳු කාවින්ද"
 		]
@@ -10,5 +11,6 @@
 	"maintenance-generic-password": "פאַסווארט",
 	"maintenance-option-confirm": "באַשטעטיגן",
 	"maintenance-invalidname": "אומגילטיקער באַניצער נאָמען!",
+	"maintenance-showCacheStats-pages": "צאָל בלעטער: $1",
 	"maintenance-move": "באוועגן $1 צו $2{{int:ellipsis}}"
 }
