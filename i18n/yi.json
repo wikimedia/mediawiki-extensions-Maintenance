@@ -12,5 +12,6 @@
 	"maintenance-option-confirm": "באַשטעטיגן",
 	"maintenance-invalidname": "אומגילטיקער באַניצער נאָמען!",
 	"maintenance-showCacheStats-pages": "צאָל בלעטער: $1",
-	"maintenance-move": "באוועגן $1 צו $2{{int:ellipsis}}"
+	"maintenance-move": "באוועגן $1 צו $2{{int:ellipsis}}",
+	"maintenance-error": "פֿעלער: $1"
 }
