@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"EdoAug",
 			"Jon Harald Søby",
 			"Nghtwlkr",
 			"Simny"
@@ -20,11 +21,11 @@
 	"maintenance-generic-password": "Passord",
 	"maintenance-generic-reason": "Årsak",
 	"maintenance-cleanupTable-dry-run": "Utfør en tørrkjøring",
-	"maintenance-cleanupTable-check": "Ser etter dårlige titler...",
-	"maintenance-cleanupTable-checkfix": "Ser etter og fikser dårlige titler...",
+	"maintenance-cleanupTable-check": "Ser etter dårlige titler ...",
+	"maintenance-cleanupTable-checkfix": "Ser etter og fikser dårlige titler ...",
 	"maintenance-cleanupTable-progress": "$1 $2: $3% ferdig på $4; Antatt ferdig $5 [$6/$7] $8/sek <$9% oppdatert>",
 	"maintenance-cleanupTable-missingparam": "$1: Mangler parameter $2",
-	"maintenance-cleanupTable-processing": "Behandler $1...",
+	"maintenance-cleanupTable-processing": "Behandler $1 ...",
 	"maintenance-cleanupTable-finished": "Fullførte $1 … $2 av $3 {{PLURAL:$3|rad|rader}} oppdatert",
 	"maintenance-option-quiet": "Undertrykk utdata for ikke-feil",
 	"maintenance-option-globals": "Viser globaler ved slutten av prosessering for feilsøking",
@@ -56,7 +57,7 @@
 	"maintenance-checkAutoLoader-output-list2": "$1: Feil fil: fant i $2, listet i $3",
 	"maintenance-checkBadRedirects": "Bruk dette skjemaet for å se om sider markert som omdirigeringer faktisk er omdirigeringer",
 	"maintenance-checkBadRedirects-desc": "Ser etter dårlige omdirigeringer",
-	"maintenance-checkBadRedirects-output-header": "Henter omdirigeringer...",
+	"maintenance-checkBadRedirects-output-header": "Henter omdirigeringer ...",
 	"maintenance-checkBadRedirects-output-found": "Fant $1 {{PLURAL:$1|omdirigering|omdirigeringer}}.\nSer etter dårlige omdirigeringer …",
 	"maintenance-checkBadRedirects-output-footer": "\nFerdig.",
 	"maintenance-checkImages": "Bruk dette skjemaet for å se hvilke bilder på wikien din som er skadet",
@@ -78,7 +79,7 @@
 	"maintenance-checkSyntax-output-phpl": "Sjekker syntaks (med php -l, dette kan ta en god stund)",
 	"maintenance-checkSyntax-output-footer": "Ferdig! $1 {{PLURAL:$1|fil|filer}} sjekket, {{PLURAL:$2|feil}} og {{PLURAL:$3|advarsel|advarsler}} funnet",
 	"maintenance-checkSyntax-output-svnlist": "Henter liste fra Subversion …",
-	"maintenance-checkSyntax-output-buildlist": "Bygger filliste...",
+	"maintenance-checkSyntax-output-buildlist": "Bygger filliste ...",
 	"maintenance-checkSyntax-output-error": "Feil i $1 linje $2: $3",
 	"maintenance-checkSyntax-output-warning": "Advarsel i fil $1: $2 funnet",
 	"maintenance-checkSyntax-error-nofile": "Feil: finner ikke fil eller mappe $1",
