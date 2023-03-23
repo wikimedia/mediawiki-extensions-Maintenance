@@ -12,6 +12,7 @@ module.exports = function ( grunt ) {
 			},
 			all: '.'
 		},
+		// eslint-disable-next-line es-x/no-object-assign, compat/compat
 		banana: Object.assign(
 			conf.MessagesDirs,
 			{
