@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ekminarin",
 			"Octahedron80",
 			"Passawuth",
 			"Pon44695"
 		]
 	},
 	"maintenance": "ดำเนินการบำรุงรักษาสคริปต์",
-	"maintenance-option-confirm": "ยืนยัน"
+	"maintenance-option-confirm": "ยืนยัน",
+	"maintenance-cleanupSpam-output-blanking": "ทำหน้าว่าง"
 }
