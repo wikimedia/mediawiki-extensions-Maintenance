@@ -3,10 +3,12 @@
 		"authors": [
 			"Octahedron80",
 			"Passawuth",
-			"Pon44695"
+			"Pon44695",
+			"Ekminarin"
 		]
 	},
 	"maintenance": "ดำเนินการบำรุงรักษาสคริปต์",
 	"maintenance-option-confirm": "ยืนยัน",
+	"maintenance-cleanupSpam-output-blanking": "ทำหน้าว่าง",
 	"maintenance-memc-total": "รวม:"
 }

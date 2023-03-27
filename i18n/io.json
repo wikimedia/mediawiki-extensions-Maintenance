@@ -7,6 +7,7 @@
 	"maintenance": "Facez script-i di manteno",
 	"maintenance-generic-done": "facita",
 	"maintenance-generic-username": "Uzero-nomo",
+	"maintenance-generic-password": "Pasovorto",
 	"maintenance-generic-reason": "Motivo",
 	"maintenance-option-confirm": "Konfirmez",
 	"maintenance-checkBadRedirects-output-footer": "Facita.",
