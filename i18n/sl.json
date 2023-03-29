@@ -37,6 +37,7 @@
 	"maintenance-deleteBatch-option-r": "Razlog za izbris:",
 	"maintenance-deleteBatch-output-done": "Opravljeno.",
 	"maintenance-deleteBatch-error-invalid": "Neveljavno uporabniško ime",
+	"maintenance-deleteDefaultMessages-desc": "Izbriše vse strani v imenskem prostoru MediaWiki, ki jih je zadnji uredil »MediaWiki default«",
 	"maintenance-deleteRevision": "Uporabite ta obrazec za množični izbris redakcij. V vsako vrstico vnesite samo eno številko redakcije.",
 	"maintenance-deleteRevision-desc": "Odstrani redakcije iz podatkovne zbirke",
 	"maintenance-initSiteStats-desc": "Ponovni izračun statistike mesta",
