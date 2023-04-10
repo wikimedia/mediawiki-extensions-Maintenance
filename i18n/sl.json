@@ -45,6 +45,7 @@
 	"maintenance-initSiteStats-desc": "Ponovni izračun statistike mesta",
 	"maintenance-initSiteStats-output-updating": "Posodabljanje statistike mesta ...",
 	"maintenance-initSiteStats-output-done": "Opravljeno.",
+	"maintenance-moveBatch-desc": "Množična prestavitev strani",
 	"maintenance-moveBatch-option-r": "Razlog za prestavitev:",
 	"maintenance-runJobs-option-exclusive": "Izvajajte samo en ekskluzivni skript runJobs hkrati. Časovna omejitev je 1800 sekund.",
 	"maintenance-sql-output-aff": "Poizvedba uspešna, {{PLURAL:$1|najdena|najdeni|najdene|najdenih}} $1 {{PLURAL:$1|vrstica|vrstici|vrstice|vrstic}}",
