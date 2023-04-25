@@ -20,6 +20,7 @@
 	"maintenance-option-confirm": "Potrdi",
 	"maintenance-attachLatest-desc": "Popravi vnose page_latest v tabeli strani",
 	"maintenance-attachLatest-option-fix": "Dejansko popravite vnose, sicer bodo prikazani samo vnosi z napakami, vendar ne bodo popravljeni",
+	"maintenance-attachLatest-output-begin": "Iskanje strani s page_latest nastavljeno na 0 ...",
 	"maintenance-attachLatest-output-done": "Opravljeno! {{PLURAL:$1|Obdelana $1 stran|Obdelani $1 strani|Obdelane $1 strani}}.",
 	"maintenance-benchmarkPurge": "Uporabite ta obrazec, da določite, kako dolgo traja počiščenje strežnika Squid.",
 	"maintenance-benchmarkPurge-desc": "Meritev zmogljivosti funkcij počiščenja predpomnilnika strežnika Squid",
