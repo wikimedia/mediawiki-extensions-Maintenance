@@ -10,7 +10,7 @@
 	"right-maintenance": "Executar scripts de mantenentia per [[Special:Maintenance]]",
 	"maintenance-backlink": "Retornar al selection de script",
 	"maintenance-header": "Per favor selige in basso un script pro executar.\nLe descriptones se trova al latere de cata script.",
-	"maintenance-error-badini": "Le file metadata.ini es o defectuose o mancante. Per favor re-discarga le extension \"Maintenance\".",
+	"maintenance-error-badini": "Le file metadata.ini es defectuose o manca. Per favor re-discarga le extension \"Maintenance\".",
 	"maintenance-error-invalidtype": "Le script specificate non esseva trovate",
 	"maintenance-error-badargs": "Tu non ha specificate tote le optiones obligatori",
 	"maintenance-generic-done": "finite",
