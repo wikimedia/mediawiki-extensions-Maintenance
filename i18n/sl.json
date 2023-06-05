@@ -55,6 +55,7 @@
 	"maintenance-failed": "NI USPELO",
 	"maintenance-revnotfound": "Redakcija $1 ni bila najdena!",
 	"maintenance-showCacheStats-edits": "Število urejanj: $1",
+	"maintenance-showCacheStats-pages": "Število strani: $1",
 	"maintenance-showCacheStats-admins": "Število administratorjev: $1",
 	"maintenance-updateArticleCount-option-update": "Posodobi tabelo site_stats z novim številom",
 	"maintenance-updateArticleCount-output-done": "Opravljeno.",
