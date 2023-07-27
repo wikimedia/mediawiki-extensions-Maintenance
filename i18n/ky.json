@@ -4,5 +4,6 @@
 			"Bosogo"
 		]
 	},
-	"maintenance": "Тейлөө сценарийлерин иштетүү"
+	"maintenance": "Тейлөө сценарийлерин иштетүү",
+	"maintenance-generic-reason": "Себеп"
 }
