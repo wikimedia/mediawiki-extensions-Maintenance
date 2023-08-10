@@ -5,5 +5,10 @@
 		]
 	},
 	"maintenance": "Тейлөө сценарийлерин иштетүү",
-	"maintenance-generic-reason": "Себеп"
+	"maintenance-generic-done": "даяр",
+	"maintenance-generic-username": "Колдонуучунун ысымы",
+	"maintenance-generic-reason": "Себеп",
+	"maintenance-checkBadRedirects-output-footer": "Даяр.",
+	"maintenance-showCacheStats-edits": "Түзөтүүлөрдүн саны: $1",
+	"maintenance-showCacheStats-pages": "Барактардын саны: $1"
 }
