@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Artsiom91",
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"ZlyiLev"
 		]
 	},
 	"maintenance": "Запуск скрыптоў абслугоўвання",
-	"maintenance-generic-reason": "Прычына"
+	"maintenance-generic-reason": "Прычына",
+	"maintenance-cleanupSpam": "Выкарыстоўвайце гэтую форму, каб адмяняць спам-праўкі, якія спасылаюцца на вонкавыя сайты"
 }
