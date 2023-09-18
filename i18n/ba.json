@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Haqmar",
+			"З. ӘЙЛЕ",
 			"Рустам Нурыев"
 		]
 	},
 	"maintenance": "Хеҙмәтләндереү скрипттарын эшләтеп ебәреү",
-	"maintenance-invalidname": "Яңылыш ҡатнашыусы исеме!",
+	"maintenance-invalidname": "Ҡатнашыусының хаталы исеме!",
 	"maintenance-userexists": "Ҡатнашыусы бар инде!",
-	"maintenance-invalidtitle": "Хаталы исем \"$1\"!",
-	"maintenance-titlenoexist": "Күрһәтелгән исем (\"$1\") юҡ!",
+	"maintenance-invalidtitle": "Хаталы атама \"$1\"!",
+	"maintenance-titlenoexist": "Күрһәтелгән атама (\"$1\") юҡ!",
 	"maintenance-failed": "УҢЫШҺЫҘ!"
 }
