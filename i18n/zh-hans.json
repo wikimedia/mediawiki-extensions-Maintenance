@@ -15,7 +15,8 @@
 			"Xiaomingyan",
 			"Xiplus",
 			"Yfdyh000",
-			"Zazzzz"
+			"Zazzzz",
+			"LittlePaw365"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -174,7 +175,7 @@
 	"maintenance-memc-invalid": "无效：",
 	"maintenance-memc-expired": "终止时间：",
 	"maintenance-memc-absent": "缺失：",
-	"maintenance-memc-stub": "子阀值：",
+	"maintenance-memc-stub": "小作品阈值：",
 	"maintenance-memc-imagecache": "图片缓存",
 	"maintenance-memc-misses": "未命中：",
 	"maintenance-memc-updates": "更新：",
