@@ -10,7 +10,8 @@
 			"Sjoerddebruin",
 			"Tvdm",
 			"Wiki13",
-			"Romaine"
+			"Romaine",
+			"Nickthijssen1994"
 		]
 	},
 	"maintenance": "Beheerscripts uitvoeren",
@@ -193,9 +194,9 @@
 	"maintenance-re-to": "Doelgebruiker",
 	"maintenance-re-force": "Ook toewijzen als de doelgebruiker niet bestaat",
 	"maintenance-re-rc": "Recente wijzigingen niet bijwerken",
-	"maintenance-re-report": "Details weergeven van te maken wijzigingen zonder daarwerkelijk bij te werken",
+	"maintenance-re-report": "De details van de te aan te brengen wijzigingen weergeven zonder de wijzigingen door te voeren",
 	"maintenance-re-nf": "Gebruiker $1 bestaat niet",
-	"maintenance-re-rr": "Voer de handeling opnieuw uit met bijwerken door de optie \"$1\" uit te schakelen.",
+	"maintenance-re-rr": "Om de wijzigingen door te voeren, voert het script nogmaals uit zonder de optie “$1”.",
 	"maintenance-re-ce": "Huidige bewerkingen: $1",
 	"maintenance-re-de": "Verwijderde bewerkingen: $1",
 	"maintenance-re-rce": "Regels in recente wijzigingen: $1",
