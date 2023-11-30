@@ -16,7 +16,8 @@
 			"Xiplus",
 			"Yfdyh000",
 			"Zazzzz",
-			"LittlePaw365"
+			"LittlePaw365",
+			"阿南之人"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -39,7 +40,7 @@
 	"maintenance-cleanupTable-processing": "处理$1...",
 	"maintenance-cleanupTable-finished": "完成$1... $3中的$2{{PLURAL:$3|行}}已更新",
 	"maintenance-option-quiet": "阻止非错误输出",
-	"maintenance-option-globals": "处理结束时输出全局变量以便调试",
+	"maintenance-option-globals": "处理结束时输出全域变量以便调试",
 	"maintenance-option-confirm": "确认",
 	"maintenance-option-batch-size": "每批运行以下次数的操作，默认：$1",
 	"maintenance-output-success": "$1已成功运行！",
