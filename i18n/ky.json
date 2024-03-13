@@ -10,5 +10,6 @@
 	"maintenance-generic-reason": "Себеп",
 	"maintenance-checkBadRedirects-output-footer": "Даяр.",
 	"maintenance-showCacheStats-edits": "Түзөтүүлөрдүн саны: $1",
-	"maintenance-showCacheStats-pages": "Барактардын саны: $1"
+	"maintenance-showCacheStats-pages": "Барактардын саны: $1",
+	"maintenance-error": "Ката: $1"
 }
