@@ -68,7 +68,7 @@
 	"maintenance-checkSyntax": "Usa iste formulario pro verificar le syntaxe de tote le files PHP in MediaWiki",
 	"maintenance-checkSyntax-desc": "Verificar le syntaxe de tote le files PHP in MediaWiki",
 	"maintenance-checkSyntax-option-with-extensions": "Percurrer etiam le directorio de extensiones",
-	"maintenance-checkSyntax-option-path": "Cammino specific (file o directorio) a verificar, o con cammino absolute o relative al radice de iste installation de MediaWiki",
+	"maintenance-checkSyntax-option-path": "Le percurso specific (file o directorio) a verificar. Pote esser un percurso absolute o un percurso relative al radice de iste installation de MediaWiki",
 	"maintenance-checkSyntax-option-list-file": "Lista de files o directorios a verificar",
 	"maintenance-checkSyntax-option-modified": "Verificar solmente le files que esseva modificate (require le cliente SVN a linea de commando)",
 	"maintenance-checkSyntax-option-syntax-only": "Verificar solmente le validitate del syntaxe, saltante le advertimentos re le stilo del codice",
