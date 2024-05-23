@@ -6,5 +6,8 @@
 		]
 	},
 	"maintenance": "تشغيل سكريبتات الصيانة",
-	"maintenance-deleteBatch-desc": "تحياد د الصفاحي ب الجملة"
+	"maintenance-generic-username": "السمية د لخدايمي",
+	"maintenance-deleteBatch-desc": "تحياد د الصفاحي ب الجملة",
+	"maintenance-re-from": "السمية د لخدايمي باش يتدارو منو التبديلات",
+	"maintenance-re-to": "السمية د لخدايمي باش يتدارو منو التبديلات"
 }
