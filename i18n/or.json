@@ -11,6 +11,7 @@
 	"maintenance-generic-reason": "କାରଣ",
 	"maintenance-option-confirm": "ନିଶ୍ଚିତ କରନ୍ତୁ",
 	"maintenance-checkBadRedirects-output-footer": "କରାଯାଇଛି.",
+	"maintenance-checkImages-output-missing": "$1: ମିଳୁନାହିଁ",
 	"maintenance-memc-requests": "ଅନୁରୋଧ",
 	"maintenance-memc-updates": "ଅପଡେଟସବୁ:"
 }
