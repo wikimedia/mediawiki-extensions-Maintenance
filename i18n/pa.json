@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Satdeep gill"
+			"Satdeep gill",
+			"Cabal"
 		]
 	},
-	"maintenance": "ਦੇਖ-ਭਾਲ ਲਈ ਸਕ੍ਰਿਪਟਾਂ ਚਲਾਓ"
+	"maintenance": "ਦੇਖ-ਭਾਲ ਲਈ ਸਕ੍ਰਿਪਟਾਂ ਚਲਾਓ",
+	"maintenance-generic-password": "ਪਾਰਸ਼ਬਦ"
 }
