@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Robin Owain",
+			"Samthecrazyman",
 			"Shirayuki"
 		]
 	},
-	"maintenance-cleanupCaps-desc": "Script to cleanup capitalisation"
+	"maintenance-cleanupCaps-desc": "Script to clean-up capitalisation"
 }
