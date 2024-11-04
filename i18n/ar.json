@@ -6,6 +6,7 @@
 			"Mido",
 			"OsamaK",
 			"Ouda",
+			"جودت",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -188,7 +189,7 @@
 	"maintenance-memc-requests": "طلبات",
 	"maintenance-memc-withsession": "مع جلسة:",
 	"maintenance-memc-withoutsession": "بدون جلسة:",
-	"maintenance-memc-parsercache": "كاش المحلل",
+	"maintenance-memc-parsercache": "مختزن المحلل",
 	"maintenance-memc-invalid": "غير صحيح:",
 	"maintenance-memc-expired": "انتهى:",
 	"maintenance-memc-absent": "غائب:",
