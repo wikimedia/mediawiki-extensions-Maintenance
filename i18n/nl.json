@@ -185,7 +185,7 @@
 	"maintenance-updateArticleCount-output-counting": "Artikelen tellen…",
 	"maintenance-updateArticleCount-output-found": "$1 gevonden.",
 	"maintenance-updateArticleCount-output-done": "afgerond.",
-	"maintenance-move": "Bezig met het hernoemen van $1 naar $2…",
+	"maintenance-move": "Hernoemen van $1 tot $2{{int:ellipsis}}",
 	"maintenance-movefail": "Er is een fout opgetreden bij het hernoemen: $1.\nHernoemen is afgebroken",
 	"maintenance-error": "Fout: $1",
 	"maintenance-memc-fake": "U maakt gebruik van FakeMemCachedClient. Het is niet mogelijk statistieken te berekenen",
