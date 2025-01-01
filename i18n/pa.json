@@ -6,5 +6,7 @@
 		]
 	},
 	"maintenance": "ਦੇਖ-ਭਾਲ ਲਈ ਸਕ੍ਰਿਪਟਾਂ ਚਲਾਓ",
-	"maintenance-generic-password": "ਪਾਰਸ਼ਬਦ"
+	"maintenance-generic-password": "ਪਾਰਸ਼ਬਦ",
+	"maintenance-memc-withsession": "ਕਾਰਜਕਾਲ ਦੇ ਨਾਲ:",
+	"maintenance-memc-withoutsession": "ਕਾਰਜਕਾਲ ਤੋਂ ਬਿਨਾਂ:"
 }
