@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"maintenance": "د ساتنې سکرېپټونه په کار اچول",
 	"maintenance-generic-done": "ترسره شو",
-	"maintenance-generic-username": "کارن‌نوم",
+	"maintenance-generic-username": "کارننوم",
 	"maintenance-generic-password": "پټنوم",
 	"maintenance-generic-reason": "سبب",
 	"maintenance-option-confirm": "تاييد",
