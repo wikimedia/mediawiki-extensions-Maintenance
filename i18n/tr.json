@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Erdemaslancan",
+			"Joseph",
 			"Karduelis",
 			"MuratTheTurkish",
 			"SaldırganSincap",
@@ -23,7 +24,7 @@
 	"maintenance-generic-done": "yapıldı",
 	"maintenance-generic-username": "Kullanıcı adı",
 	"maintenance-generic-password": "Parola",
-	"maintenance-generic-reason": "Sebep",
+	"maintenance-generic-reason": "Gerekçe",
 	"maintenance-cleanupTable-dry-run": "Kuru çalışma yapın",
 	"maintenance-cleanupTable-check": "Kötü başlıklar kontrol ediliyor...",
 	"maintenance-cleanupTable-checkfix": "Bozuk başlıkları kontrol ediliyor ve düzenleniyor...",
