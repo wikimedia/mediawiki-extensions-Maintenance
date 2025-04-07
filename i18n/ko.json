@@ -6,7 +6,8 @@
 			"Priviet",
 			"Revi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Tensama0415"
 		]
 	},
 	"maintenance": "유지 관리 스크립트 실행",
@@ -117,6 +118,7 @@
 	"maintenance-deleteBatch-desc": "문서 대량 삭제",
 	"maintenance-deleteBatch-option-u": "사용자 이름:",
 	"maintenance-deleteBatch-option-r": "삭제 이유:",
+	"maintenance-deleteBatch-output-done": "완료됨.",
 	"maintenance-deleteBatch-error-invalid": "올바르지 않은 사용자 이름",
 	"maintenance-deleteDefaultMessages": "삭제를 확인하려면 버튼을 누르십시오 (경고: 시간이 오래 걸릴 수 있습니다)",
 	"maintenance-deleteDefaultMessages-desc": "\"MediaWiki default\"에 의해 마지막으로 편집된 미디어위키 이름공간의 모든 문서를 삭제합니다",
@@ -128,6 +130,7 @@
 	"maintenance-initSiteStats-option-update": "기존 통계 업데이트",
 	"maintenance-initSiteStats-output-refreshstats": "사이트 통계 새로 고침",
 	"maintenance-initSiteStats-output-updating": "사이트 통계를 업데이트하는 중...",
+	"maintenance-initSiteStats-output-done": "완료됨.",
 	"maintenance-moveBatch": "이 양식을 사용해서 문서를 대량 이동하세요. 각각의 줄은 출발 문서와 도착 문서를 파이프 문자로 구분하여 지정해야 합니다",
 	"maintenance-moveBatch-desc": "대량 이동 문서",
 	"maintenance-moveBatch-option-u": "사용자 이름:",
@@ -164,6 +167,8 @@
 	"maintenance-showCacheStats-images": "플라이 수: $1",
 	"maintenance-showCacheStats-views": "페이지뷰 수: $1",
 	"maintenance-showCacheStats-update": "데이터베이스 업데이트 중{{int:ellipsis}}",
+	"maintenance-updateArticleCount-output-found": "$1개를 찾음.",
+	"maintenance-updateArticleCount-output-done": "완료됨.",
 	"maintenance-move": "$1을(를) $2(으)로 이동하는 중{{int:ellipsis}}",
 	"maintenance-movefail": "이동하는 동안 오류가 발생했습니다: $1.\n이동을 중단하는 중",
 	"maintenance-error": "오류: $1",
