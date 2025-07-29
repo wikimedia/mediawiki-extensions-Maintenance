@@ -4,14 +4,18 @@
 			"Fitoschido",
 			"Joan manel",
 			"Paucabot",
-			"Solde"
+			"Solde",
+			"Yupik"
 		]
 	},
 	"maintenance": "Executar scripts de manteniment",
+	"maintenance-generic-username": "Nom d'usuari",
 	"maintenance-option-confirm": "Confirma",
 	"maintenance-changePassword-desc": "Canvia la contrasenya d'un usuari",
 	"maintenance-deleteBatch-desc": "Eliminació massiva de pàgines",
+	"maintenance-deleteBatch-option-u": "Nom d'usuari:",
 	"maintenance-deleteBatch-option-r": "Motiu de la supressió:",
+	"maintenance-moveBatch-option-u": "Nom d'usuari:",
 	"maintenance-invalidname": "Nom d'usuari no vàlid!",
 	"maintenance-invalidtitle": "El títol «$1» no és vàlid.",
 	"maintenance-showCacheStats-edits": "Nombre d'edicions: $1",
