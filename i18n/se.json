@@ -7,6 +7,8 @@
 	},
 	"maintenance-generic-username": "Geavaheaddjinamma",
 	"maintenance-generic-password": "Beassansátni",
+	"maintenance-deleteBatch-option-u": "Geavaheaddjinamma:",
+	"maintenance-moveBatch-option-u": "Geavaheaddjinamma:",
 	"maintenance-showCacheStats-pages": "Siidduid mearri: $1",
 	"maintenance-error": "Meattáhus: $1"
 }

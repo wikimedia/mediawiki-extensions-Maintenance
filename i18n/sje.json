@@ -1,13 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Olve Utne"
+			"Olve Utne",
+			"Yupik"
 		]
 	},
 	"maintenance-generic-done": "ållånam",
+	"maintenance-generic-username": "Adnejnamma",
+	"maintenance-generic-password": "Biessambáhko",
 	"maintenance-checkBadRedirects-output-footer": "Ållånam.",
+	"maintenance-deleteBatch-option-u": "Adnejnamma:",
 	"maintenance-deleteBatch-output-done": "ållånam.",
 	"maintenance-initSiteStats-output-done": "ållånam.",
+	"maintenance-moveBatch-option-u": "Adnejnamma:",
 	"maintenance-showCacheStats-admins": "Háldadäjjelåhko: $1",
 	"maintenance-updateArticleCount-output-done": "ållånam."
 }
