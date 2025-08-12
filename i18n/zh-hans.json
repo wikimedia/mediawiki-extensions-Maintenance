@@ -18,7 +18,8 @@
 			"Yfdyh000",
 			"Zazzzz",
 			"沈澄心",
-			"阿南之人"
+			"阿南之人",
+			"Lakejason0"
 		]
 	},
 	"maintenance": "运行维护脚本",
@@ -143,14 +144,14 @@
 	"maintenance-moveBatch-option-u": "用户名：",
 	"maintenance-moveBatch-option-r": "移动原因：",
 	"maintenance-reassignEdits-desc": "将一个用户的编辑转移给另一用户",
-	"maintenance-runJobs-desc": "运行工作队列中的工作",
+	"maintenance-runJobs-desc": "运行作业队列中的作业",
 	"maintenance-runJobs-option-maxjobs": "最大的工作运行数量",
-	"maintenance-runJobs-option-type": "要运行的工作类型",
+	"maintenance-runJobs-option-type": "要运行的作业类型",
 	"maintenance-runJobs-option-procs": "要使用的进程数",
 	"maintenance-runJobs-option-exclusive": "同一时间只运行一个独占的runJobs脚本。超时为1800秒。",
 	"maintenance-runJobs-error-invalidprocs": "您必须指定1~1000个过程",
-	"maintenance-showJobs-desc": "显示工作队列中的挂起的工作列表",
-	"maintenance-showJobs-option-group": "显示的每个工作类型的工作数目",
+	"maintenance-showJobs-desc": "显示作业队列中的挂起的作业列表",
+	"maintenance-showJobs-option-group": "显示每个作业类型的作业数目",
 	"maintenance-sql": "使用此表单来在数据库上执行SQL查询。",
 	"maintenance-sql-desc": "执行SQL查询",
 	"maintenance-sql-option-file": "要执行的SQL",
