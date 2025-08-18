@@ -9,7 +9,8 @@
 			"Simon Shek",
 			"Wrightbus",
 			"Zhxy 519",
-			"捍粵者"
+			"捍粵者",
+			"Lakejason0"
 		]
 	},
 	"maintenance": "執行維護用手稿",
@@ -146,14 +147,14 @@
 	"maintenance-moveBatch-option-i": "刪除間的休眠間隔",
 	"maintenance-moveBatch-option-listfile": "以換行為分隔、原始與目的標題以豎線符號區分的移動頁面清單",
 	"maintenance-reassignEdits-desc": "將使用者的編輯內容重新分配給另名使用者",
-	"maintenance-runJobs-desc": "執行工作隊列中的工作",
+	"maintenance-runJobs-desc": "執行作業佇列中的作業",
 	"maintenance-runJobs-option-maxjobs": "最大的工作執行數量",
-	"maintenance-runJobs-option-type": "要執行的工作類型",
+	"maintenance-runJobs-option-type": "要執行的作業類型",
 	"maintenance-runJobs-option-procs": "要使用的程序數",
 	"maintenance-runJobs-option-exclusive": "同一時間內僅運作一個獨佔的 runJobs 手稿。逾時時間為 1800 秒。",
 	"maintenance-runJobs-error-invalidprocs": "您必須指定介於 1 與 1000 之間的流程",
 	"maintenance-showJobs-desc": "顯示工作隊列中的掛起的工作清單",
-	"maintenance-showJobs-option-group": "顯示的每個工作類型的工作數目",
+	"maintenance-showJobs-option-group": "顯示每個作業類型的作業數目",
 	"maintenance-sql": "使用此表單來在資料庫上執行 SQL 查詢。",
 	"maintenance-sql-desc": "SQL查詢",
 	"maintenance-sql-option-file": "要執行的SQL",
