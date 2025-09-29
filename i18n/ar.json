@@ -8,7 +8,8 @@
 			"Ouda",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح",
-			"جودت"
+			"جودت",
+			"Mohammed Qays"
 		]
 	},
 	"maintenance": "تشغيل نصوص الصيانة البرمجية",
@@ -30,7 +31,7 @@
 	"maintenance-cleanupTable-progress": "$1 $2: $3% يتم في $4; ETA $5 [$6/$7] $8/ثان<تم تحديث $9%>",
 	"maintenance-cleanupTable-missingparam": "$1: وسيط مفقود $2",
 	"maintenance-cleanupTable-processing": "تجري معالجة $1...",
-	"maintenance-cleanupTable-finished": "تم الانتهاء من $1... $2 من $3 {{PLURAL:$3|صفوف}} تم تحديثها",
+	"maintenance-cleanupTable-finished": "انتهى $1... تحديث $2 من أصل $3 {{PLURAL:$3|صف|صفوف}}",
 	"maintenance-option-quiet": "إخفاء الإخراج غير الخطأ",
 	"maintenance-option-globals": "الإخراج العالمي في نهاية معالجة التصحيح",
 	"maintenance-option-confirm": "تأكيد",
