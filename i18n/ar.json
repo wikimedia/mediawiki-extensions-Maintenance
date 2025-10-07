@@ -122,7 +122,7 @@
 	"maintenance-deleteBatch-option-r": "سبب الحذف:",
 	"maintenance-deleteBatch-option-i": "الفاصل الزمني للسكون بين عمليات الحذف",
 	"maintenance-deleteBatch-option-listfile": "قائمة صفحات مفصولة بخط جديد لحذفها",
-	"maintenance-deleteBatch-output-done": "تم.",
+	"maintenance-deleteBatch-output-done": "نُفّذ.",
 	"maintenance-deleteBatch-error-invalid": "اسم المستخدم غير صحيح",
 	"maintenance-deleteDefaultMessages": "اضغط على الزر لتأكيد الحذف (تحذير: قد يستغرق هذا بعض الوقت)",
 	"maintenance-deleteDefaultMessages-desc": "يحذف كل الصفحات في نطاق ميدياويكي والتي تم تحريرها آخر مرة بواسطة \"ميدياويكي الافتراضي\"",
