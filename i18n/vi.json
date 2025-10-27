@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Nvdtn19"
 		]
 	},
 	"maintenance": "Chạy mã bảo trì",
@@ -36,7 +37,7 @@
 	"maintenance-userexists": "Người dùng đã tồn tại!",
 	"maintenance-invalidtitle": "Tựa đề “$1” không hợp lệ!",
 	"maintenance-titlenoexist": "Tựa đề chỉ định (“$1”) không tồn tại!",
-	"maintenance-failed": "THẤT BẠI",
+	"maintenance-failed": "KHÔNG THÀNH CÔNG",
 	"maintenance-revnotfound": "Không tìm thấy phiên bản $1!",
 	"maintenance-showCacheStats-edits": "Số lần sửa đổi: $1",
 	"maintenance-showCacheStats-articles": "Số trang trong không gian tên chính: $1",
