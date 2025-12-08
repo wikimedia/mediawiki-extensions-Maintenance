@@ -170,7 +170,7 @@
 	"maintenance-invalidtitle": "Ошибочный заголовок «$1»!",
 	"maintenance-titlenoexist": "Указанный заголовок («$1») не существует!",
 	"maintenance-failed": "НЕУДАЧНО",
-	"maintenance-revnotfound": "Версия страницы $1 не найдена!",
+	"maintenance-revnotfound": "Версия страницы «$1» не найдена!",
 	"maintenance-showCacheStats-edits": "Число правок: $1",
 	"maintenance-showCacheStats-articles": "Количество страниц в основном пространстве: $1",
 	"maintenance-showCacheStats-pages": "Количество страниц: $1",
