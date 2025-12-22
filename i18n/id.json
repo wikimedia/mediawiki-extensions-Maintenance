@@ -7,7 +7,8 @@
 			"IvanLanin",
 			"Kandar",
 			"Rex",
-			"Sumbukompor"
+			"Sumbukompor",
+			"Penyuwangi"
 		]
 	},
 	"maintenance": "Jalankan skrip pemeliharaan",
@@ -104,7 +105,7 @@
 	"maintenance-re-to": "Nama pengguna pemilik baru suntingan",
 	"maintenance-re-force": "Ganti penyunting bahkan jika pengguna target tidak ada",
 	"maintenance-re-rc": "Jangan perbarui tabel perubahan terbaru",
-	"maintenance-re-report": "Tampilkan detail yang akan diubah, tapi jangan langsung diubah",
+	"maintenance-re-report": "Cetak rincian perubahan yang akan dibuat, tetapi jangan memperbaruinya.",
 	"maintenance-re-nf": "Pengguna $1 tidak ditemukan",
 	"maintenance-re-rr": "Jalankan lagi skrip tanpa pilihan \"$1\" untuk mengubah data.",
 	"maintenance-re-ce": "Suntingan sekarang: $1",
