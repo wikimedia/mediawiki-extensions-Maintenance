@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 
 class SpecialMaintenance extends SpecialPage {
@@ -125,27 +126,45 @@ class SpecialMaintenance extends SpecialPage {
 		foreach ( $options as $option ) {
 			switch( $option['type'] ) {
 				case 'check':
-					$out->addHTML( Xml::checkLabel( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['default'] ) . '<br />' );
+					$out->addHTML( Html::check( 'wp' . ucfirst( $option['name'] ), $option['default'], [ 'id' => 'wp' . ucfirst( $option['name'] ) ] ) . "\u{00A0}" . Html::label( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ) ) . '<br />' );
 					break;
 				case 'input':
-					$out->addHTML( Xml::inputLabel( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, $option['attrib'] ) . '<br />' );
+					$out->addHTML( Html::label(
+						$this->msg( "maintenance-$type-option-" . $option['name'] )->text(),
+						'wp' . ucfirst( $option['name'] ),
+						[ 'title' => $option['attrib']['title'] ?? null, 'class' => $option['attrib']['title'] ?? null ]
+					) . "\u{00A0}" . Html::input(
+						'wp' . ucfirst( $option['name'] ),
+						'',
+						'text',
+						[ 'id' => 'wp' . ucfirst( $option['name'] ), 'size' => $option['size'] ] + $option['attrib']
+					) . '<br />' );
 					break;
 				case 'password':
-					$out->addHTML( Xml::inputLabel( $this->msg( "maintenance-$type-option-" . $option['name'] )->text(), 'wp' . ucfirst( $option['name'] ), 'wp' . ucfirst( $option['name'] ), $option['size'], false, array( 'type' => 'password' ) + $option['attrib'] ) . '<br />' );
+					$out->addHTML( Html::label(
+						$this->msg( "maintenance-$type-option-" . $option['name'] )->text(),
+						'wp' . ucfirst( $option['name'] ),
+						[ 'title' => $option['attrib']['title'] ?? null, 'class' => $option['attrib']['title'] ?? null ]
+					) . "\u{00A0}" . Html::input(
+						'wp' . ucfirst( $option['name'] ),
+						'',
+						'text',
+						[ 'id' => 'wp' . ucfirst( $option['name'] ), 'size' => $option['size'], 'type' => 'password' ] + $option['attrib']
+					) . '<br />' );
 					break;
 				case 'textarea':
 					$out->addHTML( $this->msg( "maintenance-$type-option-" . $option['name'] )->text() . '<textarea name="wp' . ucfirst( $option['name'] ) . '" rows="25" cols="80"></textarea><br />' );
 					break;
 			}
 		}
-		$out->addHTML( Xml::checkLabel( $this->msg( 'maintenance-option-quiet' )->text(), 'wpQuiet', 'wpQuiet' ) . '<br />' );
+		$out->addHTML( Html::check( 'wpQuiet', false, [ 'id' => 'wpQuiet' ] ) . "\u{00A0}" . Html::label( $this->msg( 'maintenance-option-quiet' )->text(), 'wpQuiet' ) . '<br />' );
 		if ( $wgMaintenanceDebug ) {
-			$out->addHTML( Xml::checkLabel( $this->msg( 'maintenance-option-globals' )->text(), 'wpGlobals', 'wpGlobals' ) . '<br />' );
+			$out->addHTML( Html::check( 'wpGlobals', false, [ 'id' => 'wpGlobals' ] ) . "\u{00A0}" . Html::label( $this->msg( 'maintenance-option-globals' )->text(), 'wpGlobals' ) . '<br />' );
 		}
 		if ( $this->metadata[$type]['batch'] ) {
-			$out->addHTML( Xml::inputLabel( $this->msg( 'maintenance-option-batch-size', $this->metadata[$type]['batch'] )->text(), 'wpBatch-size', 'wpBatch-size' ) . '<br />' );
+			$out->addHTML( Html::label( $this->msg( 'maintenance-option-batch-size', $this->metadata[$type]['batch'] )->text(), 'wpBatch-size' ) . "\u{00A0}" . Html::input( 'wpBatch-size', '', 'text', [ 'id' => 'wpBatch-size' ] ) . '<br />' );
 		}
-		$out->addHTML( Xml::submitButton( $this->msg( 'maintenance-option-confirm' )->text(), array( 'name' => 'wpConfirm' ) ) . '</form>' );
+		$out->addHTML( Html::submitButton( $this->msg( 'maintenance-option-confirm' )->text(), array( 'name' => 'wpConfirm' ) ) . '</form>' );
 		return;
 	}
 
