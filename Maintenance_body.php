@@ -120,7 +120,7 @@ class SpecialMaintenance extends SpecialPage {
 
 		$out->addWikiMsg( 'maintenance-' . $type );
 
-		$out->addHTML( Xml::openElement( 'form', array( 'method' => 'post', 'action' => $this->getPageTitle( $type )->getFullURL() ) ) );
+		$out->addHTML( Html::openElement( 'form', array( 'method' => 'post', 'action' => $this->getPageTitle( $type )->getFullURL() ) ) );
 		// build the form
 		$options = array_merge( $this->metadata[$type]['option'], $this->metadata[$type]['arg'] );
 		foreach ( $options as $option ) {
