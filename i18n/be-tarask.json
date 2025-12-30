@@ -29,7 +29,7 @@
 	"maintenance-option-quiet": "Паказваць толькі памылкі",
 	"maintenance-option-globals": "Вывадзіць глябальныя зьменныя у канцы працэсу наладкі",
 	"maintenance-option-confirm": "Пацьвердзіць",
-	"maintenance-option-batch-size": "Запуск гэтых шматлікіх працэсаў у пакеце, па змоўчваньні: $1",
+	"maintenance-option-batch-size": "Запуск гэтых шматлікіх працэсаў у пакеце, перадвызначана: $1",
 	"maintenance-output-success": "$1 пасьпяхова запушчаны!",
 	"maintenance-output-failure": "Не атрымалася запусьціць $1!",
 	"maintenance-attachLatest": "Выкарыстоўвайце гэтую форму для выпраўленьня элемэнтаў табліцы старонак, дзе page_latest устаноўленае ў 0",
