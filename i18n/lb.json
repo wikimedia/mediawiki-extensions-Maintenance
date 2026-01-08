@@ -70,7 +70,7 @@
 	"maintenance-cleanupCaps-output-clash": "\"$1\" iwwersprong; \"$2\" gëtt et schonn",
 	"maintenance-cleanupSpam": "Benotzt dëse Formulaire fir Spam-Ännerungen zréckzesetzen déi op extern Site linken",
 	"maintenance-cleanupSpam-output-found": "$1 {{PLURAL:$1|Artikel|Artikele}} fonnt wou $2 dran ass",
-	"maintenance-cleanupSpam-output-blanking": "eidelmaachen",
+	"maintenance-cleanupSpam-output-blanking": "eidel maachen",
 	"maintenance-cleanupSpam-output-reverting": "zerécksetzen",
 	"maintenance-cleanupSpam-error-noid": "Interne Feeler: keng Säit fir ID $1",
 	"maintenance-createAndPromote": "Dëse Formulaire benotze fir en neie Benotzer unzeleeën a fir him Adminstrateur's-Rechter ze ginn.\nKlickt d'Bürokrate-Këscht u wann Dir wëllt datt en och Bürokrat gi soll.",
