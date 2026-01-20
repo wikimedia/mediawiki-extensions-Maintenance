@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ghaly",
+			"HitomiAkane",
 			"Meno25",
 			"Ouda"
 		]
@@ -35,7 +36,7 @@
 	"maintenance-showCacheStats-desc": "عرض إحصاءات ميم كاشد",
 	"maintenance-eval": "استخدم هذه الاستمارة لتقييم كود PHP فى بيئة.",
 	"maintenance-eval-desc": "فى بيئة الميدياويكى PHP قيم كود",
-	"maintenance-noviews": "علم على هذا لمنع تحديث عدد عرض الصفحات",
+	"maintenance-noviews": "علم على المنع داه تحديث عدد عرض الصفحات",
 	"maintenance-invalidname": "اسم يوزر مش صحيح !",
 	"maintenance-userexists": "اليوزر موجود  دلوقتى!",
 	"maintenance-invalidtitle": "عنوان غير صحيح \"$1\"!",
