@@ -4,6 +4,7 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Red Winged Duck",
+			"Ucukor",
 			"Wizardist"
 		]
 	},
@@ -152,7 +153,7 @@
 	"maintenance-showCacheStats-views": "Колькасьць праглядаў старонак: $1",
 	"maintenance-showCacheStats-update": "Абнаўленьня базы зьвестак...",
 	"maintenance-move": "Перанос $1 у $2...",
-	"maintenance-movefail": "Узьнікла памылка пад час пераносу: $1.\nПеранос адменены",
+	"maintenance-movefail": "Узьнікла памылка пад час пераносу: $1.\nПеранос скасаваны",
 	"maintenance-error": "Памылка: $1",
 	"maintenance-memc-fake": "Вы запусьцілі FakeMemCachedClient. Немагчыма атрымаць ніякай статыстыкі",
 	"maintenance-memc-requests": "Запыты",
