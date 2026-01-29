@@ -30,7 +30,7 @@
 	"maintenance-cleanupTable-missingparam": "$1: Parameter tidak ditemukan $2",
 	"maintenance-cleanupTable-processing": "Memproses $1...",
 	"maintenance-cleanupTable-finished": "Selesai $1... $2 dari $3 {{PLURAL:$3|baris|baris}} diperbarui",
-	"maintenance-option-quiet": "Sembunyikan keluaran nongalat",
+	"maintenance-option-quiet": "Menyembunyikan (supresi) keluaran nongalat",
 	"maintenance-option-globals": "Tampilkan globals pada akhir pemrosesan untuk debugging",
 	"maintenance-option-confirm": "Konfirmasi",
 	"maintenance-option-batch-size": "Jumlah operasi yang dijalankan sekaligus per giliran, bawaan: $1",
