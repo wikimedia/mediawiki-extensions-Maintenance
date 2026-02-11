@@ -162,7 +162,7 @@
 	"maintenance-memc-parsercache": "Кэш парсэра",
 	"maintenance-memc-invalid": "няслушных:",
 	"maintenance-memc-expired": "састарэўшых:",
-	"maintenance-memc-absent": "адсутнічае:",
+	"maintenance-memc-absent": "няісны:",
 	"maintenance-memc-stub": "памер накіду:",
 	"maintenance-memc-imagecache": "Кэш выяваў",
 	"maintenance-memc-misses": "не трапіла:",
