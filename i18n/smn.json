@@ -6,7 +6,7 @@
 			"Yupik"
 		]
 	},
-	"maintenance": "Poorgah paijeentoollâmskriptijd",
+	"maintenance": "Vyeje paijeentoollâmskriptijd",
 	"maintenance-generic-username": "Kevtteenommâ",
 	"maintenance-generic-password": "Syelisääni",
 	"maintenance-generic-reason": "Suijâ",
@@ -15,5 +15,7 @@
 	"maintenance-failed": "IJ LUHOSTUM",
 	"maintenance-showCacheStats-pages": "Siijđoi meeri: $1",
 	"maintenance-showCacheStats-admins": "Haldâšeijeeh ohtsis: $1",
-	"maintenance-error": "Feilâ: $1"
+	"maintenance-error": "Feilâ: $1",
+	"maintenance-memc-withsession": "kevttimpuudáin:",
+	"maintenance-memc-withoutsession": "kevttimpudâttáá:"
 }
