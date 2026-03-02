@@ -24,7 +24,7 @@
 	"maintenance-cleanupTable-check": "Праверка няслушных назваў…",
 	"maintenance-cleanupTable-checkfix": "Праверка і выпраўленьне няслушных назваў…",
 	"maintenance-cleanupTable-progress": "$1 $2: $3% зроблена ў $4; ETA $5 [$6/$7] $8/сэк <$9% зьменена>",
-	"maintenance-cleanupTable-missingparam": "$1: адсутнічае парамэтар $2",
+	"maintenance-cleanupTable-missingparam": "$1: брак парамэтру $2",
 	"maintenance-cleanupTable-processing": "Апрацоўка $1…",
 	"maintenance-cleanupTable-finished": "Скончана $1… $2 {{PLURAL:$2|радок з $3 зьменены|радкі з $3 зьмененыя|радкоў з $3 зьмененыя}}",
 	"maintenance-option-quiet": "Паказваць толькі памылкі",
