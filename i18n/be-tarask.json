@@ -95,7 +95,7 @@
 	"maintenance-cleanupCaps-output-clash": "«$1» прапушчаная; «$2» ужо існуе",
 	"maintenance-cleanupCaps-output-dryrun": "«$1» → «$2»: ТЭСТАВЫ ЗАПУСК, НЕ ПЕРАНЕСЕНАЯ",
 	"maintenance-cleanupCaps-error-noneed": "$wgCapitalLinks устаноўлены — няма неабходнасьці для ачысткі спасылак, якія пачынаюцца з малых літар.",
-	"maintenance-cleanupSpam": "Выкарыстоўвайце гэтую форму, каб скасоўваць спамэрскія праўкі, у якіх утрымліваюцца вонкавыя спасылкі",
+	"maintenance-cleanupSpam": "Ужывайце гэтую форму, каб скасоўваць спамэрскія рэдагаваньні, у якіх утрымліваюцца вонкавыя спасылкі",
 	"maintenance-cleanupSpam-desc": "Выдаліць увесь спам з дадзенага дамэну",
 	"maintenance-cleanupSpam-option-hostname": "Дамэн, зь якога вядзецца спам-рассылка",
 	"maintenance-cleanupSpam-output-found": "{{PLURAL:$1|Знойдзены $1 артыкул, які ўтрымлівае|Знойдзеныя $1 артыкулы, якія ўтрымліваюць|Знойдзеныя $1 артыкулаў, якія ўтрымліваюць}} $2",
