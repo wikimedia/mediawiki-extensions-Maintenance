@@ -13,7 +13,7 @@
 	"right-maintenance": "запуск скрыптоў падтрымкі праз [[Special:Maintenance]]",
 	"maintenance-backlink": "Вярнуцца ў выбар скрыптоў",
 	"maintenance-header": "Калі ласка, выберыце скрыпт для запуску.\nАпісаньне знаходзіцца каля кожнага скрыпта",
-	"maintenance-error-badini": "Файл metadata.ini пашкоджаны ці адсутнічае. Калі ласка, загрузіце зноў пашырэньне Maintenance",
+	"maintenance-error-badini": "Файл metadata.ini пашкоджаны ці не існуе. Калі ласка, сьцягніце зноў пашырэньне Maintenance",
 	"maintenance-error-invalidtype": "Пазначаны скрыпт ня знойдзены",
 	"maintenance-error-badargs": "Вы не пазначылі ўсе абавязковыя налады",
 	"maintenance-generic-done": "зроблена",
