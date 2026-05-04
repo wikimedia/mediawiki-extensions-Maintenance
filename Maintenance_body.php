@@ -14,7 +14,12 @@ class SpecialMaintenance extends SpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'Maintenance'/*class*/, 'maintenance'/*restriction*/ );
+		parent::__construct( 'Maintenance' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'maintenance';
 	}
 
 	public function doesWrites() {
