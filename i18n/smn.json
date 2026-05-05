@@ -10,11 +10,13 @@
 	"maintenance-generic-username": "Kevtteenommâ",
 	"maintenance-generic-password": "Syelisääni",
 	"maintenance-generic-reason": "Suijâ",
+	"maintenance-checkBadRedirects-output-footer": "\nVaalmâš.",
 	"maintenance-deleteBatch-option-u": "Kevtteenommâ:",
 	"maintenance-moveBatch-option-u": "Kevtteenommâ:",
 	"maintenance-failed": "IJ LUHOSTUM",
 	"maintenance-showCacheStats-pages": "Siijđoi meeri: $1",
 	"maintenance-showCacheStats-admins": "Haldâšeijeeh ohtsis: $1",
+	"maintenance-updateArticleCount-output-done": "vaalmâš.",
 	"maintenance-error": "Feilâ: $1",
 	"maintenance-memc-withsession": "kevttimpuudáin:",
 	"maintenance-memc-withoutsession": "kevttimpudâttáá:"
