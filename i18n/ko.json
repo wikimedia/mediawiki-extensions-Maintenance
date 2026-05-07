@@ -160,7 +160,7 @@
 	"maintenance-failed": "실패함.",
 	"maintenance-revnotfound": "$1판을 찾을 수 없습니다!",
 	"maintenance-showCacheStats-edits": "편집 수: $1",
-	"maintenance-showCacheStats-articles": "주요 이름공간의 문서 수: $1",
+	"maintenance-showCacheStats-articles": "일반 이름공간의 문서 수: $1",
 	"maintenance-showCacheStats-pages": "페이지 수: $1",
 	"maintenance-showCacheStats-users": "사용자 수: $1",
 	"maintenance-showCacheStats-admins": "관리자 수: $1",
