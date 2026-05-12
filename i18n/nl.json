@@ -193,7 +193,7 @@
 	"maintenance-memc-withsession": "met sessie:",
 	"maintenance-memc-withoutsession": "zonder sessie:",
 	"maintenance-memc-parsercache": "Parsercache",
-	"maintenance-memc-invalid": "ongeldig:",
+	"maintenance-memc-invalid": "onjuist:",
 	"maintenance-memc-expired": "vervallen:",
 	"maintenance-memc-absent": "afwezig:",
 	"maintenance-memc-stub": "stubdrempelwaarde:",
