@@ -92,7 +92,7 @@
 	"maintenance-checkSyntax-error-nofile": "Fout: het bestand of de map $1 kan niet gevonden worden",
 	"maintenance-checkSyntax-error-cantopen": "Het bestand $1 kan niet geopend worden",
 	"maintenance-checkSyntax-error-svnerr": "Fout tijdens het ophalen van de lijst uit Subversion",
-	"maintenance-checkUsernames": "Gebruik dit formulier om aan te geven welke gebruikersnamen ongeldig zijn vanwege wijzigingen in de instellingen. Als er niets wordt vermeld na het uitvoeren van dit script, zijn alle gebruikersnamen geldig",
+	"maintenance-checkUsernames": "Gebruik dit formulier om aan te geven welke gebruikersnamen incorrect zijn vanwege wijzigingen in de instellingen. Als er niets wordt vermeld na het uitvoeren van dit script, zijn alle gebruikersnamen geldig",
 	"maintenance-checkUsernames-desc": "Controleren of gebruikersnamen in de database geldig zijn",
 	"maintenance-checkUsernames-error-notvalid": "Ongeldige gebruikersnaam: \"$3\" (gebruikersnummer $2)",
 	"maintenance-cleanupCaps": "Gebruik dit formulier om kapotte pagina's te repareren door het aanpassen van $wgCapitalLinks",
