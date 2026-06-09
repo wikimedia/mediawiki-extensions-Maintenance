@@ -125,7 +125,7 @@
 	"maintenance-deleteBatch-option-i": "Slaaptijd tussen verwijderingen",
 	"maintenance-deleteBatch-option-listfile": "Door regeleinden gescheiden lijst met te verwijderen pagina’s",
 	"maintenance-deleteBatch-output-done": "afgerond.",
-	"maintenance-deleteBatch-error-invalid": "Ongeldige gebruikersnaam",
+	"maintenance-deleteBatch-error-invalid": "Onjuiste gebruikersnaam",
 	"maintenance-deleteDefaultMessages": "Druk op de knop om het verwijderen te bevestigen (let op: dit kan even duren)",
 	"maintenance-deleteDefaultMessages-desc": "Verwijdert alle pagina’s in de MediaWiki-naamruimte die het laatst zijn bewerkt door “MediaWiki default”",
 	"maintenance-deleteRevision": "Gebruik dit formulier om en masse versie te verwijderen.\nGeef op iedere regel een paginanaam op",
