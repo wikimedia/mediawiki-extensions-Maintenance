@@ -10,9 +10,9 @@
 	"maintenance-generic-username": "Tequitiuhcatocaitl",
 	"maintenance-invalidtitle": "¡Ahcualli tōcāitl \"$1\"!",
 	"maintenance-showCacheStats-edits": "Tlapatlalistli tlapowalli: $1",
-	"maintenance-showCacheStats-articles": "Zāzanilli huēyi tōcātzimpan in ītlapōhual: $1",
-	"maintenance-showCacheStats-pages": "Zāzanilli tlapōhualli: $1",
-	"maintenance-showCacheStats-users": "Tlatequitiltilīlli tlapōhualli: $1",
+	"maintenance-showCacheStats-articles": "Quezquintin tlahcuilolamatl oncah ipan huēyi achtotocaitl: $1",
+	"maintenance-showCacheStats-pages": " Tlahcuilolamatl itlapohual: $1",
+	"maintenance-showCacheStats-users": "In quezqui Tequitiuhqueh oncah: $1",
 	"maintenance-showCacheStats-images": "Tlahcuilōlli tlapōhualli: $1",
 	"maintenance-move": "Mozacacah $1 īhuīc $2{{int:ellipsis}}",
 	"maintenance-memc-expired": "ōmotlami:"
